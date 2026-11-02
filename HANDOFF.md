@@ -1,16 +1,40 @@
-# 영어앱 (Talkverse 언어앱) — 새 세션 (2026-11-02, 사용자 지시)
+# HANDOFF — 영어유니버스 (talkverselab/talkverse-english, M6 `~/talkverse/english`)
 
-- 이 폴더는 **Talkverse 언어앱 공통 작업**(로그인·결제 연동, 캐릭터·UX 시안, 아이패드 빌드 등)을 받는 영어앱 세션 자리다. 원격 제어 이름 **"영어앱"**.
-- **Grab(`~/talkverse/en`, 세션 이름 "grab")과는 별개 앱**이다 — Grab 은 언어앱 일괄 작업에서 제외(사용자 지시). 이 폴더에서 Grab 코드를 고치지 않는다.
-- 아직 코드·저장소 없음. 첫 작업은 사용자 지시를 받아 시작한다(공통 프롬프트 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md`, 가이드 `~/talkverse/TALKVERSE_ID_APP_GUIDE.md`). 회화·콘텐츠 작성 금지 상태는 그대로.
+_최종 2026-11-03 01:50 KST. 영어앱 세션(원격 제어 이름 "영어앱"). Grab(`~/talkverse/en`)과는 별개 앱._
 
-## 2026-11-03 — 일본어앱 구조 복제 시작(일본어앱 세션 전달, 공통 프롬프터 따름)
-- ① 캐릭터 시트: 요청문 `data/review/art/req_chars_en.md`(뉴욕 브루클린 20대 6명 — Maya·Emma·Jake·Daniel + 학습자 남/여), 첨부 `data/review/art/ref/`. 한자 세션에 Grok 요청 보냄 → 결과 `data/review/art/chars_en_v1.md|.jpg` 대기.
-- 강조색: 사이트 en 페이지 `--a #635bff` 가 UX 토큰 인디고와 같아 한 단계 진한 `#4F46E5` 를 앱 포인트색으로 가정(사용자 확인 전).
-- 아직 저장소·코드 없음. 사용자 정할 것: GitHub 저장소(공개, 예 `talkverselab/talkverse-english`) 생성 여부, 앱 이름 「영어 유니버스」, 번들 ID `com.talkverse.englishUniverse`, Zealot 앱이름.
+## 상태 표 (공통 프롬프터 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md` 순서)
 
-## 2026-11-03 오후 — 진행
-- ① 캐릭터 v1 **사용자 통과** → `data/review/uxui/CHARACTERS.md`(장면 요청 때 항상 첨부, 운동화 로고 없음 주의).
-- ② UX 글 시안 `data/review/uxui/sian_en_01.md`(이 세션 작성 — 소리 표시·표현 카드 칸 2개), 그림은 한자 세션 대기(`req_ux01_img_en.md` → `sian_en_01.jpg`·`sian_en_01_img.md`). 사용자 통과 전.
-- ③ 바탕 코드 완료(일본어앱 구조, 로컬 git 만): analyze 0·test 4 통과, 아이패드 시뮬레이터(`en-shots iPad Air 11`, iOS 26.5, UDID FFD4E03F…) 스크린샷 11장 넘침 0. GitHub `talkverselab/talkverse-english` 는 세션 권한 정책이 생성을 막아 **사용자 생성 대기** → 생기면 첫 커밋·푸시 + 리포 시크릿 `ANDROID_DEBUG_KEYSTORE_BASE64`(Doppler `ANDROID_DEBUG_KEYSTORE_B64`).
-- Talkverse ID(talkverse.uk 세션 등록 완료): client `en`, 딥링크 `talkverse.en://auth`, 플랜 `lang_en_life`(평생 14,900원), Apple `com.talkverse.englishUniverse.lifetime` / Google `lang_en`. 앱 연결(§11)은 사용자 「착수」 뒤.
+| 단계 | 상태 |
+|---|---|
+| ① 캐릭터 시트 | **사용자 통과 2026-11-03** — `data/review/art/chars_en_v1.jpg`, 특징 `data/review/uxui/CHARACTERS.md` (뉴욕 브루클린: Maya·Emma·Jake·Daniel·학습자 남/여). talkverse.uk 세션이 그림 저장소 `chars/en_sheet.jpg` 로 반영 |
+| ② UX/UI 시안 | **사용자 통과 2026-11-03** — 그림 `data/review/uxui/sian_en_01.jpg`(Grok), 글 `sian_en_01.md`(이 세션) + `sian_en_grok_01.md`(Grok). 적용 전 태그 `pre-grok-uxui` |
+| ③ 아이패드 빌드 | **완료** — Android **Zealot 빌드 4** https://apps.talkverse.uk/Eyi4j/208 · iOS **TestFlight 빌드 2611030138**(커밋 `33fbfe9`, 2026-11-03 01:39 업로드) |
+| ④ 회화 | **사용자 지시 전까지 금지** — 데이터 없음, 화면은 빈 안내 |
+
+## 만든 것
+- 일본어앱 구조 복제(커밋 `4c26aea`): 레일 + 왼쪽 칸 + 오른쪽 칸, 시안 02 리더(`EpisodePlayPane`), 그림 카드, 회화 홈(오늘의 컷·빈 안내), 「나」 성과 데스크(편 완주·핵심 표현만 — 라이트너·커버율은 엔진 생기면), 프로필(이름·성별), 앱 업데이트(GitHub `latest`).
+- **강세 표시 도구**(사용자 지시, `lib/widgets/stress_text.dart`): 규칙 기반 — 내용어 굵게·기능어 옅게·자음+모음 이어 말하기 ‿, 리더 하단 「강세」 칩으로 켬/끔(기기에 기억). 스크립트·캡션·버블 목록·카드 뒷면. 낱말 안 강세 음절은 아직(사전 데이터 필요).
+- **발음 지역 선택**(사용자 지시): 미국 en-US · 영국 en-GB · 호주 en-AU — 리더 하단 칩·「나 → 발음」. `AccentPrefs`(`lib/services/tts_service.dart`).
+- 단어 그림: `art/en/manifest` 726개(2026-11-03), 앱이 자동으로 씀. 목록 `talkverselab/talkversehanja` `talkverse_art/words/en.csv`(2,494어, R1 ≤189·R2 ≤318·R3 ≤825·R4 나머지 = 누적 55·60·70·80%) + `en_food.csv`(50) — 커밋 `36c09d3`. 새로 그릴 327어 + 음식 50 은 uk 세션 대기열.
+- Talkverse ID(uk 세션 등록 완료): client `en`, 딥링크 `talkverse.en://auth`, 플랜 `lang_en_life`(평생 14,900원), Apple `com.talkverse.englishUniverse.lifetime` / Google `lang_en`. **앱 연결(§11)은 사용자 「착수」 뒤.**
+
+## 배포
+- Android: `master` 푸시 → CI(`release.yml`) → `latest` 릴리스 → `tools/zealot_push.sh --ci "한 줄"`. 서명 SHA-1 `72:08:02:58:…:E7:BB`(M6 debug 키, Doppler `ANDROID_DEBUG_KEYSTORE_B64`). 리포 시크릿 `ANDROID_DEBUG_KEYSTORE_BASE64` 는 2026-11-03 노트북에서 `--body $v` 로 넣음 — **Windows 파이프(`|`)로 넣으면 비거나 깨진다.** CI 로그 `secret chars: 3492 / keystore bytes: 2618` 이 정상.
+- PC 백업: `D:\OneDrive\app project\english_universe\english_universe-latest.apk`, iOS `…\ios\*.ipa`.
+- iOS: `bash tools/ios_release.sh`(백그라운드, 8~12분). 첫 시도(빌드 2611030055)는 앱 레코드가 없어 실패(`Error Downloading App Information`), 사용자가 레코드를 만든 뒤 **빌드 2611030138 업로드 성공**(2026-11-03 01:39).
+
+## 사용자 결정·지시 기록
+- 저장소 이름 `talkverse-english`, 앱 이름 영어유니버스, 번들 `com.talkverse.englishUniverse` / `com.talkverse.english_universe`, Zealot 앱이름 「영어 유니버스」.
+- 포인트색 인디고 `#4F46E5`(사이트 `--a #635bff` 가 공용 인디고와 같아 한 단계 진하게).
+- 그림 요청은 한자 세션 경유(Grok 은 M4 Chrome, `~/talkverse/GROK_M4_LOGIN.md`). 글 시안도 사용자 확인으로 Grok 에 보낼 수 있음(영어 UX 01 때).
+
+## 다음 할 일
+1. **(사용자)** TestFlight 내부 테스트 그룹에 본인이 있는지 확인 → 아이패드에서 빌드 2611030138 설치·확인.
+2. UX 시안 01 의 남은 칸: 「표현 카드」(덩어리·공손도 3단) 시트 자리, 강세 구간 탭 → 느리게 다시 재생. 데이터 필드(`chunks`·`politeness`) 생길 때.
+3. 「소리 배우기」(강세·이어 말하기·약해지는 소리)·「절벽 단어 R1~R4」 화면 — 콘텐츠 작업이 풀리면. 단어 화면은 `en.csv` + 단어 그림으로 바로 가능(사용자 확인 후).
+4. 회화(④)·로그인·결제(§11)는 사용자 지시 뒤.
+
+## 공통 절차
+- M6 부하 규칙(2026-11-03): 빌드 시작 전 `pgrep -f flutter_tools.snapshot | wc -l` 이 3 이상이면 1분씩 대기, 시뮬레이터는 쓰고 바로 `xcrun simctl shutdown`. 이 앱 시뮬레이터 = `en-shots iPad Air 11`(iOS 26.5, UDID FFD4E03F-4171-4B78-AC33-11D3070768EF).
+- 확인: `flutter analyze` · `flutter test`(7개) · `python3 tools/pane_shots.py <UDID> <스크래치> integration_test/dialogue_pane_test.dart` → `overflowed by` 0.
+- 커밋은 경로 지정, `ios/Podfile.lock` 은 추적 안 함.

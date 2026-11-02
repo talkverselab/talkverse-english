@@ -33,6 +33,8 @@
 - `bash tools/ios_release.sh` 를 백그라운드로(8~12분, 빌드 번호 = KST yymmddHHMM). 레코드가 없으면 업로드가 `missingApp`.
 
 ## 3. 확인
+- **M6 부하(2026-11-03)**: 빌드 전 `pgrep -f flutter_tools.snapshot | wc -l` 이 3 이상이면 1분씩 기다린다. 시뮬레이터는 쓰고 바로 끈다.
+- 리포 시크릿을 Windows 에서 넣을 때는 파이프(`|`) 말고 `$v = …; gh secret set … --body $v` (파이프는 값이 비거나 깨졌다).
 - `flutter analyze` · `flutter test` 통과 뒤 커밋.
 - 아이패드 스크린샷: 자기 시뮬레이터 1대만(`en-shots iPad Air 11`, iOS 26.5) →
   `python3 tools/pane_shots.py <UDID> <스크래치 폴더> integration_test/dialogue_pane_test.dart` → 로그 `overflowed by` 0 → 사진을 직접 본다 → `xcrun simctl shutdown <UDID>`.
