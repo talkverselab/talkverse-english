@@ -36,6 +36,7 @@ jobs:
         run: |
           # 시크릿을 Windows 파이프로 넣으면 BOM·CR 이 붙을 수 있다 → base64 글자만 남기고 푼다
           printf '%s' "${{ secrets.ANDROID_DEBUG_KEYSTORE_BASE64 }}" | tr -cd 'A-Za-z0-9+/=' | base64 -d > android/app/signing-key.jks
+          echo "secret chars: $(printf '%s' "${{ secrets.ANDROID_DEBUG_KEYSTORE_BASE64 }}" | wc -c) / keystore bytes: $(wc -c < android/app/signing-key.jks)"
           keytool -list -keystore android/app/signing-key.jks -storepass android -alias androiddebugkey | grep -i sha
           cat > android/key.properties <<EOF
           storePassword=android
