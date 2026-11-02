@@ -2,6 +2,7 @@ import 'package:english_universe/core/theme.dart';
 import 'package:english_universe/screens/main_screen.dart';
 import 'package:english_universe/services/art_service.dart';
 import 'package:english_universe/services/learner_prefs.dart';
+import 'package:english_universe/widgets/stress_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -39,5 +40,26 @@ void main() {
 
   test('ArtService 는 영어 매니페스트를 본다', () {
     expect(ArtService.manifestUrl, contains('/art/en/'));
+  });
+
+  test('강세 규칙: 내용어 굵게 · 기능어 옅게 · 자음+모음 이어 말하기', () {
+    final a = EnglishStress.analyze('Wanna grab a coffee?');
+    expect(a.map((e) => e.weak).toList(), [true, false, true, false]);
+    expect(a[1].link, isTrue); // grab‿a
+    expect(a[2].link, isFalse);
+    final b = EnglishStress.analyze('I made it, okay?');
+    expect(b[1].link, isTrue); // made‿it (묵음 e)
+    expect(b[2].link, isFalse); // 쉼표 뒤는 끊는다
+    expect(EnglishStress.analyze("I can't go")[1].weak, isFalse); // 부정은 또렷
+    expect(EnglishStress.isWeak('5'), isFalse); // 숫자는 또렷
+  });
+
+  testWidgets('강세 칩을 끄면 그냥 글자', (t) async {
+    StressPrefs.on.value = true;
+    await t.pumpWidget(const MaterialApp(home: StressText('grab a coffee', style: TextStyle(fontSize: 16))));
+    expect(find.textContaining('‿'), findsOneWidget);
+    StressPrefs.on.value = false;
+    await t.pump();
+    expect(find.text('grab a coffee'), findsOneWidget);
   });
 }

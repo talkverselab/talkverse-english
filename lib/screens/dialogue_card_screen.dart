@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
+import '../widgets/stress_text.dart';
 import '../services/achievement_service.dart';
 import '../services/art_service.dart';
 import '../services/dialogue_service.dart';
@@ -156,7 +157,7 @@ class _CardText extends StatelessWidget {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('$name · ${t.num}', style: const TextStyle(fontSize: 11, color: AppColors.muted)),
                 const SizedBox(height: 8),
-                Text(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
+                StressText(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
                 if (t.reading.isNotEmpty && t.reading != t.tl) ...[const SizedBox(height: 6), Text(LearnerPrefs.fill(t.reading), style: const TextStyle(fontSize: 15, color: AppColors.ai, fontWeight: FontWeight.w700))],
                 if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
                 const SizedBox(height: 12),
