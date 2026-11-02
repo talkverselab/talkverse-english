@@ -2,6 +2,7 @@ import 'package:english_universe/core/theme.dart';
 import 'package:english_universe/screens/main_screen.dart';
 import 'package:english_universe/services/art_service.dart';
 import 'package:english_universe/services/learner_prefs.dart';
+import 'package:english_universe/services/tts_service.dart';
 import 'package:english_universe/widgets/stress_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -61,5 +62,20 @@ void main() {
     StressPrefs.on.value = false;
     await t.pump();
     expect(find.text('grab a coffee'), findsOneWidget);
+  });
+
+  test('발음 지역: 미국 → 영국 → 호주 → 미국, 기기에 기억', () async {
+    await AccentPrefs.load();
+    expect(AccentPrefs.accent.value, EnAccent.us);
+    await AccentPrefs.next();
+    expect(AccentPrefs.accent.value.locale, 'en-GB');
+    await AccentPrefs.next();
+    expect(AccentPrefs.accent.value.locale, 'en-AU');
+    await AccentPrefs.next();
+    expect(AccentPrefs.accent.value, EnAccent.us);
+    await AccentPrefs.set(EnAccent.au);
+    AccentPrefs.accent.value = EnAccent.us;
+    await AccentPrefs.load();
+    expect(AccentPrefs.accent.value, EnAccent.au);
   });
 }

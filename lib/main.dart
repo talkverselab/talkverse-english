@@ -6,12 +6,14 @@ import 'core/theme.dart';
 import 'screens/main_screen.dart';
 import 'services/achievement_service.dart';
 import 'services/learner_prefs.dart';
+import 'services/tts_service.dart';
 import 'widgets/stress_text.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await LearnerPrefs.load();
   await StressPrefs.load();
+  await AccentPrefs.load();
   await AchievementService.instance.load();
   await _setOrientations(); // 폰은 세로 고정, 태블릿·폴드 펼침(짧은 변 600 이상)은 회전 허용
   runApp(const EnglishUniverseApp());

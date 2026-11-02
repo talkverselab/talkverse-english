@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../core/l10n.dart';
 import '../core/theme.dart';
 import '../services/learner_prefs.dart';
+import '../services/tts_service.dart';
 import '../widgets/achievement_desk.dart';
 import '../widgets/english_decor.dart';
 import 'update_screen.dart';
@@ -100,7 +101,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
       const SizedBox(height: 8),
       const UpdateEntryTile(),
       _SettingsGroup(items: [
-        _SettingItem(icon: Icons.volume_up, title: tr('목소리'), subtitle: tr('기기 영어(미국) 목소리 · 남/여 구분')),
+        _SettingItem(
+          icon: Icons.record_voice_over,
+          title: tr('발음 (미국 · 영국 · 호주)'),
+          subtitle: trf('{0} 발음 — 탭하면 {1}', [AccentPrefs.accent.value.label, EnAccent.values[(AccentPrefs.accent.value.index + 1) % EnAccent.values.length].label]),
+          onTap: () async {
+            await AccentPrefs.next();
+            if (mounted) setState(() {});
+            TtsService.instance.speak('Hello! Nice to meet you.');
+          },
+        ),
         _SettingItem(icon: Icons.restart_alt, title: tr('학습 기록 초기화'), subtitle: tr('편 완주 · 그림 카드 기록 삭제'), onTap: _resetProgress),
         _SettingItem(icon: Icons.info_outline, title: tr('앱 버전'), subtitle: _version.isEmpty ? '—' : _version),
         _SettingItem(icon: Icons.copyright, title: tr('저작권'), subtitle: tr('영어유니버스 · 2026')),

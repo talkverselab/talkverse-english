@@ -424,6 +424,11 @@ class _ControlBar extends StatelessWidget {
     final speed = Row(mainAxisSize: MainAxisSize.min, children: [
       Text(tr('속도'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.sumi)),
       chip(rateLabel, true, onRate),
+      // 발음 지역(미국 → 영국 → 호주) — 누를 때마다 바뀐다
+      ValueListenableBuilder<EnAccent>(
+        valueListenable: AccentPrefs.accent,
+        builder: (_, a, _) => chip(a.label, true, AccentPrefs.next),
+      ),
     ]);
     return LayoutBuilder(builder: (context, c) => Container(
       padding: EdgeInsets.fromLTRB(16, 8, 12, 8 + bottomInset(context)),
