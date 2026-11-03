@@ -34,6 +34,11 @@ _최종 2026-11-03 01:50 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 3. 「소리 배우기」(강세·이어 말하기·약해지는 소리)·「절벽 단어 R1~R4」 화면 — 콘텐츠 작업이 풀리면. 단어 화면은 `en.csv` + 단어 그림으로 바로 가능(사용자 확인 후).
 4. 회화(④)·로그인·결제(§11)는 사용자 지시 뒤.
 
+## 전체 언어앱 공지(2026-11-03, talkverse.uk 전달 — 사용자 지시)
+- Grok·Gemini: 로그인 원본 M4 `~/chrome-grok`, 쿠키 복사는 M4 안에서만(`~/chrome-grok-en/`), 자기 포트는 `GROK_CHROME_PORTS.md`, M6 에서는 ssh 터널. 상세 `~/talkverse/GROK_M4_LOGIN.md`, 예 `~/talkverse/ko/tools/grok_base.py`. 영어앱은 지금까지 한자 세션 경유로만 요청함.
+- M4 Grok 은 사용자 지시가 있을 때만 켠다. 한 번에 한 작업, 연 탭은 닫고 끝나면 Chrome 도 끈다.
+- 회화(④) 때: 카오스 반전 30% 이상, 연애·플러팅 편마다 심쿵 한 줄(여성이 먼저 다가가는 편 더 많이), 편마다 `twist_type`(chaos·slip·reveal·emotion·ignore), 새 편은 왕초보·초급 위주, 그림은 A·B 대사 한 쌍당 1컷(말풍선·글자 없음, 인물 기준 그림 첨부). 원칙 https://talkverse.uk/talkverse/dialogue-rules/
+
 ## 공통 절차
 - M6 부하 규칙(2026-11-03): 빌드 시작 전 `pgrep -f flutter_tools.snapshot | wc -l` 이 3 이상이면 1분씩 대기, 시뮬레이터는 쓰고 바로 `xcrun simctl shutdown`. 이 앱 시뮬레이터 = `en-shots iPad Air 11`(iOS 26.5, UDID FFD4E03F-4171-4B78-AC33-11D3070768EF).
 - 확인: `flutter analyze` · `flutter test`(7개) · `python3 tools/pane_shots.py <UDID> <스크래치> integration_test/dialogue_pane_test.dart` → `overflowed by` 0.

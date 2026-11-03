@@ -41,5 +41,5 @@
 
 ## 4. 그림
 - 캐릭터·UX 시안 요청은 한자 세션 경유(공통 프롬프터 §9). 결과 `data/review/art/`·`data/review/uxui/`.
-- 단어 그림 `https://auth.talkverse.uk/art/en/manifest`(2026-11-03 현재 0개 → 이모지 카드), 장면 컷 `…/art/en/scene/manifest?episode=<편id>`.
+- 단어 그림 `https://auth.talkverse.uk/art/en/manifest`(2026-11-03 현재 726개, 없는 단어는 이모지 카드), 장면 컷 `…/art/en/scene/manifest?episode=<편id>`.
   영어는 라틴 문자라 그림 단어 매칭(`ArtService.urlInText`)을 낱말 단위로 한다.
