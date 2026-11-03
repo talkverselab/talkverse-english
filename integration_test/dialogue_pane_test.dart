@@ -69,6 +69,13 @@ void main() {
     await wait(t, 2000);
     await shot(t, '11_dialogue_home_empty');
 
+    await t.tap(find.text('절벽 단어 R1~R4').first);
+    await wait(t, 4000);
+    await shot(t, '11b_words_r1');
+    await t.tap(find.text('그림 단어만'));
+    await wait(t, 3000);
+    await shot(t, '11c_words_picture_only');
+
     await t.tap(rail('복습'));
     await wait(t, 800);
     await shot(t, '12_review_tab');

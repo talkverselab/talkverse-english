@@ -4,6 +4,7 @@ import 'package:english_universe/services/art_service.dart';
 import 'package:english_universe/services/learner_prefs.dart';
 import 'package:english_universe/services/tts_service.dart';
 import 'package:english_universe/widgets/stress_text.dart';
+import 'package:english_universe/screens/word_freq_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -77,5 +78,16 @@ void main() {
     AccentPrefs.accent.value = EnAccent.us;
     await AccentPrefs.load();
     expect(AccentPrefs.accent.value, EnAccent.au);
+  });
+
+  test('단어 목록 CSV: 따옴표 안 쉼표', () {
+    expect(parseCsvLine('5,a,,"하나의, 어떤",a,det,R1,N'), ['5', 'a', '', '하나의, 어떤', 'a', 'det', 'R1', 'N']);
+  });
+
+  testWidgets('절벽 단어: 2,494어 읽고 R1 은 189개', (t) async {
+    final words = await t.runAsync(WordList.load);
+    expect(words!.length, 2494);
+    expect(words.where((w) => w.level == 'R1').length, 189);
+    expect(words.first.word, 'the');
   });
 }

@@ -1,0 +1,2495 @@
+rank,word,reading,ko,en,pos,level,picturable
+1,the,,그(정관사),the,det,R1,N
+2,to,,~로/~하기 위해,to,prep,R1,N
+3,and,,그리고,and,conj,R1,N
+4,of,,~의,of,prep,R1,N
+5,a,,하나의(부정관사),a,det,R1,N
+6,in,,~안에,in,prep,R1,N
+7,i,,나,i,pron,R1,N
+8,is,,~이다(be),be,verb,R1,N
+9,for,,~을 위해,for,prep,R1,N
+10,that,,그것/저,that,pron,R1,N
+11,you,,너/당신,you,pron,R1,N
+12,it,,그것,it,pron,R1,N
+13,on,,~위에,on,prep,R1,N
+14,with,,~와 함께,with,prep,R1,N
+15,this,,이것/이,this,pron,R1,N
+16,was,,~였다(be 과거),be,verb,R1,N
+17,be,,~이다/있다,be,verb,R1,N
+18,as,,~처럼/~로서,as,conj,R1,N
+19,are,,~이다(be),be,verb,R1,N
+20,have,,가지다/먹다,have,verb,R1,N
+21,at,,~에서,at,prep,R1,N
+22,he,,그(남자),he,pron,R1,N
+23,not,,~않다,not,adv,R1,N
+24,by,,~옆에/~에 의해,by,prep,R1,N
+25,but,,그러나,but,conj,R1,N
+26,from,,~로부터,from,prep,R1,N
+27,my,,나의,i,pron,R1,N
+28,or,,또는,or,conj,R1,N
+29,we,,우리,we,pron,R1,N
+30,an,,하나의(부정관사),a,det,R1,N
+31,your,,너의,you,pron,R1,N
+32,all,,모든,all,det,R1,N
+33,so,,그래서/매우,so,adv,R1,N
+34,his,,그의,he,pron,R1,N
+35,they,,그들,they,pron,R1,N
+36,me,,나를/나에게,i,pron,R1,N
+37,if,,만약 ~라면,if,conj,R1,N
+38,one,,하나,one,num,R1,N
+39,can,,~할 수 있다,can,aux,R1,N
+40,will,,~할 것이다,will,aux,R1,N
+41,just,,단지/방금,just,adv,R1,N
+42,like,,좋아하다/~처럼,like,verb,R1,N
+43,about,,~에 대해/약,about,prep,R1,N
+44,up,,위로,up,adv,R1,N
+45,out,,밖으로,out,adv,R1,N
+46,what,,무엇,what,pron,R1,N
+47,has,,가지다(have 3인칭),have,verb,R1,N
+48,when,,언제,when,adv,R1,N
+49,more,,더 많은,more,adj,R1,N
+50,do,,하다,do,verb,R1,N
+51,no,,아니오/없는,no,det,R1,N
+52,were,,~였다(be 과거),be,verb,R1,N
+53,who,,누구,who,pron,R1,N
+54,had,,가졌다(have 과거),have,verb,R1,N
+55,it's,,그것은 ~이다,it,pron,R1,N
+56,their,,그들의,they,pron,R1,N
+57,there,,거기에,there,adv,R1,N
+58,her,,그녀의/그녀를,she,pron,R1,N
+59,which,,어느/어떤,which,pron,R1,N
+60,time,,시간/때,time,noun,R1,N
+61,get,,얻다/되다,get,verb,R1,N
+62,been,,~였다(be 완료),be,verb,R1,N
+63,would,,~할 것이다/~하곤 했다,would,aux,R1,N
+64,she,,그녀,she,pron,R1,N
+65,new,,새로운,new,adj,R1,Y
+66,people,,사람들,person,noun,R1,Y
+67,how,,어떻게,how,adv,R1,N
+68,don't,,~하지 않다,do,aux,R1,N
+69,some,,약간의,some,det,R1,N
+70,also,,또한,also,adv,R1,N
+71,them,,그들을,they,pron,R1,N
+72,now,,지금,now,adv,R1,N
+73,other,,다른,other,adj,R1,N
+74,i'm,,나는 ~이다,i,pron,R1,N
+75,its,,그것의,it,pron,R1,N
+76,our,,우리의,we,pron,R1,N
+77,than,,~보다,than,conj,R1,N
+78,good,,좋은,good,adj,R1,Y
+79,only,,오직,only,adv,R1,N
+80,after,,~후에,after,prep,R1,N
+81,first,,첫 번째,first,adj,R1,N
+82,him,,그를,he,pron,R1,N
+83,into,,~안으로,into,prep,R1,N
+84,know,,알다,know,verb,R1,N
+85,see,,보다,see,verb,R1,Y
+86,two,,둘,two,num,R1,N
+87,make,,만들다,make,verb,R1,Y
+88,over,,~위로/~너머,over,prep,R1,N
+89,think,,생각하다,think,verb,R1,Y
+90,any,,어떤/아무,any,det,R1,N
+91,then,,그때/그러면,then,adv,R1,N
+92,could,,~할 수 있었다,could,aux,R1,N
+93,back,,뒤/돌아오다,back,adv,R1,N
+94,these,,이것들,this,det,R1,N
+95,us,,우리를,we,pron,R1,N
+96,want,,원하다,want,verb,R1,N
+97,because,,왜냐하면,because,conj,R1,N
+98,go,,가다,go,verb,R1,Y
+99,well,,잘/우물,well,adv,R1,N
+100,said,,말했다(say 과거),say,verb,R1,N
+101,way,,길/방법,way,noun,R1,Y
+102,most,,가장 많은,most,adj,R1,N
+103,much,,많은,much,adj,R1,N
+104,very,,매우,very,adv,R1,N
+105,where,,어디,where,adv,R1,N
+106,even,,심지어,even,adv,R1,N
+107,should,,~해야 한다,should,aux,R1,N
+108,may,,~일지도 모른다,may,aux,R1,N
+109,here,,여기,here,adv,R1,N
+110,need,,필요하다,need,verb,R1,N
+111,really,,정말,really,adv,R1,N
+112,did,,했다(do 과거),do,verb,R1,N
+113,right,,옳은/오른쪽,right,adj,R1,N
+114,work,,일하다/일,work,verb,R1,Y
+115,year,,해/년,year,noun,R1,N
+116,years,,해/년들,year,noun,R1,N
+117,being,,~인 것(be),be,verb,R1,N
+118,day,,날/낮,day,noun,R1,Y
+119,too,,너무/또한,too,adv,R1,N
+120,going,,가는 중(go),go,verb,R1,Y
+121,before,,~전에,before,prep,R1,N
+122,off,,떨어져/꺼진,off,adv,R1,N
+123,why,,왜,why,adv,R1,N
+124,made,,만들었다(make 과거),make,verb,R1,N
+125,still,,여전히,still,adv,R1,N
+126,take,,가져가다/타다,take,verb,R1,Y
+127,got,,얻었다(get 과거),get,verb,R1,N
+128,many,,많은,many,det,R1,N
+129,never,,결코 ~않다,never,adv,R1,N
+130,those,,저것들,that,det,R1,N
+131,life,,삶/생명,life,noun,R1,N
+132,say,,말하다,say,verb,R1,Y
+133,world,,세계,world,noun,R1,Y
+134,down,,아래로,down,adv,R1,N
+135,great,,훌륭한/큰,great,adj,R1,N
+136,through,,~을 통해,through,prep,R1,N
+137,you're,,너는 ~이다,you,pron,R1,N
+138,last,,마지막의/지난,last,adj,R1,N
+139,that's,,그것은 ~이다,that,pron,R1,N
+140,while,,~하는 동안,while,conj,R1,N
+141,best,,최고의,good,adj,R1,N
+142,such,,그런,such,det,R1,N
+143,love,,사랑하다/사랑,love,verb,R1,Y
+144,man,,남자,man,noun,R1,Y
+145,home,,집/가정,home,noun,R1,Y
+146,long,,긴,long,adj,R1,Y
+147,look,,보다/모습,look,verb,R1,Y
+148,something,,무언가,something,pron,R1,N
+149,use,,사용하다,use,verb,R1,Y
+150,can't,,~할 수 없다,can,aux,R1,N
+151,same,,같은,same,adj,R1,N
+152,used,,사용한/익숙한,use,verb,R1,N
+153,both,,둘 다,both,det,R1,N
+154,every,,모든/매~,every,det,R1,N
+155,am,,"~이다(be, 나)",be,verb,R1,N
+156,come,,오다,come,verb,R1,Y
+157,part,,부분,part,noun,R1,N
+158,state,,상태/주,state,noun,R1,N
+159,three,,셋,three,num,R1,N
+160,around,,주위에,around,prep,R1,N
+161,between,,~사이에,between,prep,R1,N
+162,always,,항상,always,adv,R1,N
+163,better,,더 좋은,good,adj,R1,N
+164,find,,찾다,find,verb,R1,Y
+165,help,,돕다/도움,help,verb,R1,Y
+166,high,,높은,high,adj,R1,Y
+167,little,,작은/조금,little,adj,R1,Y
+168,old,,늙은/오래된,old,adj,R1,Y
+169,since,,~이래로/~때문에,since,conj,R1,N
+170,another,,또 다른,another,det,R1,N
+171,does,,하다(do 3인칭),do,verb,R1,N
+172,own,,자신의/소유하다,own,adj,R1,N
+173,things,,것들,thing,noun,R1,N
+174,under,,~아래,under,prep,R1,N
+175,during,,~동안,during,prep,R1,N
+176,game,,게임/경기,game,noun,R1,Y
+177,i've,,나는 ~했다,i,pron,R1,N
+178,thing,,것/물건,thing,noun,R1,N
+179,give,,주다,give,verb,R1,Y
+180,house,,집,house,noun,R1,Y
+181,place,,장소,place,noun,R1,Y
+182,school,,학교,school,noun,R1,Y
+183,again,,다시,again,adv,R1,N
+184,next,,다음의,next,adj,R1,N
+185,each,,각각의,each,det,R1,N
+186,mr,,~씨(남성),mr,noun,R1,N
+187,without,,~없이,without,prep,R1,N
+188,against,,~에 반대하여,against,prep,R1,N
+189,didn't,,~하지 않았다,do,aux,R1,N
+190,end,,끝,end,noun,R2,N
+191,found,,찾았다(find 과거),find,verb,R2,N
+192,must,,~해야 한다,must,aux,R2,N
+193,show,,보여주다/쇼,show,verb,R2,Y
+194,big,,큰,big,adj,R2,Y
+195,feel,,느끼다,feel,verb,R2,Y
+196,sure,,확실한,sure,adj,R2,N
+197,team,,팀,team,noun,R2,Y
+198,ever,,언젠가/지금까지,ever,adv,R2,N
+199,family,,가족,family,noun,R2,Y
+200,keep,,유지하다/지키다,keep,verb,R2,N
+201,might,,~일지도 모른다,might,aux,R2,N
+202,please,,제발/부디,please,intj,R2,N
+203,put,,놓다,put,verb,R2,Y
+204,money,,돈,money,noun,R2,Y
+205,free,,자유로운/무료의,free,adj,R2,N
+206,second,,두 번째/초,second,adj,R2,N
+207,someone,,누군가,someone,pron,R2,N
+208,away,,멀리,away,adv,R2,N
+209,left,,왼쪽/떠났다,left,adj,R2,N
+210,number,,숫자,number,noun,R2,Y
+211,city,,도시,city,noun,R2,Y
+212,days,,날들,day,noun,R2,N
+213,lot,,많음/구역,lot,noun,R2,N
+214,name,,이름,name,noun,R2,N
+215,night,,밤,night,noun,R2,Y
+216,play,,놀다/연주하다,play,verb,R2,Y
+217,until,,~까지,until,prep,R2,N
+218,company,,회사,company,noun,R2,Y
+219,doing,,하는 중(do),do,verb,R2,N
+220,few,,적은,few,adj,R2,N
+221,he's,,그는 ~이다,he,pron,R2,N
+222,let,,~하게 하다,let,verb,R2,N
+223,real,,진짜의,real,adj,R2,N
+224,called,,불렸다(call 과거),call,verb,R2,N
+225,different,,다른,different,adj,R2,N
+226,having,,가지는 중(have),have,verb,R2,N
+227,set,,놓다/세트,set,verb,R2,N
+228,thought,,생각했다(think 과거)/생각,think,verb,R2,N
+229,done,,끝난(do 완료),do,verb,R2,N
+230,however,,하지만,however,adv,R2,N
+231,getting,,얻는 중(get),get,verb,R2,N
+232,god,,신,god,noun,R2,N
+233,government,,정부,government,noun,R2,N
+234,group,,그룹,group,noun,R2,Y
+235,looking,,보는 중(look),look,verb,R2,Y
+236,public,,공공의,public,adj,R2,N
+237,top,,꼭대기,top,noun,R2,Y
+238,women,,여자들,woman,noun,R2,Y
+239,business,,사업/장사,business,noun,R2,N
+240,care,,돌보다/관심,care,verb,R2,N
+241,start,,시작하다,start,verb,R2,N
+242,system,,체계,system,noun,R2,N
+243,times,,번/시대,time,noun,R2,N
+244,week,,주,week,noun,R2,N
+245,already,,이미,already,adv,R2,N
+246,anything,,무엇이든,anything,pron,R2,N
+247,case,,경우/상자,case,noun,R2,N
+248,nothing,,아무것도 ~않다,nothing,pron,R2,N
+249,person,,사람,person,noun,R2,Y
+250,today,,오늘,today,adv,R2,N
+251,change,,바꾸다/변화,change,verb,R2,N
+252,enough,,충분한,enough,adj,R2,N
+253,everything,,모든 것,everything,pron,R2,N
+254,full,,가득 찬,full,adj,R2,Y
+255,live,,살다,live,verb,R2,Y
+256,making,,만드는 중(make),make,verb,R2,Y
+257,point,,가리키다/점,point,verb,R2,Y
+258,read,,읽다,read,verb,R2,Y
+259,there's,,~이 있다,there,pron,R2,N
+260,told,,말했다(tell 과거),tell,verb,R2,N
+261,yet,,아직,yet,adv,R2,N
+262,bad,,나쁜,bad,adj,R2,Y
+263,doesn't,,~하지 않는다,do,aux,R2,N
+264,four,,넷,four,num,R2,N
+265,hard,,딱딱한/어려운,hard,adj,R2,Y
+266,mean,,의미하다/못된,mean,verb,R2,N
+267,once,,한 번,once,adv,R2,N
+268,support,,지지하다/지원,support,verb,R2,N
+269,tell,,말하다,tell,verb,R2,Y
+270,including,,~을 포함하여,including,prep,R2,N
+271,music,,음악,music,noun,R2,Y
+272,power,,힘/전력,power,noun,R2,N
+273,seen,,보았다(see 완료),see,verb,R2,N
+274,states,,주들/국가들,state,noun,R2,N
+275,stop,,멈추다,stop,verb,R2,Y
+276,water,,물,water,noun,R2,Y
+277,based,,~에 기반한,base,verb,R2,N
+278,believe,,믿다,believe,verb,R2,N
+279,call,,부르다/전화하다,call,verb,R2,Y
+280,head,,머리,head,noun,R2,Y
+281,men,,남자들,man,noun,R2,Y
+282,national,,국가의,national,adj,R2,N
+283,small,,작은,small,adj,R2,Y
+284,took,,가져갔다(take 과거),take,verb,R2,N
+285,white,,흰색의,white,adj,R2,Y
+286,came,,왔다(come 과거),come,verb,R2,N
+287,far,,먼,far,adj,R2,N
+288,job,,직업,job,noun,R2,Y
+289,side,,옆/쪽,side,noun,R2,N
+290,though,,비록 ~지만,though,conj,R2,N
+291,try,,시도하다,try,verb,R2,N
+292,went,,갔다(go 과거),go,verb,R2,N
+293,yes,,네,yes,intj,R2,N
+294,actually,,사실은,actually,adv,R2,N
+295,american,,미국의/미국인,american,adj,R2,N
+296,later,,나중에,later,adv,R2,N
+297,less,,더 적은,less,adj,R2,N
+298,line,,선/줄,line,noun,R2,Y
+299,order,,주문/순서,order,noun,R2,N
+300,party,,파티/정당,party,noun,R2,Y
+301,run,,달리다,run,verb,R2,Y
+302,says,,말한다(say 3인칭),say,verb,R2,N
+303,service,,서비스,service,noun,R2,N
+304,country,,나라,country,noun,R2,Y
+305,open,,열다/열린,open,verb,R2,Y
+306,season,,계절,season,noun,R2,Y
+307,shit,,젠장/똥,shit,intj,R2,N
+308,thank,,감사하다,thank,verb,R2,N
+309,children,,아이들,child,noun,R2,Y
+310,everyone,,모든 사람,everyone,pron,R2,N
+311,general,,일반적인/장군,general,adj,R2,N
+312,they're,,그들은 ~이다,they,pron,R2,N
+313,trying,,시도하는 중(try),try,verb,R2,N
+314,united,,연합한,united,adj,R2,N
+315,using,,사용하는 중(use),use,verb,R2,N
+316,area,,지역,area,noun,R2,N
+317,black,,검은색의,black,adj,R2,Y
+318,following,,뒤따르는(follow),follow,verb,R2,N
+319,law,,법,law,noun,R3,N
+320,makes,,만든다(make 3인칭),make,verb,R3,N
+321,together,,함께,together,adv,R3,N
+322,war,,전쟁,war,noun,R3,Y
+323,whole,,전체의,whole,adj,R3,N
+324,car,,자동차,car,noun,R3,Y
+325,face,,얼굴,face,noun,R3,Y
+326,five,,다섯,five,num,R3,N
+327,kind,,종류/친절한,kind,noun,R3,N
+328,maybe,,아마,maybe,adv,R3,N
+329,per,,~당,per,prep,R3,N
+330,president,,대통령,president,noun,R3,Y
+331,story,,이야기,story,noun,R3,N
+332,working,,일하는 중(work),work,verb,R3,Y
+333,course,,과정/코스,course,noun,R3,N
+334,games,,게임들,game,noun,R3,Y
+335,health,,건강,health,noun,R3,N
+336,hope,,바라다/희망,hope,verb,R3,N
+337,important,,중요한,important,adj,R3,N
+338,least,,가장 적은,least,adj,R3,N
+339,means,,의미한다/수단,mean,verb,R3,N
+340,news,,뉴스,news,noun,R3,N
+341,within,,~이내에,within,prep,R3,N
+342,able,,~할 수 있는,able,adj,R3,N
+343,book,,책,book,noun,R3,Y
+344,early,,이른,early,adj,R3,N
+345,friends,,친구들,friend,noun,R3,Y
+346,i'll,,나는 ~할 것이다,i,pron,R3,N
+347,information,,정보,information,noun,R3,N
+348,local,,지역의,local,adj,R3,N
+349,oh,,오!,oh,intj,R3,N
+350,post,,게시하다/우편,post,verb,R3,N
+351,thanks,,고마워,thanks,intj,R3,N
+352,video,,영상,video,noun,R3,Y
+353,young,,젊은,young,adj,R3,Y
+354,ago,,~전에,ago,adv,R3,N
+355,others,,다른 사람들,other,pron,R3,N
+356,social,,사회의,social,adj,R3,N
+357,talk,,말하다,talk,verb,R3,Y
+358,court,,법원/코트,court,noun,R3,Y
+359,fact,,사실,fact,noun,R3,N
+360,given,,주어진(give 완료),give,verb,R3,N
+361,guys,,녀석들,guy,noun,R3,Y
+362,half,,절반,half,noun,R3,N
+363,hand,,손,hand,noun,R3,Y
+364,isn't,,~이 아니다,be,aux,R3,N
+365,level,,수준/층,level,noun,R3,N
+366,mind,,마음,mind,noun,R3,N
+367,often,,자주,often,adv,R3,N
+368,single,,하나의/독신의,single,adj,R3,N
+369,become,,~이 되다,become,verb,R3,N
+370,body,,몸,body,noun,R3,Y
+371,coming,,오는 중(come),come,verb,R3,Y
+372,control,,통제하다,control,verb,R3,N
+373,death,,죽음,death,noun,R3,N
+374,food,,음식,food,noun,R3,Y
+375,guy,,녀석/남자,guy,noun,R3,Y
+376,hours,,시간들,hour,noun,R3,N
+377,office,,사무실,office,noun,R3,Y
+378,pay,,지불하다,pay,verb,R3,Y
+379,problem,,문제,problem,noun,R3,N
+380,south,,남쪽,south,noun,R3,N
+381,true,,사실인,true,adj,R3,N
+382,we're,,우리는 ~이다,we,pron,R3,N
+383,almost,,거의,almost,adv,R3,N
+384,fuck,,젠장(욕),fuck,intj,R3,N
+385,history,,역사,history,noun,R3,N
+386,known,,알려진(know 완료),know,verb,R3,N
+387,large,,큰,large,adj,R3,Y
+388,lost,,잃은/길 잃은,lost,adj,R3,N
+389,research,,연구,research,noun,R3,N
+390,room,,방,room,noun,R3,Y
+391,several,,여러 개의,several,det,R3,N
+392,started,,시작했다(start 과거),start,verb,R3,N
+393,taking,,가져가는 중(take),take,verb,R3,Y
+394,university,,대학,university,noun,R3,Y
+395,win,,이기다,win,verb,R3,Y
+396,wrong,,틀린,wrong,adj,R3,N
+397,along,,~을 따라,along,prep,R3,N
+398,anyone,,누구든,anyone,pron,R3,N
+399,else,,그 밖의,else,adv,R3,N
+400,girl,,소녀,girl,noun,R3,Y
+401,john,,존(남자 이름),john,noun,R3,N
+402,matter,,문제/중요하다,matter,noun,R3,N
+403,pretty,,예쁜/꽤,pretty,adj,R3,Y
+404,remember,,기억하다,remember,verb,R3,N
+405,air,,공기,air,noun,R3,Y
+406,bit,,조금,bit,noun,R3,N
+407,friend,,친구,friend,noun,R3,Y
+408,hit,,치다,hit,verb,R3,Y
+409,needs,,필요(need),need,verb,R3,N
+410,nice,,좋은/멋진,nice,adj,R3,Y
+411,playing,,노는 중(play),play,verb,R3,Y
+412,probably,,아마도,probably,adv,R3,N
+413,saying,,말하는 중(say),say,verb,R3,N
+414,understand,,이해하다,understand,verb,R3,N
+415,yeah,,응,yeah,intj,R3,N
+416,york,,요크(지명),york,noun,R3,N
+417,class,,수업,class,noun,R3,Y
+418,close,,닫다/가까운,close,verb,R3,Y
+419,comes,,온다(come 3인칭),come,verb,R3,N
+420,i'd,,나는 ~하겠다,i,pron,R3,N
+421,idea,,생각/아이디어,idea,noun,R3,N
+422,international,,국제적인,international,adj,R3,N
+423,looks,,보인다/모습,look,verb,R3,N
+424,past,,과거/지난,past,noun,R3,N
+425,possible,,가능한,possible,adj,R3,N
+426,wanted,,원했다(want 과거),want,verb,R3,N
+427,cause,,원인/일으키다,cause,noun,R3,N
+428,due,,~할 예정인,due,adj,R3,N
+429,happy,,행복한,happy,adj,R3,Y
+430,human,,인간,human,noun,R3,Y
+431,members,,구성원들,member,noun,R3,Y
+432,months,,달들,month,noun,R3,N
+433,move,,움직이다,move,verb,R3,Y
+434,question,,질문,question,noun,R3,N
+435,series,,연속/시리즈,series,noun,R3,N
+436,wait,,기다리다,wait,verb,R3,Y
+437,woman,,여자,woman,noun,R3,Y
+438,ask,,묻다,ask,verb,R3,Y
+439,community,,공동체,community,noun,R3,N
+440,data,,자료,data,noun,R3,N
+441,late,,늦은,late,adj,R3,Y
+442,leave,,떠나다,leave,verb,R3,Y
+443,north,,북쪽,north,noun,R3,N
+444,saw,,보았다(see 과거),see,verb,R3,N
+445,special,,특별한,special,adj,R3,N
+446,watch,,보다/손목시계,watch,verb,R3,Y
+447,won't,,~하지 않을 것이다,will,aux,R3,N
+448,either,,둘 중 하나,either,det,R3,N
+449,fucking,,빌어먹을(욕),fucking,adj,R3,N
+450,future,,미래,future,noun,R3,N
+451,light,,빛/가벼운,light,noun,R3,Y
+452,low,,낮은,low,adj,R3,Y
+453,million,,백만,million,num,R3,N
+454,morning,,아침,morning,noun,R3,Y
+455,police,,경찰,police,noun,R3,Y
+456,short,,짧은,short,adj,R3,Y
+457,stay,,머무르다,stay,verb,R3,N
+458,taken,,가져간(take 완료),take,verb,R3,N
+459,age,,나이,age,noun,R3,N
+460,buy,,사다,buy,verb,R3,Y
+461,deal,,거래/다루다,deal,noun,R3,N
+462,rather,,오히려,rather,adv,R3,N
+463,reason,,이유,reason,noun,R3,N
+464,red,,빨간색의,red,adj,R3,Y
+465,report,,보고서/보고하다,report,noun,R3,N
+466,soon,,곧,soon,adv,R3,N
+467,third,,세 번째,third,adj,R3,N
+468,turn,,돌다/차례,turn,verb,R3,Y
+469,whether,,~인지 아닌지,whether,conj,R3,N
+470,among,,~사이에,among,prep,R3,N
+471,check,,확인하다,check,verb,R3,N
+472,development,,개발/발달,development,noun,R3,N
+473,form,,형태/양식,form,noun,R3,N
+474,further,,더 멀리/더 나아가,further,adv,R3,N
+475,heart,,심장/마음,heart,noun,R3,Y
+476,minutes,,분들,minute,noun,R3,N
+477,myself,,나 자신,i,pron,R3,N
+478,services,,서비스들,service,noun,R3,N
+479,yourself,,너 자신,you,pron,R3,N
+480,act,,행동하다/행위,act,verb,R3,N
+481,although,,비록 ~지만,although,conj,R3,N
+482,asked,,물었다(ask 과거),ask,verb,R3,N
+483,child,,아이,child,noun,R3,Y
+484,fire,,불,fire,noun,R3,Y
+485,fun,,재미있는/재미,fun,noun,R3,N
+486,living,,사는(live)/생활,live,verb,R3,N
+487,major,,주요한/전공,major,adj,R3,N
+488,media,,매체,media,noun,R3,N
+489,phone,,전화기,phone,noun,R3,Y
+490,players,,선수들,player,noun,R3,Y
+491,art,,미술,art,noun,R3,Y
+492,behind,,~뒤에,behind,prep,R3,N
+493,building,,건물,building,noun,R3,Y
+494,easy,,쉬운,easy,adj,R3,N
+495,gonna,,~할 거야(going to),go,aux,R3,N
+496,market,,시장,market,noun,R3,Y
+497,near,,가까운,near,adj,R3,N
+498,non,,비~/아닌,non,part,R3,N
+499,plan,,계획,plan,noun,R3,N
+500,political,,정치의,political,adj,R3,N
+501,quite,,꽤,quite,adv,R3,N
+502,six,,여섯,six,num,R3,N
+503,talking,,말하는 중(talk),talk,verb,R3,Y
+504,west,,서쪽,west,noun,R3,N
+505,works,,일한다/작품,work,verb,R3,N
+506,according,,~에 따르면,according,adv,R3,N
+507,available,,이용 가능한,available,adj,R3,N
+508,education,,교육,education,noun,R3,N
+509,final,,마지막의,final,adj,R3,N
+510,former,,이전의,former,adj,R3,N
+511,front,,앞,front,noun,R3,N
+512,kids,,아이들,kid,noun,R3,Y
+513,list,,목록,list,noun,R3,Y
+514,ready,,준비된,ready,adj,R3,N
+515,sometimes,,가끔,sometimes,adv,R3,N
+516,son,,아들,son,noun,R3,Y
+517,street,,거리,street,noun,R3,Y
+518,wasn't,,~이 아니었다,be,aux,R3,N
+519,bring,,가져오다,bring,verb,R3,Y
+520,college,,대학,college,noun,R3,Y
+521,current,,현재의,current,adj,R3,N
+522,example,,예,example,noun,R3,N
+523,experience,,경험,experience,noun,R3,N
+524,heard,,들었다(hear 과거),hear,verb,R3,N
+525,london,,런던,london,noun,R3,N
+526,meet,,만나다,meet,verb,R3,Y
+527,program,,프로그램,program,noun,R3,N
+528,type,,종류,type,noun,R3,N
+529,baby,,아기,baby,noun,R3,Y
+530,chance,,기회,chance,noun,R3,N
+531,father,,아버지,father,noun,R3,Y
+532,march,,3월/행진,march,noun,R3,N
+533,process,,과정,process,noun,R3,N
+534,she's,,그녀는 ~이다,she,pron,R3,N
+535,song,,노래,song,noun,R3,Y
+536,study,,공부하다,study,verb,R3,Y
+537,word,,단어,word,noun,R3,N
+538,across,,~을 가로질러,across,prep,R3,N
+539,action,,행동,action,noun,R3,N
+540,clear,,맑은/분명한,clear,adj,R3,N
+541,gave,,주었다(give 과거),give,verb,R3,N
+542,gets,,얻는다(get 3인칭),get,verb,R3,N
+543,himself,,그 자신,he,pron,R3,N
+544,month,,달,month,noun,R3,N
+545,outside,,바깥,outside,adv,R3,N
+546,self,,자신,self,noun,R3,N
+547,students,,학생들,student,noun,R3,Y
+548,words,,단어들,word,noun,R3,N
+549,board,,판/탑승하다,board,noun,R3,Y
+550,cost,,비용/들다,cost,noun,R3,N
+551,cut,,자르다,cut,verb,R3,Y
+552,dr,,박사/의사,dr,noun,R3,N
+553,field,,들판/분야,field,noun,R3,Y
+554,held,,잡았다(hold 과거),hold,verb,R3,N
+555,instead,,대신에,instead,adv,R3,N
+556,main,,주요한,main,adj,R3,N
+557,moment,,순간,moment,noun,R3,N
+558,mother,,어머니,mother,noun,R3,Y
+559,road,,길,road,noun,R3,Y
+560,seems,,~인 것 같다,seem,verb,R3,N
+561,thinking,,생각하는 중(think),think,verb,R3,Y
+562,town,,마을,town,noun,R3,Y
+563,wants,,원한다(want 3인칭),want,verb,R3,N
+564,de,,~의(외국어 전치사),de,prep,R3,N
+565,department,,부서,department,noun,R3,N
+566,energy,,에너지,energy,noun,R3,N
+567,fight,,싸우다,fight,verb,R3,Y
+568,fine,,좋은/괜찮은,fine,adj,R3,N
+569,force,,힘/강요하다,force,noun,R3,N
+570,hear,,듣다,hear,verb,R3,Y
+571,issue,,쟁점/문제,issue,noun,R3,N
+572,played,,놀았다(play 과거),play,verb,R3,N
+573,points,,점들,point,noun,R3,N
+574,price,,가격,price,noun,R3,N
+575,re,,~에 관하여,re,prep,R3,N
+576,rest,,쉬다/나머지,rest,verb,R3,Y
+577,results,,결과들,result,noun,R3,N
+578,running,,달리는 중(run),run,verb,R3,Y
+579,shows,,보여준다/쇼들,show,verb,R3,N
+580,space,,공간/우주,space,noun,R3,Y
+581,summer,,여름,summer,noun,R3,Y
+582,term,,용어/학기,term,noun,R3,N
+583,wife,,아내,wife,noun,R3,Y
+584,america,,미국,america,noun,R3,N
+585,beautiful,,아름다운,beautiful,adj,R3,Y
+586,date,,날짜/데이트,date,noun,R3,N
+587,goes,,간다(go 3인칭),go,verb,R3,N
+588,killed,,죽였다(kill 과거),kill,verb,R3,N
+589,land,,땅,land,noun,R3,Y
+590,miss,,그리워하다/놓치다,miss,verb,R3,N
+591,project,,프로젝트,project,noun,R3,N
+592,sex,,성별/성관계,sex,noun,R3,N
+593,shot,,쏘았다(shoot 과거)/한 방,shoot,verb,R3,N
+594,site,,장소/사이트,site,noun,R3,N
+595,strong,,강한,strong,adj,R3,Y
+596,you'll,,너는 ~할 것이다,you,pron,R3,N
+597,account,,계좌/설명,account,noun,R3,N
+598,co,,회사(약어),company,noun,R3,N
+599,especially,,특히,especially,adv,R3,N
+600,eyes,,눈들,eye,noun,R3,Y
+601,include,,포함하다,include,verb,R3,N
+602,june,,6월,june,noun,R3,N
+603,parents,,부모,parents,noun,R3,Y
+604,period,,기간,period,noun,R3,N
+605,position,,위치/자세,position,noun,R3,N
+606,record,,기록하다/기록,record,noun,R3,N
+607,similar,,비슷한,similar,adj,R3,N
+608,total,,합계/전체의,total,noun,R3,N
+609,above,,~위에,above,prep,R3,N
+610,club,,클럽,club,noun,R3,Y
+611,common,,흔한,common,adj,R3,N
+612,died,,죽었다(die 과거),die,verb,R3,N
+613,film,,영화/필름,film,noun,R3,Y
+614,happened,,일어났다(happen 과거),happen,verb,R3,N
+615,knew,,알았다(know 과거),know,verb,R3,N
+616,lead,,이끌다,lead,verb,R3,N
+617,likely,,~할 것 같은,likely,adj,R3,N
+618,military,,군대의,military,adj,R3,N
+619,perfect,,완벽한,perfect,adj,R3,N
+620,personal,,개인의,personal,adj,R3,N
+621,security,,보안/안전,security,noun,R3,N
+622,share,,나누다,share,verb,R3,Y
+623,st,,성(聖)/거리(약어),saint,noun,R3,N
+624,tv,,텔레비전,tv,noun,R3,Y
+625,what's,,무엇이 ~이니,what,pron,R3,N
+626,won,,이겼다(win 과거),win,verb,R3,N
+627,april,,4월,april,noun,R3,N
+628,center,,중심,center,noun,R3,N
+629,county,,군/카운티,county,noun,R3,N
+630,couple,,부부/두 개,couple,noun,R3,Y
+631,dead,,죽은,dead,adj,R3,N
+632,english,,영어,english,noun,R3,N
+633,happen,,일어나다,happen,verb,R3,N
+634,hold,,잡다,hold,verb,R3,Y
+635,industry,,산업,industry,noun,R3,N
+636,inside,,안쪽,inside,adv,R3,N
+637,issues,,쟁점들,issue,noun,R3,N
+638,online,,온라인의,online,adj,R3,N
+639,player,,선수,player,noun,R3,Y
+640,private,,사적인,private,adj,R3,N
+641,problems,,문제들,problem,noun,R3,N
+642,return,,돌아오다,return,verb,R3,N
+643,rights,,권리들,right,noun,R3,N
+644,sense,,감각/의미,sense,noun,R3,N
+645,star,,별,star,noun,R3,Y
+646,test,,시험,test,noun,R3,Y
+647,view,,전망/견해,view,noun,R3,N
+648,weeks,,주들,week,noun,R3,N
+649,break,,깨다/휴식,break,verb,R3,Y
+650,british,,영국의,british,adj,R3,N
+651,companies,,회사들,company,noun,R3,Y
+652,event,,행사,event,noun,R3,N
+653,higher,,더 높은,high,adj,R3,N
+654,hour,,시간(60분),hour,noun,R3,N
+655,member,,구성원,member,noun,R3,Y
+656,middle,,가운데,middle,noun,R3,N
+657,needed,,필요했다(need 과거),need,verb,R3,N
+658,present,,선물/현재,present,noun,R3,Y
+659,result,,결과,result,noun,R3,N
+660,sorry,,미안한,sorry,adj,R3,N
+661,takes,,가져간다(take 3인칭),take,verb,R3,N
+662,training,,훈련,training,noun,R3,Y
+663,wish,,소원/바라다,wish,verb,R3,N
+664,wouldn't,,~하지 않을 것이다,would,aux,R3,N
+665,answer,,대답/답하다,answer,noun,R3,N
+666,boy,,소년,boy,noun,R3,Y
+667,design,,디자인,design,noun,R3,N
+668,finally,,마침내,finally,adv,R3,N
+669,girls,,소녀들,girl,noun,R3,Y
+670,gold,,금,gold,noun,R3,Y
+671,gone,,가버린(go 완료),go,verb,R3,N
+672,guess,,추측하다,guess,verb,R3,N
+673,interest,,관심/이자,interest,noun,R3,N
+674,july,,7월,july,noun,R3,N
+675,king,,왕,king,noun,R3,Y
+676,learn,,배우다,learn,verb,R3,Y
+677,policy,,정책,policy,noun,R3,N
+678,society,,사회,society,noun,R3,N
+679,added,,더했다(add 과거),add,verb,R3,N
+680,al,,알(이름),al,noun,R3,N
+681,alone,,혼자,alone,adj,R3,Y
+682,average,,평균,average,noun,R3,N
+683,bank,,은행,bank,noun,R3,Y
+684,brought,,가져왔다(bring 과거),bring,verb,R3,N
+685,certain,,확실한,certain,adj,R3,N
+686,church,,교회,church,noun,R3,Y
+687,east,,동쪽,east,noun,R3,N
+688,hands,,손들,hand,noun,R3,Y
+689,hot,,뜨거운,hot,adj,R3,Y
+690,let's,,~하자,let,verb,R3,N
+691,longer,,더 긴,long,adj,R3,N
+692,medical,,의학의,medical,adj,R3,N
+693,movie,,영화,movie,noun,R3,Y
+694,original,,원래의,original,adj,R3,N
+695,park,,공원,park,noun,R3,Y
+696,performance,,공연/성과,performance,noun,R3,N
+697,press,,누르다/언론,press,verb,R3,N
+698,received,,받았다(receive 과거),receive,verb,R3,N
+699,role,,역할,role,noun,R3,N
+700,sent,,보냈다(send 과거),send,verb,R3,N
+701,themselves,,그들 자신,they,pron,R3,N
+702,tried,,시도했다(try 과거),try,verb,R3,N
+703,worked,,일했다(work 과거),work,verb,R3,N
+704,worth,,가치 있는,worth,adj,R3,N
+705,areas,,지역들,area,noun,R3,N
+706,became,,되었다(become 과거),become,verb,R3,N
+707,bill,,청구서,bill,noun,R3,N
+708,books,,책들,book,noun,R3,Y
+709,cool,,시원한/멋진,cool,adj,R3,Y
+710,director,,감독,director,noun,R3,N
+711,exactly,,정확히,exactly,adv,R3,N
+712,giving,,주는 중(give),give,verb,R3,Y
+713,ground,,땅바닥,ground,noun,R3,Y
+714,meeting,,회의,meeting,noun,R3,Y
+715,provide,,제공하다,provide,verb,R3,N
+716,questions,,질문들,question,noun,R3,N
+717,relationship,,관계,relationship,noun,R3,N
+718,september,,9월,september,noun,R3,N
+719,sound,,소리,sound,noun,R3,N
+720,source,,출처,source,noun,R3,N
+721,usually,,보통,usually,adv,R3,N
+722,value,,가치,value,noun,R3,N
+723,evidence,,증거,evidence,noun,R3,N
+724,follow,,따라가다,follow,verb,R3,Y
+725,lives,,산다/삶들,live,verb,R3,N
+726,official,,공식적인,official,adj,R3,N
+727,ok,,좋아/괜찮은,ok,adj,R3,N
+728,production,,생산,production,noun,R3,N
+729,rate,,비율,rate,noun,R3,N
+730,reading,,읽는 중(read),read,verb,R3,Y
+731,round,,둥근,round,adj,R3,Y
+732,save,,저장하다/구하다,save,verb,R3,N
+733,stand,,서다,stand,verb,R3,Y
+734,stuff,,물건,stuff,noun,R3,N
+735,tax,,세금,tax,noun,R3,N
+736,whatever,,무엇이든,whatever,pron,R3,N
+737,amount,,양,amount,noun,R3,N
+738,blue,,파란색의,blue,adj,R3,Y
+739,countries,,나라들,country,noun,R3,Y
+740,david,,데이비드(남자 이름),david,noun,R3,N
+741,drive,,운전하다,drive,verb,R3,Y
+742,eat,,먹다,eat,verb,R3,Y
+743,fall,,떨어지다/가을,fall,verb,R3,Y
+744,fast,,빠른,fast,adj,R3,Y
+745,federal,,연방의,federal,adj,R3,N
+746,feeling,,느낌(feel),feel,noun,R3,N
+747,felt,,느꼈다(feel 과거),feel,verb,R3,N
+748,green,,초록색의,green,adj,R3,Y
+749,league,,리그,league,noun,R3,N
+750,management,,관리,management,noun,R3,N
+751,match,,경기/어울리다,match,noun,R3,Y
+752,model,,모형/모델,model,noun,R3,Y
+753,picture,,그림/사진,picture,noun,R3,Y
+754,size,,크기,size,noun,R3,N
+755,step,,걸음,step,noun,R3,Y
+756,trust,,믿다/신뢰,trust,verb,R3,N
+757,you've,,너는 ~했다,you,pron,R3,N
+758,central,,중앙의,central,adj,R3,N
+759,changes,,변화들,change,noun,R3,N
+760,england,,영국(잉글랜드),england,noun,R3,N
+761,forward,,앞으로,forward,adv,R3,N
+762,groups,,그룹들,group,noun,R3,Y
+763,hey,,이봐,hey,intj,R3,N
+764,key,,열쇠,key,noun,R3,Y
+765,mom,,엄마,mom,noun,R3,Y
+766,page,,쪽,page,noun,R3,Y
+767,paid,,지불했다(pay 과거),pay,verb,R3,N
+768,range,,범위,range,noun,R3,N
+769,review,,검토/후기,review,noun,R3,N
+770,science,,과학,science,noun,R3,N
+771,trade,,무역,trade,noun,R3,N
+772,uk,,영국,uk,noun,R3,N
+773,upon,,~위에,upon,prep,R3,N
+774,various,,다양한,various,adj,R3,N
+775,attention,,주의,attention,noun,R3,N
+776,brother,,형제,brother,noun,R3,Y
+777,cannot,,~할 수 없다,can,aux,R3,N
+778,character,,성격/등장인물,character,noun,R3,N
+779,chief,,우두머리,chief,noun,R3,N
+780,cup,,컵,cup,noun,R3,Y
+781,football,,축구,football,noun,R3,Y
+782,hate,,미워하다,hate,verb,R3,N
+783,haven't,,~하지 않았다,have,aux,R3,N
+784,james,,제임스(남자 이름),james,noun,R3,N
+785,led,,이끌었다(lead 과거),lead,verb,R3,N
+786,looked,,보았다(look 과거),look,verb,R3,N
+787,lower,,더 낮은,low,adj,R3,N
+788,natural,,자연의,natural,adj,R3,N
+789,october,,10월,october,noun,R3,N
+790,property,,재산,property,noun,R3,N
+791,quality,,품질,quality,noun,R3,N
+792,send,,보내다,send,verb,R3,Y
+793,style,,스타일,style,noun,R3,N
+794,vote,,투표하다,vote,verb,R3,Y
+795,amazing,,놀라운,amazing,adj,R3,N
+796,august,,8월,august,noun,R3,N
+797,blood,,피,blood,noun,R3,Y
+798,china,,중국,china,noun,R3,N
+799,complete,,완전한/끝내다,complete,adj,R3,N
+800,dog,,개,dog,noun,R3,Y
+801,economic,,경제의,economic,adj,R3,N
+802,hell,,지옥,hell,noun,R3,N
+803,involved,,관련된,involved,adj,R3,N
+804,itself,,그것 자체,it,pron,R3,N
+805,language,,언어,language,noun,R3,N
+806,lord,,주(主)/귀족,lord,noun,R3,N
+807,november,,11월,november,noun,R3,N
+808,oil,,기름,oil,noun,R3,Y
+809,related,,관련된,related,adj,R3,N
+810,serious,,심각한,serious,adj,R3,N
+811,stage,,무대,stage,noun,R3,Y
+812,terms,,조건/용어들,term,noun,R3,N
+813,title,,제목,title,noun,R3,N
+814,add,,더하다,add,verb,R3,N
+815,article,,기사,article,noun,R3,N
+816,attack,,공격하다,attack,verb,R3,N
+817,born,,태어난,born,adj,R3,N
+818,couldn't,,~할 수 없었다,can,aux,R3,N
+819,damn,,젠장(욕),damn,intj,R3,N
+820,decided,,결정했다(decide 과거),decide,verb,R3,N
+821,decision,,결정,decision,noun,R3,N
+822,enjoy,,즐기다,enjoy,verb,R3,N
+823,entire,,전체의,entire,adj,R3,N
+824,french,,프랑스의/프랑스어,french,adj,R3,N
+825,january,,1월,january,noun,R3,N
+826,kill,,죽이다,kill,verb,R4,N
+827,met,,만났다(meet 과거),meet,verb,R4,N
+828,perhaps,,아마,perhaps,adv,R4,N
+829,poor,,가난한,poor,adj,R4,N
+830,release,,풀어주다/출시,release,verb,R4,N
+831,situation,,상황,situation,noun,R4,N
+832,technology,,기술,technology,noun,R4,N
+833,turned,,돌았다(turn 과거),turn,verb,R4,N
+834,website,,웹사이트,website,noun,R4,N
+835,written,,쓴(write 완료),write,verb,R4,N
+836,choice,,선택,choice,noun,R4,N
+837,code,,암호/코드,code,noun,R4,N
+838,considered,,고려했다(consider 과거),consider,verb,R4,N
+839,continue,,계속하다,continue,verb,R4,N
+840,council,,위원회,council,noun,R4,N
+841,cover,,덮다/표지,cover,verb,R4,N
+842,currently,,현재,currently,adv,R4,N
+843,door,,문,door,noun,R4,Y
+844,election,,선거,election,noun,R4,N
+845,european,,유럽의,europe,adj,R4,N
+846,events,,사건/행사(event 복수),event,noun,R4,N
+847,financial,,금융의,finance,adj,R4,N
+848,foreign,,외국의,foreign,adj,R4,N
+849,hair,,머리카락,hair,noun,R4,Y
+850,increase,,늘다/증가,increase,verb,R4,N
+851,legal,,합법적인/법률의,legal,adj,R4,N
+852,lose,,잃다/지다,lose,verb,R4,N
+853,michael,,마이클(이름),michael,noun,R4,N
+854,pick,,고르다/따다,pick,verb,R4,Y
+855,race,,경주/인종,race,noun,R4,Y
+856,seem,,~처럼 보이다,seem,verb,R4,N
+857,seven,,일곱,seven,num,R4,N
+858,sign,,표지판/서명하다,sign,noun,R4,Y
+859,simple,,간단한,simple,adj,R4,N
+860,simply,,단순히,simply,adv,R4,N
+861,staff,,직원,staff,noun,R4,N
+862,super,,아주 좋은,super,adj,R4,N
+863,union,,연합/조합,union,noun,R4,N
+864,walk,,걷다,walk,verb,R4,Y
+865,washington,,워싱턴,washington,noun,R4,N
+866,bed,,침대,bed,noun,R4,Y
+867,began,,시작했다(begin 과거),begin,verb,R4,N
+868,built,,지었다(build 과거),build,verb,R4,Y
+869,career,,경력/직업,career,noun,R4,N
+870,changed,,바꿨다(change 과거),change,verb,R4,N
+871,crazy,,미친/정신 나간,crazy,adj,R4,N
+872,daily,,매일의,daily,adj,R4,N
+873,daughter,,딸,daughter,noun,R4,Y
+874,december,,12월,december,noun,R4,N
+875,die,,죽다,die,verb,R4,N
+876,difficult,,어려운,difficult,adj,R4,N
+877,figure,,숫자/모양/알아내다,figure,noun,R4,N
+878,hospital,,병원,hospital,noun,R4,Y
+879,knows,,안다(know 3인칭),know,verb,R4,N
+880,loss,,손실/상실,loss,noun,R4,N
+881,modern,,현대의,modern,adj,R4,N
+882,ones,,것들(one 복수),one,pron,R4,N
+883,paper,,종이,paper,noun,R4,Y
+884,parts,,부분들(part 복수),part,noun,R4,N
+885,popular,,인기 있는,popular,adj,R4,N
+886,published,,출판된,publish,verb,R4,N
+887,safe,,안전한,safe,adj,R4,N
+888,starting,,시작하는/시작(start 진행),start,verb,R4,N
+889,systems,,시스템들(system 복수),system,noun,R4,N
+890,version,,버전/판,version,noun,R4,N
+891,voice,,목소리,voice,noun,R4,N
+892,whose,,누구의,whose,det,R4,N
+893,writing,,쓰기/글,write,noun,R4,Y
+894,army,,군대,army,noun,R4,Y
+895,australia,,호주,australia,noun,R4,N
+896,earth,,지구/땅,earth,noun,R4,Y
+897,forget,,잊다,forget,verb,R4,N
+898,goal,,목표/골,goal,noun,R4,Y
+899,huge,,거대한,huge,adj,R4,Y
+900,internet,,인터넷,internet,noun,R4,N
+901,listen,,듣다,listen,verb,R4,Y
+902,okay,,괜찮은/좋아,okay,adj,R4,N
+903,practice,,연습하다/연습,practice,verb,R4,N
+904,rules,,규칙들(rule 복수),rule,noun,R4,N
+905,sea,,바다,sea,noun,R4,Y
+906,sir,,선생님/님,sir,noun,R4,N
+907,success,,성공,success,noun,R4,N
+908,towards,,~쪽으로,toward,prep,R4,N
+909,waiting,,기다리는/기다림,wait,verb,R4,Y
+910,ways,,방법들(way 복수),way,noun,R4,N
+911,access,,접근/접속,access,noun,R4,N
+912,aren't,,~이 아니다(are not),be,aux,R4,N
+913,base,,기초/기지,base,noun,R4,N
+914,below,,아래에,below,prep,R4,N
+915,created,,만들었다(create 과거),create,verb,R4,N
+916,deep,,깊은,deep,adj,R4,Y
+917,followed,,따랐다(follow 과거),follow,verb,R4,N
+918,la,,로스앤젤레스(LA),la,noun,R4,N
+919,lol,,ㅋㅋ(웃음 표현),lol,intj,R4,N
+920,mark,,표시/점수,mark,noun,R4,N
+921,missing,,없어진/실종된,missing,adj,R4,N
+922,offer,,제안하다,offer,verb,R4,N
+923,pass,,지나가다/통과하다,pass,verb,R4,N
+924,professional,,전문적인/전문가,professional,adj,R4,N
+925,released,,출시했다(release 과거),release,verb,R4,N
+926,risk,,위험,risk,noun,R4,N
+927,schools,,학교들(school 복수),school,noun,R4,Y
+928,sleep,,자다/잠,sleep,verb,R4,Y
+929,table,,탁자/표,table,noun,R4,Y
+930,ten,,열,ten,num,R4,N
+931,truth,,진실,truth,noun,R4,N
+932,ball,,공,ball,noun,R4,Y
+933,box,,상자,box,noun,R4,Y
+934,build,,짓다/만들다,build,verb,R4,Y
+935,card,,카드,card,noun,R4,Y
+936,cases,,경우/사건들(case 복수),case,noun,R4,N
+937,dark,,어두운,dark,adj,R4,Y
+938,district,,지역/구역,district,noun,R4,N
+939,europe,,유럽,europe,noun,R4,N
+940,george,,조지(이름),george,noun,R4,N
+941,india,,인도,india,noun,R4,N
+942,mine,,나의 것/광산,mine,pron,R4,N
+943,minister,,장관/목사,minister,noun,R4,N
+944,note,,메모/기록하다,note,noun,R4,Y
+945,percent,,퍼센트,percent,noun,R4,N
+946,piece,,조각/한 개,piece,noun,R4,Y
+947,products,,제품들(product 복수),product,noun,R4,N
+948,recent,,최근의,recent,adj,R4,N
+949,seeing,,보는/봄(see 진행),see,verb,R4,Y
+950,straight,,곧은/똑바로,straight,adj,R4,Y
+951,visit,,방문하다,visit,verb,R4,N
+952,wall,,벽,wall,noun,R4,Y
+953,wanna,,~하고 싶다(want to),want,verb,R4,N
+954,we've,,우리는 ~했다(we have),we,pron,R4,N
+955,wrote,,썼다(write 과거),write,verb,R4,Y
+956,allowed,,허용된,allow,verb,R4,N
+957,boys,,소년들(boy 복수),boy,noun,R4,Y
+958,culture,,문화,culture,noun,R4,N
+959,etc,,등등,etc,adv,R4,N
+960,fans,,팬들/선풍기(fan 복수),fan,noun,R4,Y
+961,february,,2월,february,noun,R4,N
+962,gives,,준다(give 3인칭),give,verb,R4,Y
+963,growth,,성장,growth,noun,R4,N
+964,included,,포함된,include,verb,R4,N
+965,married,,결혼한,marry,adj,R4,Y
+966,officer,,경찰관/장교,officer,noun,R4,Y
+967,pain,,통증,pain,noun,R4,Y
+968,paul,,폴(이름),paul,noun,R4,N
+969,places,,장소들(place 복수),place,noun,R4,N
+970,respect,,존경/존중하다,respect,noun,R4,N
+971,response,,응답/반응,response,noun,R4,N
+972,river,,강,river,noun,R4,Y
+973,rock,,바위/록 음악,rock,noun,R4,Y
+974,shall,,~할 것이다/~할까요,shall,aux,R4,N
+975,speak,,말하다,speak,verb,R4,Y
+976,specific,,구체적인,specific,adj,R4,N
+977,standard,,표준,standard,noun,R4,N
+978,tonight,,오늘 밤,tonight,adv,R4,N
+979,write,,쓰다,write,verb,R4,Y
+980,album,,앨범,album,noun,R4,Y
+981,century,,세기,century,noun,R4,N
+982,charge,,요금/청구하다,charge,noun,R4,N
+983,cold,,추운/감기,cold,adj,R4,Y
+984,create,,만들다,create,verb,R4,N
+985,effect,,효과,effect,noun,R4,N
+986,eight,,여덟,eight,num,R4,N
+987,except,,~을 제외하고,except,prep,R4,N
+988,eye,,눈,eye,noun,R4,Y
+989,funny,,웃긴,funny,adj,R4,Y
+990,ii,,둘째/2세,ii,num,R4,N
+991,limited,,제한된,limit,adj,R4,N
+992,moving,,움직이는/이사하는,move,verb,R4,Y
+993,network,,네트워크,network,noun,R4,N
+994,peace,,평화,peace,noun,R4,N
+995,provided,,제공했다(provide 과거),provide,verb,R4,N
+996,recently,,최근에,recently,adv,R4,N
+997,required,,필요한,require,verb,R4,N
+998,sales,,판매,sale,noun,R4,N
+999,spent,,썼다/보냈다(spend 과거),spend,verb,R4,N
+1000,store,,가게/저장하다,store,noun,R4,Y
+1001,student,,학생,student,noun,R4,Y
+1002,tomorrow,,내일,tomorrow,noun,R4,N
+1003,track,,길/추적하다,track,noun,R4,Y
+1004,via,,~을 통해,via,prep,R4,N
+1005,watching,,보는/봄(watch 진행),watch,verb,R4,Y
+1006,weight,,무게,weight,noun,R4,Y
+1007,addition,,추가,addition,noun,R4,N
+1008,ahead,,앞에,ahead,adv,R4,N
+1009,allow,,허락하다,allow,verb,R4,N
+1010,anti,,반대하는,anti,prep,R4,N
+1011,association,,협회,association,noun,R4,N
+1012,beat,,이기다/치다,beat,verb,R4,N
+1013,brown,,갈색(의),brown,adj,R4,Y
+1014,capital,,수도/자본,capital,noun,R4,N
+1015,chinese,,중국의/중국어,chinese,adj,R4,N
+1016,committee,,위원회,committee,noun,R4,N
+1017,conference,,회의,conference,noun,R4,N
+1018,difference,,차이,difference,noun,R4,N
+1019,double,,두 배의,double,adj,R4,N
+1020,expect,,기대하다,expect,verb,R4,N
+1021,gas,,가스/휘발유,gas,noun,R4,Y
+1022,island,,섬,island,noun,R4,Y
+1023,moved,,움직였다/이사했다(move 과거),move,verb,R4,Y
+1024,normal,,보통의,normal,adj,R4,N
+1025,plans,,계획들(plan 복수),plan,noun,R4,N
+1026,population,,인구,population,noun,R4,N
+1027,potential,,잠재력,potential,noun,R4,N
+1028,pressure,,압력,pressure,noun,R4,N
+1029,radio,,라디오,radio,noun,R4,Y
+1030,russian,,러시아의/러시아어,russian,adj,R4,N
+1031,station,,역/방송국,station,noun,R4,Y
+1032,text,,글/문자,text,noun,R4,N
+1033,treatment,,치료/대우,treatment,noun,R4,N
+1034,western,,서쪽의,western,adj,R4,N
+1035,ass,,엉덩이(속어),ass,noun,R4,N
+1036,beginning,,시작,begin,noun,R4,N
+1037,california,,캘리포니아,california,noun,R4,N
+1038,campaign,,캠페인,campaign,noun,R4,N
+1039,certainly,,확실히,certainly,adv,R4,N
+1040,completely,,완전히,completely,adv,R4,N
+1041,content,,내용,content,noun,R4,N
+1042,credit,,신용/공로,credit,noun,R4,N
+1043,cross,,십자가/건너다,cross,verb,R4,Y
+1044,described,,설명했다(describe 과거),describe,verb,R4,N
+1045,despite,,~에도 불구하고,despite,prep,R4,N
+1046,female,,여성(의),female,adj,R4,Y
+1047,focus,,초점/집중하다,focus,noun,R4,N
+1048,hi,,안녕,hi,intj,R4,N
+1049,husband,,남편,husband,noun,R4,Y
+1050,ice,,얼음,ice,noun,R4,Y
+1051,individual,,개인/개개의,individual,noun,R4,N
+1052,interesting,,흥미로운,interesting,adj,R4,N
+1053,join,,가입하다/합류하다,join,verb,R4,N
+1054,kept,,유지했다(keep 과거),keep,verb,R4,N
+1055,leading,,이끄는,lead,adj,R4,N
+1056,loved,,사랑했다(love 과거),love,verb,R4,N
+1057,message,,메시지,message,noun,R4,Y
+1058,miles,,마일(mile 복수),mile,noun,R4,N
+1059,nearly,,거의,nearly,adv,R4,N
+1060,particular,,특정한,particular,adj,R4,N
+1061,previous,,이전의,previous,adj,R4,N
+1062,quickly,,빨리,quickly,adv,R4,N
+1063,region,,지역,region,noun,R4,N
+1064,reported,,보고했다(report 과거),report,verb,R4,N
+1065,section,,구역/부분,section,noun,R4,N
+1066,sort,,종류/분류하다,sort,noun,R4,N
+1067,speed,,속도,speed,noun,R4,N
+1068,travel,,여행하다,travel,verb,R4,Y
+1069,consider,,고려하다,consider,verb,R4,N
+1070,contact,,연락,contact,noun,R4,N
+1071,drop,,떨어뜨리다/방울,drop,verb,R4,Y
+1072,fair,,공정한/박람회,fair,adj,R4,N
+1073,feet,,발들(foot 복수),foot,noun,R4,Y
+1074,jesus,,예수,jesus,noun,R4,N
+1075,kid,,아이,kid,noun,R4,Y
+1076,link,,연결/링크,link,noun,R4,N
+1077,positive,,긍정적인,positive,adj,R4,N
+1078,sale,,판매/할인,sale,noun,R4,N
+1079,throughout,,도처에,throughout,prep,R4,N
+1080,tour,,여행/관광,tour,noun,R4,N
+1081,welcome,,환영하다,welcome,verb,R4,N
+1082,absolutely,,전적으로,absolutely,adv,R4,N
+1083,additional,,추가의,additional,adj,R4,N
+1084,beyond,,~너머,beyond,prep,R4,N
+1085,conditions,,조건/상태들(condition 복수),condition,noun,R4,N
+1086,earlier,,더 일찍,early,adv,R4,N
+1087,extra,,추가의,extra,adj,R4,N
+1088,forces,,힘/군대들(force 복수),force,noun,R4,N
+1089,immediately,,즉시,immediately,adv,R4,N
+1090,jobs,,직업들(job 복수),job,noun,R4,N
+1091,leaving,,떠나는/떠남(leave 진행),leave,verb,R4,Y
+1092,minute,,분,minute,noun,R4,N
+1093,nature,,자연,nature,noun,R4,Y
+1094,numbers,,숫자들(number 복수),number,noun,R4,N
+1095,quick,,빠른,quick,adj,R4,Y
+1096,sell,,팔다,sell,verb,R4,Y
+1097,significant,,중요한,significant,adj,R4,N
+1098,studies,,연구/공부(study 복수),study,noun,R4,N
+1099,unless,,~하지 않는 한,unless,conj,R4,N
+1100,winning,,이기는/승리,win,verb,R4,Y
+1101,agree,,동의하다,agree,verb,R4,N
+1102,canada,,캐나다,canada,noun,R4,N
+1103,clean,,깨끗한/청소하다,clean,adj,R4,Y
+1104,computer,,컴퓨터,computer,noun,R4,Y
+1105,construction,,건설,construction,noun,R4,Y
+1106,episode,,에피소드,episode,noun,R4,N
+1107,favorite,,가장 좋아하는,favorite,adj,R4,N
+1108,income,,소득,income,noun,R4,N
+1109,justice,,정의,justice,noun,R4,N
+1110,levels,,수준/층(level 복수),level,noun,R4,N
+1111,manager,,관리자,manager,noun,R4,N
+1112,movement,,움직임,movement,noun,R4,N
+1113,photo,,사진,photo,noun,R4,Y
+1114,posted,,게시했다(post 과거),post,verb,R4,N
+1115,safety,,안전,safety,noun,R4,N
+1116,san,,산(성인 이름 앞),san,noun,R4,N
+1117,scene,,장면,scene,noun,R4,N
+1118,sold,,팔았다(sell 과거),sell,verb,R4,Y
+1119,sounds,,소리/~처럼 들리다,sound,noun,R4,N
+1120,spend,,쓰다/보내다,spend,verb,R4,N
+1121,statement,,진술/성명,statement,noun,R4,N
+1122,sun,,해/태양,sun,noun,R4,Y
+1123,teams,,팀들(team 복수),team,noun,R4,Y
+1124,ability,,능력,ability,noun,R4,N
+1125,announced,,발표했다(announce 과거),announce,verb,R4,N
+1126,asking,,묻는/물음(ask 진행),ask,verb,R4,N
+1127,calling,,부르는/전화하는(call 진행),call,verb,R4,Y
+1128,coach,,코치,coach,noun,R4,Y
+1129,collection,,수집품,collection,noun,R4,N
+1130,continued,,계속했다(continue 과거),continue,verb,R4,N
+1131,costs,,비용(cost 복수),cost,noun,R4,N
+1132,definitely,,분명히,definitely,adv,R4,N
+1133,designed,,디자인된,design,verb,R4,N
+1134,expected,,예상된,expect,verb,R4,N
+1135,friday,,금요일,friday,noun,R4,N
+1136,gun,,총,gun,noun,R4,Y
+1137,happens,,일어난다(happen 3인칭),happen,verb,R4,N
+1138,heavy,,무거운,heavy,adj,R4,Y
+1139,includes,,포함한다(include 3인칭),include,verb,R4,N
+1140,knowledge,,지식,knowledge,noun,R4,N
+1141,particularly,,특히,particularly,adv,R4,N
+1142,search,,찾다/검색,search,verb,R4,Y
+1143,subject,,주제/과목,subject,noun,R4,N
+1144,train,,기차,train,noun,R4,Y
+1145,wide,,넓은,wide,adj,R4,Y
+1146,wow,,우와,wow,intj,R4,N
+1147,author,,작가,author,noun,R4,Y
+1148,centre,,중심,center,noun,R4,N
+1149,claim,,주장하다,claim,verb,R4,N
+1150,dad,,아빠,dad,noun,R4,Y
+1151,developed,,발전시켰다(develop 과거),develop,verb,R4,N
+1152,fear,,두려움,fear,noun,R4,Y
+1153,fit,,맞다/건강한,fit,verb,R4,N
+1154,generally,,일반적으로,generally,adv,R4,N
+1155,german,,독일의/독일어,german,adj,R4,N
+1156,global,,세계적인,global,adj,R4,N
+1157,goals,,목표들(goal 복수),goal,noun,R4,N
+1158,gotta,,~해야 한다(got to),must,verb,R4,N
+1159,hotel,,호텔,hotel,noun,R4,Y
+1160,interested,,관심 있는,interested,adj,R4,N
+1161,judge,,판사/판단하다,judge,noun,R4,Y
+1162,lady,,숙녀,lady,noun,R4,Y
+1163,leader,,지도자,leader,noun,R4,N
+1164,letter,,편지/글자,letter,noun,R4,Y
+1165,lines,,선/줄(line 복수),line,noun,R4,N
+1166,material,,재료/자료,material,noun,R4,N
+1167,named,,이름 붙은,name,verb,R4,N
+1168,nobody,,아무도 ~않다,nobody,pron,R4,N
+1169,opportunity,,기회,opportunity,noun,R4,N
+1170,plus,,더하기,plus,conj,R4,N
+1171,pre,,~전의,pre,part,R4,N
+1172,product,,제품,product,noun,R4,N
+1173,regular,,규칙적인,regular,adj,R4,N
+1174,secretary,,비서,secretary,noun,R4,Y
+1175,sister,,언니/누나/여동생,sister,noun,R4,Y
+1176,stories,,이야기들(story 복수),story,noun,R4,N
+1177,unit,,단위,unit,noun,R4,N
+1178,workers,,노동자들(worker 복수),worker,noun,R4,Y
+1179,annual,,매년의,annual,adj,R4,N
+1180,anymore,,더 이상,anymore,adv,R4,N
+1181,bar,,술집/막대,bar,noun,R4,Y
+1182,battle,,전투,battle,noun,R4,Y
+1183,brain,,뇌,brain,noun,R4,Y
+1184,contract,,계약,contract,noun,R4,N
+1185,degree,,도/학위,degree,noun,R4,N
+1186,families,,가족들(family 복수),family,noun,R4,Y
+1187,features,,특징들(feature 복수),feature,noun,R4,N
+1188,finished,,끝난,finish,verb,R4,N
+1189,floor,,바닥/층,floor,noun,R4,Y
+1190,france,,프랑스,france,noun,R4,N
+1191,growing,,자라는(grow 진행),grow,verb,R4,Y
+1192,hurt,,다치게 하다/아프다,hurt,verb,R4,Y
+1193,image,,이미지,image,noun,R4,Y
+1194,insurance,,보험,insurance,noun,R4,N
+1195,majority,,대다수,majority,noun,R4,N
+1196,meant,,의미했다(mean 과거),mean,verb,R4,N
+1197,opening,,여는/개막,open,noun,R4,N
+1198,opinion,,의견,opinion,noun,R4,N
+1199,physical,,신체의,physical,adj,R4,N
+1200,pro,,전문가/찬성,pro,noun,R4,N
+1201,reach,,닿다/도달하다,reach,verb,R4,Y
+1202,rule,,규칙,rule,noun,R4,N
+1203,seriously,,진지하게,seriously,adv,R4,N
+1204,sports,,스포츠(sport 복수),sport,noun,R4,Y
+1205,stupid,,어리석은,stupid,adj,R4,N
+1206,successful,,성공한,successful,adj,R4,N
+1207,active,,활동적인,active,adj,R4,N
+1208,administration,,행정/정부,administration,noun,R4,N
+1209,approach,,접근하다/접근법,approach,verb,R4,N
+1210,australian,,호주의,australia,adj,R4,N
+1211,biggest,,가장 큰(big 최상급),big,adj,R4,Y
+1212,cancer,,암,cancer,noun,R4,N
+1213,civil,,시민의,civil,adj,R4,N
+1214,dance,,춤추다,dance,verb,R4,Y
+1215,defense,,방어,defense,noun,R4,N
+1216,direction,,방향,direction,noun,R4,Y
+1217,independent,,독립적인,independent,adj,R4,N
+1218,master,,주인/숙달하다,master,noun,R4,N
+1219,none,,아무것도 ~없다,none,pron,R4,N
+1220,reasons,,이유들(reason 복수),reason,noun,R4,N
+1221,russia,,러시아,russia,noun,R4,N
+1222,ship,,배,ship,noun,R4,Y
+1223,stock,,주식/재고,stock,noun,R4,N
+1224,weekend,,주말,weekend,noun,R4,N
+1225,wonder,,궁금하다,wonder,verb,R4,N
+1226,worst,,가장 나쁜(bad 최상급),bad,adj,R4,N
+1227,africa,,아프리카,africa,noun,R4,N
+1228,awesome,,멋진,awesome,adj,R4,N
+1229,band,,밴드/띠,band,noun,R4,Y
+1230,beach,,해변,beach,noun,R4,Y
+1231,cash,,현금,cash,noun,R4,Y
+1232,clearly,,분명히,clearly,adv,R4,N
+1233,commercial,,상업의/광고,commercial,adj,R4,N
+1234,compared,,비교된,compare,verb,R4,N
+1235,effort,,노력,effort,noun,R4,N
+1236,ended,,끝났다(end 과거),end,verb,R4,N
+1237,fan,,팬/선풍기,fan,noun,R4,Y
+1238,fighting,,싸우는/싸움(fight 진행),fight,verb,R4,Y
+1239,imagine,,상상하다,imagine,verb,R4,N
+1240,impact,,영향/충격,impact,noun,R4,N
+1241,lack,,부족,lack,noun,R4,N
+1242,latest,,최신의,late,adj,R4,N
+1243,learning,,배우는/학습(learn 진행),learn,verb,R4,N
+1244,multiple,,여러 개의,multiple,adj,R4,N
+1245,older,,더 나이 든(old 비교급),old,adj,R4,Y
+1246,operation,,수술/작동,operation,noun,R4,N
+1247,organization,,조직,organization,noun,R4,N
+1248,passed,,지나갔다/통과했다(pass 과거),pass,verb,R4,N
+1249,pictures,,그림/사진들(picture 복수),picture,noun,R4,Y
+1250,protect,,보호하다,protect,verb,R4,N
+1251,secret,,비밀,secret,noun,R4,N
+1252,senior,,선배의/노인,senior,adj,R4,N
+1253,spring,,봄/용수철,spring,noun,R4,Y
+1254,sunday,,일요일,sunday,noun,R4,N
+1255,telling,,말하는(tell 진행),tell,verb,R4,N
+1256,wear,,입다,wear,verb,R4,Y
+1257,activities,,활동들(activity 복수),activity,noun,R4,N
+1258,address,,주소,address,noun,R4,N
+1259,analysis,,분석,analysis,noun,R4,N
+1260,anyway,,어쨌든,anyway,adv,R4,N
+1261,bought,,샀다(buy 과거),buy,verb,R4,Y
+1262,calls,,전화/부름(call 복수),call,noun,R4,N
+1263,choose,,고르다,choose,verb,R4,N
+1264,christmas,,크리스마스,christmas,noun,R4,Y
+1265,color,,색깔,color,noun,R4,Y
+1266,commission,,위원회/수수료,commission,noun,R4,N
+1267,competition,,경쟁/대회,competition,noun,R4,N
+1268,details,,세부사항(detail 복수),detail,noun,R4,N
+1269,direct,,직접적인,direct,adj,R4,N
+1270,dream,,꿈,dream,noun,R4,Y
+1271,easily,,쉽게,easily,adv,R4,N
+1272,finish,,끝내다,finish,verb,R4,N
+1273,grand,,웅장한,grand,adj,R4,N
+1274,here's,,여기 ~이 있다(here is),here,adv,R4,N
+1275,increased,,늘어난,increase,verb,R4,N
+1276,indian,,인도의,india,adj,R4,N
+1277,literally,,문자 그대로,literally,adv,R4,N
+1278,luck,,행운,luck,noun,R4,N
+1279,marriage,,결혼,marriage,noun,R4,Y
+1280,names,,이름들(name 복수),name,noun,R4,N
+1281,necessary,,필요한,necessary,adj,R4,N
+1282,patients,,환자들(patient 복수),patient,noun,R4,Y
+1283,resources,,자원들(resource 복수),resource,noun,R4,N
+1284,rich,,부유한,rich,adj,R4,Y
+1285,skin,,피부,skin,noun,R4,Y
+1286,speaking,,말하는(speak 진행),speak,verb,R4,Y
+1287,supposed,,~하기로 되어 있는,suppose,verb,R4,N
+1288,sweet,,달콤한,sweet,adj,R4,Y
+1289,thus,,따라서,thus,adv,R4,N
+1290,touch,,만지다,touch,verb,R4,Y
+1291,yesterday,,어제,yesterday,noun,R4,N
+1292,caught,,잡았다(catch 과거),catch,verb,R4,Y
+1293,closed,,닫힌,close,adj,R4,Y
+1294,congress,,의회,congress,noun,R4,N
+1295,damage,,손상,damage,noun,R4,N
+1296,directly,,직접,directly,adv,R4,N
+1297,disease,,질병,disease,noun,R4,N
+1298,doctor,,의사,doctor,noun,R4,Y
+1299,doubt,,의심,doubt,noun,R4,N
+1300,drink,,마시다/음료,drink,verb,R4,Y
+1301,driving,,운전하는(drive 진행),drive,verb,R4,Y
+1302,established,,설립된,establish,verb,R4,N
+1303,feels,,느낀다(feel 3인칭),feel,verb,R4,N
+1304,fish,,물고기,fish,noun,R4,Y
+1305,gay,,동성애의,gay,adj,R4,N
+1306,germany,,독일,germany,noun,R4,N
+1307,glad,,기쁜,glad,adj,R4,Y
+1308,greater,,더 큰(great 비교급),great,adj,R4,N
+1309,grow,,자라다,grow,verb,R4,Y
+1310,largest,,가장 큰(large 최상급),large,adj,R4,Y
+1311,machine,,기계,machine,noun,R4,Y
+1312,notice,,알아차리다/공지,notice,verb,R4,N
+1313,overall,,전반적인,overall,adj,R4,N
+1314,planning,,계획하는/계획(plan 진행),plan,verb,R4,N
+1315,professor,,교수,professor,noun,R4,Y
+1316,programs,,프로그램들(program 복수),program,noun,R4,N
+1317,records,,기록/음반(record 복수),record,noun,R4,N
+1318,reports,,보고서(report 복수),report,noun,R4,N
+1319,shown,,보여진(show 과거분사),show,verb,R4,N
+1320,sit,,앉다,sit,verb,R4,Y
+1321,trip,,여행,trip,noun,R4,Y
+1322,associated,,관련된,associate,verb,R4,N
+1323,basic,,기본적인,basic,adj,R4,N
+1324,captain,,선장/주장,captain,noun,R4,Y
+1325,carry,,나르다,carry,verb,R4,Y
+1326,cars,,자동차들(car 복수),car,noun,R4,Y
+1327,crime,,범죄,crime,noun,R4,N
+1328,effective,,효과적인,effective,adj,R4,N
+1329,effects,,효과들(effect 복수),effect,noun,R4,N
+1330,explain,,설명하다,explain,verb,R4,N
+1331,fully,,완전히,fully,adv,R4,N
+1332,highly,,매우,highly,adv,R4,N
+1333,holding,,잡고 있는(hold 진행),hold,verb,R4,Y
+1334,japan,,일본,japan,noun,R4,N
+1335,laws,,법들(law 복수),law,noun,R4,N
+1336,male,,남성(의),male,adj,R4,Y
+1337,mrs,,~부인,mrs,noun,R4,N
+1338,parties,,파티/정당들(party 복수),party,noun,R4,Y
+1339,plant,,식물,plant,noun,R4,Y
+1340,reality,,현실,reality,noun,R4,N
+1341,smith,,스미스(이름),smith,noun,R4,N
+1342,spot,,점/장소,spot,noun,R4,N
+1343,texas,,텍사스,texas,noun,R4,N
+1344,we'll,,우리는 ~할 것이다(we will),we,pron,R4,N
+1345,winter,,겨울,winter,noun,R4,Y
+1346,worse,,더 나쁜(bad 비교급),bad,adj,R4,N
+1347,advice,,조언,advice,noun,R4,N
+1348,agreement,,합의,agreement,noun,R4,N
+1349,ain't,,~이 아니다(구어),be,aux,R4,N
+1350,award,,상,award,noun,R4,Y
+1351,block,,블록/막다,block,noun,R4,Y
+1352,broken,,부서진,break,adj,R4,Y
+1353,caused,,일으켰다(cause 과거),cause,verb,R4,N
+1354,challenge,,도전,challenge,noun,R4,N
+1355,characters,,등장인물/글자들(character 복수),character,noun,R4,N
+1356,christian,,기독교의,christian,adj,R4,N
+1357,comment,,댓글/의견,comment,noun,R4,N
+1358,equipment,,장비,equipment,noun,R4,Y
+1359,eventually,,결국,eventually,adv,R4,N
+1360,helped,,도왔다(help 과거),help,verb,R4,Y
+1361,holy,,신성한,holy,adj,R4,N
+1362,killing,,죽이는/살인(kill 진행),kill,verb,R4,N
+1363,lived,,살았다(live 과거),live,verb,R4,N
+1364,lots,,많음,lot,noun,R4,N
+1365,nation,,국가,nation,noun,R4,N
+1366,otherwise,,그렇지 않으면,otherwise,adv,R4,N
+1367,peter,,피터(이름),peter,noun,R4,N
+1368,prices,,가격들(price 복수),price,noun,R4,N
+1369,primary,,주된,primary,adj,R4,N
+1370,purpose,,목적,purpose,noun,R4,N
+1371,rates,,비율/요금(rate 복수),rate,noun,R4,N
+1372,responsible,,책임 있는,responsible,adj,R4,N
+1373,shop,,가게,shop,noun,R4,Y
+1374,showing,,보여주는(show 진행),show,verb,R4,N
+1375,sick,,아픈,sick,adj,R4,Y
+1376,teacher,,선생님,teacher,noun,R4,Y
+1377,theory,,이론,theory,noun,R4,N
+1378,uses,,사용한다/용도(use 3인칭/복수),use,verb,R4,N
+1379,william,,윌리엄(이름),william,noun,R4,N
+1380,agency,,기관,agency,noun,R4,N
+1381,avoid,,피하다,avoid,verb,R4,N
+1382,camera,,카메라,camera,noun,R4,Y
+1383,catch,,잡다,catch,verb,R4,Y
+1384,cell,,세포/감방,cell,noun,R4,Y
+1385,coast,,해안,coast,noun,R4,Y
+1386,comments,,댓글들(comment 복수),comment,noun,R4,N
+1387,drug,,약/마약,drug,noun,R4,N
+1388,economy,,경제,economy,noun,R4,N
+1389,environment,,환경,environment,noun,R4,N
+1390,executive,,임원,executive,noun,R4,N
+1391,foot,,발,foot,noun,R4,Y
+1392,hall,,복도/회관,hall,noun,R4,Y
+1393,mass,,덩어리/대중,mass,noun,R4,N
+1394,meaning,,의미,meaning,noun,R4,N
+1395,mission,,임무,mission,noun,R4,N
+1396,nine,,아홉,nine,num,R4,N
+1397,officers,,경찰관/장교들(officer 복수),officer,noun,R4,Y
+1398,operations,,작전/수술들(operation 복수),operation,noun,R4,N
+1399,politics,,정치,politics,noun,R4,N
+1400,pop,,팝/펑 터지다,pop,noun,R4,N
+1401,produced,,생산했다(produce 과거),produce,verb,R4,N
+1402,ran,,달렸다(run 과거),run,verb,R4,Y
+1403,saturday,,토요일,saturday,noun,R4,N
+1404,status,,지위/상태,status,noun,R4,N
+1405,therefore,,그러므로,therefore,adv,R4,N
+1406,trial,,재판/시험,trial,noun,R4,N
+1407,truly,,진정으로,truly,adv,R4,N
+1408,weather,,날씨,weather,noun,R4,Y
+1409,activity,,활동,activity,noun,R4,N
+1410,app,,앱,app,noun,R4,Y
+1411,application,,신청/응용,application,noun,R4,N
+1412,claims,,주장/청구(claim 복수),claim,noun,R4,N
+1413,coffee,,커피,coffee,noun,R4,Y
+1414,complex,,복잡한,complex,adj,R4,N
+1415,condition,,조건/상태,condition,noun,R4,N
+1416,division,,나눗셈/부서,division,noun,R4,N
+1417,evening,,저녁,evening,noun,R4,Y
+1418,flight,,비행,flight,noun,R4,Y
+1419,freedom,,자유,freedom,noun,R4,N
+1420,heat,,열/더위,heat,noun,R4,Y
+1421,highest,,가장 높은(high 최상급),high,adj,R4,Y
+1422,interview,,면접/인터뷰,interview,noun,R4,Y
+1423,library,,도서관,library,noun,R4,Y
+1424,located,,위치한,locate,verb,R4,N
+1425,location,,위치,location,noun,R4,N
+1426,murder,,살인,murder,noun,R4,N
+1427,offered,,제안했다(offer 과거),offer,verb,R4,N
+1428,putting,,놓는(put 진행),put,verb,R4,Y
+1429,queen,,여왕,queen,noun,R4,Y
+1430,seconds,,초(second 복수),second,noun,R4,N
+1431,showed,,보여줬다(show 과거),show,verb,R4,N
+1432,sitting,,앉아 있는(sit 진행),sit,verb,R4,Y
+1433,standing,,서 있는(stand 진행),stand,verb,R4,Y
+1434,stars,,별들(star 복수),star,noun,R4,Y
+1435,walking,,걷는(walk 진행),walk,verb,R4,Y
+1436,accept,,받아들이다,accept,verb,R4,N
+1437,actual,,실제의,actual,adj,R4,N
+1438,appear,,나타나다,appear,verb,R4,N
+1439,attempt,,시도,attempt,noun,R4,N
+1440,broke,,부러졌다(break 과거),break,verb,R4,Y
+1441,channel,,채널,channel,noun,R4,N
+1442,distance,,거리,distance,noun,R4,N
+1443,eating,,먹는(eat 진행),eat,verb,R4,Y
+1444,exchange,,교환,exchange,noun,R4,N
+1445,fat,,뚱뚱한/지방,fat,adj,R4,Y
+1446,fell,,넘어졌다(fall 과거),fall,verb,R4,Y
+1447,finding,,찾는(find 진행),find,verb,R4,N
+1448,glass,,유리/잔,glass,noun,R4,Y
+1449,learned,,배웠다(learn 과거),learn,verb,R4,N
+1450,losing,,잃는(lose 진행),lose,verb,R4,N
+1451,mobile,,이동식의/휴대폰,mobile,adj,R4,Y
+1452,northern,,북쪽의,north,adj,R4,N
+1453,opened,,열렸다(open 과거),open,verb,R4,Y
+1454,placed,,놓았다(place 과거),place,verb,R4,N
+1455,powerful,,강력한,powerful,adj,R4,N
+1456,prior,,이전의,prior,adj,R4,N
+1457,protection,,보호,protection,noun,R4,N
+1458,reached,,도달했다(reach 과거),reach,verb,R4,N
+1459,receive,,받다,receive,verb,R4,N
+1460,religious,,종교적인,religious,adj,R4,N
+1461,ride,,타다,ride,verb,R4,Y
+1462,robert,,로버트(이름),robert,noun,R4,N
+1463,royal,,왕실의,royal,adj,R4,Y
+1464,screen,,화면,screen,noun,R4,Y
+1465,serve,,제공하다/섬기다,serve,verb,R4,N
+1466,signed,,서명했다(sign 과거),sign,verb,R4,N
+1467,slow,,느린,slow,adj,R4,Y
+1468,species,,종,species,noun,R4,N
+1469,speech,,연설,speech,noun,R4,Y
+1470,traffic,,교통,traffic,noun,R4,Y
+1471,tree,,나무,tree,noun,R4,Y
+1472,types,,종류들(type 복수),type,noun,R4,N
+1473,vs,,~ 대(versus),versus,prep,R4,N
+1474,wearing,,입고 있는(wear 진행),wear,verb,R4,Y
+1475,who's,,누구냐/누가 ~이다(who is),who,pron,R4,N
+1476,whom,,누구를,whom,pron,R4,N
+1477,wonderful,,멋진,wonderful,adj,R4,N
+1478,agreed,,동의했다(agree 과거),agree,verb,R4,N
+1479,airport,,공항,airport,noun,R4,Y
+1480,animals,,동물들(animal 복수),animal,noun,R4,Y
+1481,appears,,나타난다(appear 3인칭),appear,verb,R4,N
+1482,begin,,시작하다,begin,verb,R4,N
+1483,benefits,,혜택들(benefit 복수),benefit,noun,R4,N
+1484,bottom,,바닥/맨 아래,bottom,noun,R4,Y
+1485,cities,,도시들(city 복수),city,noun,R4,Y
+1486,demand,,요구/수요,demand,noun,R4,N
+1487,engine,,엔진,engine,noun,R4,Y
+1488,everybody,,모두,everybody,pron,R4,N
+1489,famous,,유명한,famous,adj,R4,N
+1490,ideas,,생각들(idea 복수),idea,noun,R4,N
+1491,investment,,투자,investment,noun,R4,N
+1492,keeping,,유지하는(keep 진행),keep,verb,R4,N
+1493,lie,,거짓말/눕다,lie,noun,R4,N
+1494,notes,,메모들(note 복수),note,noun,R4,Y
+1495,partner,,동반자,partner,noun,R4,Y
+1496,plays,,논다/연극(play 3인칭/복수),play,verb,R4,Y
+1497,raised,,올렸다/키웠다(raise 과거),raise,verb,R4,Y
+1498,runs,,달린다(run 3인칭),run,verb,R4,Y
+1499,sad,,슬픈,sad,adj,R4,Y
+1500,solution,,해결책,solution,noun,R4,N
+1501,songs,,노래들(song 복수),song,noun,R4,Y
+1502,sources,,출처들(source 복수),source,noun,R4,N
+1503,southern,,남쪽의,south,adj,R4,N
+1504,square,,정사각형,square,noun,R4,Y
+1505,stopped,,멈췄다(stop 과거),stop,verb,R4,Y
+1506,structure,,구조,structure,noun,R4,N
+1507,thomas,,토머스(이름),thomas,noun,R4,N
+1508,traditional,,전통적인,traditional,adj,R4,N
+1509,twice,,두 번,twice,adv,R4,N
+1510,wind,,바람,wind,noun,R4,Y
+1511,worry,,걱정하다,worry,verb,R4,Y
+1512,americans,,미국인들,american,noun,R4,N
+1513,appeared,,나타났다(appear 과거),appear,verb,R4,N
+1514,becomes,,된다(become 3인칭),become,verb,R4,N
+1515,brand,,상표,brand,noun,R4,N
+1516,bus,,버스,bus,noun,R4,Y
+1517,cent,,센트,cent,noun,R4,N
+1518,chicago,,시카고,chicago,noun,R4,N
+1519,count,,세다,count,verb,R4,Y
+1520,covered,,덮인,cover,verb,R4,N
+1521,critical,,비판적인/중요한,critical,adj,R4,N
+1522,digital,,디지털의,digital,adj,R4,N
+1523,forced,,강요된,force,verb,R4,N
+1524,fourth,,네 번째,fourth,num,R4,N
+1525,fresh,,신선한,fresh,adj,R4,Y
+1526,lake,,호수,lake,noun,R4,Y
+1527,mental,,정신의,mental,adj,R4,N
+1528,mentioned,,언급했다(mention 과거),mention,verb,R4,N
+1529,missed,,놓쳤다(miss 과거),miss,verb,R4,N
+1530,mostly,,대부분,mostly,adv,R4,N
+1531,mouth,,입,mouth,noun,R4,Y
+1532,owner,,주인,owner,noun,R4,Y
+1533,photos,,사진들(photo 복수),photo,noun,R4,Y
+1534,previously,,이전에,previously,adv,R4,N
+1535,realize,,깨닫다,realize,verb,R4,N
+1536,remain,,남아 있다,remain,verb,R4,N
+1537,scale,,규모/저울,scale,noun,R4,Y
+1538,score,,점수,score,noun,R4,Y
+1539,separate,,분리된,separate,adj,R4,N
+1540,smart,,똑똑한,smart,adj,R4,Y
+1541,starts,,시작한다(start 3인칭),start,verb,R4,N
+1542,surface,,표면,surface,noun,R4,N
+1543,throw,,던지다,throw,verb,R4,Y
+1544,tom,,톰(이름),tom,noun,R4,N
+1545,totally,,완전히,totally,adv,R4,N
+1546,views,,견해/경치들(view 복수),view,noun,R4,N
+1547,wedding,,결혼식,wedding,noun,R4,Y
+1548,you'd,,너는 ~했을 것이다(you would),you,pron,R4,N
+1549,acting,,연기,act,noun,R4,N
+1550,actions,,행동들(action 복수),action,noun,R4,N
+1551,african,,아프리카의,africa,adj,R4,N
+1552,arms,,팔들(arm 복수),arm,noun,R4,Y
+1553,benefit,,이익,benefit,noun,R4,N
+1554,budget,,예산,budget,noun,R4,N
+1555,click,,클릭하다,click,verb,R4,Y
+1556,estate,,부동산/재산,estate,noun,R4,N
+1557,failed,,실패했다(fail 과거),fail,verb,R4,N
+1558,faith,,믿음,faith,noun,R4,N
+1559,fashion,,패션,fashion,noun,R4,Y
+1560,feature,,특징,feature,noun,R4,N
+1561,fund,,기금,fund,noun,R4,N
+1562,generation,,세대,generation,noun,R4,N
+1563,hearing,,듣는/청력(hear 진행),hear,verb,R4,N
+1564,hill,,언덕,hill,noun,R4,Y
+1565,jack,,잭(이름)/잭 도구,jack,noun,R4,N
+1566,larger,,더 큰(large 비교급),large,adj,R4,Y
+1567,louis,,루이(이름),louis,noun,R4,N
+1568,metal,,금속,metal,noun,R4,Y
+1569,mid,,중간의,mid,adj,R4,N
+1570,paris,,파리,paris,noun,R4,N
+1571,profile,,프로필,profile,noun,R4,N
+1572,pull,,당기다,pull,verb,R4,Y
+1573,push,,밀다,push,verb,R4,Y
+1574,returned,,돌아왔다(return 과거),return,verb,R4,N
+1575,rose,,장미/올랐다(rise 과거),rose,noun,R4,Y
+1576,seat,,좌석,seat,noun,R4,Y
+1577,seemed,,~처럼 보였다(seem 과거),seem,verb,R4,N
+1578,sexual,,성적인,sexual,adj,R4,N
+1579,shouldn't,,~하면 안 된다(should not),should,aux,R4,N
+1580,target,,목표물,target,noun,R4,Y
+1581,understanding,,이해,understand,noun,R4,N
+1582,village,,마을,village,noun,R4,Y
+1583,agent,,요원/대리인,agent,noun,R4,N
+1584,animal,,동물,animal,noun,R4,Y
+1585,apply,,지원하다/적용하다,apply,verb,R4,N
+1586,authority,,권위,authority,noun,R4,N
+1587,basis,,기초,basis,noun,R4,N
+1588,becoming,,되는(become 진행),become,verb,R4,N
+1589,chris,,크리스(이름),chris,noun,R4,N
+1590,draw,,그리다,draw,verb,R4,Y
+1591,dude,,친구/야,dude,noun,R4,N
+1592,employees,,직원들(employee 복수),employee,noun,R4,Y
+1593,enter,,들어가다,enter,verb,R4,Y
+1594,ex,,전 ~,ex,noun,R4,N
+1595,follows,,따른다(follow 3인칭),follow,verb,R4,N
+1596,foundation,,기초/재단,foundation,noun,R4,N
+1597,gain,,얻다,gain,verb,R4,N
+1598,http,,웹 주소 규약,http,noun,R4,N
+1599,individuals,,개인들(individual 복수),individual,noun,R4,N
+1600,japanese,,일본의/일본어,japan,adj,R4,N
+1601,leaders,,지도자들(leader 복수),leader,noun,R4,N
+1602,memory,,기억,memory,noun,R4,N
+1603,prime,,주요한,prime,adj,R4,N
+1604,projects,,프로젝트들(project 복수),project,noun,R4,N
+1605,ring,,반지/울리다,ring,noun,R4,Y
+1606,rise,,오르다,rise,verb,R4,Y
+1607,selling,,파는(sell 진행),sell,verb,R4,Y
+1608,served,,제공했다(serve 과거),serve,verb,R4,N
+1609,silver,,은/은색,silver,noun,R4,Y
+1610,soul,,영혼,soul,noun,R4,N
+1611,spread,,퍼지다/펼치다,spread,verb,R4,N
+1612,supply,,공급,supply,noun,R4,N
+1613,waste,,낭비/쓰레기,waste,noun,R4,Y
+1614,weird,,이상한,weird,adj,R4,N
+1615,adult,,어른,adult,noun,R4,Y
+1616,apparently,,듣자 하니,apparently,adv,R4,N
+1617,artist,,예술가,artist,noun,R4,Y
+1618,chairman,,의장,chairman,noun,R4,Y
+1619,edition,,판,edition,noun,R4,N
+1620,engineering,,공학,engineering,noun,R4,N
+1621,grade,,등급/학년,grade,noun,R4,N
+1622,happening,,일어나는(happen 진행),happen,verb,R4,N
+1623,healthy,,건강한,healthy,adj,R4,Y
+1624,institute,,기관/연구소,institute,noun,R4,N
+1625,method,,방법,method,noun,R4,N
+1626,mike,,마이크(이름),mike,noun,R4,N
+1627,monday,,월요일,monday,noun,R4,N
+1628,nations,,국가들(nation 복수),nation,noun,R4,N
+1629,obviously,,분명히,obviously,adv,R4,N
+1630,option,,선택지,option,noun,R4,N
+1631,prison,,감옥,prison,noun,R4,Y
+1632,provides,,제공한다(provide 3인칭),provide,verb,R4,N
+1633,remains,,남아 있다(remain 3인칭),remain,verb,R4,N
+1634,senate,,상원,senate,noun,R4,N
+1635,smaller,,더 작은(small 비교급),small,adj,R4,Y
+1636,somebody,,누군가,somebody,pron,R4,N
+1637,stone,,돌,stone,noun,R4,Y
+1638,strength,,힘,strength,noun,R4,Y
+1639,users,,사용자들(user 복수),user,noun,R4,N
+1640,wild,,야생의,wild,adj,R4,Y
+1641,window,,창문,window,noun,R4,Y
+1642,winner,,우승자,winner,noun,R4,Y
+1643,arrived,,도착했다(arrive 과거),arrive,verb,R4,Y
+1644,bag,,가방,bag,noun,R4,Y
+1645,bet,,내기하다,bet,verb,R4,N
+1646,camp,,캠프/야영,camp,noun,R4,Y
+1647,cast,,출연진/던지다,cast,noun,R4,N
+1648,christ,,그리스도,christ,noun,R4,N
+1649,continues,,계속된다(continue 3인칭),continue,verb,R4,N
+1650,correct,,맞는,correct,adj,R4,N
+1651,dangerous,,위험한,dangerous,adj,R4,Y
+1652,ed,,에드(이름),ed,noun,R4,N
+1653,extremely,,극도로,extremely,adv,R4,N
+1654,firm,,회사/단단한,firm,noun,R4,N
+1655,greatest,,가장 위대한(great 최상급),great,adj,R4,N
+1656,handle,,손잡이/다루다,handle,noun,R4,Y
+1657,improve,,개선하다,improve,verb,R4,N
+1658,indeed,,정말로,indeed,adv,R4,N
+1659,leaves,,"잎/떠난다(leaf 복수, leave 3인칭)",leaf,noun,R4,Y
+1660,movies,,영화들(movie 복수),movie,noun,R4,Y
+1661,negative,,부정적인,negative,adj,R4,N
+1662,prevent,,막다,prevent,verb,R4,N
+1663,removed,,제거된,remove,verb,R4,N
+1664,richard,,리처드(이름),richard,noun,R4,N
+1665,spirit,,정신/영혼,spirit,noun,R4,N
+1666,television,,텔레비전,television,noun,R4,Y
+1667,till,,~까지,till,prep,R4,N
+1668,trouble,,문제/곤란,trouble,noun,R4,N
+1669,usa,,미국,usa,noun,R4,N
+1670,videos,,영상들(video 복수),video,noun,R4,Y
+1671,advantage,,이점,advantage,noun,R4,N
+1672,apart,,떨어져,apart,adv,R4,N
+1673,aware,,알고 있는,aware,adj,R4,N
+1674,cat,,고양이,cat,noun,R4,Y
+1675,customers,,고객들(customer 복수),customer,noun,R4,Y
+1676,decide,,결정하다,decide,verb,R4,N
+1677,dinner,,저녁식사,dinner,noun,R4,Y
+1678,dollars,,달러,dollar,noun,R4,Y
+1679,eastern,,동쪽의,east,adj,R4,N
+1680,fifth,,다섯 번째,fifth,num,R4,N
+1681,function,,기능/작용,function,noun,R4,N
+1682,gift,,선물,gift,noun,R4,Y
+1683,helping,,돕는/도움(help ~ing),help,noun,R4,N
+1684,herself,,그녀 자신,herself,pron,R4,N
+1685,impossible,,불가능한,impossible,adj,R4,N
+1686,influence,,영향(을 주다),influence,noun,R4,N
+1687,items,,물품/항목,item,noun,R4,N
+1688,joe,,조(남자 이름),joe,noun,R4,N
+1689,los,,로스(지명 Los Angeles),los,noun,R4,N
+1690,marketing,,마케팅,marketing,noun,R4,N
+1691,mary,,메리(여자 이름),mary,noun,R4,N
+1692,materials,,재료/자료,material,noun,R4,N
+1693,nor,,~도 아니다,nor,conj,R4,N
+1694,produce,,생산하다/농산물,produce,verb,R4,N
+1695,progress,,진전/진행,progress,noun,R4,N
+1696,proud,,자랑스러운,proud,adj,R4,Y
+1697,require,,필요로 하다/요구하다,require,verb,R4,N
+1698,shooting,,사격/촬영,shoot,noun,R4,Y
+1699,shut,,닫다,shut,verb,R4,Y
+1700,standards,,기준/수준,standard,noun,R4,N
+1701,tells,,말하다(3인칭),tell,verb,R4,N
+1702,thinks,,생각하다(3인칭),think,verb,R4,N
+1703,van,,승합차,van,noun,R4,Y
+1704,wood,,나무/목재,wood,noun,R4,Y
+1705,background,,배경,background,noun,R4,N
+1706,birth,,출생,birth,noun,R4,N
+1707,bridge,,다리,bridge,noun,R4,Y
+1708,carried,,운반했다(carry 과거),carry,verb,R4,Y
+1709,charles,,찰스(남자 이름),charles,noun,R4,N
+1710,classes,,수업/반,class,noun,R4,Y
+1711,completed,,완료한(complete 과거),complete,verb,R4,N
+1712,concept,,개념,concept,noun,R4,N
+1713,copy,,복사(하다),copy,noun,R4,Y
+1714,dear,,사랑하는/소중한,dear,adj,R4,N
+1715,dogs,,개들,dog,noun,R4,Y
+1716,drugs,,약/마약,drug,noun,R4,N
+1717,efforts,,노력,effort,noun,R4,N
+1718,garden,,정원,garden,noun,R4,Y
+1719,host,,주인/진행자,host,noun,R4,Y
+1720,housing,,주택/주거,housing,noun,R4,N
+1721,inc,,주식회사(Inc.),inc,noun,R4,N
+1722,israel,,이스라엘,israel,noun,R4,N
+1723,journal,,저널/일기,journal,noun,R4,Y
+1724,labor,,노동,labor,noun,R4,N
+1725,leadership,,리더십/지도력,leadership,noun,R4,N
+1726,length,,길이,length,noun,R4,N
+1727,lucky,,운이 좋은,lucky,adj,R4,N
+1728,neither,,어느 쪽도 ~않다,neither,conj,R4,N
+1729,onto,,~위로,onto,prep,R4,N
+1730,patient,,환자/참을성 있는,patient,noun,R4,Y
+1731,possibly,,아마도/가능한 한,possibly,adv,R4,N
+1732,prove,,증명하다,prove,verb,R4,N
+1733,rare,,드문,rare,adj,R4,N
+1734,setting,,배경/설정,setting,noun,R4,N
+1735,skills,,기술/실력,skill,noun,R4,N
+1736,software,,소프트웨어,software,noun,R4,N
+1737,thousands,,수천,thousand,num,R4,N
+1738,tough,,힘든/질긴,tough,adj,R4,N
+1739,units,,단위/부대,unit,noun,R4,N
+1740,ad,,광고,ad,noun,R4,Y
+1741,alive,,살아 있는,alive,adj,R4,N
+1742,apple,,사과,apple,noun,R4,Y
+1743,balance,,균형/잔액,balance,noun,R4,N
+1744,birthday,,생일,birthday,noun,R4,Y
+1745,bitch,,암캐(비속어),bitch,noun,R4,N
+1746,boss,,상사/사장,boss,noun,R4,Y
+1747,cards,,카드,card,noun,R4,Y
+1748,changing,,바꾸는/변하는,change,verb,R4,N
+1749,connection,,연결,connection,noun,R4,N
+1750,dress,,드레스/옷을 입다,dress,noun,R4,Y
+1751,easier,,더 쉬운(easy 비교급),easy,adj,R4,N
+1752,fellow,,동료/친구,fellow,noun,R4,N
+1753,florida,,플로리다,florida,noun,R4,N
+1754,horse,,말,horse,noun,R4,Y
+1755,knowing,,아는(know ~ing),know,verb,R4,N
+1756,liked,,좋아했다(like 과거),like,verb,R4,N
+1757,magic,,마법,magic,noun,R4,Y
+1758,managed,,관리했다/간신히 해냈다(manage 과거),manage,verb,R4,N
+1759,map,,지도,map,noun,R4,Y
+1760,net,,그물/순수한,net,noun,R4,Y
+1761,owned,,소유했다(own 과거),own,verb,R4,N
+1762,request,,요청(하다),request,noun,R4,N
+1763,stick,,막대기/붙이다,stick,noun,R4,Y
+1764,they've,,그들은 ~했다(they have),they,pron,R4,N
+1765,turns,,돌다(3인칭)/차례,turn,verb,R4,N
+1766,vehicle,,차량,vehicle,noun,R4,Y
+1767,volume,,음량/부피,volume,noun,R4,N
+1768,wake,,깨다/깨우다,wake,verb,R4,Y
+1769,aid,,도움/지원,aid,noun,R4,N
+1770,beauty,,아름다움,beauty,noun,R4,N
+1771,believed,,믿었다(believe 과거),believe,verb,R4,N
+1772,billion,,십억,billion,num,R4,N
+1773,busy,,바쁜,busy,adj,R4,Y
+1774,buying,,사는/구매(buy ~ing),buy,verb,R4,Y
+1775,cells,,세포/감방,cell,noun,R4,N
+1776,concerned,,걱정하는/관련된,concerned,adj,R4,N
+1777,conversation,,대화,conversation,noun,R4,Y
+1778,corner,,모퉁이,corner,noun,R4,Y
+1779,criminal,,범죄자/범죄의,criminal,noun,R4,Y
+1780,cultural,,문화의,cultural,adj,R4,N
+1781,develop,,개발하다/발전시키다,develop,verb,R4,N
+1782,driver,,운전자,driver,noun,R4,Y
+1783,ends,,끝/끝나다,end,noun,R4,N
+1784,existing,,기존의,existing,adj,R4,N
+1785,farm,,농장,farm,noun,R4,Y
+1786,file,,파일/서류철,file,noun,R4,Y
+1787,fix,,고치다,fix,verb,R4,Y
+1788,fly,,날다/파리,fly,verb,R4,Y
+1789,frank,,솔직한/프랭크(이름),frank,adj,R4,N
+1790,guide,,안내(하다)/안내원,guide,noun,R4,Y
+1791,images,,이미지/사진,image,noun,R4,Y
+1792,investigation,,조사/수사,investigation,noun,R4,N
+1793,mexico,,멕시코,mexico,noun,R4,N
+1794,operating,,운영하는/수술의,operate,verb,R4,N
+1795,paying,,지불하는(pay ~ing),pay,verb,R4,Y
+1796,presented,,제시했다/발표했다,present,verb,R4,N
+1797,raise,,올리다/기르다,raise,verb,R4,Y
+1798,responsibility,,책임,responsibility,noun,R4,N
+1799,roll,,구르다/두루마리,roll,verb,R4,Y
+1800,slightly,,약간,slightly,adv,R4,N
+1801,suggest,,제안하다,suggest,verb,R4,N
+1802,surprise,,놀라움/놀라게 하다,surprise,noun,R4,Y
+1803,technical,,기술적인,technical,adj,R4,N
+1804,thoughts,,생각들,thought,noun,R4,N
+1805,treat,,대하다/치료하다/간식,treat,verb,R4,N
+1806,unique,,독특한,unique,adj,R4,N
+1807,variety,,다양성/종류,variety,noun,R4,N
+1808,violence,,폭력,violence,noun,R4,N
+1809,weapons,,무기,weapon,noun,R4,Y
+1810,yours,,당신의 것,yours,pron,R4,N
+1811,youth,,젊음/청소년,youth,noun,R4,N
+1812,appreciate,,감사하다/진가를 알아보다,appreciate,verb,R4,N
+1813,bigger,,더 큰(big 비교급),big,adj,R4,Y
+1814,breaking,,깨뜨리는(break ~ing),break,verb,R4,Y
+1815,discovered,,발견했다(discover 과거),discover,verb,R4,N
+1816,dont,,~하지 않다(don't),do,aux,R4,N
+1817,dry,,마른/말리다,dry,adj,R4,Y
+1818,edge,,가장자리,edge,noun,R4,Y
+1819,evil,,사악한/악,evil,adj,R4,N
+1820,excited,,신난/흥분한,excited,adj,R4,Y
+1821,forever,,영원히,forever,adv,R4,N
+1822,funds,,자금,fund,noun,R4,N
+1823,helps,,돕다(3인칭)/도움,help,verb,R4,N
+1824,henry,,헨리(남자 이름),henry,noun,R4,N
+1825,injury,,부상,injury,noun,R4,Y
+1826,iron,,철/다리미,iron,noun,R4,Y
+1827,lovely,,사랑스러운/멋진,lovely,adj,R4,Y
+1828,mad,,화난/미친,mad,adj,R4,Y
+1829,magazine,,잡지,magazine,noun,R4,Y
+1830,martin,,마틴(남자 이름),martin,noun,R4,N
+1831,models,,모형/모델,model,noun,R4,Y
+1832,offers,,제안(하다),offer,noun,R4,N
+1833,ordered,,주문했다(order 과거),order,verb,R4,N
+1834,parliament,,의회,parliament,noun,R4,N
+1835,prepared,,준비된/준비했다,prepare,verb,R4,N
+1836,reference,,참조/언급,reference,noun,R4,N
+1837,religion,,종교,religion,noun,R4,N
+1838,sites,,장소/사이트,site,noun,R4,N
+1839,somewhere,,어딘가,somewhere,adv,R4,N
+1840,stated,,말했다/명시했다,state,verb,R4,N
+1841,strategy,,전략,strategy,noun,R4,N
+1842,teachers,,선생님들,teacher,noun,R4,Y
+1843,web,,거미줄/웹,web,noun,R4,Y
+1844,wine,,포도주,wine,noun,R4,Y
+1845,accounts,,계좌/계정,account,noun,R4,N
+1846,angeles,,앤젤레스(지명 Los Angeles),angeles,noun,R4,N
+1847,arm,,팔,arm,noun,R4,Y
+1848,audience,,관객,audience,noun,R4,Y
+1849,bay,,만(바다),bay,noun,R4,Y
+1850,blog,,블로그,blog,noun,R4,N
+1851,closer,,더 가까운(close 비교급),close,adj,R4,N
+1852,core,,핵심/중심부,core,noun,R4,N
+1853,democratic,,민주적인,democratic,adj,R4,N
+1854,description,,설명/묘사,description,noun,R4,N
+1855,dropped,,떨어뜨렸다(drop 과거),drop,verb,R4,Y
+1856,excellent,,훌륭한,excellent,adj,R4,N
+1857,exist,,존재하다,exist,verb,R4,N
+1858,figures,,수치/인물,figure,noun,R4,N
+1859,forms,,형태/양식,form,noun,R4,N
+1860,guard,,경비원/지키다,guard,noun,R4,Y
+1861,honest,,정직한,honest,adj,R4,N
+1862,issued,,발행했다/발표했다,issue,verb,R4,N
+1863,joined,,가입했다/합류했다,join,verb,R4,N
+1864,jones,,존스(성),jones,noun,R4,N
+1865,lee,,리(성),lee,noun,R4,N
+1866,lies,,거짓말/눕다(3인칭),lie,noun,R4,N
+1867,likes,,좋아하다(3인칭)/좋아요,like,verb,R4,N
+1868,medicine,,약/의학,medicine,noun,R4,Y
+1869,mention,,언급하다,mention,verb,R4,N
+1870,mountain,,산,mountain,noun,R4,Y
+1871,nuclear,,핵의,nuclear,adj,R4,N
+1872,orders,,주문/명령,order,noun,R4,N
+1873,port,,항구,port,noun,R4,Y
+1874,presence,,존재/참석,presence,noun,R4,N
+1875,reaction,,반응,reaction,noun,R4,N
+1876,reduce,,줄이다,reduce,verb,R4,N
+1877,shoot,,쏘다/촬영하다,shoot,verb,R4,Y
+1878,sides,,쪽/면,side,noun,R4,N
+1879,solid,,단단한/고체,solid,adj,R4,N
+1880,spanish,,스페인어/스페인의,spanish,adj,R4,N
+1881,sport,,스포츠,sport,noun,R4,Y
+1882,steps,,걸음/계단,step,noun,R4,Y
+1883,stress,,스트레스,stress,noun,R4,Y
+1884,taste,,맛/맛보다,taste,noun,R4,Y
+1885,tea,,차,tea,noun,R4,Y
+1886,victory,,승리,victory,noun,R4,Y
+1887,afternoon,,오후,afternoon,noun,R4,Y
+1888,assistant,,조수/보조,assistant,noun,R4,Y
+1889,britain,,영국,britain,noun,R4,N
+1890,citizens,,시민들,citizen,noun,R4,N
+1891,classic,,고전적인/명작,classic,adj,R4,N
+1892,clothes,,옷,clothes,noun,R4,Y
+1893,decisions,,결정,decision,noun,R4,N
+1894,electric,,전기의,electric,adj,R4,Y
+1895,emergency,,비상(사태),emergency,noun,R4,N
+1896,entered,,들어갔다(enter 과거),enter,verb,R4,Y
+1897,entirely,,완전히,entirely,adv,R4,N
+1898,facts,,사실,fact,noun,R4,N
+1899,failure,,실패,failure,noun,R4,N
+1900,festival,,축제,festival,noun,R4,Y
+1901,flat,,평평한/아파트,flat,adj,R4,Y
+1902,fuel,,연료,fuel,noun,R4,Y
+1903,harry,,해리(남자 이름),harry,noun,R4,N
+1904,hello,,안녕하세요,hello,intj,R4,N
+1905,houses,,집들,house,noun,R4,Y
+1906,ill,,아픈,ill,adj,R4,Y
+1907,initial,,처음의,initial,adj,R4,N
+1908,introduced,,소개했다/도입했다,introduce,verb,R4,N
+1909,johnson,,존슨(성),johnson,noun,R4,N
+1910,kick,,차다,kick,verb,R4,Y
+1911,links,,연결/링크,link,noun,R4,N
+1912,mail,,우편/메일,mail,noun,R4,Y
+1913,massive,,거대한,massive,adj,R4,Y
+1914,matters,,문제/중요하다,matter,noun,R4,N
+1915,pair,,한 쌍,pair,noun,R4,Y
+1916,picked,,골랐다/땄다(pick 과거),pick,verb,R4,Y
+1917,pieces,,조각,piece,noun,R4,Y
+1918,plane,,비행기,plane,noun,R4,Y
+1919,plenty,,충분한 양,plenty,noun,R4,N
+1920,prince,,왕자,prince,noun,R4,Y
+1921,proper,,적절한,proper,adj,R4,N
+1922,providing,,제공하는(provide ~ing),provide,verb,R4,N
+1923,quarter,,4분의 1/분기,quarter,noun,R4,N
+1924,regional,,지역의,regional,adj,R4,N
+1925,scott,,스콧(남자 이름),scott,noun,R4,N
+1926,session,,회기/시간,session,noun,R4,N
+1927,shape,,모양,shape,noun,R4,Y
+1928,sky,,하늘,sky,noun,R4,Y
+1929,teaching,,가르침/가르치는,teach,verb,R4,Y
+1930,toward,,~쪽으로,toward,prep,R4,N
+1931,transfer,,이동/이체,transfer,noun,R4,N
+1932,upper,,위쪽의,upper,adj,R4,N
+1933,useful,,유용한,useful,adj,R4,N
+1934,valley,,계곡,valley,noun,R4,Y
+1935,watched,,봤다(watch 과거),watch,verb,R4,Y
+1936,willing,,기꺼이 하는,willing,adj,R4,N
+1937,windows,,창문들,window,noun,R4,Y
+1938,zone,,구역,zone,noun,R4,N
+1939,accident,,사고,accident,noun,R4,Y
+1940,advanced,,고급의/발전된,advanced,adj,R4,N
+1941,alternative,,대안,alternative,noun,R4,N
+1942,anywhere,,어디든/어디에도,anywhere,adv,R4,N
+1943,articles,,기사/물품,article,noun,R4,N
+1944,awards,,상,award,noun,R4,Y
+1945,bear,,곰/참다,bear,noun,R4,Y
+1946,boat,,배,boat,noun,R4,Y
+1947,bringing,,가져오는(bring ~ing),bring,verb,R4,Y
+1948,capacity,,용량/능력,capacity,noun,R4,N
+1949,cheap,,싼,cheap,adj,R4,Y
+1950,climate,,기후,climate,noun,R4,N
+1951,communities,,지역사회,community,noun,R4,N
+1952,discussion,,토론,discussion,noun,R4,N
+1953,drinking,,마시는/음주,drink,verb,R4,Y
+1954,duty,,의무,duty,noun,R4,N
+1955,fantastic,,환상적인,fantastic,adj,R4,N
+1956,feelings,,감정,feeling,noun,R4,N
+1957,flying,,나는/비행,fly,verb,R4,Y
+1958,governor,,주지사,governor,noun,R4,N
+1959,hasn't,,~하지 않았다(has not),have,aux,R4,N
+1960,hundred,,백,hundred,num,R4,N
+1961,industrial,,산업의,industrial,adj,R4,N
+1962,joint,,관절/공동의,joint,noun,R4,N
+1963,mix,,섞다,mix,verb,R4,Y
+1964,museum,,박물관,museum,noun,R4,Y
+1965,options,,선택지,option,noun,R4,N
+1966,path,,길,path,noun,R4,Y
+1967,plants,,식물,plant,noun,R4,Y
+1968,policies,,정책,policy,noun,R4,N
+1969,promise,,약속(하다),promise,noun,R4,N
+1970,proposed,,제안했다,propose,verb,R4,N
+1971,purchase,,구매(하다),purchase,noun,R4,N
+1972,rain,,비,rain,noun,R4,Y
+1973,remove,,제거하다,remove,verb,R4,N
+1974,signs,,표지판/징후,sign,noun,R4,Y
+1975,spending,,지출/쓰는,spend,noun,R4,N
+1976,steel,,강철,steel,noun,R4,Y
+1977,steve,,스티브(남자 이름),steve,noun,R4,N
+1978,supporting,,지지하는/받치는,support,verb,R4,N
+1979,terrible,,끔찍한,terrible,adj,R4,N
+1980,they'll,,그들은 ~할 것이다(they will),they,pron,R4,N
+1981,tired,,피곤한,tired,adj,R4,Y
+1982,treated,,대했다/치료했다,treat,verb,R4,N
+1983,turning,,돌리는(turn ~ing),turn,verb,R4,N
+1984,vice,,부(副)~/악덕,vice,noun,R4,N
+1985,warm,,따뜻한,warm,adj,R4,Y
+1986,afraid,,두려운,afraid,adj,R4,Y
+1987,arts,,예술,art,noun,R4,N
+1988,beer,,맥주,beer,noun,R4,Y
+1989,border,,국경/경계,border,noun,R4,Y
+1990,canadian,,캐나다의/캐나다인,canadian,adj,R4,N
+1991,command,,명령(하다),command,noun,R4,N
+1992,crew,,승무원/팀,crew,noun,R4,Y
+1993,crowd,,군중,crowd,noun,R4,Y
+1994,dating,,데이트(하는),date,verb,R4,N
+1995,dick,,딕(남자 이름),dick,noun,R4,N
+1996,elements,,요소/원소,element,noun,R4,N
+1997,enemy,,적,enemy,noun,R4,Y
+1998,ensure,,보장하다,ensure,verb,R4,N
+1999,environmental,,환경의,environmental,adj,R4,N
+2000,filled,,채웠다/가득 찬,fill,verb,R4,Y
+2001,fixed,,고정된/고쳤다,fix,verb,R4,N
+2002,forest,,숲,forest,noun,R4,Y
+2003,intelligence,,지능/정보,intelligence,noun,R4,N
+2004,intended,,의도한,intend,verb,R4,N
+2005,labour,,노동,labour,noun,R4,N
+2006,limit,,한계/제한하다,limit,noun,R4,N
+2007,moon,,달,moon,noun,R4,Y
+2008,ocean,,바다,ocean,noun,R4,Y
+2009,powers,,힘/권력,power,noun,R4,N
+2010,profit,,이익,profit,noun,R4,N
+2011,proof,,증거,proof,noun,R4,N
+2012,republican,,공화당의/공화당원,republican,adj,R4,N
+2013,soldiers,,군인들,soldier,noun,R4,Y
+2014,suit,,정장/어울리다,suit,noun,R4,Y
+2015,wins,,이기다(3인칭)/승리,win,verb,R4,N
+2016,women's,,여성의,woman,noun,R4,N
+2017,appearance,,외모/등장,appearance,noun,R4,N
+2018,asian,,아시아의/아시아인,asian,adj,R4,N
+2019,attorney,,변호사,attorney,noun,R4,Y
+2020,banks,,은행들,bank,noun,R4,Y
+2021,behavior,,행동,behavior,noun,R4,N
+2022,ben,,벤(남자 이름),ben,noun,R4,N
+2023,bodies,,몸/시신,body,noun,R4,Y
+2024,brothers,,형제들,brother,noun,R4,Y
+2025,buildings,,건물들,building,noun,R4,Y
+2026,chair,,의자,chair,noun,R4,Y
+2027,creating,,만드는(create ~ing),create,verb,R4,N
+2028,debt,,빚,debt,noun,R4,N
+2029,domestic,,국내의/가정의,domestic,adj,R4,N
+2030,expensive,,비싼,expensive,adj,R4,Y
+2031,grew,,자랐다(grow 과거),grow,verb,R4,Y
+2032,historical,,역사적인,historical,adj,R4,N
+2033,homes,,집들,home,noun,R4,Y
+2034,honestly,,솔직히,honestly,adv,R4,N
+2035,honor,,영예/존경하다,honor,noun,R4,N
+2036,im,,나는 ~이다(I'm),i,pron,R4,N
+2037,jump,,뛰다,jump,verb,R4,Y
+2038,launch,,발사하다/출시,launch,verb,R4,Y
+2039,listed,,목록에 올린,list,verb,R4,N
+2040,minimum,,최소,minimum,noun,R4,N
+2041,native,,토박이의/원주민,native,adj,R4,N
+2042,noted,,언급했다/유명한,note,verb,R4,N
+2043,originally,,원래,originally,adv,R4,N
+2044,planned,,계획했다(plan 과거),plan,verb,R4,N
+2045,pm,,오후(p.m.),pm,adv,R4,N
+2046,ray,,광선/레이(이름),ray,noun,R4,Y
+2047,sets,,세트/놓다,set,noun,R4,N
+2048,suddenly,,갑자기,suddenly,adv,R4,N
+2049,supreme,,최고의,supreme,adj,R4,N
+2050,survey,,조사,survey,noun,R4,N
+2051,tech,,기술(technology 줄임),tech,noun,R4,N
+2052,trees,,나무들,tree,noun,R4,Y
+2053,update,,업데이트(하다),update,noun,R4,N
+2054,user,,사용자,user,noun,R4,N
+2055,writer,,작가,writer,noun,R4,Y
+2056,yellow,,노란색(의),yellow,adj,R4,Y
+2057,younger,,더 어린(young 비교급),young,adj,R4,Y
+2058,ancient,,고대의,ancient,adj,R4,Y
+2059,attacks,,공격,attack,noun,R4,Y
+2060,charges,,요금/혐의/충전하다,charge,noun,R4,N
+2061,combined,,결합된,combine,verb,R4,N
+2062,communication,,의사소통,communication,noun,R4,N
+2063,connected,,연결된,connected,adj,R4,N
+2064,contains,,포함하다(3인칭),contain,verb,R4,N
+2065,download,,내려받다,download,verb,R4,N
+2066,email,,이메일,email,noun,R4,Y
+2067,ending,,결말/끝나는,ending,noun,R4,N
+2068,exercise,,운동(하다),exercise,noun,R4,Y
+2069,express,,표현하다/급행의,express,verb,R4,N
+2070,flow,,흐름/흐르다,flow,noun,R4,Y
+2071,formed,,형성했다(form 과거),form,verb,R4,N
+2072,girlfriend,,여자친구,girlfriend,noun,R4,Y
+2073,hero,,영웅,hero,noun,R4,Y
+2074,illegal,,불법의,illegal,adj,R4,N
+2075,increasing,,늘어나는,increase,verb,R4,N
+2076,joke,,농담,joke,noun,R4,Y
+2077,loan,,대출,loan,noun,R4,N
+2078,methods,,방법,method,noun,R4,N
+2079,officials,,공무원/관리,official,noun,R4,N
+2080,people's,,사람들의,people,noun,R4,N
+2081,performed,,공연했다/수행했다,perform,verb,R4,N
+2082,planet,,행성,planet,noun,R4,Y
+2083,relationships,,관계,relationship,noun,R4,N
+2084,restaurant,,식당,restaurant,noun,R4,Y
+2085,scotland,,스코틀랜드,scotland,noun,R4,N
+2086,selected,,선택된/골랐다,select,verb,R4,N
+2087,shared,,나눴다/공유한,share,verb,R4,N
+2088,shopping,,쇼핑,shopping,noun,R4,Y
+2089,soft,,부드러운,soft,adj,R4,Y
+2090,stuck,,갇힌/달라붙은,stuck,adj,R4,N
+2091,sugar,,설탕,sugar,noun,R4,Y
+2092,suggested,,제안했다,suggest,verb,R4,N
+2093,supported,,지지했다/받쳤다,support,verb,R4,N
+2094,surprised,,놀란,surprised,adj,R4,Y
+2095,taught,,가르쳤다(teach 과거),teach,verb,R4,Y
+2096,transport,,수송/교통,transport,noun,R4,Y
+2097,weren't,,~이 아니었다(were not),be,aux,R4,N
+2098,accepted,,받아들였다(accept 과거),accept,verb,R4,N
+2099,adding,,더하는(add ~ing),add,verb,R4,N
+2100,affairs,,일/사무,affair,noun,R4,N
+2101,allows,,허락하다(3인칭),allow,verb,R4,N
+2102,appeal,,호소/매력,appeal,noun,R4,N
+2103,applied,,적용했다/지원했다,apply,verb,R4,N
+2104,appropriate,,적절한,appropriate,adj,R4,N
+2105,artists,,예술가들,artist,noun,R4,Y
+2106,boston,,보스턴,boston,noun,R4,N
+2107,ca,,캘리포니아(CA 약어),ca,noun,R4,N
+2108,confirmed,,확인했다(confirm 과거),confirm,verb,R4,N
+2109,device,,기기,device,noun,R4,Y
+2110,drama,,드라마/연극,drama,noun,R4,Y
+2111,entry,,입장/항목,entry,noun,R4,N
+2112,era,,시대,era,noun,R4,N
+2113,factor,,요인,factor,noun,R4,N
+2114,feed,,먹이를 주다,feed,verb,R4,Y
+2115,golden,,금빛의,golden,adj,R4,Y
+2116,grant,,허락하다/보조금,grant,verb,R4,N
+2117,grown,,자랐다(grow 과거분사),grow,verb,R4,Y
+2118,heads,,머리들,head,noun,R4,Y
+2119,hoping,,바라는(hope ~ing),hope,verb,R4,N
+2120,keeps,,유지하다(3인칭),keep,verb,R4,N
+2121,lawyer,,변호사,lawyer,noun,R4,Y
+2122,legs,,다리들,leg,noun,R4,Y
+2123,lying,,누워 있는/거짓말하는,lie,verb,R4,Y
+2124,measures,,조치/측정하다,measure,noun,R4,N
+2125,mistake,,실수,mistake,noun,R4,N
+2126,ms,,여사(Ms.),ms,noun,R4,N
+2127,muslim,,무슬림,muslim,noun,R4,N
+2128,organizations,,단체/조직,organization,noun,R4,N
+2129,platform,,승강장/플랫폼,platform,noun,R4,Y
+2130,pool,,수영장/웅덩이,pool,noun,R4,Y
+2131,pulled,,당겼다(pull 과거),pull,verb,R4,Y
+2132,regarding,,~에 관하여,regarding,prep,R4,N
+2133,relations,,관계,relation,noun,R4,N
+2134,requires,,필요로 하다(3인칭),require,verb,R4,N
+2135,route,,경로,route,noun,R4,Y
+2136,saved,,저장했다/구했다,save,verb,R4,N
+2137,schedule,,일정,schedule,noun,R4,N
+2138,scientific,,과학적인,scientific,adj,R4,N
+2139,shoes,,신발,shoe,noun,R4,Y
+2140,smoke,,연기/담배 피우다,smoke,noun,R4,Y
+2141,squad,,팀/분대,squad,noun,R4,N
+2142,teach,,가르치다,teach,verb,R4,Y
+2143,testing,,시험/검사,test,noun,R4,N
+2144,tests,,시험들,test,noun,R4,N
+2145,values,,가치(관),value,noun,R4,N
+2146,walked,,걸었다(walk 과거),walk,verb,R4,Y
+2147,williams,,윌리엄스(성),williams,noun,R4,N
+2148,ya,,너(you 구어),you,pron,R4,N
+2149,abuse,,학대/남용,abuse,noun,R4,N
+2150,angry,,화난,angry,adj,R4,Y
+2151,businesses,,사업체들,business,noun,R4,N
+2152,candidate,,후보,candidate,noun,R4,N
+2153,comfortable,,편안한,comfortable,adj,R4,Y
+2154,concern,,걱정/관심사,concern,noun,R4,N
+2155,developing,,발전하는/개발하는,develop,verb,R4,N
+2156,discuss,,논의하다,discuss,verb,R4,N
+2157,elections,,선거,election,noun,R4,N
+2158,emotional,,감정적인,emotional,adj,R4,N
+2159,et,,그리고(et al. 등),et,conj,R4,N
+2160,everywhere,,어디에나,everywhere,adv,R4,N
+2161,facilities,,시설,facility,noun,R4,N
+2162,falling,,떨어지는(fall ~ing),fall,verb,R4,Y
+2163,fox,,여우,fox,noun,R4,Y
+2164,guns,,총,gun,noun,R4,Y
+2165,hole,,구멍,hole,noun,R4,Y
+2166,holiday,,휴일/휴가,holiday,noun,R4,Y
+2167,interests,,관심/이자,interest,noun,R4,N
+2168,internal,,내부의,internal,adj,R4,N
+2169,ireland,,아일랜드,ireland,noun,R4,N
+2170,italian,,이탈리아의/이탈리아인,italian,adj,R4,N
+2171,italy,,이탈리아,italy,noun,R4,N
+2172,jersey,,저지(셔츠)/뉴저지,jersey,noun,R4,N
+2173,laugh,,웃다,laugh,verb,R4,Y
+2174,leg,,다리,leg,noun,R4,Y
+2175,letters,,편지/글자,letter,noun,R4,Y
+2176,liberal,,자유로운/진보적인,liberal,adj,R4,N
+2177,listening,,듣는(listen ~ing),listen,verb,R4,Y
+2178,ll,,~할 것이다('ll),will,aux,R4,N
+2179,loves,,사랑하다(3인칭)/사랑,love,verb,R4,N
+2180,lunch,,점심,lunch,noun,R4,Y
+2181,max,,최대/맥스(이름),max,noun,R4,N
+2182,milk,,우유,milk,noun,R4,Y
+2183,pack,,짐을 싸다/꾸러미,pack,verb,R4,Y
+2184,payment,,지불,payment,noun,R4,N
+2185,perform,,공연하다/수행하다,perform,verb,R4,N
+2186,recorded,,녹음했다(record 과거),record,verb,R4,N
+2187,relatively,,비교적,relatively,adv,R4,N
+2188,sector,,부문,sector,noun,R4,N
+2189,sharing,,나누는/공유,share,verb,R4,N
+2190,snow,,눈,snow,noun,R4,Y
+2191,storm,,폭풍,storm,noun,R4,Y
+2192,streets,,거리,street,noun,R4,Y
+2193,strike,,치다/파업,strike,verb,R4,N
+2194,studio,,스튜디오,studio,noun,R4,Y
+2195,sub,,대리/잠수함(sub-),sub,noun,R4,N
+2196,weak,,약한,weak,adj,R4,Y
+2197,actor,,배우,actor,noun,R4,Y
+2198,advance,,전진/앞서다,advance,verb,R4,N
+2199,apartment,,아파트,apartment,noun,R4,Y
+2200,asia,,아시아,asia,noun,R4,N
+2201,chain,,사슬/체인,chain,noun,R4,Y
+2202,chapter,,장(章),chapter,noun,R4,N
+2203,committed,,헌신한/저질렀다,commit,verb,R4,N
+2204,confidence,,자신감,confidence,noun,R4,N
+2205,cook,,요리하다/요리사,cook,verb,R4,Y
+2206,cute,,귀여운,cute,adj,R4,Y
+2207,equal,,같은/동등한,equal,adj,R4,N
+2208,fake,,가짜의,fake,adj,R4,N
+2209,finance,,금융/재정,finance,noun,R4,N
+2210,focused,,집중한,focus,verb,R4,N
+2211,hits,,때리다(3인칭)/히트,hit,verb,R4,N
+2212,identity,,정체성,identity,noun,R4,N
+2213,journey,,여행/여정,journey,noun,R4,Y
+2214,kitchen,,부엌,kitchen,noun,R4,Y
+2215,korea,,한국,korea,noun,R4,N
+2216,leads,,이끌다(3인칭)/단서,lead,verb,R4,N
+2217,maintain,,유지하다,maintain,verb,R4,N
+2218,measure,,재다/조치,measure,verb,R4,N
+2219,mm,,밀리미터(mm),mm,noun,R4,N
+2220,numerous,,수많은,numerous,adj,R4,N
+2221,owners,,주인들,owner,noun,R4,Y
+2222,posts,,게시물/기둥,post,noun,R4,N
+2223,properties,,재산/속성,property,noun,R4,N
+2224,quiet,,조용한,quiet,adj,R4,Y
+2225,revealed,,드러냈다(reveal 과거),reveal,verb,R4,N
+2226,specifically,,구체적으로,specifically,adv,R4,N
+2227,split,,나누다/갈라지다,split,verb,R4,N
+2228,task,,과제/임무,task,noun,R4,N
+2229,taxes,,세금,tax,noun,R4,N
+2230,taylor,,테일러(성),taylor,noun,R4,N
+2231,twenty,,스물/20,twenty,num,R4,N
+2232,urban,,도시의,urban,adj,R4,N
+2233,acts,,행동/법/연기하다,act,noun,R4,N
+2234,affected,,영향을 받은,affect,verb,R4,N
+2235,aircraft,,항공기,aircraft,noun,R4,Y
+2236,applications,,신청/응용프로그램,application,noun,R4,N
+2237,approved,,승인했다/승인된,approve,verb,R4,N
+2238,approximately,,대략,approximately,adv,R4,N
+2239,argument,,논쟁/주장,argument,noun,R4,N
+2240,arrested,,체포된(arrest 과거),arrest,verb,R4,N
+2241,claimed,,주장했다(claim 과거),claim,verb,R4,N
+2242,conflict,,갈등,conflict,noun,R4,N
+2243,considering,,고려하는/~을 감안하면,consider,verb,R4,N
+2244,corporate,,기업의,corporate,adj,R4,N
+2245,debate,,토론,debate,noun,R4,N
+2246,determined,,단단히 결심한,determined,adj,R4,N
+2247,distribution,,분배/유통,distribution,noun,R4,N
+2248,documents,,문서,document,noun,R4,Y
+2249,escape,,탈출하다,escape,verb,R4,Y
+2250,extended,,연장된/넓힌,extend,verb,R4,N
+2251,factors,,요인들,factor,noun,R4,N
+2252,faster,,더 빠른(fast 비교급),fast,adj,R4,Y
+2253,fault,,잘못/결함,fault,noun,R4,N
+2254,fill,,채우다,fill,verb,R4,Y
+2255,films,,영화들,film,noun,R4,Y
+2256,flowers,,꽃들,flower,noun,R4,Y
+2257,friendly,,친절한/다정한,friendly,adj,R4,Y
+2258,ladies,,숙녀들,lady,noun,R4,Y
+2259,lay,,놓다/눕혔다(lie 과거),lay,verb,R4,Y
+2260,lights,,불빛/전등,light,noun,R4,Y
+2261,millions,,수백만,million,num,R4,N
+2262,mixed,,섞인,mixed,adj,R4,N
+2263,phase,,단계,phase,noun,R4,N
+2264,properly,,제대로,properly,adv,R4,N
+2265,pure,,순수한,pure,adj,R4,N
+2266,reduced,,줄인/감소된,reduce,verb,R4,N
+2267,requirements,,요건/필요조건,requirement,noun,R4,N
+2268,residents,,주민들,resident,noun,R4,N
+2269,revenue,,수익,revenue,noun,R4,N
+2270,sam,,샘(남자 이름),sam,noun,R4,N
+2271,sat,,앉았다(sit 과거),sit,verb,R4,Y
+2272,secure,,안전한/확보하다,secure,adj,R4,N
+2273,smile,,미소(짓다),smile,noun,R4,Y
+2274,strange,,이상한,strange,adj,R4,N
+2275,talent,,재능,talent,noun,R4,N
+2276,temperature,,온도/체온,temperature,noun,R4,Y
+2277,thousand,,천,thousand,num,R4,N
+2278,tony,,토니(남자 이름),tony,noun,R4,N
+2279,troops,,군대/병력,troop,noun,R4,Y
+2280,truck,,트럭,truck,noun,R4,Y
+2281,votes,,투표,vote,noun,R4,N
+2282,ah,,아!(감탄),ah,intj,R4,N
+2283,authorities,,당국,authority,noun,R4,N
+2284,basically,,기본적으로,basically,adv,R4,N
+2285,besides,,게다가/~외에,besides,adv,R4,N
+2286,bird,,새,bird,noun,R4,Y
+2287,blame,,탓하다,blame,verb,R4,N
+2288,bob,,밥(남자 이름),bob,noun,R4,N
+2289,bowl,,그릇,bowl,noun,R4,Y
+2290,causes,,원인/일으키다,cause,noun,R4,N
+2291,chicken,,닭/닭고기,chicken,noun,R4,Y
+2292,collected,,모았다(collect 과거),collect,verb,R4,Y
+2293,context,,맥락,context,noun,R4,N
+2294,coverage,,보도/적용 범위,coverage,noun,R4,N
+2295,determine,,결정하다/알아내다,determine,verb,R4,N
+2296,display,,전시(하다)/화면,display,noun,R4,N
+2297,dying,,죽어가는,die,verb,R4,N
+2298,elected,,선출된,elect,verb,R4,N
+2299,examples,,예시,example,noun,R4,N
+2300,experienced,,경험 많은,experienced,adj,R4,N
+2301,falls,,떨어지다(3인칭)/폭포,fall,verb,R4,N
+2302,false,,거짓의,false,adj,R4,N
+2303,fired,,해고했다/발사했다,fire,verb,R4,N
+2304,forgot,,잊었다(forget 과거),forget,verb,R4,N
+2305,funding,,자금 지원,funding,noun,R4,N
+2306,identified,,확인했다/식별한,identify,verb,R4,N
+2307,iii,,3세(III),iii,num,R4,N
+2308,incredible,,믿기 힘든/놀라운,incredible,adj,R4,N
+2309,inspired,,영감을 받은,inspire,verb,R4,N
+2310,launched,,발사했다/출시했다,launch,verb,R4,N
+2311,ma,,엄마(구어)/석사,ma,noun,R4,N
+2312,meat,,고기,meat,noun,R4,Y
+2313,ministry,,부(정부 부처),ministry,noun,R4,N
+2314,mode,,방식/모드,mode,noun,R4,N
+2315,neck,,목,neck,noun,R4,Y
+2316,noticed,,알아챘다(notice 과거),notice,verb,R4,N
+2317,novel,,소설/새로운,novel,noun,R4,Y
+2318,obvious,,분명한,obvious,adj,R4,N
+2319,passing,,지나가는/통과,pass,verb,R4,N
+2320,positions,,위치/직위,position,noun,R4,N
+2321,remaining,,남은,remain,verb,R4,N
+2322,scored,,득점했다(score 과거),score,verb,R4,Y
+2323,shirt,,셔츠,shirt,noun,R4,Y
+2324,shots,,발사/주사/한 잔,shot,noun,R4,Y
+2325,slowly,,천천히,slowly,adv,R4,N
+2326,stadium,,경기장,stadium,noun,R4,Y
+2327,stores,,가게들/저장하다,store,noun,R4,Y
+2328,surgery,,수술,surgery,noun,R4,Y
+2329,trading,,거래,trade,verb,R4,N
+2330,tuesday,,화요일,tuesday,noun,R4,N
+2331,vision,,시력/비전,vision,noun,R4,N
+2332,whenever,,~할 때마다,whenever,conj,R4,N
+2333,worried,,걱정하는,worried,adj,R4,Y
+2334,zero,,영/0,zero,num,R4,N
+2335,alex,,알렉스(이름),alex,noun,R4,N
+2336,allowing,,허락하는(allow ~ing),allow,verb,R4,N
+2337,begins,,시작하다(3인칭),begin,verb,R4,N
+2338,champion,,챔피언,champion,noun,R4,Y
+2339,charged,,청구했다/충전된,charge,verb,R4,N
+2340,cream,,크림,cream,noun,R4,Y
+2341,crisis,,위기,crisis,noun,R4,N
+2342,daniel,,대니얼(남자 이름),daniel,noun,R4,N
+2343,delivered,,배달했다(deliver 과거),deliver,verb,R4,Y
+2344,editor,,편집자,editor,noun,R4,Y
+2345,estimated,,추정된,estimate,verb,R4,N
+2346,eu,,유럽연합(EU),eu,noun,R4,N
+2347,giant,,거인/거대한,giant,noun,R4,Y
+2348,iran,,이란,iran,noun,R4,N
+2349,jail,,감옥,jail,noun,R4,Y
+2350,jim,,짐(남자 이름),jim,noun,R4,N
+2351,kingdom,,왕국,kingdom,noun,R4,Y
+2352,literature,,문학,literature,noun,R4,N
+2353,mayor,,시장(市長),mayor,noun,R4,Y
+2354,minor,,작은/미성년자,minor,adj,R4,N
+2355,moments,,순간,moment,noun,R4,N
+2356,opposite,,반대의,opposite,adj,R4,N
+2357,orange,,오렌지/주황색,orange,noun,R4,Y
+2358,ourselves,,우리 자신,ourselves,pron,R4,N
+2359,pages,,쪽/페이지,page,noun,R4,Y
+2360,remained,,남았다(remain 과거),remain,verb,R4,N
+2361,selection,,선택/선정,selection,noun,R4,N
+2362,serving,,제공하는/1인분,serve,verb,R4,N
+2363,signal,,신호,signal,noun,R4,Y
+2364,stream,,시내/스트림,stream,noun,R4,Y
+2365,struggle,,애쓰다/투쟁,struggle,verb,R4,N
+2366,suicide,,자살,suicide,noun,R4,N
+2367,talked,,이야기했다(talk 과거),talk,verb,R4,Y
+2368,theme,,주제,theme,noun,R4,N
+2369,thursday,,목요일,thursday,noun,R4,N
+2370,tiny,,아주 작은,tiny,adj,R4,Y
+2371,typically,,전형적으로,typically,adv,R4,N
+2372,un,,국제연합(UN),un,noun,R4,N
+2373,unfortunately,,불행히도,unfortunately,adv,R4,N
+2374,usual,,평소의,usual,adj,R4,N
+2375,vehicles,,차량들,vehicle,noun,R4,Y
+2376,virginia,,버지니아,virginia,noun,R4,N
+2377,voted,,투표했다(vote 과거),vote,verb,R4,N
+2378,voting,,투표,vote,noun,R4,N
+2379,walls,,벽들,wall,noun,R4,Y
+2380,wave,,파도/흔들다,wave,noun,R4,Y
+2381,alcohol,,술/알코올,alcohol,noun,R4,N
+2382,assembly,,집회/조립,assembly,noun,R4,N
+2383,breakfast,,아침식사,breakfast,noun,R4,Y
+2384,bright,,밝은,bright,adj,R4,Y
+2385,brings,,가져오다(3인칭),bring,verb,R4,N
+2386,capable,,능력 있는,capable,adj,R4,N
+2387,carrying,,나르는(carry ~ing),carry,verb,R4,Y
+2388,chosen,,선택된(choose 과거분사),choose,verb,R4,N
+2389,combination,,조합,combination,noun,R4,N
+2390,conservative,,보수적인,conservative,adj,R4,N
+2391,customer,,손님/고객,customer,noun,R4,Y
+2392,cutting,,자르는(cut ~ing),cut,verb,R4,Y
+2393,desire,,욕망/바라다,desire,noun,R4,N
+2394,destroyed,,파괴된(destroy 과거),destroy,verb,R4,Y
+2395,draft,,초안,draft,noun,R4,N
+2396,drunk,,취한,drunk,adj,R4,Y
+2397,essential,,필수적인,essential,adj,R4,N
+2398,fail,,실패하다,fail,verb,R4,N
+2399,familiar,,익숙한,familiar,adj,R4,N
+2400,finds,,찾다(3인칭),find,verb,R4,N
+2401,granted,,허락된/당연하게,grant,verb,R4,N
+2402,guilty,,유죄의/죄책감 드는,guilty,adj,R4,N
+2403,humans,,인간들,human,noun,R4,Y
+2404,hundreds,,수백,hundred,num,R4,N
+2405,id,,신분증(ID),id,noun,R4,Y
+2406,improved,,개선된,improve,verb,R4,N
+2407,jewish,,유대인의,jewish,adj,R4,N
+2408,largely,,대체로,largely,adv,R4,N
+2409,laughing,,웃는(laugh ~ing),laugh,verb,R4,Y
+2410,markets,,시장들,market,noun,R4,Y
+2411,medium,,중간의/매체,medium,adj,R4,N
+2412,ohio,,오하이오,ohio,noun,R4,N
+2413,opportunities,,기회,opportunity,noun,R4,N
+2414,papers,,종이/신문/논문,paper,noun,R4,Y
+2415,perfectly,,완벽하게,perfectly,adv,R4,N
+2416,recommend,,추천하다,recommend,verb,R4,N
+2417,referred,,언급했다/가리켰다,refer,verb,R4,N
+2418,relevant,,관련 있는,relevant,adj,R4,N
+2419,seek,,찾다/추구하다,seek,verb,R4,N
+2420,sending,,보내는(send ~ing),send,verb,R4,Y
+2421,solo,,혼자의/독주,solo,adj,R4,N
+2422,spoke,,말했다(speak 과거),speak,verb,R4,Y
+2423,stands,,서다(3인칭)/가판대,stand,verb,R4,N
+2424,talks,,이야기하다(3인칭)/회담,talk,verb,R4,N
+2425,ticket,,표,ticket,noun,R4,Y
+2426,unable,,~할 수 없는,unable,adj,R4,N
+2427,upset,,속상한,upset,adj,R4,Y
+2428,wing,,날개,wing,noun,R4,Y
+2429,world's,,세계의,world,noun,R4,N
+2430,answers,,대답,answer,noun,R4,N
+2431,birds,,새들,bird,noun,R4,Y
+2432,bomb,,폭탄,bomb,noun,R4,Y
+2433,creative,,창의적인,creative,adj,R4,N
+2434,cycle,,순환/자전거,cycle,noun,R4,Y
+2435,dealing,,다루는/거래,deal,verb,R4,N
+2436,directed,,감독했다/향했다,direct,verb,R4,N
+2437,don,,돈(이름)/입다,don,noun,R4,N
+2438,educational,,교육의,educational,adj,R4,N
+2439,entertainment,,오락,entertainment,noun,R4,N
+2440,extreme,,극단적인,extreme,adj,R4,N
+2441,facility,,시설,facility,noun,R4,N
+2442,fields,,들판/분야,field,noun,R4,Y
+2443,goods,,상품,good,noun,R4,Y
+2444,hang,,걸다/매달리다,hang,verb,R4,Y
+2445,holds,,잡다(3인칭),hold,verb,R4,N
+2446,info,,정보,info,noun,R4,N
+2447,mainly,,주로,mainly,adv,R4,N
+2448,maximum,,최대,maximum,noun,R4,N
+2449,newspaper,,신문,newspaper,noun,R4,Y
+2450,offering,,제공/제물,offer,verb,R4,N
+2451,painting,,그림/칠하기,painting,noun,R4,Y
+2452,republic,,공화국,republic,noun,R4,N
+2453,reserve,,예약하다/비축,reserve,verb,R4,N
+2454,returns,,돌아오다(3인칭)/수익,return,verb,R4,N
+2455,row,,줄/노 젓다,row,noun,R4,Y
+2456,salt,,소금,salt,noun,R4,Y
+2457,scared,,겁먹은,scared,adj,R4,Y
+2458,scottish,,스코틀랜드의,scottish,adj,R4,N
+2459,shares,,나누다(3인칭)/주식,share,verb,R4,N
+2460,statistics,,통계,statistics,noun,R4,N
+2461,switch,,스위치/바꾸다,switch,noun,R4,Y
+2462,territory,,영토,territory,noun,R4,N
+2463,threat,,위협,threat,noun,R4,N
+2464,tickets,,표들,ticket,noun,R4,Y
+2465,wales,,웨일스,wales,noun,R4,N
+2466,adults,,어른들,adult,noun,R4,Y
+2467,affect,,영향을 미치다,affect,verb,R4,N
+2468,appointed,,임명된,appoint,verb,R4,N
+2469,armed,,무장한,armed,adj,R4,N
+2470,aside,,옆으로,aside,adv,R4,N
+2471,assistance,,도움,assistance,noun,R4,N
+2472,bell,,종,bell,noun,R4,Y
+2473,blow,,불다/타격,blow,verb,R4,Y
+2474,bond,,유대/채권,bond,noun,R4,N
+2475,boyfriend,,남자친구,boyfriend,noun,R4,Y
+2476,careful,,조심스러운,careful,adj,R4,N
+2477,circumstances,,상황,circumstance,noun,R4,N
+2478,communications,,통신/소통,communication,noun,R4,N
+2479,concerns,,걱정/관심사,concern,noun,R4,N
+2480,controlled,,통제된,control,verb,R4,N
+2481,corporation,,기업,corporation,noun,R4,N
+2482,cry,,울다/외치다,cry,verb,R4,Y
+2483,danger,,위험,danger,noun,R4,N
+2484,deals,,거래/다루다(3인칭),deal,noun,R4,N
+2485,delivery,,배달,delivery,noun,R4,Y
+2486,deserve,,~할 자격이 있다,deserve,verb,R4,N
+2487,devices,,기기들,device,noun,R4,Y
+2488,dollar,,달러,dollar,noun,R4,Y
+2489,dreams,,꿈,dream,noun,R4,Y
+2490,empty,,빈,empty,adj,R4,Y
+2491,enjoyed,,즐겼다(enjoy 과거),enjoy,verb,R4,N
+2492,explained,,설명했다(explain 과거),explain,verb,R4,N
+2493,faces,,얼굴들,face,noun,R4,Y
+2494,folks,,사람들/가족,folk,noun,R4,N

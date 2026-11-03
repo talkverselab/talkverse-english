@@ -8,6 +8,7 @@ import '../widgets/english_decor.dart';
 import '../widgets/today_mission.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
+import 'word_freq_screen.dart';
 
 /// 메인 — 탭 4개: 배우기(오늘의 학습·기초·회화·단어) · 복습 · 탐색 · 나(성과·프로필).
 /// 일본어앱 구조 그대로(공통 프롬프터 §5, 2026-11-03). 회화·단어 데이터는 아직 없어 빈 안내를 보인다.
@@ -388,7 +389,8 @@ class _LearnTabState extends State<LearnTab> {
               seal: 'Word',
               sealColor: AppColors.kinDeep,
               title: tr('절벽 단어 R1~R4'),
-              subtitle: tr('빈도 2,500 · 그림 카드'),
+              subtitle: tr('많이 쓰는 2,494어 · 그림 · 미국/영국/호주 발음'),
+              onTap: () => openPane(context, (_) => const WordFreqScreen()),
             ),
           ],
         ),
@@ -478,7 +480,8 @@ class ExploreTab extends StatelessWidget {
         _NavRow(
           seal: 'Word',
           title: tr('단어 빈도'),
-          subtitle: 'Vocabulary 2500',
+          subtitle: 'Vocabulary · R1~R4',
+          onTap: () => openPane(context, (_) => const WordFreqScreen()),
         ),
         _NavRow(
           seal: 'Aa',
