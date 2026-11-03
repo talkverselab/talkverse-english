@@ -1,6 +1,6 @@
 # HANDOFF — 영어유니버스 (talkverselab/talkverse-english, M6 `~/talkverse/english`)
 
-_최종 2026-11-04 02:45 KST. 영어앱 세션(원격 제어 이름 "영어앱"). Grab(`~/talkverse/en`)과는 별개 앱._
+_최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱"). Grab(`~/talkverse/en`)과는 별개 앱._
 
 ## 상태 표 (공통 프롬프터 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md` 순서)
 
@@ -8,7 +8,7 @@ _최종 2026-11-04 02:45 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 |---|---|
 | ① 캐릭터 시트 | **사용자 통과 2026-11-03** — `data/review/art/chars_en_v1.jpg`, 특징 `data/review/uxui/CHARACTERS.md` (뉴욕 브루클린: Maya·Emma·Jake·Daniel·학습자 남/여). talkverse.uk 세션이 그림 저장소 `chars/en_sheet.jpg` 로 반영 |
 | ② UX/UI 시안 | **사용자 통과 2026-11-03** — 그림 `data/review/uxui/sian_en_01.jpg`(Grok), 글 `sian_en_01.md`(이 세션) + `sian_en_grok_01.md`(Grok). 적용 전 태그 `pre-grok-uxui` |
-| ③ 아이패드 빌드 | **완료** — 최신 Android **Zealot 빌드 7** https://apps.talkverse.uk/Eyi4j/242 · iOS **TestFlight 빌드 2611040232**(커밋 `7ba6938` 아이콘, 2026-11-04 02:33) |
+| ③ 아이패드 빌드 | **완료** — 최신 Android **Zealot 빌드 8** https://apps.talkverse.uk/Eyi4j/243 · iOS **TestFlight 빌드 2611040244**(커밋 `24dcc09` 아이콘 E, 2026-11-04 02:5x) |
 | ④ 회화 | **사용자 지시 전까지 금지** — 데이터 없음, 화면은 빈 안내 |
 
 ## 만든 것
@@ -18,7 +18,7 @@ _최종 2026-11-04 02:45 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 - **절벽 단어 R1~R4 화면**(커밋 `aa5473c`, `lib/screens/word_freq_screen.dart`): `assets/data/words/en_words.csv` 2,494어 + 단어 그림, R1~R4·그림 단어만 거르기, 누르면 고른 발음.
 - **그림 단어 퀴즈**(커밋 `141cbb2`, `lib/screens/word_quiz_screen.dart`): 그림 보고 낱말 4지선다, 한 판 10문제. 풀 = picturable=Y 이면서 그림 있는 낱말(R1 31·R2 42·R3 151·R4 565), 보기는 같은 품사 먼저. 틀린 낱말은 `AchievementService.missedWords` → 복습 탭 「틀린 단어 다시」(맞히면 빠짐). 성과에 단어 그림 맞음(`daily.words`). 입구: 복습 탭 · 절벽 단어 화면 오른쪽 위 퀴즈 단추.
 - 단어 그림: `art/en/manifest` 1,326개(2026-11-03 23시), 앱이 자동으로 씀. 목록 `talkverselab/talkversehanja` `talkverse_art/words/en.csv`(2,494어, R1 ≤189·R2 ≤318·R3 ≤825·R4 나머지 = 누적 55·60·70·80%) + `en_food.csv`(50) — 커밋 `36c09d3`. 새로 그릴 327어 + 음식 50 은 uk 세션 대기열.
-- **앱 아이콘**(커밋 `7ba6938`, talkverse.uk 세션 생성 2026-11-04, 사용자 지시 "UK에 아이콘 요청해"): 공통 톤 「A」(HelveticaNeue) — iOS 1024 기본·다크·틴티드, Android 적응형(monochrome 포함). uk 세션은 M6 에서 GitHub 푸시가 안 돼 이 세션이 푸시. 글자 후보(A·Aa·En·E) 미리보기는 uk 세션이 사용자에게 보냄 — 다른 글자를 고르면 uk 세션이 새 커밋을 만들고 이 세션이 푸시·빌드. 이 세션은 아이콘 파일을 직접 고치지 않는다.
+- **앱 아이콘**(커밋 `24dcc09`, talkverse.uk 세션 생성 2026-11-04, 사용자 지시 "UK에 아이콘 요청해" → 글자 **「E」 사용자 결정**(첫 판 A = `7ba6938`)): 공통 톤 「E」(HelveticaNeue) — iOS 1024 기본·다크·틴티드, Android 적응형(monochrome 포함). uk 세션은 M6 에서 GitHub 푸시가 안 돼 이 세션이 푸시. 기준표 `branding/icon_apps.py`·`ICON_SPEC.md` 의 en 도 E 로 바뀜. 이 세션은 아이콘 파일을 직접 고치지 않는다.
 - Talkverse ID(uk 세션 등록 완료): client `en`, 딥링크 `talkverse.en://auth`, 플랜 `lang_en_life`(평생 14,900원), Apple `com.talkverse.englishUniverse.lifetime` / Google `lang_en`. **앱 연결(§11)은 사용자 「착수」 뒤.**
 
 ## 배포
@@ -32,7 +32,7 @@ _최종 2026-11-04 02:45 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 - 그림 요청은 한자 세션 경유(Grok 은 M4 Chrome, `~/talkverse/GROK_M4_LOGIN.md`). 글 시안도 사용자 확인으로 Grok 에 보낼 수 있음(영어 UX 01 때).
 
 ## 다음 할 일
-1. **(사용자)** 아이콘 글자 고르기(A 기본 — uk 세션 미리보기) · 아이패드 TestFlight 빌드 2611040232 · 폰 Zealot 빌드 7 설치·확인(새 아이콘 + 그림 단어 퀴즈).
+1. **(사용자)** 아이패드 TestFlight 빌드 2611040244 · 폰 Zealot 빌드 8 설치·확인(아이콘 E + 그림 단어 퀴즈).
 2. UX 시안 01 의 남은 칸: 「표현 카드」(덩어리·공손도 3단) 시트 자리, 강세 구간 탭 → 느리게 다시 재생. 데이터 필드(`chunks`·`politeness`) 생길 때.
 3. 「소리 배우기」(강세·이어 말하기·약해지는 소리) 화면 — 콘텐츠 작업이 풀리면. (그림 단어 퀴즈는 2026-11-03 완료.)
 4. 회화(④)·로그인·결제(§11)는 사용자 지시 뒤.
