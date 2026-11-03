@@ -37,6 +37,7 @@ _최종 2026-11-03 01:50 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 ## 전체 언어앱 공지(2026-11-03, talkverse.uk 전달 — 사용자 지시)
 - Grok·Gemini: 로그인 원본 M4 `~/chrome-grok`, 쿠키 복사는 M4 안에서만(`~/chrome-grok-en/`), 자기 포트는 `GROK_CHROME_PORTS.md`, M6 에서는 ssh 터널. 상세 `~/talkverse/GROK_M4_LOGIN.md`, 예 `~/talkverse/ko/tools/grok_base.py`. 영어앱은 지금까지 한자 세션 경유로만 요청함.
 - **2026-11-03 지시: 영어앱 세션은 Grok 작업을 시작하지 말고 대기**(사용자가 따로 지시할 때까지). M4 Grok 은 새 계정(원본 `~/chrome-grok`, 9222 — 예전 계정은 11/9 까지 한도, 새 계정엔 프로젝트·챗·GitHub 커넥터 없음). 시작할 때: ① 쿠키를 M4 안에서 `~/chrome-grok` 에서 다시 복사 ② 샘플 1~2개 먼저 시험 ③ 결과를 PushNotification 으로 사용자 통과 요청 ④ 통과 뒤 본작업.
+- Grok 요청문 작성법(중국어앱 정리, 실제 통과 방식): `~/talkverse/GROK_PROMPT_GUIDE.md` — 전문가 모델·편마다 새 방·30초 뒤 다시 받기, 재작성은 '판정 말고 재작성'+'모든 줄 새로', 받은 답은 그대로 쓰지 말고 리뷰, 컷은 한 요청에 1장. 틀 파일 `~/talkverse/zh/tools/`(prompts/rewrite_grok.md·rewrite_request.py·scene_prompts.py·grok_*.py)를 복사해 코드만 바꾼다.
 - M4 Grok 은 사용자 지시가 있을 때만 켠다. 한 번에 한 작업, 연 탭은 닫고 끝나면 Chrome 도 끈다.
 - 회화(④) 때: 카오스 반전 30% 이상, 연애·플러팅 편마다 심쿵 한 줄(여성이 먼저 다가가는 편 더 많이), 편마다 `twist_type`(chaos·slip·reveal·emotion·ignore), 새 편은 왕초보·초급 위주, 그림은 A·B 대사 한 쌍당 1컷(말풍선·글자 없음, 인물 기준 그림 첨부). 원칙 https://talkverse.uk/talkverse/dialogue-rules/
 
