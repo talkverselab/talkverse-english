@@ -8,14 +8,15 @@ _최종 2026-11-03 01:50 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 |---|---|
 | ① 캐릭터 시트 | **사용자 통과 2026-11-03** — `data/review/art/chars_en_v1.jpg`, 특징 `data/review/uxui/CHARACTERS.md` (뉴욕 브루클린: Maya·Emma·Jake·Daniel·학습자 남/여). talkverse.uk 세션이 그림 저장소 `chars/en_sheet.jpg` 로 반영 |
 | ② UX/UI 시안 | **사용자 통과 2026-11-03** — 그림 `data/review/uxui/sian_en_01.jpg`(Grok), 글 `sian_en_01.md`(이 세션) + `sian_en_grok_01.md`(Grok). 적용 전 태그 `pre-grok-uxui` |
-| ③ 아이패드 빌드 | **완료** — Android **Zealot 빌드 4** https://apps.talkverse.uk/Eyi4j/208 · iOS **TestFlight 빌드 2611030138**(커밋 `33fbfe9`, 2026-11-03 01:39 업로드) |
+| ③ 아이패드 빌드 | **완료** — 최신 Android **Zealot 빌드 5** https://apps.talkverse.uk/Eyi4j/234 · iOS **TestFlight 빌드 2611031931**(커밋 `aa5473c`, 2026-11-03 19:32) |
 | ④ 회화 | **사용자 지시 전까지 금지** — 데이터 없음, 화면은 빈 안내 |
 
 ## 만든 것
 - 일본어앱 구조 복제(커밋 `4c26aea`): 레일 + 왼쪽 칸 + 오른쪽 칸, 시안 02 리더(`EpisodePlayPane`), 그림 카드, 회화 홈(오늘의 컷·빈 안내), 「나」 성과 데스크(편 완주·핵심 표현만 — 라이트너·커버율은 엔진 생기면), 프로필(이름·성별), 앱 업데이트(GitHub `latest`).
 - **강세 표시 도구**(사용자 지시, `lib/widgets/stress_text.dart`): 규칙 기반 — 내용어 굵게·기능어 옅게·자음+모음 이어 말하기 ‿, 리더 하단 「강세」 칩으로 켬/끔(기기에 기억). 스크립트·캡션·버블 목록·카드 뒷면. 낱말 안 강세 음절은 아직(사전 데이터 필요).
 - **발음 지역 선택**(사용자 지시): 미국 en-US · 영국 en-GB · 호주 en-AU — 리더 하단 칩·「나 → 발음」. `AccentPrefs`(`lib/services/tts_service.dart`).
-- 단어 그림: `art/en/manifest` 726개(2026-11-03), 앱이 자동으로 씀. 목록 `talkverselab/talkversehanja` `talkverse_art/words/en.csv`(2,494어, R1 ≤189·R2 ≤318·R3 ≤825·R4 나머지 = 누적 55·60·70·80%) + `en_food.csv`(50) — 커밋 `36c09d3`. 새로 그릴 327어 + 음식 50 은 uk 세션 대기열.
+- **절벽 단어 R1~R4 화면**(커밋 `aa5473c`, `lib/screens/word_freq_screen.dart`): `assets/data/words/en_words.csv` 2,494어 + 단어 그림, R1~R4·그림 단어만 거르기, 누르면 고른 발음.
+- 단어 그림: `art/en/manifest` 1,279개(2026-11-03 19시), 앱이 자동으로 씀. 목록 `talkverselab/talkversehanja` `talkverse_art/words/en.csv`(2,494어, R1 ≤189·R2 ≤318·R3 ≤825·R4 나머지 = 누적 55·60·70·80%) + `en_food.csv`(50) — 커밋 `36c09d3`. 새로 그릴 327어 + 음식 50 은 uk 세션 대기열.
 - Talkverse ID(uk 세션 등록 완료): client `en`, 딥링크 `talkverse.en://auth`, 플랜 `lang_en_life`(평생 14,900원), Apple `com.talkverse.englishUniverse.lifetime` / Google `lang_en`. **앱 연결(§11)은 사용자 「착수」 뒤.**
 
 ## 배포
@@ -31,7 +32,7 @@ _최종 2026-11-03 01:50 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 ## 다음 할 일
 1. **(사용자)** TestFlight 내부 테스트 그룹에 본인이 있는지 확인 → 아이패드에서 빌드 2611030138 설치·확인.
 2. UX 시안 01 의 남은 칸: 「표현 카드」(덩어리·공손도 3단) 시트 자리, 강세 구간 탭 → 느리게 다시 재생. 데이터 필드(`chunks`·`politeness`) 생길 때.
-3. 「소리 배우기」(강세·이어 말하기·약해지는 소리)·「절벽 단어 R1~R4」 화면 — 콘텐츠 작업이 풀리면. 단어 화면은 `en.csv` + 단어 그림으로 바로 가능(사용자 확인 후).
+3. 「소리 배우기」(강세·이어 말하기·약해지는 소리) 화면 — 콘텐츠 작업이 풀리면. 단어 그림 카드 퀴즈(그림 → 단어)는 지금 데이터로 가능.
 4. 회화(④)·로그인·결제(§11)는 사용자 지시 뒤.
 
 ## 전체 언어앱 공지(2026-11-03, talkverse.uk 전달 — 사용자 지시)
