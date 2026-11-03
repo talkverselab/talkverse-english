@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 import '../core/l10n.dart';
+import '../core/pane.dart';
 import '../core/theme.dart';
 import '../services/tts_service.dart';
 import '../widgets/english_decor.dart';
 import '../widgets/word_art_thumb.dart';
+import 'word_quiz_screen.dart';
 
 /// 절벽 단어 R1~R4 — 일본어앱 `word_freq_screen.dart` 를 영어앱에 맞춤(2026-11-03).
 /// 데이터 = `assets/data/words/en_words.csv`(2,494어, 그림 단어 목록과 같은 순위·뜻).
@@ -115,6 +117,13 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
           const SizedBox(height: 2),
           Text(tr('많이 쓰는 순서 · 누르면 발음'), style: const TextStyle(color: AppColors.sumiLight, fontSize: 10, letterSpacing: 1)),
         ]),
+        actions: [
+          IconButton(
+            tooltip: tr('그림 단어 퀴즈'),
+            icon: const Icon(Icons.quiz_outlined, color: AppColors.beni),
+            onPressed: () => openFull(context, (_) => WordQuizScreen(level: _filter)),
+          ),
+        ],
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator(color: AppColors.beni))

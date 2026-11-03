@@ -3,12 +3,14 @@ import 'package:flutter/material.dart';
 import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
+import '../services/achievement_service.dart';
 import '../services/dialogue_service.dart';
 import '../widgets/english_decor.dart';
 import '../widgets/today_mission.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
 import 'word_freq_screen.dart';
+import 'word_quiz_screen.dart';
 
 /// 메인 — 탭 4개: 배우기(오늘의 학습·기초·회화·단어) · 복습 · 탐색 · 나(성과·프로필).
 /// 일본어앱 구조 그대로(공통 프롬프터 §5, 2026-11-03). 회화·단어 데이터는 아직 없어 빈 안내를 보인다.
@@ -431,28 +433,51 @@ class _EmptyNote extends StatelessWidget {
 
 // ────────── 복습 ──────────
 
-/// 복습: 라이트너 엔진·카드 데이터가 들어오기 전까지 안내만.
+/// 복습: 그림 단어 퀴즈(지금 데이터로 가능) + 틀린 낱말 다시. 문장 플래시카드는 회화 데이터가 들어오면.
 class ReviewTab extends StatelessWidget {
   const ReviewTab({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      padding: EdgeInsets.fromLTRB(16, 8, 16, 24 + MediaQuery.paddingOf(context).bottom),
-      children: [
-        _section(tr('오늘의 복습')),
-        const _EmptyNote(
-          icon: Icons.style_outlined,
-          text: '회화를 읽고 그림 카드를 풀면 복습할 표현이 여기에 쌓여요.',
-        ),
-        _section(tr('복습')),
-        _NavRow(
-          seal: 'Card',
-          sealColor: AppColors.kinDeep,
-          title: tr('문장 플래시카드'),
-          subtitle: tr('읽은 회화에서 랜덤 20'),
-        ),
-      ],
+    final a = AchievementService.instance;
+    return ValueListenableBuilder<int>(
+      valueListenable: a.changes,
+      builder: (context, _, _) {
+        final missed = a.missedWords;
+        return ListView(
+          padding: EdgeInsets.fromLTRB(16, 8, 16, 24 + MediaQuery.paddingOf(context).bottom),
+          children: [
+            _section(tr('오늘의 복습')),
+            if (missed.isEmpty)
+              const _EmptyNote(
+                icon: Icons.style_outlined,
+                text: '그림 단어 퀴즈에서 틀린 낱말과 회화의 그림 카드가 여기에 쌓여요.',
+              )
+            else
+              _NavRow(
+                seal: 'Re',
+                sealColor: AppColors.sakuraDeep,
+                title: tr('틀린 단어 다시'),
+                subtitle: trf('{0}개 · 맞히면 빠져요', [missed.length]),
+                onTap: () => openFull(context, (_) => WordQuizScreen(words: missed)),
+              ),
+            _section(tr('복습')),
+            _NavRow(
+              seal: 'Pic',
+              sealColor: AppColors.beni,
+              title: tr('그림 단어 퀴즈'),
+              subtitle: tr('그림 보고 낱말 고르기 · R1~R4'),
+              onTap: () => openFull(context, (_) => const WordQuizScreen()),
+            ),
+            _NavRow(
+              seal: 'Card',
+              sealColor: AppColors.kinDeep,
+              title: tr('문장 플래시카드'),
+              subtitle: tr('읽은 회화에서 랜덤 20'),
+            ),
+          ],
+        );
+      },
     );
   }
 }

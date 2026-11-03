@@ -7,7 +7,7 @@ import 'dialogue_service.dart';
 
 /// 성과 기록·집계 — Grok UXUI 시안 02 §5 + `uxui_ipad_answer_02.md` B (2026-11-02).
 ///
-/// **센다**: 편 완주(「모든 문장 듣기」 끝까지) · 핵심 표현(그림 카드 맞음/틀림).
+/// **센다**: 편 완주(「모든 문장 듣기」 끝까지) · 핵심 표현(그림 카드 맞음/틀림) · 단어 그림 맞음(그림 단어 퀴즈, 2026-11-03).
 /// 라이트너·빈도 커버율·본 문자 수는 영어앱에 그 엔진이 생기면 붙인다(공통 프롬프터 §3).
 /// **안 센다**: 앱 오픈·스트릭·포인트·순위. 저장은 SharedPreferences `achievements_v1`(JSON 하나).
 class AchievementService {
@@ -18,7 +18,9 @@ class AchievementService {
   final Map<String, String> _episodes = {}; // 편 id → 완주 날짜(yyyy-mm-dd, 처음)
   final Set<String> _kanji = {}; // 팝업으로 본 글자
   final Map<String, List<int>> _cards = {}; // 편 id → [맞음, 전체] (마지막 세션)
-  final Map<String, Map<String, int>> _daily = {}; // 날짜 → {episodes, cards, kanji}
+  final Map<String, Map<String, int>> _daily = {}; // 날짜 → {episodes, cards, kanji, words}
+  final Map<String, int> _wordMiss = {}; // 그림 단어 퀴즈에서 틀린 낱말 → 틀린 횟수(맞히면 지움)
+  int _wordsRight = 0; // 그림 단어 퀴즈 누적 맞음
   final ValueNotifier<int> changes = ValueNotifier(0);
   bool _loaded = false;
 
@@ -35,6 +37,8 @@ class AchievementService {
         _kanji.addAll((j['kanji'] as List? ?? const []).cast<String>());
         (j['cards'] as Map<String, dynamic>? ?? {}).forEach((k, v) => _cards[k] = (v as List).cast<int>());
         (j['daily'] as Map<String, dynamic>? ?? {}).forEach((k, v) => _daily[k] = (v as Map).map((a, b) => MapEntry(a.toString(), (b as num).toInt())));
+        (j['word_miss'] as Map<String, dynamic>? ?? {}).forEach((k, v) => _wordMiss[k] = (v as num).toInt());
+        _wordsRight = (j['words_right'] as num?)?.toInt() ?? 0;
       }
     } catch (e) {
       debugPrint('Achievement: load 실패 $e');
@@ -44,7 +48,7 @@ class AchievementService {
 
   Future<void> _save() async {
     changes.value++;
-    final data = json.encode({'episodes': _episodes, 'kanji': _kanji.toList(), 'cards': _cards, 'daily': _daily});
+    final data = json.encode({'episodes': _episodes, 'kanji': _kanji.toList(), 'cards': _cards, 'daily': _daily, 'word_miss': _wordMiss, 'words_right': _wordsRight});
     (await SharedPreferences.getInstance()).setString(_key, data);
   }
 
@@ -83,11 +87,28 @@ class AchievementService {
     await _save();
   }
 
+  /// 그림 단어 퀴즈 한 판 결과. 틀린 낱말은 복습 「틀린 단어 다시」에 쌓이고, 맞힌 낱말은 거기서 빠진다.
+  Future<void> markWordQuiz(int rightCount, int total, {List<String> missed = const [], List<String> right = const []}) async {
+    await load();
+    _wordsRight += rightCount;
+    _bump('words', rightCount);
+    for (final w in right) {
+      _wordMiss.remove(w);
+    }
+    for (final w in missed) {
+      _wordMiss[w] = (_wordMiss[w] ?? 0) + 1;
+    }
+    await _save();
+  }
+
   // ── 집계 ──────────────────────────────────────────
   bool isDone(String id) => _episodes.containsKey(id);
   int get episodesDone => _episodes.length;
   int get kanjiSeen => _kanji.length;
   List<int>? cardsOf(String id) => _cards[id];
+  int get wordsRight => _wordsRight;
+  /// 복습할 낱말(많이 틀린 순).
+  List<String> get missedWords => (_wordMiss.entries.toList()..sort((a, b) => b.value.compareTo(a.value))).map((e) => e.key).toList();
 
   /// 주제·레벨별 완주 수 / 전체 수.
   (int, int) progress({required String island, required String region}) {
@@ -103,7 +124,7 @@ class AchievementService {
   }
 
   Map<String, int> get thisWeek {
-    final out = {'episodes': 0, 'cards': 0, 'kanji': 0};
+    final out = {'episodes': 0, 'cards': 0, 'kanji': 0, 'words': 0};
     for (final (d, _) in week()) {
       final m = _daily[d];
       if (m == null) continue;
@@ -117,8 +138,8 @@ class AchievementService {
   /// 이번 주 한 줄(숫자보다 문장).
   String weekSentence() {
     final w = thisWeek;
-    final e = w['episodes'] ?? 0, c = w['cards'] ?? 0, k = w['kanji'] ?? 0;
-    if (e == 0 && c == 0 && k == 0) return '';
+    final e = w['episodes'] ?? 0, c = w['cards'] ?? 0, k = w['kanji'] ?? 0, wd = w['words'] ?? 0;
+    if (e == 0 && c == 0 && k == 0 && wd == 0) return '';
     // 가장 많이 완주한 주제
     String? bestIsland;
     var best = 0;

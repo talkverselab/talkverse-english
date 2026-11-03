@@ -79,6 +79,17 @@ void main() {
     await t.tap(rail('복습'));
     await wait(t, 800);
     await shot(t, '12_review_tab');
+    await t.tap(find.text('그림 단어 퀴즈').first);
+    await wait(t, 3000);
+    await shot(t, '12b_quiz_start');
+    await t.tap(find.text('시작'));
+    await wait(t, 4000);
+    await shot(t, '12c_quiz_question');
+    await t.tap(find.byKey(const ValueKey('choice_1')));
+    await wait(t, 1500);
+    await shot(t, '12d_quiz_answered');
+    await t.tap(find.byType(BackButton).first);
+    await wait(t, 1000);
     await t.tap(rail('탐색'));
     await wait(t, 800);
     await shot(t, '13_explore_tab');

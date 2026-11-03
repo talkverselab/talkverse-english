@@ -101,6 +101,12 @@ class ArtService {
     return _base.endsWith('/') ? '$_base$key' : '$_base/$key';
   }
 
+  /// 매니페스트를 받아 둔다(이미 받았으면 바로). 뒤에 [urlForSync]·[hasArt] 를 쓸 수 있다.
+  Future<void> ensureLoaded() => _ensure();
+
+  /// 받아 둔 매니페스트에 이 낱말(또는 순위)의 그림이 있는가 — [ensureLoaded] 뒤에.
+  bool hasArt(String word, {int? rank}) => _byWord.containsKey(word) || (rank != null && _byRank.containsKey(rank));
+
   Future<void> _ensure() => _loading ??= _load();
 
   Future<void> _load() async {

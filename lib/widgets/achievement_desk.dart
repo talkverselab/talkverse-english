@@ -52,7 +52,7 @@ class _AchievementDeskState extends State<AchievementDesk> {
             ? Row(crossAxisAlignment: CrossAxisAlignment.start, children: [Expanded(flex: 5, child: left), const SizedBox(width: 14), Expanded(flex: 7, child: right)])
             : Column(children: [left, const SizedBox(height: 12), right]),
         const SizedBox(height: 6),
-        Text(tr('센다: 편 완주 · 핵심 표현  /  안 센다: 앱 오픈 · 스트릭 · 포인트 · 순위'),
+        Text(tr('센다: 편 완주 · 핵심 표현 · 단어 그림  /  안 센다: 앱 오픈 · 스트릭 · 포인트 · 순위'),
             style: const TextStyle(fontSize: 10.5, color: AppColors.muted, height: 1.4)),
       ]);
     });
@@ -73,18 +73,20 @@ class _WeekLine extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final w = a.thisWeek;
-    final e = w['episodes'] ?? 0, c = w['cards'] ?? 0;
+    final e = w['episodes'] ?? 0, c = w['cards'] ?? 0, wd = w['words'] ?? 0;
     final island = a.weekSentence();
-    final line = e == 0 && c == 0
-        ? tr('이번 주는 아직 조용해요. 편 하나를 끝까지 들어 보세요.')
-        : (island.isNotEmpty ? trf('이번 주엔 {0} 주제를 가장 많이 읽었어요', [tr(DialogueService.islandKo[island] ?? island)]) : tr('이번 주도 한 걸음씩 가고 있어요'));
+    final line = e == 0 && c == 0 && wd == 0
+        ? tr('이번 주는 아직 조용해요. 편 하나를 끝까지 듣거나 그림 단어 퀴즈를 풀어 보세요.')
+        : island.isNotEmpty
+            ? trf('이번 주엔 {0} 주제를 가장 많이 읽었어요', [tr(DialogueService.islandKo[island] ?? island)])
+            : (e == 0 && c == 0 ? trf('이번 주엔 그림으로 낱말 {0}개를 맞혔어요', [wd]) : tr('이번 주도 한 걸음씩 가고 있어요'));
     return _card(
       border: AppColors.beni.withValues(alpha: 0.5),
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         _label(tr('이번 주 한 줄')),
         Text(line, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
         const SizedBox(height: 4),
-        Text(trf('편 {0} 완주 · 핵심 표현 {1} 맞음', [e, c]), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
+        Text(trf('편 {0} 완주 · 핵심 표현 {1} 맞음 · 단어 그림 {2} 맞음', [e, c, wd]), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
       ]),
     );
   }
