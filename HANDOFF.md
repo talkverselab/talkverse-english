@@ -8,7 +8,7 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 |---|---|
 | ① 캐릭터 시트 | **사용자 통과 2026-11-03** — `data/review/art/chars_en_v1.jpg`, 특징 `data/review/uxui/CHARACTERS.md` (뉴욕 브루클린: Maya·Emma·Jake·Daniel·학습자 남/여). talkverse.uk 세션이 그림 저장소 `chars/en_sheet.jpg` 로 반영 |
 | ② UX/UI 시안 | **사용자 통과 2026-11-03** — 그림 `data/review/uxui/sian_en_01.jpg`(Grok), 글 `sian_en_01.md`(이 세션) + `sian_en_grok_01.md`(Grok). 적용 전 태그 `pre-grok-uxui` |
-| ③ 아이패드 빌드 | **완료** — 최신 Android **Zealot 빌드 8** https://apps.talkverse.uk/Eyi4j/243 · iOS **TestFlight 빌드 2611040244**(커밋 `24dcc09` 아이콘 E, 2026-11-04 02:5x) |
+| ③ 아이패드 빌드 | **완료** — 최신 Android **Zealot 빌드 9** https://apps.talkverse.uk/Eyi4j/282 · iOS **TestFlight 빌드 2611060005**(커밋 `68de096` 공통 8가지 변경, 2026-11-06 00:1x) |
 | ④ 회화 | **사용자 지시 전까지 금지** — 데이터 없음, 화면은 빈 안내 |
 
 ## 만든 것
@@ -34,6 +34,7 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 ## 배포
 - Android: `master` 푸시 → CI(`release.yml`) → `latest` 릴리스 → `tools/zealot_push.sh --ci "한 줄"`. 서명 SHA-1 `72:08:02:58:…:E7:BB`(M6 debug 키, Doppler `ANDROID_DEBUG_KEYSTORE_B64`). 리포 시크릿 `ANDROID_DEBUG_KEYSTORE_BASE64` 는 2026-11-03 노트북에서 `--body $v` 로 넣음 — **Windows 파이프(`|`)로 넣으면 비거나 깨진다.** CI 로그 `secret chars: 3492 / keystore bytes: 2618` 이 정상.
 - PC 백업: `D:\OneDrive\app project\english_universe\english_universe-latest.apk`, iOS `…\ios\*.ipa`.
+  **밀린 백업(2026-11-06)**: PC 에서 D 드라이브가 안 보여(디스크 목록에 C 의 SSD 1개뿐) 빌드 9 APK·2611060005 IPA 백업 실패. D 가 돌아오면 APK 는 `latest` 릴리스·`build/zealot/app-latest.apk`, IPA 는 `build/ios/ipa_appstore/english_universe.ipa` 를 복사.
 - iOS: `bash tools/ios_release.sh`(백그라운드, 8~12분). 첫 시도(빌드 2611030055)는 앱 레코드가 없어 실패(`Error Downloading App Information`), 사용자가 레코드를 만든 뒤 **빌드 2611030138 업로드 성공**(2026-11-03 01:39).
 
 ## 사용자 결정·지시 기록
@@ -42,7 +43,7 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 - 그림 요청은 한자 세션 경유(Grok 은 M4 Chrome, `~/talkverse/GROK_M4_LOGIN.md`). 글 시안도 사용자 확인으로 Grok 에 보낼 수 있음(영어 UX 01 때).
 
 ## 다음 할 일
-1. **(사용자)** 아이패드 TestFlight 빌드 2611040244 · 폰 Zealot 빌드 8 설치·확인(아이콘 E + 그림 단어 퀴즈).
+1. **(사용자)** 아이패드 TestFlight 빌드 2611060005 · 폰 Zealot 빌드 9 설치·확인(첫 실행 그림 내려받기 화면, 공통 변경).
 2. UX 시안 01 의 남은 칸: 「표현 카드」(덩어리·공손도 3단) 시트 자리, 강세 구간 탭 → 느리게 다시 재생. 데이터 필드(`chunks`·`politeness`) 생길 때.
 3. 「소리 배우기」(강세·이어 말하기·약해지는 소리) 화면 — 콘텐츠 작업이 풀리면. (그림 단어 퀴즈는 2026-11-03 완료.)
 3-1. 회화 ④ 를 시작하면: 편마다 `tools/add_lemmas.py` 로 lemmas 채우고 `missing_lemmas.csv` 를 uk 세션에 넘김, 조연 시트 2장(⑧), 컷 요청은 기본판 + 여자판(`_f`, 옷·머리색 고정)(⑦), 그림이 늘면 `version.json` 번호는 그대로(그림은 매니페스트 해시로 자동 갱신)·데이터가 바뀌면 번호 올림(⑤).
