@@ -6,12 +6,14 @@ import '../core/theme.dart';
 import '../widgets/stress_text.dart';
 import '../services/achievement_service.dart';
 import '../services/art_service.dart';
+import '../services/content_sync.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import '../widgets/english_decor.dart';
+import '../widgets/lemma_chips.dart';
 
-/// 편의 문장 플래시카드 — 앞면은 **그림만**(글자 없음, 사용자 지시 2026-11-03), 탭하면 영어·발음·독음·한국어.
+/// 편의 문장 플래시카드 — 앞면은 **그림 + 한국어 뜻**(사용자 지시 2026-11-04 "한국말로 보여줘야지" — 무엇을 말할지 알고 영어로), 탭하면 영어·발음·독음·한국어·레마 칩.
 /// 그림 = 턴 장면 그림(`art`) → 핵심 단어 그림 → 장면 카드. 틀림/맞음 2단계, 틀린 카드는 끝에 다시.
 class DialogueCardScreen extends StatefulWidget {
   final Dialogue dialogue;
@@ -134,7 +136,7 @@ class _CardArt extends StatelessWidget {
           decoration: BoxDecoration(color: AppColors.washiDeep, border: Border.all(color: AppColors.line), borderRadius: BorderRadius.circular(18), boxShadow: kCardShadow),
           child: snap.data == null
               ? Center(child: Text(t.stamp ?? d.emoji, style: const TextStyle(fontSize: 72)))
-              : Image.network(snap.data!, fit: BoxFit.contain, errorBuilder: (_, _, _) => Center(child: Text(d.emoji, style: const TextStyle(fontSize: 72)))),
+              : Image(image: artProvider(snap.data!), fit: BoxFit.contain, errorBuilder: (_, _, _) => Center(child: Text(d.emoji, style: const TextStyle(fontSize: 72)))),
         ),
       );
 }
@@ -165,13 +167,17 @@ class _CardText extends StatelessWidget {
                 const SizedBox(height: 10),
                 Text(LearnerPrefs.fill(t.ko, ko: true), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
                 if (t.note.isNotEmpty) ...[const SizedBox(height: 10), Text('💡 ${t.note}', style: const TextStyle(fontSize: 12, color: AppColors.beniDeep, height: 1.4))],
+                if (t.lemmas.isNotEmpty) ...[const SizedBox(height: 12), LemmaChips(turn: t)],
               ]),
             )
           : Center(
               child: Column(mainAxisSize: MainAxisSize.min, children: [
                 Text(name, style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.sumi)),
-                const SizedBox(height: 8),
-                Text(tr('그림을 보고 영어로 말해 보세요'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+                const SizedBox(height: 10),
+                // 앞면에 한국어 뜻 — 무엇을 말할지 알고 영어로(사용자 지시 2026-11-04)
+                Text(LearnerPrefs.fill(t.ko, ko: true), textAlign: TextAlign.center, style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
+                const SizedBox(height: 12),
+                Text(tr('이 말을 영어로 해 보세요'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
                 const SizedBox(height: 4),
                 Text(tr('탭해서 확인'), style: const TextStyle(fontSize: 11, color: AppColors.muted, letterSpacing: 2)),
               ]),

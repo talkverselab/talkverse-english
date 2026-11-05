@@ -4,6 +4,9 @@ import 'package:flutter/services.dart';
 import 'core/l10n.dart';
 import 'core/theme.dart';
 import 'screens/main_screen.dart';
+import 'screens/sync_screen.dart';
+import 'services/content_sync.dart';
+import 'services/data_version.dart';
 import 'services/achievement_service.dart';
 import 'services/learner_prefs.dart';
 import 'services/tts_service.dart';
@@ -16,7 +19,10 @@ void main() async {
   await AccentPrefs.load();
   await AchievementService.instance.load();
   await _setOrientations(); // 폰은 세로 고정, 태블릿·폴드 펼침(짧은 변 600 이상)은 회전 허용
-  runApp(const EnglishUniverseApp());
+  await DataVersion.applyIfChanged(); // 데이터 업데이트 번호(version.json db)가 바뀌면 기기 캐시 갱신
+  // 그림(장면 컷·단어 그림) 기기 내려받기: 버전이 다르면 로딩 화면에서 받고 시작(사용자 지시 2026-11-04)
+  final needSync = await ContentSync.instance.init(large: _wide ?? false);
+  runApp(EnglishUniverseApp(syncFirst: needSync));
 }
 
 bool? _wide;
@@ -35,7 +41,8 @@ Future<void> _setOrientations([double? shortest]) async {
 }
 
 class EnglishUniverseApp extends StatelessWidget {
-  const EnglishUniverseApp({super.key});
+  final bool syncFirst;
+  const EnglishUniverseApp({super.key, this.syncFirst = false});
 
   @override
   Widget build(BuildContext context) {
@@ -45,7 +52,7 @@ class EnglishUniverseApp extends StatelessWidget {
       theme: AppTheme.light(),
       darkTheme: AppTheme.dark(),
       themeMode: ThemeMode.light,
-      home: const MainScreen(),
+      home: syncFirst ? const SyncScreen(next: MainScreen()) : const MainScreen(),
       // 아이폰 Dynamic Type·갤럭시 글자 크기 설정이 커도 타일이 깨지지 않게 1.2배까지만
       builder: (context, child) {
         final mq = MediaQuery.of(context);

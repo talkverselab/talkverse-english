@@ -3,11 +3,13 @@
 // 회화 데이터가 아직 없어서, 리더·카드 배치는 테스트 안에서만 만든 자리표시 편(「Sample line」)으로 본다 — 앱 데이터가 아니다.
 import 'package:english_universe/main.dart';
 import 'package:english_universe/services/achievement_service.dart';
+import 'package:english_universe/services/content_sync.dart';
 import 'package:english_universe/services/dialogue_service.dart';
 import 'package:english_universe/services/learner_prefs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
+import 'package:english_universe/widgets/word_sheet.dart';
 
 Dialogue _fixture() => Dialogue(
       id: 'test_layout_a1',
@@ -33,6 +35,7 @@ Dialogue _fixture() => Dialogue(
             note: '',
             tags: const [],
             newWords: const [],
+            lemmas: const [Lemma('Sample', 'sample', ''), Lemma('line', 'line', ''), Lemma('checking', 'check', ''), Lemma('longer', 'long', ''), Lemma('sentence', 'sentence', ''), Lemma('wraps', 'wrap', ''), Lemma('script', 'script', '')],
           ),
       ],
     );
@@ -61,7 +64,14 @@ void main() {
   testWidgets('dialogue pane', timeout: const Timeout(Duration(minutes: 10)), (t) async {
     await LearnerPrefs.load();
     await AchievementService.instance.load();
-    await t.pumpWidget(const EnglishUniverseApp());
+    // 시작 로딩(그림 기기 내려받기) 화면 → 「나중에」로 앱 먼저 열기
+    final need = await ContentSync.instance.init(large: true);
+    // ignore: avoid_print
+    print('SYNC need=$need estimate=${ContentSync.instance.estimate}');
+    await t.pumpWidget(const EnglishUniverseApp(syncFirst: true));
+    await wait(t, 2500);
+    await shot(t, '09_sync_screen');
+    await t.tap(find.textContaining('나중에'));
     await wait(t, 1500);
     await shot(t, '10_learn_empty');
 
@@ -121,5 +131,11 @@ void main() {
     await t.tap(find.text('탭해서 확인'));
     await wait(t, 800);
     await shot(t, '20_card_back');
+    await t.tap(find.text('check').last); // 단어장에 있는 레마 칩 → 단어 시트
+    await wait(t, 1500);
+    expect(find.byType(WordSheet), findsOneWidget);
+    await shot(t, '21_word_sheet');
+    ContentSync.instance.cancel();
+    await wait(t, 500);
   });
 }

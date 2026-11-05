@@ -7,6 +7,11 @@ import 'package:english_universe/widgets/stress_text.dart';
 import 'package:english_universe/screens/word_freq_screen.dart';
 import 'package:english_universe/screens/word_quiz_screen.dart';
 import 'package:english_universe/services/achievement_service.dart';
+import 'package:english_universe/services/content_sync.dart';
+import 'package:english_universe/services/data_version.dart';
+import 'package:english_universe/services/dialogue_service.dart';
+import 'package:english_universe/widgets/lemma_chips.dart';
+import 'package:english_universe/widgets/word_sheet.dart';
 import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
@@ -148,5 +153,58 @@ void main() {
     await t.tap(find.text('다음'));
     await t.pump();
     expect(find.text('2 / 10'), findsOneWidget);
+  });
+
+  test('회화 턴: lemmas [[표면형, 기본형, 읽기]] 읽기', () {
+    final t = DialogueTurn.fromJson({'num': 1, 'speaker': 'A', 'tl': 'Wanna grab a coffee?', 'ko': '커피 한잔할래?', 'lemmas': [['Wanna', 'want', ''], ['grab', 'grab', ''], ['coffee', 'coffee']]});
+    expect(t.lemmas.length, 3);
+    expect(t.lemmas[0].base, 'want');
+    expect(t.lemmas[2].reading, '');
+  });
+
+  testWidgets('레마 칩: 단어장에 있으면 뜻 붙은 칩, 없으면 회색', (t) async {
+    final words = await t.runAsync(WordList.load);
+    final found = LemmaChips.lookup(words!, ['coffee', 'grab', 'zzzz']);
+    expect(found['coffee']?.ko, isNotEmpty);
+    expect(found.containsKey('zzzz'), isFalse);
+    final turn = DialogueTurn.fromJson({'num': 1, 'speaker': 'A', 'tl': 'coffee zzzz', 'ko': '', 'lemmas': [['coffee', 'coffee', ''], ['zzzz', 'zzzz', '']]});
+    await t.pumpWidget(MaterialApp(theme: AppTheme.light(), home: Scaffold(body: LemmaChips(turn: turn))));
+    await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 100)));
+    await t.pump();
+    expect(find.text('coffee'), findsOneWidget);
+    expect(find.text('zzzz'), findsOneWidget);
+    expect(find.text(found['coffee']!.ko.split(RegExp(r'[,;·/]')).first.trim()), findsOneWidget);
+  });
+
+  testWidgets('레마 칩: 회색 칩 탭은 바깥(카드 뒤집기)으로 새지 않고, 단어장 칩은 시트를 연다', (t) async {
+    final turn = DialogueTurn.fromJson({'num': 1, 'speaker': 'A', 'tl': 'coffee zzzz', 'ko': '', 'lemmas': [['coffee', 'coffee', ''], ['zzzz', 'zzzz', '']]});
+    var flips = 0;
+    await t.pumpWidget(MaterialApp(theme: AppTheme.light(), home: Scaffold(body: GestureDetector(onTap: () => flips++, child: LemmaChips(turn: turn)))));
+    await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 100)));
+    await t.pump();
+    await t.tap(find.text('zzzz'));
+    await t.pump();
+    expect(flips, 0);
+    expect(find.byType(WordSheet), findsNothing);
+    await t.tap(find.text('coffee'));
+    await t.pump();
+    await t.pump(const Duration(milliseconds: 400));
+    expect(flips, 0);
+    expect(find.byType(WordSheet), findsOneWidget);
+  });
+
+  test('그림 기기 내려받기: 색인이 없으면 네트워크 그림, 추정치 0', () {
+    expect(artProvider('https://example.invalid/a.webp'), isA<NetworkImage>());
+    expect(ContentSync.instance.localFile('scene/x.webp'), isNull);
+    expect(ContentSync.instance.estimate.$1, 0);
+  });
+
+  test('데이터 업데이트 번호: 번들 db 와 다르면 그림 매니페스트 캐시를 지우고 번호 저장', () async {
+    SharedPreferences.setMockInitialValues({'art_manifest_en_v1': '{}', 'db_version': 0});
+    expect(await DataVersion.bundled(), greaterThanOrEqualTo(1));
+    expect(await DataVersion.applyIfChanged(), isTrue);
+    final p = await SharedPreferences.getInstance();
+    expect(p.getString('art_manifest_en_v1'), isNull);
+    expect(await DataVersion.applyIfChanged(), isFalse); // 같은 번호면 그대로
   });
 }

@@ -39,6 +39,13 @@
 - 아이패드 스크린샷: 자기 시뮬레이터 1대만(`en-shots iPad Air 11`, iOS 26.5) →
   `python3 tools/pane_shots.py <UDID> <스크래치 폴더> integration_test/dialogue_pane_test.dart` → 로그 `overflowed by` 0 → 사진을 직접 본다 → `xcrun simctl shutdown <UDID>`.
 
+## 3-1. 2026-11-04 공통 변경(공통 프롬프터 §5-1, 모든 언어앱 동일)
+- 그림은 모두 `artProvider(url)`(`lib/services/content_sync.dart`, 기기 파일 우선) — `Image.network` 를 새로 쓰지 말 것. 시작 로딩 = `SyncScreen`.
+- 데이터(단어·회화)를 바꾸면 `assets/data/version.json` 의 `db` 번호를 올린다(`DataVersion`). 그림은 매니페스트 `?v=` 해시로 자동 갱신이라 번호와 무관.
+- 회화 편 JSON 의 턴에 `lemmas` 는 `tools/add_lemmas.py`(`~/.venvs/en` + wordfreq) 로 채운다. 단어장에 없는 레마 → `data/review/write/missing_lemmas.csv` → uk 세션.
+- 말풍선을 그림 위에 얹지 않는다(그림 아래 띠 `_LineStrip`). 그림 카드 앞면엔 한국어 뜻. `{name}` 회화는 이름이 비면 `ensureLearnerName` 창.
+- 장면 컷은 기본판 + 여자 학습자판(`<편id>_f`), 반복 조연은 시트 2장을 컷 요청에 첨부.
+
 ## 4. 그림
 - 캐릭터·UX 시안 요청은 한자 세션 경유(공통 프롬프터 §9). 결과 `data/review/art/`·`data/review/uxui/`.
 - 단어 그림 `https://auth.talkverse.uk/art/en/manifest`(2026-11-03 23시 현재 1,326개, 없는 단어는 이모지 카드), 장면 컷 `…/art/en/scene/manifest?episode=<편id>`.
