@@ -40,7 +40,7 @@
     "ask",
     "question"
    ],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "dollars",
@@ -78,16 +78,7 @@
     "tip",
     "cookie"
    ],
-   "segs": [
-    [
-     "surprised",
-     "Wait."
-    ],
-    [
-     "tsukkomi",
-     "Is this a tip? For a cookie?"
-    ]
-   ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Wait",
@@ -120,7 +111,7 @@
    "new": [
     "total"
    ],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "totally",
@@ -139,7 +130,7 @@
     "expr:right"
    ],
    "new": [],
-   "emotion": "worried",
+   "emotion": "neutral",
    "lemmas": [
     [
      "looking",
@@ -161,7 +152,7 @@
    "note": "보면서 하는 말",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "looking",
@@ -184,7 +175,7 @@
     "thirty",
     "percent"
    ],
-   "emotion": "flustered",
+   "emotion": "worried",
    "lemmas": [
     [
      "hit",
@@ -216,16 +207,7 @@
     "favorite",
     "person"
    ],
-   "segs": [
-    [
-     "amused",
-     "I saw."
-    ],
-    [
-     "gentle",
-     "You're my favorite person now."
-    ]
-   ],
+   "emotion": "amused",
    "lemmas": [
     [
      "saw",
@@ -255,7 +237,7 @@
     "napkin",
     "tears"
    ],
-   "emotion": "sad",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Great",

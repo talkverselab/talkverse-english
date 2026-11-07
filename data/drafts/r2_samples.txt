@@ -10,15 +10,15 @@ B: Emma
 twist: 8 emotion
 expr: by the way | honestly | i mean | you know what
 --
-B | So this is my train. Well, in ten minutes. | 그러니까 이게 내 지하철이야. 음, 10분 뒤에. | in ten minutes = 10분 뒤에 | emo=shy
-A | Okay. I can wait with you. | 응. 같이 기다려 줄게. | wait with you = 같이 기다리다 | emo=gentle
+B | So this is my train. Well, in ten minutes. | 그러니까 이게 내 지하철이야. 음, 10분 뒤에. | in ten minutes = 10분 뒤에 | emo=neutral
+A | Okay. I can wait with you. | 응. 같이 기다려 줄게. | wait with you = 같이 기다리다 | emo=neutral
 B | You don't have to. It's cold. | 안 그래도 돼. 춥잖아. | You don't have to = 안 그래도 돼 | emo=gentle
 A | Honestly, I'm not that cold. | 솔직히, 그렇게 안 추워. | honestly = 솔직히 | emo=neutral
 B | Your hands are shaking, {name}. | 네 손 떨리고 있어, {name}. | shaking = 떨리는 | emo=teasing
-A | Okay, I'm a little cold. By the way, your train just came. | 그래, 조금 추워. 그나저나 방금 네 지하철 왔어. | by the way = 그나저나 | emo=amused
-B | I saw it. | 봤어. | 짧게 멈추기 | emo=shy
+A | Okay, I'm a little cold. By the way, your train just came. | 그래, 조금 추워. 그나저나 방금 네 지하철 왔어. | by the way = 그나저나 | emo=neutral
+B | I saw it. | 봤어. | 짧게 멈추기 | emo=neutral
 A | You saw it? You're not getting on? | 봤다고? 안 타? | get on = 타다 | emo=surprised
-B | I mean, there's another one. Probably. I didn't really check. | 내 말은, 또 있겠지. 아마도. 제대로 안 찾아봤어. | I mean = 내 말은 | emo=flustered heart
-A | Emma, that was the last train. | 에마, 그거 막차였어. | last train = 막차 | emo=gentle
+B | I mean, there's another one. Probably. I didn't really check. | 내 말은, 또 있겠지. 아마도. 제대로 안 찾아봤어. | I mean = 내 말은 | emo=shy heart
+A | Emma, that was the last train. | 에마, 그거 막차였어. | last train = 막차 | emo=neutral
 B | You know what? I read that sign an hour ago. | 있잖아, 나 그 표지판 한 시간 전에 읽었어. | 들킨 마음 | emo=shy
 A | So you… | 그러니까 너… | 말을 다 하지 않기 | emo=gentle

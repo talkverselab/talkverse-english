@@ -62,7 +62,7 @@
     "water",
     "please"
    ],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
      "water",
@@ -110,7 +110,7 @@
     "expr:yes"
    ],
    "new": [],
-   "emotion": "stiff",
+   "emotion": "neutral",
    "lemmas": []
   },
   {
@@ -125,7 +125,7 @@
     "dog",
     "dollar"
    ],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Hot",
@@ -154,7 +154,7 @@
     "expr:yes"
    ],
    "new": [],
-   "emotion": "stiff",
+   "emotion": "neutral",
    "lemmas": []
   },
   {
@@ -171,16 +171,7 @@
     "friend",
     "twelve"
    ],
-   "segs": [
-    [
-     "tsukkomi",
-     "Yes isn't a number, friend."
-    ],
-    [
-     "amused",
-     "I'll say twelve."
-    ]
-   ],
+   "emotion": "amused",
    "lemmas": [
     [
      "number",
@@ -214,7 +205,7 @@
     "expr:yes"
    ],
    "new": [],
-   "emotion": "stiff",
+   "emotion": "neutral",
    "lemmas": []
   }
  ]

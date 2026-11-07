@@ -15,7 +15,7 @@
   "2": {
    "segs": [
     [
-     "amused",
+     "neutral",
      "Are you kidding? My hand is on it."
     ]
    ]
@@ -31,7 +31,7 @@
   "4": {
    "segs": [
     [
-     "surprised",
+     "neutral",
      "Your book? Did you read it?"
     ]
    ]
@@ -39,7 +39,7 @@
   "5": {
    "segs": [
     [
-     "sad",
+     "neutral",
      "Five times. The ending is so sad."
     ]
    ]
@@ -63,7 +63,7 @@
   "8": {
    "segs": [
     [
-     "surprised",
+     "neutral",
      "Wait, is that your number in the book?"
     ]
    ]

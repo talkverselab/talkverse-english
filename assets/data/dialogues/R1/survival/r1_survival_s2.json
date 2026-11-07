@@ -42,7 +42,7 @@
     "expr:can i get"
    ],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
      "get",
@@ -95,7 +95,7 @@
     "expr:to go"
    ],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "go",
@@ -115,7 +115,7 @@
     "expr:to go"
    ],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "go",
@@ -141,7 +141,7 @@
     "name",
     "cup"
    ],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Perfect",

@@ -7,7 +7,7 @@
   "1": {
    "segs": [
     [
-     "polite",
+     "neutral",
      "Two dollars. It's just gonna ask you a question."
     ]
    ]
@@ -16,18 +16,14 @@
    "segs": [
     [
      "surprised",
-     "Wait."
-    ],
-    [
-     "tsukkomi",
-     "Is this a tip? For a cookie?"
+     "Wait. Is this a tip? For a cookie?"
     ]
    ]
   },
   "3": {
    "segs": [
     [
-     "polite",
+     "neutral",
      "It's okay. It's totally up to you."
     ]
    ]
@@ -35,7 +31,7 @@
   "4": {
    "segs": [
     [
-     "worried",
+     "neutral",
      "But you're looking right at me."
     ]
    ]
@@ -43,7 +39,7 @@
   "5": {
    "segs": [
     [
-     "polite",
+     "neutral",
      "I'm not looking."
     ]
    ]
@@ -51,7 +47,7 @@
   "6": {
    "segs": [
     [
-     "flustered",
+     "worried",
      "Oh no. I hit thirty percent."
     ]
    ]
@@ -60,18 +56,14 @@
    "segs": [
     [
      "amused",
-     "I saw."
-    ],
-    [
-     "gentle",
-     "You're my favorite person now."
+     "I saw. You're my favorite person now."
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "sad",
+     "neutral",
      "Great. Can I have a napkin for my tears?"
     ]
    ]

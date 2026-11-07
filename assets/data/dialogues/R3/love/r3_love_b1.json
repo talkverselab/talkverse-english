@@ -39,7 +39,7 @@
    "note": "So who was that? = 저 사람 누구야?",
    "tags": [],
    "new": [],
-   "emotion": "stiff",
+   "emotion": "neutral",
    "lemmas": []
   },
   {
@@ -89,7 +89,7 @@
     "laugh",
     "count"
    ],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "lemmas": [
     [
      "laughed",
@@ -151,7 +151,7 @@
     "expr:it's not like"
    ],
    "new": [],
-   "emotion": "stiff",
+   "emotion": "neutral",
    "lemmas": [
     [
      "get",
@@ -227,7 +227,7 @@
     "experimental",
     "novel"
    ],
-   "emotion": "flustered",
+   "emotion": "neutral",
    "lemmas": [
     [
      "experimental",
@@ -253,7 +253,7 @@
    "new": [
     "jealous"
    ],
-   "emotion": "gentle",
+   "emotion": "neutral",
    "lemmas": [
     [
      "little",
@@ -353,7 +353,7 @@
    "new": [
     "forget"
    ],
-   "emotion": "shout",
+   "emotion": "polite",
    "lemmas": [
     [
      "Excuse",
@@ -416,7 +416,7 @@
     "expr:yes"
    ],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "neutral",
    "lemmas": [
     [
      "said",

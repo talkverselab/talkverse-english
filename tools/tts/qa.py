@@ -2,7 +2,7 @@
 """생성된 문장 조각을 받아쓰기로 검사하고, 나쁜 조각의 재생성 작업을 만든다(mlx-whisper 필요).
   python qa.py <wav폴더> <편id>... [--jobs <moss_jobs.json>]   결과는 <wav폴더>/qa.json 에 쌓인다(조각 → sim·dur·tries·ok)
 소문자로 바꿔 글자·숫자만 남겨 견준다(띄어쓰기·문장부호 무시). 나쁨 = 비슷함 0.72 미만 또는 길이가 글자 수에 견줘 지나치게 길거나 짧음.
-재생성본은 PC 의 out/en/retake/<편>/<조각>.t<N>.wav — 받아 온 뒤 다시 돌리면 가장 잘 나온 판을 본 파일로 고른다. 세 번 해도 나쁘면 가장 나은 판을 쓰고 qa.json 에 ok=false 로 남긴다."""
+재생성본은 PC 의 out/en2/retake/<편>/<조각>.t<N>.wav — 받아 온 뒤 다시 돌리면 가장 잘 나온 판을 본 파일로 고른다. 세 번 해도 나쁘면 가장 나은 판을 쓰고 qa.json 에 ok=false 로 남긴다."""
 import difflib, glob, json, os, re, shutil, subprocess, sys
 import mlx_whisper
 import ttslib as L
@@ -56,7 +56,7 @@ def main():
                 bad += 1
                 if q['tries'] < 3:
                     q['tries'] += 1
-                    jobs.append({**L.job(ep, name, voice, emo, text, out=f"en/retake/{k[:-4]}.t{q['tries']}.wav"), 'seed': 42 + 97 * q['tries']})
+                    jobs.append({**L.job(ep, name, voice, emo, text, out=f"en2/retake/{k[:-4]}.t{q['tries']}.wav"), 'seed': 42 + 97 * q['tries']})
     json.dump(Q, open(qf, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     if jobs_out:
         json.dump(jobs, open(jobs_out, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)

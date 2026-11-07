@@ -15,7 +15,7 @@
   "2": {
    "segs": [
     [
-     "cheerful",
+     "neutral",
      "Yes! Just this water, please."
     ]
    ]
@@ -31,7 +31,7 @@
   "4": {
    "segs": [
     [
-     "stiff",
+     "neutral",
      "Yes."
     ]
    ]
@@ -39,7 +39,7 @@
   "5": {
    "segs": [
     [
-     "polite",
+     "neutral",
      "Hot dogs are a dollar. How many?"
     ]
    ]
@@ -47,7 +47,7 @@
   "6": {
    "segs": [
     [
-     "stiff",
+     "neutral",
      "Yes."
     ]
    ]
@@ -55,19 +55,15 @@
   "7": {
    "segs": [
     [
-     "tsukkomi",
-     "Yes isn't a number, friend."
-    ],
-    [
      "amused",
-     "I'll say twelve."
+     "Yes isn't a number, friend. I'll say twelve."
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "stiff",
+     "neutral",
      "Yes."
     ]
    ]

@@ -7,7 +7,7 @@
   "1": {
    "segs": [
     [
-     "shy",
+     "neutral",
      "So this is my train. Well, in ten minutes."
     ]
    ]
@@ -15,7 +15,7 @@
   "2": {
    "segs": [
     [
-     "gentle",
+     "neutral",
      "Okay. I can wait with you."
     ]
    ]
@@ -47,7 +47,7 @@
   "6": {
    "segs": [
     [
-     "amused",
+     "neutral",
      "Okay, I'm a little cold. By the way, your train just came."
     ]
    ]
@@ -55,7 +55,7 @@
   "7": {
    "segs": [
     [
-     "shy",
+     "neutral",
      "I saw it."
     ]
    ]
@@ -71,7 +71,7 @@
   "9": {
    "segs": [
     [
-     "flustered",
+     "shy",
      "I mean, there's another one. Probably. I didn't really check."
     ]
    ]
@@ -79,7 +79,7 @@
   "10": {
    "segs": [
     [
-     "gentle",
+     "neutral",
      "Emma, that was the last train."
     ]
    ]

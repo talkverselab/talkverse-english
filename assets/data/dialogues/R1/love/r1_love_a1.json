@@ -80,7 +80,7 @@
     "kid",
     "hand"
    ],
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
      "kidding",
@@ -126,7 +126,7 @@
    "new": [
     "read"
    ],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
      "book",
@@ -151,7 +151,7 @@
     "end",
     "sad"
    ],
-   "emotion": "sad",
+   "emotion": "neutral",
    "lemmas": [
     [
      "times",
@@ -249,7 +249,7 @@
     "expr:wait"
    ],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Wait",

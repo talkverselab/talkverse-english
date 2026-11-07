@@ -1,45 +1,45 @@
 {
- "_meta": "영어 회화 음성 — 목소리·감정·자리 채움. 일본어앱 data/tts/voices.json 과 같은 짜임. 미국 말투 한 벌. 여성판 이름은 고정 인물 Emma 와 겹치지 않게 Sara.",
+ "_meta": "영어 회화 음성 — 목소리·감정·자리 채움. 일본어앱 data/tts/voices.json 과 같은 짜임. 미국 말투 한 벌. 여성판 이름은 고정 인물 Emma 와 겹치지 않게 Sara. 2026-11-07 사용자 청취 \"감정 과잉, 특히 남자\" → 지시를 약하게 고침, PC 폴더 ref_en2·en2.",
  "base_text": "I have a meeting this afternoon, so I got everything ready this morning. When it's over, let's grab dinner together, okay?",
  "voices": {
   "am": {
-   "desc": "A young American man in his twenties, clear and gentle voice, neutral American accent"
+   "desc": "A young American man in his twenties, ordinary relaxed speaking voice, low energy, low-key natural delivery, not theatrical"
   },
   "af": {
-   "desc": "A young American woman in her twenties, clear and soft voice, neutral American accent"
+   "desc": "A young American woman in her twenties, clear and soft voice, low-key natural delivery, not theatrical"
   },
   "maya": {
-   "desc": "An American woman in her early twenties from New York, fast, bright and expressive voice with big reactions"
+   "desc": "An American woman in her early twenties from New York, quick and bright voice, low-key natural delivery, not theatrical"
   },
   "emma": {
-   "desc": "An American woman in her early twenties, calm, soft and slightly teasing voice"
+   "desc": "An American woman in her early twenties, calm, soft and slightly teasing voice, low-key natural delivery, not theatrical"
   },
   "jake": {
-   "desc": "An American man in his mid twenties, relaxed, laid-back and slightly deep voice"
+   "desc": "An American man in his mid twenties, relaxed, laid-back and slightly deep voice, low-key natural delivery, not theatrical"
   },
   "daniel": {
-   "desc": "An American man in his mid twenties, direct, steady and warm low voice"
+   "desc": "An American man in his mid twenties, direct, steady and warm low voice, low-key natural delivery, not theatrical"
   },
   "man_y": {
-   "desc": "An American man around twenty, natural and clear voice"
+   "desc": "An American man around twenty, natural and clear voice, low-key natural delivery, not theatrical"
   },
   "man_m": {
-   "desc": "An American man in his forties from New York, steady and dry voice"
+   "desc": "An American man in his forties from New York, flat and dry speaking voice, low energy, low-key natural delivery, not theatrical"
   },
   "man_o": {
-   "desc": "An American man in his seventies, aged and gentle voice"
+   "desc": "An American man in his seventies, aged and gentle voice, low-key natural delivery, not theatrical"
   },
   "woman_y": {
-   "desc": "An American woman around twenty, natural and clear voice"
+   "desc": "An American woman around twenty, natural and clear voice, low-key natural delivery, not theatrical"
   },
   "woman_m": {
-   "desc": "An American woman in her forties, composed and kind voice"
+   "desc": "An American woman in her forties, composed and kind voice, low-key natural delivery, not theatrical"
   },
   "woman_o": {
-   "desc": "An American woman in her seventies, aged and warm voice"
+   "desc": "An American woman in her seventies, aged and warm voice, low-key natural delivery, not theatrical"
   },
   "kid": {
-   "desc": "An American child around eight years old, small and bright voice"
+   "desc": "An American child around eight years old, small and bright voice, low-key natural delivery, not theatrical"
   },
   "announce": {
    "desc": "A clear, even female announcer voice, like a subway or airport announcement"
@@ -50,67 +50,67 @@
  },
  "emotions": {
   "neutral": {
-   "instruct": "calm and natural, everyday tone",
+   "instruct": "plain everyday conversation, flat and relaxed, no acting at all, understated American delivery",
    "ref": "I have a meeting this afternoon, so I got everything ready this morning."
   },
   "polite": {
-   "instruct": "polite and professional, like a clerk or station staff",
+   "instruct": "plain and polite, like a clerk at work, no extra warmth, understated American delivery",
    "ref": "Good afternoon. Your order is ready. Please let me know if you need anything else."
   },
   "stiff": {
-   "instruct": "very nervous and stiff, formal and overly polite",
+   "instruct": "a little tense, slightly formal, still natural, understated American delivery",
    "ref": "Thank you very much for your time today. I will do my very best. It is an honor to be here."
   },
   "cheerful": {
-   "instruct": "cheerful, bright and friendly",
+   "instruct": "lightly friendly, a small smile in the voice, not bubbly, understated American delivery",
    "ref": "Oh, you made it! The weather is so nice, today is going to be a great day."
   },
   "amused": {
-   "instruct": "amused, laughing warmly, relaxed",
+   "instruct": "quietly amused, a slight smile, no laughing, understated American delivery",
    "ref": "Ha, that's so funny! Okay, okay, keep going, I want to hear the rest."
   },
   "teasing": {
-   "instruct": "teasing, playful and mischievous",
+   "instruct": "dry and lightly teasing, understated, understated American delivery",
    "ref": "Oh really? You just happened to be here? Sure you did. I totally believe you."
   },
   "excited": {
-   "instruct": "excited, bursting with energy, bright and loud",
+   "instruct": "mildly pleased and a bit faster, not loud, understated American delivery",
    "ref": "No way, we actually got the tickets! This is the best thing that has ever happened!"
   },
   "surprised": {
-   "instruct": "surprised, caught off guard, voice jumps",
+   "instruct": "mildly surprised, a small rise in pitch, not gasping, understated American delivery",
    "ref": "Wait, what? You're telling me this was here the whole time? I had no idea!"
   },
   "shout": {
-   "instruct": "surprised and loud, an exaggerated comic retort",
+   "instruct": "raising the voice slightly to be heard, not yelling, understated American delivery",
    "ref": "Hey! Stop right there! You forgot your bag! Come back!"
   },
   "tsukkomi": {
-   "instruct": "a quick sharp comic retort, exasperated but fond",
+   "instruct": "dry, deadpan pushback, not loud, understated American delivery",
    "ref": "Are you serious right now? That is not even close to what I said!"
   },
   "annoyed": {
-   "instruct": "annoyed, irritated, sighing",
+   "instruct": "slightly tired and flat, not angry, understated American delivery",
    "ref": "This is the third time today. Can you please just put it back where it was?"
   },
   "sad": {
-   "instruct": "sad, quiet, voice slightly trembling",
+   "instruct": "a little quiet and low, not crying, understated American delivery",
    "ref": "I thought it would be different this time. I guess it doesn't really matter anymore."
   },
   "worried": {
-   "instruct": "worried and anxious, hesitant",
+   "instruct": "slightly unsure, a little quieter, not panicked, understated American delivery",
    "ref": "Are you okay? You haven't answered all day, and I really don't know what to do."
   },
   "flustered": {
-   "instruct": "flustered and embarrassed, stammering, unsure",
+   "instruct": "a little awkward and rushed, not panicked, understated American delivery",
    "ref": "No, no, that's not what I meant! I was just, I mean, can we forget I said that?"
   },
   "shy": {
-   "instruct": "shy, soft, slightly trailing off",
+   "instruct": "soft and a little hesitant, not whispering, understated American delivery",
    "ref": "I don't know how to say this. I just, um, I kind of like being around you."
   },
   "gentle": {
-   "instruct": "gentle, warm and tender, quiet",
+   "instruct": "soft and calm, not breathy, understated American delivery",
    "ref": "Hey, it's okay. Take your time. I'm not going anywhere, I'll wait right here."
   }
  },

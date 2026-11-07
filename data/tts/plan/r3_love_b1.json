@@ -8,7 +8,7 @@
   "1": {
    "segs": [
     [
-     "stiff",
+     "neutral",
      "So who was that?"
     ]
    ]
@@ -24,7 +24,7 @@
   "3": {
    "segs": [
     [
-     "annoyed",
+     "neutral",
      "You laughed for two whole minutes. I wasn't counting."
     ]
    ]
@@ -40,7 +40,7 @@
   "5": {
    "segs": [
     [
-     "stiff",
+     "neutral",
      "Don't get me wrong. It's not like I care."
     ]
    ]
@@ -56,7 +56,7 @@
   "7": {
    "segs": [
     [
-     "flustered",
+     "neutral",
      "It's a very experimental novel."
     ]
    ]
@@ -64,7 +64,7 @@
   "8": {
    "segs": [
     [
-     "gentle",
+     "neutral",
      "Emma. Are you a little jealous?"
     ]
    ]
@@ -88,7 +88,7 @@
   "11": {
    "segs": [
     [
-     "shout",
+     "polite",
      "Excuse me! You forgot your hot dogs! All twelve of them!"
     ]
    ]
@@ -104,7 +104,7 @@
   "13": {
    "segs": [
     [
-     "flustered",
+     "neutral",
      "I just said yes. I always say yes."
     ]
    ]

@@ -90,7 +90,7 @@ def seg_files(ep):
 
 def job(ep, name, voice, emo, text, out=None):
     """조각 하나의 PC 작업. `_vox` 편은 VoxCPM2(언어 칸 없음, 참고 음성 복제), 그 밖은 MOSS."""
-    j = {'out': out or f'en/{ep}/{name}', 'text': text, 'reference': f'out/ref_en/{voice}_{emo}.wav'}
+    j = {'out': out or f'en2/{ep}/{name}', 'text': text, 'reference': f'out/ref_en2/{voice}_{emo}.wav'}
     if not ep.endswith(VOX):
         j['language'] = LANG
     return j

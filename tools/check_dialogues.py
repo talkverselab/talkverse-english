@@ -128,8 +128,8 @@ def main():
             if fix and (t.get('new') != new or t.get('tags') != tags):
                 t['new'], t['tags'] = new, tags
                 changed = True
-        if flat and flat.count('neutral') * 2 > len(flat):
-            w.append('감정 절반 이상이 neutral')
+        if sum(x not in ('neutral', 'polite') for x in flat) * 2 > len(flat):
+            w.append('감정 턴이 절반을 넘음(대부분 평범하게)')
         if ep['turns'] and re.search(r'\bthank', ep['turns'][-1]['en'], re.I):
             w.append('감사로 끝남')
         if ep['island'] == 'love' and not any('heart' in t.get('tags', []) for t in ep['turns']):

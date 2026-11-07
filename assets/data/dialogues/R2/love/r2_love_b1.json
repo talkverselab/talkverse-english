@@ -41,7 +41,7 @@
     "train",
     "minute"
    ],
-   "emotion": "shy",
+   "emotion": "neutral",
    "lemmas": [
     [
      "train",
@@ -71,7 +71,7 @@
     "expr:wait"
    ],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "neutral",
    "lemmas": [
     [
      "wait",
@@ -161,7 +161,7 @@
     "expr:by the way"
    ],
    "new": [],
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
      "little",
@@ -198,7 +198,7 @@
    "note": "짧게 멈추기",
    "tags": [],
    "new": [],
-   "emotion": "shy",
+   "emotion": "neutral",
    "lemmas": [
     [
      "saw",
@@ -244,7 +244,7 @@
     "probably",
     "check"
    ],
-   "emotion": "flustered",
+   "emotion": "shy",
    "lemmas": [
     [
      "mean",
@@ -276,7 +276,7 @@
    "note": "last train = 막차",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "neutral",
    "lemmas": [
     [
      "last",

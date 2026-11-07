@@ -46,7 +46,7 @@
    ],
    "ui": "bubble",
    "at": "21:03",
-   "emotion": "excited",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Guess",
@@ -92,7 +92,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:04",
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "stamp": "🙂",
    "lemmas": []
   },
@@ -111,7 +111,7 @@
    ],
    "ui": "bubble",
    "at": "21:04",
-   "emotion": "flustered",
+   "emotion": "worried",
    "lemmas": [
     [
      "Wrong",
@@ -166,7 +166,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:05",
-   "emotion": "flustered",
+   "emotion": "worried",
    "lemmas": [
     [
      "bad",
@@ -234,7 +234,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:06",
-   "emotion": "amused",
+   "emotion": "neutral",
    "stamp": "🍕",
    "lemmas": [
     [

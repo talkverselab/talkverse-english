@@ -7,7 +7,7 @@
   "1": {
    "segs": [
     [
-     "cheerful",
+     "neutral",
      "Hey! What can I get you?"
     ]
    ]
@@ -23,7 +23,7 @@
   "3": {
    "segs": [
     [
-     "polite",
+     "neutral",
      "For here or to go?"
     ]
    ]
@@ -31,7 +31,7 @@
   "4": {
    "segs": [
     [
-     "polite",
+     "neutral",
      "To go, please."
     ]
    ]
@@ -39,7 +39,7 @@
   "5": {
    "segs": [
     [
-     "cheerful",
+     "neutral",
      "Perfect. Name for the cup?"
     ]
    ]

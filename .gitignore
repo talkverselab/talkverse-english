@@ -56,3 +56,4 @@ android/key.properties
 # 다른 세션 전달 메모
 RELAY_*.md
 __pycache__/
+.wrangler/
