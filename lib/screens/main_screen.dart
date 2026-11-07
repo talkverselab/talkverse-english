@@ -7,12 +7,13 @@ import '../services/achievement_service.dart';
 import '../services/dialogue_service.dart';
 import '../widgets/english_decor.dart';
 import '../widgets/today_mission.dart';
+import 'about_screen.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
 import 'word_freq_screen.dart';
 import 'word_quiz_screen.dart';
 
-/// 메인 — 탭 4개: 배우기(오늘의 학습·기초·회화·단어) · 복습 · 탐색 · 나(성과·프로필).
+/// 메인 — 탭 4개: 배우기(오늘의 학습·기초·회화·단어) · 복습 · 탐색 · 프로필(성과·설정). 넓은 화면 레일 맨 아래 「앱 소개」.
 /// 일본어앱 구조 그대로(공통 프롬프터 §5, 2026-11-03). 회화·단어 데이터는 아직 없어 빈 안내를 보인다.
 /// 넓은 화면(isWide): 앱바 아래 왼쪽 = 탭 레일 + 그 탭의 목록, 오른쪽 = 고른 내용(자기 Navigator). 폰: 하단 탭 + 내용 전체 화면.
 /// 학습(에피소드·카드 세션·퀴즈)은 어느 쪽이든 openFull 로 목록을 감추고 전체 화면.
@@ -31,7 +32,7 @@ class _MainScreenState extends State<MainScreen> {
     (Icons.menu_book_outlined, Icons.menu_book, tr('배우기')),
     (Icons.style_outlined, Icons.style, tr('복습')),
     (Icons.explore_outlined, Icons.explore, tr('탐색')),
-    (Icons.person_outline, Icons.person, tr('나')),
+    (Icons.person_outline, Icons.person, tr('프로필')),
   ];
 
   @override
@@ -108,6 +109,28 @@ class _MainScreenState extends State<MainScreen> {
                   color: AppColors.muted,
                   fontSize: 11,
                   fontWeight: FontWeight.w600,
+                ),
+                trailing: Expanded(
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Padding(
+                      padding: const EdgeInsets.only(bottom: 16),
+                      child: Builder(
+                        builder: (context) => InkWell(
+                          onTap: () => openPane(context, (_) => const AboutScreen()),
+                          borderRadius: BorderRadius.circular(8),
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+                            child: Column(mainAxisSize: MainAxisSize.min, children: [
+                              const Icon(Icons.info_outline, color: AppColors.muted),
+                              const SizedBox(height: 2),
+                              Text(tr('앱 소개'), style: const TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w600)),
+                            ]),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
                 destinations: [
                   for (final t in _tabs)
@@ -391,7 +414,7 @@ class _LearnTabState extends State<LearnTab> {
               seal: 'Word',
               sealColor: AppColors.kinDeep,
               title: tr('절벽 단어 R1~R4'),
-              subtitle: tr('많이 쓰는 2,494어 · 그림 · 미국/영국/호주 발음'),
+              subtitle: tr('빈도 2,000위 · 20어 단원 · 그림 · 미국/영국/호주 발음'),
               onTap: () => openPane(context, (_) => const WordFreqScreen()),
             ),
           ],
@@ -519,9 +542,9 @@ class ExploreTab extends StatelessWidget {
   }
 }
 
-// ────────── 나 ──────────
+// ────────── 프로필 ──────────
 
-/// 나: 성과 데스크 + 학습자 프로필 + 앱 업데이트.
+/// 프로필: 성과 · 기록 · 학습자 프로필 · 설정 · 정보.
 class MeTab extends StatelessWidget {
   const MeTab({super.key});
 

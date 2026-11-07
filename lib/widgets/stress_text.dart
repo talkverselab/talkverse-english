@@ -3,16 +3,16 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../core/theme.dart';
 
-/// 강세 표시 켬/끔(사용자 지시 2026-11-03 "영어 악센트 표시 도구, 표시·안 표시").
-/// 리더 하단 「강세」 칩·카드 화면에서 바꾸고, 기기에 기억한다.
+/// 강세 표시 켬/끔(사용자 지시 2026-11-03 "영어 악센트 표시 도구, 표시·안 표시") — 영어앱의 「읽기 보조」.
+/// 기본 미표시(사용자 지시 2026-11-07). 앱바 버튼·리더 하단 칩·프로필 설정에서 바꾸고 기기에 기억한다.
 class StressPrefs {
   StressPrefs._();
   static const _key = 'stress_marks_on';
-  static final ValueNotifier<bool> on = ValueNotifier(true);
+  static final ValueNotifier<bool> on = ValueNotifier(false);
 
   static Future<void> load() async {
     try {
-      on.value = (await SharedPreferences.getInstance()).getBool(_key) ?? true;
+      on.value = (await SharedPreferences.getInstance()).getBool(_key) ?? false;
     } catch (_) {}
   }
 
@@ -92,23 +92,29 @@ class StressText extends StatelessWidget {
   final TextAlign? textAlign;
   const StressText(this.text, {super.key, required this.style, this.textAlign});
 
+  /// 문장 → 낱말 조각들. [on] 이면 강세 모양을 입히고, [word] 로 낱말 조각을 바꿀 수 있다(문장 낱말 탭).
+  static List<InlineSpan> spans(String text, TextStyle style, bool on, {TextSpan Function(String word, TextStyle style)? word}) {
+    final strong = style.copyWith(fontWeight: FontWeight.w900);
+    final faint = style.copyWith(fontWeight: FontWeight.w500, color: AppColors.muted);
+    final link = style.copyWith(fontWeight: FontWeight.w700, color: AppColors.kinDeep);
+    final make = word ?? (String w, TextStyle s) => TextSpan(text: w, style: s);
+    final out = <InlineSpan>[];
+    final parts = EnglishStress.analyze(text);
+    for (var i = 0; i < parts.length; i++) {
+      final p = parts[i];
+      out.add(make(p.word, on ? (p.weak ? faint : strong) : style));
+      if (i + 1 < parts.length) out.add(TextSpan(text: on && p.link ? '‿' : ' ', style: on && p.link ? link : style));
+    }
+    return out;
+  }
+
   @override
   Widget build(BuildContext context) {
     return ValueListenableBuilder<bool>(
       valueListenable: StressPrefs.on,
       builder: (context, on, _) {
         if (!on) return Text(text, style: style, textAlign: textAlign);
-        final strong = style.copyWith(fontWeight: FontWeight.w900);
-        final faint = style.copyWith(fontWeight: FontWeight.w500, color: AppColors.muted);
-        final link = style.copyWith(fontWeight: FontWeight.w700, color: AppColors.kinDeep);
-        final spans = <InlineSpan>[];
-        final parts = EnglishStress.analyze(text);
-        for (var i = 0; i < parts.length; i++) {
-          final p = parts[i];
-          spans.add(TextSpan(text: p.word, style: p.weak ? faint : strong));
-          if (i + 1 < parts.length) spans.add(TextSpan(text: p.link ? '‿' : ' ', style: p.link ? link : style));
-        }
-        return Text.rich(TextSpan(children: spans), textAlign: textAlign);
+        return Text.rich(TextSpan(children: spans(text, style, true)), textAlign: textAlign);
       },
     );
   }

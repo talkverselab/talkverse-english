@@ -3,17 +3,20 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../core/l10n.dart';
+import '../core/pane.dart';
 import '../core/theme.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import '../widgets/achievement_desk.dart';
 import '../widgets/english_decor.dart';
-import 'update_screen.dart';
+import '../widgets/stress_text.dart';
+import '../widgets/stress_toggle.dart';
+import 'about_screen.dart';
 
-/// 「나」 — 성과 데스크 + 학습자 프로필(이름·성별) + 앱 업데이트·정보.
+/// 「프로필」 — 성과 · 기록 · 학습자 프로필(이름·성별) · 설정 · 정보(2026-11-07 메뉴 정리).
 /// 계정(Talkverse ID 로그인·이용권)은 사용자가 「착수」 한 뒤 붙인다(공통 프롬프터 §11).
 class ProfileScreen extends StatefulWidget {
-  final bool embedded; // 「나」 탭 안(앱바·스크롤 없이, 바깥 ListView 에 들어감)
+  final bool embedded; // 「프로필」 탭 안(앱바·스크롤 없이, 바깥 ListView 에 들어감)
   const ProfileScreen({super.key, this.embedded = false});
 
   @override
@@ -77,6 +80,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
       const SizedBox(height: 8),
       const AchievementDesk(),
       const SizedBox(height: 18),
+      _SectionTitle(tr('기록')),
+      const SizedBox(height: 8),
+      _SettingsGroup(items: [
+        _SettingItem(icon: Icons.restart_alt, title: tr('학습 기록 초기화'), subtitle: tr('편 완주 · 그림 카드 기록 삭제'), onTap: _resetProgress),
+      ]),
+      const SizedBox(height: 18),
       _SectionTitle(tr('학습자 프로필')),
       const SizedBox(height: 8),
       _SettingsGroup(items: [
@@ -97,9 +106,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
         ),
       ]),
       const SizedBox(height: 18),
-      _SectionTitle(tr('앱')),
+      _SectionTitle(tr('설정')),
       const SizedBox(height: 8),
-      const UpdateEntryTile(),
       _SettingsGroup(items: [
         _SettingItem(
           icon: Icons.record_voice_over,
@@ -111,7 +119,21 @@ class _ProfileScreenState extends State<ProfileScreen> {
             TtsService.instance.speak('Hello! Nice to meet you.');
           },
         ),
-        _SettingItem(icon: Icons.restart_alt, title: tr('학습 기록 초기화'), subtitle: tr('편 완주 · 그림 카드 기록 삭제'), onTap: _resetProgress),
+        _SettingItem(
+          icon: Icons.format_bold,
+          title: tr('강세 표시'),
+          subtitle: StressPrefs.on.value ? tr('표시 — 탭하면 숨김') : tr('숨김 — 탭하면 표시'),
+          onTap: () async {
+            await StressToggleAction.toggle(context);
+            if (mounted) setState(() {});
+          },
+        ),
+      ]),
+      const SizedBox(height: 18),
+      _SectionTitle(tr('정보')),
+      const SizedBox(height: 8),
+      _SettingsGroup(items: [
+        _SettingItem(icon: Icons.menu_book_outlined, title: tr('앱 소개'), subtitle: tr('절벽구간 — 단어를 나누는 기준'), onTap: () => openPane(context, (_) => const AboutScreen())),
         _SettingItem(icon: Icons.info_outline, title: tr('앱 버전'), subtitle: _version.isEmpty ? '—' : _version),
         _SettingItem(icon: Icons.copyright, title: tr('저작권'), subtitle: tr('영어유니버스 · 2026')),
       ]),
@@ -122,7 +144,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     if (widget.embedded) return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: children);
     return Scaffold(
       backgroundColor: AppColors.washi,
-      appBar: AppBar(title: Text(tr('나'))),
+      appBar: AppBar(title: Text(tr('프로필'))),
       body: ListView(padding: const EdgeInsets.all(16), children: children),
     );
   }

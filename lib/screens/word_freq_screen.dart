@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
@@ -9,9 +11,15 @@ import '../widgets/english_decor.dart';
 import '../widgets/word_art_thumb.dart';
 import 'word_quiz_screen.dart';
 
-/// 절벽 단어 R1~R4 — 일본어앱 `word_freq_screen.dart` 를 영어앱에 맞춤(2026-11-03).
-/// 데이터 = `assets/data/words/en_words.csv`(2,494어, 그림 단어 목록과 같은 순위·뜻).
-/// R1 ≤189 · R2 ≤318 · R3 ≤825 · R4 나머지(누적 55·60·70·80%). 줄을 누르면 고른 발음(미국·영국·호주)으로 읽는다.
+/// 화면에 보이는 빈도 순위 끝(사용자 지시 2026-11-07 — 2,000위에서 끊는다). 단어장 자체는 2,494어 그대로.
+const kWordCap = 2000;
+
+/// 한 단원 = 20어.
+const kUnit = 20;
+
+/// 절벽 단어 — 일본어앱 `word_freq_screen.dart` 구조(2026-11-07 개편): 20어 단원 + 네모 타일 + 회화 단어 포함 버튼.
+/// 데이터 = `assets/data/words/en_words.csv`. R1 ≤189 · R2 ≤318 · R3 ≤825 · R4 ≤2,000(영어 목록에는 R5 가 없다).
+/// 타일을 누르면 고른 발음(미국·영국·호주)으로 읽는다.
 class WordFreqScreen extends StatefulWidget {
   const WordFreqScreen({super.key});
 
@@ -76,52 +84,87 @@ class WordList {
     }
     return _cache = out;
   }
+
+  /// 「회화 단어 포함」 목록 — 레벨 'C'. 빈도표와 화면에서만 합친다(`tools/conv_words.py`).
+  static Future<List<EnWord>> loadConv() async {
+    try {
+      return convFrom(await load(), await rootBundle.loadString('assets/data/freq/conv_words_en.json'));
+    } catch (_) {
+      return const [];
+    }
+  }
+
+  static List<EnWord> convFrom(List<EnWord> all, String raw) {
+    final byWord = {for (final w in all.reversed) w.word.toLowerCase(): w};
+    final out = <EnWord>[];
+    for (final e in ((json.decode(raw) as Map<String, dynamic>)['words'] as List).cast<Map<String, dynamic>>()) {
+      final w = byWord[(e['word'] as String).toLowerCase()];
+      if (w != null) out.add(EnWord(rank: w.rank, word: w.word, ko: w.ko, pos: w.pos, level: 'C', picturable: w.picturable));
+    }
+    return out;
+  }
 }
+
+/// 순서대로 [kUnit] 개씩 묶는다.
+List<List<EnWord>> wordUnits(List<EnWord> words) => [
+      for (var i = 0; i < words.length; i += kUnit) words.sublist(i, (i + kUnit).clamp(0, words.length)),
+    ];
 
 class _WordFreqScreenState extends State<WordFreqScreen> {
   List<EnWord> _words = const [];
+  List<EnWord> _conv = const [];
   bool _loading = true;
-  String _filter = 'R1';
+  bool _withConv = false;
+  String _filter = 'ALL';
   bool _pictureOnly = false;
 
-  static const _levels = ['R1', 'R2', 'R3', 'R4', 'ALL'];
   static const _levelColor = {
     'R1': AppColors.beni,
     'R2': AppColors.ai,
     'R3': AppColors.kinDeep,
     'R4': AppColors.matcha,
+    'C': AppColors.sakuraDeep,
   };
 
   @override
   void initState() {
     super.initState();
-    WordList.load().then((w) {
-      if (!mounted) return;
-      setState(() {
-        _words = w;
-        _loading = false;
-      });
+    _load();
+  }
+
+  Future<void> _load() async {
+    final all = await WordList.load();
+    final conv = await WordList.loadConv();
+    if (!mounted) return;
+    setState(() {
+      _words = all.where((w) => w.rank <= kWordCap).toList();
+      _conv = conv;
+      _loading = false;
     });
   }
 
-  String _label(String lv) => lv == 'ALL' ? tr('전체') : lv;
+  String _label(String lv) => switch (lv) { 'ALL' => tr('전체'), 'C' => tr('회화'), _ => lv };
 
   @override
   Widget build(BuildContext context) {
-    final list = _words.where((w) => (_filter == 'ALL' || w.level == _filter) && (!_pictureOnly || w.picturable)).toList();
+    final pool = _withConv ? [..._words, ..._conv] : _words;
+    final list = pool.where((w) => (_filter == 'ALL' || w.level == _filter) && (!_pictureOnly || w.picturable)).toList();
+    final units = wordUnits(list);
+    final convFrom = list.where((w) => w.level != 'C').length; // 회화 구간이 시작하는 자리
+    final levels = ['ALL', 'R1', 'R2', 'R3', 'R4', if (_withConv) 'C'];
     return Scaffold(
       backgroundColor: AppColors.washi,
       appBar: AppBar(
         title: Column(mainAxisSize: MainAxisSize.min, children: [
-          Text(tr('절벽 단어 R1~R4'), style: const TextStyle(color: AppColors.sumi, fontSize: 16, fontWeight: FontWeight.w800)),
+          Text(tr('절벽 단어'), style: const TextStyle(color: AppColors.sumi, fontSize: 16, fontWeight: FontWeight.w800)),
           const SizedBox(height: 2),
-          Text(tr('많이 쓰는 순서 · 누르면 발음'), style: const TextStyle(color: AppColors.sumiLight, fontSize: 10, letterSpacing: 1)),
+          Text(trf('빈도 {0}위 · {1}어 단원 · 탭하면 발음', ['2,000', kUnit]), style: const TextStyle(color: AppColors.sumiLight, fontSize: 10, letterSpacing: 1)),
         ]),
         actions: [
           IconButton(
             tooltip: tr('그림 단어 퀴즈'),
             icon: const Icon(Icons.quiz_outlined, color: AppColors.beni),
-            onPressed: () => openFull(context, (_) => WordQuizScreen(level: _filter)),
+            onPressed: () => openFull(context, (_) => WordQuizScreen(level: _filter == 'ALL' || _filter == 'C' ? 'R1' : _filter)),
           ),
         ],
       ),
@@ -131,24 +174,42 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
               Container(
                 color: AppColors.washiDeep,
                 padding: const EdgeInsets.fromLTRB(12, 10, 12, 10),
-                child: Wrap(spacing: 8, runSpacing: 8, crossAxisAlignment: WrapCrossAlignment.center, children: [
-                  for (final lv in _levels)
-                    ChoiceChip(
-                      label: Text(_label(lv)),
-                      selected: _filter == lv,
-                      onSelected: (_) => setState(() => _filter = lv),
-                      selectedColor: (_levelColor[lv] ?? AppColors.sumi).withValues(alpha: 0.18),
-                      labelStyle: TextStyle(fontWeight: FontWeight.w800, fontSize: 12, color: _levelColor[lv] ?? AppColors.sumi),
-                      showCheckmark: false,
-                      visualDensity: VisualDensity.compact,
+                child: Column(children: [
+                  Row(children: [
+                    _ModeButton(
+                      label: tr('절벽구간 단어만'),
+                      selected: !_withConv,
+                      onTap: () => setState(() {
+                        _withConv = false;
+                        if (_filter == 'C') _filter = 'ALL';
+                      }),
                     ),
-                  FilterChip(
-                    label: Text(tr('그림 단어만')),
-                    selected: _pictureOnly,
-                    onSelected: (v) => setState(() => _pictureOnly = v),
-                    showCheckmark: false,
-                    visualDensity: VisualDensity.compact,
-                    labelStyle: const TextStyle(fontWeight: FontWeight.w700, fontSize: 12),
+                    const SizedBox(width: 8),
+                    _ModeButton(label: trf('회화 단어 포함 (+{0})', [_conv.length]), selected: _withConv, onTap: () => setState(() => _withConv = true)),
+                  ]),
+                  const SizedBox(height: 8),
+                  Align(
+                    alignment: Alignment.centerLeft,
+                    child: Wrap(spacing: 8, runSpacing: 8, crossAxisAlignment: WrapCrossAlignment.center, children: [
+                      for (final lv in levels)
+                        ChoiceChip(
+                          label: Text(_label(lv)),
+                          selected: _filter == lv,
+                          onSelected: (_) => setState(() => _filter = lv),
+                          selectedColor: (_levelColor[lv] ?? AppColors.sumi).withValues(alpha: 0.18),
+                          labelStyle: TextStyle(fontWeight: FontWeight.w800, fontSize: 12, color: _levelColor[lv] ?? AppColors.sumi),
+                          showCheckmark: false,
+                          visualDensity: VisualDensity.compact,
+                        ),
+                      FilterChip(
+                        label: Text(tr('그림 단어만')),
+                        selected: _pictureOnly,
+                        onSelected: (v) => setState(() => _pictureOnly = v),
+                        showCheckmark: false,
+                        visualDensity: VisualDensity.compact,
+                        labelStyle: const TextStyle(fontWeight: FontWeight.w700, fontSize: 12),
+                      ),
+                    ]),
                   ),
                 ]),
               ),
@@ -171,67 +232,115 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
               ),
               const BrushDivider(height: 2),
               Expanded(
-                child: ListView.separated(
-                  padding: EdgeInsets.only(bottom: 24 + MediaQuery.paddingOf(context).bottom),
-                  itemCount: list.length,
-                  separatorBuilder: (_, _) => const Divider(height: 1, indent: 16, endIndent: 16),
-                  itemBuilder: (context, i) => _WordRow(w: list[i], color: _levelColor[list[i].level] ?? AppColors.muted),
-                ),
+                // 칸 수는 이 화면이 받은 너비로(두 화면이면 오른쪽 칸 너비)
+                child: LayoutBuilder(builder: (context, c) {
+                  final cols = (c.maxWidth / 112).floor().clamp(3, 8);
+                  return ListView.builder(
+                    padding: EdgeInsets.fromLTRB(12, 8, 12, 24 + MediaQuery.paddingOf(context).bottom),
+                    itemCount: units.length,
+                    itemBuilder: (context, i) => _UnitBlock(index: i + 1, offset: i * kUnit, convFrom: convFrom, words: units[i], cols: cols, colors: _levelColor),
+                  );
+                }),
               ),
             ]),
     );
   }
 }
 
-class _WordRow extends StatelessWidget {
-  final EnWord w;
-  final Color color;
-  const _WordRow({required this.w, required this.color});
+class _ModeButton extends StatelessWidget {
+  final String label;
+  final bool selected;
+  final VoidCallback onTap;
+  const _ModeButton({required this.label, required this.selected, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) => Expanded(
+        child: GestureDetector(
+          onTap: onTap,
+          child: Container(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              color: selected ? AppColors.sumi : AppColors.washi,
+              border: Border.all(color: selected ? AppColors.sumi : AppColors.line),
+              borderRadius: BorderRadius.circular(6),
+            ),
+            child: Text(label, style: TextStyle(color: selected ? AppColors.washi : AppColors.sumi, fontWeight: FontWeight.w700, fontSize: 12)),
+          ),
+        ),
+      );
+}
+
+/// 한 단원 = 20어. 머리줄(단원 번호·순위 범위·구간) + 네모 타일 격자.
+class _UnitBlock extends StatelessWidget {
+  final int index;
+  final int offset;
+  final int convFrom;
+  final List<EnWord> words;
+  final int cols;
+  final Map<String, Color> colors;
+  const _UnitBlock({required this.index, required this.offset, required this.convFrom, required this.words, required this.cols, required this.colors});
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () => TtsService.instance.speak(w.word),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-        child: Row(children: [
-          WordArtThumb(
-            word: w.word,
-            rank: w.rank,
-            size: 52,
-            fallback: Container(
-              width: 52,
-              height: 52,
-              alignment: Alignment.center,
-              decoration: BoxDecoration(color: AppColors.washiDeep, borderRadius: BorderRadius.circular(13)),
-              child: Text(w.word.isEmpty ? '' : w.word[0].toUpperCase(), style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900, color: AppColors.line)),
-            ),
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Row(children: [
-                Flexible(child: Text(w.word, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: AppColors.sumi))),
-                const SizedBox(width: 6),
-                Text(w.pos, style: const TextStyle(fontSize: 10.5, color: AppColors.muted, fontStyle: FontStyle.italic)),
-              ]),
-              const SizedBox(height: 2),
-              Text(w.ko, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, height: 1.3)),
-            ]),
-          ),
-          const SizedBox(width: 8),
-          Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+    final first = words.first;
+    final conv = first.level == 'C';
+    final color = colors[first.level] ?? AppColors.muted;
+    final range = conv ? trf('회화 {0}-{1}', [offset - convFrom + 1, offset - convFrom + words.length]) : '#${first.rank}-${words.last.rank}';
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 14),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Padding(
+          padding: const EdgeInsets.fromLTRB(2, 6, 2, 6),
+          child: Row(children: [
+            Text(trf('{0}단원', [index]), style: const TextStyle(color: AppColors.sumi, fontSize: 14, fontWeight: FontWeight.w800)),
+            const SizedBox(width: 8),
+            Text(range, style: const TextStyle(color: AppColors.sumiLight, fontSize: 11)),
+            const Spacer(),
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
-              decoration: BoxDecoration(color: color.withValues(alpha: 0.12), borderRadius: BorderRadius.circular(6)),
-              child: Text(w.level, style: TextStyle(fontSize: 10, fontWeight: FontWeight.w900, color: color)),
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+              decoration: BoxDecoration(color: color, borderRadius: BorderRadius.circular(4)),
+              child: Text(conv ? tr('회화') : first.level, style: const TextStyle(color: AppColors.washi, fontSize: 10, fontWeight: FontWeight.w800)),
             ),
-            const SizedBox(height: 4),
-            Text('#${w.rank}', style: const TextStyle(fontSize: 10, color: AppColors.muted)),
           ]),
-          const SizedBox(width: 4),
-          const Icon(Icons.volume_up, size: 18, color: AppColors.beni),
-        ]),
+        ),
+        GridView.builder(
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: cols, mainAxisSpacing: 6, crossAxisSpacing: 6),
+          itemCount: words.length,
+          itemBuilder: (context, i) => _WordTile(w: words[i], color: colors[words[i].level] ?? AppColors.muted),
+        ),
+      ]),
+    );
+  }
+}
+
+/// 네모 타일 — 순위 · 그림(있으면) · 단어 · 뜻 한 줄. 누르면 발음.
+class _WordTile extends StatelessWidget {
+  final EnWord w;
+  final Color color;
+  const _WordTile({required this.w, required this.color});
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      color: AppColors.washi,
+      shape: RoundedRectangleBorder(side: BorderSide(color: color.withValues(alpha: 0.35)), borderRadius: BorderRadius.circular(10)),
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        onTap: () => TtsService.instance.speak(w.word),
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(5, 4, 5, 5),
+          child: Column(children: [
+            Align(alignment: Alignment.centerLeft, child: Text(w.level == 'C' ? tr('회화') : '#${w.rank}', style: TextStyle(fontSize: 9, fontWeight: FontWeight.w700, color: color))),
+            Expanded(
+              child: Center(child: FittedBox(child: WordArtThumb(word: w.word, rank: w.rank, size: 46, fallback: const SizedBox(width: 46, height: 8)))),
+            ),
+            FittedBox(fit: BoxFit.scaleDown, child: Text(w.word, maxLines: 1, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi))),
+            Text(w.ko.split(RegExp(r'[,;·/]')).first.trim(), maxLines: 1, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: const TextStyle(fontSize: 10, color: AppColors.sumiLight)),
+          ]),
+        ),
       ),
     );
   }

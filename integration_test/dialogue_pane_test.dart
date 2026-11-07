@@ -103,9 +103,12 @@ void main() {
     await t.tap(rail('탐색'));
     await wait(t, 800);
     await shot(t, '13_explore_tab');
-    await t.tap(rail('나'));
+    await t.tap(rail('프로필'));
     await wait(t, 1200);
     await shot(t, '14_me_tab');
+    await t.tap(find.descendant(of: find.byType(NavigationRail), matching: find.text('앱 소개')));
+    await wait(t, 1000);
+    await shot(t, '14b_about');
 
     // 자리표시 편으로 리더 배치 확인
     await DialogueService.instance.ensureLoaded();
@@ -131,6 +134,11 @@ void main() {
     await t.tap(find.text('탭해서 확인'));
     await wait(t, 800);
     await shot(t, '20_card_back');
+    await t.tap(find.byTooltip('강세 표시'));
+    await wait(t, 600);
+    await shot(t, '20b_card_stress_on');
+    await t.tap(find.byTooltip('강세 숨기기'));
+    await wait(t, 3500);
     await t.tap(find.text('check').last); // 단어장에 있는 레마 칩 → 단어 시트
     await wait(t, 1500);
     expect(find.byType(WordSheet), findsOneWidget);

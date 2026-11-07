@@ -10,7 +10,9 @@ import 'package:english_universe/services/achievement_service.dart';
 import 'package:english_universe/services/content_sync.dart';
 import 'package:english_universe/services/data_version.dart';
 import 'package:english_universe/services/dialogue_service.dart';
+import 'package:english_universe/screens/about_screen.dart';
 import 'package:english_universe/widgets/lemma_chips.dart';
+import 'package:english_universe/widgets/lemma_text.dart';
 import 'package:english_universe/widgets/word_sheet.dart';
 import 'dart:convert';
 import 'dart:math';
@@ -187,6 +189,48 @@ void main() {
     expect(flips, 0);
     expect(find.byType(WordSheet), findsNothing);
     await t.tap(find.text('coffee'));
+    await t.pump();
+    await t.pump(const Duration(milliseconds: 400));
+    expect(flips, 0);
+    expect(find.byType(WordSheet), findsOneWidget);
+  });
+
+  test('절벽 단어: 20어 단원, 회화 단어는 단어장에 있는 것만 레벨 C', () {
+    final ws = [for (var i = 1; i <= 45; i++) EnWord(rank: i, word: 'w$i', ko: '', pos: '', level: 'R1', picturable: false)];
+    expect(wordUnits(ws).map((u) => u.length).toList(), [20, 20, 5]);
+    final conv = WordList.convFrom(ws, '{"words":[{"word":"W3","n":2},{"word":"none","n":1}]}');
+    expect(conv.map((w) => (w.word, w.level, w.rank)).toList(), [('w3', 'C', 3)]);
+  });
+
+  test('앱 소개 구간표: 영어 값, R4 는 2,000위 끝', () {
+    final r = AboutScreen.rows();
+    expect(r.map((x) => x.$2).toList(), ['1-189', '190-318', '319-825', '826-2,000']);
+    expect(r.map((x) => x.$3).toList(), ['189', '129', '507', '1,175']);
+  });
+
+  test('강세 표시는 기본 미표시, 저장값을 따른다', () async {
+    SharedPreferences.setMockInitialValues({});
+    await StressPrefs.load();
+    expect(StressPrefs.on.value, isFalse);
+    SharedPreferences.setMockInitialValues({'stress_marks_on': true});
+    await StressPrefs.load();
+    expect(StressPrefs.on.value, isTrue);
+    StressPrefs.on.value = false;
+  });
+
+  test('문장 낱말: 구두점을 떼고 단어장 레마만 잇는다', () {
+    expect(LemmaText.bare('"Wraps,'), 'wraps');
+    const ws = [EnWord(rank: 1, word: 'wrap', ko: '싸다', pos: 'verb', level: 'R1', picturable: false)];
+    final m = LemmaText.linked(ws, const [Lemma('Wraps', 'wrap', ''), Lemma('zzz', 'zzz', '')]);
+    expect(m.keys.toList(), ['wraps']);
+  });
+
+  testWidgets('문장 낱말을 누르면 단어 시트, 바깥 탭으로 새지 않는다', (t) async {
+    var flips = 0;
+    await t.pumpWidget(MaterialApp(theme: AppTheme.light(), home: Scaffold(body: GestureDetector(onTap: () => flips++, child: const LemmaText('coffee', lemmas: [Lemma('coffee', 'coffee', '')], style: TextStyle(fontSize: 20))))));
+    await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 100)));
+    await t.pump();
+    await t.tap(find.byType(RichText).first);
     await t.pump();
     await t.pump(const Duration(milliseconds: 400));
     expect(flips, 0);

@@ -4,7 +4,8 @@ import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
-import '../widgets/stress_text.dart';
+import '../widgets/lemma_text.dart';
+import '../widgets/stress_toggle.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
@@ -240,6 +241,7 @@ class _DialogueScreenState extends State<DialogueScreen> {
               style: const TextStyle(color: AppColors.muted, fontSize: 10, letterSpacing: 1)),
         ]),
         actions: [
+          const StressToggleAction(),
           IconButton(
             tooltip: tr('그림 카드(글자 없이)'),
             icon: const Icon(Icons.style_outlined, color: AppColors.ai),
@@ -334,7 +336,7 @@ class _Bubble extends StatelessWidget {
                   InkWell(onTap: onPlayFrom, child: const Icon(Icons.play_circle_outline, size: 16, color: AppColors.ai)),
                 ]),
                 const SizedBox(height: 4),
-                StressText(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
+                LemmaText(LearnerPrefs.fill(t.tl), lemmas: t.lemmas, style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
                 if (t.reading.isNotEmpty && t.reading != t.tl) Text(LearnerPrefs.fill(t.reading), style: const TextStyle(fontSize: 12, color: AppColors.ai, fontWeight: FontWeight.w700)),
                 if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
                 const SizedBox(height: 3),

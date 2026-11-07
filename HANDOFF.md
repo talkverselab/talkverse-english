@@ -31,6 +31,14 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
   Play 프로텍트 「피싱」 경고는 스토어 밖 설치 + 개발 키 + 로그인 화면 조합이면 뜸(앱은 안전) — 근본 해결은 사용자 결정.
 - Talkverse ID(uk 세션 등록 완료): client `en`, 딥링크 `talkverse.en://auth`, 플랜 `lang_en_life`(평생 14,900원), Apple `com.talkverse.englishUniverse.lifetime` / Google `lang_en`. **앱 연결(§11)은 사용자 「착수」 뒤.**
 
+## 2026-11-07 단어·메뉴 개편(공통 프롬프터 §5-2, `~/talkverse/ja/docs/MENU_WORDS_2026-11-07.md`)
+- 절벽 단어: 2,000위 끊기(`kWordCap`, 단어장 자체는 2,494어 유지 — 레마 칩·퀴즈는 그대로 전체), 20어 단원, 네모 타일, 「절벽구간 단어만 / 회화 단어 포함」. 회화 단어 = `tools/conv_words.py` → `assets/data/freq/conv_words_en.json`(회화가 없어 지금 0어).
+- 영어 목록에는 **R5 가 없다**(R4 = 826~2,000). 앱 소개 표의 R4 누적 %는 산출값이 없어 「—」, 말뭉치 규모도 안 적음. uk 사이트 영어 표(154/236/639/3000)와 단어 목록(189/318/825)이 다르다 — 어느 쪽이 맞는지 미확인.
+- 앱 소개 `about_screen.dart`(레일 맨 아래 + 프로필 → 정보). 탭 「나」→「프로필」, 프로필 = 성과·기록·학습자 프로필·설정·정보, 앱 업데이트 타일 삭제(`update_screen.dart` 는 파일만 남음 — `CLAUDE.md` §2 설명도 아직 옛 내용).
+- 문법 섹션·참고 섹션은 영어에 내용이 없어 안 만듦. 일본어 §2(문자 기준 절벽)는 해당 없음.
+- 읽기 보조 = **강세 표시**, 기본 미표시(`StressPrefs`), 앱바 `StressToggleAction`·리더 칩·프로필 설정. 켤 때 스낵바. 단어 화면은 강세가 없어 버튼을 안 둠.
+- 회화 문장 탭 = `LemmaText`(단어장 레마 밑줄 → 단어 시트). 스크립트 줄과 대사 띠는 줄 고르기 탭 때문에 그대로 `StressText`.
+
 ## 배포
 - Android: `master` 푸시 → CI(`release.yml`) → `latest` 릴리스 → `tools/zealot_push.sh --ci "한 줄"`. 서명 SHA-1 `72:08:02:58:…:E7:BB`(M6 debug 키, Doppler `ANDROID_DEBUG_KEYSTORE_B64`). 리포 시크릿 `ANDROID_DEBUG_KEYSTORE_BASE64` 는 2026-11-03 노트북에서 `--body $v` 로 넣음 — **Windows 파이프(`|`)로 넣으면 비거나 깨진다.** CI 로그 `secret chars: 3492 / keystore bytes: 2618` 이 정상.
 - PC 백업: `D:\OneDrive\app project\english_universe\english_universe-latest.apk`, iOS `…\ios\*.ipa`.
@@ -58,5 +66,5 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 
 ## 공통 절차
 - M6 부하 규칙(2026-11-03): 빌드 시작 전 `pgrep -f flutter_tools.snapshot | wc -l` 이 3 이상이면 1분씩 대기, 시뮬레이터는 쓰고 바로 `xcrun simctl shutdown`. 이 앱 시뮬레이터 = `en-shots iPad Air 11`(iOS 26.5, UDID FFD4E03F-4171-4B78-AC33-11D3070768EF).
-- 확인: `flutter analyze` · `flutter test`(17개) · `python3 tools/pane_shots.py <UDID> <스크래치> integration_test/dialogue_pane_test.dart` → `overflowed by` 0.
+- 확인: `flutter analyze` · `flutter test`(22개) · `python3 tools/pane_shots.py <UDID> <스크래치> integration_test/dialogue_pane_test.dart` → `overflowed by` 0.
 - 커밋은 경로 지정, `ios/Podfile.lock` 은 추적 안 함.
