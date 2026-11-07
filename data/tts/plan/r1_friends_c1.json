@@ -1,0 +1,74 @@
+{
+ "ep": "r1_friends_c1",
+ "cast": {
+  "B": "maya",
+  "C": "jake"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Guess what"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Maya's pizza is so bad 😂",
+     "Maya's pizza is so bad"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "{name}."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Oh no. Wrong chat."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "What happened? Is there pizza?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "My bad! I love your pizza!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "No way. Bring your own dinner Friday."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "So… Friday pizza is for me?"
+    ]
+   ]
+  }
+ }
+}

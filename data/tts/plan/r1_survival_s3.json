@@ -1,0 +1,80 @@
+{
+ "ep": "r1_survival_s3",
+ "cast": {
+  "B": "woman_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Two dollars. It's just gonna ask you a question."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Wait."
+    ],
+    [
+     "tsukkomi",
+     "Is this a tip? For a cookie?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "It's okay. It's totally up to you."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "But you're looking right at me."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "I'm not looking."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Oh no. I hit thirty percent."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "I saw."
+    ],
+    [
+     "gentle",
+     "You're my favorite person now."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Great. Can I have a napkin for my tears?"
+    ]
+   ]
+  }
+ }
+}

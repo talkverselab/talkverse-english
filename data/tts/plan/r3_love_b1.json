@@ -1,0 +1,121 @@
+{
+ "ep": "r3_love_b1",
+ "cast": {
+  "B": "emma",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "stiff",
+     "So who was that?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Who? The cashier? He's just a guy who sells me sandwiches."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "You laughed for two whole minutes. I wasn't counting."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "You weren't counting, but you know it was two minutes?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Don't get me wrong. It's not like I care."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Look who's talking. You've been holding that book upside down."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "It's a very experimental novel."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Emma. Are you a little jealous?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Fair enough. A little. Maybe more than a little."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "That might be the nicest thing you've ever said to me."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "Excuse me! You forgot your hot dogs! All twelve of them!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Twelve? What did you say to him?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "I just said yes. I always say yes."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Good to know. Remember that the next time I ask you something."
+    ]
+   ]
+  }
+ }
+}
