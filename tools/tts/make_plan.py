@@ -11,7 +11,7 @@ EMOJI = re.compile(r'\s*[\U0001F000-\U0001FAFF☀-➿️]+\s*')
 
 
 def seg(emo, text):
-    clean = EMOJI.sub(' ', text).strip()
+    clean = re.sub(r'\s+', ' ', EMOJI.sub(' ', text).replace('…', ' ')).strip()  # 「…」을 읽게 하면 늘어진다, 쉼은 pack 이 넣는다
     if re.search(r'\d', clean):
         raise SystemExit(f'숫자는 읽기를 정해야 함: {text!r} — 대사에 글자로 쓰거나 계획에 읽기 칸을 넣는다')
     return [emo, text] if clean == text else [emo, text, clean]

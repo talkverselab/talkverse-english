@@ -31,7 +31,7 @@ def pc_run():
 
 def fetch(path):
     os.makedirs(os.path.dirname(f'{work}/wav/{path}'), exist_ok=True)
-    sh('scp', '-q', '-r', f'{PC}:D:/tts_test/job/out/en2/{path}', os.path.dirname(f'{work}/wav/{path}') + '/', check=False)
+    sh('scp', '-q', '-r', f'{PC}:D:/tts_test/job/out/{L.OUT}/{path}', os.path.dirname(f'{work}/wav/{path}') + '/', check=False)
 
 
 done = set(open(f'{work}/done.txt').read().split()) if os.path.exists(f'{work}/done.txt') else set()

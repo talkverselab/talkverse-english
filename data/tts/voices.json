@@ -50,67 +50,67 @@
  },
  "emotions": {
   "neutral": {
-   "instruct": "plain everyday conversation, flat and relaxed, no acting at all, understated American delivery",
+   "instruct": "plain everyday conversation, flat and relaxed, no acting at all, natural conversational pace, subtle",
    "ref": "I have a meeting this afternoon, so I got everything ready this morning."
   },
   "polite": {
-   "instruct": "plain and polite, like a clerk at work, no extra warmth, understated American delivery",
+   "instruct": "plain and polite, like a clerk at work, no extra warmth, natural conversational pace, subtle",
    "ref": "Good afternoon. Your order is ready. Please let me know if you need anything else."
   },
   "stiff": {
-   "instruct": "a little tense, slightly formal, still natural, understated American delivery",
+   "instruct": "a little tense, slightly formal, still natural, natural conversational pace, subtle",
    "ref": "Thank you very much for your time today. I will do my very best. It is an honor to be here."
   },
   "cheerful": {
-   "instruct": "lightly friendly, a small smile in the voice, not bubbly, understated American delivery",
+   "instruct": "lightly friendly, a small smile in the voice, not bubbly, natural conversational pace, subtle",
    "ref": "Oh, you made it! The weather is so nice, today is going to be a great day."
   },
   "amused": {
-   "instruct": "quietly amused, a slight smile, no laughing, understated American delivery",
+   "instruct": "quietly amused, a slight smile, no laughing, natural conversational pace, subtle",
    "ref": "Ha, that's so funny! Okay, okay, keep going, I want to hear the rest."
   },
   "teasing": {
-   "instruct": "dry and lightly teasing, understated, understated American delivery",
+   "instruct": "dry and lightly teasing, understated, natural conversational pace, subtle",
    "ref": "Oh really? You just happened to be here? Sure you did. I totally believe you."
   },
   "excited": {
-   "instruct": "mildly pleased and a bit faster, not loud, understated American delivery",
+   "instruct": "mildly pleased and a bit faster, not loud, natural conversational pace, subtle",
    "ref": "No way, we actually got the tickets! This is the best thing that has ever happened!"
   },
   "surprised": {
-   "instruct": "mildly surprised, a small rise in pitch, not gasping, understated American delivery",
+   "instruct": "mildly surprised, a small rise in pitch, not gasping, natural conversational pace, subtle",
    "ref": "Wait, what? You're telling me this was here the whole time? I had no idea!"
   },
   "shout": {
-   "instruct": "raising the voice slightly to be heard, not yelling, understated American delivery",
-   "ref": "Hey! Stop right there! You forgot your bag! Come back!"
+   "instruct": "raising the voice slightly to be heard, not yelling, natural conversational pace, subtle",
+   "ref": "Hey, excuse me, you left your bag over there."
   },
   "tsukkomi": {
-   "instruct": "dry, deadpan pushback, not loud, understated American delivery",
+   "instruct": "dry, deadpan pushback, not loud, natural conversational pace, subtle",
    "ref": "Are you serious right now? That is not even close to what I said!"
   },
   "annoyed": {
-   "instruct": "slightly tired and flat, not angry, understated American delivery",
+   "instruct": "slightly tired and flat, not angry, natural conversational pace, subtle",
    "ref": "This is the third time today. Can you please just put it back where it was?"
   },
   "sad": {
-   "instruct": "a little quiet and low, not crying, understated American delivery",
-   "ref": "I thought it would be different this time. I guess it doesn't really matter anymore."
+   "instruct": "a little quiet and low, not crying, natural conversational pace, subtle",
+   "ref": "I thought it would be different this time. It's fine, though."
   },
   "worried": {
-   "instruct": "slightly unsure, a little quieter, not panicked, understated American delivery",
-   "ref": "Are you okay? You haven't answered all day, and I really don't know what to do."
+   "instruct": "slightly unsure, a little quieter, not panicked, natural conversational pace, subtle",
+   "ref": "Are you okay? You haven't answered all day, so I just wanted to check."
   },
   "flustered": {
-   "instruct": "a little awkward and rushed, not panicked, understated American delivery",
-   "ref": "No, no, that's not what I meant! I was just, I mean, can we forget I said that?"
+   "instruct": "a little awkward and rushed, not panicked, natural conversational pace, subtle",
+   "ref": "Oh, no, that's not what I meant. Sorry, let me try that again."
   },
   "shy": {
-   "instruct": "soft and a little hesitant, not whispering, understated American delivery",
+   "instruct": "soft and a little hesitant, not whispering, natural conversational pace, subtle",
    "ref": "I don't know how to say this. I just, um, I kind of like being around you."
   },
   "gentle": {
-   "instruct": "soft and calm, not breathy, understated American delivery",
+   "instruct": "soft and calm, not breathy, natural conversational pace, subtle",
    "ref": "Hey, it's okay. Take your time. I'm not going anywhere, I'll wait right here."
   }
  },

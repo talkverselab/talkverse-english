@@ -9,6 +9,8 @@ V = json.load(open(f'{R}/data/tts/voices.json', encoding='utf-8'))
 EP = {os.path.basename(p)[:-5]: p for p in glob.glob(f'{R}/assets/data/dialogues/R*/*/*.json') + glob.glob(f'{R}/data/tts/episodes/*.json')}
 SIL = re.compile(r'[\s…。、！？!?.,~♪]|\([^)]*\)')
 LANG = 'English'
+OUT = os.environ.get('TTS_OUT', 'en2')   # PC 출력 폴더. 앞선 결과를 건너뛰지 않게 판마다 나눈다(en = 첫 판, en2 = 감정 낮춘 판)
+REF = f'ref_{OUT}'
 VOX = '_vox'
 
 
@@ -90,7 +92,7 @@ def seg_files(ep):
 
 def job(ep, name, voice, emo, text, out=None):
     """조각 하나의 PC 작업. `_vox` 편은 VoxCPM2(언어 칸 없음, 참고 음성 복제), 그 밖은 MOSS."""
-    j = {'out': out or f'en2/{ep}/{name}', 'text': text, 'reference': f'out/ref_en2/{voice}_{emo}.wav'}
+    j = {'out': out or f'{OUT}/{ep}/{name}', 'text': text, 'reference': f'out/{REF}/{voice}_{emo}.wav'}
     if not ep.endswith(VOX):
         j['language'] = LANG
     return j
