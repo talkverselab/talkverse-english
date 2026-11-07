@@ -39,6 +39,7 @@
    "note": "So who was that? = 저 사람 누구야?",
    "tags": [],
    "new": [],
+   "emotion": "stiff",
    "lemmas": []
   },
   {
@@ -53,6 +54,7 @@
     "sell",
     "sandwich"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "cashier",
@@ -87,6 +89,7 @@
     "laugh",
     "count"
    ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "laughed",
@@ -118,6 +121,7 @@
    "note": "받아치기",
    "tags": [],
    "new": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "counting",
@@ -147,6 +151,7 @@
     "expr:it's not like"
    ],
    "new": [],
+   "emotion": "stiff",
    "lemmas": [
     [
      "get",
@@ -182,6 +187,7 @@
    "new": [
     "upside"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Look",
@@ -221,6 +227,7 @@
     "experimental",
     "novel"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "experimental",
@@ -246,6 +253,7 @@
    "new": [
     "jealous"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "little",
@@ -274,6 +282,7 @@
    "new": [
     "fair"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "Fair",
@@ -312,6 +321,7 @@
    "new": [
     "nicest"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "nicest",
@@ -343,6 +353,7 @@
    "new": [
     "forget"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
      "Excuse",
@@ -381,6 +392,7 @@
     "expr:what"
    ],
    "new": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Twelve",
@@ -404,6 +416,7 @@
     "expr:yes"
    ],
    "new": [],
+   "emotion": "flustered",
    "lemmas": [
     [
      "said",
@@ -425,6 +438,7 @@
    "note": "Good to know = 알아 둘게",
    "tags": [],
    "new": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Good",

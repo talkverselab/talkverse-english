@@ -1,0 +1,5 @@
+{
+ "_meta": "회화 speakers 이름 → 목소리(voices.json). 새 조연이 나오면 여기에 한 줄 추가. make_plan.py 가 읽는다.",
+ "Maya": "maya", "Emma": "emma", "Jake": "jake", "Daniel": "daniel",
+ "Cashier": "man_m", "Clerk": "woman_y", "Barista": "woman_y", "Driver": "man_m", "Old Lady": "woman_o"
+}

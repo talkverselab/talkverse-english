@@ -55,6 +55,16 @@ def build(eid, h, rows):
                 t['stamp'] = v
             elif k == 'read':
                 t['read'] = v != 'false'
+            elif k == 'emo':
+                emo = v.split('+')
+                if len(emo) == 1:
+                    t['emotion'] = emo[0]
+                else:  # 한 턴에서 감정이 바뀌면 문장 경계로 조각을 나눈다. `/` 로 나눌 곳을 직접 줄 수도 있다
+                    parts = [x.strip() for x in t['en'].split(' / ')] if ' / ' in t['en'] else re.split(r'(?<=[.?!…])\s+', t['en'], maxsplit=len(emo) - 1)
+                    if len(parts) != len(emo):
+                        raise SystemExit(f'{eid} {i}번: 감정 {len(emo)}개인데 조각 {len(parts)}개')
+                    t['en'] = ' '.join(parts)
+                    t['segs'] = [[e, x] for e, x in zip(emo, parts)]
             elif k == 'heart':
                 t['tags'].append('heart')
             elif k == 'callback':

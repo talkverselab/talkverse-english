@@ -1,6 +1,6 @@
 # 회화 음성 감정 계획 작성법 (영어)
 
-편마다 `data/tts/plan/<편id>.json` 한 파일. 검사 `python3 tools/tts/check_plan.py <편id>...`. 일본어앱 `data/tts/PLAN_GUIDE.md` 와 같은 틀, 칸 이름만 다르다.
+편마다 `data/tts/plan/<편id>.json` 한 파일. **계획은 `tools/tts/make_plan.py` 가 회화의 `emotion`·`segs` 로 만든다 — 손으로 쓰지 않는다.** 아래는 그 형식과 감정 고르는 기준이다. 검사 `python3 tools/tts/check_plan.py <편id>...`. 일본어앱 `data/tts/PLAN_GUIDE.md` 와 같은 틀, 칸 이름만 다르다.
 
 ```json
 {"ep":"r1_x_a1",

@@ -43,6 +43,7 @@
     "excuse",
     "book"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Excuse",
@@ -79,6 +80,7 @@
     "kid",
     "hand"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "kidding",
@@ -100,6 +102,7 @@
    "note": "받아치기",
    "tags": [],
    "new": [],
+   "emotion": "teasing",
    "lemmas": [
     [
      "hand",
@@ -123,6 +126,7 @@
    "new": [
     "read"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "book",
@@ -147,6 +151,7 @@
     "end",
     "sad"
    ],
+   "emotion": "sad",
    "lemmas": [
     [
      "times",
@@ -177,6 +182,7 @@
    "new": [
     "tell"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "way",
@@ -209,6 +215,7 @@
     "someone",
     "talk"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "guess",
@@ -242,6 +249,7 @@
     "expr:wait"
    ],
    "new": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Wait",

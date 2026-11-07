@@ -78,7 +78,7 @@ h1{font-size:20px}h2{font-size:17px;margin:28px 0 4px;color:#3d8b7a}.meta{font-s
 .em{font-size:12px;color:#b77548}.aubox{margin:10px 0;padding:10px 12px;border:1px solid #b77548;border-radius:12px;font-size:14px}.t.now{outline:2px solid #635bff}
 @media(max-width:560px){.cuts{grid-template-columns:1fr}}"""
 parts = [f"<!doctype html><html lang=ko><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>영어 회화 리뷰</title><style>{css}</style></head><body>",
-         f"<h1>영어 회화 리뷰 시트</h1><div class=meta>갱신 {datetime.datetime.now():%Y-%m-%d %H:%M} · 턴마다 영어 / 한글 독음 / 한국어 · 턴 두 개마다 장면 그림(기본·여자 학습자, 누르면 크게) · 고칠 곳은 편 id·턴 번호로</div>" + (f"<div class=aubox>🔊 음성이 들어간 편 {len(AUD)}편 — 편마다 「전체 듣기」와 턴별 재생 버튼이 있습니다.</div>" if AUD else '') + "<div class=nav>"]
+         f"<h1>영어 회화 리뷰 시트</h1><div class=meta>갱신 {datetime.datetime.now():%Y-%m-%d %H:%M} · 턴마다 영어 / 한국어 · 턴 두 개마다 장면 그림(기본·여자 학습자, 누르면 크게) · 고칠 곳은 편 id·턴 번호로</div>" + (f"<div class=aubox>🔊 음성이 들어간 편 {len(AUD)}편 — 편마다 「전체 듣기」와 턴별 재생 버튼이 있습니다.</div>" if AUD else '') + "<div class=nav>"]
 parts += [f"<a href='#{e['id']}'>{html.escape(e['title'])}</a>" for e in eps] + ['</div>']
 for e in eps:
     tag = f"<span class=ok>통과 {html.escape(e['approved'])}</span>" if e.get('approved') else "<span class=dr>리뷰 대기</span>"

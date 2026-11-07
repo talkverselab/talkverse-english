@@ -38,6 +38,7 @@
    "new": [
     "set"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "set",
@@ -61,6 +62,7 @@
     "water",
     "please"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "water",
@@ -84,6 +86,7 @@
    "new": [
     "bag"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "want",
@@ -107,6 +110,7 @@
     "expr:yes"
    ],
    "new": [],
+   "emotion": "stiff",
    "lemmas": []
   },
   {
@@ -121,6 +125,7 @@
     "dog",
     "dollar"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
      "Hot",
@@ -149,6 +154,7 @@
     "expr:yes"
    ],
    "new": [],
+   "emotion": "stiff",
    "lemmas": []
   },
   {
@@ -164,6 +170,16 @@
     "number",
     "friend",
     "twelve"
+   ],
+   "segs": [
+    [
+     "tsukkomi",
+     "Yes isn't a number, friend."
+    ],
+    [
+     "amused",
+     "I'll say twelve."
+    ]
    ],
    "lemmas": [
     [
@@ -198,6 +214,7 @@
     "expr:yes"
    ],
    "new": [],
+   "emotion": "stiff",
    "lemmas": []
   }
  ]

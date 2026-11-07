@@ -42,6 +42,7 @@
     "expr:can i get"
    ],
    "new": [],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "get",
@@ -64,6 +65,7 @@
     "small",
     "coffee"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "small",
@@ -93,6 +95,7 @@
     "expr:to go"
    ],
    "new": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "go",
@@ -112,6 +115,7 @@
     "expr:to go"
    ],
    "new": [],
+   "emotion": "polite",
    "lemmas": [
     [
      "go",
@@ -137,6 +141,7 @@
     "name",
     "cup"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Perfect",
@@ -163,6 +168,7 @@
    "note": "이름만 또박또박",
    "tags": [],
    "new": [],
+   "emotion": "neutral",
    "lemmas": []
   },
   {
@@ -175,6 +181,7 @@
    "new": [
     "dinner"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Small",
@@ -211,6 +218,7 @@
     "sure",
     "tonight"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
      "Sure",

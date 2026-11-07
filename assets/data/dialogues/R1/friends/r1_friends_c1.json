@@ -46,6 +46,7 @@
    ],
    "ui": "bubble",
    "at": "21:03",
+   "emotion": "excited",
    "lemmas": [
     [
      "Guess",
@@ -67,6 +68,7 @@
    ],
    "ui": "bubble",
    "at": "21:03",
+   "emotion": "amused",
    "lemmas": [
     [
      "pizza",
@@ -90,6 +92,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:04",
+   "emotion": "annoyed",
    "stamp": "🙂",
    "lemmas": []
   },
@@ -108,6 +111,7 @@
    ],
    "ui": "bubble",
    "at": "21:04",
+   "emotion": "flustered",
    "lemmas": [
     [
      "Wrong",
@@ -136,6 +140,7 @@
    ],
    "ui": "bubble",
    "at": "21:05",
+   "emotion": "neutral",
    "lemmas": [
     [
      "happened",
@@ -161,6 +166,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:05",
+   "emotion": "flustered",
    "lemmas": [
     [
      "bad",
@@ -194,6 +200,7 @@
    ],
    "ui": "bubble",
    "at": "21:06",
+   "emotion": "teasing",
    "lemmas": [
     [
      "way",
@@ -227,6 +234,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:06",
+   "emotion": "amused",
    "stamp": "🍕",
    "lemmas": [
     [

@@ -41,6 +41,7 @@
     "train",
     "minute"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "train",
@@ -70,6 +71,7 @@
     "expr:wait"
    ],
    "new": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "wait",
@@ -88,6 +90,7 @@
    "new": [
     "cold"
    ],
+   "emotion": "gentle",
    "lemmas": [
     [
      "cold",
@@ -108,6 +111,7 @@
    "new": [
     "honest"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "Honestly",
@@ -131,6 +135,7 @@
    "new": [
     "shake"
    ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "hands",
@@ -156,6 +161,7 @@
     "expr:by the way"
    ],
    "new": [],
+   "emotion": "amused",
    "lemmas": [
     [
      "little",
@@ -192,6 +198,7 @@
    "note": "짧게 멈추기",
    "tags": [],
    "new": [],
+   "emotion": "shy",
    "lemmas": [
     [
      "saw",
@@ -208,6 +215,7 @@
    "note": "get on = 타다",
    "tags": [],
    "new": [],
+   "emotion": "surprised",
    "lemmas": [
     [
      "saw",
@@ -236,6 +244,7 @@
     "probably",
     "check"
    ],
+   "emotion": "flustered",
    "lemmas": [
     [
      "mean",
@@ -267,6 +276,7 @@
    "note": "last train = 막차",
    "tags": [],
    "new": [],
+   "emotion": "gentle",
    "lemmas": [
     [
      "last",
@@ -295,6 +305,7 @@
     "hour",
     "ago"
    ],
+   "emotion": "shy",
    "lemmas": [
     [
      "know",
@@ -331,6 +342,7 @@
    "note": "말을 다 하지 않기",
    "tags": [],
    "new": [],
+   "emotion": "gentle",
    "lemmas": []
   }
  ]

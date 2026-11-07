@@ -16,6 +16,8 @@
 - 턴 칸 = `en`·`ko`·`note`. **`rd`(한글 독음)는 비운다** — 영어는 강세 표시 도구가 발음 보조를 맡는다. 앱은 rd 가 비면 줄을 안 그린다.
 - 레벨 = 앱 절벽(R1 ≤189 · R2 ≤318 · R3 ≤825 · R4 나머지). R1 이 189어뿐이라 장면 낱말(coffee 등)은 거의 다 구간 밖이다 → 턴당 새 낱말 3개까지 허용하고, 한 번 나온 낱말은 다음 편부터 아는 말로 친다(`tools/check_dialogues.py` 가 `new` 를 계산).
 
+- 턴마다 `emotion`(음성용 감정, `data/tts/PLAN_GUIDE.md` 의 16개), 한 턴에서 감정이 바뀌면 `segs` = `[[감정, 본문], …]`(사용자 지시 2026-11-07). 검사기가 값과 본문을 확인한다.
+
 ## 2. 턴 길이(낱말 수, 축약형 1)
 | 구간 | 종류 | 턴 수 | 낱말 수 |
 |---|---|---|---|
@@ -41,4 +43,5 @@
 
 ## 4. 초안 쓰는 법
 `data/drafts/*.txt` → `python3 tools/draft_to_json.py` → `~/.venvs/en/bin/python tools/add_lemmas.py` → `~/.venvs/en/bin/python tools/check_dialogues.py --fix`. 형식은 `tools/prompts/dialogue_r1.md`.
+음성: `python3 tools/tts/make_plan.py` 가 회화의 감정 열로 계획을 만들고(목소리는 `data/tts/cast.json`), `tools/tts/check_plan.py` → `make_jobs.py --refs` → `make_jobs.py <편>` → `run_all.py` 순서. 감정을 손으로 다시 적지 않는다.
 편 JSON 은 `pubspec.yaml` 에 아직 넣지 않는다 — 사용자 통과 뒤 앱에 연결한다.

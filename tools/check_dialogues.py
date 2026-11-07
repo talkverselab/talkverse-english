@@ -2,7 +2,7 @@
 """회화 검사기(영어) — 공통 프롬프터 §12, docs/DIALOGUE_EN.md.
   ~/.venvs/en/bin/python tools/check_dialogues.py [--fix]
 --fix: 턴의 `new`(구간 밖이면서 앞 편에 없던 낱말)와 `tags` 의 expr: 를 다시 채운다. `lemmas` 는 tools/add_lemmas.py.
-오류 = 턴 수·단어 수·새 단어/턴·표현 풀·반전·변수·한국어·채팅 규칙. 경고 = 3문장 턴·감사로 끝남·연애 심쿵 없음. 오류가 있으면 종료 코드 1."""
+오류 = 감정 열·턴 수·단어 수·새 단어/턴·표현 풀·반전·변수·한국어·채팅 규칙. 경고 = 3문장 턴·감사로 끝남·연애 심쿵 없음. 오류가 있으면 종료 코드 1."""
 import csv, glob, json, re, sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -17,6 +17,7 @@ WORDS = {('R1', 'short'): (1, 9), ('R1', 'survival'): (1, 9), ('R1', 'long'): (1
 WORDS_UP = {'R2': (1, 12), 'R3': (1, 16), 'R4': (1, 18)}
 NEW_PER_TURN = {'R0': 3, 'R1': 3, 'R2': 4, 'R3': 5, 'R4': 6}
 TWISTS = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
+EMOTIONS = set(json.load(open(ROOT / 'data/tts/voices.json', encoding='utf-8'))['emotions'])
 VARS = {'{name}', '{country}', '{city}'}
 ISLANDS = ['survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', 'study']
 ORDER = ['R0', 'R1', 'R2', 'R3', 'R4']
@@ -87,6 +88,7 @@ def main():
             if not has_expr(x, text_all):
                 e.append(f'expressions 의 {x!r} 가 대사에 없음')
         changed = False
+        flat = []
         for t in ep['turns']:
             s, num = t['en'], t['num']
             c = nwords(s)
@@ -101,6 +103,12 @@ def main():
                     e.append(f'{num}번 변수 {v}')
             if not t.get('ko'):
                 e.append(f'{num}번 한국어 없음')
+            emos = [x[0] for x in t['segs']] if t.get('segs') else [t.get('emotion')]
+            if not all(x in EMOTIONS for x in emos):
+                e.append(f'{num}번 감정 {emos}')
+            flat += emos
+            if t.get('segs') and norm(' '.join(x[1] for x in t['segs'])) != norm(s):
+                e.append(f'{num}번 segs 본문이 대사와 다름')
             if not t.get('note'):
                 w.append(f'{num}번 note 없음')
             if t['speaker'] not in ep['speakers']:
@@ -120,6 +128,8 @@ def main():
             if fix and (t.get('new') != new or t.get('tags') != tags):
                 t['new'], t['tags'] = new, tags
                 changed = True
+        if flat and flat.count('neutral') * 2 > len(flat):
+            w.append('감정 절반 이상이 neutral')
         if ep['turns'] and re.search(r'\bthank', ep['turns'][-1]['en'], re.I):
             w.append('감사로 끝남')
         if ep['island'] == 'love' and not any('heart' in t.get('tags', []) for t in ep['turns']):
