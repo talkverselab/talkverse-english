@@ -1,0 +1,264 @@
+{
+ "id": "r1_love_a1",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "그 책 내가 먼저 봤는데",
+ "emoji": "📚",
+ "scene": "서점의 마지막 한 권을 두고 Emma 가 먼저 말을 걸고, 놀리다가 자기 번호를 책갈피에 끼워 준다",
+ "where": "브루클린 서점",
+ "goal": "처음 말 걸기와 가볍게 받아치기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emma"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [
+  "excuse me",
+  "are you kidding",
+  "no way",
+  "i guess"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Excuse me. I saw that book first.",
+   "ko": "저기요. 그 책 제가 먼저 봤는데요.",
+   "note": "saw ~ first = 먼저 봤다",
+   "tags": [
+    "expr:excuse me"
+   ],
+   "new": [
+    "excuse",
+    "book"
+   ],
+   "lemmas": [
+    [
+     "Excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "saw",
+     "see",
+     ""
+    ],
+    [
+     "book",
+     "book",
+     ""
+    ],
+    [
+     "first",
+     "first",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Are you kidding? My hand is on it.",
+   "ko": "농담이죠? 제 손이 올라가 있는데요.",
+   "note": "are you kidding = 농담이죠?",
+   "tags": [
+    "expr:are you kidding"
+   ],
+   "new": [
+    "kid",
+    "hand"
+   ],
+   "lemmas": [
+    [
+     "kidding",
+     "kid",
+     ""
+    ],
+    [
+     "hand",
+     "hand",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Your hand is on my book.",
+   "ko": "당신 손이 제 책 위에 있는 거죠.",
+   "note": "받아치기",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "hand",
+     "hand",
+     ""
+    ],
+    [
+     "book",
+     "book",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Your book? Did you read it?",
+   "ko": "당신 책이라고요? 읽어 봤어요?",
+   "note": "되묻기",
+   "tags": [],
+   "new": [
+    "read"
+   ],
+   "lemmas": [
+    [
+     "book",
+     "book",
+     ""
+    ],
+    [
+     "read",
+     "read",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Five times. The ending is so sad.",
+   "ko": "다섯 번요. 결말이 너무 슬퍼요.",
+   "note": "so sad = 너무 슬퍼",
+   "tags": [],
+   "new": [
+    "end",
+    "sad"
+   ],
+   "lemmas": [
+    [
+     "times",
+     "time",
+     ""
+    ],
+    [
+     "ending",
+     "end",
+     ""
+    ],
+    [
+     "sad",
+     "sad",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "No way. You just told me the ending!",
+   "ko": "말도 안 돼. 방금 결말을 말했잖아요!",
+   "note": "no way = 말도 안 돼",
+   "tags": [
+    "expr:no way"
+   ],
+   "new": [
+    "tell"
+   ],
+   "lemmas": [
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "told",
+     "tell",
+     ""
+    ],
+    [
+     "ending",
+     "end",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "I guess you need someone to talk to.",
+   "ko": "그럼 얘기 나눌 사람이 필요하겠네요.",
+   "note": "I guess = 그런가 봐요",
+   "tags": [
+    "heart",
+    "expr:i guess"
+   ],
+   "new": [
+    "someone",
+    "talk"
+   ],
+   "lemmas": [
+    [
+     "guess",
+     "guess",
+     ""
+    ],
+    [
+     "need",
+     "need",
+     ""
+    ],
+    [
+     "someone",
+     "someone",
+     ""
+    ],
+    [
+     "talk",
+     "talk",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Wait, is that your number in the book?",
+   "ko": "잠깐, 책에 있는 거 당신 번호예요?",
+   "note": "마지막에 들킨 마음",
+   "tags": [
+    "expr:wait"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "number",
+     "number",
+     ""
+    ],
+    [
+     "book",
+     "book",
+     ""
+    ]
+   ]
+  }
+ ]
+}

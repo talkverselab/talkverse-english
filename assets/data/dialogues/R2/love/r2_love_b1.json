@@ -1,0 +1,337 @@
+{
+ "id": "r2_love_b1",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "막차 놓쳐도 돼?",
+ "emoji": "🚇",
+ "scene": "전철역 앞, Emma 가 막차 시간을 알면서 일부러 말을 돌린다",
+ "where": "밤의 지하철역 입구",
+ "goal": "말 돌리기와 여백",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emma"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [
+  "by the way",
+  "honestly",
+  "i mean",
+  "you know what"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "So this is my train. Well, in ten minutes.",
+   "ko": "그러니까 이게 내 지하철이야. 음, 10분 뒤에.",
+   "note": "in ten minutes = 10분 뒤에",
+   "tags": [],
+   "new": [
+    "train",
+    "minute"
+   ],
+   "lemmas": [
+    [
+     "train",
+     "train",
+     ""
+    ],
+    [
+     "Well",
+     "well",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Okay. I can wait with you.",
+   "ko": "응. 같이 기다려 줄게.",
+   "note": "wait with you = 같이 기다리다",
+   "tags": [
+    "expr:okay",
+    "expr:wait"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "wait",
+     "wait",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "You don't have to. It's cold.",
+   "ko": "안 그래도 돼. 춥잖아.",
+   "note": "You don't have to = 안 그래도 돼",
+   "tags": [],
+   "new": [
+    "cold"
+   ],
+   "lemmas": [
+    [
+     "cold",
+     "cold",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Honestly, I'm not that cold.",
+   "ko": "솔직히, 그렇게 안 추워.",
+   "note": "honestly = 솔직히",
+   "tags": [
+    "expr:honestly"
+   ],
+   "new": [
+    "honest"
+   ],
+   "lemmas": [
+    [
+     "Honestly",
+     "honest",
+     ""
+    ],
+    [
+     "cold",
+     "cold",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Your hands are shaking, {name}.",
+   "ko": "네 손 떨리고 있어, {name}.",
+   "note": "shaking = 떨리는",
+   "tags": [],
+   "new": [
+    "shake"
+   ],
+   "lemmas": [
+    [
+     "hands",
+     "hand",
+     ""
+    ],
+    [
+     "shaking",
+     "shake",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Okay, I'm a little cold. By the way, your train just came.",
+   "ko": "그래, 조금 추워. 그나저나 방금 네 지하철 왔어.",
+   "note": "by the way = 그나저나",
+   "tags": [
+    "expr:okay",
+    "expr:a little",
+    "expr:by the way"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "little",
+     "little",
+     ""
+    ],
+    [
+     "cold",
+     "cold",
+     ""
+    ],
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "train",
+     "train",
+     ""
+    ],
+    [
+     "came",
+     "come",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "I saw it.",
+   "ko": "봤어.",
+   "note": "짧게 멈추기",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "saw",
+     "see",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "You saw it? You're not getting on?",
+   "ko": "봤다고? 안 타?",
+   "note": "get on = 타다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "saw",
+     "see",
+     ""
+    ],
+    [
+     "getting",
+     "get",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "I mean, there's another one. Probably. I didn't really check.",
+   "ko": "내 말은, 또 있겠지. 아마도. 제대로 안 찾아봤어.",
+   "note": "I mean = 내 말은",
+   "tags": [
+    "heart",
+    "expr:really",
+    "expr:i mean"
+   ],
+   "new": [
+    "probably",
+    "check"
+   ],
+   "lemmas": [
+    [
+     "mean",
+     "mean",
+     ""
+    ],
+    [
+     "Probably",
+     "probably",
+     ""
+    ],
+    [
+     "really",
+     "real",
+     ""
+    ],
+    [
+     "check",
+     "check",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "Emma, that was the last train.",
+   "ko": "에마, 그거 막차였어.",
+   "note": "last train = 막차",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "last",
+     "last",
+     ""
+    ],
+    [
+     "train",
+     "train",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "en": "You know what? I read that sign an hour ago.",
+   "ko": "있잖아, 나 그 표지판 한 시간 전에 읽었어.",
+   "note": "들킨 마음",
+   "tags": [
+    "expr:what",
+    "expr:you know what"
+   ],
+   "new": [
+    "sign",
+    "hour",
+    "ago"
+   ],
+   "lemmas": [
+    [
+     "know",
+     "know",
+     ""
+    ],
+    [
+     "read",
+     "read",
+     ""
+    ],
+    [
+     "sign",
+     "sign",
+     ""
+    ],
+    [
+     "hour",
+     "hour",
+     ""
+    ],
+    [
+     "ago",
+     "ago",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "en": "So you…",
+   "ko": "그러니까 너…",
+   "note": "말을 다 하지 않기",
+   "tags": [],
+   "new": [],
+   "lemmas": []
+  }
+ ]
+}

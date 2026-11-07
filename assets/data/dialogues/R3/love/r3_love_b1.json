@@ -1,0 +1,467 @@
+{
+ "id": "r3_love_b1",
+ "region": "R3",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "질투? 조금",
+ "emoji": "🥪",
+ "scene": "Emma 가 샌드위치 가게 점원과 웃는 학습자를 보고 질투를 안 하는 척하는데, 예전에 들은 Yes 사건이 다시 터진다",
+ "where": "동네 가게 앞",
+ "goal": "돌려 말하기와 변명",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emma",
+  "C": "Cashier"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "it's not like",
+  "don't get me wrong",
+  "fair enough",
+  "look who's talking"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "So who was that?",
+   "ko": "그래서 저 사람 누구야?",
+   "note": "So who was that? = 저 사람 누구야?",
+   "tags": [],
+   "new": [],
+   "lemmas": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Who? The cashier? He's just a guy who sells me sandwiches.",
+   "ko": "누구? 계산원? 그냥 샌드위치 파는 사람이야.",
+   "note": "just a guy = 그냥 사람",
+   "tags": [],
+   "new": [
+    "cashier",
+    "sell",
+    "sandwich"
+   ],
+   "lemmas": [
+    [
+     "cashier",
+     "cashier",
+     ""
+    ],
+    [
+     "guy",
+     "guy",
+     ""
+    ],
+    [
+     "sells",
+     "sell",
+     ""
+    ],
+    [
+     "sandwiches",
+     "sandwich",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "You laughed for two whole minutes. I wasn't counting.",
+   "ko": "너 꼬박 2분 웃더라. 센 건 아니고.",
+   "note": "whole = 꼬박",
+   "tags": [],
+   "new": [
+    "laugh",
+    "count"
+   ],
+   "lemmas": [
+    [
+     "laughed",
+     "laugh",
+     ""
+    ],
+    [
+     "whole",
+     "whole",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ],
+    [
+     "counting",
+     "count",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "You weren't counting, but you know it was two minutes?",
+   "ko": "안 셌는데 2분인 건 알아?",
+   "note": "받아치기",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "counting",
+     "count",
+     ""
+    ],
+    [
+     "know",
+     "know",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Don't get me wrong. It's not like I care.",
+   "ko": "오해하지 마. 신경 쓰는 건 아니니까.",
+   "note": "don't get me wrong = 오해하지 마",
+   "tags": [
+    "expr:don't get me wrong",
+    "expr:it's not like"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "get",
+     "get",
+     ""
+    ],
+    [
+     "wrong",
+     "wrong",
+     ""
+    ],
+    [
+     "like",
+     "like",
+     ""
+    ],
+    [
+     "care",
+     "care",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Look who's talking. You've been holding that book upside down.",
+   "ko": "사돈 남 말 하네. 너 그 책 거꾸로 들고 있었거든.",
+   "note": "look who's talking = 사돈 남 말 하네",
+   "tags": [
+    "expr:look who's talking"
+   ],
+   "new": [
+    "upside"
+   ],
+   "lemmas": [
+    [
+     "Look",
+     "look",
+     ""
+    ],
+    [
+     "talking",
+     "talk",
+     ""
+    ],
+    [
+     "holding",
+     "hold",
+     ""
+    ],
+    [
+     "book",
+     "book",
+     ""
+    ],
+    [
+     "upside",
+     "upside",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "It's a very experimental novel.",
+   "ko": "아주 실험적인 소설이라서.",
+   "note": "변명",
+   "tags": [],
+   "new": [
+    "experimental",
+    "novel"
+   ],
+   "lemmas": [
+    [
+     "experimental",
+     "experimental",
+     ""
+    ],
+    [
+     "novel",
+     "novel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Emma. Are you a little jealous?",
+   "ko": "에마. 너 조금 질투해?",
+   "note": "jealous = 질투하는",
+   "tags": [
+    "expr:a little"
+   ],
+   "new": [
+    "jealous"
+   ],
+   "lemmas": [
+    [
+     "little",
+     "little",
+     ""
+    ],
+    [
+     "jealous",
+     "jealous",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "Fair enough. A little. Maybe more than a little.",
+   "ko": "인정. 조금. 어쩌면 조금보다 더.",
+   "note": "fair enough = 그럴 만해",
+   "tags": [
+    "heart",
+    "expr:maybe",
+    "expr:a little",
+    "expr:fair enough"
+   ],
+   "new": [
+    "fair"
+   ],
+   "lemmas": [
+    [
+     "Fair",
+     "fair",
+     ""
+    ],
+    [
+     "enough",
+     "enough",
+     ""
+    ],
+    [
+     "little",
+     "little",
+     ""
+    ],
+    [
+     "Maybe",
+     "maybe",
+     ""
+    ],
+    [
+     "little",
+     "little",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "That might be the nicest thing you've ever said to me.",
+   "ko": "네가 나한테 한 말 중에 제일 다정한 것 같아.",
+   "note": "might be = ~일지도",
+   "tags": [],
+   "new": [
+    "nicest"
+   ],
+   "lemmas": [
+    [
+     "nicest",
+     "nicest",
+     ""
+    ],
+    [
+     "thing",
+     "thing",
+     ""
+    ],
+    [
+     "said",
+     "say",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "en": "Excuse me! You forgot your hot dogs! All twelve of them!",
+   "ko": "저기요! 핫도그 두고 가셨어요! 열두 개 전부요!",
+   "note": "Yes 만 하던 첫 편의 그 계산원",
+   "tags": [
+    "callback:r1_survival_s1",
+    "expr:excuse me"
+   ],
+   "new": [
+    "forget"
+   ],
+   "lemmas": [
+    [
+     "Excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "forgot",
+     "forget",
+     ""
+    ],
+    [
+     "hot",
+     "hot",
+     ""
+    ],
+    [
+     "dogs",
+     "dog",
+     ""
+    ],
+    [
+     "twelve",
+     "twelve",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "en": "Twelve? What did you say to him?",
+   "ko": "열두 개? 쟤한테 뭐라고 한 거야?",
+   "note": "끼어든 사고",
+   "tags": [
+    "expr:what"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Twelve",
+     "twelve",
+     ""
+    ],
+    [
+     "say",
+     "say",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "en": "I just said yes. I always say yes.",
+   "ko": "그냥 네라고 했어. 난 늘 네라고 해.",
+   "note": "always = 늘",
+   "tags": [
+    "expr:yes"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "said",
+     "say",
+     ""
+    ],
+    [
+     "say",
+     "say",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "en": "Good to know. Remember that the next time I ask you something.",
+   "ko": "좋은 정보네. 다음에 내가 뭐 물어볼 때 기억해.",
+   "note": "Good to know = 알아 둘게",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Good",
+     "better",
+     ""
+    ],
+    [
+     "know",
+     "know",
+     ""
+    ],
+    [
+     "Remember",
+     "remember",
+     ""
+    ],
+    [
+     "next",
+     "next",
+     ""
+    ],
+    [
+     "time",
+     "time",
+     ""
+    ],
+    [
+     "ask",
+     "ask",
+     ""
+    ],
+    [
+     "something",
+     "something",
+     ""
+    ]
+   ]
+  }
+ ]
+}

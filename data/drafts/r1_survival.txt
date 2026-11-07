@@ -1,0 +1,62 @@
+=== r1_survival_s1
+title: Yes는 숫자가 아니에요
+emoji: 🌭
+scene: 물 한 병을 사러 갔는데 못 알아듣고 Yes 만 하다가 핫도그 열두 개를 산다
+where: 브루클린 동네 가게
+goal: 못 알아들었을 때 Yes 로 때우면 생기는 일
+kind: survival
+register: polite
+B: Cashier
+twist: 7 chaos
+expr: yes | just this
+--
+B | You all set? | 다 고르셨어요? | all set = 준비 다 됐다, 계산대 단골 말
+A | Yes! Just this water, please. | 네! 이 물만 주세요. | just this = 이것만요
+B | You want a bag for that? | 봉투 드릴까요? | You want ~? = ~드릴까요?
+A | Yes. | 네. | 뜻을 몰라도 일단 Yes
+B | Hot dogs are a dollar. How many? | 핫도그 1달러예요. 몇 개 드려요? | How many? = 몇 개?
+A | Yes. | 네. | How many 에 Yes 라고 답했다
+B | Yes isn't a number, friend. I'll say twelve. | 손님, Yes는 숫자가 아니에요. 열두 개로 할게요. | I'll say ~ = ~로 치죠
+A | Yes. | 네. | 끝까지 Yes
+
+=== r1_survival_s2
+title: 오늘 밤 제 이름은 디너
+emoji: ☕
+scene: 카페에서 주문하는데 컵에 전혀 다른 이름이 적혀 나오고, 학습자는 그냥 받아들인다
+where: Maya 가 일하는 카페
+goal: 카페 주문 말과 이름 사고
+kind: survival
+register: polite
+B: Maya
+twist: 7 slip
+expr: i'll have | for here or to go | to go | sure
+--
+B | Hey! What can I get you? | 어서 오세요! 뭐 드릴까요? | What can I get you? = 뭐 드릴까요?
+A | I'll have a small coffee, please. | 작은 커피 하나 주세요. | I'll have ~ = ~로 할게요
+B | For here or to go? | 드시고 가세요, 가져가세요? | for here or to go = 매장·포장 질문
+A | To go, please. | 가져갈게요. | to go = 포장
+B | Perfect. Name for the cup? | 좋아요. 컵에 쓸 이름은요? | name for the cup = 컵에 적을 이름
+A | {name}. | {name}요. | 이름만 또박또박
+B | Small coffee for… Dinner? Dinner? | 작은 커피 나왔습니다… 디너 님? 디너 님? | 잘못 들은 이름이 컵에 적혔다
+A | Sure. Tonight, I'm Dinner. | 네. 오늘 밤엔 제가 디너예요. | sure = 그래요, 뭐
+
+=== r1_survival_s3
+title: 쿠키 하나에 팁 30%
+emoji: 🍪
+scene: 2달러 쿠키를 사는데 점원이 화면을 돌려 주고, 팁 안 주려다 30% 를 눌러 버린다
+where: 동네 빵집 계산대
+goal: 미국 팁 화면에서 살아남기
+kind: survival
+register: polite
+B: Clerk
+twist: 6 slip
+expr: oh no | it's okay | wait
+--
+B | Two dollars. It's just gonna ask you a question. | 2달러요. 화면에서 뭐 하나 물어볼 거예요. | It's just gonna ask you a question = 팁 화면을 돌릴 때 하는 말
+A | Wait. Is this a tip? For a cookie? | 잠깐만요. 이거 팁이에요? 쿠키에요? | tip = 봉사료
+B | It's okay. It's totally up to you. | 괜찮아요. 전적으로 손님 마음이에요. | up to you = 네 마음대로
+A | But you're looking right at me. | 근데 저를 빤히 보고 계시잖아요. | looking right at = 빤히 보다
+B | I'm not looking. | 안 보는데요. | 보면서 하는 말
+A | Oh no. I hit thirty percent. | 헐. 30% 눌렀어요. | hit = 누르다
+B | I saw. You're my favorite person now. | 봤어요. 이제 제일 좋아하는 손님이에요. | favorite = 제일 좋아하는 | heart
+A | Great. Can I have a napkin for my tears? | 좋네요. 눈물 닦을 냅킨 주실래요? | Can I have ~? = ~ 주실래요?

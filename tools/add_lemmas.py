@@ -28,7 +28,8 @@ there here then now just very too also only even still already yet ever never al
 up down out off over back again
 some any every each all both few many much more most other another such own same
 one two three four five six seven eight nine ten
-gonna wanna gotta lemme gimme kinda sorta dunno ya'''.split())
+gonna wanna gotta lemme gimme kinda sorta dunno ya
+maya emma jake daniel'''.split())
 CONTRACT = {"i'm": [], "you're": [], "he's": [], "she's": [], "it's": [], "we're": [], "they're": [], "that's": [], "there's": [], "what's": ['what'],
             "i've": [], "you've": [], "we've": [], "they've": [], "i'll": [], "you'll": [], "we'll": [], "they'll": [], "he'll": [], "she'll": [], "it'll": [],
             "i'd": [], "you'd": [], "we'd": [], "they'd": [], "he'd": [], "she'd": [], "let's": ['let'],

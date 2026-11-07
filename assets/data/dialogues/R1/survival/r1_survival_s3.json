@@ -1,0 +1,252 @@
+{
+ "id": "r1_survival_s3",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "쿠키 하나에 팁 30%",
+ "emoji": "🍪",
+ "scene": "2달러 쿠키를 사는데 점원이 화면을 돌려 주고, 팁 안 주려다 30% 를 눌러 버린다",
+ "where": "동네 빵집 계산대",
+ "goal": "미국 팁 화면에서 살아남기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Clerk"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "oh no",
+  "it's okay",
+  "wait"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Two dollars. It's just gonna ask you a question.",
+   "ko": "2달러요. 화면에서 뭐 하나 물어볼 거예요.",
+   "note": "It's just gonna ask you a question = 팁 화면을 돌릴 때 하는 말",
+   "tags": [],
+   "new": [
+    "ask",
+    "question"
+   ],
+   "lemmas": [
+    [
+     "dollars",
+     "dollar",
+     ""
+    ],
+    [
+     "gonna",
+     "go",
+     ""
+    ],
+    [
+     "ask",
+     "ask",
+     ""
+    ],
+    [
+     "question",
+     "question",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Wait. Is this a tip? For a cookie?",
+   "ko": "잠깐만요. 이거 팁이에요? 쿠키에요?",
+   "note": "tip = 봉사료",
+   "tags": [
+    "expr:wait"
+   ],
+   "new": [
+    "wait",
+    "tip",
+    "cookie"
+   ],
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "tip",
+     "tip",
+     ""
+    ],
+    [
+     "cookie",
+     "cookie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "It's okay. It's totally up to you.",
+   "ko": "괜찮아요. 전적으로 손님 마음이에요.",
+   "note": "up to you = 네 마음대로",
+   "tags": [
+    "expr:okay",
+    "expr:it's okay",
+    "expr:totally"
+   ],
+   "new": [
+    "total"
+   ],
+   "lemmas": [
+    [
+     "totally",
+     "total",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "But you're looking right at me.",
+   "ko": "근데 저를 빤히 보고 계시잖아요.",
+   "note": "looking right at = 빤히 보다",
+   "tags": [
+    "expr:right"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "looking",
+     "look",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "I'm not looking.",
+   "ko": "안 보는데요.",
+   "note": "보면서 하는 말",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "looking",
+     "look",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Oh no. I hit thirty percent.",
+   "ko": "헐. 30% 눌렀어요.",
+   "note": "hit = 누르다",
+   "tags": [
+    "expr:oh no"
+   ],
+   "new": [
+    "hit",
+    "thirty",
+    "percent"
+   ],
+   "lemmas": [
+    [
+     "hit",
+     "hit",
+     ""
+    ],
+    [
+     "thirty",
+     "thirty",
+     ""
+    ],
+    [
+     "percent",
+     "percent",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "I saw. You're my favorite person now.",
+   "ko": "봤어요. 이제 제일 좋아하는 손님이에요.",
+   "note": "favorite = 제일 좋아하는",
+   "tags": [
+    "heart"
+   ],
+   "new": [
+    "favorite",
+    "person"
+   ],
+   "lemmas": [
+    [
+     "saw",
+     "see",
+     ""
+    ],
+    [
+     "favorite",
+     "favorite",
+     ""
+    ],
+    [
+     "person",
+     "person",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Great. Can I have a napkin for my tears?",
+   "ko": "좋네요. 눈물 닦을 냅킨 주실래요?",
+   "note": "Can I have ~? = ~ 주실래요?",
+   "tags": [],
+   "new": [
+    "napkin",
+    "tears"
+   ],
+   "lemmas": [
+    [
+     "Great",
+     "great",
+     ""
+    ],
+    [
+     "napkin",
+     "napkin",
+     ""
+    ],
+    [
+     "tears",
+     "tears",
+     ""
+    ]
+   ]
+  }
+ ]
+}

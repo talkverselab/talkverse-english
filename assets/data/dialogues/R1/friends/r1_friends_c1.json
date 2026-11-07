@@ -1,0 +1,245 @@
+{
+ "id": "r1_friends_c1",
+ "region": "R1",
+ "island": "friends",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "단톡방에 보냈다",
+ "emoji": "📱",
+ "scene": "Jake 에게 보낼 메시지를 친구 단톡방에 보냈고, Maya 가 답한다",
+ "where": "채팅",
+ "goal": "채팅 말(guess what, no way, my bad)",
+ "speakers": {
+  "A": "{name}",
+  "B": "Maya",
+  "C": "Jake"
+ },
+ "register": "chat",
+ "twist": 3,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "guess what",
+  "no way",
+  "my bad",
+  "what happened"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Guess what",
+   "ko": "있잖아",
+   "note": "guess what = 있잖아",
+   "tags": [
+    "expr:what",
+    "expr:guess what"
+   ],
+   "new": [
+    "guess"
+   ],
+   "ui": "bubble",
+   "at": "21:03",
+   "lemmas": [
+    [
+     "Guess",
+     "guess",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Maya's pizza is so bad 😂",
+   "ko": "마야 피자 진짜 맛없어 😂",
+   "note": "그걸 당사자가 있는 방에 보냈다",
+   "tags": [],
+   "new": [
+    "pizza",
+    "worse"
+   ],
+   "ui": "bubble",
+   "at": "21:03",
+   "lemmas": [
+    [
+     "pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "bad",
+     "worse",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "{name}.",
+   "ko": "{name}.",
+   "note": "이름만 부르면 무섭다",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "21:04",
+   "stamp": "🙂",
+   "lemmas": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Oh no. Wrong chat.",
+   "ko": "헐. 방 잘못 왔다.",
+   "note": "wrong chat = 대화방 착각",
+   "tags": [
+    "expr:oh no"
+   ],
+   "new": [
+    "wrong",
+    "chat"
+   ],
+   "ui": "bubble",
+   "at": "21:04",
+   "lemmas": [
+    [
+     "Wrong",
+     "wrong",
+     ""
+    ],
+    [
+     "chat",
+     "chat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "en": "What happened? Is there pizza?",
+   "ko": "무슨 일이야? 피자 있어?",
+   "note": "what happened = 무슨 일이야?",
+   "tags": [
+    "expr:what",
+    "expr:what happened"
+   ],
+   "new": [
+    "happen"
+   ],
+   "ui": "bubble",
+   "at": "21:05",
+   "lemmas": [
+    [
+     "happened",
+     "happen",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "My bad! I love your pizza!",
+   "ko": "미안! 네 피자 사랑해!",
+   "note": "my bad = 내 잘못",
+   "tags": [
+    "expr:my bad"
+   ],
+   "new": [],
+   "ui": "bubble",
+   "at": "21:05",
+   "lemmas": [
+    [
+     "bad",
+     "worse",
+     ""
+    ],
+    [
+     "love",
+     "love",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "No way. Bring your own dinner Friday.",
+   "ko": "어림없어. 금요일 저녁은 네가 싸 와.",
+   "note": "no way = 어림없어",
+   "tags": [
+    "expr:no way"
+   ],
+   "new": [
+    "bring",
+    "friday"
+   ],
+   "ui": "bubble",
+   "at": "21:06",
+   "lemmas": [
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "Bring",
+     "bring",
+     ""
+    ],
+    [
+     "dinner",
+     "dinner",
+     ""
+    ],
+    [
+     "Friday",
+     "friday",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "en": "So… Friday pizza is for me?",
+   "ko": "그럼… 금요일 피자는 내 거지?",
+   "note": "먹보의 마무리",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "21:06",
+   "stamp": "🍕",
+   "lemmas": [
+    [
+     "Friday",
+     "friday",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ]
+   ]
+  }
+ ]
+}

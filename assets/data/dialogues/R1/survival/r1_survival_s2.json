@@ -1,0 +1,233 @@
+{
+ "id": "r1_survival_s2",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "오늘 밤 제 이름은 디너",
+ "emoji": "☕",
+ "scene": "카페에서 주문하는데 컵에 전혀 다른 이름이 적혀 나오고, 학습자는 그냥 받아들인다",
+ "where": "Maya 가 일하는 카페",
+ "goal": "카페 주문 말과 이름 사고",
+ "speakers": {
+  "A": "{name}",
+  "B": "Maya"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "i'll have",
+  "for here or to go",
+  "to go",
+  "sure"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Hey! What can I get you?",
+   "ko": "어서 오세요! 뭐 드릴까요?",
+   "note": "What can I get you? = 뭐 드릴까요?",
+   "tags": [
+    "expr:what",
+    "expr:hey",
+    "expr:can i get"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "get",
+     "get",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "I'll have a small coffee, please.",
+   "ko": "작은 커피 하나 주세요.",
+   "note": "I'll have ~ = ~로 할게요",
+   "tags": [
+    "expr:please",
+    "expr:i'll have"
+   ],
+   "new": [
+    "small",
+    "coffee"
+   ],
+   "lemmas": [
+    [
+     "small",
+     "small",
+     ""
+    ],
+    [
+     "coffee",
+     "coffee",
+     ""
+    ],
+    [
+     "please",
+     "please",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "For here or to go?",
+   "ko": "드시고 가세요, 가져가세요?",
+   "note": "for here or to go = 매장·포장 질문",
+   "tags": [
+    "expr:for here or to go",
+    "expr:to go"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "go",
+     "go",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "To go, please.",
+   "ko": "가져갈게요.",
+   "note": "to go = 포장",
+   "tags": [
+    "expr:please",
+    "expr:to go"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "go",
+     "go",
+     ""
+    ],
+    [
+     "please",
+     "please",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Perfect. Name for the cup?",
+   "ko": "좋아요. 컵에 쓸 이름은요?",
+   "note": "name for the cup = 컵에 적을 이름",
+   "tags": [],
+   "new": [
+    "perfect",
+    "name",
+    "cup"
+   ],
+   "lemmas": [
+    [
+     "Perfect",
+     "perfect",
+     ""
+    ],
+    [
+     "Name",
+     "name",
+     ""
+    ],
+    [
+     "cup",
+     "cup",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "{name}.",
+   "ko": "{name}요.",
+   "note": "이름만 또박또박",
+   "tags": [],
+   "new": [],
+   "lemmas": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Small coffee for… Dinner? Dinner?",
+   "ko": "작은 커피 나왔습니다… 디너 님? 디너 님?",
+   "note": "잘못 들은 이름이 컵에 적혔다",
+   "tags": [],
+   "new": [
+    "dinner"
+   ],
+   "lemmas": [
+    [
+     "Small",
+     "small",
+     ""
+    ],
+    [
+     "coffee",
+     "coffee",
+     ""
+    ],
+    [
+     "Dinner",
+     "dinner",
+     ""
+    ],
+    [
+     "Dinner",
+     "dinner",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Sure. Tonight, I'm Dinner.",
+   "ko": "네. 오늘 밤엔 제가 디너예요.",
+   "note": "sure = 그래요, 뭐",
+   "tags": [
+    "expr:sure"
+   ],
+   "new": [
+    "sure",
+    "tonight"
+   ],
+   "lemmas": [
+    [
+     "Sure",
+     "sure",
+     ""
+    ],
+    [
+     "Tonight",
+     "tonight",
+     ""
+    ],
+    [
+     "Dinner",
+     "dinner",
+     ""
+    ]
+   ]
+  }
+ ]
+}

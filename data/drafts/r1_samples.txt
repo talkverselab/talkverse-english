@@ -1,0 +1,42 @@
+=== r1_love_a1
+title: 그 책 내가 먼저 봤는데
+emoji: 📚
+scene: 서점의 마지막 한 권을 두고 Emma 가 먼저 말을 걸고, 놀리다가 자기 번호를 책갈피에 끼워 준다
+where: 브루클린 서점
+goal: 처음 말 걸기와 가볍게 받아치기
+kind: short
+register: casual
+B: Emma
+twist: 7 emotion
+expr: excuse me | are you kidding | no way | i guess
+--
+B | Excuse me. I saw that book first. | 저기요. 그 책 제가 먼저 봤는데요. | saw ~ first = 먼저 봤다
+A | Are you kidding? My hand is on it. | 농담이죠? 제 손이 올라가 있는데요. | are you kidding = 농담이죠?
+B | Your hand is on my book. | 당신 손이 제 책 위에 있는 거죠. | 받아치기
+A | Your book? Did you read it? | 당신 책이라고요? 읽어 봤어요? | 되묻기
+B | Five times. The ending is so sad. | 다섯 번요. 결말이 너무 슬퍼요. | so sad = 너무 슬퍼
+A | No way. You just told me the ending! | 말도 안 돼. 방금 결말을 말했잖아요! | no way = 말도 안 돼
+B | I guess you need someone to talk to. | 그럼 얘기 나눌 사람이 필요하겠네요. | I guess = 그런가 봐요 | heart
+A | Wait, is that your number in the book? | 잠깐, 책에 있는 거 당신 번호예요? | 마지막에 들킨 마음
+
+=== r1_friends_c1
+title: 단톡방에 보냈다
+emoji: 📱
+scene: Jake 에게 보낼 메시지를 친구 단톡방에 보냈고, Maya 가 답한다
+where: 채팅
+goal: 채팅 말(guess what, no way, my bad)
+kind: chat
+register: chat
+B: Maya
+C: Jake
+twist: 3 chaos
+expr: guess what | no way | my bad | what happened
+--
+A@21:03 | Guess what | 있잖아 | guess what = 있잖아
+A@21:03 | Maya's pizza is so bad 😂 | 마야 피자 진짜 맛없어 😂 | 그걸 당사자가 있는 방에 보냈다
+B@21:04 | {name}. | {name}. | 이름만 부르면 무섭다 | stamp=🙂
+A@21:04 | Oh no. Wrong chat. | 헐. 방 잘못 왔다. | wrong chat = 대화방 착각
+C@21:05 | What happened? Is there pizza? | 무슨 일이야? 피자 있어? | what happened = 무슨 일이야?
+A@21:05 | My bad! I love your pizza! | 미안! 네 피자 사랑해! | my bad = 내 잘못
+B@21:06 | No way. Bring your own dinner Friday. | 어림없어. 금요일 저녁은 네가 싸 와. | no way = 어림없어
+C@21:06 | So… Friday pizza is for me? | 그럼… 금요일 피자는 내 거지? | 먹보의 마무리 | stamp=🍕
