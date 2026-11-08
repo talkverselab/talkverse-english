@@ -17,6 +17,11 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # 앱내앱(2026-11-08): 앱마다 APK 하나씩 — english 는 `latest`, 나머지는 `latest-<id>` 릴리스
+    strategy:
+      fail-fast: false
+      matrix:
+        app: [english, toeic]
     steps:
       - uses: actions/checkout@v4
 
@@ -49,12 +54,13 @@ jobs:
 
       # 빌드 번호 = 워크플로 실행 번호 → 앱이 자기 빌드와 견주어 새 빌드를 판단한다
       - name: Build APK
-        run: flutter build apk --release --build-number=${{ github.run_number }}
+        run: flutter build apk --release --flavor ${{ matrix.app }} --dart-define=APP=${{ matrix.app }} --build-number=${{ github.run_number }}
 
       - name: Collect release files
         id: meta
         run: |
-          cp build/app/outputs/flutter-apk/app-release.apk app-latest.apk
+          cp build/app/outputs/flutter-apk/app-${{ matrix.app }}-release.apk app-latest.apk
+          if [ "${{ matrix.app }}" = english ]; then echo "tag=latest" >> "$GITHUB_OUTPUT"; echo "title=최신 빌드" >> "$GITHUB_OUTPUT"; else echo "tag=latest-${{ matrix.app }}" >> "$GITHUB_OUTPUT"; echo "title=최신 빌드 (${{ matrix.app }})" >> "$GITHUB_OUTPUT"; fi
           VER=$(grep '^version:' pubspec.yaml | sed 's/version: *//' | cut -d+ -f1)
           NOTES=$(git log -1 --pretty=%s)
           SIZE=$(stat -c%s app-latest.apk)
@@ -67,14 +73,14 @@ jobs:
       - name: Update rolling "latest" release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: latest
-          name: 최신 빌드
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: ${{ steps.meta.outputs.title }}
           body: |
             버전 ${{ steps.meta.outputs.ver }} · 빌드 ${{ github.run_number }}
             ${{ steps.meta.outputs.notes }}
 
             앱의 「프로필 · 설정 → 앱 업데이트」에서 바로 받아 설치할 수 있습니다.
-          make_latest: true
+          make_latest: ${{ matrix.app == 'english' }}
           files: |
             app-latest.apk
             latest.json

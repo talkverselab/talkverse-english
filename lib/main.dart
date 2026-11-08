@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'core/app_flavor.dart';
 import 'core/l10n.dart';
 import 'core/theme.dart';
 import 'screens/main_screen.dart';
 import 'screens/sync_screen.dart';
+import 'toeic/toeic_home.dart';
 import 'services/content_sync.dart';
 import 'services/data_version.dart';
 import 'services/achievement_service.dart';
@@ -44,15 +46,21 @@ class EnglishUniverseApp extends StatelessWidget {
   final bool syncFirst;
   const EnglishUniverseApp({super.key, this.syncFirst = false});
 
+  /// 앱내앱(2026-11-08): 빌드된 앱(--dart-define=APP)에 따라 첫 화면이 다르다. 토익스피킹·OPIc 은 토익 뼈대가 서면 같은 틀로.
+  static Widget get _home => switch (AppFlavor.current) {
+        AppFlavor.english => const MainScreen(),
+        AppFlavor.toeic || AppFlavor.toeicSpeaking || AppFlavor.opic => const ToeicHome(),
+      };
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: tr('영어유니버스'),
+      title: tr(AppFlavor.current.nameKo),
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light(),
       darkTheme: AppTheme.dark(),
       themeMode: ThemeMode.light,
-      home: syncFirst ? const SyncScreen(next: MainScreen()) : const MainScreen(),
+      home: syncFirst ? SyncScreen(next: _home) : _home,
       // 아이폰 Dynamic Type·갤럭시 글자 크기 설정이 커도 타일이 깨지지 않게 1.2배까지만
       builder: (context, child) {
         final mq = MediaQuery.of(context);

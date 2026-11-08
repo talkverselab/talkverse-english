@@ -3,7 +3,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
     <application
-        android:label="English Universe"
+        android:label="@string/app_name"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -26,6 +26,13 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <!-- 앱 가족 이동: <스킴>://open (lib/core/app_flavor.dart) -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="${appScheme}"/>
             </intent-filter>
         </activity>
         <!-- Don't delete the meta-data below.
@@ -50,6 +57,11 @@
 
          In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->
     <queries>
+        <!-- 앱 가족(영어·토익·토익스피킹·OPIc)이 깔려 있는지 보기 위해 -->
+        <intent><action android:name="android.intent.action.VIEW"/><data android:scheme="talkverse-english"/></intent>
+        <intent><action android:name="android.intent.action.VIEW"/><data android:scheme="talkverse-toeic"/></intent>
+        <intent><action android:name="android.intent.action.VIEW"/><data android:scheme="talkverse-toeicspeaking"/></intent>
+        <intent><action android:name="android.intent.action.VIEW"/><data android:scheme="talkverse-opic"/></intent>
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>
             <data android:mimeType="text/plain"/>

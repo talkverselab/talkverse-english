@@ -19,7 +19,10 @@ import 'word_quiz_screen.dart';
 /// 넓은 화면(isWide): 앱바 아래 왼쪽 = 탭 레일 + 그 탭의 목록, 오른쪽 = 고른 내용(자기 Navigator). 폰: 하단 탭 + 내용 전체 화면.
 /// 학습(에피소드·카드 세션·퀴즈)은 어느 쪽이든 openFull 로 목록을 감추고 전체 화면.
 class MainScreen extends StatefulWidget {
-  const MainScreen({super.key});
+  /// 탭(아이콘·선택 아이콘·이름·내용). 비우면 영어유니버스 탭. 토익 등 앱내앱은 자기 탭을 넣어 같은 껍데기를 쓴다(2026-11-08).
+  final List<(IconData, IconData, String, Widget)>? tabs;
+  final String? title;
+  const MainScreen({super.key, this.tabs, this.title});
 
   @override
   State<MainScreen> createState() => _MainScreenState();
@@ -29,11 +32,11 @@ class _MainScreenState extends State<MainScreen> {
   int _index = 0;
   final _pane = GlobalKey<NavigatorState>();
 
-  static List<(IconData, IconData, String)> get _tabs => [
-    (Icons.menu_book_outlined, Icons.menu_book, tr('배우기')),
-    (Icons.style_outlined, Icons.style, tr('복습')),
-    (Icons.explore_outlined, Icons.explore, tr('탐색')),
-    (Icons.person_outline, Icons.person, tr('프로필')),
+  List<(IconData, IconData, String, Widget)> get _tabs => widget.tabs ?? [
+    (Icons.menu_book_outlined, Icons.menu_book, tr('배우기'), const LearnTab()),
+    (Icons.style_outlined, Icons.style, tr('복습'), const ReviewTab()),
+    (Icons.explore_outlined, Icons.explore, tr('탐색'), const ExploreTab()),
+    (Icons.person_outline, Icons.person, tr('프로필'), const MeTab()),
   ];
 
   @override
@@ -42,7 +45,7 @@ class _MainScreenState extends State<MainScreen> {
       centerTitle: false,
       // 「영어」 워드마크 그라데이션(인디고) — talkverse.uk 영어 페이지 기준
       title: GradText(
-        tr('영어유니버스'),
+        widget.title ?? tr('영어유니버스'),
         style: const TextStyle(
           fontSize: 20,
           fontWeight: FontWeight.w800,
@@ -52,7 +55,7 @@ class _MainScreenState extends State<MainScreen> {
     );
     final stack = IndexedStack(
       index: _index,
-      children: const [LearnTab(), ReviewTab(), ExploreTab(), MeTab()],
+      children: [for (final t in _tabs) t.$4],
     );
     // 폰(한 화면): 하단 탭 + 내용 전체 화면
     if (!isWide(context)) {
@@ -111,7 +114,7 @@ class _MainScreenState extends State<MainScreen> {
                   fontSize: 11,
                   fontWeight: FontWeight.w600,
                 ),
-                trailing: Expanded(
+                trailing: widget.tabs != null ? null : Expanded(
                   child: Align(
                     alignment: Alignment.bottomCenter,
                     child: Padding(
@@ -201,13 +204,13 @@ class _PanePlaceholder extends StatelessWidget {
 }
 
 /// 탭 안의 한 줄(카드) — 도장 + 제목·부제 + 꺾쇠. 누르면 오른쪽 칸(넓은 화면) 또는 push.
-class _NavRow extends StatelessWidget {
+class NavRow extends StatelessWidget {
   final String seal;
   final Color? sealColor;
   final String title;
   final String subtitle;
   final VoidCallback? onTap;
-  const _NavRow({
+  const NavRow({super.key, 
     required this.seal,
     this.sealColor,
     required this.title,
@@ -285,7 +288,8 @@ class _NavRow extends StatelessWidget {
   }
 }
 
-Widget _section(String title) => Padding(
+/// 탭 안 소제목(토익 등 앱내앱 탭도 쓴다).
+Widget sectionTitle(String title) => Padding(
   padding: const EdgeInsets.fromLTRB(2, 14, 2, 8),
   child: Text(
     title,
@@ -375,11 +379,11 @@ class _LearnTabState extends State<LearnTab> {
                 fontWeight: FontWeight.w500,
               ),
             ),
-            _section(tr('오늘의 학습')),
+            sectionTitle(tr('오늘의 학습')),
             if (!_loaded)
               const SizedBox(height: 120)
             else if (today == null)
-              const _EmptyNote(
+              const EmptyNote(
                 icon: Icons.auto_stories_outlined,
                 text: '회화가 곧 들어옵니다. 들어오면 여기에서 오늘 읽을 편이 열려요.',
               )
@@ -395,30 +399,30 @@ class _LearnTabState extends State<LearnTab> {
                   _load();
                 },
               ),
-            _section(tr('기초')),
-            _NavRow(
+            sectionTitle(tr('기초')),
+            NavRow(
               seal: 'Aa',
               sealColor: AppColors.ai,
               title: tr('소리 배우기'),
               subtitle: tr('강세 · 이어 말하기 · 약해지는 소리'),
             ),
-            _section(tr('회화')),
-            _NavRow(
+            sectionTitle(tr('회화')),
+            NavRow(
               seal: 'Talk',
               sealColor: AppColors.beni,
               title: tr('주제별 회화'),
               subtitle: tr('모든 문장 듣기 · 그림 카드 · 장면 컷'),
               onTap: () => openPane(context, (_) => const DialogueHomeScreen()),
             ),
-            _section(tr('단어')),
-            _NavRow(
+            sectionTitle(tr('단어')),
+            NavRow(
               seal: 'Word',
               sealColor: AppColors.kinDeep,
               title: tr('절벽 단어 R1~R4'),
               subtitle: tr('빈도 2,000위 · 20어 단원 · 그림 · 미국/영국/호주 발음'),
               onTap: () => openPane(context, (_) => const WordFreqScreen()),
             ),
-            _NavRow(
+            NavRow(
               seal: 'Root',
               sealColor: AppColors.matcha,
               title: tr('뿌리 단어 패밀리'),
@@ -433,10 +437,10 @@ class _LearnTabState extends State<LearnTab> {
 }
 
 /// 데이터가 아직 없을 때의 안내 카드.
-class _EmptyNote extends StatelessWidget {
+class EmptyNote extends StatelessWidget {
   final IconData icon;
   final String text;
-  const _EmptyNote({required this.icon, required this.text});
+  const EmptyNote({super.key, required this.icon, required this.text});
 
   @override
   Widget build(BuildContext context) => Container(
@@ -478,29 +482,29 @@ class ReviewTab extends StatelessWidget {
         return ListView(
           padding: EdgeInsets.fromLTRB(16, 8, 16, 24 + MediaQuery.paddingOf(context).bottom),
           children: [
-            _section(tr('오늘의 복습')),
+            sectionTitle(tr('오늘의 복습')),
             if (missed.isEmpty)
-              const _EmptyNote(
+              const EmptyNote(
                 icon: Icons.style_outlined,
                 text: '그림 단어 퀴즈에서 틀린 낱말과 회화의 그림 카드가 여기에 쌓여요.',
               )
             else
-              _NavRow(
+              NavRow(
                 seal: 'Re',
                 sealColor: AppColors.sakuraDeep,
                 title: tr('틀린 단어 다시'),
                 subtitle: trf('{0}개 · 맞히면 빠져요', [missed.length]),
                 onTap: () => openFull(context, (_) => WordQuizScreen(words: missed)),
               ),
-            _section(tr('복습')),
-            _NavRow(
+            sectionTitle(tr('복습')),
+            NavRow(
               seal: 'Pic',
               sealColor: AppColors.beni,
               title: tr('그림 단어 퀴즈'),
               subtitle: tr('그림 보고 낱말 고르기 · R1~R4'),
               onTap: () => openFull(context, (_) => const WordQuizScreen()),
             ),
-            _NavRow(
+            NavRow(
               seal: 'Card',
               sealColor: AppColors.kinDeep,
               title: tr('문장 플래시카드'),
@@ -524,29 +528,29 @@ class ExploreTab extends StatelessWidget {
     return ListView(
       padding: EdgeInsets.fromLTRB(16, 8, 16, 24 + MediaQuery.paddingOf(context).bottom),
       children: [
-        _section(tr('회화')),
-        _NavRow(
+        sectionTitle(tr('회화')),
+        NavRow(
           seal: 'Talk',
           sealColor: AppColors.beni,
           title: tr('주제별 회화'),
           subtitle: tr('레벨 · 주제 · 편 목록'),
           onTap: () => openPane(context, (_) => const DialogueHomeScreen()),
         ),
-        _section(tr('단어')),
-        _NavRow(
+        sectionTitle(tr('단어')),
+        NavRow(
           seal: 'Word',
           title: tr('단어 빈도'),
           subtitle: 'Vocabulary · R1~R4',
           onTap: () => openPane(context, (_) => const WordFreqScreen()),
         ),
-        _NavRow(
+        NavRow(
           seal: 'Root',
           sealColor: AppColors.matcha,
           title: tr('뿌리 단어 패밀리'),
           subtitle: tr('라틴·그리스 어근 · 가족별로 뜻 풀기'),
           onTap: () => openPane(context, (_) => const RootsScreen()),
         ),
-        _NavRow(
+        NavRow(
           seal: 'Aa',
           sealColor: AppColors.ai,
           title: tr('소리 사전'),

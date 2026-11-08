@@ -1,0 +1,6 @@
+// tools/select_app.sh 가 쓴다 — 손으로 고치지 말 것. 지금 앱: english
+APP_ID = english
+APP_BUNDLE_ID = com.talkverse.englishUniverse
+APP_DISPLAY_NAME = 영어유니버스
+APP_SCHEME = talkverse-english
+APP_ICON = AppIcon

@@ -19,6 +19,12 @@
 - CI 의 `Restore signing key` 단계와 `build.gradle.kts` 의 release 서명을 지우지 말 것(러너는 debug 키를 매번 새로 만든다).
 - 설치가 `INSTALL_FAILED_UPDATE_INCOMPATIBLE` 이면 앱을 지우기 전에 `apksigner verify --print-certs` 로 SHA-1 비교.
 
+## 1-1. 앱내앱(2026-11-08) — 영어·토익·토익스피킹·OPIc
+- 정의 `lib/core/app_flavor.dart`. 빌드는 항상 앱을 지정: `bash tools/apk_build.sh <id>`, `APP=<id> bash tools/ios_release.sh`, `tools/zealot_push.sh --app <id>`. `flutter build apk` 에 `--flavor` 가 없으면 실패한다.
+- iOS 는 `tools/select_app.sh` 가 `ios/Flutter/App.xcconfig` 를 바꾼다 — 커밋은 english 상태로(스크립트가 끝나면 되돌림). 아이콘 세트 `AppIcon-<id>` 는 uk 세션.
+- 토익 단어 데이터: 표제어 `data/toeic/headwords.txt` + 뜻 `tools/toeic_gloss.py` → `python3 tools/toeic_words.py`. **책 뜻·예문·이름은 넣지 않는다(사용자 결정 2026-11-08).**
+- Zealot 앱이름: 「토익 유니버스」·「토익스피킹 유니버스」·「OPIc 유니버스」(app_flavor.dart zealotName).
+
 ## 2. 배포
 - `master` 푸시 → `.github/workflows/release.yml` 이 서명된 APK 와 `latest.json` 을 `latest` 릴리스에 올린다(빌드 번호 = 실행 번호).
   앱 「나 → 앱 업데이트」(Android)가 이 릴리스를 본다(`lib/services/update_service.dart`).

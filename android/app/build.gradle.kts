@@ -40,6 +40,37 @@ android {
         versionName = flutter.versionName
     }
 
+    // 앱내앱(2026-11-08): 영어·토익·토익스피킹·OPIc — 같은 코드, 다른 앱 ID. `flutter build apk --flavor <id> --dart-define=APP=<id>`.
+    // id·앱 ID·스킴은 lib/core/app_flavor.dart 와 같아야 한다.
+    buildFeatures { resValues = true }   // resValue(app_name) 를 쓰려면 켜야 한다(AGP 8+)
+    flavorDimensions += "app"
+    productFlavors {
+        create("english") {
+            dimension = "app"
+            applicationId = "com.talkverse.english_universe"
+            resValue("string", "app_name", "English Universe")
+            manifestPlaceholders["appScheme"] = "talkverse-english"
+        }
+        create("toeic") {
+            dimension = "app"
+            applicationId = "com.talkverse.toeic"
+            resValue("string", "app_name", "TOEIC Universe")
+            manifestPlaceholders["appScheme"] = "talkverse-toeic"
+        }
+        create("toeic_speaking") {
+            dimension = "app"
+            applicationId = "com.talkverse.toeic_speaking"
+            resValue("string", "app_name", "TOEIC Speaking Universe")
+            manifestPlaceholders["appScheme"] = "talkverse-toeicspeaking"
+        }
+        create("opic") {
+            dimension = "app"
+            applicationId = "com.talkverse.opic"
+            resValue("string", "app_name", "OPIc Universe")
+            manifestPlaceholders["appScheme"] = "talkverse-opic"
+        }
+    }
+
     signingConfigs {
         if (hasReleaseKey) {
             create("release") {

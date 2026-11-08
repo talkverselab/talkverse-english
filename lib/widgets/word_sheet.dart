@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../core/l10n.dart';
 import '../core/theme.dart';
 import '../screens/word_freq_screen.dart' show EnWord;
+import '../toeic/toeic_words.dart' show ToeicWords;
 import '../services/tts_service.dart';
 import 'english_decor.dart';
 import 'word_art_thumb.dart';
@@ -60,10 +61,10 @@ class WordSheet extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
                     decoration: BoxDecoration(color: AppColors.beni.withValues(alpha: 0.12), borderRadius: BorderRadius.circular(6)),
-                    child: Text(w.level, style: const TextStyle(fontSize: 10.5, fontWeight: FontWeight.w900, color: AppColors.beni)),
+                    child: Text(ToeicWords.labels[w.level] ?? w.level, style: const TextStyle(fontSize: 10.5, fontWeight: FontWeight.w900, color: AppColors.beni)),
                   ),
                   const SizedBox(width: 8),
-                  Text(trf('빈도 {0}위', [w.rank]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+                  Text(w.level.startsWith('R') || w.level == 'C' ? trf('빈도 {0}위', [w.rank]) : trf('토익 {0}번', [w.rank]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
                 ]),
               ]),
             ),

@@ -1,0 +1,11858 @@
+{
+"_meta": "토익 단어 — 표제어 목록 + 자체 뜻(tools/toeic_gloss.py) 또는 절벽 단어장 뜻. grp N 명사 · V 동사 · ADJ 형용사 · ADV 부사 · I 관용표현 · A 기본 빈도어.",
+"words": [
+{
+"w": "acceptance",
+"pos": "n.",
+"ko": "수락, 수용",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 1
+},
+{
+"w": "accommodation",
+"pos": "n.",
+"ko": "숙소, 숙박 시설",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 2
+},
+{
+"w": "accommodations",
+"pos": "n.",
+"ko": "숙박 시설",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 3
+},
+{
+"w": "accountant",
+"pos": "n.",
+"ko": "회계사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 4
+},
+{
+"w": "accumulation",
+"pos": "n.",
+"ko": "축적",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 5
+},
+{
+"w": "acquaintance",
+"pos": "n.",
+"ko": "아는 사람, 면식",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 6
+},
+{
+"w": "adaptation",
+"pos": "n.",
+"ko": "적응, 각색",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 7
+},
+{
+"w": "adjustment",
+"pos": "n.",
+"ko": "조정",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 8
+},
+{
+"w": "admission",
+"pos": "n.",
+"ko": "입장(료), 입학, 인정",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 9
+},
+{
+"w": "advancement",
+"pos": "n.",
+"ko": "승진, 발전",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 10
+},
+{
+"w": "agenda",
+"pos": "n.",
+"ko": "안건, 의제",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 11
+},
+{
+"w": "allowance",
+"pos": "n.",
+"ko": "수당, 용돈, 허용량",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 12
+},
+{
+"w": "ambience",
+"pos": "n.",
+"ko": "분위기",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 13
+},
+{
+"w": "amenity",
+"pos": "n.",
+"ko": "편의 시설",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 14
+},
+{
+"w": "anniversary",
+"pos": "n.",
+"ko": "기념일",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 15
+},
+{
+"w": "anticipation",
+"pos": "n.",
+"ko": "예상, 기대",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 16
+},
+{
+"w": "appliance",
+"pos": "n.",
+"ko": "(가전)제품, 기기",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 17
+},
+{
+"w": "applicant",
+"pos": "n.",
+"ko": "지원자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 18
+},
+{
+"w": "appointment",
+"pos": "n.",
+"ko": "약속, 임명",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 19
+},
+{
+"w": "approval",
+"pos": "n.",
+"ko": "승인",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 20
+},
+{
+"w": "aspect",
+"pos": "n.",
+"ko": "측면, 양상",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 21
+},
+{
+"w": "assertion",
+"pos": "n.",
+"ko": "주장",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 22
+},
+{
+"w": "associate",
+"pos": "n.",
+"ko": "동료 / v 연관 짓다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 23
+},
+{
+"w": "associates",
+"pos": "n.",
+"ko": "동료들, 제휴사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 24
+},
+{
+"w": "assurance",
+"pos": "n.",
+"ko": "보장, 확신, 보험",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 25
+},
+{
+"w": "athlete",
+"pos": "n.",
+"ko": "운동선수",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 26
+},
+{
+"w": "atmosphere",
+"pos": "n.",
+"ko": "분위기, 대기",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 27
+},
+{
+"w": "attendance",
+"pos": "n.",
+"ko": "출석, 참석(자 수)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 28
+},
+{
+"w": "attendee",
+"pos": "n.",
+"ko": "참석자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 29
+},
+{
+"w": "attitude",
+"pos": "n.",
+"ko": "태도",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 30
+},
+{
+"w": "audit",
+"pos": "n.",
+"ko": "회계 감사 / v 감사하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 31
+},
+{
+"w": "authenticity",
+"pos": "n.",
+"ko": "진품임, 진정성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 32
+},
+{
+"w": "authorization",
+"pos": "n.",
+"ko": "허가, 승인",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 33
+},
+{
+"w": "avenue",
+"pos": "n.",
+"ko": "대로, (큰) 거리, 방안",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 34
+},
+{
+"w": "banquet",
+"pos": "n.",
+"ko": "연회",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 35
+},
+{
+"w": "beverage",
+"pos": "n.",
+"ko": "음료",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 36
+},
+{
+"w": "billing",
+"pos": "n.",
+"ko": "청구(서 발송)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 37
+},
+{
+"w": "biography",
+"pos": "n.",
+"ko": "전기(傳記)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 38
+},
+{
+"w": "blueprints",
+"pos": "n.",
+"ko": "청사진, 설계도",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 39
+},
+{
+"w": "boulevard",
+"pos": "n.",
+"ko": "대로, 큰길",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 40
+},
+{
+"w": "branch",
+"pos": "n.",
+"ko": "지점, 지사, 나뭇가지",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 41
+},
+{
+"w": "bureau",
+"pos": "n.",
+"ko": "국, 사무소",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 42
+},
+{
+"w": "cafeteria",
+"pos": "n.",
+"ko": "구내식당",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 43
+},
+{
+"w": "cardboard",
+"pos": "n.",
+"ko": "판지, 골판지",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 44
+},
+{
+"w": "catalogue",
+"pos": "n.",
+"ko": "상품 목록, 카탈로그",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 45
+},
+{
+"w": "catering",
+"pos": "n.",
+"ko": "출장 요리, 음식 공급",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 46
+},
+{
+"w": "ceiling",
+"pos": "n.",
+"ko": "천장, 상한선",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 47
+},
+{
+"w": "celebrity",
+"pos": "n.",
+"ko": "유명 인사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 48
+},
+{
+"w": "certificate",
+"pos": "n.",
+"ko": "증명서, 자격증",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 49
+},
+{
+"w": "characteristic",
+"pos": "n.",
+"ko": "특징 / a 특유의",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 50
+},
+{
+"w": "charity",
+"pos": "n.",
+"ko": "자선 (단체)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 51
+},
+{
+"w": "chart",
+"pos": "n.",
+"ko": "도표, 차트",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 52
+},
+{
+"w": "chef",
+"pos": "n.",
+"ko": "주방장, 요리사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 53
+},
+{
+"w": "circumstance",
+"pos": "n.",
+"ko": "상황, 사정",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 54
+},
+{
+"w": "clarification",
+"pos": "n.",
+"ko": "해명, 설명",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 55
+},
+{
+"w": "clarity",
+"pos": "n.",
+"ko": "명료함",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 56
+},
+{
+"w": "clearance",
+"pos": "n.",
+"ko": "재고 정리, 허가, 여유 공간",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 57
+},
+{
+"w": "client",
+"pos": "n.",
+"ko": "고객, 의뢰인",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 58
+},
+{
+"w": "collaboration",
+"pos": "n.",
+"ko": "협력",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 59
+},
+{
+"w": "colleague",
+"pos": "n.",
+"ko": "동료",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 60
+},
+{
+"w": "commerce",
+"pos": "n.",
+"ko": "상업, 무역",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 61
+},
+{
+"w": "competitiveness",
+"pos": "n.",
+"ko": "경쟁력",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 62
+},
+{
+"w": "competitor",
+"pos": "n.",
+"ko": "경쟁자, 경쟁사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 63
+},
+{
+"w": "compilation",
+"pos": "n.",
+"ko": "편집(물), 모음집",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 64
+},
+{
+"w": "complaint",
+"pos": "n.",
+"ko": "불만, 불평",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 65
+},
+{
+"w": "complexity",
+"pos": "n.",
+"ko": "복잡함",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 66
+},
+{
+"w": "compliment",
+"pos": "n.",
+"ko": "칭찬 / v 칭찬하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 67
+},
+{
+"w": "compromise",
+"pos": "n.",
+"ko": "타협 / v 타협하다, 손상시키다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 68
+},
+{
+"w": "congestion",
+"pos": "n.",
+"ko": "혼잡, 정체",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 69
+},
+{
+"w": "congratulation",
+"pos": "n.",
+"ko": "축하",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 70
+},
+{
+"w": "consensus",
+"pos": "n.",
+"ko": "합의, 의견 일치",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 71
+},
+{
+"w": "consent",
+"pos": "n.",
+"ko": "동의 / v 동의하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 72
+},
+{
+"w": "consequence",
+"pos": "n.",
+"ko": "결과",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 73
+},
+{
+"w": "constraint",
+"pos": "n.",
+"ko": "제약",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 74
+},
+{
+"w": "consumer",
+"pos": "n.",
+"ko": "소비자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 75
+},
+{
+"w": "container",
+"pos": "n.",
+"ko": "용기, 컨테이너",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 76
+},
+{
+"w": "contents",
+"pos": "n.",
+"ko": "내용(물), 목차",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 77
+},
+{
+"w": "contest",
+"pos": "n.",
+"ko": "대회, 경연",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 78
+},
+{
+"w": "contractor",
+"pos": "n.",
+"ko": "계약자, 도급업체",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 79
+},
+{
+"w": "convenience",
+"pos": "n.",
+"ko": "편의, 편리",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 80
+},
+{
+"w": "convention",
+"pos": "n.",
+"ko": "대회, 협약, 관례",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 81
+},
+{
+"w": "conversion",
+"pos": "n.",
+"ko": "전환, 개조",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 82
+},
+{
+"w": "coordinator",
+"pos": "n.",
+"ko": "진행자, 책임자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 83
+},
+{
+"w": "coworkers",
+"pos": "n.",
+"ko": "동료들",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 84
+},
+{
+"w": "critique",
+"pos": "n.",
+"ko": "비평 / v 비평하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 85
+},
+{
+"w": "crop",
+"pos": "n.",
+"ko": "농작물, 수확량",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 86
+},
+{
+"w": "cruise",
+"pos": "n.",
+"ko": "유람선 여행",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 87
+},
+{
+"w": "custom",
+"pos": "n.",
+"ko": "관습 / a 주문 제작한",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 88
+},
+{
+"w": "customs",
+"pos": "n.",
+"ko": "세관, 관세, 관습",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 89
+},
+{
+"w": "database",
+"pos": "n.",
+"ko": "데이터베이스",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 90
+},
+{
+"w": "deadline",
+"pos": "n.",
+"ko": "마감일",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 91
+},
+{
+"w": "deduction",
+"pos": "n.",
+"ko": "공제, 추론",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 92
+},
+{
+"w": "defects",
+"pos": "n.",
+"ko": "결함, 결점",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 93
+},
+{
+"w": "deficit",
+"pos": "n.",
+"ko": "적자, 부족",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 94
+},
+{
+"w": "definition",
+"pos": "n.",
+"ko": "정의, 선명도",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 95
+},
+{
+"w": "delegate",
+"pos": "n.",
+"ko": "대표(자) / v 위임하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 96
+},
+{
+"w": "demography",
+"pos": "n.",
+"ko": "인구 통계학",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 97
+},
+{
+"w": "demonstration",
+"pos": "n.",
+"ko": "시연, 시위",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 98
+},
+{
+"w": "depiction",
+"pos": "n.",
+"ko": "묘사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 99
+},
+{
+"w": "deposit",
+"pos": "n.",
+"ko": "보증금, 예금, 착수금 / v 예치하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 100
+},
+{
+"w": "designation",
+"pos": "n.",
+"ko": "지정, 지명",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 101
+},
+{
+"w": "destination",
+"pos": "n.",
+"ko": "목적지",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 102
+},
+{
+"w": "detail",
+"pos": "n.",
+"ko": "세부 사항",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 103
+},
+{
+"w": "developer",
+"pos": "n.",
+"ko": "개발자, 개발업체",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 104
+},
+{
+"w": "difficulties",
+"pos": "n.",
+"ko": "어려움, 곤경",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 105
+},
+{
+"w": "diligence",
+"pos": "n.",
+"ko": "근면, 성실",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 106
+},
+{
+"w": "diner",
+"pos": "n.",
+"ko": "식당 손님, 간이식당",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 107
+},
+{
+"w": "diploma",
+"pos": "n.",
+"ko": "졸업장, 수료증",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 108
+},
+{
+"w": "discrepancy",
+"pos": "n.",
+"ko": "불일치, 차이",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 109
+},
+{
+"w": "dish",
+"pos": "n.",
+"ko": "요리, 접시",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 110
+},
+{
+"w": "dispute",
+"pos": "n.",
+"ko": "분쟁, 논쟁 / v 반박하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 111
+},
+{
+"w": "disruption",
+"pos": "n.",
+"ko": "중단, 혼란",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 112
+},
+{
+"w": "distributor",
+"pos": "n.",
+"ko": "유통업체",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 113
+},
+{
+"w": "dividend",
+"pos": "n.",
+"ko": "배당금",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 114
+},
+{
+"w": "dividends",
+"pos": "n.",
+"ko": "배당금",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 115
+},
+{
+"w": "drawer",
+"pos": "n.",
+"ko": "서랍",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 116
+},
+{
+"w": "dues",
+"pos": "n.",
+"ko": "회비",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 117
+},
+{
+"w": "duplicate",
+"pos": "n.",
+"ko": "사본 / v 복사하다 / a 사본의",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 118
+},
+{
+"w": "earnings",
+"pos": "n.",
+"ko": "소득, 수익",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 119
+},
+{
+"w": "ecology",
+"pos": "n.",
+"ko": "생태(학)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 120
+},
+{
+"w": "efficiency",
+"pos": "n.",
+"ko": "효율(성)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 121
+},
+{
+"w": "elimination",
+"pos": "n.",
+"ko": "제거, 탈락",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 122
+},
+{
+"w": "employer",
+"pos": "n.",
+"ko": "고용주",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 123
+},
+{
+"w": "endeavor",
+"pos": "n.",
+"ko": "노력 / v 노력하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 124
+},
+{
+"w": "engagement",
+"pos": "n.",
+"ko": "약속, 약혼, 참여",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 125
+},
+{
+"w": "engineer",
+"pos": "n.",
+"ko": "기술자, 엔지니어",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 126
+},
+{
+"w": "enrollment",
+"pos": "n.",
+"ko": "등록, 입학",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 127
+},
+{
+"w": "enterprise",
+"pos": "n.",
+"ko": "기업, 사업",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 128
+},
+{
+"w": "enthusiasm",
+"pos": "n.",
+"ko": "열정",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 129
+},
+{
+"w": "entrance",
+"pos": "n.",
+"ko": "입구, 입장",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 130
+},
+{
+"w": "entrepreneur",
+"pos": "n.",
+"ko": "기업가, 창업자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 131
+},
+{
+"w": "envelope",
+"pos": "n.",
+"ko": "봉투",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 132
+},
+{
+"w": "exception",
+"pos": "n.",
+"ko": "예외",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 133
+},
+{
+"w": "excursion",
+"pos": "n.",
+"ko": "짧은 여행, 소풍",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 134
+},
+{
+"w": "executives",
+"pos": "n.",
+"ko": "임원들",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 135
+},
+{
+"w": "expense",
+"pos": "n.",
+"ko": "비용, 지출",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 136
+},
+{
+"w": "experiment",
+"pos": "n.",
+"ko": "실험 / v 실험하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 137
+},
+{
+"w": "expert",
+"pos": "n.",
+"ko": "전문가 / a 전문가의",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 138
+},
+{
+"w": "extension",
+"pos": "n.",
+"ko": "연장, 내선 번호, 확장",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 139
+},
+{
+"w": "fabric",
+"pos": "n.",
+"ko": "직물, 천",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 140
+},
+{
+"w": "faculty",
+"pos": "n.",
+"ko": "교수진, 학부, 능력",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 141
+},
+{
+"w": "feasibility",
+"pos": "n.",
+"ko": "실현 가능성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 142
+},
+{
+"w": "feedback",
+"pos": "n.",
+"ko": "의견, 피드백",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 143
+},
+{
+"w": "ferry",
+"pos": "n.",
+"ko": "여객선, 페리",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 144
+},
+{
+"w": "fitness",
+"pos": "n.",
+"ko": "건강, 체력 단련, 적합성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 145
+},
+{
+"w": "flame",
+"pos": "n.",
+"ko": "불꽃",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 146
+},
+{
+"w": "flavor",
+"pos": "n.",
+"ko": "맛, 풍미",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 147
+},
+{
+"w": "flexibility",
+"pos": "n.",
+"ko": "유연성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 148
+},
+{
+"w": "florist",
+"pos": "n.",
+"ko": "꽃집 (주인)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 149
+},
+{
+"w": "fluctuation",
+"pos": "n.",
+"ko": "변동",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 150
+},
+{
+"w": "flyer",
+"pos": "n.",
+"ko": "전단지",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 151
+},
+{
+"w": "forecast",
+"pos": "n.",
+"ko": "예보, 예측 / v 예측하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 152
+},
+{
+"w": "fragrance",
+"pos": "n.",
+"ko": "향기, 향수",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 153
+},
+{
+"w": "fund-raiser",
+"pos": "n.",
+"ko": "모금 행사, 모금 담당자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 154
+},
+{
+"w": "grace",
+"pos": "n.",
+"ko": "우아함, 유예 기간",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 155
+},
+{
+"w": "graduate",
+"pos": "n.",
+"ko": "졸업생 / v 졸업하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 156
+},
+{
+"w": "grains",
+"pos": "n.",
+"ko": "곡물",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 157
+},
+{
+"w": "gratitude",
+"pos": "n.",
+"ko": "감사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 158
+},
+{
+"w": "guest",
+"pos": "n.",
+"ko": "손님, 투숙객",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 159
+},
+{
+"w": "guideline",
+"pos": "n.",
+"ko": "지침, 가이드라인",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 160
+},
+{
+"w": "habit",
+"pos": "n.",
+"ko": "습관",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 161
+},
+{
+"w": "habitat",
+"pos": "n.",
+"ko": "서식지",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 162
+},
+{
+"w": "handcrafts",
+"pos": "n.",
+"ko": "수공예품",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 163
+},
+{
+"w": "harvest",
+"pos": "n.",
+"ko": "수확 / v 수확하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 164
+},
+{
+"w": "headquarters",
+"pos": "n.",
+"ko": "본사, 본부",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 165
+},
+{
+"w": "hospitality",
+"pos": "n.",
+"ko": "환대, 접객(업)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 166
+},
+{
+"w": "household",
+"pos": "n.",
+"ko": "가정, 가구 / a 가정용의",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 167
+},
+{
+"w": "identification",
+"pos": "n.",
+"ko": "신분증, 신원 확인",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 168
+},
+{
+"w": "implementation",
+"pos": "n.",
+"ko": "시행",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 169
+},
+{
+"w": "implication",
+"pos": "n.",
+"ko": "영향, 함축",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 170
+},
+{
+"w": "incentive",
+"pos": "n.",
+"ko": "장려금, 유인책",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 171
+},
+{
+"w": "incident",
+"pos": "n.",
+"ko": "사건",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 172
+},
+{
+"w": "initials",
+"pos": "n.",
+"ko": "이름의 머리글자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 173
+},
+{
+"w": "initiative",
+"pos": "n.",
+"ko": "계획, 주도(권), 진취성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 174
+},
+{
+"w": "innovation",
+"pos": "n.",
+"ko": "혁신",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 175
+},
+{
+"w": "inquiry",
+"pos": "n.",
+"ko": "문의, 조사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 176
+},
+{
+"w": "insight",
+"pos": "n.",
+"ko": "통찰(력)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 177
+},
+{
+"w": "inspiration",
+"pos": "n.",
+"ko": "영감",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 178
+},
+{
+"w": "installment",
+"pos": "n.",
+"ko": "할부(금), (연재물의) 1회분",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 179
+},
+{
+"w": "instance",
+"pos": "n.",
+"ko": "사례, 경우",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 180
+},
+{
+"w": "institution",
+"pos": "n.",
+"ko": "기관, 제도",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 181
+},
+{
+"w": "instrument",
+"pos": "n.",
+"ko": "악기, 기구",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 182
+},
+{
+"w": "integrity",
+"pos": "n.",
+"ko": "성실, 진실성, 온전함",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 183
+},
+{
+"w": "intensity",
+"pos": "n.",
+"ko": "강도, 세기",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 184
+},
+{
+"w": "interaction",
+"pos": "n.",
+"ko": "상호 작용, 소통",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 185
+},
+{
+"w": "interpretation",
+"pos": "n.",
+"ko": "해석, 통역",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 186
+},
+{
+"w": "interpreter",
+"pos": "n.",
+"ko": "통역사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 187
+},
+{
+"w": "intersection",
+"pos": "n.",
+"ko": "교차로",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 188
+},
+{
+"w": "interval",
+"pos": "n.",
+"ko": "간격, 휴식 시간",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 189
+},
+{
+"w": "introduction",
+"pos": "n.",
+"ko": "소개, 도입",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 190
+},
+{
+"w": "inventory",
+"pos": "n.",
+"ko": "재고 (목록)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 191
+},
+{
+"w": "investigator",
+"pos": "n.",
+"ko": "조사관",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 192
+},
+{
+"w": "investor",
+"pos": "n.",
+"ko": "투자자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 193
+},
+{
+"w": "invoice",
+"pos": "n.",
+"ko": "송장, 청구서",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 194
+},
+{
+"w": "item",
+"pos": "n.",
+"ko": "품목, 항목",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 195
+},
+{
+"w": "itinerary",
+"pos": "n.",
+"ko": "여행 일정표",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 196
+},
+{
+"w": "journalism",
+"pos": "n.",
+"ko": "언론(계)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 197
+},
+{
+"w": "keynote",
+"pos": "n.",
+"ko": "기조(연설)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 198
+},
+{
+"w": "label",
+"pos": "n.",
+"ko": "라벨, 상표 / v 표를 붙이다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 199
+},
+{
+"w": "landlords",
+"pos": "n.",
+"ko": "집주인들",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 200
+},
+{
+"w": "landscaping",
+"pos": "n.",
+"ko": "조경",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 201
+},
+{
+"w": "lapse",
+"pos": "n.",
+"ko": "실수, 경과, 만료 / v 만료되다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 202
+},
+{
+"w": "laundromat",
+"pos": "n.",
+"ko": "빨래방",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 203
+},
+{
+"w": "laundry",
+"pos": "n.",
+"ko": "세탁(물)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 204
+},
+{
+"w": "lease",
+"pos": "n.",
+"ko": "임대차 계약 / v 임대하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 205
+},
+{
+"w": "lecture",
+"pos": "n.",
+"ko": "강의, 강연",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 206
+},
+{
+"w": "likelihood",
+"pos": "n.",
+"ko": "가능성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 207
+},
+{
+"w": "likeness",
+"pos": "n.",
+"ko": "닮음, 유사성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 208
+},
+{
+"w": "listing",
+"pos": "n.",
+"ko": "목록, 명단(에 올림)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 209
+},
+{
+"w": "localization",
+"pos": "n.",
+"ko": "현지화",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 210
+},
+{
+"w": "logo",
+"pos": "n.",
+"ko": "로고",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 211
+},
+{
+"w": "luncheon",
+"pos": "n.",
+"ko": "오찬",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 212
+},
+{
+"w": "mahogany",
+"pos": "n.",
+"ko": "마호가니(나무)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 213
+},
+{
+"w": "manual",
+"pos": "n.",
+"ko": "설명서 / a 수동의",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 214
+},
+{
+"w": "manufacturer",
+"pos": "n.",
+"ko": "제조업체",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 215
+},
+{
+"w": "manuscript",
+"pos": "n.",
+"ko": "원고",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 216
+},
+{
+"w": "maple",
+"pos": "n.",
+"ko": "단풍나무",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 217
+},
+{
+"w": "masterpiece",
+"pos": "n.",
+"ko": "걸작",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 218
+},
+{
+"w": "mechanic",
+"pos": "n.",
+"ko": "정비공",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 219
+},
+{
+"w": "meditation",
+"pos": "n.",
+"ko": "명상",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 220
+},
+{
+"w": "mentor",
+"pos": "n.",
+"ko": "멘토, 조언자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 221
+},
+{
+"w": "merchandise",
+"pos": "n.",
+"ko": "상품",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 222
+},
+{
+"w": "merger",
+"pos": "n.",
+"ko": "합병",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 223
+},
+{
+"w": "momentum",
+"pos": "n.",
+"ko": "탄력, 추진력",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 224
+},
+{
+"w": "morale",
+"pos": "n.",
+"ko": "사기, 의욕",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 225
+},
+{
+"w": "muscle",
+"pos": "n.",
+"ko": "근육",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 226
+},
+{
+"w": "negotiation",
+"pos": "n.",
+"ko": "협상",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 227
+},
+{
+"w": "newsletter",
+"pos": "n.",
+"ko": "소식지",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 228
+},
+{
+"w": "nomination",
+"pos": "n.",
+"ko": "지명, 추천",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 229
+},
+{
+"w": "nutrition",
+"pos": "n.",
+"ko": "영양",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 230
+},
+{
+"w": "oak",
+"pos": "n.",
+"ko": "참나무",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 231
+},
+{
+"w": "objective",
+"pos": "n.",
+"ko": "목표 / a 객관적인",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 232
+},
+{
+"w": "objectivity",
+"pos": "n.",
+"ko": "객관성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 233
+},
+{
+"w": "obligation",
+"pos": "n.",
+"ko": "의무",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 234
+},
+{
+"w": "obstacle",
+"pos": "n.",
+"ko": "장애물",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 235
+},
+{
+"w": "occasion",
+"pos": "n.",
+"ko": "때, 행사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 236
+},
+{
+"w": "occupants",
+"pos": "n.",
+"ko": "거주자들, 사용자들",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 237
+},
+{
+"w": "operator",
+"pos": "n.",
+"ko": "운영자, 교환원, 기사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 238
+},
+{
+"w": "optimization",
+"pos": "n.",
+"ko": "최적화",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 239
+},
+{
+"w": "outing",
+"pos": "n.",
+"ko": "야유회, 나들이",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 240
+},
+{
+"w": "outline",
+"pos": "n.",
+"ko": "개요 / v 개요를 설명하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 241
+},
+{
+"w": "outskirt",
+"pos": "n.",
+"ko": "변두리, 교외",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 242
+},
+{
+"w": "overhead",
+"pos": "n.",
+"ko": "간접비 / a 머리 위의",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 243
+},
+{
+"w": "oversupply",
+"pos": "n.",
+"ko": "공급 과잉",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 244
+},
+{
+"w": "overview",
+"pos": "n.",
+"ko": "개요",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 245
+},
+{
+"w": "pace",
+"pos": "n.",
+"ko": "속도, 보조",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 246
+},
+{
+"w": "package",
+"pos": "n.",
+"ko": "소포, 포장, 일괄 상품",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 247
+},
+{
+"w": "packet",
+"pos": "n.",
+"ko": "소포, 묶음",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 248
+},
+{
+"w": "panel",
+"pos": "n.",
+"ko": "패널, 토론단, 판",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 249
+},
+{
+"w": "paperwork",
+"pos": "n.",
+"ko": "서류 작업",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 250
+},
+{
+"w": "participant",
+"pos": "n.",
+"ko": "참가자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 251
+},
+{
+"w": "participation",
+"pos": "n.",
+"ko": "참가",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 252
+},
+{
+"w": "passenger",
+"pos": "n.",
+"ko": "승객",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 253
+},
+{
+"w": "patience",
+"pos": "n.",
+"ko": "인내심",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 254
+},
+{
+"w": "patron",
+"pos": "n.",
+"ko": "단골손님, 후원자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 255
+},
+{
+"w": "patronage",
+"pos": "n.",
+"ko": "애용, 후원",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 256
+},
+{
+"w": "perception",
+"pos": "n.",
+"ko": "인식, 지각",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 257
+},
+{
+"w": "permission",
+"pos": "n.",
+"ko": "허가, 허락",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 258
+},
+{
+"w": "persistence",
+"pos": "n.",
+"ko": "끈기, 지속",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 259
+},
+{
+"w": "perspective",
+"pos": "n.",
+"ko": "관점, 전망",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 260
+},
+{
+"w": "picnic",
+"pos": "n.",
+"ko": "소풍",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 261
+},
+{
+"w": "pollutants",
+"pos": "n.",
+"ko": "오염 물질",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 262
+},
+{
+"w": "pollution",
+"pos": "n.",
+"ko": "오염",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 263
+},
+{
+"w": "portion",
+"pos": "n.",
+"ko": "부분, 1인분",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 264
+},
+{
+"w": "portrait",
+"pos": "n.",
+"ko": "초상화, 인물 사진",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 265
+},
+{
+"w": "possession",
+"pos": "n.",
+"ko": "소유(물)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 266
+},
+{
+"w": "precaution",
+"pos": "n.",
+"ko": "예방 조치",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 267
+},
+{
+"w": "predecessor",
+"pos": "n.",
+"ko": "전임자, 이전 모델",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 268
+},
+{
+"w": "preference",
+"pos": "n.",
+"ko": "선호(도)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 269
+},
+{
+"w": "prescription",
+"pos": "n.",
+"ko": "처방(전)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 270
+},
+{
+"w": "pride",
+"pos": "n.",
+"ko": "자부심, 자랑거리",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 271
+},
+{
+"w": "printing",
+"pos": "n.",
+"ko": "인쇄",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 272
+},
+{
+"w": "priority",
+"pos": "n.",
+"ko": "우선순위, 우선 사항",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 273
+},
+{
+"w": "privacy",
+"pos": "n.",
+"ko": "사생활",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 274
+},
+{
+"w": "privilege",
+"pos": "n.",
+"ko": "특권, 특혜",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 275
+},
+{
+"w": "procedure",
+"pos": "n.",
+"ko": "절차",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 276
+},
+{
+"w": "proceeds",
+"pos": "n.",
+"ko": "수익금",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 277
+},
+{
+"w": "productivity",
+"pos": "n.",
+"ko": "생산성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 278
+},
+{
+"w": "profession",
+"pos": "n.",
+"ko": "직업, 전문직",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 279
+},
+{
+"w": "proficiency",
+"pos": "n.",
+"ko": "숙달, 능숙",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 280
+},
+{
+"w": "profitability",
+"pos": "n.",
+"ko": "수익성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 281
+},
+{
+"w": "projection",
+"pos": "n.",
+"ko": "예상(치), 투사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 282
+},
+{
+"w": "proposal",
+"pos": "n.",
+"ko": "제안(서)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 283
+},
+{
+"w": "prospect",
+"pos": "n.",
+"ko": "전망, 가망, 잠재 고객",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 284
+},
+{
+"w": "prototype",
+"pos": "n.",
+"ko": "시제품, 원형",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 285
+},
+{
+"w": "provider",
+"pos": "n.",
+"ko": "제공업체, 공급자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 286
+},
+{
+"w": "proximity",
+"pos": "n.",
+"ko": "가까움, 근접",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 287
+},
+{
+"w": "publication",
+"pos": "n.",
+"ko": "출판(물), 발표",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 288
+},
+{
+"w": "punctuality",
+"pos": "n.",
+"ko": "시간 엄수",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 289
+},
+{
+"w": "qualification",
+"pos": "n.",
+"ko": "자격(증)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 290
+},
+{
+"w": "quantity",
+"pos": "n.",
+"ko": "양, 수량",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 291
+},
+{
+"w": "questionnaire",
+"pos": "n.",
+"ko": "설문지",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 292
+},
+{
+"w": "reception",
+"pos": "n.",
+"ko": "환영회, 접수처, 수신",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 293
+},
+{
+"w": "receptionist",
+"pos": "n.",
+"ko": "접수 담당자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 294
+},
+{
+"w": "recipe",
+"pos": "n.",
+"ko": "조리법",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 295
+},
+{
+"w": "recommendation",
+"pos": "n.",
+"ko": "추천(서), 권고",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 296
+},
+{
+"w": "recreation",
+"pos": "n.",
+"ko": "여가 활동, 오락",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 297
+},
+{
+"w": "refund",
+"pos": "n.",
+"ko": "환불 / v 환불하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 298
+},
+{
+"w": "registration",
+"pos": "n.",
+"ko": "등록",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 299
+},
+{
+"w": "reimbursement",
+"pos": "n.",
+"ko": "환급, 상환",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 300
+},
+{
+"w": "rejection",
+"pos": "n.",
+"ko": "거절",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 301
+},
+{
+"w": "relative",
+"pos": "n.",
+"ko": "친척 / a 상대적인",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 302
+},
+{
+"w": "relocation",
+"pos": "n.",
+"ko": "이전",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 303
+},
+{
+"w": "remainder",
+"pos": "n.",
+"ko": "나머지",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 304
+},
+{
+"w": "remedy",
+"pos": "n.",
+"ko": "해결책, 치료 / v 바로잡다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 305
+},
+{
+"w": "reminder",
+"pos": "n.",
+"ko": "상기시키는 것, 독촉장",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 306
+},
+{
+"w": "removal",
+"pos": "n.",
+"ko": "제거, 이동",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 307
+},
+{
+"w": "renewal",
+"pos": "n.",
+"ko": "갱신",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 308
+},
+{
+"w": "renovation",
+"pos": "n.",
+"ko": "개조, 보수 공사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 309
+},
+{
+"w": "rent",
+"pos": "n.",
+"ko": "집세, 임대료 / v 빌리다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 310
+},
+{
+"w": "repairman",
+"pos": "n.",
+"ko": "수리공",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 311
+},
+{
+"w": "replacement",
+"pos": "n.",
+"ko": "교체(품), 후임자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 312
+},
+{
+"w": "representative",
+"pos": "n.",
+"ko": "대표, 직원 / a 대표적인",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 313
+},
+{
+"w": "reputation",
+"pos": "n.",
+"ko": "평판, 명성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 314
+},
+{
+"w": "requirement",
+"pos": "n.",
+"ko": "요건, 필요조건",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 315
+},
+{
+"w": "resident",
+"pos": "n.",
+"ko": "주민, 거주자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 316
+},
+{
+"w": "resistance",
+"pos": "n.",
+"ko": "저항, 반대",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 317
+},
+{
+"w": "resolution",
+"pos": "n.",
+"ko": "해결, 결의안, 해상도",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 318
+},
+{
+"w": "resource",
+"pos": "n.",
+"ko": "자원, 자료",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 319
+},
+{
+"w": "restoration",
+"pos": "n.",
+"ko": "복원",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 320
+},
+{
+"w": "restructuring",
+"pos": "n.",
+"ko": "구조 조정",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 321
+},
+{
+"w": "retail",
+"pos": "n.",
+"ko": "소매 / v 소매하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 322
+},
+{
+"w": "reward",
+"pos": "n.",
+"ko": "보상 / v 보상하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 323
+},
+{
+"w": "risk-taking",
+"pos": "n.",
+"ko": "위험 감수",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 324
+},
+{
+"w": "rival",
+"pos": "n.",
+"ko": "경쟁자, 경쟁사",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 325
+},
+{
+"w": "routine",
+"pos": "n.",
+"ko": "일과 / a 일상적인",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 326
+},
+{
+"w": "runway",
+"pos": "n.",
+"ko": "활주로",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 327
+},
+{
+"w": "salary",
+"pos": "n.",
+"ko": "급여, 월급",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 328
+},
+{
+"w": "scent",
+"pos": "n.",
+"ko": "향기",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 329
+},
+{
+"w": "scholarship",
+"pos": "n.",
+"ko": "장학금",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 330
+},
+{
+"w": "screening",
+"pos": "n.",
+"ko": "심사, 상영, 검진",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 331
+},
+{
+"w": "sculpture",
+"pos": "n.",
+"ko": "조각(품)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 332
+},
+{
+"w": "seating",
+"pos": "n.",
+"ko": "좌석 (배치)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 333
+},
+{
+"w": "sequence",
+"pos": "n.",
+"ko": "순서, 연속",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 334
+},
+{
+"w": "shareholder",
+"pos": "n.",
+"ko": "주주",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 335
+},
+{
+"w": "sheet",
+"pos": "n.",
+"ko": "한 장, 시트",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 336
+},
+{
+"w": "shift",
+"pos": "n.",
+"ko": "교대 근무, 변화 / v 옮기다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 337
+},
+{
+"w": "shipping",
+"pos": "n.",
+"ko": "배송, 운송",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 338
+},
+{
+"w": "shortage",
+"pos": "n.",
+"ko": "부족",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 339
+},
+{
+"w": "shortcoming",
+"pos": "n.",
+"ko": "단점, 결점",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 340
+},
+{
+"w": "showroom",
+"pos": "n.",
+"ko": "전시실",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 341
+},
+{
+"w": "signature",
+"pos": "n.",
+"ko": "서명",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 342
+},
+{
+"w": "similarity",
+"pos": "n.",
+"ko": "유사성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 343
+},
+{
+"w": "solicitation",
+"pos": "n.",
+"ko": "요청, 간청",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 344
+},
+{
+"w": "spokesperson",
+"pos": "n.",
+"ko": "대변인",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 345
+},
+{
+"w": "stipulation",
+"pos": "n.",
+"ko": "규정, 조항",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 346
+},
+{
+"w": "storage",
+"pos": "n.",
+"ko": "보관, 저장(소)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 347
+},
+{
+"w": "subcontractor",
+"pos": "n.",
+"ko": "하청업체",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 348
+},
+{
+"w": "submarine",
+"pos": "n.",
+"ko": "잠수함",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 349
+},
+{
+"w": "subscription",
+"pos": "n.",
+"ko": "구독(료)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 350
+},
+{
+"w": "substitute",
+"pos": "n.",
+"ko": "대체물, 대리인 / v 대체하다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 351
+},
+{
+"w": "subway",
+"pos": "n.",
+"ko": "지하철",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 352
+},
+{
+"w": "successor",
+"pos": "n.",
+"ko": "후임자, 후계자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 353
+},
+{
+"w": "suggestion",
+"pos": "n.",
+"ko": "제안",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 354
+},
+{
+"w": "suitcase",
+"pos": "n.",
+"ko": "여행 가방",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 355
+},
+{
+"w": "suits",
+"pos": "n.",
+"ko": "정장 / v 어울리다, 맞다",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 356
+},
+{
+"w": "supplier",
+"pos": "n.",
+"ko": "공급업체",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 357
+},
+{
+"w": "surplus",
+"pos": "n.",
+"ko": "흑자, 잉여",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 358
+},
+{
+"w": "suspension",
+"pos": "n.",
+"ko": "정지, 중단, 보류",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 359
+},
+{
+"w": "sustainability",
+"pos": "n.",
+"ko": "지속 가능성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 360
+},
+{
+"w": "tenant",
+"pos": "n.",
+"ko": "세입자",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 361
+},
+{
+"w": "tenants",
+"pos": "n.",
+"ko": "세입자들",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 362
+},
+{
+"w": "termination",
+"pos": "n.",
+"ko": "종료, 해지",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 363
+},
+{
+"w": "tip",
+"pos": "n.",
+"ko": "팁, 조언, 끝",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 364
+},
+{
+"w": "tournament",
+"pos": "n.",
+"ko": "대회, 토너먼트",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 365
+},
+{
+"w": "transaction",
+"pos": "n.",
+"ko": "거래",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 366
+},
+{
+"w": "trend",
+"pos": "n.",
+"ko": "추세, 경향",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 367
+},
+{
+"w": "troubleshooters",
+"pos": "n.",
+"ko": "문제 해결사들",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 368
+},
+{
+"w": "turnout",
+"pos": "n.",
+"ko": "참가자 수, 투표율",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 369
+},
+{
+"w": "turnover",
+"pos": "n.",
+"ko": "매출액, 이직률",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 370
+},
+{
+"w": "vacation",
+"pos": "n.",
+"ko": "휴가, 방학",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 371
+},
+{
+"w": "validity",
+"pos": "n.",
+"ko": "유효성, 타당성",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 372
+},
+{
+"w": "vendor",
+"pos": "n.",
+"ko": "판매업체, 노점상",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 373
+},
+{
+"w": "venue",
+"pos": "n.",
+"ko": "장소, 개최지",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 374
+},
+{
+"w": "vigor",
+"pos": "n.",
+"ko": "활력",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 375
+},
+{
+"w": "vitality",
+"pos": "n.",
+"ko": "활력",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 376
+},
+{
+"w": "voucher",
+"pos": "n.",
+"ko": "상품권, 할인권",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 377
+},
+{
+"w": "wage",
+"pos": "n.",
+"ko": "임금(주로 시급·일급)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 378
+},
+{
+"w": "warehouse",
+"pos": "n.",
+"ko": "창고",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 379
+},
+{
+"w": "warranty",
+"pos": "n.",
+"ko": "품질 보증(서)",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 380
+},
+{
+"w": "wildlife",
+"pos": "n.",
+"ko": "야생 동물",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 381
+},
+{
+"w": "willingness",
+"pos": "n.",
+"ko": "기꺼이 하려는 마음",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 382
+},
+{
+"w": "wiring",
+"pos": "n.",
+"ko": "배선",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 383
+},
+{
+"w": "withdrawal",
+"pos": "n.",
+"ko": "인출, 철회, 탈퇴",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 384
+},
+{
+"w": "workout",
+"pos": "n.",
+"ko": "운동",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 385
+},
+{
+"w": "workplace",
+"pos": "n.",
+"ko": "직장, 일터",
+"grp": "N",
+"rank": 0,
+"level": "",
+"n": 386
+},
+{
+"w": "abandon",
+"pos": "v.",
+"ko": "버리다, 포기하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 387
+},
+{
+"w": "abide",
+"pos": "v.",
+"ko": "(규칙을) 지키다, 준수하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 388
+},
+{
+"w": "accommodate",
+"pos": "v.",
+"ko": "수용하다, 맞추다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 389
+},
+{
+"w": "accomplish",
+"pos": "v.",
+"ko": "성취하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 390
+},
+{
+"w": "accumulate",
+"pos": "v.",
+"ko": "축적하다, 모으다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 391
+},
+{
+"w": "acknowledge",
+"pos": "v.",
+"ko": "인정하다, (받았음을) 알리다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 392
+},
+{
+"w": "adapt",
+"pos": "v.",
+"ko": "적응하다, 조정하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 393
+},
+{
+"w": "adhere",
+"pos": "v.",
+"ko": "고수하다, 들러붙다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 394
+},
+{
+"w": "adjust",
+"pos": "v.",
+"ko": "조정하다, 적응하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 395
+},
+{
+"w": "admire",
+"pos": "v.",
+"ko": "존경하다, 감탄하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 396
+},
+{
+"w": "admit",
+"pos": "v.",
+"ko": "인정하다, 입장을 허락하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 397
+},
+{
+"w": "advise",
+"pos": "v.",
+"ko": "조언하다, 알리다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 398
+},
+{
+"w": "afford",
+"pos": "v.",
+"ko": "~할 여유가 있다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 399
+},
+{
+"w": "aim",
+"pos": "v.",
+"ko": "목표로 하다 / n 목표",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 400
+},
+{
+"w": "alert",
+"pos": "v.",
+"ko": "경고하다 / a 경계하는 / n 경보",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 401
+},
+{
+"w": "alleviate",
+"pos": "v.",
+"ko": "완화하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 402
+},
+{
+"w": "allocate",
+"pos": "v.",
+"ko": "할당하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 403
+},
+{
+"w": "announce",
+"pos": "v.",
+"ko": "발표하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 404
+},
+{
+"w": "anticipate",
+"pos": "v.",
+"ko": "예상하다, 기대하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 405
+},
+{
+"w": "apologize",
+"pos": "v.",
+"ko": "사과하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 406
+},
+{
+"w": "appoint",
+"pos": "v.",
+"ko": "임명하다, (시간을) 정하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 407
+},
+{
+"w": "approve",
+"pos": "v.",
+"ko": "승인하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 408
+},
+{
+"w": "arrange",
+"pos": "v.",
+"ko": "마련하다, 배열하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 409
+},
+{
+"w": "assemble",
+"pos": "v.",
+"ko": "조립하다, 모이다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 410
+},
+{
+"w": "assert",
+"pos": "v.",
+"ko": "주장하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 411
+},
+{
+"w": "assess",
+"pos": "v.",
+"ko": "평가하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 412
+},
+{
+"w": "assign",
+"pos": "v.",
+"ko": "배정하다, 맡기다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 413
+},
+{
+"w": "assist",
+"pos": "v.",
+"ko": "돕다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 414
+},
+{
+"w": "assume",
+"pos": "v.",
+"ko": "가정하다, (책임을) 맡다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 415
+},
+{
+"w": "attach",
+"pos": "v.",
+"ko": "첨부하다, 붙이다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 416
+},
+{
+"w": "attain",
+"pos": "v.",
+"ko": "달성하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 417
+},
+{
+"w": "attend",
+"pos": "v.",
+"ko": "참석하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 418
+},
+{
+"w": "attract",
+"pos": "v.",
+"ko": "끌어들이다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 419
+},
+{
+"w": "attribute",
+"pos": "v.",
+"ko": "~의 덕분으로 돌리다 / n 속성",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 420
+},
+{
+"w": "boast",
+"pos": "v.",
+"ko": "자랑하다, 자랑할 만한 것을 갖추다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 421
+},
+{
+"w": "boost",
+"pos": "v.",
+"ko": "끌어올리다 / n 증가",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 422
+},
+{
+"w": "certify",
+"pos": "v.",
+"ko": "증명하다, 자격을 주다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 423
+},
+{
+"w": "cite",
+"pos": "v.",
+"ko": "인용하다, 언급하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 424
+},
+{
+"w": "clarify",
+"pos": "v.",
+"ko": "명확히 하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 425
+},
+{
+"w": "coincide",
+"pos": "v.",
+"ko": "동시에 일어나다, 일치하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 426
+},
+{
+"w": "collaborate",
+"pos": "v.",
+"ko": "협력하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 427
+},
+{
+"w": "collect",
+"pos": "v.",
+"ko": "모으다, 수거하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 428
+},
+{
+"w": "combine",
+"pos": "v.",
+"ko": "결합하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 429
+},
+{
+"w": "commit",
+"pos": "v.",
+"ko": "저지르다, 전념하다, 약속하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 430
+},
+{
+"w": "compare",
+"pos": "v.",
+"ko": "비교하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 431
+},
+{
+"w": "compete",
+"pos": "v.",
+"ko": "경쟁하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 432
+},
+{
+"w": "compile",
+"pos": "v.",
+"ko": "엮다, 편집하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 433
+},
+{
+"w": "comply",
+"pos": "v.",
+"ko": "(규정을) 따르다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 434
+},
+{
+"w": "conceal",
+"pos": "v.",
+"ko": "숨기다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 435
+},
+{
+"w": "conduct",
+"pos": "v.",
+"ko": "수행하다, 지휘하다 / n 행동",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 436
+},
+{
+"w": "confirm",
+"pos": "v.",
+"ko": "확인하다, 확정하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 437
+},
+{
+"w": "congratulate",
+"pos": "v.",
+"ko": "축하하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 438
+},
+{
+"w": "conserve",
+"pos": "v.",
+"ko": "아끼다, 보존하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 439
+},
+{
+"w": "consist",
+"pos": "v.",
+"ko": "~로 구성되다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 440
+},
+{
+"w": "constitute",
+"pos": "v.",
+"ko": "구성하다, ~이 되다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 441
+},
+{
+"w": "consult",
+"pos": "v.",
+"ko": "상담하다, 참고하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 442
+},
+{
+"w": "contain",
+"pos": "v.",
+"ko": "포함하다, 담고 있다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 443
+},
+{
+"w": "contribute",
+"pos": "v.",
+"ko": "기여하다, 기부하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 444
+},
+{
+"w": "convene",
+"pos": "v.",
+"ko": "소집하다, 모이다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 445
+},
+{
+"w": "convert",
+"pos": "v.",
+"ko": "전환하다, 개조하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 446
+},
+{
+"w": "coordinate",
+"pos": "v.",
+"ko": "조정하다, 조율하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 447
+},
+{
+"w": "decline",
+"pos": "v.",
+"ko": "거절하다, 감소하다 / n 감소",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 448
+},
+{
+"w": "dedicate",
+"pos": "v.",
+"ko": "바치다, 헌신하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 449
+},
+{
+"w": "deliver",
+"pos": "v.",
+"ko": "배달하다, (연설을) 하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 450
+},
+{
+"w": "demonstrate",
+"pos": "v.",
+"ko": "보여 주다, 시연하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 451
+},
+{
+"w": "depart",
+"pos": "v.",
+"ko": "출발하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 452
+},
+{
+"w": "depend",
+"pos": "v.",
+"ko": "의존하다, ~에 달려 있다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 453
+},
+{
+"w": "depict",
+"pos": "v.",
+"ko": "묘사하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 454
+},
+{
+"w": "describe",
+"pos": "v.",
+"ko": "묘사하다, 설명하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 455
+},
+{
+"w": "designate",
+"pos": "v.",
+"ko": "지정하다, 지명하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 456
+},
+{
+"w": "differ",
+"pos": "v.",
+"ko": "다르다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 457
+},
+{
+"w": "discard",
+"pos": "v.",
+"ko": "버리다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 458
+},
+{
+"w": "discontinue",
+"pos": "v.",
+"ko": "중단하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 459
+},
+{
+"w": "dispose",
+"pos": "v.",
+"ko": "처분하다, 배치하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 460
+},
+{
+"w": "disregard",
+"pos": "v.",
+"ko": "무시하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 461
+},
+{
+"w": "distribute",
+"pos": "v.",
+"ko": "배포하다, 유통하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 462
+},
+{
+"w": "disturb",
+"pos": "v.",
+"ko": "방해하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 463
+},
+{
+"w": "divide",
+"pos": "v.",
+"ko": "나누다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 464
+},
+{
+"w": "donate",
+"pos": "v.",
+"ko": "기부하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 465
+},
+{
+"w": "earn",
+"pos": "v.",
+"ko": "벌다, 얻다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 466
+},
+{
+"w": "edit",
+"pos": "v.",
+"ko": "편집하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 467
+},
+{
+"w": "eliminate",
+"pos": "v.",
+"ko": "없애다, 제거하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 468
+},
+{
+"w": "embark",
+"pos": "v.",
+"ko": "착수하다, 승선하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 469
+},
+{
+"w": "embrace",
+"pos": "v.",
+"ko": "받아들이다, 껴안다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 470
+},
+{
+"w": "emerge",
+"pos": "v.",
+"ko": "나타나다, 드러나다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 471
+},
+{
+"w": "emit",
+"pos": "v.",
+"ko": "배출하다, 내뿜다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 472
+},
+{
+"w": "emphasize",
+"pos": "v.",
+"ko": "강조하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 473
+},
+{
+"w": "enclose",
+"pos": "v.",
+"ko": "동봉하다, 둘러싸다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 474
+},
+{
+"w": "encounter",
+"pos": "v.",
+"ko": "마주치다 / n 만남",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 475
+},
+{
+"w": "encourage",
+"pos": "v.",
+"ko": "격려하다, 장려하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 476
+},
+{
+"w": "enhance",
+"pos": "v.",
+"ko": "향상시키다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 477
+},
+{
+"w": "enlarge",
+"pos": "v.",
+"ko": "확대하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 478
+},
+{
+"w": "enroll",
+"pos": "v.",
+"ko": "등록하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 479
+},
+{
+"w": "entertain",
+"pos": "v.",
+"ko": "즐겁게 하다, 접대하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 480
+},
+{
+"w": "entrust",
+"pos": "v.",
+"ko": "맡기다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 481
+},
+{
+"w": "equip",
+"pos": "v.",
+"ko": "갖추다, 장비를 갖추게 하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 482
+},
+{
+"w": "establish",
+"pos": "v.",
+"ko": "설립하다, 확립하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 483
+},
+{
+"w": "estimate",
+"pos": "v.",
+"ko": "추정하다 / n 견적(서), 추정치",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 484
+},
+{
+"w": "evaluate",
+"pos": "v.",
+"ko": "평가하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 485
+},
+{
+"w": "exceed",
+"pos": "v.",
+"ko": "초과하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 486
+},
+{
+"w": "excel",
+"pos": "v.",
+"ko": "뛰어나다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 487
+},
+{
+"w": "excuse",
+"pos": "v.",
+"ko": "용서하다, 면제하다 / n 변명",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 488
+},
+{
+"w": "execute",
+"pos": "v.",
+"ko": "실행하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 489
+},
+{
+"w": "exhibit",
+"pos": "v.",
+"ko": "전시하다 / n 전시품",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 490
+},
+{
+"w": "expand",
+"pos": "v.",
+"ko": "확장하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 491
+},
+{
+"w": "expedite",
+"pos": "v.",
+"ko": "신속히 처리하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 492
+},
+{
+"w": "expire",
+"pos": "v.",
+"ko": "만료되다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 493
+},
+{
+"w": "explore",
+"pos": "v.",
+"ko": "탐구하다, 답사하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 494
+},
+{
+"w": "export",
+"pos": "v.",
+"ko": "수출하다 / n 수출(품)",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 495
+},
+{
+"w": "expose",
+"pos": "v.",
+"ko": "노출시키다, 폭로하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 496
+},
+{
+"w": "extend",
+"pos": "v.",
+"ko": "연장하다, 확대하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 497
+},
+{
+"w": "facilitate",
+"pos": "v.",
+"ko": "용이하게 하다, 촉진하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 498
+},
+{
+"w": "familiarize",
+"pos": "v.",
+"ko": "익숙하게 하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 499
+},
+{
+"w": "fold",
+"pos": "v.",
+"ko": "접다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 500
+},
+{
+"w": "fulfill",
+"pos": "v.",
+"ko": "이행하다, 충족하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 501
+},
+{
+"w": "gather",
+"pos": "v.",
+"ko": "모으다, 모이다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 502
+},
+{
+"w": "generate",
+"pos": "v.",
+"ko": "발생시키다, 만들어 내다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 503
+},
+{
+"w": "handcraft",
+"pos": "v.",
+"ko": "수공예로 만들다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 504
+},
+{
+"w": "hesitate",
+"pos": "v.",
+"ko": "망설이다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 505
+},
+{
+"w": "identify",
+"pos": "v.",
+"ko": "확인하다, 알아보다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 506
+},
+{
+"w": "implement",
+"pos": "v.",
+"ko": "시행하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 507
+},
+{
+"w": "imply",
+"pos": "v.",
+"ko": "암시하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 508
+},
+{
+"w": "import",
+"pos": "v.",
+"ko": "수입하다 / n 수입(품)",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 509
+},
+{
+"w": "impose",
+"pos": "v.",
+"ko": "부과하다, 강요하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 510
+},
+{
+"w": "inaugurate",
+"pos": "v.",
+"ko": "취임시키다, 개시하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 511
+},
+{
+"w": "incorporate",
+"pos": "v.",
+"ko": "포함하다, 법인으로 만들다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 512
+},
+{
+"w": "incur",
+"pos": "v.",
+"ko": "(비용을) 발생시키다, (손실을) 입다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 513
+},
+{
+"w": "indicate",
+"pos": "v.",
+"ko": "나타내다, 가리키다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 514
+},
+{
+"w": "inform",
+"pos": "v.",
+"ko": "알리다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 515
+},
+{
+"w": "initiate",
+"pos": "v.",
+"ko": "시작하다, 착수하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 516
+},
+{
+"w": "innovate",
+"pos": "v.",
+"ko": "혁신하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 517
+},
+{
+"w": "inquire",
+"pos": "v.",
+"ko": "문의하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 518
+},
+{
+"w": "insert",
+"pos": "v.",
+"ko": "끼워 넣다, 삽입하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 519
+},
+{
+"w": "inspect",
+"pos": "v.",
+"ko": "점검하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 520
+},
+{
+"w": "inspire",
+"pos": "v.",
+"ko": "영감을 주다, 고무하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 521
+},
+{
+"w": "instruct",
+"pos": "v.",
+"ko": "지시하다, 가르치다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 522
+},
+{
+"w": "intend",
+"pos": "v.",
+"ko": "의도하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 523
+},
+{
+"w": "interpret",
+"pos": "v.",
+"ko": "해석하다, 통역하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 524
+},
+{
+"w": "interrupt",
+"pos": "v.",
+"ko": "방해하다, 중단시키다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 525
+},
+{
+"w": "introduce",
+"pos": "v.",
+"ko": "소개하다, 도입하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 526
+},
+{
+"w": "invent",
+"pos": "v.",
+"ko": "발명하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 527
+},
+{
+"w": "invest",
+"pos": "v.",
+"ko": "투자하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 528
+},
+{
+"w": "investigate",
+"pos": "v.",
+"ko": "조사하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 529
+},
+{
+"w": "involve",
+"pos": "v.",
+"ko": "포함하다, 관련시키다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 530
+},
+{
+"w": "jeopardize",
+"pos": "v.",
+"ko": "위태롭게 하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 531
+},
+{
+"w": "justify",
+"pos": "v.",
+"ko": "정당화하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 532
+},
+{
+"w": "lessen",
+"pos": "v.",
+"ko": "줄이다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 533
+},
+{
+"w": "load",
+"pos": "v.",
+"ko": "싣다 / n 짐, 부하",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 534
+},
+{
+"w": "locate",
+"pos": "v.",
+"ko": "위치를 찾아내다, (어디에) 두다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 535
+},
+{
+"w": "misplace",
+"pos": "v.",
+"ko": "잘못 두다, 둔 곳을 잊다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 536
+},
+{
+"w": "modify",
+"pos": "v.",
+"ko": "수정하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 537
+},
+{
+"w": "monitor",
+"pos": "v.",
+"ko": "감시하다, 관찰하다 / n 모니터",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 538
+},
+{
+"w": "multiply",
+"pos": "v.",
+"ko": "곱하다, 크게 늘리다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 539
+},
+{
+"w": "neglect",
+"pos": "v.",
+"ko": "소홀히 하다 / n 방치",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 540
+},
+{
+"w": "nominate",
+"pos": "v.",
+"ko": "지명하다, 추천하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 541
+},
+{
+"w": "notify",
+"pos": "v.",
+"ko": "통지하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 542
+},
+{
+"w": "observe",
+"pos": "v.",
+"ko": "관찰하다, 준수하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 543
+},
+{
+"w": "obtain",
+"pos": "v.",
+"ko": "얻다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 544
+},
+{
+"w": "occupy",
+"pos": "v.",
+"ko": "차지하다, 사용하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 545
+},
+{
+"w": "operate",
+"pos": "v.",
+"ko": "운영하다, 작동하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 546
+},
+{
+"w": "optimize",
+"pos": "v.",
+"ko": "최적화하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 547
+},
+{
+"w": "organize",
+"pos": "v.",
+"ko": "조직하다, 준비하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 548
+},
+{
+"w": "outweigh",
+"pos": "v.",
+"ko": "~보다 더 크다, 능가하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 549
+},
+{
+"w": "overlook",
+"pos": "v.",
+"ko": "간과하다, 내려다보다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 550
+},
+{
+"w": "oversee",
+"pos": "v.",
+"ko": "감독하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 551
+},
+{
+"w": "participate",
+"pos": "v.",
+"ko": "참가하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 552
+},
+{
+"w": "pose",
+"pos": "v.",
+"ko": "(문제를) 제기하다, 자세를 취하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 553
+},
+{
+"w": "possess",
+"pos": "v.",
+"ko": "소유하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 554
+},
+{
+"w": "postpone",
+"pos": "v.",
+"ko": "연기하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 555
+},
+{
+"w": "precede",
+"pos": "v.",
+"ko": "~에 앞서다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 556
+},
+{
+"w": "predict",
+"pos": "v.",
+"ko": "예측하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 557
+},
+{
+"w": "prefer",
+"pos": "v.",
+"ko": "선호하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 558
+},
+{
+"w": "prohibit",
+"pos": "v.",
+"ko": "금지하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 559
+},
+{
+"w": "prolong",
+"pos": "v.",
+"ko": "연장하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 560
+},
+{
+"w": "promote",
+"pos": "v.",
+"ko": "승진시키다, 홍보하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 561
+},
+{
+"w": "publicize",
+"pos": "v.",
+"ko": "홍보하다, 알리다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 562
+},
+{
+"w": "publish",
+"pos": "v.",
+"ko": "출판하다, 발표하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 563
+},
+{
+"w": "quote",
+"pos": "v.",
+"ko": "인용하다, 견적을 내다 / n 견적, 인용문",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 564
+},
+{
+"w": "rank",
+"pos": "v.",
+"ko": "순위를 매기다 / n 순위, 계급",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 565
+},
+{
+"w": "recall",
+"pos": "v.",
+"ko": "회수하다, 기억해 내다 / n 리콜",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 566
+},
+{
+"w": "recognize",
+"pos": "v.",
+"ko": "알아보다, 인정하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 567
+},
+{
+"w": "recruit",
+"pos": "v.",
+"ko": "모집하다 / n 신입 사원",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 568
+},
+{
+"w": "refrain",
+"pos": "v.",
+"ko": "삼가다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 569
+},
+{
+"w": "regard",
+"pos": "v.",
+"ko": "여기다 / n 관심, 존경",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 570
+},
+{
+"w": "regret",
+"pos": "v.",
+"ko": "후회하다, 유감스럽게 생각하다 / n 유감",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 571
+},
+{
+"w": "regulate",
+"pos": "v.",
+"ko": "규제하다, 조절하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 572
+},
+{
+"w": "reimburse",
+"pos": "v.",
+"ko": "환급하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 573
+},
+{
+"w": "reject",
+"pos": "v.",
+"ko": "거절하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 574
+},
+{
+"w": "relate",
+"pos": "v.",
+"ko": "관련시키다, 이야기하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 575
+},
+{
+"w": "relocate",
+"pos": "v.",
+"ko": "이전하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 576
+},
+{
+"w": "renew",
+"pos": "v.",
+"ko": "갱신하다, 재개하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 577
+},
+{
+"w": "replace",
+"pos": "v.",
+"ko": "교체하다, 대신하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 578
+},
+{
+"w": "represent",
+"pos": "v.",
+"ko": "대표하다, 나타내다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 579
+},
+{
+"w": "resign",
+"pos": "v.",
+"ko": "사임하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 580
+},
+{
+"w": "resolve",
+"pos": "v.",
+"ko": "해결하다, 결심하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 581
+},
+{
+"w": "restore",
+"pos": "v.",
+"ko": "복원하다, 회복시키다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 582
+},
+{
+"w": "restrict",
+"pos": "v.",
+"ko": "제한하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 583
+},
+{
+"w": "retain",
+"pos": "v.",
+"ko": "유지하다, 보유하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 584
+},
+{
+"w": "retire",
+"pos": "v.",
+"ko": "은퇴하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 585
+},
+{
+"w": "reveal",
+"pos": "v.",
+"ko": "드러내다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 586
+},
+{
+"w": "revise",
+"pos": "v.",
+"ko": "수정하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 587
+},
+{
+"w": "rush",
+"pos": "v.",
+"ko": "서두르다 / n 혼잡, 쇄도",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 588
+},
+{
+"w": "satisfy",
+"pos": "v.",
+"ko": "만족시키다, 충족하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 589
+},
+{
+"w": "seal",
+"pos": "v.",
+"ko": "밀봉하다 / n 도장, 봉인",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 590
+},
+{
+"w": "select",
+"pos": "v.",
+"ko": "선택하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 591
+},
+{
+"w": "soak",
+"pos": "v.",
+"ko": "담그다, 흠뻑 적시다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 592
+},
+{
+"w": "solicit",
+"pos": "v.",
+"ko": "요청하다, 구하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 593
+},
+{
+"w": "specialize",
+"pos": "v.",
+"ko": "전문으로 하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 594
+},
+{
+"w": "specify",
+"pos": "v.",
+"ko": "명시하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 595
+},
+{
+"w": "stimulate",
+"pos": "v.",
+"ko": "자극하다, 촉진하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 596
+},
+{
+"w": "stipulate",
+"pos": "v.",
+"ko": "규정하다, 명시하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 597
+},
+{
+"w": "streamline",
+"pos": "v.",
+"ko": "간소화하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 598
+},
+{
+"w": "strive",
+"pos": "v.",
+"ko": "노력하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 599
+},
+{
+"w": "submit",
+"pos": "v.",
+"ko": "제출하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 600
+},
+{
+"w": "subtract",
+"pos": "v.",
+"ko": "빼다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 601
+},
+{
+"w": "succeed",
+"pos": "v.",
+"ko": "성공하다, 뒤를 잇다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 602
+},
+{
+"w": "surpass",
+"pos": "v.",
+"ko": "능가하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 603
+},
+{
+"w": "suspend",
+"pos": "v.",
+"ko": "중단하다, 매달다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 604
+},
+{
+"w": "sustain",
+"pos": "v.",
+"ko": "지속하다, 지탱하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 605
+},
+{
+"w": "tear",
+"pos": "v.",
+"ko": "찢다 / n 찢어진 곳, 눈물",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 606
+},
+{
+"w": "tend",
+"pos": "v.",
+"ko": "~하는 경향이 있다, 돌보다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 607
+},
+{
+"w": "terminate",
+"pos": "v.",
+"ko": "끝내다, 해지하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 608
+},
+{
+"w": "undergo",
+"pos": "v.",
+"ko": "겪다, 받다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 609
+},
+{
+"w": "undertake",
+"pos": "v.",
+"ko": "떠맡다, 착수하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 610
+},
+{
+"w": "urge",
+"pos": "v.",
+"ko": "촉구하다 / n 충동",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 611
+},
+{
+"w": "verify",
+"pos": "v.",
+"ko": "확인하다, 입증하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 612
+},
+{
+"w": "waive",
+"pos": "v.",
+"ko": "(권리·요금을) 면제하다, 포기하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 613
+},
+{
+"w": "withdraw",
+"pos": "v.",
+"ko": "인출하다, 철회하다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 614
+},
+{
+"w": "withstand",
+"pos": "v.",
+"ko": "견디다",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 615
+},
+{
+"w": "yield",
+"pos": "v.",
+"ko": "산출하다, 양보하다 / n 수확량, 수익률",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 616
+},
+{
+"w": "absent",
+"pos": "adj.",
+"ko": "결석한, 부재중인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 617
+},
+{
+"w": "accessible",
+"pos": "adj.",
+"ko": "접근 가능한, 이용하기 쉬운",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 618
+},
+{
+"w": "accustomed",
+"pos": "adj.",
+"ko": "익숙한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 619
+},
+{
+"w": "adjacent",
+"pos": "adj.",
+"ko": "인접한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 620
+},
+{
+"w": "administrative",
+"pos": "adj.",
+"ko": "행정의, 관리의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 621
+},
+{
+"w": "adverse",
+"pos": "adj.",
+"ko": "불리한, 부정적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 622
+},
+{
+"w": "advisable",
+"pos": "adj.",
+"ko": "바람직한, 권할 만한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 623
+},
+{
+"w": "affordable",
+"pos": "adj.",
+"ko": "(가격이) 알맞은",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 624
+},
+{
+"w": "alternate",
+"pos": "adj.",
+"ko": "대체의, 번갈아 하는 / v 번갈아 하다",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 625
+},
+{
+"w": "anonymous",
+"pos": "adj.",
+"ko": "익명의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 626
+},
+{
+"w": "apparent",
+"pos": "adj.",
+"ko": "분명한, 겉보기의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 627
+},
+{
+"w": "apprehensive",
+"pos": "adj.",
+"ko": "걱정하는, 불안한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 628
+},
+{
+"w": "authentic",
+"pos": "adj.",
+"ko": "진짜의, 정통의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 629
+},
+{
+"w": "automatic",
+"pos": "adj.",
+"ko": "자동의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 630
+},
+{
+"w": "bankrupt",
+"pos": "adj.",
+"ko": "파산한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 631
+},
+{
+"w": "brand-new",
+"pos": "adj.",
+"ko": "새것인, 신품의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 632
+},
+{
+"w": "brief",
+"pos": "adj.",
+"ko": "짧은, 간단한 / v 브리핑하다",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 633
+},
+{
+"w": "broad",
+"pos": "adj.",
+"ko": "넓은, 폭넓은",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 634
+},
+{
+"w": "cautious",
+"pos": "adj.",
+"ko": "조심스러운",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 635
+},
+{
+"w": "clerical",
+"pos": "adj.",
+"ko": "사무직의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 636
+},
+{
+"w": "commensurate",
+"pos": "adj.",
+"ko": "상응하는, 걸맞은",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 637
+},
+{
+"w": "compact",
+"pos": "adj.",
+"ko": "소형의, 조밀한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 638
+},
+{
+"w": "comparable",
+"pos": "adj.",
+"ko": "비슷한, 비교할 만한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 639
+},
+{
+"w": "compatible",
+"pos": "adj.",
+"ko": "호환되는, 잘 맞는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 640
+},
+{
+"w": "competitive",
+"pos": "adj.",
+"ko": "경쟁력 있는, 경쟁적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 641
+},
+{
+"w": "complimentary",
+"pos": "adj.",
+"ko": "무료의, 칭찬하는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 642
+},
+{
+"w": "comprehensive",
+"pos": "adj.",
+"ko": "종합적인, 포괄적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 643
+},
+{
+"w": "confident",
+"pos": "adj.",
+"ko": "자신 있는, 확신하는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 644
+},
+{
+"w": "confidential",
+"pos": "adj.",
+"ko": "기밀의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 645
+},
+{
+"w": "consecutive",
+"pos": "adj.",
+"ko": "연속적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 646
+},
+{
+"w": "contingent",
+"pos": "adj.",
+"ko": "~에 따라 결정되는 / n 대표단",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 647
+},
+{
+"w": "convenient",
+"pos": "adj.",
+"ko": "편리한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 648
+},
+{
+"w": "corresponding",
+"pos": "adj.",
+"ko": "해당하는, 상응하는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 649
+},
+{
+"w": "cozy",
+"pos": "adj.",
+"ko": "아늑한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 650
+},
+{
+"w": "culinary",
+"pos": "adj.",
+"ko": "요리의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 651
+},
+{
+"w": "daunting",
+"pos": "adj.",
+"ko": "벅찬, 주눅 들게 하는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 652
+},
+{
+"w": "dedicated",
+"pos": "adj.",
+"ko": "헌신적인, 전용의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 653
+},
+{
+"w": "defective",
+"pos": "adj.",
+"ko": "결함 있는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 654
+},
+{
+"w": "definite",
+"pos": "adj.",
+"ko": "확실한, 명확한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 655
+},
+{
+"w": "deliberate",
+"pos": "adj.",
+"ko": "의도적인, 신중한 / v 숙고하다",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 656
+},
+{
+"w": "delicate",
+"pos": "adj.",
+"ko": "섬세한, 연약한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 657
+},
+{
+"w": "demographic",
+"pos": "adj.",
+"ko": "인구 통계의 / n 인구 집단",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 658
+},
+{
+"w": "desirable",
+"pos": "adj.",
+"ko": "바람직한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 659
+},
+{
+"w": "diligent",
+"pos": "adj.",
+"ko": "성실한, 부지런한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 660
+},
+{
+"w": "distinguished",
+"pos": "adj.",
+"ko": "저명한, 뛰어난",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 661
+},
+{
+"w": "diversified",
+"pos": "adj.",
+"ko": "다각화된, 다양한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 662
+},
+{
+"w": "durable",
+"pos": "adj.",
+"ko": "내구성 있는, 오래가는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 663
+},
+{
+"w": "ecological",
+"pos": "adj.",
+"ko": "생태(계)의, 친환경의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 664
+},
+{
+"w": "elaborate",
+"pos": "adj.",
+"ko": "정교한 / v 자세히 설명하다",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 665
+},
+{
+"w": "electronic",
+"pos": "adj.",
+"ko": "전자의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 666
+},
+{
+"w": "elementary",
+"pos": "adj.",
+"ko": "초보의, 초등의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 667
+},
+{
+"w": "eligible",
+"pos": "adj.",
+"ko": "자격이 있는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 668
+},
+{
+"w": "emphatic",
+"pos": "adj.",
+"ko": "단호한, 강조하는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 669
+},
+{
+"w": "encouraging",
+"pos": "adj.",
+"ko": "고무적인, 격려하는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 670
+},
+{
+"w": "enthusiastic",
+"pos": "adj.",
+"ko": "열정적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 671
+},
+{
+"w": "entitled",
+"pos": "adj.",
+"ko": "자격이 있는, ~라는 제목의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 672
+},
+{
+"w": "exemplary",
+"pos": "adj.",
+"ko": "모범적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 673
+},
+{
+"w": "exempt",
+"pos": "adj.",
+"ko": "면제된 / v 면제하다",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 674
+},
+{
+"w": "extensive",
+"pos": "adj.",
+"ko": "광범위한, 대규모의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 675
+},
+{
+"w": "favorable",
+"pos": "adj.",
+"ko": "호의적인, 유리한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 676
+},
+{
+"w": "feasible",
+"pos": "adj.",
+"ko": "실현 가능한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 677
+},
+{
+"w": "fiscal",
+"pos": "adj.",
+"ko": "회계의, 재정의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 678
+},
+{
+"w": "flexible",
+"pos": "adj.",
+"ko": "유연한, 융통성 있는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 679
+},
+{
+"w": "formal",
+"pos": "adj.",
+"ko": "공식적인, 격식을 차린",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 680
+},
+{
+"w": "fragile",
+"pos": "adj.",
+"ko": "깨지기 쉬운, 취약한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 681
+},
+{
+"w": "genuine",
+"pos": "adj.",
+"ko": "진짜의, 진실한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 682
+},
+{
+"w": "hands-on",
+"pos": "adj.",
+"ko": "직접 해 보는, 실무의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 683
+},
+{
+"w": "ideal",
+"pos": "adj.",
+"ko": "이상적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 684
+},
+{
+"w": "identical",
+"pos": "adj.",
+"ko": "동일한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 685
+},
+{
+"w": "illegible",
+"pos": "adj.",
+"ko": "읽기 어려운",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 686
+},
+{
+"w": "immediate",
+"pos": "adj.",
+"ko": "즉각적인, 당면한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 687
+},
+{
+"w": "immense",
+"pos": "adj.",
+"ko": "엄청난, 막대한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 688
+},
+{
+"w": "impressive",
+"pos": "adj.",
+"ko": "인상적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 689
+},
+{
+"w": "inappropriate",
+"pos": "adj.",
+"ko": "부적절한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 690
+},
+{
+"w": "incidental",
+"pos": "adj.",
+"ko": "부수적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 691
+},
+{
+"w": "inclement",
+"pos": "adj.",
+"ko": "(날씨가) 궂은",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 692
+},
+{
+"w": "informative",
+"pos": "adj.",
+"ko": "유익한, 정보를 주는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 693
+},
+{
+"w": "innovative",
+"pos": "adj.",
+"ko": "혁신적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 694
+},
+{
+"w": "insufficient",
+"pos": "adj.",
+"ko": "불충분한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 695
+},
+{
+"w": "intensive",
+"pos": "adj.",
+"ko": "집중적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 696
+},
+{
+"w": "invaluable",
+"pos": "adj.",
+"ko": "매우 귀중한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 697
+},
+{
+"w": "invigorated",
+"pos": "adj.",
+"ko": "활력을 얻은",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 698
+},
+{
+"w": "irrelevant",
+"pos": "adj.",
+"ko": "무관한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 699
+},
+{
+"w": "large-scale",
+"pos": "adj.",
+"ko": "대규모의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 700
+},
+{
+"w": "last-minute",
+"pos": "adj.",
+"ko": "막바지의, 마지막 순간의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 701
+},
+{
+"w": "legible",
+"pos": "adj.",
+"ko": "읽기 쉬운",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 702
+},
+{
+"w": "lenient",
+"pos": "adj.",
+"ko": "관대한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 703
+},
+{
+"w": "long-standing",
+"pos": "adj.",
+"ko": "오래된",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 704
+},
+{
+"w": "long-time",
+"pos": "adj.",
+"ko": "오랜",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 705
+},
+{
+"w": "loyal",
+"pos": "adj.",
+"ko": "충성스러운, 단골의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 706
+},
+{
+"w": "lucrative",
+"pos": "adj.",
+"ko": "수익성이 좋은",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 707
+},
+{
+"w": "mandatory",
+"pos": "adj.",
+"ko": "의무적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 708
+},
+{
+"w": "marine",
+"pos": "adj.",
+"ko": "바다의, 해양의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 709
+},
+{
+"w": "meticulous",
+"pos": "adj.",
+"ko": "꼼꼼한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 710
+},
+{
+"w": "motivated",
+"pos": "adj.",
+"ko": "의욕 있는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 711
+},
+{
+"w": "municipal",
+"pos": "adj.",
+"ko": "시의, 지방 자치의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 712
+},
+{
+"w": "narrow",
+"pos": "adj.",
+"ko": "좁은 / v 좁히다",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 713
+},
+{
+"w": "nearby",
+"pos": "adj.",
+"ko": "근처의 / adv 근처에",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 714
+},
+{
+"w": "nonprofit",
+"pos": "adj.",
+"ko": "비영리의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 715
+},
+{
+"w": "one-time",
+"pos": "adj.",
+"ko": "한 번뿐인, 한때의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 716
+},
+{
+"w": "one-way",
+"pos": "adj.",
+"ko": "편도의, 일방적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 717
+},
+{
+"w": "ongoing",
+"pos": "adj.",
+"ko": "진행 중인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 718
+},
+{
+"w": "operational",
+"pos": "adj.",
+"ko": "운영상의, 가동 중인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 719
+},
+{
+"w": "opposing",
+"pos": "adj.",
+"ko": "반대하는, 서로 겨루는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 720
+},
+{
+"w": "optimal",
+"pos": "adj.",
+"ko": "최적의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 721
+},
+{
+"w": "outgoing",
+"pos": "adj.",
+"ko": "외향적인, 떠나는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 722
+},
+{
+"w": "outstanding",
+"pos": "adj.",
+"ko": "뛰어난, 미지급의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 723
+},
+{
+"w": "overdue",
+"pos": "adj.",
+"ko": "기한이 지난, 연체된",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 724
+},
+{
+"w": "overwhelming",
+"pos": "adj.",
+"ko": "압도적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 725
+},
+{
+"w": "permanent",
+"pos": "adj.",
+"ko": "영구적인, 정규직의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 726
+},
+{
+"w": "persuasive",
+"pos": "adj.",
+"ko": "설득력 있는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 727
+},
+{
+"w": "picturesque",
+"pos": "adj.",
+"ko": "그림 같은",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 728
+},
+{
+"w": "plausible",
+"pos": "adj.",
+"ko": "그럴듯한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 729
+},
+{
+"w": "profitable",
+"pos": "adj.",
+"ko": "수익성 있는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 730
+},
+{
+"w": "prominent",
+"pos": "adj.",
+"ko": "유명한, 눈에 띄는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 731
+},
+{
+"w": "promising",
+"pos": "adj.",
+"ko": "유망한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 732
+},
+{
+"w": "prospective",
+"pos": "adj.",
+"ko": "장래의, 예상되는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 733
+},
+{
+"w": "prosperous",
+"pos": "adj.",
+"ko": "번영하는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 734
+},
+{
+"w": "protective",
+"pos": "adj.",
+"ko": "보호하는, 보호용의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 735
+},
+{
+"w": "punctual",
+"pos": "adj.",
+"ko": "시간을 지키는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 736
+},
+{
+"w": "qualified",
+"pos": "adj.",
+"ko": "자격을 갖춘",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 737
+},
+{
+"w": "reasonable",
+"pos": "adj.",
+"ko": "합리적인, (가격이) 적당한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 738
+},
+{
+"w": "reliable",
+"pos": "adj.",
+"ko": "믿을 수 있는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 739
+},
+{
+"w": "remarkable",
+"pos": "adj.",
+"ko": "놀랄 만한, 주목할 만한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 740
+},
+{
+"w": "renowned",
+"pos": "adj.",
+"ko": "유명한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 741
+},
+{
+"w": "rewarding",
+"pos": "adj.",
+"ko": "보람 있는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 742
+},
+{
+"w": "rigid",
+"pos": "adj.",
+"ko": "엄격한, 딱딱한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 743
+},
+{
+"w": "screened",
+"pos": "adj.",
+"ko": "심사를 거친, 가려진",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 744
+},
+{
+"w": "sincere",
+"pos": "adj.",
+"ko": "진심 어린",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 745
+},
+{
+"w": "skilled",
+"pos": "adj.",
+"ko": "숙련된",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 746
+},
+{
+"w": "solar",
+"pos": "adj.",
+"ko": "태양의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 747
+},
+{
+"w": "spacious",
+"pos": "adj.",
+"ko": "넓은",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 748
+},
+{
+"w": "state-of-the-art",
+"pos": "adj.",
+"ko": "최첨단의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 749
+},
+{
+"w": "stationary",
+"pos": "adj.",
+"ko": "정지한, 움직이지 않는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 750
+},
+{
+"w": "steady",
+"pos": "adj.",
+"ko": "꾸준한, 안정된",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 751
+},
+{
+"w": "strict",
+"pos": "adj.",
+"ko": "엄격한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 752
+},
+{
+"w": "subsequent",
+"pos": "adj.",
+"ko": "그 다음의, 이후의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 753
+},
+{
+"w": "sufficient",
+"pos": "adj.",
+"ko": "충분한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 754
+},
+{
+"w": "superior",
+"pos": "adj.",
+"ko": "우수한, 상급의 / n 상사",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 755
+},
+{
+"w": "surrounding",
+"pos": "adj.",
+"ko": "주변의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 756
+},
+{
+"w": "talented",
+"pos": "adj.",
+"ko": "재능 있는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 757
+},
+{
+"w": "tentative",
+"pos": "adj.",
+"ko": "잠정적인",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 758
+},
+{
+"w": "timely",
+"pos": "adj.",
+"ko": "시기적절한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 759
+},
+{
+"w": "tremendous",
+"pos": "adj.",
+"ko": "엄청난",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 760
+},
+{
+"w": "unanimous",
+"pos": "adj.",
+"ko": "만장일치의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 761
+},
+{
+"w": "unforeseen",
+"pos": "adj.",
+"ko": "예기치 못한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 762
+},
+{
+"w": "unprecedented",
+"pos": "adj.",
+"ko": "전례 없는",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 763
+},
+{
+"w": "urgent",
+"pos": "adj.",
+"ko": "긴급한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 764
+},
+{
+"w": "vacant",
+"pos": "adj.",
+"ko": "비어 있는, 공석의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 765
+},
+{
+"w": "valid",
+"pos": "adj.",
+"ko": "유효한, 타당한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 766
+},
+{
+"w": "valued",
+"pos": "adj.",
+"ko": "소중한, 평가된",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 767
+},
+{
+"w": "versatile",
+"pos": "adj.",
+"ko": "다재다능한, 다용도의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 768
+},
+{
+"w": "vulnerable",
+"pos": "adj.",
+"ko": "취약한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 769
+},
+{
+"w": "year-end",
+"pos": "adj.",
+"ko": "연말의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 770
+},
+{
+"w": "accidentally",
+"pos": "adv.",
+"ko": "우연히, 실수로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 771
+},
+{
+"w": "accurately",
+"pos": "adv.",
+"ko": "정확하게",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 772
+},
+{
+"w": "adversely",
+"pos": "adv.",
+"ko": "불리하게, 부정적으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 773
+},
+{
+"w": "beforehand",
+"pos": "adv.",
+"ko": "미리, 사전에",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 774
+},
+{
+"w": "closely",
+"pos": "adv.",
+"ko": "면밀히, 밀접하게",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 775
+},
+{
+"w": "considerably",
+"pos": "adv.",
+"ko": "상당히",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 776
+},
+{
+"w": "consistently",
+"pos": "adv.",
+"ko": "한결같이, 지속적으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 777
+},
+{
+"w": "conveniently",
+"pos": "adv.",
+"ko": "편리하게",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 778
+},
+{
+"w": "cordially",
+"pos": "adv.",
+"ko": "진심으로, 정중히",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 779
+},
+{
+"w": "densely",
+"pos": "adv.",
+"ko": "빽빽하게",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 780
+},
+{
+"w": "dramatically",
+"pos": "adv.",
+"ko": "극적으로, 급격히",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 781
+},
+{
+"w": "exceptionally",
+"pos": "adv.",
+"ko": "유난히, 예외적으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 782
+},
+{
+"w": "exclusively",
+"pos": "adv.",
+"ko": "독점적으로, 오로지",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 783
+},
+{
+"w": "frequently",
+"pos": "adv.",
+"ko": "자주",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 784
+},
+{
+"w": "gradually",
+"pos": "adv.",
+"ko": "점차",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 785
+},
+{
+"w": "happily",
+"pos": "adv.",
+"ko": "행복하게, 다행히",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 786
+},
+{
+"w": "heavily",
+"pos": "adv.",
+"ko": "심하게, 많이",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 787
+},
+{
+"w": "increasingly",
+"pos": "adv.",
+"ko": "점점 더",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 788
+},
+{
+"w": "indefinitely",
+"pos": "adv.",
+"ko": "무기한으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 789
+},
+{
+"w": "individually",
+"pos": "adv.",
+"ko": "개별적으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 790
+},
+{
+"w": "inevitably",
+"pos": "adv.",
+"ko": "불가피하게",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 791
+},
+{
+"w": "inherently",
+"pos": "adv.",
+"ko": "본질적으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 792
+},
+{
+"w": "initially",
+"pos": "adv.",
+"ko": "처음에",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 793
+},
+{
+"w": "markedly",
+"pos": "adv.",
+"ko": "현저하게",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 794
+},
+{
+"w": "meticulously",
+"pos": "adv.",
+"ko": "꼼꼼하게",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 795
+},
+{
+"w": "moderately",
+"pos": "adv.",
+"ko": "적당히",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 796
+},
+{
+"w": "mutually",
+"pos": "adv.",
+"ko": "서로, 상호 간에",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 797
+},
+{
+"w": "necessarily",
+"pos": "adv.",
+"ko": "반드시, 필연적으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 798
+},
+{
+"w": "occasionally",
+"pos": "adv.",
+"ko": "가끔",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 799
+},
+{
+"w": "overnight",
+"pos": "adv.",
+"ko": "하룻밤 사이에, 밤새 / a 야간의",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 800
+},
+{
+"w": "overseas",
+"pos": "adv.",
+"ko": "해외로 / a 해외의",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 801
+},
+{
+"w": "primarily",
+"pos": "adv.",
+"ko": "주로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 802
+},
+{
+"w": "promptly",
+"pos": "adv.",
+"ko": "즉시, 정각에",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 803
+},
+{
+"w": "provisionally",
+"pos": "adv.",
+"ko": "임시로, 잠정적으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 804
+},
+{
+"w": "randomly",
+"pos": "adv.",
+"ko": "무작위로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 805
+},
+{
+"w": "rarely",
+"pos": "adv.",
+"ko": "드물게",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 806
+},
+{
+"w": "readily",
+"pos": "adv.",
+"ko": "손쉽게, 선뜻",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 807
+},
+{
+"w": "respectively",
+"pos": "adv.",
+"ko": "각각",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 808
+},
+{
+"w": "securely",
+"pos": "adv.",
+"ko": "안전하게, 단단히",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 809
+},
+{
+"w": "seemingly",
+"pos": "adv.",
+"ko": "겉보기에는",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 810
+},
+{
+"w": "separately",
+"pos": "adv.",
+"ko": "따로, 별도로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 811
+},
+{
+"w": "severely",
+"pos": "adv.",
+"ko": "심하게, 엄하게",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 812
+},
+{
+"w": "shortly",
+"pos": "adv.",
+"ko": "곧",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 813
+},
+{
+"w": "significantly",
+"pos": "adv.",
+"ko": "상당히, 크게",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 814
+},
+{
+"w": "solely",
+"pos": "adv.",
+"ko": "오로지, 단독으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 815
+},
+{
+"w": "somewhat",
+"pos": "adv.",
+"ko": "다소, 약간",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 816
+},
+{
+"w": "temporarily",
+"pos": "adv.",
+"ko": "일시적으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 817
+},
+{
+"w": "thoroughly",
+"pos": "adv.",
+"ko": "철저히",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 818
+},
+{
+"w": "ultimately",
+"pos": "adv.",
+"ko": "결국, 궁극적으로",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 819
+},
+{
+"w": "unbearably",
+"pos": "adv.",
+"ko": "참을 수 없을 만큼",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 820
+},
+{
+"w": "unusually",
+"pos": "adv.",
+"ko": "유난히, 평소와 달리",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 821
+},
+{
+"w": "urgently",
+"pos": "adv.",
+"ko": "긴급히",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 822
+},
+{
+"w": "widely",
+"pos": "adv.",
+"ko": "널리",
+"grp": "ADV",
+"rank": 0,
+"level": "",
+"n": 823
+},
+{
+"w": "a large proportion of",
+"pos": "phr.",
+"ko": "~의 큰 부분, 대부분의",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 824
+},
+{
+"w": "a series of",
+"pos": "phr.",
+"ko": "일련의",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 825
+},
+{
+"w": "a wide range of",
+"pos": "phr.",
+"ko": "폭넓은, 다양한",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 826
+},
+{
+"w": "ahead of schedule",
+"pos": "phr.",
+"ko": "예정보다 일찍",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 827
+},
+{
+"w": "keep track of",
+"pos": "phr.",
+"ko": "~을 계속 파악하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 828
+},
+{
+"w": "make use of",
+"pos": "phr.",
+"ko": "~을 이용하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 829
+},
+{
+"w": "take advantage of",
+"pos": "phr.",
+"ko": "~을 이용하다, 활용하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 830
+},
+{
+"w": "access to",
+"pos": "phr.",
+"ko": "~에의 접근(권)",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 831
+},
+{
+"w": "according to",
+"pos": "phr.",
+"ko": "~에 따르면",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 832
+},
+{
+"w": "be subject to",
+"pos": "phr.",
+"ko": "~의 대상이다, ~에 따라야 한다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 833
+},
+{
+"w": "compared to",
+"pos": "phr.",
+"ko": "~와 비교하여",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 834
+},
+{
+"w": "look forward to",
+"pos": "phr.",
+"ko": "~을 고대하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 835
+},
+{
+"w": "to some extent",
+"pos": "phr.",
+"ko": "어느 정도는",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 836
+},
+{
+"w": "along with",
+"pos": "phr.",
+"ko": "~와 함께",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 837
+},
+{
+"w": "be faced with",
+"pos": "phr.",
+"ko": "~에 직면하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 838
+},
+{
+"w": "come up with",
+"pos": "phr.",
+"ko": "~을 생각해 내다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 839
+},
+{
+"w": "do business with",
+"pos": "phr.",
+"ko": "~와 거래하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 840
+},
+{
+"w": "with courtesy",
+"pos": "phr.",
+"ko": "정중하게",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 841
+},
+{
+"w": "with the exception of",
+"pos": "phr.",
+"ko": "~을 제외하고",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 842
+},
+{
+"w": "with regard to",
+"pos": "phr.",
+"ko": "~에 관하여",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 843
+},
+{
+"w": "as a result of",
+"pos": "phr.",
+"ko": "~의 결과로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 844
+},
+{
+"w": "as follows",
+"pos": "phr.",
+"ko": "다음과 같이",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 845
+},
+{
+"w": "as for",
+"pos": "phr.",
+"ko": "~에 관해서는",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 846
+},
+{
+"w": "as of",
+"pos": "phr.",
+"ko": "~일자로, ~부로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 847
+},
+{
+"w": "as usual",
+"pos": "phr.",
+"ko": "평소처럼",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 848
+},
+{
+"w": "come as a surprise",
+"pos": "phr.",
+"ko": "놀라운 일로 다가오다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 849
+},
+{
+"w": "at any time",
+"pos": "phr.",
+"ko": "언제든지",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 850
+},
+{
+"w": "at no cost",
+"pos": "phr.",
+"ko": "무료로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 851
+},
+{
+"w": "at one's expense",
+"pos": "phr.",
+"ko": "~의 비용으로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 852
+},
+{
+"w": "at work",
+"pos": "phr.",
+"ko": "직장에서, 근무 중인",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 853
+},
+{
+"w": "at your earliest convenience",
+"pos": "phr.",
+"ko": "가능한 한 빨리",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 854
+},
+{
+"w": "come under pressure",
+"pos": "phr.",
+"ko": "압박을 받다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 855
+},
+{
+"w": "under the supervision of",
+"pos": "phr.",
+"ko": "~의 감독 아래",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 856
+},
+{
+"w": "under way",
+"pos": "phr.",
+"ko": "진행 중인",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 857
+},
+{
+"w": "have something in common",
+"pos": "phr.",
+"ko": "공통점이 있다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 858
+},
+{
+"w": "in a timely manner",
+"pos": "phr.",
+"ko": "시기적절하게",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 859
+},
+{
+"w": "in addition to",
+"pos": "phr.",
+"ko": "~에 더하여",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 860
+},
+{
+"w": "in advance",
+"pos": "phr.",
+"ko": "미리",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 861
+},
+{
+"w": "in an effort to",
+"pos": "phr.",
+"ko": "~하려는 노력으로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 862
+},
+{
+"w": "in bulk",
+"pos": "phr.",
+"ko": "대량으로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 863
+},
+{
+"w": "in charge of",
+"pos": "phr.",
+"ko": "~을 담당하는",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 864
+},
+{
+"w": "in conjunction with",
+"pos": "phr.",
+"ko": "~와 함께, 공동으로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 865
+},
+{
+"w": "in contrast to",
+"pos": "phr.",
+"ko": "~와 대조적으로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 866
+},
+{
+"w": "in excess of",
+"pos": "phr.",
+"ko": "~을 초과하여",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 867
+},
+{
+"w": "in exchange for",
+"pos": "phr.",
+"ko": "~의 대가로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 868
+},
+{
+"w": "in fact",
+"pos": "phr.",
+"ko": "사실은",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 869
+},
+{
+"w": "in favor of",
+"pos": "phr.",
+"ko": "~에 찬성하여, ~을 위하여",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 870
+},
+{
+"w": "in honor of",
+"pos": "phr.",
+"ko": "~을 기념하여",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 871
+},
+{
+"w": "in light of",
+"pos": "phr.",
+"ko": "~에 비추어",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 872
+},
+{
+"w": "in line with",
+"pos": "phr.",
+"ko": "~에 맞추어",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 873
+},
+{
+"w": "in person",
+"pos": "phr.",
+"ko": "직접, 몸소",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 874
+},
+{
+"w": "in response to",
+"pos": "phr.",
+"ko": "~에 대한 응답으로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 875
+},
+{
+"w": "in search of",
+"pos": "phr.",
+"ko": "~을 찾아",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 876
+},
+{
+"w": "in the absence of",
+"pos": "phr.",
+"ko": "~이 없을 때",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 877
+},
+{
+"w": "in the early stage of",
+"pos": "phr.",
+"ko": "~의 초기 단계에",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 878
+},
+{
+"w": "in transit",
+"pos": "phr.",
+"ko": "운송 중인",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 879
+},
+{
+"w": "in use",
+"pos": "phr.",
+"ko": "사용 중인",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 880
+},
+{
+"w": "in writing",
+"pos": "phr.",
+"ko": "서면으로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 881
+},
+{
+"w": "an increase in",
+"pos": "phr.",
+"ko": "~의 증가",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 882
+},
+{
+"w": "be scheduled for",
+"pos": "phr.",
+"ko": "~로 예정되어 있다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 883
+},
+{
+"w": "for a fee",
+"pos": "phr.",
+"ko": "요금을 내고",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 884
+},
+{
+"w": "for the sake of",
+"pos": "phr.",
+"ko": "~을 위하여",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 885
+},
+{
+"w": "for your records",
+"pos": "phr.",
+"ko": "보관용으로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 886
+},
+{
+"w": "hold someone responsible for",
+"pos": "phr.",
+"ko": "~에게 책임을 묻다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 887
+},
+{
+"w": "make allowances for",
+"pos": "phr.",
+"ko": "~을 참작하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 888
+},
+{
+"w": "keep something out of reach",
+"pos": "phr.",
+"ko": "~을 손이 닿지 않는 곳에 두다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 889
+},
+{
+"w": "out of date",
+"pos": "phr.",
+"ko": "구식의, 기한이 지난",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 890
+},
+{
+"w": "out of print",
+"pos": "phr.",
+"ko": "절판된",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 891
+},
+{
+"w": "insight into",
+"pos": "phr.",
+"ko": "~에 대한 통찰",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 892
+},
+{
+"w": "make inroads into",
+"pos": "phr.",
+"ko": "~에 진출하다, 잠식하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 893
+},
+{
+"w": "put something into action",
+"pos": "phr.",
+"ko": "~을 실행에 옮기다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 894
+},
+{
+"w": "take something into consideration",
+"pos": "phr.",
+"ko": "~을 고려하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 895
+},
+{
+"w": "work from home",
+"pos": "phr.",
+"ko": "재택근무하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 896
+},
+{
+"w": "based on",
+"pos": "phr.",
+"ko": "~에 근거하여",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 897
+},
+{
+"w": "from now on",
+"pos": "phr.",
+"ko": "지금부터",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 898
+},
+{
+"w": "have an effect on",
+"pos": "phr.",
+"ko": "~에 영향을 미치다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 899
+},
+{
+"w": "on a regular basis",
+"pos": "phr.",
+"ko": "정기적으로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 900
+},
+{
+"w": "on behalf of",
+"pos": "phr.",
+"ko": "~을 대신하여, 대표하여",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 901
+},
+{
+"w": "on business",
+"pos": "phr.",
+"ko": "업무차",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 902
+},
+{
+"w": "on display",
+"pos": "phr.",
+"ko": "전시 중인",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 903
+},
+{
+"w": "on or before",
+"pos": "phr.",
+"ko": "~일 또는 그 전에",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 904
+},
+{
+"w": "on reserve",
+"pos": "phr.",
+"ko": "예약된, 비축된",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 905
+},
+{
+"w": "on the market",
+"pos": "phr.",
+"ko": "시판 중인",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 906
+},
+{
+"w": "on the rise",
+"pos": "phr.",
+"ko": "증가하는 추세인",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 907
+},
+{
+"w": "on time",
+"pos": "phr.",
+"ko": "제시간에",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 908
+},
+{
+"w": "on top of",
+"pos": "phr.",
+"ko": "~에 더하여, ~의 위에",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 909
+},
+{
+"w": "be designed to",
+"pos": "phr.",
+"ko": "~하도록 설계되다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 910
+},
+{
+"w": "be eager to",
+"pos": "phr.",
+"ko": "~하기를 열망하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 911
+},
+{
+"w": "feel free to",
+"pos": "phr.",
+"ko": "편하게 ~하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 912
+},
+{
+"w": "remain to be seen",
+"pos": "phr.",
+"ko": "두고 봐야 한다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 913
+},
+{
+"w": "24 hours a day",
+"pos": "phr.",
+"ko": "하루 24시간",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 914
+},
+{
+"w": "A and B alike",
+"pos": "phr.",
+"ko": "A와 B 모두",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 915
+},
+{
+"w": "below the average",
+"pos": "phr.",
+"ko": "평균 이하의",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 916
+},
+{
+"w": "beyond repair",
+"pos": "phr.",
+"ko": "수리할 수 없는",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 917
+},
+{
+"w": "by fax",
+"pos": "phr.",
+"ko": "팩스로",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 918
+},
+{
+"w": "do one's utmost",
+"pos": "phr.",
+"ko": "최선을 다하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 919
+},
+{
+"w": "double-digit increase",
+"pos": "phr.",
+"ko": "두 자릿수 증가",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 920
+},
+{
+"w": "lag behind",
+"pos": "phr.",
+"ko": "뒤처지다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 921
+},
+{
+"w": "make something public",
+"pos": "phr.",
+"ko": "~을 공개하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 922
+},
+{
+"w": "make sure",
+"pos": "phr.",
+"ko": "반드시 ~하다, 확인하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 923
+},
+{
+"w": "raise questions",
+"pos": "phr.",
+"ko": "의문을 제기하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 924
+},
+{
+"w": "A through B",
+"pos": "phr.",
+"ko": "A부터 B까지",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 925
+},
+{
+"w": "upon request",
+"pos": "phr.",
+"ko": "요청 시",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 926
+},
+{
+"w": "within walking distance",
+"pos": "phr.",
+"ko": "걸어갈 수 있는 거리에",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 927
+},
+{
+"w": "be worth doing",
+"pos": "phr.",
+"ko": "~할 가치가 있다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 928
+},
+{
+"w": "do",
+"pos": "v.",
+"ko": "하다",
+"grp": "A",
+"rank": 50,
+"level": "R1",
+"n": 929
+},
+{
+"w": "time",
+"pos": "n.",
+"ko": "시간/때",
+"grp": "A",
+"rank": 60,
+"level": "R1",
+"n": 930
+},
+{
+"w": "make",
+"pos": "v.",
+"ko": "만들다",
+"grp": "A",
+"rank": 87,
+"level": "R1",
+"n": 931
+},
+{
+"w": "even",
+"pos": "adv.",
+"ko": "심지어",
+"grp": "A",
+"rank": 106,
+"level": "R1",
+"n": 932
+},
+{
+"w": "right",
+"pos": "adj.",
+"ko": "옳은/오른쪽",
+"grp": "A",
+"rank": 113,
+"level": "R1",
+"n": 933
+},
+{
+"w": "work",
+"pos": "v.",
+"ko": "일하다/일",
+"grp": "A",
+"rank": 114,
+"level": "R1",
+"n": 934
+},
+{
+"w": "take",
+"pos": "v.",
+"ko": "가져가다/타다",
+"grp": "A",
+"rank": 126,
+"level": "R1",
+"n": 935
+},
+{
+"w": "look",
+"pos": "v.",
+"ko": "보다/모습",
+"grp": "A",
+"rank": 147,
+"level": "R1",
+"n": 936
+},
+{
+"w": "same",
+"pos": "adj.",
+"ko": "같은",
+"grp": "A",
+"rank": 151,
+"level": "R1",
+"n": 937
+},
+{
+"w": "state",
+"pos": "n.",
+"ko": "상태/주",
+"grp": "A",
+"rank": 158,
+"level": "R1",
+"n": 938
+},
+{
+"w": "find",
+"pos": "v.",
+"ko": "찾다",
+"grp": "A",
+"rank": 164,
+"level": "R1",
+"n": 939
+},
+{
+"w": "place",
+"pos": "n.",
+"ko": "장소",
+"grp": "A",
+"rank": 181,
+"level": "R1",
+"n": 940
+},
+{
+"w": "found",
+"pos": "v.",
+"ko": "찾았다(find 과거)",
+"grp": "A",
+"rank": 191,
+"level": "R2",
+"n": 941
+},
+{
+"w": "number",
+"pos": "n.",
+"ko": "숫자",
+"grp": "A",
+"rank": 210,
+"level": "R2",
+"n": 942
+},
+{
+"w": "name",
+"pos": "n.",
+"ko": "이름",
+"grp": "A",
+"rank": 214,
+"level": "R2",
+"n": 943
+},
+{
+"w": "company",
+"pos": "n.",
+"ko": "회사",
+"grp": "A",
+"rank": 218,
+"level": "R2",
+"n": 944
+},
+{
+"w": "business",
+"pos": "n.",
+"ko": "사업/장사",
+"grp": "A",
+"rank": 239,
+"level": "R2",
+"n": 945
+},
+{
+"w": "change",
+"pos": "v.",
+"ko": "바꾸다/변화",
+"grp": "A",
+"rank": 251,
+"level": "R2",
+"n": 946
+},
+{
+"w": "head",
+"pos": "n.",
+"ko": "머리",
+"grp": "A",
+"rank": 280,
+"level": "R2",
+"n": 947
+},
+{
+"w": "national",
+"pos": "adj.",
+"ko": "국가의",
+"grp": "A",
+"rank": 282,
+"level": "R2",
+"n": 948
+},
+{
+"w": "try",
+"pos": "v.",
+"ko": "시도하다",
+"grp": "A",
+"rank": 291,
+"level": "R2",
+"n": 949
+},
+{
+"w": "order",
+"pos": "n.",
+"ko": "주문/순서",
+"grp": "A",
+"rank": 299,
+"level": "R2",
+"n": 950
+},
+{
+"w": "party",
+"pos": "n.",
+"ko": "파티/정당",
+"grp": "A",
+"rank": 300,
+"level": "R2",
+"n": 951
+},
+{
+"w": "run",
+"pos": "v.",
+"ko": "달리다",
+"grp": "A",
+"rank": 301,
+"level": "R2",
+"n": 952
+},
+{
+"w": "general",
+"pos": "adj.",
+"ko": "일반적인/장군",
+"grp": "A",
+"rank": 311,
+"level": "R2",
+"n": 953
+},
+{
+"w": "course",
+"pos": "n.",
+"ko": "과정/코스",
+"grp": "A",
+"rank": 333,
+"level": "R3",
+"n": 954
+},
+{
+"w": "information",
+"pos": "n.",
+"ko": "정보",
+"grp": "A",
+"rank": 347,
+"level": "R3",
+"n": 955
+},
+{
+"w": "local",
+"pos": "adj.",
+"ko": "지역의",
+"grp": "A",
+"rank": 348,
+"level": "R3",
+"n": 956
+},
+{
+"w": "coming",
+"pos": "v.",
+"ko": "오는 중(come)",
+"grp": "A",
+"rank": 371,
+"level": "R3",
+"n": 957
+},
+{
+"w": "control",
+"pos": "v.",
+"ko": "통제하다",
+"grp": "A",
+"rank": 372,
+"level": "R3",
+"n": 958
+},
+{
+"w": "pay",
+"pos": "v.",
+"ko": "지불하다",
+"grp": "A",
+"rank": 378,
+"level": "R3",
+"n": 959
+},
+{
+"w": "matter",
+"pos": "n.",
+"ko": "문제/중요하다",
+"grp": "A",
+"rank": 402,
+"level": "R3",
+"n": 960
+},
+{
+"w": "probably",
+"pos": "adv.",
+"ko": "아마도",
+"grp": "A",
+"rank": 412,
+"level": "R3",
+"n": 961
+},
+{
+"w": "close",
+"pos": "v.",
+"ko": "닫다/가까운",
+"grp": "A",
+"rank": 418,
+"level": "R3",
+"n": 962
+},
+{
+"w": "due",
+"pos": "adj.",
+"ko": "~할 예정인",
+"grp": "A",
+"rank": 428,
+"level": "R3",
+"n": 963
+},
+{
+"w": "happy",
+"pos": "adj.",
+"ko": "행복한",
+"grp": "A",
+"rank": 429,
+"level": "R3",
+"n": 964
+},
+{
+"w": "community",
+"pos": "n.",
+"ko": "공동체",
+"grp": "A",
+"rank": 439,
+"level": "R3",
+"n": 965
+},
+{
+"w": "leave",
+"pos": "v.",
+"ko": "떠나다",
+"grp": "A",
+"rank": 442,
+"level": "R3",
+"n": 966
+},
+{
+"w": "light",
+"pos": "n.",
+"ko": "빛/가벼운",
+"grp": "A",
+"rank": 451,
+"level": "R3",
+"n": 967
+},
+{
+"w": "stay",
+"pos": "v.",
+"ko": "머무르다",
+"grp": "A",
+"rank": 457,
+"level": "R3",
+"n": 968
+},
+{
+"w": "deal",
+"pos": "n.",
+"ko": "거래/다루다",
+"grp": "A",
+"rank": 461,
+"level": "R3",
+"n": 969
+},
+{
+"w": "report",
+"pos": "n.",
+"ko": "보고서/보고하다",
+"grp": "A",
+"rank": 465,
+"level": "R3",
+"n": 970
+},
+{
+"w": "check",
+"pos": "v.",
+"ko": "확인하다",
+"grp": "A",
+"rank": 471,
+"level": "R3",
+"n": 971
+},
+{
+"w": "form",
+"pos": "n.",
+"ko": "형태/양식",
+"grp": "A",
+"rank": 473,
+"level": "R3",
+"n": 972
+},
+{
+"w": "further",
+"pos": "adv.",
+"ko": "더 멀리/더 나아가",
+"grp": "A",
+"rank": 474,
+"level": "R3",
+"n": 973
+},
+{
+"w": "act",
+"pos": "v.",
+"ko": "행동하다/행위",
+"grp": "A",
+"rank": 480,
+"level": "R3",
+"n": 974
+},
+{
+"w": "near",
+"pos": "adj.",
+"ko": "가까운",
+"grp": "A",
+"rank": 497,
+"level": "R3",
+"n": 975
+},
+{
+"w": "plan",
+"pos": "n.",
+"ko": "계획",
+"grp": "A",
+"rank": 499,
+"level": "R3",
+"n": 976
+},
+{
+"w": "available",
+"pos": "adj.",
+"ko": "이용 가능한",
+"grp": "A",
+"rank": 507,
+"level": "R3",
+"n": 977
+},
+{
+"w": "list",
+"pos": "n.",
+"ko": "목록",
+"grp": "A",
+"rank": 513,
+"level": "R3",
+"n": 978
+},
+{
+"w": "street",
+"pos": "n.",
+"ko": "거리",
+"grp": "A",
+"rank": 517,
+"level": "R3",
+"n": 979
+},
+{
+"w": "current",
+"pos": "adj.",
+"ko": "현재의",
+"grp": "A",
+"rank": 521,
+"level": "R3",
+"n": 980
+},
+{
+"w": "meet",
+"pos": "v.",
+"ko": "만나다",
+"grp": "A",
+"rank": 526,
+"level": "R3",
+"n": 981
+},
+{
+"w": "program",
+"pos": "n.",
+"ko": "프로그램",
+"grp": "A",
+"rank": 527,
+"level": "R3",
+"n": 982
+},
+{
+"w": "chance",
+"pos": "n.",
+"ko": "기회",
+"grp": "A",
+"rank": 530,
+"level": "R3",
+"n": 983
+},
+{
+"w": "process",
+"pos": "n.",
+"ko": "과정",
+"grp": "A",
+"rank": 533,
+"level": "R3",
+"n": 984
+},
+{
+"w": "study",
+"pos": "v.",
+"ko": "공부하다",
+"grp": "A",
+"rank": 536,
+"level": "R3",
+"n": 985
+},
+{
+"w": "clear",
+"pos": "adj.",
+"ko": "맑은/분명한",
+"grp": "A",
+"rank": 540,
+"level": "R3",
+"n": 986
+},
+{
+"w": "board",
+"pos": "n.",
+"ko": "판/탑승하다",
+"grp": "A",
+"rank": 549,
+"level": "R3",
+"n": 987
+},
+{
+"w": "cost",
+"pos": "n.",
+"ko": "비용/들다",
+"grp": "A",
+"rank": 550,
+"level": "R3",
+"n": 988
+},
+{
+"w": "instead",
+"pos": "adv.",
+"ko": "대신에",
+"grp": "A",
+"rank": 555,
+"level": "R3",
+"n": 989
+},
+{
+"w": "department",
+"pos": "n.",
+"ko": "부서",
+"grp": "A",
+"rank": 565,
+"level": "R3",
+"n": 990
+},
+{
+"w": "fine",
+"pos": "adj.",
+"ko": "좋은/괜찮은",
+"grp": "A",
+"rank": 568,
+"level": "R3",
+"n": 991
+},
+{
+"w": "force",
+"pos": "n.",
+"ko": "힘/강요하다",
+"grp": "A",
+"rank": 569,
+"level": "R3",
+"n": 992
+},
+{
+"w": "issue",
+"pos": "n.",
+"ko": "쟁점/문제",
+"grp": "A",
+"rank": 571,
+"level": "R3",
+"n": 993
+},
+{
+"w": "rest",
+"pos": "v.",
+"ko": "쉬다/나머지",
+"grp": "A",
+"rank": 576,
+"level": "R3",
+"n": 994
+},
+{
+"w": "term",
+"pos": "n.",
+"ko": "용어/학기",
+"grp": "A",
+"rank": 582,
+"level": "R3",
+"n": 995
+},
+{
+"w": "project",
+"pos": "n.",
+"ko": "프로젝트",
+"grp": "A",
+"rank": 591,
+"level": "R3",
+"n": 996
+},
+{
+"w": "account",
+"pos": "n.",
+"ko": "계좌/설명",
+"grp": "A",
+"rank": 597,
+"level": "R3",
+"n": 997
+},
+{
+"w": "especially",
+"pos": "adv.",
+"ko": "특히",
+"grp": "A",
+"rank": 599,
+"level": "R3",
+"n": 998
+},
+{
+"w": "period",
+"pos": "n.",
+"ko": "기간",
+"grp": "A",
+"rank": 604,
+"level": "R3",
+"n": 999
+},
+{
+"w": "position",
+"pos": "n.",
+"ko": "위치/자세",
+"grp": "A",
+"rank": 605,
+"level": "R3",
+"n": 1000
+},
+{
+"w": "similar",
+"pos": "adj.",
+"ko": "비슷한",
+"grp": "A",
+"rank": 607,
+"level": "R3",
+"n": 1001
+},
+{
+"w": "lead",
+"pos": "v.",
+"ko": "이끌다",
+"grp": "A",
+"rank": 616,
+"level": "R3",
+"n": 1002
+},
+{
+"w": "likely",
+"pos": "adj.",
+"ko": "~할 것 같은",
+"grp": "A",
+"rank": 617,
+"level": "R3",
+"n": 1003
+},
+{
+"w": "personal",
+"pos": "adj.",
+"ko": "개인의",
+"grp": "A",
+"rank": 620,
+"level": "R3",
+"n": 1004
+},
+{
+"w": "security",
+"pos": "n.",
+"ko": "보안/안전",
+"grp": "A",
+"rank": 621,
+"level": "R3",
+"n": 1005
+},
+{
+"w": "happen",
+"pos": "v.",
+"ko": "일어나다",
+"grp": "A",
+"rank": 633,
+"level": "R3",
+"n": 1006
+},
+{
+"w": "hold",
+"pos": "v.",
+"ko": "잡다",
+"grp": "A",
+"rank": 634,
+"level": "R3",
+"n": 1007
+},
+{
+"w": "online",
+"pos": "adj.",
+"ko": "온라인의",
+"grp": "A",
+"rank": 638,
+"level": "R3",
+"n": 1008
+},
+{
+"w": "private",
+"pos": "adj.",
+"ko": "사적인",
+"grp": "A",
+"rank": 640,
+"level": "R3",
+"n": 1009
+},
+{
+"w": "return",
+"pos": "v.",
+"ko": "돌아오다",
+"grp": "A",
+"rank": 642,
+"level": "R3",
+"n": 1010
+},
+{
+"w": "view",
+"pos": "n.",
+"ko": "전망/견해",
+"grp": "A",
+"rank": 647,
+"level": "R3",
+"n": 1011
+},
+{
+"w": "present",
+"pos": "n.",
+"ko": "선물/현재",
+"grp": "A",
+"rank": 658,
+"level": "R3",
+"n": 1012
+},
+{
+"w": "result",
+"pos": "n.",
+"ko": "결과",
+"grp": "A",
+"rank": 659,
+"level": "R3",
+"n": 1013
+},
+{
+"w": "training",
+"pos": "n.",
+"ko": "훈련",
+"grp": "A",
+"rank": 662,
+"level": "R3",
+"n": 1014
+},
+{
+"w": "design",
+"pos": "n.",
+"ko": "디자인",
+"grp": "A",
+"rank": 667,
+"level": "R3",
+"n": 1015
+},
+{
+"w": "interest",
+"pos": "n.",
+"ko": "관심/이자",
+"grp": "A",
+"rank": 673,
+"level": "R3",
+"n": 1016
+},
+{
+"w": "learn",
+"pos": "v.",
+"ko": "배우다",
+"grp": "A",
+"rank": 676,
+"level": "R3",
+"n": 1017
+},
+{
+"w": "certain",
+"pos": "adj.",
+"ko": "확실한",
+"grp": "A",
+"rank": 685,
+"level": "R3",
+"n": 1018
+},
+{
+"w": "performance",
+"pos": "n.",
+"ko": "공연/성과",
+"grp": "A",
+"rank": 696,
+"level": "R3",
+"n": 1019
+},
+{
+"w": "press",
+"pos": "v.",
+"ko": "누르다/언론",
+"grp": "A",
+"rank": 697,
+"level": "R3",
+"n": 1020
+},
+{
+"w": "worth",
+"pos": "adj.",
+"ko": "가치 있는",
+"grp": "A",
+"rank": 704,
+"level": "R3",
+"n": 1021
+},
+{
+"w": "bill",
+"pos": "n.",
+"ko": "청구서",
+"grp": "A",
+"rank": 707,
+"level": "R3",
+"n": 1022
+},
+{
+"w": "provide",
+"pos": "v.",
+"ko": "제공하다",
+"grp": "A",
+"rank": 715,
+"level": "R3",
+"n": 1023
+},
+{
+"w": "source",
+"pos": "n.",
+"ko": "출처",
+"grp": "A",
+"rank": 720,
+"level": "R3",
+"n": 1024
+},
+{
+"w": "usually",
+"pos": "adv.",
+"ko": "보통",
+"grp": "A",
+"rank": 721,
+"level": "R3",
+"n": 1025
+},
+{
+"w": "follow",
+"pos": "v.",
+"ko": "따라가다",
+"grp": "A",
+"rank": 724,
+"level": "R3",
+"n": 1026
+},
+{
+"w": "rate",
+"pos": "n.",
+"ko": "비율",
+"grp": "A",
+"rank": 729,
+"level": "R3",
+"n": 1027
+},
+{
+"w": "save",
+"pos": "v.",
+"ko": "저장하다/구하다",
+"grp": "A",
+"rank": 732,
+"level": "R3",
+"n": 1028
+},
+{
+"w": "amount",
+"pos": "n.",
+"ko": "양",
+"grp": "A",
+"rank": 737,
+"level": "R3",
+"n": 1029
+},
+{
+"w": "federal",
+"pos": "adj.",
+"ko": "연방의",
+"grp": "A",
+"rank": 745,
+"level": "R3",
+"n": 1030
+},
+{
+"w": "picture",
+"pos": "n.",
+"ko": "그림/사진",
+"grp": "A",
+"rank": 753,
+"level": "R3",
+"n": 1031
+},
+{
+"w": "step",
+"pos": "n.",
+"ko": "걸음",
+"grp": "A",
+"rank": 755,
+"level": "R3",
+"n": 1032
+},
+{
+"w": "forward",
+"pos": "adv.",
+"ko": "앞으로",
+"grp": "A",
+"rank": 761,
+"level": "R3",
+"n": 1033
+},
+{
+"w": "key",
+"pos": "n.",
+"ko": "열쇠",
+"grp": "A",
+"rank": 764,
+"level": "R3",
+"n": 1034
+},
+{
+"w": "review",
+"pos": "n.",
+"ko": "검토/후기",
+"grp": "A",
+"rank": 769,
+"level": "R3",
+"n": 1035
+},
+{
+"w": "attention",
+"pos": "n.",
+"ko": "주의",
+"grp": "A",
+"rank": 775,
+"level": "R3",
+"n": 1036
+},
+{
+"w": "lower",
+"pos": "adj.",
+"ko": "더 낮은",
+"grp": "A",
+"rank": 787,
+"level": "R3",
+"n": 1037
+},
+{
+"w": "property",
+"pos": "n.",
+"ko": "재산",
+"grp": "A",
+"rank": 790,
+"level": "R3",
+"n": 1038
+},
+{
+"w": "complete",
+"pos": "adj.",
+"ko": "완전한/끝내다",
+"grp": "A",
+"rank": 799,
+"level": "R3",
+"n": 1039
+},
+{
+"w": "article",
+"pos": "n.",
+"ko": "기사",
+"grp": "A",
+"rank": 815,
+"level": "R3",
+"n": 1040
+},
+{
+"w": "choice",
+"pos": "n.",
+"ko": "선택",
+"grp": "A",
+"rank": 836,
+"level": "R4",
+"n": 1041
+},
+{
+"w": "continue",
+"pos": "v.",
+"ko": "계속하다",
+"grp": "A",
+"rank": 839,
+"level": "R4",
+"n": 1042
+},
+{
+"w": "currently",
+"pos": "adv.",
+"ko": "현재",
+"grp": "A",
+"rank": 842,
+"level": "R4",
+"n": 1043
+},
+{
+"w": "legal",
+"pos": "adj.",
+"ko": "합법적인/법률의",
+"grp": "A",
+"rank": 851,
+"level": "R4",
+"n": 1044
+},
+{
+"w": "staff",
+"pos": "n.",
+"ko": "직원",
+"grp": "A",
+"rank": 861,
+"level": "R4",
+"n": 1045
+},
+{
+"w": "career",
+"pos": "n.",
+"ko": "경력/직업",
+"grp": "A",
+"rank": 869,
+"level": "R4",
+"n": 1046
+},
+{
+"w": "figure",
+"pos": "n.",
+"ko": "숫자/모양/알아내다",
+"grp": "A",
+"rank": 877,
+"level": "R4",
+"n": 1047
+},
+{
+"w": "paper",
+"pos": "n.",
+"ko": "종이",
+"grp": "A",
+"rank": 883,
+"level": "R4",
+"n": 1048
+},
+{
+"w": "popular",
+"pos": "adj.",
+"ko": "인기 있는",
+"grp": "A",
+"rank": 885,
+"level": "R4",
+"n": 1049
+},
+{
+"w": "version",
+"pos": "n.",
+"ko": "버전/판",
+"grp": "A",
+"rank": 890,
+"level": "R4",
+"n": 1050
+},
+{
+"w": "practice",
+"pos": "v.",
+"ko": "연습하다/연습",
+"grp": "A",
+"rank": 903,
+"level": "R4",
+"n": 1051
+},
+{
+"w": "success",
+"pos": "n.",
+"ko": "성공",
+"grp": "A",
+"rank": 907,
+"level": "R4",
+"n": 1052
+},
+{
+"w": "access",
+"pos": "n.",
+"ko": "접근/접속",
+"grp": "A",
+"rank": 911,
+"level": "R4",
+"n": 1053
+},
+{
+"w": "mark",
+"pos": "n.",
+"ko": "표시/점수",
+"grp": "A",
+"rank": 920,
+"level": "R4",
+"n": 1054
+},
+{
+"w": "missing",
+"pos": "adj.",
+"ko": "없어진/실종된",
+"grp": "A",
+"rank": 921,
+"level": "R4",
+"n": 1055
+},
+{
+"w": "offer",
+"pos": "v.",
+"ko": "제안하다",
+"grp": "A",
+"rank": 922,
+"level": "R4",
+"n": 1056
+},
+{
+"w": "professional",
+"pos": "adj.",
+"ko": "전문적인/전문가",
+"grp": "A",
+"rank": 924,
+"level": "R4",
+"n": 1057
+},
+{
+"w": "risk",
+"pos": "n.",
+"ko": "위험",
+"grp": "A",
+"rank": 926,
+"level": "R4",
+"n": 1058
+},
+{
+"w": "build",
+"pos": "v.",
+"ko": "짓다/만들다",
+"grp": "A",
+"rank": 934,
+"level": "R4",
+"n": 1059
+},
+{
+"w": "district",
+"pos": "n.",
+"ko": "지역/구역",
+"grp": "A",
+"rank": 938,
+"level": "R4",
+"n": 1060
+},
+{
+"w": "minister",
+"pos": "n.",
+"ko": "장관/목사",
+"grp": "A",
+"rank": 943,
+"level": "R4",
+"n": 1061
+},
+{
+"w": "note",
+"pos": "n.",
+"ko": "메모/기록하다",
+"grp": "A",
+"rank": 944,
+"level": "R4",
+"n": 1062
+},
+{
+"w": "piece",
+"pos": "n.",
+"ko": "조각/한 개",
+"grp": "A",
+"rank": 946,
+"level": "R4",
+"n": 1063
+},
+{
+"w": "products",
+"pos": "n.",
+"ko": "제품들(product 복수)",
+"grp": "A",
+"rank": 947,
+"level": "R4",
+"n": 1064
+},
+{
+"w": "recent",
+"pos": "adj.",
+"ko": "최근의",
+"grp": "A",
+"rank": 948,
+"level": "R4",
+"n": 1065
+},
+{
+"w": "growth",
+"pos": "n.",
+"ko": "성장",
+"grp": "A",
+"rank": 963,
+"level": "R4",
+"n": 1066
+},
+{
+"w": "response",
+"pos": "n.",
+"ko": "응답/반응",
+"grp": "A",
+"rank": 971,
+"level": "R4",
+"n": 1067
+},
+{
+"w": "specific",
+"pos": "adj.",
+"ko": "구체적인",
+"grp": "A",
+"rank": 976,
+"level": "R4",
+"n": 1068
+},
+{
+"w": "standard",
+"pos": "n.",
+"ko": "표준",
+"grp": "A",
+"rank": 977,
+"level": "R4",
+"n": 1069
+},
+{
+"w": "charge",
+"pos": "n.",
+"ko": "요금/청구하다",
+"grp": "A",
+"rank": 982,
+"level": "R4",
+"n": 1070
+},
+{
+"w": "limited",
+"pos": "adj.",
+"ko": "제한된",
+"grp": "A",
+"rank": 991,
+"level": "R4",
+"n": 1071
+},
+{
+"w": "recently",
+"pos": "adv.",
+"ko": "최근에",
+"grp": "A",
+"rank": 996,
+"level": "R4",
+"n": 1072
+},
+{
+"w": "sales",
+"pos": "n.",
+"ko": "판매",
+"grp": "A",
+"rank": 998,
+"level": "R4",
+"n": 1073
+},
+{
+"w": "store",
+"pos": "n.",
+"ko": "가게/저장하다",
+"grp": "A",
+"rank": 1000,
+"level": "R4",
+"n": 1074
+},
+{
+"w": "track",
+"pos": "n.",
+"ko": "길/추적하다",
+"grp": "A",
+"rank": 1003,
+"level": "R4",
+"n": 1075
+},
+{
+"w": "weight",
+"pos": "n.",
+"ko": "무게",
+"grp": "A",
+"rank": 1006,
+"level": "R4",
+"n": 1076
+},
+{
+"w": "addition",
+"pos": "n.",
+"ko": "추가",
+"grp": "A",
+"rank": 1007,
+"level": "R4",
+"n": 1077
+},
+{
+"w": "allow",
+"pos": "v.",
+"ko": "허락하다",
+"grp": "A",
+"rank": 1009,
+"level": "R4",
+"n": 1078
+},
+{
+"w": "association",
+"pos": "n.",
+"ko": "협회",
+"grp": "A",
+"rank": 1011,
+"level": "R4",
+"n": 1079
+},
+{
+"w": "capital",
+"pos": "n.",
+"ko": "수도/자본",
+"grp": "A",
+"rank": 1014,
+"level": "R4",
+"n": 1080
+},
+{
+"w": "committee",
+"pos": "n.",
+"ko": "위원회",
+"grp": "A",
+"rank": 1016,
+"level": "R4",
+"n": 1081
+},
+{
+"w": "conference",
+"pos": "n.",
+"ko": "회의",
+"grp": "A",
+"rank": 1017,
+"level": "R4",
+"n": 1082
+},
+{
+"w": "double",
+"pos": "adj.",
+"ko": "두 배의",
+"grp": "A",
+"rank": 1019,
+"level": "R4",
+"n": 1083
+},
+{
+"w": "normal",
+"pos": "adj.",
+"ko": "보통의",
+"grp": "A",
+"rank": 1024,
+"level": "R4",
+"n": 1084
+},
+{
+"w": "population",
+"pos": "n.",
+"ko": "인구",
+"grp": "A",
+"rank": 1026,
+"level": "R4",
+"n": 1085
+},
+{
+"w": "campaign",
+"pos": "n.",
+"ko": "캠페인",
+"grp": "A",
+"rank": 1038,
+"level": "R4",
+"n": 1086
+},
+{
+"w": "focus",
+"pos": "n.",
+"ko": "초점/집중하다",
+"grp": "A",
+"rank": 1047,
+"level": "R4",
+"n": 1087
+},
+{
+"w": "individual",
+"pos": "n.",
+"ko": "개인/개개의",
+"grp": "A",
+"rank": 1051,
+"level": "R4",
+"n": 1088
+},
+{
+"w": "join",
+"pos": "v.",
+"ko": "가입하다/합류하다",
+"grp": "A",
+"rank": 1053,
+"level": "R4",
+"n": 1089
+},
+{
+"w": "nearly",
+"pos": "adv.",
+"ko": "거의",
+"grp": "A",
+"rank": 1059,
+"level": "R4",
+"n": 1090
+},
+{
+"w": "previous",
+"pos": "adj.",
+"ko": "이전의",
+"grp": "A",
+"rank": 1061,
+"level": "R4",
+"n": 1091
+},
+{
+"w": "section",
+"pos": "n.",
+"ko": "구역/부분",
+"grp": "A",
+"rank": 1065,
+"level": "R4",
+"n": 1092
+},
+{
+"w": "travel",
+"pos": "v.",
+"ko": "여행하다",
+"grp": "A",
+"rank": 1068,
+"level": "R4",
+"n": 1093
+},
+{
+"w": "consider",
+"pos": "v.",
+"ko": "고려하다",
+"grp": "A",
+"rank": 1069,
+"level": "R4",
+"n": 1094
+},
+{
+"w": "contact",
+"pos": "n.",
+"ko": "연락",
+"grp": "A",
+"rank": 1070,
+"level": "R4",
+"n": 1095
+},
+{
+"w": "drop",
+"pos": "v.",
+"ko": "떨어뜨리다/방울",
+"grp": "A",
+"rank": 1071,
+"level": "R4",
+"n": 1096
+},
+{
+"w": "fair",
+"pos": "adj.",
+"ko": "공정한/박람회",
+"grp": "A",
+"rank": 1072,
+"level": "R4",
+"n": 1097
+},
+{
+"w": "link",
+"pos": "n.",
+"ko": "연결/링크",
+"grp": "A",
+"rank": 1076,
+"level": "R4",
+"n": 1098
+},
+{
+"w": "sale",
+"pos": "n.",
+"ko": "판매/할인",
+"grp": "A",
+"rank": 1078,
+"level": "R4",
+"n": 1099
+},
+{
+"w": "tour",
+"pos": "n.",
+"ko": "여행/관광",
+"grp": "A",
+"rank": 1080,
+"level": "R4",
+"n": 1100
+},
+{
+"w": "additional",
+"pos": "adj.",
+"ko": "추가의",
+"grp": "A",
+"rank": 1083,
+"level": "R4",
+"n": 1101
+},
+{
+"w": "extra",
+"pos": "adj.",
+"ko": "추가의",
+"grp": "A",
+"rank": 1087,
+"level": "R4",
+"n": 1102
+},
+{
+"w": "immediately",
+"pos": "adv.",
+"ko": "즉시",
+"grp": "A",
+"rank": 1089,
+"level": "R4",
+"n": 1103
+},
+{
+"w": "significant",
+"pos": "adj.",
+"ko": "중요한",
+"grp": "A",
+"rank": 1097,
+"level": "R4",
+"n": 1104
+},
+{
+"w": "income",
+"pos": "n.",
+"ko": "소득",
+"grp": "A",
+"rank": 1108,
+"level": "R4",
+"n": 1105
+},
+{
+"w": "statement",
+"pos": "n.",
+"ko": "진술/성명",
+"grp": "A",
+"rank": 1121,
+"level": "R4",
+"n": 1106
+},
+{
+"w": "ability",
+"pos": "n.",
+"ko": "능력",
+"grp": "A",
+"rank": 1124,
+"level": "R4",
+"n": 1107
+},
+{
+"w": "collection",
+"pos": "n.",
+"ko": "수집품",
+"grp": "A",
+"rank": 1129,
+"level": "R4",
+"n": 1108
+},
+{
+"w": "definitely",
+"pos": "adv.",
+"ko": "분명히",
+"grp": "A",
+"rank": 1132,
+"level": "R4",
+"n": 1109
+},
+{
+"w": "knowledge",
+"pos": "n.",
+"ko": "지식",
+"grp": "A",
+"rank": 1140,
+"level": "R4",
+"n": 1110
+},
+{
+"w": "particularly",
+"pos": "adv.",
+"ko": "특히",
+"grp": "A",
+"rank": 1141,
+"level": "R4",
+"n": 1111
+},
+{
+"w": "subject",
+"pos": "n.",
+"ko": "주제/과목",
+"grp": "A",
+"rank": 1143,
+"level": "R4",
+"n": 1112
+},
+{
+"w": "author",
+"pos": "n.",
+"ko": "작가",
+"grp": "A",
+"rank": 1147,
+"level": "R4",
+"n": 1113
+},
+{
+"w": "claim",
+"pos": "v.",
+"ko": "주장하다",
+"grp": "A",
+"rank": 1149,
+"level": "R4",
+"n": 1114
+},
+{
+"w": "fit",
+"pos": "v.",
+"ko": "맞다/건강한",
+"grp": "A",
+"rank": 1153,
+"level": "R4",
+"n": 1115
+},
+{
+"w": "material",
+"pos": "n.",
+"ko": "재료/자료",
+"grp": "A",
+"rank": 1166,
+"level": "R4",
+"n": 1116
+},
+{
+"w": "regular",
+"pos": "adj.",
+"ko": "규칙적인",
+"grp": "A",
+"rank": 1173,
+"level": "R4",
+"n": 1117
+},
+{
+"w": "unit",
+"pos": "n.",
+"ko": "단위",
+"grp": "A",
+"rank": 1177,
+"level": "R4",
+"n": 1118
+},
+{
+"w": "annual",
+"pos": "adj.",
+"ko": "매년의",
+"grp": "A",
+"rank": 1179,
+"level": "R4",
+"n": 1119
+},
+{
+"w": "contract",
+"pos": "n.",
+"ko": "계약",
+"grp": "A",
+"rank": 1184,
+"level": "R4",
+"n": 1120
+},
+{
+"w": "degree",
+"pos": "n.",
+"ko": "도/학위",
+"grp": "A",
+"rank": 1185,
+"level": "R4",
+"n": 1121
+},
+{
+"w": "growing",
+"pos": "v.",
+"ko": "자라는(grow 진행)",
+"grp": "A",
+"rank": 1191,
+"level": "R4",
+"n": 1122
+},
+{
+"w": "opening",
+"pos": "n.",
+"ko": "여는/개막",
+"grp": "A",
+"rank": 1197,
+"level": "R4",
+"n": 1123
+},
+{
+"w": "reach",
+"pos": "v.",
+"ko": "닿다/도달하다",
+"grp": "A",
+"rank": 1201,
+"level": "R4",
+"n": 1124
+},
+{
+"w": "seriously",
+"pos": "adv.",
+"ko": "진지하게",
+"grp": "A",
+"rank": 1203,
+"level": "R4",
+"n": 1125
+},
+{
+"w": "successful",
+"pos": "adj.",
+"ko": "성공한",
+"grp": "A",
+"rank": 1206,
+"level": "R4",
+"n": 1126
+},
+{
+"w": "direction",
+"pos": "n.",
+"ko": "방향",
+"grp": "A",
+"rank": 1216,
+"level": "R4",
+"n": 1127
+},
+{
+"w": "stock",
+"pos": "n.",
+"ko": "주식/재고",
+"grp": "A",
+"rank": 1223,
+"level": "R4",
+"n": 1128
+},
+{
+"w": "commercial",
+"pos": "adj.",
+"ko": "상업의/광고",
+"grp": "A",
+"rank": 1233,
+"level": "R4",
+"n": 1129
+},
+{
+"w": "impact",
+"pos": "n.",
+"ko": "영향/충격",
+"grp": "A",
+"rank": 1240,
+"level": "R4",
+"n": 1130
+},
+{
+"w": "lack",
+"pos": "n.",
+"ko": "부족",
+"grp": "A",
+"rank": 1241,
+"level": "R4",
+"n": 1131
+},
+{
+"w": "latest",
+"pos": "adj.",
+"ko": "최신의",
+"grp": "A",
+"rank": 1242,
+"level": "R4",
+"n": 1132
+},
+{
+"w": "learning",
+"pos": "v.",
+"ko": "배우는/학습(learn 진행)",
+"grp": "A",
+"rank": 1243,
+"level": "R4",
+"n": 1133
+},
+{
+"w": "multiple",
+"pos": "adj.",
+"ko": "여러 개의",
+"grp": "A",
+"rank": 1244,
+"level": "R4",
+"n": 1134
+},
+{
+"w": "operation",
+"pos": "n.",
+"ko": "수술/작동",
+"grp": "A",
+"rank": 1246,
+"level": "R4",
+"n": 1135
+},
+{
+"w": "organization",
+"pos": "n.",
+"ko": "조직",
+"grp": "A",
+"rank": 1247,
+"level": "R4",
+"n": 1136
+},
+{
+"w": "address",
+"pos": "n.",
+"ko": "주소",
+"grp": "A",
+"rank": 1258,
+"level": "R4",
+"n": 1137
+},
+{
+"w": "analysis",
+"pos": "n.",
+"ko": "분석",
+"grp": "A",
+"rank": 1259,
+"level": "R4",
+"n": 1138
+},
+{
+"w": "choose",
+"pos": "v.",
+"ko": "고르다",
+"grp": "A",
+"rank": 1263,
+"level": "R4",
+"n": 1139
+},
+{
+"w": "damage",
+"pos": "n.",
+"ko": "손상",
+"grp": "A",
+"rank": 1295,
+"level": "R4",
+"n": 1140
+},
+{
+"w": "directly",
+"pos": "adv.",
+"ko": "직접",
+"grp": "A",
+"rank": 1296,
+"level": "R4",
+"n": 1141
+},
+{
+"w": "glad",
+"pos": "adj.",
+"ko": "기쁜",
+"grp": "A",
+"rank": 1307,
+"level": "R4",
+"n": 1142
+},
+{
+"w": "grow",
+"pos": "v.",
+"ko": "자라다",
+"grp": "A",
+"rank": 1309,
+"level": "R4",
+"n": 1143
+},
+{
+"w": "notice",
+"pos": "v.",
+"ko": "알아차리다/공지",
+"grp": "A",
+"rank": 1312,
+"level": "R4",
+"n": 1144
+},
+{
+"w": "overall",
+"pos": "adj.",
+"ko": "전반적인",
+"grp": "A",
+"rank": 1313,
+"level": "R4",
+"n": 1145
+},
+{
+"w": "trip",
+"pos": "n.",
+"ko": "여행",
+"grp": "A",
+"rank": 1321,
+"level": "R4",
+"n": 1146
+},
+{
+"w": "basic",
+"pos": "adj.",
+"ko": "기본적인",
+"grp": "A",
+"rank": 1323,
+"level": "R4",
+"n": 1147
+},
+{
+"w": "carry",
+"pos": "v.",
+"ko": "나르다",
+"grp": "A",
+"rank": 1325,
+"level": "R4",
+"n": 1148
+},
+{
+"w": "effective",
+"pos": "adj.",
+"ko": "효과적인",
+"grp": "A",
+"rank": 1328,
+"level": "R4",
+"n": 1149
+},
+{
+"w": "highly",
+"pos": "adv.",
+"ko": "매우",
+"grp": "A",
+"rank": 1332,
+"level": "R4",
+"n": 1150
+},
+{
+"w": "advice",
+"pos": "n.",
+"ko": "조언",
+"grp": "A",
+"rank": 1347,
+"level": "R4",
+"n": 1151
+},
+{
+"w": "agreement",
+"pos": "n.",
+"ko": "합의",
+"grp": "A",
+"rank": 1348,
+"level": "R4",
+"n": 1152
+},
+{
+"w": "award",
+"pos": "n.",
+"ko": "상",
+"grp": "A",
+"rank": 1350,
+"level": "R4",
+"n": 1153
+},
+{
+"w": "challenge",
+"pos": "n.",
+"ko": "도전",
+"grp": "A",
+"rank": 1354,
+"level": "R4",
+"n": 1154
+},
+{
+"w": "comment",
+"pos": "n.",
+"ko": "댓글/의견",
+"grp": "A",
+"rank": 1357,
+"level": "R4",
+"n": 1155
+},
+{
+"w": "equipment",
+"pos": "n.",
+"ko": "장비",
+"grp": "A",
+"rank": 1358,
+"level": "R4",
+"n": 1156
+},
+{
+"w": "eventually",
+"pos": "adv.",
+"ko": "결국",
+"grp": "A",
+"rank": 1359,
+"level": "R4",
+"n": 1157
+},
+{
+"w": "otherwise",
+"pos": "adv.",
+"ko": "그렇지 않으면",
+"grp": "A",
+"rank": 1366,
+"level": "R4",
+"n": 1158
+},
+{
+"w": "purpose",
+"pos": "n.",
+"ko": "목적",
+"grp": "A",
+"rank": 1370,
+"level": "R4",
+"n": 1159
+},
+{
+"w": "theory",
+"pos": "n.",
+"ko": "이론",
+"grp": "A",
+"rank": 1377,
+"level": "R4",
+"n": 1160
+},
+{
+"w": "avoid",
+"pos": "v.",
+"ko": "피하다",
+"grp": "A",
+"rank": 1381,
+"level": "R4",
+"n": 1161
+},
+{
+"w": "coast",
+"pos": "n.",
+"ko": "해안",
+"grp": "A",
+"rank": 1385,
+"level": "R4",
+"n": 1162
+},
+{
+"w": "economy",
+"pos": "n.",
+"ko": "경제",
+"grp": "A",
+"rank": 1388,
+"level": "R4",
+"n": 1163
+},
+{
+"w": "executive",
+"pos": "n.",
+"ko": "임원",
+"grp": "A",
+"rank": 1390,
+"level": "R4",
+"n": 1164
+},
+{
+"w": "status",
+"pos": "n.",
+"ko": "지위/상태",
+"grp": "A",
+"rank": 1404,
+"level": "R4",
+"n": 1165
+},
+{
+"w": "complex",
+"pos": "adj.",
+"ko": "복잡한",
+"grp": "A",
+"rank": 1414,
+"level": "R4",
+"n": 1166
+},
+{
+"w": "location",
+"pos": "n.",
+"ko": "위치",
+"grp": "A",
+"rank": 1425,
+"level": "R4",
+"n": 1167
+},
+{
+"w": "accept",
+"pos": "v.",
+"ko": "받아들이다",
+"grp": "A",
+"rank": 1436,
+"level": "R4",
+"n": 1168
+},
+{
+"w": "finding",
+"pos": "v.",
+"ko": "찾는(find 진행)",
+"grp": "A",
+"rank": 1447,
+"level": "R4",
+"n": 1169
+},
+{
+"w": "prior",
+"pos": "adj.",
+"ko": "이전의",
+"grp": "A",
+"rank": 1456,
+"level": "R4",
+"n": 1170
+},
+{
+"w": "receive",
+"pos": "v.",
+"ko": "받다",
+"grp": "A",
+"rank": 1459,
+"level": "R4",
+"n": 1171
+},
+{
+"w": "ride",
+"pos": "v.",
+"ko": "타다",
+"grp": "A",
+"rank": 1461,
+"level": "R4",
+"n": 1172
+},
+{
+"w": "serve",
+"pos": "v.",
+"ko": "제공하다/섬기다",
+"grp": "A",
+"rank": 1465,
+"level": "R4",
+"n": 1173
+},
+{
+"w": "demand",
+"pos": "n.",
+"ko": "요구/수요",
+"grp": "A",
+"rank": 1486,
+"level": "R4",
+"n": 1174
+},
+{
+"w": "famous",
+"pos": "adj.",
+"ko": "유명한",
+"grp": "A",
+"rank": 1489,
+"level": "R4",
+"n": 1175
+},
+{
+"w": "investment",
+"pos": "n.",
+"ko": "투자",
+"grp": "A",
+"rank": 1491,
+"level": "R4",
+"n": 1176
+},
+{
+"w": "lie",
+"pos": "n.",
+"ko": "거짓말/눕다",
+"grp": "A",
+"rank": 1493,
+"level": "R4",
+"n": 1177
+},
+{
+"w": "solution",
+"pos": "n.",
+"ko": "해결책",
+"grp": "A",
+"rank": 1500,
+"level": "R4",
+"n": 1178
+},
+{
+"w": "structure",
+"pos": "n.",
+"ko": "구조",
+"grp": "A",
+"rank": 1506,
+"level": "R4",
+"n": 1179
+},
+{
+"w": "traditional",
+"pos": "adj.",
+"ko": "전통적인",
+"grp": "A",
+"rank": 1508,
+"level": "R4",
+"n": 1180
+},
+{
+"w": "critical",
+"pos": "adj.",
+"ko": "비판적인/중요한",
+"grp": "A",
+"rank": 1521,
+"level": "R4",
+"n": 1181
+},
+{
+"w": "previously",
+"pos": "adv.",
+"ko": "이전에",
+"grp": "A",
+"rank": 1534,
+"level": "R4",
+"n": 1182
+},
+{
+"w": "separate",
+"pos": "adj.",
+"ko": "분리된",
+"grp": "A",
+"rank": 1539,
+"level": "R4",
+"n": 1183
+},
+{
+"w": "surface",
+"pos": "n.",
+"ko": "표면",
+"grp": "A",
+"rank": 1542,
+"level": "R4",
+"n": 1184
+},
+{
+"w": "totally",
+"pos": "adv.",
+"ko": "완전히",
+"grp": "A",
+"rank": 1545,
+"level": "R4",
+"n": 1185
+},
+{
+"w": "benefit",
+"pos": "n.",
+"ko": "이익",
+"grp": "A",
+"rank": 1553,
+"level": "R4",
+"n": 1186
+},
+{
+"w": "budget",
+"pos": "n.",
+"ko": "예산",
+"grp": "A",
+"rank": 1554,
+"level": "R4",
+"n": 1187
+},
+{
+"w": "feature",
+"pos": "n.",
+"ko": "특징",
+"grp": "A",
+"rank": 1560,
+"level": "R4",
+"n": 1188
+},
+{
+"w": "fund",
+"pos": "n.",
+"ko": "기금",
+"grp": "A",
+"rank": 1561,
+"level": "R4",
+"n": 1189
+},
+{
+"w": "hearing",
+"pos": "v.",
+"ko": "듣는/청력(hear 진행)",
+"grp": "A",
+"rank": 1563,
+"level": "R4",
+"n": 1190
+},
+{
+"w": "seat",
+"pos": "n.",
+"ko": "좌석",
+"grp": "A",
+"rank": 1576,
+"level": "R4",
+"n": 1191
+},
+{
+"w": "agent",
+"pos": "n.",
+"ko": "요원/대리인",
+"grp": "A",
+"rank": 1583,
+"level": "R4",
+"n": 1192
+},
+{
+"w": "apply",
+"pos": "v.",
+"ko": "지원하다/적용하다",
+"grp": "A",
+"rank": 1585,
+"level": "R4",
+"n": 1193
+},
+{
+"w": "authority",
+"pos": "n.",
+"ko": "권위",
+"grp": "A",
+"rank": 1586,
+"level": "R4",
+"n": 1194
+},
+{
+"w": "draw",
+"pos": "v.",
+"ko": "그리다",
+"grp": "A",
+"rank": 1590,
+"level": "R4",
+"n": 1195
+},
+{
+"w": "enter",
+"pos": "v.",
+"ko": "들어가다",
+"grp": "A",
+"rank": 1593,
+"level": "R4",
+"n": 1196
+},
+{
+"w": "foundation",
+"pos": "n.",
+"ko": "기초/재단",
+"grp": "A",
+"rank": 1596,
+"level": "R4",
+"n": 1197
+},
+{
+"w": "gain",
+"pos": "v.",
+"ko": "얻다",
+"grp": "A",
+"rank": 1597,
+"level": "R4",
+"n": 1198
+},
+{
+"w": "supply",
+"pos": "n.",
+"ko": "공급",
+"grp": "A",
+"rank": 1612,
+"level": "R4",
+"n": 1199
+},
+{
+"w": "waste",
+"pos": "n.",
+"ko": "낭비/쓰레기",
+"grp": "A",
+"rank": 1613,
+"level": "R4",
+"n": 1200
+},
+{
+"w": "apparently",
+"pos": "adv.",
+"ko": "듣자 하니",
+"grp": "A",
+"rank": 1616,
+"level": "R4",
+"n": 1201
+},
+{
+"w": "edition",
+"pos": "n.",
+"ko": "판",
+"grp": "A",
+"rank": 1619,
+"level": "R4",
+"n": 1202
+},
+{
+"w": "institute",
+"pos": "n.",
+"ko": "기관/연구소",
+"grp": "A",
+"rank": 1624,
+"level": "R4",
+"n": 1203
+},
+{
+"w": "extremely",
+"pos": "adv.",
+"ko": "극도로",
+"grp": "A",
+"rank": 1653,
+"level": "R4",
+"n": 1204
+},
+{
+"w": "firm",
+"pos": "n.",
+"ko": "회사/단단한",
+"grp": "A",
+"rank": 1654,
+"level": "R4",
+"n": 1205
+},
+{
+"w": "handle",
+"pos": "n.",
+"ko": "손잡이/다루다",
+"grp": "A",
+"rank": 1656,
+"level": "R4",
+"n": 1206
+},
+{
+"w": "improve",
+"pos": "v.",
+"ko": "개선하다",
+"grp": "A",
+"rank": 1657,
+"level": "R4",
+"n": 1207
+},
+{
+"w": "trouble",
+"pos": "n.",
+"ko": "문제/곤란",
+"grp": "A",
+"rank": 1668,
+"level": "R4",
+"n": 1208
+},
+{
+"w": "advantage",
+"pos": "n.",
+"ko": "이점",
+"grp": "A",
+"rank": 1671,
+"level": "R4",
+"n": 1209
+},
+{
+"w": "aware",
+"pos": "adj.",
+"ko": "알고 있는",
+"grp": "A",
+"rank": 1673,
+"level": "R4",
+"n": 1210
+},
+{
+"w": "decide",
+"pos": "v.",
+"ko": "결정하다",
+"grp": "A",
+"rank": 1676,
+"level": "R4",
+"n": 1211
+},
+{
+"w": "dinner",
+"pos": "n.",
+"ko": "저녁식사",
+"grp": "A",
+"rank": 1677,
+"level": "R4",
+"n": 1212
+},
+{
+"w": "produce",
+"pos": "v.",
+"ko": "생산하다/농산물",
+"grp": "A",
+"rank": 1694,
+"level": "R4",
+"n": 1213
+},
+{
+"w": "require",
+"pos": "v.",
+"ko": "필요로 하다/요구하다",
+"grp": "A",
+"rank": 1697,
+"level": "R4",
+"n": 1214
+},
+{
+"w": "copy",
+"pos": "n.",
+"ko": "복사(하다)",
+"grp": "A",
+"rank": 1713,
+"level": "R4",
+"n": 1215
+},
+{
+"w": "host",
+"pos": "n.",
+"ko": "주인/진행자",
+"grp": "A",
+"rank": 1719,
+"level": "R4",
+"n": 1216
+},
+{
+"w": "journal",
+"pos": "n.",
+"ko": "저널/일기",
+"grp": "A",
+"rank": 1723,
+"level": "R4",
+"n": 1217
+},
+{
+"w": "labor",
+"pos": "n.",
+"ko": "노동",
+"grp": "A",
+"rank": 1724,
+"level": "R4",
+"n": 1218
+},
+{
+"w": "length",
+"pos": "n.",
+"ko": "길이",
+"grp": "A",
+"rank": 1726,
+"level": "R4",
+"n": 1219
+},
+{
+"w": "prove",
+"pos": "v.",
+"ko": "증명하다",
+"grp": "A",
+"rank": 1732,
+"level": "R4",
+"n": 1220
+},
+{
+"w": "rare",
+"pos": "adj.",
+"ko": "드문",
+"grp": "A",
+"rank": 1733,
+"level": "R4",
+"n": 1221
+},
+{
+"w": "balance",
+"pos": "n.",
+"ko": "균형/잔액",
+"grp": "A",
+"rank": 1743,
+"level": "R4",
+"n": 1222
+},
+{
+"w": "request",
+"pos": "n.",
+"ko": "요청(하다)",
+"grp": "A",
+"rank": 1762,
+"level": "R4",
+"n": 1223
+},
+{
+"w": "vehicle",
+"pos": "n.",
+"ko": "차량",
+"grp": "A",
+"rank": 1766,
+"level": "R4",
+"n": 1224
+},
+{
+"w": "volume",
+"pos": "n.",
+"ko": "음량/부피",
+"grp": "A",
+"rank": 1767,
+"level": "R4",
+"n": 1225
+},
+{
+"w": "develop",
+"pos": "v.",
+"ko": "개발하다/발전시키다",
+"grp": "A",
+"rank": 1781,
+"level": "R4",
+"n": 1226
+},
+{
+"w": "existing",
+"pos": "adj.",
+"ko": "기존의",
+"grp": "A",
+"rank": 1784,
+"level": "R4",
+"n": 1227
+},
+{
+"w": "file",
+"pos": "n.",
+"ko": "파일/서류철",
+"grp": "A",
+"rank": 1786,
+"level": "R4",
+"n": 1228
+},
+{
+"w": "investigation",
+"pos": "n.",
+"ko": "조사/수사",
+"grp": "A",
+"rank": 1792,
+"level": "R4",
+"n": 1229
+},
+{
+"w": "raise",
+"pos": "v.",
+"ko": "올리다/기르다",
+"grp": "A",
+"rank": 1797,
+"level": "R4",
+"n": 1230
+},
+{
+"w": "responsibility",
+"pos": "n.",
+"ko": "책임",
+"grp": "A",
+"rank": 1798,
+"level": "R4",
+"n": 1231
+},
+{
+"w": "slightly",
+"pos": "adv.",
+"ko": "약간",
+"grp": "A",
+"rank": 1800,
+"level": "R4",
+"n": 1232
+},
+{
+"w": "suggest",
+"pos": "v.",
+"ko": "제안하다",
+"grp": "A",
+"rank": 1801,
+"level": "R4",
+"n": 1233
+},
+{
+"w": "unique",
+"pos": "adj.",
+"ko": "독특한",
+"grp": "A",
+"rank": 1806,
+"level": "R4",
+"n": 1234
+},
+{
+"w": "appreciate",
+"pos": "v.",
+"ko": "감사하다/진가를 알아보다",
+"grp": "A",
+"rank": 1812,
+"level": "R4",
+"n": 1235
+},
+{
+"w": "reference",
+"pos": "n.",
+"ko": "참조/언급",
+"grp": "A",
+"rank": 1836,
+"level": "R4",
+"n": 1236
+},
+{
+"w": "strategy",
+"pos": "n.",
+"ko": "전략",
+"grp": "A",
+"rank": 1841,
+"level": "R4",
+"n": 1237
+},
+{
+"w": "audience",
+"pos": "n.",
+"ko": "관객",
+"grp": "A",
+"rank": 1848,
+"level": "R4",
+"n": 1238
+},
+{
+"w": "description",
+"pos": "n.",
+"ko": "설명/묘사",
+"grp": "A",
+"rank": 1854,
+"level": "R4",
+"n": 1239
+},
+{
+"w": "mention",
+"pos": "v.",
+"ko": "언급하다",
+"grp": "A",
+"rank": 1869,
+"level": "R4",
+"n": 1240
+},
+{
+"w": "presence",
+"pos": "n.",
+"ko": "존재/참석",
+"grp": "A",
+"rank": 1874,
+"level": "R4",
+"n": 1241
+},
+{
+"w": "solid",
+"pos": "adj.",
+"ko": "단단한/고체",
+"grp": "A",
+"rank": 1879,
+"level": "R4",
+"n": 1242
+},
+{
+"w": "taste",
+"pos": "n.",
+"ko": "맛/맛보다",
+"grp": "A",
+"rank": 1884,
+"level": "R4",
+"n": 1243
+},
+{
+"w": "emergency",
+"pos": "n.",
+"ko": "비상(사태)",
+"grp": "A",
+"rank": 1895,
+"level": "R4",
+"n": 1244
+},
+{
+"w": "entirely",
+"pos": "adv.",
+"ko": "완전히",
+"grp": "A",
+"rank": 1897,
+"level": "R4",
+"n": 1245
+},
+{
+"w": "failure",
+"pos": "n.",
+"ko": "실패",
+"grp": "A",
+"rank": 1899,
+"level": "R4",
+"n": 1246
+},
+{
+"w": "fuel",
+"pos": "n.",
+"ko": "연료",
+"grp": "A",
+"rank": 1902,
+"level": "R4",
+"n": 1247
+},
+{
+"w": "initial",
+"pos": "adj.",
+"ko": "처음의",
+"grp": "A",
+"rank": 1907,
+"level": "R4",
+"n": 1248
+},
+{
+"w": "quarter",
+"pos": "n.",
+"ko": "4분의 1/분기",
+"grp": "A",
+"rank": 1923,
+"level": "R4",
+"n": 1249
+},
+{
+"w": "session",
+"pos": "n.",
+"ko": "회기/시간",
+"grp": "A",
+"rank": 1926,
+"level": "R4",
+"n": 1250
+},
+{
+"w": "transfer",
+"pos": "n.",
+"ko": "이동/이체",
+"grp": "A",
+"rank": 1931,
+"level": "R4",
+"n": 1251
+},
+{
+"w": "advanced",
+"pos": "adj.",
+"ko": "고급의/발전된",
+"grp": "A",
+"rank": 1940,
+"level": "R4",
+"n": 1252
+},
+{
+"w": "alternative",
+"pos": "n.",
+"ko": "대안",
+"grp": "A",
+"rank": 1941,
+"level": "R4",
+"n": 1253
+},
+{
+"w": "capacity",
+"pos": "n.",
+"ko": "용량/능력",
+"grp": "A",
+"rank": 1948,
+"level": "R4",
+"n": 1254
+},
+{
+"w": "joint",
+"pos": "n.",
+"ko": "관절/공동의",
+"grp": "A",
+"rank": 1962,
+"level": "R4",
+"n": 1255
+},
+{
+"w": "museum",
+"pos": "n.",
+"ko": "박물관",
+"grp": "A",
+"rank": 1964,
+"level": "R4",
+"n": 1256
+},
+{
+"w": "path",
+"pos": "n.",
+"ko": "길",
+"grp": "A",
+"rank": 1966,
+"level": "R4",
+"n": 1257
+},
+{
+"w": "purchase",
+"pos": "n.",
+"ko": "구매(하다)",
+"grp": "A",
+"rank": 1971,
+"level": "R4",
+"n": 1258
+},
+{
+"w": "remove",
+"pos": "v.",
+"ko": "제거하다",
+"grp": "A",
+"rank": 1973,
+"level": "R4",
+"n": 1259
+},
+{
+"w": "spending",
+"pos": "n.",
+"ko": "지출/쓰는",
+"grp": "A",
+"rank": 1975,
+"level": "R4",
+"n": 1260
+},
+{
+"w": "fixed",
+"pos": "v.",
+"ko": "고정된/고쳤다",
+"grp": "A",
+"rank": 2001,
+"level": "R4",
+"n": 1261
+},
+{
+"w": "profit",
+"pos": "n.",
+"ko": "이익",
+"grp": "A",
+"rank": 2010,
+"level": "R4",
+"n": 1262
+},
+{
+"w": "suit",
+"pos": "n.",
+"ko": "정장/어울리다",
+"grp": "A",
+"rank": 2014,
+"level": "R4",
+"n": 1263
+},
+{
+"w": "appearance",
+"pos": "n.",
+"ko": "외모/등장",
+"grp": "A",
+"rank": 2017,
+"level": "R4",
+"n": 1264
+},
+{
+"w": "expensive",
+"pos": "adj.",
+"ko": "비싼",
+"grp": "A",
+"rank": 2030,
+"level": "R4",
+"n": 1265
+},
+{
+"w": "honor",
+"pos": "n.",
+"ko": "영예/존경하다",
+"grp": "A",
+"rank": 2035,
+"level": "R4",
+"n": 1266
+},
+{
+"w": "launch",
+"pos": "v.",
+"ko": "발사하다/출시",
+"grp": "A",
+"rank": 2038,
+"level": "R4",
+"n": 1267
+},
+{
+"w": "originally",
+"pos": "adv.",
+"ko": "원래",
+"grp": "A",
+"rank": 2043,
+"level": "R4",
+"n": 1268
+},
+{
+"w": "survey",
+"pos": "n.",
+"ko": "조사",
+"grp": "A",
+"rank": 2050,
+"level": "R4",
+"n": 1269
+},
+{
+"w": "exercise",
+"pos": "n.",
+"ko": "운동(하다)",
+"grp": "A",
+"rank": 2068,
+"level": "R4",
+"n": 1270
+},
+{
+"w": "loan",
+"pos": "n.",
+"ko": "대출",
+"grp": "A",
+"rank": 2077,
+"level": "R4",
+"n": 1271
+},
+{
+"w": "appeal",
+"pos": "n.",
+"ko": "호소/매력",
+"grp": "A",
+"rank": 2102,
+"level": "R4",
+"n": 1272
+},
+{
+"w": "appropriate",
+"pos": "adj.",
+"ko": "적절한",
+"grp": "A",
+"rank": 2104,
+"level": "R4",
+"n": 1273
+},
+{
+"w": "device",
+"pos": "n.",
+"ko": "기기",
+"grp": "A",
+"rank": 2109,
+"level": "R4",
+"n": 1274
+},
+{
+"w": "entry",
+"pos": "n.",
+"ko": "입장/항목",
+"grp": "A",
+"rank": 2111,
+"level": "R4",
+"n": 1275
+},
+{
+"w": "grant",
+"pos": "v.",
+"ko": "허락하다/보조금",
+"grp": "A",
+"rank": 2116,
+"level": "R4",
+"n": 1276
+},
+{
+"w": "route",
+"pos": "n.",
+"ko": "경로",
+"grp": "A",
+"rank": 2135,
+"level": "R4",
+"n": 1277
+},
+{
+"w": "schedule",
+"pos": "n.",
+"ko": "일정",
+"grp": "A",
+"rank": 2137,
+"level": "R4",
+"n": 1278
+},
+{
+"w": "candidate",
+"pos": "n.",
+"ko": "후보",
+"grp": "A",
+"rank": 2152,
+"level": "R4",
+"n": 1279
+},
+{
+"w": "concern",
+"pos": "n.",
+"ko": "걱정/관심사",
+"grp": "A",
+"rank": 2154,
+"level": "R4",
+"n": 1280
+},
+{
+"w": "discuss",
+"pos": "v.",
+"ko": "논의하다",
+"grp": "A",
+"rank": 2156,
+"level": "R4",
+"n": 1281
+},
+{
+"w": "relatively",
+"pos": "adv.",
+"ko": "비교적",
+"grp": "A",
+"rank": 2187,
+"level": "R4",
+"n": 1282
+},
+{
+"w": "advance",
+"pos": "v.",
+"ko": "전진/앞서다",
+"grp": "A",
+"rank": 2198,
+"level": "R4",
+"n": 1283
+},
+{
+"w": "maintain",
+"pos": "v.",
+"ko": "유지하다",
+"grp": "A",
+"rank": 2217,
+"level": "R4",
+"n": 1284
+},
+{
+"w": "measure",
+"pos": "v.",
+"ko": "재다/조치",
+"grp": "A",
+"rank": 2218,
+"level": "R4",
+"n": 1285
+},
+{
+"w": "numerous",
+"pos": "adj.",
+"ko": "수많은",
+"grp": "A",
+"rank": 2220,
+"level": "R4",
+"n": 1286
+},
+{
+"w": "specifically",
+"pos": "adv.",
+"ko": "구체적으로",
+"grp": "A",
+"rank": 2226,
+"level": "R4",
+"n": 1287
+},
+{
+"w": "urban",
+"pos": "adj.",
+"ko": "도시의",
+"grp": "A",
+"rank": 2232,
+"level": "R4",
+"n": 1288
+},
+{
+"w": "approximately",
+"pos": "adv.",
+"ko": "대략",
+"grp": "A",
+"rank": 2238,
+"level": "R4",
+"n": 1289
+},
+{
+"w": "conflict",
+"pos": "n.",
+"ko": "갈등",
+"grp": "A",
+"rank": 2242,
+"level": "R4",
+"n": 1290
+},
+{
+"w": "distribution",
+"pos": "n.",
+"ko": "분배/유통",
+"grp": "A",
+"rank": 2247,
+"level": "R4",
+"n": 1291
+},
+{
+"w": "fill",
+"pos": "v.",
+"ko": "채우다",
+"grp": "A",
+"rank": 2254,
+"level": "R4",
+"n": 1292
+},
+{
+"w": "properly",
+"pos": "adv.",
+"ko": "제대로",
+"grp": "A",
+"rank": 2264,
+"level": "R4",
+"n": 1293
+},
+{
+"w": "residents",
+"pos": "n.",
+"ko": "주민들",
+"grp": "A",
+"rank": 2268,
+"level": "R4",
+"n": 1294
+},
+{
+"w": "revenue",
+"pos": "n.",
+"ko": "수익",
+"grp": "A",
+"rank": 2269,
+"level": "R4",
+"n": 1295
+},
+{
+"w": "secure",
+"pos": "adj.",
+"ko": "안전한/확보하다",
+"grp": "A",
+"rank": 2272,
+"level": "R4",
+"n": 1296
+},
+{
+"w": "temperature",
+"pos": "n.",
+"ko": "온도/체온",
+"grp": "A",
+"rank": 2276,
+"level": "R4",
+"n": 1297
+},
+{
+"w": "coverage",
+"pos": "n.",
+"ko": "보도/적용 범위",
+"grp": "A",
+"rank": 2294,
+"level": "R4",
+"n": 1298
+},
+{
+"w": "determine",
+"pos": "v.",
+"ko": "결정하다/알아내다",
+"grp": "A",
+"rank": 2295,
+"level": "R4",
+"n": 1299
+},
+{
+"w": "experienced",
+"pos": "adj.",
+"ko": "경험 많은",
+"grp": "A",
+"rank": 2300,
+"level": "R4",
+"n": 1300
+},
+{
+"w": "false",
+"pos": "adj.",
+"ko": "거짓의",
+"grp": "A",
+"rank": 2302,
+"level": "R4",
+"n": 1301
+},
+{
+"w": "editor",
+"pos": "n.",
+"ko": "편집자",
+"grp": "A",
+"rank": 2344,
+"level": "R4",
+"n": 1302
+},
+{
+"w": "mayor",
+"pos": "n.",
+"ko": "시장(市長)",
+"grp": "A",
+"rank": 2353,
+"level": "R4",
+"n": 1303
+},
+{
+"w": "unfortunately",
+"pos": "adv.",
+"ko": "불행히도",
+"grp": "A",
+"rank": 2373,
+"level": "R4",
+"n": 1304
+},
+{
+"w": "assembly",
+"pos": "n.",
+"ko": "집회/조립",
+"grp": "A",
+"rank": 2382,
+"level": "R4",
+"n": 1305
+},
+{
+"w": "customer",
+"pos": "n.",
+"ko": "손님/고객",
+"grp": "A",
+"rank": 2391,
+"level": "R4",
+"n": 1306
+},
+{
+"w": "draft",
+"pos": "n.",
+"ko": "초안",
+"grp": "A",
+"rank": 2395,
+"level": "R4",
+"n": 1307
+},
+{
+"w": "familiar",
+"pos": "adj.",
+"ko": "익숙한",
+"grp": "A",
+"rank": 2399,
+"level": "R4",
+"n": 1308
+},
+{
+"w": "largely",
+"pos": "adv.",
+"ko": "대체로",
+"grp": "A",
+"rank": 2408,
+"level": "R4",
+"n": 1309
+},
+{
+"w": "relevant",
+"pos": "adj.",
+"ko": "관련 있는",
+"grp": "A",
+"rank": 2418,
+"level": "R4",
+"n": 1310
+},
+{
+"w": "seek",
+"pos": "v.",
+"ko": "찾다/추구하다",
+"grp": "A",
+"rank": 2419,
+"level": "R4",
+"n": 1311
+},
+{
+"w": "facility",
+"pos": "n.",
+"ko": "시설",
+"grp": "A",
+"rank": 2441,
+"level": "R4",
+"n": 1312
+},
+{
+"w": "reserve",
+"pos": "v.",
+"ko": "예약하다/비축",
+"grp": "A",
+"rank": 2453,
+"level": "R4",
+"n": 1313
+},
+{
+"w": "affect",
+"pos": "v.",
+"ko": "영향을 미치다",
+"grp": "A",
+"rank": 2467,
+"level": "R4",
+"n": 1314
+},
+{
+"w": "assistance",
+"pos": "n.",
+"ko": "도움",
+"grp": "A",
+"rank": 2471,
+"level": "R4",
+"n": 1315
+},
+{
+"w": "corporation",
+"pos": "n.",
+"ko": "기업",
+"grp": "A",
+"rank": 2481,
+"level": "R4",
+"n": 1316
+},
+{
+"w": "deserve",
+"pos": "v.",
+"ko": "~할 자격이 있다",
+"grp": "A",
+"rank": 2486,
+"level": "R4",
+"n": 1317
+}
+]
+}

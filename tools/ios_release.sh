@@ -1,7 +1,7 @@
 #!/bin/bash
 # iOS 배포(맥미니): 아카이브(서명 없음) → App Store 용 자동 서명 export → App Store Connect 업로드(Xcode 에 로그인된 Apple ID 사용)
 #   → PC OneDrive(D:\OneDrive\app project\english_universe\ios\)에 .ipa 백업.
-#   bash tools/ios_release.sh [--no-build] [--no-upload] [--build <번호>]
+#   APP=toeic bash tools/ios_release.sh [--no-build] [--no-upload] [--build <번호>]   (APP = english|toeic|toeic_speaking|opic, 기본 english — 앱내앱 2026-11-08)
 # 빌드 번호(CFBundleVersion)는 업로드마다 커져야 한다 — 기본값은 KST 시각(yymmddHHMM, 예 2611011230).
 # 전제: Xcode 에 Apple ID 로그인·팀 QP8QRMA9CC, App Store Connect 에 앱 레코드(번들 ID com.talkverse.englishUniverse) 존재.
 #   레코드가 없으면 업로드가 missingApp 으로 실패한다(export 까지는 된다 — 번들 ID 는 그때 포털에 자동 등록).
@@ -12,14 +12,18 @@ TEAM="QP8QRMA9CC"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 export PATH=/opt/homebrew/bin:$PATH
-APP="$(grep '^name:' pubspec.yaml | awk '{print $2}')"
+FLAVOR="${APP:-english}"
+bash tools/select_app.sh "$FLAVOR"                       # ios/Flutter/App.xcconfig: 번들 ID·표시 이름·스킴
+BUNDLE_ID="$(sed -n 's/^APP_BUNDLE_ID = //p' ios/Flutter/App.xcconfig)"
+APP="$(grep '^name:' pubspec.yaml | awk '{print $2}')"; [ "$FLAVOR" = english ] || APP="$FLAVOR"
+trap 'bash tools/select_app.sh english >/dev/null' EXIT    # 끝나면 커밋된 기본값(english)으로 되돌린다
 ARCHIVE="build/ios/archive/Runner.xcarchive"
 OUT="build/ios/ipa_appstore"
 BUILD="$(TZ=Asia/Seoul date +%y%m%d%H%M)"
 for ((i = 1; i <= $#; i++)); do [[ "${!i}" == "--build" ]] && { j=$((i + 1)); BUILD="${!j}"; }; done
 
 if [[ " $* " != *" --no-build "* ]]; then
-  flutter build ipa --release --export-method app-store --no-codesign --build-number="$BUILD"
+  flutter build ipa --release --export-method app-store --no-codesign --build-number="$BUILD" --dart-define=APP="$FLAVOR"
 fi
 [ -d "$ARCHIVE" ] || { echo "아카이브 없음: $ARCHIVE" >&2; exit 1; }
 # --no-codesign 아카이브는 entitlements(Sign in with Apple)가 빠진다 → ad-hoc 서명으로 심어 두면 export 재서명이 가져간다(APP_GUIDE §7, 2026-11-02)
@@ -64,9 +68,9 @@ if [[ " $* " != *" --no-upload "* ]]; then
   plist upload > build/ios/ExportOptions_upload.plist
   if xcodebuild -exportArchive -allowProvisioningUpdates -archivePath "$ARCHIVE" \
       -exportOptionsPlist build/ios/ExportOptions_upload.plist -exportPath build/ios/upload_log 2>&1 | grep -E "error|EXPORT|Upload"; then
-    echo "App Store Connect 업로드 끝(빌드 $BUILD) — 처리(5~15분) 뒤 TestFlight 에 나타난다."
+    echo "App Store Connect 업로드 끝($FLAVOR 빌드 $BUILD) — 처리(5~15분) 뒤 TestFlight 에 나타난다."
   else
-    echo "업로드 실패 — App Store Connect 에 앱 레코드(번들 ID com.talkverse.englishUniverse)가 있는지 확인. 상세: 최신 /var/folders/**/Runner_*.xcdistributionlogs/IDEDistribution.standard.log" >&2
+    echo "업로드 실패 — App Store Connect 에 앱 레코드(번들 ID $BUNDLE_ID)가 있는지 확인. 상세: 최신 /var/folders/**/Runner_*.xcdistributionlogs/IDEDistribution.standard.log" >&2
     exit 1
   fi
 fi

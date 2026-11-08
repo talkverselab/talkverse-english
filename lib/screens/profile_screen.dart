@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../core/app_flavor.dart';
 import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
@@ -10,6 +11,7 @@ import '../services/tts_service.dart';
 import '../widgets/achievement_desk.dart';
 import '../widgets/english_decor.dart';
 import '../widgets/stress_text.dart';
+import '../widgets/app_family.dart';
 import '../widgets/stress_toggle.dart';
 import 'about_screen.dart';
 
@@ -130,12 +132,19 @@ class _ProfileScreenState extends State<ProfileScreen> {
         ),
       ]),
       const SizedBox(height: 18),
+      _SectionTitle(tr('앱 가족')),
+      const SizedBox(height: 8),
+      const AppFamilyList(),
+      const SizedBox(height: 10),
       _SectionTitle(tr('정보')),
       const SizedBox(height: 8),
       _SettingsGroup(items: [
-        _SettingItem(icon: Icons.menu_book_outlined, title: tr('앱 소개'), subtitle: tr('절벽구간 — 단어를 나누는 기준'), onTap: () => openPane(context, (_) => const AboutScreen())),
+        if (AppFlavor.current == AppFlavor.english)
+          _SettingItem(icon: Icons.menu_book_outlined, title: tr('앱 소개'), subtitle: tr('절벽구간 — 단어를 나누는 기준'), onTap: () => openPane(context, (_) => const AboutScreen()))
+        else
+          _SettingItem(icon: Icons.menu_book_outlined, title: tr('앱 소개'), subtitle: tr(AppFlavor.current.tagline)),
         _SettingItem(icon: Icons.info_outline, title: tr('앱 버전'), subtitle: _version.isEmpty ? '—' : _version),
-        _SettingItem(icon: Icons.copyright, title: tr('저작권'), subtitle: tr('영어유니버스 · 2026')),
+        _SettingItem(icon: Icons.copyright, title: tr('저작권'), subtitle: '${AppFlavor.current.nameKo} · 2026'),
       ]),
       const SizedBox(height: 20),
       const BrushDivider(),

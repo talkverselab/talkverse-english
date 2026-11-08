@@ -238,7 +238,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
                   return ListView.builder(
                     padding: EdgeInsets.fromLTRB(12, 8, 12, 24 + MediaQuery.paddingOf(context).bottom),
                     itemCount: units.length,
-                    itemBuilder: (context, i) => _UnitBlock(index: i + 1, offset: i * kUnit, convFrom: convFrom, words: units[i], cols: cols, colors: _levelColor),
+                    itemBuilder: (context, i) => UnitBlock(index: i + 1, offset: i * kUnit, convFrom: convFrom, words: units[i], cols: cols, colors: _levelColor),
                   );
                 }),
               ),
@@ -272,14 +272,16 @@ class _ModeButton extends StatelessWidget {
 }
 
 /// 한 단원 = 20어. 머리줄(단원 번호·순위 범위·구간) + 네모 타일 격자.
-class _UnitBlock extends StatelessWidget {
+class UnitBlock extends StatelessWidget {
   final int index;
   final int offset;
   final int convFrom;
   final List<EnWord> words;
   final int cols;
   final Map<String, Color> colors;
-  const _UnitBlock({required this.index, required this.offset, required this.convFrom, required this.words, required this.cols, required this.colors});
+  /// [labels] = 구간 코드 → 배지 글(없으면 코드 그대로). 토익 단어 화면도 쓴다.
+  final Map<String, String> labels;
+  const UnitBlock({super.key, required this.index, required this.offset, required this.convFrom, required this.words, required this.cols, required this.colors, this.labels = const {}});
 
   @override
   Widget build(BuildContext context) {
@@ -300,7 +302,7 @@ class _UnitBlock extends StatelessWidget {
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
               decoration: BoxDecoration(color: color, borderRadius: BorderRadius.circular(4)),
-              child: Text(conv ? tr('회화') : first.level, style: const TextStyle(color: AppColors.washi, fontSize: 10, fontWeight: FontWeight.w800)),
+              child: Text(conv ? tr('회화') : (labels[first.level] ?? first.level), style: const TextStyle(color: AppColors.washi, fontSize: 10, fontWeight: FontWeight.w800)),
             ),
           ]),
         ),
@@ -309,7 +311,7 @@ class _UnitBlock extends StatelessWidget {
           physics: const NeverScrollableScrollPhysics(),
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: cols, mainAxisSpacing: 6, crossAxisSpacing: 6),
           itemCount: words.length,
-          itemBuilder: (context, i) => _WordTile(w: words[i], color: colors[words[i].level] ?? AppColors.muted),
+          itemBuilder: (context, i) => WordTile(w: words[i], color: colors[words[i].level] ?? AppColors.muted),
         ),
       ]),
     );
@@ -317,10 +319,10 @@ class _UnitBlock extends StatelessWidget {
 }
 
 /// 네모 타일 — 순위 · 그림(있으면) · 단어 · 뜻 한 줄. 누르면 발음.
-class _WordTile extends StatelessWidget {
+class WordTile extends StatelessWidget {
   final EnWord w;
   final Color color;
-  const _WordTile({required this.w, required this.color});
+  const WordTile({super.key, required this.w, required this.color});
 
   @override
   Widget build(BuildContext context) {

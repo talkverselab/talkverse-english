@@ -11,6 +11,15 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 | ③ 아이패드 빌드 | **완료** — 최신 Android **Zealot 빌드 9** https://apps.talkverse.uk/Eyi4j/282 · iOS **TestFlight 빌드 2611060005**(커밋 `68de096` 공통 8가지 변경, 2026-11-06 00:1x) |
 | ④ 회화 | **2026-11-07 Claude 초안 시작(사용자 지시, uk 전달·공통 프롬프터 §12)** — 샘플 7편 + 음성(MOSS, 미국 말투, `audio_lines` 132줄), 리뷰 https://talkverse.uk/talkverse/review/en/ . **사용자 톤 확인 뒤 양산.** 앱에는 아직 안 넣음(pubspec·음성 코드). Grok 재작성은 11월 10일 이후. 규칙 `docs/DIALOGUE_EN.md` |
 
+## 앱내앱(사용자 지시 2026-11-08, 전자책 세션 전달 → 사용자 "ㅇㅋ 고")
+- 영어유니버스 + **토익·토익스피킹·OPIc** 네 앱 = 한 저장소·한 빌드 구조, 출시 따로, 앱 안에서 서로 이동. 정의 `lib/core/app_flavor.dart`(id·이름·스킴·앱 ID·Zealot 이름).
+  - Android: productFlavors(`--flavor <id>`), 앱 ID `com.talkverse.english_universe`·`toeic`·`toeic_speaking`·`opic`. iOS: `tools/select_app.sh <id>` 가 `ios/Flutter/App.xcconfig`(번들 ID `com.talkverse.englishUniverse`·`toeic`·`toeicSpeaking`·`opic`, 표시 이름, 스킴, 아이콘) — pbxproj 는 `$(APP_BUNDLE_ID)`·`$(APP_ICON)`. Dart: `--dart-define=APP=<id>` → `main.dart` 가 첫 화면을 고른다.
+  - 빌드: `bash tools/apk_build.sh toeic` / `APP=toeic bash tools/ios_release.sh` / `tools/zealot_push.sh --app toeic --ci`. CI `release.yml` 은 행렬(english → `latest`, toeic → `latest-toeic`). **toeic_speaking·opic 은 뼈대만**(토익 홈을 같이 씀) — CI 행렬·Zealot 은 내용이 생기면 추가.
+  - 앱 사이 이동 `lib/widgets/app_family.dart`(URL 스킴 `talkverse-<앱>://open`, 없으면 apps.talkverse.uk 안내). 프로필 「앱 가족」·토익 홈 「앱 가족」 탭.
+  - **사용자가 해야 하는 것(앱마다)**: App Store Connect 앱 레코드(번들 ID 위)·TestFlight 그룹, Zealot 은 첫 업로드 때 자동 생성, 앱 아이콘은 uk 세션(`AppIcon-<id>.appiconset` 이 생기면 select_app 이 자동으로 씀, 그 전엔 영어 아이콘).
+- **토익 단어 익히기**(`lib/toeic/`): 1,317어(명사 386·동사 230·형용사 154·부사 53·관용표현 105·기본 빈도어 389) = 20어 단원 66개, 절벽 단어 화면 부품(`UnitBlock`·`WordTile`·`WordSheet`) 재사용, 뜻 고르기 퀴즈(4지선다, 틀린 낱말 → 복습). 데이터 `assets/data/toeic/toeic_words.json` ← `tools/toeic_words.py`(표제어 `data/toeic/headwords.txt` + 자체 뜻 `tools/toeic_gloss.py`; 절벽 단어장에 있는 388어는 그 뜻). **사용자 결정(가): 책에서는 표제어 목록만 참고, 뜻·예문은 자체 작성 → 번들에 넣음.** 책 이름은 어디에도 없음. 전자책 세션의 구조화 JSON(VOCA 1: 명사 441·관용 120·부사 82)과 대조해 표제어 3개·관용표현 보강(VOCA 2 구조화는 대기).
+- 미착수: RC·LC(전자책 세션 판독 대기), 토익스피킹·OPIc 내용, 예문(자체 작성 예정), 발음기호.
+
 ## 만든 것
 - 일본어앱 구조 복제(커밋 `4c26aea`): 레일 + 왼쪽 칸 + 오른쪽 칸, 시안 02 리더(`EpisodePlayPane`), 그림 카드, 회화 홈(오늘의 컷·빈 안내), 「나」 성과 데스크(편 완주·핵심 표현만 — 라이트너·커버율은 엔진 생기면), 프로필(이름·성별), 앱 업데이트(GitHub `latest`).
 - **강세 표시 도구**(사용자 지시, `lib/widgets/stress_text.dart`): 규칙 기반 — 내용어 굵게·기능어 옅게·자음+모음 이어 말하기 ‿, 리더 하단 「강세」 칩으로 켬/끔(기기에 기억). 스크립트·캡션·버블 목록·카드 뒷면. 낱말 안 강세 음절은 아직(사전 데이터 필요).
