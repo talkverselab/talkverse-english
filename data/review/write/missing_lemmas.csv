@@ -1,11 +1,20 @@
 lemma,reading,count,example
-pizza,,4,Maya's pizza is so bad 😂
-twelve,,3,"Yes isn't a number, friend. I'll say twelve."
+pizza,,7,Maya's pizza is so bad 😂
+twelve,,4,"Yes isn't a number, friend. I'll say twelve."
+spoon,,3,The person who took it left the spoon.
 excuse,,2,Excuse me. I saw that book first.
+thirty,,2,Oh no. I hit thirty percent.
+delete,,2,The system asked if I wanted to delete all requests.
+confident,,2,I sent the salary file to the team. Felt confident.
+raj,,2,Everyone now knows Raj earns more than Olivia.
+olivia,,2,Everyone now knows Raj earns more than Olivia.
+stairs,,2,Despite the stairs right there?
+yogurt,,2,Someone took the yogurt which had my name on it.
+expired,,2,It was expired. I saved you.
+print,,2,This printer is broken.
 chat,,1,Oh no. Wrong chat.
 tip,,1,Wait. Is this a tip? For a cookie?
 cookie,,1,Wait. Is this a tip? For a cookie?
-thirty,,1,Oh no. I hit thirty percent.
 napkin,,1,Great. Can I have a napkin for my tears?
 tears,,1,Great. Can I have a napkin for my tears?
 shake,,1,"Your hands are shaking, {name}."
@@ -15,3 +24,32 @@ upside,,1,Look who's talking. You've been holding that book upside down.
 experimental,,1,It's a very experimental novel.
 jealous,,1,Emma. Are you a little jealous?
 nicest,,1,That might be the nicest thing you've ever said to me.
+grace,,1,Hi Grace. Did you get my vacation request?
+vacation,,1,Hi Grace. Did you get my vacation request?
+approve,,1,You're not sure? You approve them.
+salary,,1,I sent the salary file to the team. Felt confident.
+confidential,,1,"The file named ""Confidential""?"
+typo,,1,"I thought it was a typo of ""confident."""
+considerable,,1,All. The whole building. Considerable reach.
+earn,,1,Everyone now knows Raj earns more than Olivia.
+considerate,,1,I'll be considerate and delete it. From my side.
+upstairs,,1,Although you live upstairs.
+elevator,,1,The elevator was crowded because everyone was late.
+starve,,1,Lunch vote. Either we order pizza or we starve.
+client,,1,Both the boss and the client want some too.
+eleven,,1,No way. You're paying for eleven.
+narrow,,1,That narrows it down to everyone.
+wipe,,1,Hold on. Someone is wiping her mouth.
+owe,,1,I knew it. You owe me a yogurt which isn't expired.
+confirm,,1,"Just to confirm, by Friday or until Friday?"
+suffer,,1,By means I finish. Until means I suffer.
+suffering,,1,I'll be suffering until Friday after all.
+forty,,1,"However, the budget is down forty."
+bakery,,1,Across the street is a bakery.
+basement,,1,Fine. The others are in the basement.
+overtime,,1,Equipment doesn't count. Like your overtime.
+truckload,,1,"Three truckloads, apparently."
+furniture,,1,"My bad. I also wrote ""furnitures."""
+sofa,,1,Seriously? There's a sofa in my parking spot.
+uncountable,,1,Advice is uncountable. So is your damage.
+swear,,1,I swear it's coming right now. Just the body.

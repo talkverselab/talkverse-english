@@ -19,6 +19,7 @@ import 'achievement_desk.dart';
 import 'learner_setup_dialog.dart';
 import 'lemma_chips.dart';
 import 'lemma_text.dart';
+import 'gram_note.dart';
 
 /// 「모든 문장 듣기」 재생 패널 — Grok UXUI 시안 02 「만화책 읽기형」(사용자 확정 2026-11-02, `data/review/uxui/sian_02.md`).
 ///
@@ -250,10 +251,11 @@ class _Script extends StatelessWidget {
                     const SizedBox(width: 8),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        StressText(LearnerPrefs.fill(t.tl), style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+                        LemmaText(LearnerPrefs.fill(t.tl), lemmas: const [], gram: t.gram, style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
                         if (showKana && t.reading.isNotEmpty && t.reading != t.tl) Text(LearnerPrefs.fill(t.reading), style: const TextStyle(fontSize: 11.5, color: AppColors.ai, fontWeight: FontWeight.w700)),
                         if (showRd && t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
                         if (showKo) Text(LearnerPrefs.fill(t.ko, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.sumiLight, height: 1.35)),
+                        if (on) GramNote(t.gram, size: 11),
                         if (on && t.note.isNotEmpty) Padding(padding: const EdgeInsets.only(top: 4), child: Text('💡 ${t.note}', style: const TextStyle(fontSize: 11, color: AppColors.beniDeep, height: 1.35))),
                       ]),
                     ),
@@ -341,10 +343,11 @@ class _Caption extends StatelessWidget {
         child: Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              LemmaText(LearnerPrefs.fill(turn.tl), lemmas: turn.lemmas, style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+              LemmaText(LearnerPrefs.fill(turn.tl), lemmas: turn.lemmas, gram: turn.gram, style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
               if (showKana && turn.reading.isNotEmpty && turn.reading != turn.tl) Text(LearnerPrefs.fill(turn.reading), style: const TextStyle(fontSize: 12.5, color: AppColors.ai, fontWeight: FontWeight.w700)),
               if (showRd && turn.rd.isNotEmpty) Text(LearnerPrefs.fill(turn.rd, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
               if (showKo) Padding(padding: const EdgeInsets.only(top: 2), child: Text(LearnerPrefs.fill(turn.ko, ko: true), style: const TextStyle(fontSize: 13.5, color: AppColors.sumiLight, height: 1.35))),
+              GramNote(turn.gram, size: wide ? 12.5 : 11.5),
               if (turn.lemmas.isNotEmpty) Padding(padding: const EdgeInsets.only(top: 8), child: LemmaChips(turn: turn, compact: !wide)),
             ]),
           ),

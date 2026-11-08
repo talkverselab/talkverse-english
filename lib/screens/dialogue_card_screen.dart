@@ -13,6 +13,7 @@ import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import '../widgets/english_decor.dart';
 import '../widgets/lemma_chips.dart';
+import '../widgets/gram_note.dart';
 
 /// 편의 문장 플래시카드 — 앞면은 **그림 + 한국어 뜻**(사용자 지시 2026-11-04 "한국말로 보여줘야지" — 무엇을 말할지 알고 영어로), 탭하면 영어·발음·독음·한국어·레마 칩.
 /// 그림 = 턴 장면 그림(`art`) → 핵심 단어 그림 → 장면 카드. 틀림/맞음 2단계, 틀린 카드는 끝에 다시.
@@ -161,7 +162,7 @@ class _CardText extends StatelessWidget {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('$name · ${t.num}', style: const TextStyle(fontSize: 11, color: AppColors.muted)),
                 const SizedBox(height: 8),
-                LemmaText(LearnerPrefs.fill(t.tl), lemmas: t.lemmas, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
+                LemmaText(LearnerPrefs.fill(t.tl), lemmas: t.lemmas, gram: t.gram, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
                 if (t.reading.isNotEmpty && t.reading != t.tl) ...[const SizedBox(height: 6), Text(LearnerPrefs.fill(t.reading), style: const TextStyle(fontSize: 15, color: AppColors.ai, fontWeight: FontWeight.w700))],
                 if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
                 const SizedBox(height: 12),
@@ -169,6 +170,7 @@ class _CardText extends StatelessWidget {
                 const SizedBox(height: 10),
                 Text(LearnerPrefs.fill(t.ko, ko: true), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
                 if (t.note.isNotEmpty) ...[const SizedBox(height: 10), Text('💡 ${t.note}', style: const TextStyle(fontSize: 12, color: AppColors.beniDeep, height: 1.4))],
+                GramNote(t.gram, size: 12.5),
                 if (t.lemmas.isNotEmpty) ...[const SizedBox(height: 12), LemmaChips(turn: t)],
               ]),
             )

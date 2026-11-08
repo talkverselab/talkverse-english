@@ -6,6 +6,7 @@ import '../core/theme.dart';
 import '../services/achievement_service.dart';
 import '../services/dialogue_service.dart';
 import '../widgets/english_decor.dart';
+import 'grammar_check.dart';
 
 /// 「나」 탭 성과 데스크 — 시안 02 §5·wire_02. 큰 숫자 대신 문장 + 작은 진행 막대. 경쟁·순위·포인트·스트릭 없음.
 class AchievementDesk extends StatefulWidget {
@@ -242,6 +243,7 @@ class _EpisodeDoneOverlayState extends State<EpisodeDoneOverlay> with SingleTick
                   const SizedBox(height: 10),
                   const BrushDivider(height: 2),
                   const SizedBox(height: 10),
+                  if (d.grammar != null || d.check != null) ...[GrammarCheckCard(dialogue: d), const SizedBox(height: 10)],
                   Wrap(spacing: 6, runSpacing: 6, children: [for (final e in d.expressions) Chip(label: Text(e, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.beniDeep)), backgroundColor: AppColors.beni.withValues(alpha: 0.08), side: BorderSide(color: AppColors.beni.withValues(alpha: 0.4)), visualDensity: VisualDensity.compact)]),
                   const SizedBox(height: 14),
                   Row(children: [

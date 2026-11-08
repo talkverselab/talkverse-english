@@ -1,0 +1,305 @@
+{
+ "id": "t1_office_g8",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "장비 세 개요",
+ "emoji": "📦",
+ "scene": "A 가 발주서에 「equipments 세 개」라고 썼다. 셀 수 없는 명사 때문에 창고가 넘친다",
+ "where": "자재 창고",
+ "goal": "가산 · 불가산 명사(equipment · furniture · information · advice)",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raj",
+  "C": "Olivia"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "my bad",
+  "seriously"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "I ordered three equipments for the new office.",
+   "ko": "새 사무실에 장비 세 개 주문했어.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "three equipments"
+    ],
+    "red": [
+     "equipments"
+    ],
+    "note": "equipment 는 불가산 — equipments 는 틀림"
+   },
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "ordered",
+     "order",
+     ""
+    ],
+    [
+     "equipments",
+     "equipment",
+     ""
+    ],
+    [
+     "new",
+     "new",
+     ""
+    ],
+    [
+     "office",
+     "office",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Equipment doesn't count. Like your overtime.",
+   "ko": "장비는 셀 수 없어. 네 야근처럼.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Equipment doesn't count"
+    ],
+    "red": [
+     "Equipment"
+    ],
+    "note": "불가산 명사 + 돌직구"
+   },
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Equipment",
+     "equipment",
+     ""
+    ],
+    [
+     "count",
+     "count",
+     ""
+    ],
+    [
+     "Like",
+     "like",
+     ""
+    ],
+    [
+     "overtime",
+     "overtime",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Then what did I order?",
+   "ko": "그럼 내가 뭘 주문한 거야?",
+   "note": "되묻기",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "order",
+     "order",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "Three truckloads, apparently.",
+   "ko": "보아하니 트럭 세 대 분량.",
+   "note": "양이 폭발",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "truckloads",
+     "truckload",
+     ""
+    ],
+    [
+     "apparently",
+     "apparently",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "My bad. I also wrote \"furnitures.\"",
+   "ko": "내 잘못. \"furnitures\" 라고도 썼어.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "\"furnitures.\""
+    ],
+    "red": [
+     "furnitures"
+    ],
+    "note": "furniture 도 불가산"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "bad",
+     "worse",
+     ""
+    ],
+    [
+     "wrote",
+     "write",
+     ""
+    ],
+    [
+     "furnitures",
+     "furniture",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "en": "Seriously? There's a sofa in my parking spot.",
+   "ko": "진심이야? 내 주차 자리에 소파가 있어.",
+   "note": "seriously = 진심이야",
+   "tags": [],
+   "new": [],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Seriously",
+     "serious",
+     ""
+    ],
+    [
+     "sofa",
+     "sofa",
+     ""
+    ],
+    [
+     "parking",
+     "park",
+     ""
+    ],
+    [
+     "spot",
+     "spot",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "Some advice would have been nice.",
+   "ko": "조언 좀 해 주지 그랬어.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Some advice"
+    ],
+    "red": [
+     "advice"
+    ],
+    "note": "advice 도 불가산(an advice 아님)"
+   },
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "advice",
+     "advice",
+     ""
+    ],
+    [
+     "nice",
+     "nice",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Advice is uncountable. So is your damage.",
+   "ko": "조언도 못 세. 네 사고도 못 세고.",
+   "note": "마무리 한 방",
+   "tags": [],
+   "new": [
+    "uncountable"
+   ],
+   "gram": {
+    "u": [
+     "Advice is uncountable"
+    ],
+    "red": [
+     "Advice"
+    ],
+    "note": ""
+   },
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Advice",
+     "advice",
+     ""
+    ],
+    [
+     "uncountable",
+     "uncountable",
+     ""
+    ],
+    [
+     "damage",
+     "damage",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "가산 vs 불가산 명사",
+  "ko": "equipment, furniture, information, advice, luggage 는 셀 수 없다 — s 도 a 도 안 붙는다. 세려면 a piece of."
+ },
+ "check": {
+  "q": "We need more _____ for the new office.",
+  "options": [
+   "equipments",
+   "an equipment",
+   "equipment",
+   "equipment's"
+  ],
+  "answer": 2
+ }
+}

@@ -1,0 +1,284 @@
+{
+ "id": "t1_office_g7",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "이거 말고 다른 거",
+ "emoji": "🖨️",
+ "scene": "프린터가 또 고장. one · the other · another 를 돌다 보니 멀쩡한 게 하나도 없다",
+ "where": "복사실",
+ "goal": "대명사 one · another · the other · the others",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raj"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "come on",
+  "not again"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "This printer is broken.",
+   "ko": "이 프린터 고장 났어.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "This printer"
+    ],
+    "red": [
+     "This"
+    ],
+    "note": "this one 의 this"
+   },
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "printer",
+     "print",
+     ""
+    ],
+    [
+     "broken",
+     "break",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Use the other one. By the window.",
+   "ko": "다른 거 써. 창가에 있는 거.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "the other one"
+    ],
+    "red": [
+     "the other"
+    ],
+    "note": "the other = (둘 중) 나머지 하나"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Use",
+     "use",
+     ""
+    ],
+    [
+     "window",
+     "window",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "The other one is also broken.",
+   "ko": "그것도 고장 났어.",
+   "note": "되풀이",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "The other one"
+    ],
+    "red": [
+     "The other"
+    ],
+    "note": ""
+   },
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "broken",
+     "break",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "Then another one, third floor.",
+   "ko": "그럼 또 다른 거, 3층.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "another one"
+    ],
+    "red": [
+     "another"
+    ],
+    "note": "another = 또 다른 하나"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "third",
+     "third",
+     ""
+    ],
+    [
+     "floor",
+     "floor",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "Not again. That one eats paper.",
+   "ko": "또야? 거긴 종이를 먹어.",
+   "note": "not again = 또야",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "eats",
+     "eat",
+     ""
+    ],
+    [
+     "paper",
+     "paper",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Fine. The others are in the basement.",
+   "ko": "알았어. 나머지는 지하에 있어.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "The others"
+    ],
+    "red": [
+     "The others"
+    ],
+    "note": "the others = 나머지 전부"
+   },
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Fine",
+     "fine",
+     ""
+    ],
+    [
+     "basement",
+     "basement",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "Come on. Why are all of them broken?",
+   "ko": "아 진짜. 왜 전부 다 고장이야?",
+   "note": "come on = 아 진짜",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "all of them"
+    ],
+    "red": [
+     "all of them"
+    ],
+    "note": ""
+   },
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Come",
+     "come",
+     ""
+    ],
+    [
+     "broken",
+     "break",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Olivia printed the budget. All of it. Twice.",
+   "ko": "올리비아가 예산안을 뽑았거든. 전부. 두 번.",
+   "note": "카오스의 원인",
+   "tags": [],
+   "new": [
+    "olivia",
+    "print"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Olivia",
+     "olivia",
+     ""
+    ],
+    [
+     "printed",
+     "print",
+     ""
+    ],
+    [
+     "budget",
+     "budget",
+     ""
+    ],
+    [
+     "Twice",
+     "twice",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "부정대명사",
+  "ko": "one(같은 종류 아무 하나), another(또 다른 하나), the other(남은 하나), the others(남은 전부). 몇 개 중 몇 번째인지로 고른다."
+ },
+ "check": {
+  "q": "This printer is broken. Use _____ one.",
+  "options": [
+   "other",
+   "another",
+   "the others",
+   "others"
+  ],
+  "answer": 1
+ }
+}

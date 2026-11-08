@@ -1,0 +1,302 @@
+{
+ "id": "t1_office_g2",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "교통 체증? 위층 살잖아",
+ "emoji": "⏰",
+ "scene": "회의에 늦은 A 를 Olivia 가 추궁한다. 핑계는 교통 체증인데 A 는 사무실 위층에 산다",
+ "where": "회의실 앞",
+ "goal": "부사절 접속사 because · although vs 전치사 because of · despite",
+ "speakers": {
+  "A": "{name}",
+  "B": "Olivia"
+ },
+ "register": "mixed",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "are you kidding",
+  "honestly"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "You're late. Reason?",
+   "ko": "늦었네. 이유는?",
+   "note": "팀장의 두 단어",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "late",
+     "late",
+     ""
+    ],
+    [
+     "Reason",
+     "reason",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "I was late because of the traffic.",
+   "ko": "교통 체증 때문에 늦었어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "because of the traffic"
+    ],
+    "red": [
+     "because of"
+    ],
+    "note": "because of + 명사(전치사)"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "late",
+     "late",
+     ""
+    ],
+    [
+     "traffic",
+     "traffic",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Although you live upstairs.",
+   "ko": "위층에 살면서도.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Although you live upstairs"
+    ],
+    "red": [
+     "Although"
+    ],
+    "note": "although + 주어 동사(접속사)"
+   },
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Although",
+     "although",
+     ""
+    ],
+    [
+     "live",
+     "live",
+     ""
+    ],
+    [
+     "upstairs",
+     "upstairs",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "The elevator was crowded because everyone was late.",
+   "ko": "다들 늦어서 엘리베이터가 붐볐어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "because everyone was late"
+    ],
+    "red": [
+     "because"
+    ],
+    "note": "because + 주어 동사(접속사)"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "elevator",
+     "elevator",
+     ""
+    ],
+    [
+     "crowded",
+     "crowd",
+     ""
+    ],
+    [
+     "everyone",
+     "everyone",
+     ""
+    ],
+    [
+     "late",
+     "late",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Despite the stairs right there?",
+   "ko": "바로 옆에 계단이 있는데도?",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Despite the stairs"
+    ],
+    "red": [
+     "Despite"
+    ],
+    "note": "despite + 명사(전치사)"
+   },
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Despite",
+     "despite",
+     ""
+    ],
+    [
+     "stairs",
+     "stairs",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Honestly, I took the stairs. Down. By mistake.",
+   "ko": "솔직히, 계단으로 갔어요. 아래로요. 실수로.",
+   "note": "말실수 자백",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Honestly",
+     "honest",
+     ""
+    ],
+    [
+     "took",
+     "take",
+     ""
+    ],
+    [
+     "stairs",
+     "stairs",
+     ""
+    ],
+    [
+     "mistake",
+     "mistake",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Are you kidding me right now?",
+   "ko": "지금 장난해?",
+   "note": "are you kidding = 장난해?",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "kidding",
+     "kid",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "I'll be early tomorrow. Because I'll sleep here.",
+   "ko": "내일은 일찍 올게요. 여기서 잘 거니까요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Because I'll sleep here"
+    ],
+    "red": [
+     "Because"
+    ],
+    "note": "because 로 마무리 한 방"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "early",
+     "early",
+     ""
+    ],
+    [
+     "tomorrow",
+     "tomorrow",
+     ""
+    ],
+    [
+     "sleep",
+     "sleep",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "부사절 접속사 vs 전치사",
+  "ko": "뒤에 「주어+동사」가 오면 접속사(because, although), 명사만 오면 전치사(because of, despite). 뜻은 같아도 자리가 다르다."
+ },
+ "check": {
+  "q": "You were late _____ the traffic?",
+  "options": [
+   "because",
+   "although",
+   "because of",
+   "even though"
+  ],
+  "answer": 2
+ }
+}

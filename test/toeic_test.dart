@@ -1,7 +1,11 @@
+import 'dart:convert';
+
 import 'package:english_universe/core/theme.dart';
+import 'package:english_universe/services/dialogue_service.dart';
 import 'package:english_universe/toeic/toeic_words.dart';
 import 'package:english_universe/toeic/toeic_words_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -9,6 +13,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
   setUpAll(() => SharedPreferences.setMockInitialValues({}));
+  toeicDialogueTests();
 
   Future<void> waitFor(WidgetTester t, Finder f) async {
     for (var i = 0; i < 50 && f.evaluate().isEmpty; i++) {
@@ -37,5 +42,26 @@ void main() {
     await t.pumpWidget(MaterialApp(theme: AppTheme.light(), home: const ToeicQuizScreen(group: 'I')));
     await waitFor(t, find.text('1 / 10'));
     expect(find.text('1 / 10'), findsOneWidget);
+  });
+}
+
+/// 토익 비즈니스 회화 — 10편, 8턴, 문법 표시·문법 포인트·빈칸 문제가 다 있는지(파일 직접 읽기 — DialogueService 는 빌드된 앱에 따라 고른다).
+void toeicDialogueTests() {
+  test('toeic office dialogues', () async {
+    final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+    final paths = manifest.listAssets().where((p) => p.startsWith('assets/data/toeic/dialogues/T1/office/')).toList();
+    expect(paths.length, 10);
+    for (final p in paths) {
+      final d = Dialogue.fromJson(json.decode(await rootBundle.loadString(p)) as Map<String, dynamic>);
+      expect(d.turns.length, 8, reason: d.id);
+      expect(d.grammar, isNotNull, reason: d.id);
+      expect(d.check!.options.length, 4, reason: d.id);
+      expect(d.turns.any((t) => t.gram != null && t.gram!.underline.isNotEmpty), isTrue, reason: d.id);
+      for (final t in d.turns) {
+        for (final u in t.gram?.underline ?? const <String>[]) {
+          expect(t.tl.toLowerCase(), contains(u.toLowerCase()), reason: '${d.id} ${t.num}');
+        }
+      }
+    }
   });
 }

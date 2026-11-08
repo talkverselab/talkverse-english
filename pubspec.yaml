@@ -71,6 +71,7 @@ flutter:
     - assets/data/freq/
     - assets/data/roots/
     - assets/data/toeic/
+    - assets/data/toeic/dialogues/T1/office/
     - assets/data/version.json
 
   # To add assets to your application, add an assets section, like this:

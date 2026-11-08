@@ -12,6 +12,7 @@ import '../services/tts_service.dart';
 import '../widgets/episode_play_pane.dart';
 import '../widgets/english_decor.dart';
 import 'dialogue_card_screen.dart';
+import '../widgets/gram_note.dart';
 
 /// 회화(R0~R4) 주제 목록 → 편 목록 → 편 화면 — Grok UXUI 시안 02 「만화책 읽기형」(사용자 확정 2026-11-02).
 /// 아이패드: 홈 맨 위 「오늘의 컷」, 편 화면 = 왼쪽 대화 스크립트 + 오른쪽 큰 장면 컷(말풍선) + 하단 재생 컨트롤.
@@ -336,7 +337,7 @@ class _Bubble extends StatelessWidget {
                   InkWell(onTap: onPlayFrom, child: const Icon(Icons.play_circle_outline, size: 16, color: AppColors.ai)),
                 ]),
                 const SizedBox(height: 4),
-                LemmaText(LearnerPrefs.fill(t.tl), lemmas: t.lemmas, style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
+                LemmaText(LearnerPrefs.fill(t.tl), lemmas: t.lemmas, gram: t.gram, style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
                 if (t.reading.isNotEmpty && t.reading != t.tl) Text(LearnerPrefs.fill(t.reading), style: const TextStyle(fontSize: 12, color: AppColors.ai, fontWeight: FontWeight.w700)),
                 if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
                 const SizedBox(height: 3),
@@ -345,6 +346,7 @@ class _Bubble extends StatelessWidget {
                   const SizedBox(height: 4),
                   Text('💡 ${t.note}', style: const TextStyle(fontSize: 11, color: AppColors.beniDeep, height: 1.35)),
                 ],
+                GramNote(t.gram, size: 11),
                 if (t.stamp != null) Text(t.stamp!, style: const TextStyle(fontSize: 28)),
               ]),
             ),

@@ -1,0 +1,328 @@
+{
+ "id": "t1_office_g6",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "그러므로, 안 돼",
+ "emoji": "💸",
+ "scene": "A 가 연봉 인상을 요구한다. Olivia 는 접속부사로만 대답하다가 커피를 내민다",
+ "where": "팀장 자리",
+ "goal": "접속부사 however · therefore · otherwise · in addition",
+ "speakers": {
+  "A": "{name}",
+  "B": "Olivia"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [
+  "fair enough",
+  "that's it"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Sales are up thirty percent. I want a raise.",
+   "ko": "매출이 30% 올랐어요. 연봉 올려 주세요.",
+   "note": "돌직구",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Sales",
+     "sale",
+     ""
+    ],
+    [
+     "thirty",
+     "thirty",
+     ""
+    ],
+    [
+     "percent",
+     "percent",
+     ""
+    ],
+    [
+     "want",
+     "want",
+     ""
+    ],
+    [
+     "raise",
+     "raise",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "However, the budget is down forty.",
+   "ko": "그러나 예산은 40% 내려갔지.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "However,"
+    ],
+    "red": [
+     "However"
+    ],
+    "note": "however = 그러나(접속부사)"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "However",
+     "however",
+     ""
+    ],
+    [
+     "budget",
+     "budget",
+     ""
+    ],
+    [
+     "forty",
+     "forty",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "In addition, I work weekends.",
+   "ko": "게다가 저 주말에도 일해요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "In addition,"
+    ],
+    "red": [
+     "In addition"
+    ],
+    "note": "in addition = 게다가"
+   },
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "addition",
+     "addition",
+     ""
+    ],
+    [
+     "work",
+     "work",
+     ""
+    ],
+    [
+     "weekends",
+     "weekend",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "Therefore, you have no life. Not my fault.",
+   "ko": "그러므로 넌 삶이 없는 거지. 내 탓은 아니고.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Therefore,"
+    ],
+    "red": [
+     "Therefore"
+    ],
+    "note": "therefore = 그러므로"
+   },
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Therefore",
+     "therefore",
+     ""
+    ],
+    [
+     "life",
+     "life",
+     ""
+    ],
+    [
+     "fault",
+     "fault",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "Otherwise, I'll take the job across the street.",
+   "ko": "아니면 길 건너 회사로 갈 거예요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Otherwise,"
+    ],
+    "red": [
+     "Otherwise"
+    ],
+    "note": "otherwise = 그렇지 않으면"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Otherwise",
+     "otherwise",
+     ""
+    ],
+    [
+     "take",
+     "take",
+     ""
+    ],
+    [
+     "job",
+     "job",
+     ""
+    ],
+    [
+     "across",
+     "across",
+     ""
+    ],
+    [
+     "street",
+     "street",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Across the street is a bakery.",
+   "ko": "길 건너는 빵집이야.",
+   "note": "팩트 폭격",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Across",
+     "across",
+     ""
+    ],
+    [
+     "street",
+     "street",
+     ""
+    ],
+    [
+     "bakery",
+     "bakery",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "Fair enough. That's it, I'm leaving.",
+   "ko": "인정. 됐어요, 저 가요.",
+   "note": "fair enough = 인정",
+   "tags": [],
+   "new": [],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "Fair",
+     "fair",
+     ""
+    ],
+    [
+     "enough",
+     "enough",
+     ""
+    ],
+    [
+     "leaving",
+     "leave",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Sit. Coffee. The raise is in January. Tell no one.",
+   "ko": "앉아. 커피. 인상은 1월이야. 아무한테도 말하지 마.",
+   "note": "속정 한 줄",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Sit",
+     "sit",
+     ""
+    ],
+    [
+     "Coffee",
+     "coffee",
+     ""
+    ],
+    [
+     "raise",
+     "raise",
+     ""
+    ],
+    [
+     "January",
+     "january",
+     ""
+    ],
+    [
+     "Tell",
+     "tell",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "접속부사",
+  "ko": "however(그러나), therefore(그러므로), otherwise(그렇지 않으면), in addition(게다가)은 문장을 잇지만 접속사가 아니다 — 앞에 마침표나 세미콜론, 뒤에 쉼표."
+ },
+ "check": {
+  "q": "Sales are up. _____, your raise is still no.",
+  "options": [
+   "Therefore",
+   "However",
+   "Otherwise",
+   "Because"
+  ],
+  "answer": 1
+ }
+}

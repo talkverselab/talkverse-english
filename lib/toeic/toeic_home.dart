@@ -4,6 +4,7 @@ import '../core/app_flavor.dart';
 import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
+import '../screens/dialogue_screen.dart' show DialogueHomeScreen;
 import '../screens/main_screen.dart' show EmptyNote, MainScreen, MeTab, NavRow, sectionTitle;
 import '../services/achievement_service.dart';
 import '../widgets/app_family.dart';
@@ -52,6 +53,14 @@ class _ToeicLearnTab extends StatelessWidget {
             title: tr('뜻 고르기 퀴즈'),
             subtitle: tr('낱말 보고 뜻 4지선다 · 한 판 10문제'),
             onTap: () => openFull(context, (_) => const ToeicQuizScreen()),
+          ),
+          sectionTitle(tr('비즈니스 회화 — 회화로 익히는 토익 문법')),
+          NavRow(
+            seal: 'Talk',
+            sealColor: AppColors.sakuraDeep,
+            title: tr('사무실 회화 8턴'),
+            subtitle: tr('편마다 문법 하나 · 밑줄·빨간 글씨 · 끝에 빈칸 문제'),
+            onTap: () => openPane(context, (_) => const DialogueHomeScreen()),
           ),
           sectionTitle(tr('독해 · 듣기')),
           const EmptyNote(icon: Icons.article_outlined, text: 'RC · LC 는 준비 중입니다. 들어오면 여기에서 Part 별로 풀어요.'),

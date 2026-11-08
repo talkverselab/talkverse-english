@@ -1,0 +1,334 @@
+{
+ "id": "t1_office_g4",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "내 요거트 가져간 사람",
+ "emoji": "🥄",
+ "scene": "냉장고 요거트가 사라졌다. 관계대명사로 범인을 좁혀 가는데 팀장이 입을 닦는다",
+ "where": "탕비실 냉장고 앞",
+ "goal": "관계대명사 who · whose · which · what",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raj",
+  "C": "Olivia"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "hold on",
+  "i knew it"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Someone took the yogurt which had my name on it.",
+   "ko": "누가 내 이름 적힌 요거트를 가져갔어.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "which had my name on it"
+    ],
+    "red": [
+     "which"
+    ],
+    "note": "which = 사물 선행사"
+   },
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Someone",
+     "someone",
+     ""
+    ],
+    [
+     "took",
+     "take",
+     ""
+    ],
+    [
+     "yogurt",
+     "yogurt",
+     ""
+    ],
+    [
+     "name",
+     "name",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "The person who took it left the spoon.",
+   "ko": "가져간 사람이 숟가락은 두고 갔네.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "who took it"
+    ],
+    "red": [
+     "who"
+    ],
+    "note": "who = 사람 선행사"
+   },
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "person",
+     "person",
+     ""
+    ],
+    [
+     "took",
+     "take",
+     ""
+    ],
+    [
+     "left",
+     "leave",
+     ""
+    ],
+    [
+     "spoon",
+     "spoon",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "A spoon whose handle is blue. Company spoon.",
+   "ko": "손잡이가 파란 숟가락. 회사 숟가락이야.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "whose handle is blue"
+    ],
+    "red": [
+     "whose"
+    ],
+    "note": "whose = 소유"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "spoon",
+     "spoon",
+     ""
+    ],
+    [
+     "handle",
+     "handle",
+     ""
+    ],
+    [
+     "blue",
+     "blue",
+     ""
+    ],
+    [
+     "Company",
+     "company",
+     ""
+    ],
+    [
+     "spoon",
+     "spoon",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "That narrows it down to everyone.",
+   "ko": "그럼 용의자가 전원으로 좁혀지는데.",
+   "note": "받아치기",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "narrows",
+     "narrow",
+     ""
+    ],
+    [
+     "everyone",
+     "everyone",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "What I want is a name, Raj.",
+   "ko": "내가 원하는 건 이름이야, 라지.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "What I want"
+    ],
+    "red": [
+     "What"
+    ],
+    "note": "what = ~하는 것(선행사 없음)"
+   },
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "want",
+     "want",
+     ""
+    ],
+    [
+     "name",
+     "name",
+     ""
+    ],
+    [
+     "Raj",
+     "raj",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Hold on. Someone is wiping her mouth.",
+   "ko": "잠깐. 누가 입을 닦고 있어.",
+   "note": "hold on = 잠깐",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Hold",
+     "hold",
+     ""
+    ],
+    [
+     "Someone",
+     "someone",
+     ""
+    ],
+    [
+     "wiping",
+     "wipe",
+     ""
+    ],
+    [
+     "mouth",
+     "mouth",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "en": "It was expired. I saved you.",
+   "ko": "유통기한 지났더라. 내가 널 구한 거야.",
+   "note": "팀장의 당당한 자백",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "expired",
+     "expired",
+     ""
+    ],
+    [
+     "saved",
+     "save",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "I knew it. You owe me a yogurt which isn't expired.",
+   "ko": "그럴 줄 알았어요. 안 지난 요거트로 갚으세요.",
+   "note": "",
+   "tags": [
+    "expr:i knew it"
+   ],
+   "new": [
+    "owe",
+    "yogurt",
+    "expired"
+   ],
+   "gram": {
+    "u": [
+     "which isn't expired"
+    ],
+    "red": [
+     "which"
+    ],
+    "note": "which 절로 마무리"
+   },
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "knew",
+     "know",
+     ""
+    ],
+    [
+     "owe",
+     "owe",
+     ""
+    ],
+    [
+     "yogurt",
+     "yogurt",
+     ""
+    ],
+    [
+     "expired",
+     "expired",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "관계대명사",
+  "ko": "사람은 who, 사물은 which, 소유는 whose. 「~하는 것」 전체는 what(선행사가 없다). 뒤 문장의 빠진 자리를 보고 고른다."
+ },
+ "check": {
+  "q": "The person _____ took my yogurt left the spoon.",
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "what"
+  ],
+  "answer": 0
+ }
+}

@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../core/app_flavor.dart';
 import 'learner_prefs.dart';
 
 /// 회화(R0~R4, 주제별 JSON) 로더 — 일본어앱 구조 그대로(2026-11-03).
@@ -16,6 +17,33 @@ import 'learner_prefs.dart';
 class Lemma {
   final String surface, base, reading;
   const Lemma(this.surface, this.base, this.reading);
+}
+
+/// 토익 회화의 문법 표시(사용자 지시 2026-11-08): 문법 요소 구간은 밑줄, 영향받는 레마는 빨간색, 문법 메모는 줄 아래 빨간 글씨.
+class GramMark {
+  final List<String> underline; // 밑줄 구간(문장 속 그대로)
+  final List<String> red; // 빨간 레마
+  final String note; // 문법 메모(빨간 글씨)
+  const GramMark({this.underline = const [], this.red = const [], this.note = ''});
+  factory GramMark.fromJson(Map<String, dynamic> j) => GramMark(
+        underline: (j['u'] as List?)?.cast<String>() ?? const [],
+        red: (j['red'] as List?)?.cast<String>() ?? const [],
+        note: j['note'] as String? ?? '',
+      );
+  bool get isEmpty => underline.isEmpty && red.isEmpty && note.isEmpty;
+}
+
+/// 편의 문법 포인트(토익) + 대사에서 뽑은 빈칸 문제 1개.
+class GrammarPoint {
+  final String point, ko;
+  const GrammarPoint(this.point, this.ko);
+}
+
+class GrammarCheck {
+  final String q;
+  final List<String> options;
+  final int answer;
+  const GrammarCheck(this.q, this.options, this.answer);
 }
 
 class DialogueTurn {
@@ -33,6 +61,7 @@ class DialogueTurn {
   final bool bubble; // 채팅 말풍선 표시
   final String? art; // 장면 그림 URL(나중에 채움)
   final List<Lemma> lemmas; // 문장 내용어(표면형·기본형·읽기) — 단어장 연결(2026-11-04, tools/add_lemmas.py)
+  final GramMark? gram; // 토익 문법 표시(없으면 null)
   const DialogueTurn({
     required this.num,
     required this.speaker,
@@ -48,6 +77,7 @@ class DialogueTurn {
     this.bubble = false,
     this.art,
     this.lemmas = const [],
+    this.gram,
   });
   factory DialogueTurn.fromJson(Map<String, dynamic> j) => DialogueTurn(
         num: j['num'] as int? ?? 0,
@@ -64,6 +94,7 @@ class DialogueTurn {
         bubble: j['ui'] == 'bubble',
         art: j['art'] as String?,
         lemmas: [for (final l in (j['lemmas'] as List? ?? const [])) if (l is List && l.length >= 2) Lemma('${l[0]}', '${l[1]}', l.length > 2 ? '${l[2]}' : '')],
+        gram: j['gram'] is Map ? GramMark.fromJson((j['gram'] as Map).cast<String, dynamic>()) : null,
       );
 
   /// 그림 조회용 핵심 단어 후보: new → expr 태그 → 없음.
@@ -91,6 +122,8 @@ class Dialogue {
   final List<DialogueTurn> turns;
   final String? approved;
   final String? art; // 편 대표 장면 그림 URL(나중에 채움)
+  final GrammarPoint? grammar; // 토익: 이 편의 문법 포인트
+  final GrammarCheck? check; // 토익: 대사에서 뽑은 빈칸 문제
   const Dialogue({
     required this.id,
     required this.region,
@@ -106,6 +139,8 @@ class Dialogue {
     required this.turns,
     this.approved,
     this.art,
+    this.grammar,
+    this.check,
   });
   factory Dialogue.fromJson(Map<String, dynamic> j) => Dialogue(
         id: j['id'] as String,
@@ -122,6 +157,10 @@ class Dialogue {
         turns: ((j['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromJson(t as Map<String, dynamic>)).toList(),
         approved: j['approved'] as String?,
         art: j['art'] as String?,
+        grammar: j['grammar'] is Map ? GrammarPoint((j['grammar'] as Map)['point'] as String? ?? '', (j['grammar'] as Map)['ko'] as String? ?? '') : null,
+        check: j['check'] is Map
+            ? GrammarCheck((j['check'] as Map)['q'] as String? ?? '', ((j['check'] as Map)['options'] as List?)?.cast<String>() ?? const [], (j['check'] as Map)['answer'] as int? ?? 0)
+            : null,
       );
   bool get isChat => kind == 'chat';
   /// 화자 표시 이름: `{name}`(학습자 자리) → 「나」, 그 밖의 중괄호는 뗀다.
@@ -132,9 +171,9 @@ class Dialogue {
   }
   /// 편 순서 키: survival → a → b → c, 번호 순.
   String get orderKey {
-    final m = RegExp(r'_([abcs])(\d+)$').firstMatch(id);
+    final m = RegExp(r'_([abcsg])(\d+)$').firstMatch(id);
     if (m == null) return id;
-    const o = {'s': 0, 'a': 1, 'b': 2, 'c': 3};
+    const o = {'s': 0, 'a': 1, 'b': 2, 'c': 3, 'g': 4};
     return '${o[m.group(1)]}${m.group(2)!.padLeft(2, '0')}';
   }
 }
@@ -143,7 +182,8 @@ class DialogueService {
   DialogueService._();
   static final DialogueService instance = DialogueService._();
 
-  static const islands = ['survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', 'study'];
+  /// 앱별 주제: 영어 = 생활 주제, 토익 = 사무실(비즈니스 회화로 토익 문법 익히기, 2026-11-08).
+  static List<String> get islands => AppFlavor.current == AppFlavor.english ? const ['survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', 'study'] : const ['office'];
   static const islandKo = {
     'survival': '서바이벌',
     'friends': '친구',
@@ -153,6 +193,7 @@ class DialogueService {
     'culture': '문화',
     'work': '일',
     'study': '학업',
+    'office': '사무실',
   };
   static const islandEmoji = {
     'survival': '🆘',
@@ -163,9 +204,10 @@ class DialogueService {
     'culture': '🎬',
     'work': '💼',
     'study': '🎓',
+    'office': '🏢',
   };
-  static const levels = ['R0', 'R1', 'R2', 'R3', 'R4'];
-  static const levelKo = {'R0': '왕초보', 'R1': '초보', 'R2': '중급', 'R3': '고급', 'R4': '최상급'};
+  static List<String> get levels => AppFlavor.current == AppFlavor.english ? const ['R0', 'R1', 'R2', 'R3', 'R4'] : const ['T1'];
+  static const levelKo = {'R0': '왕초보', 'R1': '초보', 'R2': '중급', 'R3': '고급', 'R4': '최상급', 'T1': '토익'};
   static const _prefLevel = 'dialogue_level';
   static const _prefLast = 'dialogue_last';
   String? _lastOpened;
@@ -192,10 +234,12 @@ class DialogueService {
 
   Future<void> _load() async {
     final prefs = await SharedPreferences.getInstance();
-    _level = prefs.getString(_prefLevel) ?? 'R1';
+    _level = prefs.getString(_prefLevel) ?? (AppFlavor.current == AppFlavor.english ? 'R1' : 'T1');
     _lastOpened = prefs.getString(_prefLast);
     final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
-    final paths = manifest.listAssets().where((p) => RegExp(r'^assets/data/dialogues/R[0-4]/[^/]+/[^/]+\.json$').hasMatch(p));
+    // 영어앱 = assets/data/dialogues/R0~R4, 토익 등 = assets/data/toeic/dialogues/T1(앱내앱마다 자기 회화만)
+    final re = AppFlavor.current == AppFlavor.english ? RegExp(r'^assets/data/dialogues/R[0-4]/[^/]+/[^/]+\.json$') : RegExp(r'^assets/data/toeic/dialogues/T[0-9]/[^/]+/[^/]+\.json$');
+    final paths = manifest.listAssets().where(re.hasMatch);
     for (final p in paths) {
       try {
         final d = Dialogue.fromJson(json.decode(await rootBundle.loadString(p)) as Map<String, dynamic>);

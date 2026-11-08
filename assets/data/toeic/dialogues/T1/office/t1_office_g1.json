@@ -1,0 +1,296 @@
+{
+ "id": "t1_office_g1",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "승인된 건지 삭제된 건지",
+ "emoji": "🏖️",
+ "scene": "휴가 신청이 승인됐는지 인사팀 Grace 에게 묻는데, 시스템이 전 직원 신청을 지워 버렸다",
+ "where": "인사팀 자리",
+ "goal": "명사절 접속사 that · whether · if",
+ "speakers": {
+  "A": "{name}",
+  "B": "Grace"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "i'm not sure",
+  "no worries"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Hi Grace. Did you get my vacation request?",
+   "ko": "안녕하세요 그레이스. 제 휴가 신청 받으셨어요?",
+   "note": "vacation request = 휴가 신청",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Grace",
+     "grace",
+     ""
+    ],
+    [
+     "get",
+     "get",
+     ""
+    ],
+    [
+     "vacation",
+     "vacation",
+     ""
+    ],
+    [
+     "request",
+     "request",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "I did. I'm not sure whether it was approved.",
+   "ko": "받았죠. 승인됐는지는 잘 모르겠어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "whether it was approved"
+    ],
+    "red": [
+     "whether"
+    ],
+    "note": "whether = ~인지 아닌지(명사절)"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "sure",
+     "sure",
+     ""
+    ],
+    [
+     "whether",
+     "whether",
+     ""
+    ],
+    [
+     "approved",
+     "approved",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "You're not sure? You approve them.",
+   "ko": "모르신다고요? 승인은 그쪽이 하시잖아요.",
+   "note": "받아치기",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "sure",
+     "sure",
+     ""
+    ],
+    [
+     "approve",
+     "approve",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "I know that I approved something this morning.",
+   "ko": "오늘 아침에 뭔가를 승인한 건 알아요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "that I approved something this morning"
+    ],
+    "red": [
+     "that"
+    ],
+    "note": "that = ~라는 것(명사절)"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "know",
+     "know",
+     ""
+    ],
+    [
+     "approved",
+     "approved",
+     ""
+    ],
+    [
+     "something",
+     "something",
+     ""
+    ],
+    [
+     "morning",
+     "morning",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "Something? Like what?",
+   "ko": "뭔가요? 예를 들면요?",
+   "note": "되묻기",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Something",
+     "something",
+     ""
+    ],
+    [
+     "Like",
+     "like",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "The system asked if I wanted to delete all requests.",
+   "ko": "시스템이 신청을 전부 삭제할지 묻더라고요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "if I wanted to delete all requests"
+    ],
+    "red": [
+     "if"
+    ],
+    "note": "if = ~인지(명사절, whether 와 같음)"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "system",
+     "system",
+     ""
+    ],
+    [
+     "asked",
+     "ask",
+     ""
+    ],
+    [
+     "wanted",
+     "want",
+     ""
+    ],
+    [
+     "delete",
+     "delete",
+     ""
+    ],
+    [
+     "requests",
+     "request",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "And you said yes.",
+   "ko": "그래서 네라고 하셨군요.",
+   "note": "반전 확인",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "said",
+     "say",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "No worries. Nobody is going anywhere now.",
+   "ko": "걱정 마요. 이제 아무도 아무 데도 안 가요.",
+   "note": "규정 로봇의 위로",
+   "tags": [
+    "expr:no worries"
+   ],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "worries",
+     "worry",
+     ""
+    ],
+    [
+     "Nobody",
+     "nobody",
+     ""
+    ],
+    [
+     "going",
+     "going",
+     ""
+    ],
+    [
+     "anywhere",
+     "anywhere",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "명사절 접속사 that / whether(if)",
+  "ko": "「~라는 것」은 that, 「~인지 아닌지」는 whether·if. 동사 뒤에 절이 통째로 목적어가 된다."
+ },
+ "check": {
+  "q": "I'm not sure _____ my vacation was approved.",
+  "options": [
+   "that",
+   "whether",
+   "because",
+   "during"
+  ],
+  "answer": 1
+ }
+}

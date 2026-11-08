@@ -217,7 +217,7 @@ def main():
     if len(sys.argv) > 2 and sys.argv[1] == '--dry':
         print(lemmas(' '.join(sys.argv[2:]))); return
     miss = Counter(); ex = {}; tot = hit = 0
-    files = sorted(glob.glob(str(ROOT / 'assets/data/dialogues/R*/*/*.json')))
+    files = sorted(glob.glob(str(ROOT / 'assets/data/dialogues/R*/*/*.json')) + glob.glob(str(ROOT / 'assets/data/toeic/dialogues/T*/*/*.json')))
     for f in files:
         d = json.load(open(f, encoding='utf-8')); ch = False
         for t in d['turns']:

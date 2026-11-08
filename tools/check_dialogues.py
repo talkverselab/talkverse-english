@@ -11,17 +11,17 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'tools'))
 import add_lemmas  # noqa: E402
 
-TURNS = {'R0': (6, 8), 'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 16)}
+TURNS = {'R0': (6, 8), 'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 16), 'T1': (8, 8)}  # T1 = 토익 비즈니스 회화, 8턴 고정(사용자 지시 2026-11-08)
 WORDS = {('R1', 'short'): (1, 9), ('R1', 'survival'): (1, 9), ('R1', 'long'): (1, 10), ('R1', 'chat'): (1, 7),
          ('R0', 'short'): (1, 6), ('R0', 'survival'): (1, 6), ('R0', 'long'): (1, 6), ('R0', 'chat'): (1, 6)}
-WORDS_UP = {'R2': (1, 12), 'R3': (1, 16), 'R4': (1, 18)}
-NEW_PER_TURN = {'R0': 3, 'R1': 3, 'R2': 4, 'R3': 5, 'R4': 6}
+WORDS_UP = {'R2': (1, 12), 'R3': (1, 16), 'R4': (1, 18), 'T1': (1, 12)}
+NEW_PER_TURN = {'R0': 3, 'R1': 3, 'R2': 4, 'R3': 5, 'R4': 6, 'T1': 4}
 TWISTS = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
 EMOTIONS = set(json.load(open(ROOT / 'data/tts/voices.json', encoding='utf-8'))['emotions'])
 VARS = {'{name}', '{country}', '{city}'}
-ISLANDS = ['survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', 'study']
-ORDER = ['R0', 'R1', 'R2', 'R3', 'R4']
-BAND_OF = {'R0': 'R1'}
+ISLANDS = ['survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', 'study', 'office']
+ORDER = ['R0', 'R1', 'R2', 'R3', 'R4', 'T1']
+BAND_OF = {'R0': 'R1', 'T1': 'R4'}
 WORD = re.compile(r"[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*")
 
 
@@ -43,6 +43,9 @@ def bands():
     for lv in ['R1', 'R2', 'R3', 'R4']:
         acc |= {r['word'].lower() for r in rows if r['level'] == lv}
         cum[lv] = set(acc)
+    tj = ROOT / 'assets/data/toeic/toeic_words.json'  # 토익 회화는 토익 단어도 아는 말로
+    if tj.exists():
+        cum['R4'] = cum['R4'] | {w['w'].lower() for w in json.load(open(tj, encoding='utf-8'))['words']}
     return cum
 
 
@@ -57,7 +60,7 @@ def main():
     pool = [r['expr'] for r in csv.DictReader(open(ROOT / 'data/expressions/top_expressions.csv', encoding='utf-8'))]
     cum = bands()
     eps = []
-    for f in glob.glob(str(ROOT / 'assets/data/dialogues/R*/*/*.json')):
+    for f in glob.glob(str(ROOT / 'assets/data/dialogues/R*/*/*.json')) + glob.glob(str(ROOT / 'assets/data/toeic/dialogues/T*/*/*.json')):
         ep = json.load(open(f, encoding='utf-8'))
         ep['_f'] = f
         eps.append(ep)
@@ -111,6 +114,19 @@ def main():
                 e.append(f'{num}번 segs 본문이 대사와 다름')
             if not t.get('note'):
                 w.append(f'{num}번 note 없음')
+            g = t.get('gram')
+            if g:
+                for x in g.get('u', []) + g.get('red', []):
+                    if x.lower() not in s.lower():
+                        e.append(f'{num}번 문법 표시 {x!r} 가 대사에 없음')
+        if lv.startswith('T'):
+            if not ep.get('grammar', {}).get('point'):
+                e.append('grammar 없음')
+            c = ep.get('check')
+            if not c or '_____' not in c['q'] or len(c['options']) != 4:
+                e.append('check(빈칸 문제) 없음/형식')
+            elif not any(x.get('gram') for x in ep['turns']):
+                e.append('문법 표시(gram)가 한 턴도 없음')
             if t['speaker'] not in ep['speakers']:
                 e.append(f"{num}번 화자 {t['speaker']}")
             if len(re.findall(r'[.!?…]+(?:\s|$)', s)) > 3:

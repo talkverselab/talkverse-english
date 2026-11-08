@@ -1,0 +1,321 @@
+{
+ "id": "t1_office_g3",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "피자 아니면 굶는다",
+ "emoji": "🍕",
+ "scene": "점심 주문을 맡은 Raj 가 상관접속사로 협박하더니 피자를 열두 판 시킨다",
+ "where": "탕비실",
+ "goal": "상관접속사 either A or B · not only A but also B · both A and B",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raj"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "for real",
+  "no way"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Lunch vote. Either we order pizza or we starve.",
+   "ko": "점심 투표. 피자를 시키든가 굶든가야.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Either we order pizza or we starve"
+    ],
+    "red": [
+     "Either",
+     "or"
+    ],
+    "note": "either A or B = A 아니면 B"
+   },
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Lunch",
+     "lunch",
+     ""
+    ],
+    [
+     "vote",
+     "vote",
+     ""
+    ],
+    [
+     "Either",
+     "either",
+     ""
+    ],
+    [
+     "order",
+     "order",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "starve",
+     "starve",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "That's not a vote. That's a threat.",
+   "ko": "그건 투표가 아니라 협박인데.",
+   "note": "받아치기",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "vote",
+     "vote",
+     ""
+    ],
+    [
+     "threat",
+     "threat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Pizza is not only cheap but also fast.",
+   "ko": "피자는 싸기만 한 게 아니라 빠르기까지 하잖아.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "not only cheap but also fast"
+    ],
+    "red": [
+     "not only",
+     "but also"
+    ],
+    "note": "not only A but also B"
+   },
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "cheap",
+     "cheap",
+     ""
+    ],
+    [
+     "fast",
+     "fast",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Fine. One pizza. For real, just one.",
+   "ko": "알았어. 한 판. 진짜 딱 한 판이야.",
+   "note": "for real = 진짜로",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Fine",
+     "fine",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "real",
+     "real",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Both the boss and the client want some too.",
+   "ko": "팀장님도 거래처도 둘 다 먹고 싶대.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Both the boss and the client"
+    ],
+    "red": [
+     "Both",
+     "and"
+    ],
+    "note": "both A and B"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "boss",
+     "boss",
+     ""
+    ],
+    [
+     "client",
+     "client",
+     ""
+    ],
+    [
+     "want",
+     "want",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "So you ordered…",
+   "ko": "그래서 몇 판 시켰는데…",
+   "note": "말끝 흐리기",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "ordered",
+     "order",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Twelve. Neither the card nor my hand stopped.",
+   "ko": "열두 판. 카드도 내 손도 안 멈추더라.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Neither the card nor my hand"
+    ],
+    "red": [
+     "Neither",
+     "nor"
+    ],
+    "note": "neither A nor B = A도 B도 아닌"
+   },
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Twelve",
+     "twelve",
+     ""
+    ],
+    [
+     "Neither",
+     "neither",
+     ""
+    ],
+    [
+     "card",
+     "card",
+     ""
+    ],
+    [
+     "nor",
+     "nor",
+     ""
+    ],
+    [
+     "hand",
+     "hand",
+     ""
+    ],
+    [
+     "stopped",
+     "stop",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "No way. You're paying for eleven.",
+   "ko": "말도 안 돼. 열한 판은 네가 내.",
+   "note": "no way = 말도 안 돼",
+   "tags": [
+    "expr:no way"
+   ],
+   "new": [
+    "eleven"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "paying",
+     "pay",
+     ""
+    ],
+    [
+     "eleven",
+     "eleven",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "상관접속사",
+  "ko": "either A or B(둘 중 하나), neither A nor B(둘 다 아님), not only A but also B(A뿐 아니라 B도), both A and B(둘 다). 짝을 외운다."
+ },
+ "check": {
+  "q": "We can order _____ pizza or salad.",
+  "options": [
+   "both",
+   "either",
+   "not only",
+   "neither"
+  ],
+  "answer": 1
+ }
+}

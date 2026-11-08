@@ -1,0 +1,336 @@
+{
+ "id": "t1_office_g10",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "자신 있었지 기밀은 아니고",
+ "emoji": "📧",
+ "scene": "A 가 「기밀」 파일을 전체 메일로 보냈다. 형용사 한 글자 차이로 회사가 발칵 뒤집힌다",
+ "where": "사무실 전체",
+ "goal": "혼동 형용사 confident vs confidential · considerable vs considerate",
+ "speakers": {
+  "A": "{name}",
+  "B": "Olivia",
+  "C": "Grace"
+ },
+ "register": "mixed",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "oh no",
+  "you're kidding"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "I sent the salary file to the team. Felt confident.",
+   "ko": "급여 파일 팀에 보냈어요. 자신 있었거든요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "confident"
+    ],
+    "red": [
+     "confident"
+    ],
+    "note": "confident = 자신 있는"
+   },
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "sent",
+     "send",
+     ""
+    ],
+    [
+     "salary",
+     "salary",
+     ""
+    ],
+    [
+     "file",
+     "file",
+     ""
+    ],
+    [
+     "team",
+     "team",
+     ""
+    ],
+    [
+     "Felt",
+     "feel",
+     ""
+    ],
+    [
+     "confident",
+     "confident",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "The file named \"Confidential\"?",
+   "ko": "파일 이름이 \"기밀\"이었던 그거?",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "\"Confidential\""
+    ],
+    "red": [
+     "Confidential"
+    ],
+    "note": "confidential = 기밀의"
+   },
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "file",
+     "file",
+     ""
+    ],
+    [
+     "named",
+     "name",
+     ""
+    ],
+    [
+     "Confidential",
+     "confidential",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "I thought it was a typo of \"confident.\"",
+   "ko": "\"confident\" 오타인 줄 알았어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "\"confident.\""
+    ],
+    "red": [
+     "confident"
+    ],
+    "note": "혼동 형용사 사고"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "thought",
+     "think",
+     ""
+    ],
+    [
+     "typo",
+     "typo",
+     ""
+    ],
+    [
+     "confident",
+     "confident",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "Oh no. You sent it to \"the team\" or \"All\"?",
+   "ko": "어떡해. \"팀\"이야, \"전체\"야?",
+   "note": "oh no = 어떡해",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "sent",
+     "send",
+     ""
+    ],
+    [
+     "team",
+     "team",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "All. The whole building. Considerable reach.",
+   "ko": "전체요. 건물 전체. 도달률이 상당해요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Considerable reach"
+    ],
+    "red": [
+     "Considerable"
+    ],
+    "note": "considerable = 상당한"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "whole",
+     "whole",
+     ""
+    ],
+    [
+     "building",
+     "build",
+     ""
+    ],
+    [
+     "Considerable",
+     "considerable",
+     ""
+    ],
+    [
+     "reach",
+     "reach",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "en": "Everyone now knows Raj earns more than Olivia.",
+   "ko": "이제 모두가 라지가 올리비아보다 많이 받는 걸 알아요.",
+   "note": "인사팀의 팩트",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Everyone",
+     "everyone",
+     ""
+    ],
+    [
+     "knows",
+     "know",
+     ""
+    ],
+    [
+     "Raj",
+     "raj",
+     ""
+    ],
+    [
+     "earns",
+     "earn",
+     ""
+    ],
+    [
+     "Olivia",
+     "olivia",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "You're kidding. That's the real emergency.",
+   "ko": "설마. 그게 진짜 비상사태네.",
+   "note": "you're kidding = 설마",
+   "tags": [],
+   "new": [],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "kidding",
+     "kid",
+     ""
+    ],
+    [
+     "real",
+     "real",
+     ""
+    ],
+    [
+     "emergency",
+     "emergency",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "I'll be considerate and delete it. From my side.",
+   "ko": "사려 깊게 삭제할게요. 제 쪽에서요.",
+   "note": "",
+   "tags": [],
+   "new": [
+    "considerate",
+    "delete"
+   ],
+   "gram": {
+    "u": [
+     "considerate"
+    ],
+    "red": [
+     "considerate"
+    ],
+    "note": "considerate = 사려 깊은"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "considerate",
+     "considerate",
+     ""
+    ],
+    [
+     "delete",
+     "delete",
+     ""
+    ],
+    [
+     "side",
+     "side",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "어형 — 혼동 형용사",
+  "ko": "confident(자신 있는) vs confidential(기밀의), considerable(상당한) vs considerate(사려 깊은). 모양이 비슷한 형용사는 뜻을 짝으로 외운다."
+ },
+ "check": {
+  "q": "Please keep this file _____.",
+  "options": [
+   "confident",
+   "confidential",
+   "confidence",
+   "confidentially"
+  ],
+  "answer": 1
+ }
+}

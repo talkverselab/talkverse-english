@@ -1,0 +1,282 @@
+{
+ "id": "t1_office_g9",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "거의는 시간이 아니야",
+ "emoji": "⌛",
+ "scene": "Olivia 가 마감 상황을 묻는다. A 는 부사로만 버틴다 — almost, still, already, yet, hardly",
+ "where": "A 의 자리",
+ "goal": "부사 almost · still · already · yet · hardly",
+ "speakers": {
+  "A": "{name}",
+  "B": "Olivia"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "i swear",
+  "right now"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "The report. Still not done?",
+   "ko": "보고서. 아직도 안 끝났어?",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Still not done"
+    ],
+    "red": [
+     "Still"
+    ],
+    "note": "still = 여전히"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "report",
+     "report",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Almost.",
+   "ko": "거의요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Almost"
+    ],
+    "red": [
+     "Almost"
+    ],
+    "note": "almost = 거의"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Almost",
+     "almost",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Almost is not a time.",
+   "ko": "거의는 시간이 아니야.",
+   "note": "팀장 명언",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Almost",
+     "almost",
+     ""
+    ],
+    [
+     "time",
+     "time",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "I've already written the title.",
+   "ko": "제목은 이미 썼어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "already written"
+    ],
+    "red": [
+     "already"
+    ],
+    "note": "already = 이미(긍정문)"
+   },
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "written",
+     "write",
+     ""
+    ],
+    [
+     "title",
+     "title",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "And the body?",
+   "ko": "본문은?",
+   "note": "짧게 되묻기",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "body",
+     "body",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Not yet. But I hardly slept.",
+   "ko": "아직요. 근데 거의 못 잤어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Not yet",
+     "hardly slept"
+    ],
+    "red": [
+     "yet",
+     "hardly"
+    ],
+    "note": "yet = 아직(부정문 끝) · hardly = 거의 ~않다"
+   },
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "hardly",
+     "hard",
+     ""
+    ],
+    [
+     "slept",
+     "sleep",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "You hardly slept because you were hardly working?",
+   "ko": "거의 일을 안 해서 거의 못 잔 거야?",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "hardly slept",
+     "hardly working"
+    ],
+    "red": [
+     "hardly",
+     "hardly"
+    ],
+    "note": "hardly 두 번"
+   },
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "hardly",
+     "hard",
+     ""
+    ],
+    [
+     "slept",
+     "sleep",
+     ""
+    ],
+    [
+     "hardly",
+     "hard",
+     ""
+    ],
+    [
+     "working",
+     "work",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "I swear it's coming right now. Just the body.",
+   "ko": "맹세코 지금 바로 나와요. 본문만요.",
+   "note": "right now = 지금 바로",
+   "tags": [
+    "expr:right",
+    "expr:right now",
+    "expr:i swear"
+   ],
+   "new": [
+    "swear"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "swear",
+     "swear",
+     ""
+    ],
+    [
+     "coming",
+     "come",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ],
+    [
+     "body",
+     "body",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "부사",
+  "ko": "already(이미, 긍정문), yet(아직, 부정·의문문 끝), still(여전히), almost(거의), hardly(거의 ~않다 — 부정의 뜻). 자리와 뜻을 함께 본다."
+ },
+ "check": {
+  "q": "I have _____ finished the report.",
+  "options": [
+   "yet",
+   "almost",
+   "hardly ever",
+   "still not"
+  ],
+  "answer": 1
+ }
+}

@@ -1,0 +1,331 @@
+{
+ "id": "t1_office_g5",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "금요일까지가 금요일 몇 시?",
+ "emoji": "📅",
+ "scene": "거래처 Tom 이 「금요일까지」 라고 했는데 by 인지 until 인지로 밤을 새울 뻔한다",
+ "where": "전화",
+ "goal": "시간 전치사 by · until · within · in",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tom"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "just to confirm",
+  "got it"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "I need the report by Friday.",
+   "ko": "보고서 금요일까지 주세요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "by Friday"
+    ],
+    "red": [
+     "by"
+    ],
+    "note": "by = 늦어도 금요일까지(완료)"
+   },
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "need",
+     "need",
+     ""
+    ],
+    [
+     "report",
+     "report",
+     ""
+    ],
+    [
+     "Friday",
+     "friday",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Just to confirm, by Friday or until Friday?",
+   "ko": "확인 차원에서요, 금요일까지 내는 건가요, 금요일 내내인가요?",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "by Friday",
+     "until Friday"
+    ],
+    "red": [
+     "by",
+     "until"
+    ],
+    "note": "by vs until"
+   },
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "confirm",
+     "confirm",
+     ""
+    ],
+    [
+     "Friday",
+     "friday",
+     ""
+    ],
+    [
+     "until",
+     "until",
+     ""
+    ],
+    [
+     "Friday",
+     "friday",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Is there a difference?",
+   "ko": "차이가 있어요?",
+   "note": "거래처의 질문",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "difference",
+     "difference",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "By means I finish. Until means I suffer.",
+   "ko": "by 는 끝낸다는 거고, until 은 고통받는다는 거예요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [],
+    "red": [
+     "By",
+     "Until"
+    ],
+    "note": "한 줄 요약"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "means",
+     "mean",
+     ""
+    ],
+    [
+     "finish",
+     "finish",
+     ""
+    ],
+    [
+     "Until",
+     "until",
+     ""
+    ],
+    [
+     "means",
+     "mean",
+     ""
+    ],
+    [
+     "suffer",
+     "suffer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Then by Friday. Within three days, please.",
+   "ko": "그럼 금요일까지요. 사흘 안에 부탁해요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "by Friday",
+     "Within three days"
+    ],
+    "red": [
+     "by",
+     "Within"
+    ],
+    "note": "within = 기간 안에"
+   },
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Friday",
+     "friday",
+     ""
+    ],
+    [
+     "Within",
+     "within",
+     ""
+    ],
+    [
+     "days",
+     "day",
+     ""
+    ],
+    [
+     "please",
+     "please",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Got it. Today is Thursday, Tom.",
+   "ko": "알겠어요. 오늘 목요일이에요, 톰.",
+   "note": "got it = 알겠어요",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Got",
+     "get",
+     ""
+    ],
+    [
+     "Today",
+     "today",
+     ""
+    ],
+    [
+     "Thursday",
+     "thursday",
+     ""
+    ],
+    [
+     "Tom",
+     "tom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Oh. Then in one day.",
+   "ko": "아. 그럼 하루 뒤에요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "in one day"
+    ],
+    "red": [
+     "in"
+    ],
+    "note": "in = ~ 뒤에"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "day",
+     "day",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "I'll be suffering until Friday after all.",
+   "ko": "결국 금요일까지 고통받겠네요.",
+   "note": "",
+   "tags": [],
+   "new": [
+    "suffering"
+   ],
+   "gram": {
+    "u": [
+     "until Friday"
+    ],
+    "red": [
+     "until"
+    ],
+    "note": "until 로 되돌아온 마무리"
+   },
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "suffering",
+     "suffering",
+     ""
+    ],
+    [
+     "until",
+     "until",
+     ""
+    ],
+    [
+     "Friday",
+     "friday",
+     ""
+    ],
+    [
+     "after",
+     "after",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "시간 전치사",
+  "ko": "by = 늦어도 그때까지 완료, until = 그때까지 계속, within = 기간 안에, in = ~ 뒤에. 토익 Part 5 단골."
+ },
+ "check": {
+  "q": "Please send the report _____ Friday noon.",
+  "options": [
+   "until",
+   "by",
+   "within",
+   "during"
+  ],
+  "answer": 1
+ }
+}

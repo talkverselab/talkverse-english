@@ -6,7 +6,21 @@ import glob, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-HEAD = {'title', 'emoji', 'scene', 'where', 'goal', 'kind', 'register', 'B', 'C', 'D', 'twist', 'expr', 'flags'}
+HEAD = {'title', 'emoji', 'scene', 'where', 'goal', 'kind', 'register', 'B', 'C', 'D', 'twist', 'expr', 'flags', 'grammar', 'check'}
+MARK = re.compile(r'_([^_]+)_|\*([^*]+)\*')
+
+
+def unmark(text):
+    """'_밑줄 구간_'·'*빨간 레마*' 표기를 벗기고 (깨끗한 글, 밑줄 구간들, 빨간 낱말들) 을 돌려준다(토익 문법 표시, 사용자 지시 2026-11-08)."""
+    u, red = [], []
+    def strip_red(x):
+        return re.sub(r'\*([^*]+)\*', lambda m: (red.append(m.group(1)), m.group(1))[1], x)
+    def rep(m):
+        if m.group(1) is not None:
+            inner = strip_red(m.group(1)); u.append(inner); return inner
+        red.append(m.group(2)); return m.group(2)
+    clean = MARK.sub(rep, text)
+    return clean, u, red
 
 
 def parse(text):
@@ -31,10 +45,10 @@ def parse(text):
 
 
 def build(eid, h, rows):
-    m = re.fullmatch(r'r(\d)_([a-z]+)_([a-z]\d+)', eid)
+    m = re.fullmatch(r'([rt])(\d)_([a-z]+)_([a-z]\d+)', eid)
     if not m:
         raise SystemExit(f'편 id 형식 오류: {eid}')
-    region, island = f'R{m[1]}', m[2]
+    region, island = f'{m[1].upper()}{m[2]}', m[3]  # r = 영어 회화 R0~R4 · t = 토익 비즈니스 회화 T1
     tw = h['twist'].split()
     exprs = [e.strip() for e in h.get('expr', '').split('|') if e.strip()]
     chat = h['kind'] == 'chat'
@@ -44,7 +58,11 @@ def build(eid, h, rows):
         if len(r) < 3:
             raise SystemExit(f'{eid} {i}번: 칸이 모자람 {r}')
         sp, _, at = r[0].partition('@')
-        t = {'num': i, 'speaker': sp, 'en': r[1], 'ko': r[2], 'note': r[3] if len(r) > 3 else '', 'tags': [], 'new': []}
+        en, under, red = unmark(r[1])
+        note = r[3] if len(r) > 3 else ''
+        t = {'num': i, 'speaker': sp, 'en': en, 'ko': r[2], 'note': '' if note.startswith('§') else note, 'tags': [], 'new': []}
+        if under or red or note.startswith('§'):
+            t['gram'] = {'u': under, 'red': red, 'note': note[1:] if note.startswith('§') else ''}
         if chat:
             t['ui'] = 'bubble'
         if at:
@@ -72,10 +90,19 @@ def build(eid, h, rows):
             else:
                 raise SystemExit(f'{eid} {i}번: 모르는 표시 {x}')
         turns.append(t)
-    return {'id': eid, 'region': region, 'island': island, 'kind': h['kind'], 'draft': True, 'purpose': [island], 'domain': [island],
+    out = {'id': eid, 'region': region, 'island': island, 'kind': h['kind'], 'draft': True, 'purpose': [island], 'domain': [island],
             'title': h['title'], 'emoji': h['emoji'], 'scene': h['scene'], 'where': h.get('where', ''), 'goal': h.get('goal', ''),
             'speakers': speakers, 'register': h['register'], 'twist': int(tw[0]), 'twist_type': tw[1],
             'flags': h.get('flags', '').split(), 'expressions': exprs, 'turns': turns}
+    if 'grammar' in h:  # 토익: 편의 문법 포인트(제목|설명) + 대사에서 뽑은 빈칸 문제(문장 | A | B | C | D | 정답)
+        g = [x.strip() for x in h['grammar'].split('|')]
+        out['grammar'] = {'point': g[0], 'ko': g[1] if len(g) > 1 else ''}
+    if 'check' in h:
+        c = [x.strip() for x in h['check'].split('|')]
+        if len(c) != 6 or c[5] not in 'ABCD':
+            raise SystemExit(f'{eid}: check 형식(문장 | A | B | C | D | 정답)')
+        out['check'] = {'q': c[0], 'options': c[1:5], 'answer': 'ABCD'.index(c[5])}
+    return out
 
 
 def main():
@@ -83,7 +110,8 @@ def main():
     made = kept = 0
     for f in files:
         for ep in parse(open(f, encoding='utf-8').read()):
-            out = ROOT / 'assets/data/dialogues' / ep['region'] / ep['island'] / f"{ep['id']}.json"
+            base = ROOT / ('assets/data/toeic/dialogues' if ep['region'].startswith('T') else 'assets/data/dialogues')
+            out = base / ep['region'] / ep['island'] / f"{ep['id']}.json"
             if out.exists() and json.load(open(out, encoding='utf-8')).get('review'):
                 kept += 1
                 continue
