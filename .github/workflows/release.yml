@@ -21,7 +21,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        app: [english, toeic]
+        app: [english, toeic, toeic_speaking, opic]
     steps:
       - uses: actions/checkout@v4
 

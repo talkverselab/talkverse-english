@@ -13,6 +13,7 @@ import 'profile_screen.dart';
 import 'roots_screen.dart';
 import 'word_freq_screen.dart';
 import 'word_quiz_screen.dart';
+import '../widgets/flashcards.dart';
 
 /// 메인 — 탭 4개: 배우기(오늘의 학습·기초·회화·단어) · 복습 · 탐색 · 프로필(성과·설정). 넓은 화면 레일 맨 아래 「앱 소개」.
 /// 일본어앱 구조 그대로(공통 프롬프터 §5, 2026-11-03). 회화·단어 데이터는 아직 없어 빈 안내를 보인다.
@@ -423,12 +424,13 @@ class _LearnTabState extends State<LearnTab> {
               onTap: () => openPane(context, (_) => const WordFreqScreen()),
             ),
             NavRow(
-              seal: 'Root',
-              sealColor: AppColors.matcha,
-              title: tr('뿌리 단어 패밀리'),
-              subtitle: tr('라틴·그리스 어근 → 앞가지·어근·뒷가지로 뜻 풀기'),
-              onTap: () => openPane(context, (_) => const RootsScreen()),
+              seal: 'Card',
+              sealColor: AppColors.kinDeep,
+              title: tr('단어 플래시카드'),
+              subtitle: tr('절벽 단어 2,000위 · 알아요 / 몰라요 · 한 판 20장'),
+              onTap: () => openFull(context, (_) => FlashcardDeck(title: tr('단어 플래시카드'), deckId: 'cliff', loader: () async => (await WordList.load()).where((w) => w.rank <= kWordCap).toList())),
             ),
+            const RootsNavRow(),
           ],
         ),
       ],
@@ -574,4 +576,17 @@ class MeTab extends StatelessWidget {
       children: const [ProfileScreen(embedded: true)],
     );
   }
+}
+
+/// 「뿌리 단어 패밀리」 메뉴 한 줄 — 네 앱 공용(같은 화면·같은 데이터).
+class RootsNavRow extends StatelessWidget {
+  const RootsNavRow({super.key});
+  @override
+  Widget build(BuildContext context) => NavRow(
+        seal: 'Root',
+        sealColor: AppColors.matcha,
+        title: tr('뿌리 단어 패밀리'),
+        subtitle: tr('라틴·그리스 어근 → 앞가지·어근·뒷가지로 뜻 풀기'),
+        onTap: () => openPane(context, (_) => const RootsScreen()),
+      );
 }
