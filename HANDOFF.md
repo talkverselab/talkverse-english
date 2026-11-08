@@ -8,7 +8,7 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 |---|---|
 | ① 캐릭터 시트 | **사용자 통과 2026-11-03** — `data/review/art/chars_en_v1.jpg`, 특징 `data/review/uxui/CHARACTERS.md` (뉴욕 브루클린: Maya·Emma·Jake·Daniel·학습자 남/여). talkverse.uk 세션이 그림 저장소 `chars/en_sheet.jpg` 로 반영 |
 | ② UX/UI 시안 | **사용자 통과 2026-11-03** — 그림 `data/review/uxui/sian_en_01.jpg`(Grok), 글 `sian_en_01.md`(이 세션) + `sian_en_grok_01.md`(Grok). 적용 전 태그 `pre-grok-uxui` |
-| ③ 아이패드 빌드 | **완료** — 최신 Android **영어 Zealot 빌드 11** https://apps.talkverse.uk/Eyi4j/337 · **토익 Zealot 빌드 13** https://apps.talkverse.uk/oQESn/339(커밋 `6dcb54b` 비즈니스 회화 18편 중급 문장, 2026-11-08 14:2x) · iOS 영어 **TestFlight 2611081617**(`e1d43b9`, 2026-11-08 Xcode 문제 해결 뒤). 토익·토익스피킹·OPIc iOS 는 export 까지 되고 업로드는 App Store Connect 앱 레코드(`com.talkverse.toeic`·`toeicSpeaking`·`opic`) 대기 — 사용자가 만들면 `APP=<id> bash tools/ios_release.sh`. 사용자 지시 2026-11-08 "푸쉬 멈추지 말고 진행" → Android 만 먼저 |
+| ③ 아이패드 빌드 | **완료** — 최신 Android **Zealot 빌드 15**(커밋 `a7125a8`, 2026-11-08 16:5x) — 영어 https://apps.talkverse.uk/Eyi4j/355 · 토익 https://apps.talkverse.uk/oQESn/356 · 토익스피킹 https://apps.talkverse.uk/UIlBS/357 · OPIc https://apps.talkverse.uk/K7fRJ/358 · iOS 영어 **TestFlight 2611081642**(`a7125a8`). 토익·토익스피킹·OPIc iOS 는 export 까지 되고 업로드는 App Store Connect 앱 레코드(`com.talkverse.toeic`·`toeicSpeaking`·`opic`) 대기 — 사용자가 만들면 `APP=<id> bash tools/ios_release.sh`. 사용자 지시 2026-11-08 "푸쉬 멈추지 말고 진행" → Android 만 먼저 |
 | ④ 회화 | **2026-11-07 Claude 초안 시작(사용자 지시, uk 전달·공통 프롬프터 §12)** — 샘플 7편 + 음성(MOSS, 미국 말투, `audio_lines` 132줄), 리뷰 https://talkverse.uk/talkverse/review/en/ . **사용자 톤 확인 뒤 양산.** 앱에는 아직 안 넣음(pubspec·음성 코드). Grok 재작성은 11월 10일 이후. 규칙 `docs/DIALOGUE_EN.md` |
 
 ## 앱내앱(사용자 지시 2026-11-08, 전자책 세션 전달 → 사용자 "ㅇㅋ 고")
