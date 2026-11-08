@@ -5,7 +5,7 @@ import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
 import '../screens/dialogue_screen.dart' show DialogueHomeScreen;
-import '../screens/main_screen.dart' show EmptyNote, MainScreen, MeTab, NavRow, RootsNavRow, sectionTitle;
+import '../screens/main_screen.dart' show EmptyNote, MainScreen, MeTab, NavRow, RootsNavRow, SoundChartNavRow, sectionTitle;
 import '../services/achievement_service.dart';
 import '../widgets/app_family.dart';
 import '../widgets/english_decor.dart';
@@ -42,6 +42,8 @@ class _ToeicLearnTab extends StatelessWidget {
           const GradText('TOEIC', style: TextStyle(fontSize: 24, fontWeight: FontWeight.w800, letterSpacing: -0.5)),
           const SizedBox(height: 2),
           Text(tr('단어부터 — 매일 한 단원 20어'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, fontWeight: FontWeight.w500)),
+          sectionTitle(tr('기초')),
+          const SoundChartNavRow(),
           sectionTitle(tr('단어')),
           NavRow(
             seal: 'Voca',
@@ -93,6 +95,8 @@ class _SpeakingLearnTab extends StatelessWidget {
         GradText(speaking ? 'TOEIC Speaking' : 'OPIc', style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w800, letterSpacing: -0.5)),
         const SizedBox(height: 2),
         Text(tr(speaking ? '답변 틀 · 말하기 연습 — 어휘부터 다져요' : '주제별 답변 · 표현 — 어휘부터 다져요'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, fontWeight: FontWeight.w500)),
+        sectionTitle(tr('기초')),
+        const SoundChartNavRow(),
         sectionTitle(tr('단어')),
         NavRow(
           seal: 'Card',

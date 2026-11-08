@@ -14,6 +14,7 @@ import '../widgets/stress_text.dart';
 import '../widgets/app_family.dart';
 import '../widgets/stress_toggle.dart';
 import 'about_screen.dart';
+import 'license_screen.dart';
 
 /// 「프로필」 — 성과 · 기록 · 학습자 프로필(이름·성별) · 설정 · 정보(2026-11-07 메뉴 정리).
 /// 계정(Talkverse ID 로그인·이용권)은 사용자가 「착수」 한 뒤 붙인다(공통 프롬프터 §11).
@@ -144,6 +145,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         else
           _SettingItem(icon: Icons.menu_book_outlined, title: tr('앱 소개'), subtitle: tr(AppFlavor.current.tagline)),
         _SettingItem(icon: Icons.info_outline, title: tr('앱 버전'), subtitle: _version.isEmpty ? '—' : _version),
+        _SettingItem(icon: Icons.gavel_outlined, title: tr('라이선스'), subtitle: tr('그림 자료 · 오픈소스'), onTap: () => openPane(context, (_) => const LicenseScreen())),
         _SettingItem(icon: Icons.copyright, title: tr('저작권'), subtitle: '${AppFlavor.current.nameKo} · 2026'),
       ]),
       const SizedBox(height: 20),

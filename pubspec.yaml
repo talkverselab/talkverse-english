@@ -70,6 +70,7 @@ flutter:
     - assets/data/words/
     - assets/data/freq/
     - assets/data/roots/
+    - assets/images/ipa/
     - assets/data/toeic/
     - assets/data/toeic/dialogues/T1/office/
     - assets/data/version.json

@@ -11,6 +11,7 @@ import 'about_screen.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
 import 'roots_screen.dart';
+import 'sound_chart_screen.dart';
 import 'word_freq_screen.dart';
 import 'word_quiz_screen.dart';
 import '../widgets/flashcards.dart';
@@ -401,12 +402,7 @@ class _LearnTabState extends State<LearnTab> {
                 },
               ),
             sectionTitle(tr('기초')),
-            NavRow(
-              seal: 'Aa',
-              sealColor: AppColors.ai,
-              title: tr('소리 배우기'),
-              subtitle: tr('강세 · 이어 말하기 · 약해지는 소리'),
-            ),
+            const SoundChartNavRow(),
             sectionTitle(tr('회화')),
             NavRow(
               seal: 'Talk',
@@ -588,5 +584,18 @@ class RootsNavRow extends StatelessWidget {
         title: tr('뿌리 단어 패밀리'),
         subtitle: tr('라틴·그리스 어근 → 앞가지·어근·뒷가지로 뜻 풀기'),
         onTap: () => openPane(context, (_) => const RootsScreen()),
+      );
+}
+
+/// 「알파벳과 발음」 메뉴 한 줄 — 배우기 탭 「기초」 첫 줄, 네 앱 공용(공통 프롬프터 §5-3).
+class SoundChartNavRow extends StatelessWidget {
+  const SoundChartNavRow({super.key});
+  @override
+  Widget build(BuildContext context) => NavRow(
+        seal: 'Aa',
+        sealColor: AppColors.ai,
+        title: tr('알파벳과 발음'),
+        subtitle: tr('알파벳 26 · 모음·자음 · r/l·f/p·th · 입 모양·한국어 비교'),
+        onTap: () => openPane(context, (_) => const SoundChartScreen()),
       );
 }
