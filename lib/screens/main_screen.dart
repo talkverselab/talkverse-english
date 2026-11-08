@@ -10,6 +10,7 @@ import '../widgets/today_mission.dart';
 import 'about_screen.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
+import 'roots_screen.dart';
 import 'word_freq_screen.dart';
 import 'word_quiz_screen.dart';
 
@@ -417,6 +418,13 @@ class _LearnTabState extends State<LearnTab> {
               subtitle: tr('빈도 2,000위 · 20어 단원 · 그림 · 미국/영국/호주 발음'),
               onTap: () => openPane(context, (_) => const WordFreqScreen()),
             ),
+            _NavRow(
+              seal: 'Root',
+              sealColor: AppColors.matcha,
+              title: tr('뿌리 단어 패밀리'),
+              subtitle: tr('라틴·그리스 어근 → 앞가지·어근·뒷가지로 뜻 풀기'),
+              onTap: () => openPane(context, (_) => const RootsScreen()),
+            ),
           ],
         ),
       ],
@@ -530,6 +538,13 @@ class ExploreTab extends StatelessWidget {
           title: tr('단어 빈도'),
           subtitle: 'Vocabulary · R1~R4',
           onTap: () => openPane(context, (_) => const WordFreqScreen()),
+        ),
+        _NavRow(
+          seal: 'Root',
+          sealColor: AppColors.matcha,
+          title: tr('뿌리 단어 패밀리'),
+          subtitle: tr('라틴·그리스 어근 · 가족별로 뜻 풀기'),
+          onTap: () => openPane(context, (_) => const RootsScreen()),
         ),
         _NavRow(
           seal: 'Aa',

@@ -46,6 +46,9 @@
 - 말풍선을 그림 위에 얹지 않는다(그림 아래 띠 `_LineStrip`). 그림 카드 앞면엔 한국어 뜻. `{name}` 회화는 이름이 비면 `ensureLearnerName` 창.
 - 장면 컷은 기본판 + 여자 학습자판(`<편id>_f`), 반복 조연은 시트 2장을 컷 요청에 첨부.
 
+## 3-2. 뿌리 단어 패밀리
+- 어근·뜻·낱말 분해는 `tools/roots_en.py` 에 직접 쓰고(출처명 금지) `python3 tools/roots_en.py` 로 `assets/data/roots/roots_en.json` 을 다시 만든다. 단어장에 없는 낱말은 `x`, 닮은꼴은 힌트의 「모양만 닮음」·「— …에서」로 판정.
+
 ## 4. 그림
 - 캐릭터·UX 시안 요청은 한자 세션 경유(공통 프롬프터 §9). 결과 `data/review/art/`·`data/review/uxui/`.
 - 단어 그림 `https://auth.talkverse.uk/art/en/manifest`(2026-11-03 23시 현재 1,326개, 없는 단어는 이모지 카드), 장면 컷 `…/art/en/scene/manifest?episode=<편id>`.

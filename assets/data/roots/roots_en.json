@@ -1,0 +1,9902 @@
+{
+"_meta": "라틴·그리스 어근 단어 패밀리 — 뜻과 분해는 tools/roots_en.py 에 직접 씀. x = 단어장(2,494어) 밖 낱말. level = 가족 중 가장 흔한 낱말의 절벽 구간.",
+"prefix": {
+"a": "~에·~으로",
+"ab": "떨어져",
+"ac": "~에·향하여",
+"ad": "~에·향하여",
+"af": "~에·향하여",
+"ap": "~에·향하여",
+"as": "~에·향하여",
+"at": "~에·향하여",
+"col": "함께",
+"com": "함께",
+"con": "함께·완전히",
+"cor": "함께",
+"de": "아래로·떨어져",
+"dis": "떨어져·반대",
+"di": "떨어져",
+"e": "밖으로",
+"ex": "밖으로",
+"ef": "밖으로",
+"in": "안으로·아닌",
+"im": "안으로·아닌",
+"il": "아닌",
+"inter": "사이",
+"intro": "안으로",
+"ob": "맞서·향하여",
+"op": "맞서",
+"per": "끝까지·통하여",
+"pre": "앞서",
+"pro": "앞으로",
+"pur": "앞으로",
+"re": "다시·뒤로",
+"se": "따로",
+"sub": "아래",
+"sup": "아래",
+"sus": "아래",
+"sur": "위에",
+"trans": "건너",
+"tele": "멀리",
+"uni": "하나",
+"bi": "둘",
+"tri": "셋",
+"auto": "스스로",
+"super": "위에",
+"under": "아래",
+"over": "넘어",
+"mis": "잘못",
+"un": "아닌",
+"non": "아닌",
+"en": "안으로·되게",
+"em": "안으로·되게",
+"ir": "아닌"
+},
+"roots": [
+{
+"root": "popul",
+"key": "popul",
+"origin": "L",
+"meaning": "people",
+"ko": "사람들",
+"forms": [
+"popul",
+"publ"
+],
+"best": 66,
+"level": "R1",
+"words": [
+{
+"w": "people",
+"parts": [
+"",
+"peopl",
+"e"
+],
+"hint": "populus 가 프랑스어를 거쳐 → 사람들",
+"rank": 66,
+"level": "R1",
+"ko": "사람들",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "people",
+"l": false
+},
+{
+"w": "public",
+"parts": [
+"",
+"publ",
+"ic"
+],
+"hint": "사람들의 → 공공의",
+"rank": 236,
+"level": "R2",
+"ko": "공공의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "public",
+"l": false
+},
+{
+"w": "popular",
+"parts": [
+"",
+"popul",
+"ar"
+],
+"hint": "사람들의 → 인기 있는",
+"rank": 885,
+"level": "R4",
+"ko": "인기 있는",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "popular",
+"l": false
+},
+{
+"w": "publish",
+"parts": [
+"",
+"publ",
+"ish"
+],
+"hint": "사람들에게 내놓다 → 출판하다",
+"rank": 886,
+"level": "R4",
+"ko": "출판된",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "published",
+"l": false
+},
+{
+"w": "population",
+"parts": [
+"",
+"popul",
+"ation"
+],
+"hint": "사람 수 → 인구",
+"rank": 1026,
+"level": "R4",
+"ko": "인구",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "population",
+"l": false
+},
+{
+"w": "republic",
+"parts": [
+"re",
+"publ",
+"ic"
+],
+"hint": "사람들의 것(res publica) → 공화국",
+"rank": 2452,
+"level": "R4",
+"ko": "공화국",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "republic",
+"l": false
+}
+]
+},
+{
+"root": "ver",
+"key": "ver",
+"origin": "L",
+"meaning": "true",
+"ko": "참된",
+"forms": [
+"ver"
+],
+"best": 104,
+"level": "R1",
+"words": [
+{
+"w": "very",
+"parts": [
+"",
+"ver",
+"y"
+],
+"hint": "참된 → 진짜로·매우",
+"rank": 104,
+"level": "R1",
+"ko": "매우",
+"pos": "adv",
+"pre": "",
+"x": false,
+"lw": "very",
+"l": false
+},
+{
+"w": "version",
+"parts": [
+"",
+"vers",
+"ion"
+],
+"hint": "돌리다(vert) → 판 — 모양만 닮음",
+"rank": 890,
+"level": "R4",
+"ko": "버전/판",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "version",
+"l": true
+},
+{
+"w": "verify",
+"parts": [
+"",
+"ver",
+"ify"
+],
+"hint": "참되게 만들다 → 확인하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "part",
+"key": "part",
+"origin": "L",
+"meaning": "part, divide",
+"ko": "부분·나누다",
+"forms": [
+"part"
+],
+"best": 157,
+"level": "R1",
+"words": [
+{
+"w": "part",
+"parts": [
+"",
+"part",
+""
+],
+"hint": "부분",
+"rank": 157,
+"level": "R1",
+"ko": "부분",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "part",
+"l": false
+},
+{
+"w": "party",
+"parts": [
+"",
+"part",
+"y"
+],
+"hint": "한쪽 편 사람들 → 모임·정당",
+"rank": 300,
+"level": "R2",
+"ko": "파티/정당",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "party",
+"l": false
+},
+{
+"w": "department",
+"parts": [
+"de",
+"part",
+"ment"
+],
+"hint": "나뉜 곳 → 부서",
+"rank": 565,
+"level": "R3",
+"ko": "부서",
+"pos": "noun",
+"pre": "아래로·떨어져",
+"x": false,
+"lw": "department",
+"l": false
+},
+{
+"w": "particular",
+"parts": [
+"",
+"part",
+"icular"
+],
+"hint": "작은 부분의 → 특정한",
+"rank": 1060,
+"level": "R4",
+"ko": "특정한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "particular",
+"l": false
+},
+{
+"w": "partner",
+"parts": [
+"",
+"part",
+"ner"
+],
+"hint": "한 부분을 가진 사람 → 동반자",
+"rank": 1495,
+"level": "R4",
+"ko": "동반자",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "partner",
+"l": false
+},
+{
+"w": "apart",
+"parts": [
+"a",
+"part",
+""
+],
+"hint": "한쪽으로(a) 나뉘어 → 떨어져",
+"rank": 1672,
+"level": "R4",
+"ko": "떨어져",
+"pos": "adv",
+"pre": "~에·~으로",
+"x": false,
+"lw": "apart",
+"l": false
+},
+{
+"w": "apartment",
+"parts": [
+"a",
+"part",
+"ment"
+],
+"hint": "나뉜 거처 → 아파트",
+"rank": 2199,
+"level": "R4",
+"ko": "아파트",
+"pos": "noun",
+"pre": "~에·~으로",
+"x": false,
+"lw": "apartment",
+"l": false
+},
+{
+"w": "participate",
+"parts": [
+"",
+"part",
+"icipate"
+],
+"hint": "부분을 잡다(cap) → 참여하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "sta",
+"key": "sta",
+"origin": "L",
+"meaning": "stand",
+"ko": "서다",
+"forms": [
+"sta",
+"stat",
+"sist",
+"stit"
+],
+"best": 158,
+"level": "R1",
+"words": [
+{
+"w": "state",
+"parts": [
+"",
+"stat",
+"e"
+],
+"hint": "서 있는 모습 → 상태·국가",
+"rank": 158,
+"level": "R1",
+"ko": "상태/주",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "state",
+"l": false
+},
+{
+"w": "instead",
+"parts": [
+"in",
+"ste",
+"ad"
+],
+"hint": "그 자리에(in stead) → 대신에",
+"rank": 555,
+"level": "R3",
+"ko": "대신에",
+"pos": "adv",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "instead",
+"l": false
+},
+{
+"w": "stand",
+"parts": [
+"",
+"sta",
+"nd"
+],
+"hint": "서다",
+"rank": 733,
+"level": "R3",
+"ko": "서다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "stand",
+"l": false
+},
+{
+"w": "stage",
+"parts": [
+"",
+"sta",
+"ge"
+],
+"hint": "서는 자리 → 무대·단계",
+"rank": 811,
+"level": "R3",
+"ko": "무대",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "stage",
+"l": false
+},
+{
+"w": "standard",
+"parts": [
+"",
+"sta",
+"ndard"
+],
+"hint": "세워 둔 기준 → 표준",
+"rank": 977,
+"level": "R4",
+"ko": "표준",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "standard",
+"l": false
+},
+{
+"w": "station",
+"parts": [
+"",
+"stat",
+"ion"
+],
+"hint": "서는 곳 → 역",
+"rank": 1031,
+"level": "R4",
+"ko": "역/방송국",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "station",
+"l": false
+},
+{
+"w": "statement",
+"parts": [
+"",
+"stat",
+"ement"
+],
+"hint": "세워 말한 것 → 진술",
+"rank": 1121,
+"level": "R4",
+"ko": "진술/성명",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "statement",
+"l": false
+},
+{
+"w": "establish",
+"parts": [
+"e",
+"sta",
+"blish"
+],
+"hint": "굳게 세우다 → 설립하다",
+"rank": 1302,
+"level": "R4",
+"ko": "설립된",
+"pos": "verb",
+"pre": "밖으로",
+"x": false,
+"lw": "established",
+"l": false
+},
+{
+"w": "status",
+"parts": [
+"",
+"stat",
+"us"
+],
+"hint": "서 있는 자리 → 지위",
+"rank": 1404,
+"level": "R4",
+"ko": "지위/상태",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "status",
+"l": false
+},
+{
+"w": "distance",
+"parts": [
+"di",
+"sta",
+"nce"
+],
+"hint": "떨어져(dis) 서 있음 → 거리",
+"rank": 1442,
+"level": "R4",
+"ko": "거리",
+"pos": "noun",
+"pre": "떨어져",
+"x": false,
+"lw": "distance",
+"l": false
+},
+{
+"w": "estate",
+"parts": [
+"e",
+"stat",
+"e"
+],
+"hint": "서 있는 재산 → 부동산",
+"rank": 1556,
+"level": "R4",
+"ko": "부동산/재산",
+"pos": "noun",
+"pre": "밖으로",
+"x": false,
+"lw": "estate",
+"l": false
+},
+{
+"w": "institute",
+"parts": [
+"in",
+"stit",
+"ute"
+],
+"hint": "안에(in) 세운 것 → 기관",
+"rank": 1624,
+"level": "R4",
+"ko": "기관/연구소",
+"pos": "noun",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "institute",
+"l": false
+},
+{
+"w": "assistant",
+"parts": [
+"as",
+"sist",
+"ant"
+],
+"hint": "옆에(ad) 서 있는 사람 → 조수",
+"rank": 1888,
+"level": "R4",
+"ko": "조수/보조",
+"pos": "noun",
+"pre": "~에·향하여",
+"x": false,
+"lw": "assistant",
+"l": false
+},
+{
+"w": "restaurant",
+"parts": [
+"re",
+"sta",
+"urant"
+],
+"hint": "다시(re) 세우는 곳 → 기운을 회복하는 곳 → 식당",
+"rank": 2084,
+"level": "R4",
+"ko": "식당",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "restaurant",
+"l": false
+},
+{
+"w": "statistics",
+"parts": [
+"",
+"stat",
+"istics"
+],
+"hint": "국가(state)의 수치 → 통계",
+"rank": 2460,
+"level": "R4",
+"ko": "통계",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "statistics",
+"l": false
+},
+{
+"w": "circumstances",
+"parts": [
+"circum",
+"sta",
+"nces"
+],
+"hint": "둘레에(circum) 서 있는 것 → 상황",
+"rank": 2477,
+"level": "R4",
+"ko": "상황",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "circumstances",
+"l": false
+},
+{
+"w": "resist",
+"parts": [
+"re",
+"sist",
+""
+],
+"hint": "맞서(re) 서다 → 저항하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "다시·뒤로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "lit",
+"key": "lit",
+"origin": "L",
+"meaning": "letter",
+"ko": "글자",
+"forms": [
+"lit"
+],
+"best": 167,
+"level": "R1",
+"words": [
+{
+"w": "little",
+"parts": [
+"",
+"lit",
+"tle"
+],
+"hint": "영어 고유어 — 모양만 닮음",
+"rank": 167,
+"level": "R1",
+"ko": "작은/조금",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "little",
+"l": true
+},
+{
+"w": "literally",
+"parts": [
+"",
+"lit",
+"erally"
+],
+"hint": "글자 그대로 → 말 그대로",
+"rank": 1277,
+"level": "R4",
+"ko": "문자 그대로",
+"pos": "adv",
+"pre": "",
+"x": false,
+"lw": "literally",
+"l": false
+},
+{
+"w": "literature",
+"parts": [
+"",
+"lit",
+"erature"
+],
+"hint": "글자로 쓴 것 → 문학",
+"rank": 2352,
+"level": "R4",
+"ko": "문학",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "literature",
+"l": false
+}
+]
+},
+{
+"root": "fer",
+"key": "fer",
+"origin": "L",
+"meaning": "carry, bring",
+"ko": "가져가다",
+"forms": [
+"fer"
+],
+"best": 225,
+"level": "R2",
+"words": [
+{
+"w": "different",
+"parts": [
+"dif",
+"fer",
+"ent"
+],
+"hint": "따로(dis) 가져간 → 다른",
+"rank": 225,
+"level": "R2",
+"ko": "다른",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "different",
+"l": false
+},
+{
+"w": "offer",
+"parts": [
+"of",
+"fer",
+""
+],
+"hint": "맞은편으로(ob) 가져가다 → 제공하다",
+"rank": 922,
+"level": "R4",
+"ko": "제안하다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "offer",
+"l": false
+},
+{
+"w": "conference",
+"parts": [
+"con",
+"fer",
+"ence"
+],
+"hint": "함께(con) 가져와 나눔 → 회의",
+"rank": 1017,
+"level": "R4",
+"ko": "회의",
+"pos": "noun",
+"pre": "함께·완전히",
+"x": false,
+"lw": "conference",
+"l": false
+},
+{
+"w": "difference",
+"parts": [
+"dif",
+"fer",
+"ence"
+],
+"hint": "차이",
+"rank": 1018,
+"level": "R4",
+"ko": "차이",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "difference",
+"l": false
+},
+{
+"w": "reference",
+"parts": [
+"re",
+"fer",
+"ence"
+],
+"hint": "다시(re) 가져가 댐 → 참고",
+"rank": 1836,
+"level": "R4",
+"ko": "참조/언급",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "reference",
+"l": false
+},
+{
+"w": "transfer",
+"parts": [
+"trans",
+"fer",
+""
+],
+"hint": "건너(trans) 가져가다 → 옮기다",
+"rank": 1931,
+"level": "R4",
+"ko": "이동/이체",
+"pos": "noun",
+"pre": "건너",
+"x": false,
+"lw": "transfer",
+"l": false
+},
+{
+"w": "referred",
+"parts": [
+"re",
+"fer",
+"red"
+],
+"hint": "다시 가져가 말함 → 언급했다",
+"rank": 2417,
+"level": "R4",
+"ko": "언급했다/가리켰다",
+"pos": "verb",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "referred",
+"l": false
+},
+{
+"w": "prefer",
+"parts": [
+"pre",
+"fer",
+""
+],
+"hint": "앞에(pre) 가져다 두다 → 더 좋아하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "앞서",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "port",
+"key": "port",
+"origin": "L",
+"meaning": "carry",
+"ko": "운반하다",
+"forms": [
+"port"
+],
+"best": 268,
+"level": "R2",
+"words": [
+{
+"w": "support",
+"parts": [
+"sup",
+"port",
+""
+],
+"hint": "아래에서(sup) 받쳐 운반 → 지지하다",
+"rank": 268,
+"level": "R2",
+"ko": "지지하다/지원",
+"pos": "verb",
+"pre": "아래",
+"x": false,
+"lw": "support",
+"l": false
+},
+{
+"w": "important",
+"parts": [
+"im",
+"port",
+"ant"
+],
+"hint": "안으로(im) 들여올 만한 → 중요한",
+"rank": 337,
+"level": "R3",
+"ko": "중요한",
+"pos": "adj",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "important",
+"l": false
+},
+{
+"w": "report",
+"parts": [
+"re",
+"port",
+""
+],
+"hint": "다시(re) 가져와 전함 → 보고하다",
+"rank": 465,
+"level": "R3",
+"ko": "보고서/보고하다",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "report",
+"l": false
+},
+{
+"w": "opportunity",
+"parts": [
+"op",
+"port",
+"unity"
+],
+"hint": "항구 쪽으로(ob) 부는 순풍 → 기회",
+"rank": 1169,
+"level": "R4",
+"ko": "기회",
+"pos": "noun",
+"pre": "맞서",
+"x": false,
+"lw": "opportunity",
+"l": false
+},
+{
+"w": "airport",
+"parts": [
+"air",
+"port",
+""
+],
+"hint": "공중(air)의 항구 → 공항",
+"rank": 1479,
+"level": "R4",
+"ko": "공항",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "airport",
+"l": false
+},
+{
+"w": "port",
+"parts": [
+"",
+"port",
+""
+],
+"hint": "짐을 운반하는 곳 → 항구",
+"rank": 1873,
+"level": "R4",
+"ko": "항구",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "port",
+"l": false
+},
+{
+"w": "sport",
+"parts": [
+"s",
+"port",
+""
+],
+"hint": "dis(떨어져)+port — 일에서 떨어져 노는 것 → 운동",
+"rank": 1881,
+"level": "R4",
+"ko": "스포츠",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "sport",
+"l": false
+},
+{
+"w": "transport",
+"parts": [
+"trans",
+"port",
+""
+],
+"hint": "건너(trans) 운반 → 수송",
+"rank": 2096,
+"level": "R4",
+"ko": "수송/교통",
+"pos": "noun",
+"pre": "건너",
+"x": false,
+"lw": "transport",
+"l": false
+},
+{
+"w": "export",
+"parts": [
+"ex",
+"port",
+""
+],
+"hint": "밖으로(ex) 운반 → 수출",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "밖으로",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "import",
+"parts": [
+"im",
+"port",
+""
+],
+"hint": "안으로(im) 운반 → 수입",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "안으로·아닌",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "clud",
+"key": "clud",
+"origin": "L",
+"meaning": "close",
+"ko": "닫다",
+"forms": [
+"clud",
+"clus",
+"clos"
+],
+"best": 270,
+"level": "R2",
+"words": [
+{
+"w": "including",
+"parts": [
+"in",
+"clud",
+"ing"
+],
+"hint": "~을 포함하여",
+"rank": 270,
+"level": "R2",
+"ko": "~을 포함하여",
+"pos": "prep",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "including",
+"l": false
+},
+{
+"w": "close",
+"parts": [
+"",
+"clos",
+"e"
+],
+"hint": "닫다·가까운",
+"rank": 418,
+"level": "R3",
+"ko": "닫다/가까운",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "close",
+"l": false
+},
+{
+"w": "include",
+"parts": [
+"in",
+"clud",
+"e"
+],
+"hint": "안에(in) 닫아 넣다 → 포함하다",
+"rank": 601,
+"level": "R3",
+"ko": "포함하다",
+"pos": "verb",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "include",
+"l": false
+},
+{
+"w": "closed",
+"parts": [
+"",
+"clos",
+"ed"
+],
+"hint": "닫힌",
+"rank": 1293,
+"level": "R4",
+"ko": "닫힌",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "closed",
+"l": false
+},
+{
+"w": "exclude",
+"parts": [
+"ex",
+"clud",
+"e"
+],
+"hint": "밖으로(ex) 닫아 내다 → 제외하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "밖으로",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "conclusion",
+"parts": [
+"con",
+"clus",
+"ion"
+],
+"hint": "완전히(con) 닫음 → 결론",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께·완전히",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "nat",
+"key": "nat",
+"origin": "L",
+"meaning": "born",
+"ko": "태어나다",
+"forms": [
+"nat"
+],
+"best": 282,
+"level": "R2",
+"words": [
+{
+"w": "national",
+"parts": [
+"",
+"nat",
+"ional"
+],
+"hint": "국가의",
+"rank": 282,
+"level": "R2",
+"ko": "국가의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "national",
+"l": false
+},
+{
+"w": "international",
+"parts": [
+"inter",
+"nat",
+"ional"
+],
+"hint": "나라 사이의(inter) → 국제적인",
+"rank": 422,
+"level": "R3",
+"ko": "국제적인",
+"pos": "adj",
+"pre": "사이",
+"x": false,
+"lw": "international",
+"l": false
+},
+{
+"w": "natural",
+"parts": [
+"",
+"nat",
+"ural"
+],
+"hint": "자연의",
+"rank": 788,
+"level": "R3",
+"ko": "자연의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "natural",
+"l": false
+},
+{
+"w": "nature",
+"parts": [
+"",
+"nat",
+"ure"
+],
+"hint": "태어난 그대로 → 자연",
+"rank": 1093,
+"level": "R4",
+"ko": "자연",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "nature",
+"l": false
+},
+{
+"w": "nation",
+"parts": [
+"",
+"nat",
+"ion"
+],
+"hint": "같이 태어난 무리 → 국가",
+"rank": 1365,
+"level": "R4",
+"ko": "국가",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "nation",
+"l": false
+},
+{
+"w": "native",
+"parts": [
+"",
+"nat",
+"ive"
+],
+"hint": "태어난 곳의 → 원주민·모국의",
+"rank": 2041,
+"level": "R4",
+"ko": "토박이의/원주민",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "native",
+"l": false
+},
+{
+"w": "innate",
+"parts": [
+"in",
+"nat",
+"e"
+],
+"hint": "안에(in) 타고난 → 선천적인",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "안으로·아닌",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "act",
+"key": "act",
+"origin": "L",
+"meaning": "do, drive",
+"ko": "행하다",
+"forms": [
+"act",
+"ag"
+],
+"best": 294,
+"level": "R2",
+"words": [
+{
+"w": "actually",
+"parts": [
+"",
+"act",
+"ually"
+],
+"hint": "실제 행한 대로 → 사실은",
+"rank": 294,
+"level": "R2",
+"ko": "사실은",
+"pos": "adv",
+"pre": "",
+"x": false,
+"lw": "actually",
+"l": false
+},
+{
+"w": "act",
+"parts": [
+"",
+"act",
+""
+],
+"hint": "행하다·행동",
+"rank": 480,
+"level": "R3",
+"ko": "행동하다/행위",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "act",
+"l": false
+},
+{
+"w": "action",
+"parts": [
+"",
+"act",
+"ion"
+],
+"hint": "행동",
+"rank": 539,
+"level": "R3",
+"ko": "행동",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "action",
+"l": false
+},
+{
+"w": "exactly",
+"parts": [
+"ex",
+"act",
+"ly"
+],
+"hint": "끝까지 몰아간(ex) → 정확히",
+"rank": 711,
+"level": "R3",
+"ko": "정확히",
+"pos": "adv",
+"pre": "밖으로",
+"x": false,
+"lw": "exactly",
+"l": false
+},
+{
+"w": "contact",
+"parts": [
+"con",
+"tact",
+""
+],
+"hint": "함께(con) 닿음 → 접촉 — tact(닿다)에서",
+"rank": 1070,
+"level": "R4",
+"ko": "연락",
+"pos": "noun",
+"pre": "함께·완전히",
+"x": false,
+"lw": "contact",
+"l": true
+},
+{
+"w": "active",
+"parts": [
+"",
+"act",
+"ive"
+],
+"hint": "행하는 → 활동적인",
+"rank": 1207,
+"level": "R4",
+"ko": "활동적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "active",
+"l": false
+},
+{
+"w": "agency",
+"parts": [
+"",
+"ag",
+"ency"
+],
+"hint": "대리하는 곳 → 기관",
+"rank": 1380,
+"level": "R4",
+"ko": "기관",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "agency",
+"l": false
+},
+{
+"w": "activity",
+"parts": [
+"",
+"act",
+"ivity"
+],
+"hint": "활동",
+"rank": 1409,
+"level": "R4",
+"ko": "활동",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "activity",
+"l": false
+},
+{
+"w": "agent",
+"parts": [
+"",
+"ag",
+"ent"
+],
+"hint": "행하는 사람 → 대리인",
+"rank": 1583,
+"level": "R4",
+"ko": "요원/대리인",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "agent",
+"l": false
+},
+{
+"w": "reaction",
+"parts": [
+"re",
+"act",
+"ion"
+],
+"hint": "되받아(re) 행함 → 반응",
+"rank": 1875,
+"level": "R4",
+"ko": "반응",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "reaction",
+"l": false
+},
+{
+"w": "actor",
+"parts": [
+"",
+"act",
+"or"
+],
+"hint": "행하는 사람 → 배우",
+"rank": 2197,
+"level": "R4",
+"ko": "배우",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "actor",
+"l": false
+}
+]
+},
+{
+"root": "ord",
+"key": "ord",
+"origin": "L",
+"meaning": "order, row",
+"ko": "차례",
+"forms": [
+"ord"
+],
+"best": 299,
+"level": "R2",
+"words": [
+{
+"w": "order",
+"parts": [
+"",
+"ord",
+"er"
+],
+"hint": "차례 → 순서·주문·명령",
+"rank": 299,
+"level": "R2",
+"ko": "주문/순서",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "order",
+"l": false
+},
+{
+"w": "ordered",
+"parts": [
+"",
+"ord",
+"ered"
+],
+"hint": "주문했다",
+"rank": 1833,
+"level": "R4",
+"ko": "주문했다(order 과거)",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "ordered",
+"l": false
+},
+{
+"w": "border",
+"parts": [
+"b",
+"ord",
+"er"
+],
+"hint": "가장자리(bord) → 국경 — 모양만 닮은 다른 뿌리",
+"rank": 1989,
+"level": "R4",
+"ko": "국경/경계",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "border",
+"l": true
+},
+{
+"w": "ordinary",
+"parts": [
+"",
+"ord",
+"inary"
+],
+"hint": "차례대로의 → 평범한",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "serv",
+"key": "serv",
+"origin": "L",
+"meaning": "serve, keep",
+"ko": "섬기다·지키다",
+"forms": [
+"serv"
+],
+"best": 303,
+"level": "R2",
+"words": [
+{
+"w": "service",
+"parts": [
+"",
+"serv",
+"ice"
+],
+"hint": "섬김 → 서비스",
+"rank": 303,
+"level": "R2",
+"ko": "서비스",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "service",
+"l": false
+},
+{
+"w": "serve",
+"parts": [
+"",
+"serv",
+"e"
+],
+"hint": "섬기다·제공하다",
+"rank": 1465,
+"level": "R4",
+"ko": "제공하다/섬기다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "serve",
+"l": false
+},
+{
+"w": "conservative",
+"parts": [
+"con",
+"serv",
+"ative"
+],
+"hint": "함께(con) 지키는 → 보수적인",
+"rank": 2390,
+"level": "R4",
+"ko": "보수적인",
+"pos": "adj",
+"pre": "함께·완전히",
+"x": false,
+"lw": "conservative",
+"l": false
+},
+{
+"w": "reserve",
+"parts": [
+"re",
+"serv",
+"e"
+],
+"hint": "뒤에(re) 지켜 두다 → 예약·비축하다",
+"rank": 2453,
+"level": "R4",
+"ko": "예약하다/비축",
+"pos": "verb",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "reserve",
+"l": false
+},
+{
+"w": "deserve",
+"parts": [
+"de",
+"serv",
+"e"
+],
+"hint": "끝까지(de) 섬겨 받을 만하다 → ~할 자격이 있다",
+"rank": 2486,
+"level": "R4",
+"ko": "~할 자격이 있다",
+"pos": "verb",
+"pre": "아래로·떨어져",
+"x": false,
+"lw": "deserve",
+"l": false
+},
+{
+"w": "observe",
+"parts": [
+"ob",
+"serv",
+"e"
+],
+"hint": "향하여(ob) 지켜보다 → 관찰하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "맞서·향하여",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "gen",
+"key": "gen",
+"origin": "L",
+"meaning": "birth, kind",
+"ko": "태어남·종류",
+"forms": [
+"gen"
+],
+"best": 311,
+"level": "R2",
+"words": [
+{
+"w": "general",
+"parts": [
+"",
+"gen",
+"eral"
+],
+"hint": "한 종류 전체에 걸친 → 일반적인",
+"rank": 311,
+"level": "R2",
+"ko": "일반적인/장군",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "general",
+"l": false
+},
+{
+"w": "agency",
+"parts": [
+"a",
+"gen",
+"cy"
+],
+"hint": "대리하는 곳 → 기관 — ag(행하다)에서",
+"rank": 1380,
+"level": "R4",
+"ko": "기관",
+"pos": "noun",
+"pre": "~에·~으로",
+"x": false,
+"lw": "agency",
+"l": true
+},
+{
+"w": "generation",
+"parts": [
+"",
+"gen",
+"eration"
+],
+"hint": "태어난 무리 → 세대",
+"rank": 1562,
+"level": "R4",
+"ko": "세대",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "generation",
+"l": false
+},
+{
+"w": "agent",
+"parts": [
+"a",
+"gen",
+"t"
+],
+"hint": "행하는(ag) 사람 → 대리인 — ag(행하다)에서, 모양만 닮음",
+"rank": 1583,
+"level": "R4",
+"ko": "요원/대리인",
+"pos": "noun",
+"pre": "~에·~으로",
+"x": false,
+"lw": "agent",
+"l": true
+},
+{
+"w": "intelligence",
+"parts": [
+"intel",
+"lig",
+"ence"
+],
+"hint": "사이에서(inter) 골라(leg) 읽는 힘 → 지능 — leg(고르다)에서",
+"rank": 2003,
+"level": "R4",
+"ko": "지능/정보",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "intelligence",
+"l": true
+},
+{
+"w": "genuine",
+"parts": [
+"",
+"gen",
+"uine"
+],
+"hint": "태어난 그대로의 → 진짜의",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "gender",
+"parts": [
+"",
+"gen",
+"der"
+],
+"hint": "종류 → 성(性)",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "cur",
+"key": "cur",
+"origin": "L",
+"meaning": "run",
+"ko": "달리다",
+"forms": [
+"cur",
+"cours"
+],
+"best": 333,
+"level": "R3",
+"words": [
+{
+"w": "course",
+"parts": [
+"",
+"cours",
+"e"
+],
+"hint": "달리는 길 → 과정·강좌",
+"rank": 333,
+"level": "R3",
+"ko": "과정/코스",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "course",
+"l": false
+},
+{
+"w": "current",
+"parts": [
+"",
+"cur",
+"rent"
+],
+"hint": "달리고 있는 → 현재의·흐름",
+"rank": 521,
+"level": "R3",
+"ko": "현재의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "current",
+"l": false
+},
+{
+"w": "currently",
+"parts": [
+"",
+"cur",
+"rently"
+],
+"hint": "현재",
+"rank": 842,
+"level": "R4",
+"ko": "현재",
+"pos": "adv",
+"pre": "",
+"x": false,
+"lw": "currently",
+"l": false
+},
+{
+"w": "occur",
+"parts": [
+"oc",
+"cur",
+""
+],
+"hint": "맞은편으로(ob) 달려오다 → 일어나다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "form",
+"key": "form",
+"origin": "L",
+"meaning": "shape",
+"ko": "모양",
+"forms": [
+"form"
+],
+"best": 347,
+"level": "R3",
+"words": [
+{
+"w": "information",
+"parts": [
+"in",
+"form",
+"ation"
+],
+"hint": "안에(in) 모양을 넣어 줌 → 정보",
+"rank": 347,
+"level": "R3",
+"ko": "정보",
+"pos": "noun",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "information",
+"l": false
+},
+{
+"w": "form",
+"parts": [
+"",
+"form",
+""
+],
+"hint": "모양·형태",
+"rank": 473,
+"level": "R3",
+"ko": "형태/양식",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "form",
+"l": false
+},
+{
+"w": "former",
+"parts": [
+"",
+"form",
+"er"
+],
+"hint": "먼저 있던 모양의 → 이전의",
+"rank": 510,
+"level": "R3",
+"ko": "이전의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "former",
+"l": false
+},
+{
+"w": "performance",
+"parts": [
+"per",
+"form",
+"ance"
+],
+"hint": "공연·성과",
+"rank": 696,
+"level": "R3",
+"ko": "공연/성과",
+"pos": "noun",
+"pre": "끝까지·통하여",
+"x": false,
+"lw": "performance",
+"l": false
+},
+{
+"w": "platform",
+"parts": [
+"plat",
+"form",
+""
+],
+"hint": "평평한(plat) 모양 → 단·플랫폼",
+"rank": 2129,
+"level": "R4",
+"ko": "승강장/플랫폼",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "platform",
+"l": false
+},
+{
+"w": "perform",
+"parts": [
+"per",
+"form",
+""
+],
+"hint": "끝까지(per) 모양을 이루다 → 수행하다",
+"rank": 2185,
+"level": "R4",
+"ko": "공연하다/수행하다",
+"pos": "verb",
+"pre": "끝까지·통하여",
+"x": false,
+"lw": "perform",
+"l": false
+},
+{
+"w": "uniform",
+"parts": [
+"uni",
+"form",
+""
+],
+"hint": "하나의(uni) 모양 → 제복·균일한",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "하나",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "transform",
+"parts": [
+"trans",
+"form",
+""
+],
+"hint": "건너(trans) 모양을 바꾸다 → 변형하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "건너",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "loc",
+"key": "loc",
+"origin": "L",
+"meaning": "place",
+"ko": "장소",
+"forms": [
+"loc"
+],
+"best": 348,
+"level": "R3",
+"words": [
+{
+"w": "local",
+"parts": [
+"",
+"loc",
+"al"
+],
+"hint": "그 장소의 → 지역의",
+"rank": 348,
+"level": "R3",
+"ko": "지역의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "local",
+"l": false
+},
+{
+"w": "located",
+"parts": [
+"",
+"loc",
+"ated"
+],
+"hint": "위치한",
+"rank": 1424,
+"level": "R4",
+"ko": "위치한",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "located",
+"l": false
+},
+{
+"w": "location",
+"parts": [
+"",
+"loc",
+"ation"
+],
+"hint": "장소 → 위치",
+"rank": 1425,
+"level": "R4",
+"ko": "위치",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "location",
+"l": false
+},
+{
+"w": "allocate",
+"parts": [
+"al",
+"loc",
+"ate"
+],
+"hint": "~에(ad) 자리를 두다 → 배분하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "pos",
+"key": "pos",
+"origin": "L",
+"meaning": "put, place",
+"ko": "놓다",
+"forms": [
+"pos",
+"pon"
+],
+"best": 350,
+"level": "R3",
+"words": [
+{
+"w": "post",
+"parts": [
+"",
+"pos",
+"t"
+],
+"hint": "놓아 세운 것 → 기둥·게시",
+"rank": 350,
+"level": "R3",
+"ko": "게시하다/우편",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "post",
+"l": false
+},
+{
+"w": "possible",
+"parts": [
+"",
+"pos",
+"sible"
+],
+"hint": "(힘 potis) 할 수 있는 → 가능한 — pos 처럼 보이지만 사실은 힘(pot)에서",
+"rank": 425,
+"level": "R3",
+"ko": "가능한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "possible",
+"l": true
+},
+{
+"w": "position",
+"parts": [
+"",
+"pos",
+"ition"
+],
+"hint": "놓인 자리 → 위치",
+"rank": 605,
+"level": "R3",
+"ko": "위치/자세",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "position",
+"l": false
+},
+{
+"w": "positive",
+"parts": [
+"",
+"pos",
+"itive"
+],
+"hint": "놓인 그대로의 → 긍정적인",
+"rank": 1077,
+"level": "R4",
+"ko": "긍정적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "positive",
+"l": false
+},
+{
+"w": "suppose",
+"parts": [
+"sup",
+"pos",
+"e"
+],
+"hint": "아래에(sub) 놓다 → 가정하다",
+"rank": 1287,
+"level": "R4",
+"ko": "~하기로 되어 있는",
+"pos": "verb",
+"pre": "아래",
+"x": false,
+"lw": "supposed",
+"l": false
+},
+{
+"w": "purpose",
+"parts": [
+"pur",
+"pos",
+"e"
+],
+"hint": "앞에(pro) 놓은 것 → 목적",
+"rank": 1370,
+"level": "R4",
+"ko": "목적",
+"pos": "noun",
+"pre": "앞으로",
+"x": false,
+"lw": "purpose",
+"l": false
+},
+{
+"w": "propose",
+"parts": [
+"pro",
+"pos",
+"e"
+],
+"hint": "앞에(pro) 놓다 → 제안하다",
+"rank": 1970,
+"level": "R4",
+"ko": "제안했다",
+"pos": "verb",
+"pre": "앞으로",
+"x": false,
+"lw": "proposed",
+"l": false
+},
+{
+"w": "opposite",
+"parts": [
+"op",
+"pos",
+"ite"
+],
+"hint": "맞서(ob) 놓인 → 반대의",
+"rank": 2356,
+"level": "R4",
+"ko": "반대의",
+"pos": "adj",
+"pre": "맞서",
+"x": false,
+"lw": "opposite",
+"l": false
+},
+{
+"w": "compose",
+"parts": [
+"com",
+"pos",
+"e"
+],
+"hint": "함께(com) 놓다 → 구성·작곡하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "vis",
+"key": "vis",
+"origin": "L",
+"meaning": "see",
+"ko": "보다",
+"forms": [
+"vis",
+"vid",
+"view"
+],
+"best": 352,
+"level": "R3",
+"words": [
+{
+"w": "video",
+"parts": [
+"",
+"vid",
+"eo"
+],
+"hint": "나는 본다(video) → 영상",
+"rank": 352,
+"level": "R3",
+"ko": "영상",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "video",
+"l": false
+},
+{
+"w": "view",
+"parts": [
+"",
+"view",
+""
+],
+"hint": "보기·경치",
+"rank": 647,
+"level": "R3",
+"ko": "전망/견해",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "view",
+"l": false
+},
+{
+"w": "provide",
+"parts": [
+"pro",
+"vid",
+"e"
+],
+"hint": "앞을(pro) 내다보다 → 미리 마련하다·제공하다",
+"rank": 715,
+"level": "R3",
+"ko": "제공하다",
+"pos": "verb",
+"pre": "앞으로",
+"x": false,
+"lw": "provide",
+"l": false
+},
+{
+"w": "evidence",
+"parts": [
+"e",
+"vid",
+"ence"
+],
+"hint": "밖으로(e) 보이는 것 → 증거",
+"rank": 723,
+"level": "R3",
+"ko": "증거",
+"pos": "noun",
+"pre": "밖으로",
+"x": false,
+"lw": "evidence",
+"l": false
+},
+{
+"w": "review",
+"parts": [
+"re",
+"view",
+""
+],
+"hint": "다시(re) 보다 → 검토·후기",
+"rank": 769,
+"level": "R3",
+"ko": "검토/후기",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "review",
+"l": false
+},
+{
+"w": "visit",
+"parts": [
+"",
+"vis",
+"it"
+],
+"hint": "보러 가다 → 방문하다",
+"rank": 951,
+"level": "R4",
+"ko": "방문하다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "visit",
+"l": false
+},
+{
+"w": "interview",
+"parts": [
+"inter",
+"view",
+""
+],
+"hint": "사이에서(inter) 서로 봄 → 면접",
+"rank": 1422,
+"level": "R4",
+"ko": "면접/인터뷰",
+"pos": "noun",
+"pre": "사이",
+"x": false,
+"lw": "interview",
+"l": false
+},
+{
+"w": "television",
+"parts": [
+"tele",
+"vis",
+"ion"
+],
+"hint": "멀리(tele) 보기 → 텔레비전",
+"rank": 1666,
+"level": "R4",
+"ko": "텔레비전",
+"pos": "noun",
+"pre": "멀리",
+"x": false,
+"lw": "television",
+"l": false
+},
+{
+"w": "vision",
+"parts": [
+"",
+"vis",
+"ion"
+],
+"hint": "보는 것 → 시야·비전",
+"rank": 2331,
+"level": "R4",
+"ko": "시력/비전",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "vision",
+"l": false
+},
+{
+"w": "visible",
+"parts": [
+"",
+"vis",
+"ible"
+],
+"hint": "보일 수 있는 → 눈에 보이는",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "soci",
+"key": "soci",
+"origin": "L",
+"meaning": "companion",
+"ko": "동료",
+"forms": [
+"soci"
+],
+"best": 356,
+"level": "R3",
+"words": [
+{
+"w": "social",
+"parts": [
+"",
+"soci",
+"al"
+],
+"hint": "동료들의 → 사회적인",
+"rank": 356,
+"level": "R3",
+"ko": "사회의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "social",
+"l": false
+},
+{
+"w": "society",
+"parts": [
+"",
+"soci",
+"ety"
+],
+"hint": "동료들의 모임 → 사회",
+"rank": 678,
+"level": "R3",
+"ko": "사회",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "society",
+"l": false
+},
+{
+"w": "association",
+"parts": [
+"as",
+"soci",
+"ation"
+],
+"hint": "~에(ad) 동료로 묶음 → 협회",
+"rank": 1011,
+"level": "R4",
+"ko": "협회",
+"pos": "noun",
+"pre": "~에·향하여",
+"x": false,
+"lw": "association",
+"l": false
+},
+{
+"w": "associated",
+"parts": [
+"as",
+"soci",
+"ated"
+],
+"hint": "연관된",
+"rank": 1322,
+"level": "R4",
+"ko": "관련된",
+"pos": "verb",
+"pre": "~에·향하여",
+"x": false,
+"lw": "associated",
+"l": false
+}
+]
+},
+{
+"root": "cord",
+"key": "cord",
+"origin": "L",
+"meaning": "heart",
+"ko": "마음",
+"forms": [
+"cord",
+"cour"
+],
+"best": 358,
+"level": "R3",
+"words": [
+{
+"w": "court",
+"parts": [
+"",
+"cour",
+"t"
+],
+"hint": "울타리 친 마당(cohors) → 법원·궁정 — 모양만 닮은 다른 뿌리",
+"rank": 358,
+"level": "R3",
+"ko": "법원/코트",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "court",
+"l": true
+},
+{
+"w": "according",
+"parts": [
+"ac",
+"cord",
+"ing"
+],
+"hint": "~에(ad) 마음을 맞춤 → ~에 따라",
+"rank": 506,
+"level": "R3",
+"ko": "~에 따르면",
+"pos": "adv",
+"pre": "~에·향하여",
+"x": false,
+"lw": "according",
+"l": false
+},
+{
+"w": "record",
+"parts": [
+"re",
+"cord",
+""
+],
+"hint": "다시(re) 마음에 새김 → 기록",
+"rank": 606,
+"level": "R3",
+"ko": "기록하다/기록",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "record",
+"l": false
+},
+{
+"w": "courage",
+"parts": [
+"",
+"cour",
+"age"
+],
+"hint": "마음에서 나오는 것 → 용기",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "fac",
+"key": "fac",
+"origin": "L",
+"meaning": "make, do",
+"ko": "만들다",
+"forms": [
+"fac",
+"fect",
+"fic",
+"fit"
+],
+"best": 359,
+"level": "R3",
+"words": [
+{
+"w": "fact",
+"parts": [
+"",
+"fac",
+"t"
+],
+"hint": "만들어진 일 → 사실",
+"rank": 359,
+"level": "R3",
+"ko": "사실",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "fact",
+"l": false
+},
+{
+"w": "office",
+"parts": [
+"of",
+"fic",
+"e"
+],
+"hint": "일(opus)을 만드는 곳 → 사무실",
+"rank": 377,
+"level": "R3",
+"ko": "사무실",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "office",
+"l": false
+},
+{
+"w": "perfect",
+"parts": [
+"per",
+"fect",
+""
+],
+"hint": "끝까지(per) 만든 → 완벽한",
+"rank": 619,
+"level": "R3",
+"ko": "완벽한",
+"pos": "adj",
+"pre": "끝까지·통하여",
+"x": false,
+"lw": "perfect",
+"l": false
+},
+{
+"w": "official",
+"parts": [
+"of",
+"fic",
+"ial"
+],
+"hint": "공식적인",
+"rank": 726,
+"level": "R3",
+"ko": "공식적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "official",
+"l": false
+},
+{
+"w": "difficult",
+"parts": [
+"dif",
+"fic",
+"ult"
+],
+"hint": "만들기 쉽지(facilis) 않은(dis) → 어려운",
+"rank": 876,
+"level": "R4",
+"ko": "어려운",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "difficult",
+"l": false
+},
+{
+"w": "officer",
+"parts": [
+"of",
+"fic",
+"er"
+],
+"hint": "공무 하는 사람 → 경관·장교",
+"rank": 966,
+"level": "R4",
+"ko": "경찰관/장교",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "officer",
+"l": false
+},
+{
+"w": "effect",
+"parts": [
+"ef",
+"fect",
+""
+],
+"hint": "밖으로(ex) 만들어 낸 것 → 효과",
+"rank": 985,
+"level": "R4",
+"ko": "효과",
+"pos": "noun",
+"pre": "밖으로",
+"x": false,
+"lw": "effect",
+"l": false
+},
+{
+"w": "effective",
+"parts": [
+"ef",
+"fect",
+"ive"
+],
+"hint": "효과적인",
+"rank": 1328,
+"level": "R4",
+"ko": "효과적인",
+"pos": "adj",
+"pre": "밖으로",
+"x": false,
+"lw": "effective",
+"l": false
+},
+{
+"w": "benefit",
+"parts": [
+"bene",
+"fit",
+""
+],
+"hint": "좋게(bene) 만든 것 → 이익",
+"rank": 1553,
+"level": "R4",
+"ko": "이익",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "benefit",
+"l": false
+},
+{
+"w": "factor",
+"parts": [
+"",
+"fac",
+"tor"
+],
+"hint": "만드는 것 → 요인",
+"rank": 2113,
+"level": "R4",
+"ko": "요인",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "factor",
+"l": false
+},
+{
+"w": "facility",
+"parts": [
+"",
+"fac",
+"ility"
+],
+"hint": "하기 쉽게 하는 것 → 시설",
+"rank": 2441,
+"level": "R4",
+"ko": "시설",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "facility",
+"l": false
+},
+{
+"w": "affect",
+"parts": [
+"af",
+"fect",
+""
+],
+"hint": "~에(ad) 작용을 만들다 → 영향을 주다",
+"rank": 2467,
+"level": "R4",
+"ko": "영향을 미치다",
+"pos": "verb",
+"pre": "~에·향하여",
+"x": false,
+"lw": "affect",
+"l": false
+}
+]
+},
+{
+"root": "prob",
+"key": "prob",
+"origin": "L",
+"meaning": "test, prove",
+"ko": "시험하다·증명하다",
+"forms": [
+"prob",
+"prov"
+],
+"best": 379,
+"level": "R3",
+"words": [
+{
+"w": "problem",
+"parts": [
+"pro",
+"ble",
+"m"
+],
+"hint": "앞에(pro) 던져진(ballein) 것 → 문제 — 그리스 뿌리, 모양만 닮음",
+"rank": 379,
+"level": "R3",
+"ko": "문제",
+"pos": "noun",
+"pre": "앞으로",
+"x": false,
+"lw": "problem",
+"l": true
+},
+{
+"w": "probably",
+"parts": [
+"",
+"prob",
+"ably"
+],
+"hint": "증명될 만한 → 아마",
+"rank": 412,
+"level": "R3",
+"ko": "아마도",
+"pos": "adv",
+"pre": "",
+"x": false,
+"lw": "probably",
+"l": false
+},
+{
+"w": "improve",
+"parts": [
+"im",
+"prov",
+"e"
+],
+"hint": "이익(prou)으로 들이다 → 개선하다",
+"rank": 1657,
+"level": "R4",
+"ko": "개선하다",
+"pos": "verb",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "improve",
+"l": false
+},
+{
+"w": "prove",
+"parts": [
+"",
+"prov",
+"e"
+],
+"hint": "증명하다",
+"rank": 1732,
+"level": "R4",
+"ko": "증명하다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "prove",
+"l": false
+},
+{
+"w": "approve",
+"parts": [
+"ap",
+"prov",
+"e"
+],
+"hint": "~에(ad) 좋다고 증명하다 → 승인하다",
+"rank": 2237,
+"level": "R4",
+"ko": "승인했다/승인된",
+"pos": "verb",
+"pre": "~에·향하여",
+"x": false,
+"lw": "approved",
+"l": false
+}
+]
+},
+{
+"root": "vert",
+"key": "vert",
+"origin": "L",
+"meaning": "turn",
+"ko": "돌리다",
+"forms": [
+"vert",
+"vers"
+],
+"best": 394,
+"level": "R3",
+"words": [
+{
+"w": "university",
+"parts": [
+"uni",
+"vers",
+"ity"
+],
+"hint": "하나로(uni) 돌아 모인 전체 → 대학",
+"rank": 394,
+"level": "R3",
+"ko": "대학",
+"pos": "noun",
+"pre": "하나",
+"x": false,
+"lw": "university",
+"l": false
+},
+{
+"w": "version",
+"parts": [
+"",
+"vers",
+"ion"
+],
+"hint": "돌려 바꾼 것 → 판(版)",
+"rank": 890,
+"level": "R4",
+"ko": "버전/판",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "version",
+"l": false
+},
+{
+"w": "conversation",
+"parts": [
+"con",
+"vers",
+"ation"
+],
+"hint": "함께(con) 돌아다니며 어울림 → 대화",
+"rank": 1777,
+"level": "R4",
+"ko": "대화",
+"pos": "noun",
+"pre": "함께·완전히",
+"x": false,
+"lw": "conversation",
+"l": false
+},
+{
+"w": "convert",
+"parts": [
+"con",
+"vert",
+""
+],
+"hint": "완전히(con) 돌리다 → 바꾸다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께·완전히",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "advertise",
+"parts": [
+"ad",
+"vert",
+"ise"
+],
+"hint": "~에(ad) 눈을 돌리게 하다 → 광고하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "~에·향하여",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "mem",
+"key": "mem",
+"origin": "L",
+"meaning": "remember",
+"ko": "기억하다",
+"forms": [
+"mem"
+],
+"best": 404,
+"level": "R3",
+"words": [
+{
+"w": "remember",
+"parts": [
+"re",
+"mem",
+"ber"
+],
+"hint": "다시(re) 마음에 두다 → 기억하다",
+"rank": 404,
+"level": "R3",
+"ko": "기억하다",
+"pos": "verb",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "remember",
+"l": false
+},
+{
+"w": "member",
+"parts": [
+"",
+"mem",
+"ber"
+],
+"hint": "몸의 지체(membrum) → 구성원 — 모양만 닮은 다른 뿌리",
+"rank": 655,
+"level": "R3",
+"ko": "구성원",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "member",
+"l": true
+},
+{
+"w": "memory",
+"parts": [
+"",
+"mem",
+"ory"
+],
+"hint": "기억",
+"rank": 1602,
+"level": "R4",
+"ko": "기억",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "memory",
+"l": false
+},
+{
+"w": "memorial",
+"parts": [
+"",
+"mem",
+"orial"
+],
+"hint": "기억하기 위한 → 기념의",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "mov",
+"key": "mov",
+"origin": "L",
+"meaning": "move",
+"ko": "움직이다",
+"forms": [
+"mov",
+"mot",
+"mob"
+],
+"best": 433,
+"level": "R3",
+"words": [
+{
+"w": "move",
+"parts": [
+"",
+"mov",
+"e"
+],
+"hint": "움직이다",
+"rank": 433,
+"level": "R3",
+"ko": "움직이다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "move",
+"l": false
+},
+{
+"w": "movie",
+"parts": [
+"",
+"mov",
+"ie"
+],
+"hint": "움직이는 그림 → 영화",
+"rank": 693,
+"level": "R3",
+"ko": "영화",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "movie",
+"l": false
+},
+{
+"w": "movement",
+"parts": [
+"",
+"mov",
+"ement"
+],
+"hint": "움직임·운동",
+"rank": 1112,
+"level": "R4",
+"ko": "움직임",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "movement",
+"l": false
+},
+{
+"w": "mobile",
+"parts": [
+"",
+"mob",
+"ile"
+],
+"hint": "움직일 수 있는 → 이동식·휴대폰",
+"rank": 1451,
+"level": "R4",
+"ko": "이동식의/휴대폰",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "mobile",
+"l": false
+},
+{
+"w": "remove",
+"parts": [
+"re",
+"mov",
+"e"
+],
+"hint": "뒤로(re) 움직이다 → 치우다",
+"rank": 1973,
+"level": "R4",
+"ko": "제거하다",
+"pos": "verb",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "remove",
+"l": false
+},
+{
+"w": "emotional",
+"parts": [
+"e",
+"mot",
+"ional"
+],
+"hint": "밖으로(e) 움직여 나오는 → 감정의",
+"rank": 2158,
+"level": "R4",
+"ko": "감정적인",
+"pos": "adj",
+"pre": "밖으로",
+"x": false,
+"lw": "emotional",
+"l": false
+},
+{
+"w": "motor",
+"parts": [
+"",
+"mot",
+"or"
+],
+"hint": "움직이게 하는 것 → 모터",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "promote",
+"parts": [
+"pro",
+"mot",
+"e"
+],
+"hint": "앞으로(pro) 움직이다 → 승진시키다·홍보하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "앞으로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "quir",
+"key": "quir",
+"origin": "L",
+"meaning": "ask, seek",
+"ko": "묻다·구하다",
+"forms": [
+"quir",
+"ques",
+"quest"
+],
+"best": 434,
+"level": "R3",
+"words": [
+{
+"w": "question",
+"parts": [
+"",
+"quest",
+"ion"
+],
+"hint": "묻는 것 → 질문",
+"rank": 434,
+"level": "R3",
+"ko": "질문",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "question",
+"l": false
+},
+{
+"w": "require",
+"parts": [
+"re",
+"quir",
+"e"
+],
+"hint": "다시(re) 구하다 → 필요로 하다",
+"rank": 1697,
+"level": "R4",
+"ko": "필요로 하다/요구하다",
+"pos": "verb",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "require",
+"l": false
+},
+{
+"w": "request",
+"parts": [
+"re",
+"quest",
+""
+],
+"hint": "다시(re) 구하다 → 요청",
+"rank": 1762,
+"level": "R4",
+"ko": "요청(하다)",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "request",
+"l": false
+},
+{
+"w": "requirement",
+"parts": [
+"re",
+"quir",
+"ement"
+],
+"hint": "요건",
+"rank": 2267,
+"level": "R4",
+"ko": "요건/필요조건",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "requirements",
+"l": false
+},
+{
+"w": "acquire",
+"parts": [
+"ac",
+"quir",
+"e"
+],
+"hint": "~에(ad) 더해 구하다 → 얻다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "~에·향하여",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "spect",
+"key": "spect",
+"origin": "L",
+"meaning": "look",
+"ko": "보다",
+"forms": [
+"spec",
+"spic"
+],
+"best": 445,
+"level": "R3",
+"words": [
+{
+"w": "special",
+"parts": [
+"",
+"spec",
+"ial"
+],
+"hint": "눈에 띄는 종류(species)의 → 특별한",
+"rank": 445,
+"level": "R3",
+"ko": "특별한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "special",
+"l": false
+},
+{
+"w": "especially",
+"parts": [
+"e",
+"spec",
+"ially"
+],
+"hint": "특별히 → 특히",
+"rank": 599,
+"level": "R3",
+"ko": "특히",
+"pos": "adv",
+"pre": "밖으로",
+"x": false,
+"lw": "especially",
+"l": false
+},
+{
+"w": "respect",
+"parts": [
+"re",
+"spect",
+""
+],
+"hint": "다시(re) 돌아보다 → 존경",
+"rank": 970,
+"level": "R4",
+"ko": "존경/존중하다",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "respect",
+"l": false
+},
+{
+"w": "specific",
+"parts": [
+"",
+"spec",
+"ific"
+],
+"hint": "종류를 만드는 → 구체적인",
+"rank": 976,
+"level": "R4",
+"ko": "구체적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "specific",
+"l": false
+},
+{
+"w": "expect",
+"parts": [
+"ex",
+"pect",
+""
+],
+"hint": "밖을(ex) 내다보다(ex+spect, s 가 빠짐) → 기대하다",
+"rank": 1020,
+"level": "R4",
+"ko": "기대하다",
+"pos": "verb",
+"pre": "밖으로",
+"x": false,
+"lw": "expect",
+"l": false
+},
+{
+"w": "species",
+"parts": [
+"",
+"spec",
+"ies"
+],
+"hint": "겉모습으로 나눈 것 → 종(種)",
+"rank": 1468,
+"level": "R4",
+"ko": "종",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "species",
+"l": false
+},
+{
+"w": "inspect",
+"parts": [
+"in",
+"spect",
+""
+],
+"hint": "안을(in) 들여다보다 → 점검하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "안으로·아닌",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "perspective",
+"parts": [
+"per",
+"spect",
+"ive"
+],
+"hint": "통하여(per) 보는 것 → 관점",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "끝까지·통하여",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "poli",
+"key": "poli",
+"origin": "G",
+"meaning": "city",
+"ko": "도시",
+"forms": [
+"poli",
+"polit"
+],
+"best": 455,
+"level": "R3",
+"words": [
+{
+"w": "police",
+"parts": [
+"",
+"poli",
+"ce"
+],
+"hint": "도시의 질서 → 경찰",
+"rank": 455,
+"level": "R3",
+"ko": "경찰",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "police",
+"l": false
+},
+{
+"w": "political",
+"parts": [
+"",
+"polit",
+"ical"
+],
+"hint": "정치의",
+"rank": 500,
+"level": "R3",
+"ko": "정치의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "political",
+"l": false
+},
+{
+"w": "policy",
+"parts": [
+"",
+"poli",
+"cy"
+],
+"hint": "도시 다스림 → 정책",
+"rank": 677,
+"level": "R3",
+"ko": "정책",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "policy",
+"l": false
+},
+{
+"w": "politics",
+"parts": [
+"",
+"polit",
+"ics"
+],
+"hint": "도시(polis) 일 → 정치",
+"rank": 1399,
+"level": "R4",
+"ko": "정치",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "politics",
+"l": false
+},
+{
+"w": "metropolis",
+"parts": [
+"metro",
+"poli",
+"s"
+],
+"hint": "어머니(metro) 도시 → 대도시",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "medi",
+"key": "medi",
+"origin": "L",
+"meaning": "middle",
+"ko": "가운데",
+"forms": [
+"medi"
+],
+"best": 488,
+"level": "R3",
+"words": [
+{
+"w": "media",
+"parts": [
+"",
+"medi",
+"a"
+],
+"hint": "가운데에서 전하는 것 → 매체",
+"rank": 488,
+"level": "R3",
+"ko": "매체",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "media",
+"l": false
+},
+{
+"w": "medical",
+"parts": [
+"",
+"medic",
+"al"
+],
+"hint": "치료하는(medicus) → 의학의 — 모양만 닮은 다른 뿌리",
+"rank": 692,
+"level": "R3",
+"ko": "의학의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "medical",
+"l": true
+},
+{
+"w": "immediately",
+"parts": [
+"im",
+"medi",
+"ately"
+],
+"hint": "가운데 끼는 것 없이(in) → 즉시",
+"rank": 1089,
+"level": "R4",
+"ko": "즉시",
+"pos": "adv",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "immediately",
+"l": false
+},
+{
+"w": "medicine",
+"parts": [
+"",
+"medic",
+"ine"
+],
+"hint": "치료 → 의학·약 — medicus 에서",
+"rank": 1868,
+"level": "R4",
+"ko": "약/의학",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "medicine",
+"l": true
+},
+{
+"w": "medium",
+"parts": [
+"",
+"medi",
+"um"
+],
+"hint": "가운데 → 중간·매체",
+"rank": 2411,
+"level": "R4",
+"ko": "중간의/매체",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "medium",
+"l": false
+}
+]
+},
+{
+"root": "tele",
+"key": "tele",
+"origin": "G",
+"meaning": "far",
+"ko": "멀리",
+"forms": [
+"tele"
+],
+"best": 489,
+"level": "R3",
+"words": [
+{
+"w": "phone",
+"parts": [
+"",
+"phon",
+"e"
+],
+"hint": "telephone 의 줄임 — phon(소리)",
+"rank": 489,
+"level": "R3",
+"ko": "전화기",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "phone",
+"l": false
+},
+{
+"w": "television",
+"parts": [
+"tele",
+"vis",
+"ion"
+],
+"hint": "멀리(tele) 보기(vis) → 텔레비전",
+"rank": 1666,
+"level": "R4",
+"ko": "텔레비전",
+"pos": "noun",
+"pre": "멀리",
+"x": false,
+"lw": "television",
+"l": false
+},
+{
+"w": "telephone",
+"parts": [
+"tele",
+"phon",
+"e"
+],
+"hint": "멀리(tele) 소리(phon) → 전화",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "멀리",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "phon",
+"key": "phon",
+"origin": "G",
+"meaning": "sound",
+"ko": "소리",
+"forms": [
+"phon"
+],
+"best": 489,
+"level": "R3",
+"words": [
+{
+"w": "phone",
+"parts": [
+"",
+"phon",
+"e"
+],
+"hint": "소리 → 전화",
+"rank": 489,
+"level": "R3",
+"ko": "전화기",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "phone",
+"l": false
+},
+{
+"w": "telephone",
+"parts": [
+"tele",
+"phon",
+"e"
+],
+"hint": "멀리(tele) 소리 → 전화",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "멀리",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "microphone",
+"parts": [
+"micro",
+"phon",
+"e"
+],
+"hint": "작은(micro) 소리를 키우는 → 마이크",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "symphony",
+"parts": [
+"sym",
+"phon",
+"y"
+],
+"hint": "함께(sym) 소리 → 교향곡",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "duc",
+"key": "duc",
+"origin": "L",
+"meaning": "lead",
+"ko": "이끌다",
+"forms": [
+"duc",
+"duct"
+],
+"best": 508,
+"level": "R3",
+"words": [
+{
+"w": "education",
+"parts": [
+"e",
+"duc",
+"ation"
+],
+"hint": "밖으로(e) 이끌어 냄 → 교육",
+"rank": 508,
+"level": "R3",
+"ko": "교육",
+"pos": "noun",
+"pre": "밖으로",
+"x": false,
+"lw": "education",
+"l": false
+},
+{
+"w": "production",
+"parts": [
+"pro",
+"duct",
+"ion"
+],
+"hint": "생산",
+"rank": 728,
+"level": "R3",
+"ko": "생산",
+"pos": "noun",
+"pre": "앞으로",
+"x": false,
+"lw": "production",
+"l": false
+},
+{
+"w": "product",
+"parts": [
+"pro",
+"duct",
+""
+],
+"hint": "앞으로 이끌어 낸 것 → 제품",
+"rank": 1172,
+"level": "R4",
+"ko": "제품",
+"pos": "noun",
+"pre": "앞으로",
+"x": false,
+"lw": "product",
+"l": false
+},
+{
+"w": "produce",
+"parts": [
+"pro",
+"duc",
+"e"
+],
+"hint": "앞으로(pro) 이끌어 내다 → 생산하다",
+"rank": 1694,
+"level": "R4",
+"ko": "생산하다/농산물",
+"pos": "verb",
+"pre": "앞으로",
+"x": false,
+"lw": "produce",
+"l": false
+},
+{
+"w": "reduce",
+"parts": [
+"re",
+"duc",
+"e"
+],
+"hint": "뒤로(re) 이끌다 → 줄이다",
+"rank": 1876,
+"level": "R4",
+"ko": "줄이다",
+"pos": "verb",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "reduce",
+"l": false
+},
+{
+"w": "introduce",
+"parts": [
+"intro",
+"duc",
+"e"
+],
+"hint": "안으로(intro) 이끌다 → 소개하다",
+"rank": 1908,
+"level": "R4",
+"ko": "소개했다/도입했다",
+"pos": "verb",
+"pre": "안으로",
+"x": false,
+"lw": "introduced",
+"l": false
+},
+{
+"w": "educational",
+"parts": [
+"e",
+"duc",
+"ational"
+],
+"hint": "교육의",
+"rank": 2438,
+"level": "R4",
+"ko": "교육의",
+"pos": "adj",
+"pre": "밖으로",
+"x": false,
+"lw": "educational",
+"l": false
+},
+{
+"w": "conduct",
+"parts": [
+"con",
+"duct",
+""
+],
+"hint": "함께(con) 이끌다 → 지휘하다·행동",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께·완전히",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "fin",
+"key": "fin",
+"origin": "L",
+"meaning": "end, limit",
+"ko": "끝·경계",
+"forms": [
+"fin"
+],
+"best": 509,
+"level": "R3",
+"words": [
+{
+"w": "final",
+"parts": [
+"",
+"fin",
+"al"
+],
+"hint": "끝의 → 마지막의",
+"rank": 509,
+"level": "R3",
+"ko": "마지막의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "final",
+"l": false
+},
+{
+"w": "fine",
+"parts": [
+"",
+"fin",
+"e"
+],
+"hint": "끝까지 다듬은 → 좋은·벌금",
+"rank": 568,
+"level": "R3",
+"ko": "좋은/괜찮은",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "fine",
+"l": false
+},
+{
+"w": "finally",
+"parts": [
+"",
+"fin",
+"ally"
+],
+"hint": "마침내",
+"rank": 668,
+"level": "R3",
+"ko": "마침내",
+"pos": "adv",
+"pre": "",
+"x": false,
+"lw": "finally",
+"l": false
+},
+{
+"w": "financial",
+"parts": [
+"",
+"fin",
+"ancial"
+],
+"hint": "빚을 끝냄(fin) → 재정의",
+"rank": 847,
+"level": "R4",
+"ko": "금융의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "financial",
+"l": false
+},
+{
+"w": "definitely",
+"parts": [
+"de",
+"fin",
+"itely"
+],
+"hint": "경계를 완전히(de) 그은 → 분명히",
+"rank": 1132,
+"level": "R4",
+"ko": "분명히",
+"pos": "adv",
+"pre": "아래로·떨어져",
+"x": false,
+"lw": "definitely",
+"l": false
+},
+{
+"w": "finish",
+"parts": [
+"",
+"fin",
+"ish"
+],
+"hint": "끝내다",
+"rank": 1272,
+"level": "R4",
+"ko": "끝내다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "finish",
+"l": false
+},
+{
+"w": "finance",
+"parts": [
+"",
+"fin",
+"ance"
+],
+"hint": "금융",
+"rank": 2209,
+"level": "R4",
+"ko": "금융/재정",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "finance",
+"l": false
+},
+{
+"w": "define",
+"parts": [
+"de",
+"fin",
+"e"
+],
+"hint": "경계를 긋다 → 정의하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "아래로·떨어져",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "infinite",
+"parts": [
+"in",
+"fin",
+"ite"
+],
+"hint": "끝이 없는(in) → 무한한",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "안으로·아닌",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "leg",
+"key": "leg",
+"origin": "L",
+"meaning": "choose, read, law",
+"ko": "고르다·읽다·법",
+"forms": [
+"leg",
+"lect",
+"lig"
+],
+"best": 520,
+"level": "R3",
+"words": [
+{
+"w": "college",
+"parts": [
+"col",
+"leg",
+"e"
+],
+"hint": "함께(col) 뽑힌 동료들 → 대학",
+"rank": 520,
+"level": "R3",
+"ko": "대학",
+"pos": "noun",
+"pre": "함께",
+"x": false,
+"lw": "college",
+"l": false
+},
+{
+"w": "election",
+"parts": [
+"e",
+"lect",
+"ion"
+],
+"hint": "밖으로(e) 골라냄 → 선거",
+"rank": 844,
+"level": "R4",
+"ko": "선거",
+"pos": "noun",
+"pre": "밖으로",
+"x": false,
+"lw": "election",
+"l": false
+},
+{
+"w": "legal",
+"parts": [
+"",
+"leg",
+"al"
+],
+"hint": "법의 → 합법적인",
+"rank": 851,
+"level": "R4",
+"ko": "합법적인/법률의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "legal",
+"l": false
+},
+{
+"w": "collection",
+"parts": [
+"col",
+"lect",
+"ion"
+],
+"hint": "수집·모음",
+"rank": 1129,
+"level": "R4",
+"ko": "수집품",
+"pos": "noun",
+"pre": "함께",
+"x": false,
+"lw": "collection",
+"l": false
+},
+{
+"w": "intelligence",
+"parts": [
+"intel",
+"lig",
+"ence"
+],
+"hint": "사이에서(inter) 골라 읽는 힘 → 지능",
+"rank": 2003,
+"level": "R4",
+"ko": "지능/정보",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "intelligence",
+"l": false
+},
+{
+"w": "illegal",
+"parts": [
+"il",
+"leg",
+"al"
+],
+"hint": "법이 아닌(in) → 불법의",
+"rank": 2074,
+"level": "R4",
+"ko": "불법의",
+"pos": "adj",
+"pre": "아닌",
+"x": false,
+"lw": "illegal",
+"l": false
+},
+{
+"w": "select",
+"parts": [
+"se",
+"lect",
+""
+],
+"hint": "따로(se) 고르다 → 고르다",
+"rank": 2086,
+"level": "R4",
+"ko": "선택된/골랐다",
+"pos": "verb",
+"pre": "따로",
+"x": false,
+"lw": "selected",
+"l": false
+},
+{
+"w": "collect",
+"parts": [
+"col",
+"lect",
+""
+],
+"hint": "함께(col) 모아 고르다 → 모으다",
+"rank": 2292,
+"level": "R4",
+"ko": "모았다(collect 과거)",
+"pos": "verb",
+"pre": "함께",
+"x": false,
+"lw": "collected",
+"l": false
+},
+{
+"w": "elect",
+"parts": [
+"e",
+"lect",
+""
+],
+"hint": "골라내다 → 선출하다",
+"rank": 2298,
+"level": "R4",
+"ko": "선출된",
+"pos": "verb",
+"pre": "밖으로",
+"x": false,
+"lw": "elected",
+"l": false
+},
+{
+"w": "selection",
+"parts": [
+"se",
+"lect",
+"ion"
+],
+"hint": "선택",
+"rank": 2361,
+"level": "R4",
+"ko": "선택/선정",
+"pos": "noun",
+"pre": "따로",
+"x": false,
+"lw": "selection",
+"l": false
+},
+{
+"w": "lecture",
+"parts": [
+"",
+"lect",
+"ure"
+],
+"hint": "읽어 주는 것 → 강의",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "graph",
+"key": "graph",
+"origin": "G",
+"meaning": "write",
+"ko": "쓰다·그리다",
+"forms": [
+"graph",
+"gram"
+],
+"best": 527,
+"level": "R3",
+"words": [
+{
+"w": "program",
+"parts": [
+"pro",
+"gram",
+""
+],
+"hint": "앞에(pro) 써 둔 것 → 프로그램",
+"rank": 527,
+"level": "R3",
+"ko": "프로그램",
+"pos": "noun",
+"pre": "앞으로",
+"x": false,
+"lw": "program",
+"l": false
+},
+{
+"w": "photograph",
+"parts": [
+"photo",
+"graph",
+""
+],
+"hint": "빛(photo)으로 그림 → 사진",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "paragraph",
+"parts": [
+"para",
+"graph",
+""
+],
+"hint": "옆에(para) 쓴 표시 → 단락",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "grammar",
+"parts": [
+"",
+"gram",
+"mar"
+],
+"hint": "글자의 기술 → 문법",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "ced",
+"key": "ced",
+"origin": "L",
+"meaning": "go, yield",
+"ko": "가다·물러나다",
+"forms": [
+"ced",
+"ceed",
+"cess"
+],
+"best": 533,
+"level": "R3",
+"words": [
+{
+"w": "process",
+"parts": [
+"pro",
+"cess",
+""
+],
+"hint": "앞으로(pro) 가는 것 → 과정",
+"rank": 533,
+"level": "R3",
+"ko": "과정",
+"pos": "noun",
+"pre": "앞으로",
+"x": false,
+"lw": "process",
+"l": false
+},
+{
+"w": "success",
+"parts": [
+"suc",
+"cess",
+""
+],
+"hint": "아래에서 뒤따라(sub) 가서 닿음 → 성공",
+"rank": 907,
+"level": "R4",
+"ko": "성공",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "success",
+"l": false
+},
+{
+"w": "access",
+"parts": [
+"ac",
+"cess",
+""
+],
+"hint": "~에(ad) 가 닿음 → 접근",
+"rank": 911,
+"level": "R4",
+"ko": "접근/접속",
+"pos": "noun",
+"pre": "~에·향하여",
+"x": false,
+"lw": "access",
+"l": false
+},
+{
+"w": "successful",
+"parts": [
+"suc",
+"cess",
+"ful"
+],
+"hint": "성공적인",
+"rank": 1206,
+"level": "R4",
+"ko": "성공한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "successful",
+"l": false
+},
+{
+"w": "necessary",
+"parts": [
+"ne",
+"cess",
+"ary"
+],
+"hint": "물러날(cess) 수 없는(ne) → 필요한",
+"rank": 1281,
+"level": "R4",
+"ko": "필요한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "necessary",
+"l": false
+},
+{
+"w": "proceed",
+"parts": [
+"pro",
+"ceed",
+""
+],
+"hint": "앞으로(pro) 가다 → 나아가다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "앞으로",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "exceed",
+"parts": [
+"ex",
+"ceed",
+""
+],
+"hint": "밖으로(ex) 넘어가다 → 넘다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "밖으로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "pass",
+"key": "pass",
+"origin": "L",
+"meaning": "step, pass",
+"ko": "걸음·지나다",
+"forms": [
+"pass",
+"pac"
+],
+"best": 580,
+"level": "R3",
+"words": [
+{
+"w": "space",
+"parts": [
+"s",
+"pac",
+"e"
+],
+"hint": "펼친(spatium) 자리 → 공간 — 모양만 닮음",
+"rank": 580,
+"level": "R3",
+"ko": "공간/우주",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "space",
+"l": true
+},
+{
+"w": "pass",
+"parts": [
+"",
+"pass",
+""
+],
+"hint": "지나가다·통과하다",
+"rank": 923,
+"level": "R4",
+"ko": "지나가다/통과하다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "pass",
+"l": false
+},
+{
+"w": "passed",
+"parts": [
+"",
+"pass",
+"ed"
+],
+"hint": "지나갔다",
+"rank": 1248,
+"level": "R4",
+"ko": "지나갔다/통과했다(pass 과거)",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "passed",
+"l": false
+},
+{
+"w": "passing",
+"parts": [
+"",
+"pass",
+"ing"
+],
+"hint": "지나가는",
+"rank": 2319,
+"level": "R4",
+"ko": "지나가는/통과",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "passing",
+"l": false
+},
+{
+"w": "passenger",
+"parts": [
+"",
+"pass",
+"enger"
+],
+"hint": "지나가는 사람 → 승객",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "passport",
+"parts": [
+"",
+"pass",
+"port"
+],
+"hint": "항구(port)를 지나가는 허가 → 여권",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "sum",
+"key": "sum",
+"origin": "L",
+"meaning": "take",
+"ko": "취하다",
+"forms": [
+"sum",
+"sumpt"
+],
+"best": 581,
+"level": "R3",
+"words": [
+{
+"w": "summer",
+"parts": [
+"",
+"sum",
+"mer"
+],
+"hint": "영어 고유어(sumor) — 모양만 닮음",
+"rank": 581,
+"level": "R3",
+"ko": "여름",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "summer",
+"l": true
+},
+{
+"w": "assume",
+"parts": [
+"as",
+"sum",
+"e"
+],
+"hint": "~에(ad) 취하다 → 가정하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "~에·향하여",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "consume",
+"parts": [
+"con",
+"sum",
+"e"
+],
+"hint": "다(con) 취하다 → 소비하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께·완전히",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "ject",
+"key": "ject",
+"origin": "L",
+"meaning": "throw",
+"ko": "던지다",
+"forms": [
+"ject"
+],
+"best": 591,
+"level": "R3",
+"words": [
+{
+"w": "project",
+"parts": [
+"pro",
+"ject",
+""
+],
+"hint": "앞으로(pro) 던진 것 → 계획·프로젝트",
+"rank": 591,
+"level": "R3",
+"ko": "프로젝트",
+"pos": "noun",
+"pre": "앞으로",
+"x": false,
+"lw": "project",
+"l": false
+},
+{
+"w": "subject",
+"parts": [
+"sub",
+"ject",
+""
+],
+"hint": "아래에(sub) 던져 놓인 것 → 주제·과목",
+"rank": 1143,
+"level": "R4",
+"ko": "주제/과목",
+"pos": "noun",
+"pre": "아래",
+"x": false,
+"lw": "subject",
+"l": false
+},
+{
+"w": "object",
+"parts": [
+"ob",
+"ject",
+""
+],
+"hint": "맞서(ob) 던져진 것 → 물체·반대하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "맞서·향하여",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "reject",
+"parts": [
+"re",
+"ject",
+""
+],
+"hint": "뒤로(re) 던지다 → 거절하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "다시·뒤로",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "inject",
+"parts": [
+"in",
+"ject",
+""
+],
+"hint": "안으로(in) 던지다 → 주사하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "안으로·아닌",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "sim",
+"key": "sim",
+"origin": "L",
+"meaning": "same, together",
+"ko": "같은·함께",
+"forms": [
+"simil",
+"sembl",
+"sim"
+],
+"best": 607,
+"level": "R3",
+"words": [
+{
+"w": "similar",
+"parts": [
+"",
+"simil",
+"ar"
+],
+"hint": "같은 → 비슷한",
+"rank": 607,
+"level": "R3",
+"ko": "비슷한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "similar",
+"l": false
+},
+{
+"w": "simple",
+"parts": [
+"",
+"sim",
+"ple"
+],
+"hint": "한 번(sim) 접힌(ply) → 단순한",
+"rank": 859,
+"level": "R4",
+"ko": "간단한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "simple",
+"l": false
+},
+{
+"w": "assembly",
+"parts": [
+"as",
+"sembl",
+"y"
+],
+"hint": "~로(ad) 함께 모임 → 집회·조립",
+"rank": 2382,
+"level": "R4",
+"ko": "집회/조립",
+"pos": "noun",
+"pre": "~에·향하여",
+"x": false,
+"lw": "assembly",
+"l": false
+},
+{
+"w": "resemble",
+"parts": [
+"re",
+"sembl",
+"e"
+],
+"hint": "다시(re) 같아 보이다 → 닮다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "다시·뒤로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "cent",
+"key": "cent",
+"origin": "L",
+"meaning": "hundred",
+"ko": "백(100)",
+"forms": [
+"cent"
+],
+"best": 628,
+"level": "R3",
+"words": [
+{
+"w": "center",
+"parts": [
+"",
+"cent",
+"er"
+],
+"hint": "원의 가운데 점(kentron) → 중심 — 모양만 닮은 그리스 뿌리",
+"rank": 628,
+"level": "R3",
+"ko": "중심",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "center",
+"l": true
+},
+{
+"w": "central",
+"parts": [
+"",
+"centr",
+"al"
+],
+"hint": "중심의 — kentron 에서",
+"rank": 758,
+"level": "R3",
+"ko": "중앙의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "central",
+"l": true
+},
+{
+"w": "percent",
+"parts": [
+"per",
+"cent",
+""
+],
+"hint": "백(cent) 마다(per) → 퍼센트",
+"rank": 945,
+"level": "R4",
+"ko": "퍼센트",
+"pos": "noun",
+"pre": "끝까지·통하여",
+"x": false,
+"lw": "percent",
+"l": false
+},
+{
+"w": "recent",
+"parts": [
+"re",
+"cent",
+""
+],
+"hint": "새로운(recens) → 최근의 — 모양만 닮음",
+"rank": 948,
+"level": "R4",
+"ko": "최근의",
+"pos": "adj",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "recent",
+"l": true
+},
+{
+"w": "century",
+"parts": [
+"",
+"cent",
+"ury"
+],
+"hint": "백 년 → 세기",
+"rank": 981,
+"level": "R4",
+"ko": "세기",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "century",
+"l": false
+},
+{
+"w": "cent",
+"parts": [
+"",
+"cent",
+""
+],
+"hint": "백분의 일 달러 → 센트",
+"rank": 1517,
+"level": "R4",
+"ko": "센트",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "cent",
+"l": false
+}
+]
+},
+{
+"root": "ply",
+"key": "ply",
+"origin": "L",
+"meaning": "fold",
+"ko": "접다",
+"forms": [
+"ply",
+"plic",
+"plex",
+"ple"
+],
+"best": 630,
+"level": "R3",
+"words": [
+{
+"w": "couple",
+"parts": [
+"cou",
+"ple",
+""
+],
+"hint": "함께(co) 묶인(copula) 둘 → 한 쌍 — 사촌 뿌리",
+"rank": 630,
+"level": "R3",
+"ko": "부부/두 개",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "couple",
+"l": true
+},
+{
+"w": "complete",
+"parts": [
+"com",
+"ple",
+"te"
+],
+"hint": "완전히(com) 채운(plere) → 완성된 — ple(채우다)에서",
+"rank": 799,
+"level": "R3",
+"ko": "완전한/끝내다",
+"pos": "adj",
+"pre": "함께",
+"x": false,
+"lw": "complete",
+"l": true
+},
+{
+"w": "simple",
+"parts": [
+"sim",
+"ple",
+""
+],
+"hint": "한 번(sim) 접힌 → 단순한",
+"rank": 859,
+"level": "R4",
+"ko": "간단한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "simple",
+"l": false
+},
+{
+"w": "multiple",
+"parts": [
+"multi",
+"ple",
+""
+],
+"hint": "여러 번(multi) 접힌 → 다수의",
+"rank": 1244,
+"level": "R4",
+"ko": "여러 개의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "multiple",
+"l": false
+},
+{
+"w": "application",
+"parts": [
+"ap",
+"plic",
+"ation"
+],
+"hint": "적용·지원·앱",
+"rank": 1411,
+"level": "R4",
+"ko": "신청/응용",
+"pos": "noun",
+"pre": "~에·향하여",
+"x": false,
+"lw": "application",
+"l": false
+},
+{
+"w": "complex",
+"parts": [
+"com",
+"plex",
+""
+],
+"hint": "함께(com) 접힌 → 복잡한",
+"rank": 1414,
+"level": "R4",
+"ko": "복잡한",
+"pos": "adj",
+"pre": "함께",
+"x": false,
+"lw": "complex",
+"l": false
+},
+{
+"w": "apply",
+"parts": [
+"ap",
+"ply",
+""
+],
+"hint": "~에(ad) 접어 대다 → 적용·지원하다",
+"rank": 1585,
+"level": "R4",
+"ko": "지원하다/적용하다",
+"pos": "verb",
+"pre": "~에·향하여",
+"x": false,
+"lw": "apply",
+"l": false
+},
+{
+"w": "supply",
+"parts": [
+"sup",
+"ply",
+""
+],
+"hint": "아래에서(sub) 채워 접어 넣다 → 공급하다",
+"rank": 1612,
+"level": "R4",
+"ko": "공급",
+"pos": "noun",
+"pre": "아래",
+"x": false,
+"lw": "supply",
+"l": false
+},
+{
+"w": "reply",
+"parts": [
+"re",
+"ply",
+""
+],
+"hint": "되(re) 접어 보내다 → 답하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "다시·뒤로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "sens",
+"key": "sens",
+"origin": "L",
+"meaning": "feel",
+"ko": "느끼다",
+"forms": [
+"sens",
+"sent"
+],
+"best": 644,
+"level": "R3",
+"words": [
+{
+"w": "sense",
+"parts": [
+"",
+"sens",
+"e"
+],
+"hint": "느낌·감각",
+"rank": 644,
+"level": "R3",
+"ko": "감각/의미",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "sense",
+"l": false
+},
+{
+"w": "essential",
+"parts": [
+"ess",
+"ent",
+"ial"
+],
+"hint": "있음(esse)의 핵심 → 필수적인 — esse(있다)에서",
+"rank": 2397,
+"level": "R4",
+"ko": "필수적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "essential",
+"l": true
+},
+{
+"w": "sentence",
+"parts": [
+"",
+"sent",
+"ence"
+],
+"hint": "느낀 바를 말한 것 → 문장·판결",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "consent",
+"parts": [
+"con",
+"sent",
+""
+],
+"hint": "함께(con) 느끼다 → 동의",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께·완전히",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "test",
+"key": "test",
+"origin": "L",
+"meaning": "witness",
+"ko": "증인",
+"forms": [
+"test"
+],
+"best": 646,
+"level": "R3",
+"words": [
+{
+"w": "test",
+"parts": [
+"",
+"test",
+""
+],
+"hint": "증인 세워 밝힘 → 시험",
+"rank": 646,
+"level": "R3",
+"ko": "시험",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "test",
+"l": false
+},
+{
+"w": "contest",
+"parts": [
+"con",
+"test",
+""
+],
+"hint": "함께(con) 증인을 불러 다툼 → 대회",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께·완전히",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "protest",
+"parts": [
+"pro",
+"test",
+""
+],
+"hint": "앞에서(pro) 증언하다 → 항의하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "앞으로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "ven",
+"key": "ven",
+"origin": "L",
+"meaning": "come",
+"ko": "오다",
+"forms": [
+"ven",
+"vent"
+],
+"best": 652,
+"level": "R3",
+"words": [
+{
+"w": "event",
+"parts": [
+"e",
+"vent",
+""
+],
+"hint": "밖으로(e) 나온 일 → 행사·사건",
+"rank": 652,
+"level": "R3",
+"ko": "행사",
+"pos": "noun",
+"pre": "밖으로",
+"x": false,
+"lw": "event",
+"l": false
+},
+{
+"w": "eventually",
+"parts": [
+"e",
+"vent",
+"ually"
+],
+"hint": "결국",
+"rank": 1359,
+"level": "R4",
+"ko": "결국",
+"pos": "adv",
+"pre": "밖으로",
+"x": false,
+"lw": "eventually",
+"l": false
+},
+{
+"w": "prevent",
+"parts": [
+"pre",
+"vent",
+""
+],
+"hint": "앞서(pre) 와서 막다 → 예방하다",
+"rank": 1662,
+"level": "R4",
+"ko": "막다",
+"pos": "verb",
+"pre": "앞서",
+"x": false,
+"lw": "prevent",
+"l": false
+},
+{
+"w": "revenue",
+"parts": [
+"re",
+"ven",
+"ue"
+],
+"hint": "되돌아(re) 오는 것 → 수익",
+"rank": 2269,
+"level": "R4",
+"ko": "수익",
+"pos": "noun",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "revenue",
+"l": false
+},
+{
+"w": "convention",
+"parts": [
+"con",
+"vent",
+"ion"
+],
+"hint": "함께(con) 옴 → 대회·관습",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께·완전히",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "adventure",
+"parts": [
+"ad",
+"vent",
+"ure"
+],
+"hint": "~에게(ad) 다가올 일 → 모험",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "~에·향하여",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "sign",
+"key": "sign",
+"origin": "L",
+"meaning": "mark",
+"ko": "표시",
+"forms": [
+"sign"
+],
+"best": 667,
+"level": "R3",
+"words": [
+{
+"w": "design",
+"parts": [
+"de",
+"sign",
+""
+],
+"hint": "표시해 내려(de) 그리다 → 설계",
+"rank": 667,
+"level": "R3",
+"ko": "디자인",
+"pos": "noun",
+"pre": "아래로·떨어져",
+"x": false,
+"lw": "design",
+"l": false
+},
+{
+"w": "sign",
+"parts": [
+"",
+"sign",
+""
+],
+"hint": "표시·서명하다",
+"rank": 858,
+"level": "R4",
+"ko": "표지판/서명하다",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "sign",
+"l": false
+},
+{
+"w": "significant",
+"parts": [
+"",
+"sign",
+"ificant"
+],
+"hint": "표시를 만드는 → 중요한",
+"rank": 1097,
+"level": "R4",
+"ko": "중요한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "significant",
+"l": false
+},
+{
+"w": "signal",
+"parts": [
+"",
+"sign",
+"al"
+],
+"hint": "표시 → 신호",
+"rank": 2363,
+"level": "R4",
+"ko": "신호",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "signal",
+"l": false
+},
+{
+"w": "assign",
+"parts": [
+"as",
+"sign",
+""
+],
+"hint": "~에(ad) 표시해 주다 → 배정하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "~에·향하여",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "reg",
+"key": "reg",
+"origin": "L",
+"meaning": "rule, straight",
+"ko": "다스리다·곧게",
+"forms": [
+"reg",
+"rect"
+],
+"best": 710,
+"level": "R3",
+"words": [
+{
+"w": "director",
+"parts": [
+"di",
+"rect",
+"or"
+],
+"hint": "방향을 정하는 사람 → 감독·이사",
+"rank": 710,
+"level": "R3",
+"ko": "감독",
+"pos": "noun",
+"pre": "떨어져",
+"x": false,
+"lw": "director",
+"l": false
+},
+{
+"w": "region",
+"parts": [
+"",
+"reg",
+"ion"
+],
+"hint": "다스리는 범위 → 지역",
+"rank": 1063,
+"level": "R4",
+"ko": "지역",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "region",
+"l": false
+},
+{
+"w": "regular",
+"parts": [
+"",
+"reg",
+"ular"
+],
+"hint": "규칙(regula)에 맞는 → 규칙적인",
+"rank": 1173,
+"level": "R4",
+"ko": "규칙적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "regular",
+"l": false
+},
+{
+"w": "direction",
+"parts": [
+"di",
+"rect",
+"ion"
+],
+"hint": "방향",
+"rank": 1216,
+"level": "R4",
+"ko": "방향",
+"pos": "noun",
+"pre": "떨어져",
+"x": false,
+"lw": "direction",
+"l": false
+},
+{
+"w": "direct",
+"parts": [
+"di",
+"rect",
+""
+],
+"hint": "곧게(rect) 따로(dis) 세운 → 직접의·지시하다",
+"rank": 1269,
+"level": "R4",
+"ko": "직접적인",
+"pos": "adj",
+"pre": "떨어져",
+"x": false,
+"lw": "direct",
+"l": false
+},
+{
+"w": "correct",
+"parts": [
+"cor",
+"rect",
+""
+],
+"hint": "함께(com) 곧게 → 올바른",
+"rank": 1650,
+"level": "R4",
+"ko": "맞는",
+"pos": "adj",
+"pre": "함께",
+"x": false,
+"lw": "correct",
+"l": false
+},
+{
+"w": "regional",
+"parts": [
+"",
+"reg",
+"ional"
+],
+"hint": "지역의",
+"rank": 1924,
+"level": "R4",
+"ko": "지역의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "regional",
+"l": false
+},
+{
+"w": "regarding",
+"parts": [
+"re",
+"gard",
+"ing"
+],
+"hint": "지켜보다(guard) → ~에 관하여 — 모양만 닮은 다른 뿌리",
+"rank": 2132,
+"level": "R4",
+"ko": "~에 관하여",
+"pos": "prep",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "regarding",
+"l": true
+}
+]
+},
+{
+"root": "val",
+"key": "val",
+"origin": "L",
+"meaning": "strong, worth",
+"ko": "힘·가치",
+"forms": [
+"val"
+],
+"best": 722,
+"level": "R3",
+"words": [
+{
+"w": "value",
+"parts": [
+"",
+"val",
+"ue"
+],
+"hint": "가치",
+"rank": 722,
+"level": "R3",
+"ko": "가치",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "value",
+"l": false
+},
+{
+"w": "valley",
+"parts": [
+"",
+"vall",
+"ey"
+],
+"hint": "골짜기(vallis) — 모양만 닮은 다른 뿌리",
+"rank": 1934,
+"level": "R4",
+"ko": "계곡",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "valley",
+"l": true
+},
+{
+"w": "valid",
+"parts": [
+"",
+"val",
+"id"
+],
+"hint": "힘 있는 → 유효한",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "evaluate",
+"parts": [
+"e",
+"val",
+"uate"
+],
+"hint": "가치를 밖으로(e) 끌어내다 → 평가하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "밖으로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "fid",
+"key": "fid",
+"origin": "L",
+"meaning": "trust",
+"ko": "믿다",
+"forms": [
+"fid",
+"fai",
+"fed"
+],
+"best": 745,
+"level": "R3",
+"words": [
+{
+"w": "federal",
+"parts": [
+"",
+"fed",
+"eral"
+],
+"hint": "믿음으로 맺은(foedus) → 연방의",
+"rank": 745,
+"level": "R3",
+"ko": "연방의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "federal",
+"l": false
+},
+{
+"w": "fair",
+"parts": [
+"",
+"fai",
+"r"
+],
+"hint": "아름다운(fæger) — 영어 고유어, 모양만 닮음",
+"rank": 1072,
+"level": "R4",
+"ko": "공정한/박람회",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "fair",
+"l": true
+},
+{
+"w": "faith",
+"parts": [
+"",
+"fai",
+"th"
+],
+"hint": "믿음",
+"rank": 1558,
+"level": "R4",
+"ko": "믿음",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "faith",
+"l": false
+},
+{
+"w": "confidence",
+"parts": [
+"con",
+"fid",
+"ence"
+],
+"hint": "완전히(con) 믿음 → 자신감",
+"rank": 2204,
+"level": "R4",
+"ko": "자신감",
+"pos": "noun",
+"pre": "함께·완전히",
+"x": false,
+"lw": "confidence",
+"l": false
+}
+]
+},
+{
+"root": "man",
+"key": "man",
+"origin": "L",
+"meaning": "hand",
+"ko": "손",
+"forms": [
+"man"
+],
+"best": 750,
+"level": "R3",
+"words": [
+{
+"w": "management",
+"parts": [
+"",
+"man",
+"agement"
+],
+"hint": "경영",
+"rank": 750,
+"level": "R3",
+"ko": "관리",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "management",
+"l": false
+},
+{
+"w": "manager",
+"parts": [
+"",
+"man",
+"ager"
+],
+"hint": "관리자",
+"rank": 1111,
+"level": "R4",
+"ko": "관리자",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "manager",
+"l": false
+},
+{
+"w": "demand",
+"parts": [
+"de",
+"man",
+"d"
+],
+"hint": "손에 맡겨(mandare) 내려(de) 요구 → 요구하다",
+"rank": 1486,
+"level": "R4",
+"ko": "요구/수요",
+"pos": "noun",
+"pre": "아래로·떨어져",
+"x": false,
+"lw": "demand",
+"l": false
+},
+{
+"w": "manage",
+"parts": [
+"",
+"man",
+"age"
+],
+"hint": "손으로 다루다 → 관리하다",
+"rank": 1758,
+"level": "R4",
+"ko": "관리했다/간신히 해냈다(manage 과거)",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "managed",
+"l": false
+},
+{
+"w": "command",
+"parts": [
+"com",
+"man",
+"d"
+],
+"hint": "손에 맡기다(mandare) → 명령하다",
+"rank": 1991,
+"level": "R4",
+"ko": "명령(하다)",
+"pos": "noun",
+"pre": "함께",
+"x": false,
+"lw": "command",
+"l": false
+},
+{
+"w": "maintain",
+"parts": [
+"main",
+"tain",
+""
+],
+"hint": "손(manu)에 붙잡다(tain) → 유지하다",
+"rank": 2217,
+"level": "R4",
+"ko": "유지하다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "maintain",
+"l": false
+},
+{
+"w": "manual",
+"parts": [
+"",
+"man",
+"ual"
+],
+"hint": "손의 → 수동·설명서",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "manufacture",
+"parts": [
+"manu",
+"fact",
+"ure"
+],
+"hint": "손으로(manu) 만듦(fac) → 제조",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "mod",
+"key": "mod",
+"origin": "L",
+"meaning": "measure, manner",
+"ko": "척도·방식",
+"forms": [
+"mod"
+],
+"best": 752,
+"level": "R3",
+"words": [
+{
+"w": "model",
+"parts": [
+"",
+"mod",
+"el"
+],
+"hint": "작은 척도 → 모형·모델",
+"rank": 752,
+"level": "R3",
+"ko": "모형/모델",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "model",
+"l": false
+},
+{
+"w": "modern",
+"parts": [
+"",
+"mod",
+"ern"
+],
+"hint": "지금 방식(modo)의 → 현대의",
+"rank": 881,
+"level": "R4",
+"ko": "현대의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "modern",
+"l": false
+},
+{
+"w": "mode",
+"parts": [
+"",
+"mod",
+"e"
+],
+"hint": "방식",
+"rank": 2314,
+"level": "R4",
+"ko": "방식/모드",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "mode",
+"l": false
+},
+{
+"w": "modify",
+"parts": [
+"",
+"mod",
+"ify"
+],
+"hint": "척도에 맞게 → 수정하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "sci",
+"key": "sci",
+"origin": "L",
+"meaning": "know",
+"ko": "알다",
+"forms": [
+"sci"
+],
+"best": 770,
+"level": "R3",
+"words": [
+{
+"w": "science",
+"parts": [
+"",
+"sci",
+"ence"
+],
+"hint": "아는 것 → 과학",
+"rank": 770,
+"level": "R3",
+"ko": "과학",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "science",
+"l": false
+},
+{
+"w": "scientific",
+"parts": [
+"",
+"sci",
+"entific"
+],
+"hint": "과학의",
+"rank": 2138,
+"level": "R4",
+"ko": "과학적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "scientific",
+"l": false
+},
+{
+"w": "conscious",
+"parts": [
+"con",
+"sci",
+"ous"
+],
+"hint": "함께(con) 아는 → 의식하는",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께·완전히",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "tend",
+"key": "tend",
+"origin": "L",
+"meaning": "stretch",
+"ko": "뻗다",
+"forms": [
+"tend",
+"tens",
+"tent"
+],
+"best": 775,
+"level": "R3",
+"words": [
+{
+"w": "attention",
+"parts": [
+"at",
+"tent",
+"ion"
+],
+"hint": "~에(ad) 마음을 뻗음 → 주의",
+"rank": 775,
+"level": "R3",
+"ko": "주의",
+"pos": "noun",
+"pre": "~에·향하여",
+"x": false,
+"lw": "attention",
+"l": false
+},
+{
+"w": "potential",
+"parts": [
+"pot",
+"ent",
+"ial"
+],
+"hint": "힘(potis) 있는 → 잠재적인 — pot(힘)에서",
+"rank": 1027,
+"level": "R4",
+"ko": "잠재력",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "potential",
+"l": true
+},
+{
+"w": "intend",
+"parts": [
+"in",
+"tend",
+""
+],
+"hint": "~으로(in) 마음을 뻗다 → 의도하다",
+"rank": 2004,
+"level": "R4",
+"ko": "의도한",
+"pos": "verb",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "intended",
+"l": false
+},
+{
+"w": "extended",
+"parts": [
+"ex",
+"tend",
+"ed"
+],
+"hint": "밖으로(ex) 뻗은 → 연장된",
+"rank": 2250,
+"level": "R4",
+"ko": "연장된/넓힌",
+"pos": "verb",
+"pre": "밖으로",
+"x": false,
+"lw": "extended",
+"l": false
+},
+{
+"w": "tension",
+"parts": [
+"",
+"tens",
+"ion"
+],
+"hint": "뻗어 당긴 상태 → 긴장",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "tent",
+"parts": [
+"",
+"tent",
+""
+],
+"hint": "펼쳐 친 것 → 텐트",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "oper",
+"key": "oper",
+"origin": "L",
+"meaning": "work",
+"ko": "일",
+"forms": [
+"oper"
+],
+"best": 790,
+"level": "R3",
+"words": [
+{
+"w": "property",
+"parts": [
+"pro",
+"per",
+"ty"
+],
+"hint": "자기 것 → 재산 — proprius 에서",
+"rank": 790,
+"level": "R3",
+"ko": "재산",
+"pos": "noun",
+"pre": "앞으로",
+"x": false,
+"lw": "property",
+"l": true
+},
+{
+"w": "operation",
+"parts": [
+"",
+"oper",
+"ation"
+],
+"hint": "일함 → 작업·수술",
+"rank": 1246,
+"level": "R4",
+"ko": "수술/작동",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "operation",
+"l": false
+},
+{
+"w": "operating",
+"parts": [
+"",
+"oper",
+"ating"
+],
+"hint": "작동하는",
+"rank": 1794,
+"level": "R4",
+"ko": "운영하는/수술의",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "operating",
+"l": false
+},
+{
+"w": "proper",
+"parts": [
+"pro",
+"per",
+""
+],
+"hint": "자기 것(proprius) → 적절한 — 모양만 닮은 다른 뿌리",
+"rank": 1921,
+"level": "R4",
+"ko": "적절한",
+"pos": "adj",
+"pre": "앞으로",
+"x": false,
+"lw": "proper",
+"l": true
+},
+{
+"w": "cooperate",
+"parts": [
+"co",
+"oper",
+"ate"
+],
+"hint": "함께(co) 일하다 → 협력하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "vol",
+"key": "vol",
+"origin": "L",
+"meaning": "roll; will",
+"ko": "굴리다·뜻",
+"forms": [
+"volv",
+"volu",
+"vol"
+],
+"best": 803,
+"level": "R3",
+"words": [
+{
+"w": "involved",
+"parts": [
+"in",
+"volv",
+"ed"
+],
+"hint": "안으로(in) 굴려 넣은 → 관련된",
+"rank": 803,
+"level": "R3",
+"ko": "관련된",
+"pos": "adj",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "involved",
+"l": false
+},
+{
+"w": "volume",
+"parts": [
+"",
+"volu",
+"me"
+],
+"hint": "둘둘 굴려 만 책 → 권·부피·음량",
+"rank": 1767,
+"level": "R4",
+"ko": "음량/부피",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "volume",
+"l": false
+},
+{
+"w": "volunteer",
+"parts": [
+"",
+"vol",
+"unteer"
+],
+"hint": "스스로 뜻(voluntas)한 사람 → 자원봉사자 — 「뜻」 뿌리",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": true
+},
+{
+"w": "revolution",
+"parts": [
+"re",
+"volu",
+"tion"
+],
+"hint": "되(re) 굴림 → 혁명",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "다시·뒤로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "nov",
+"key": "nov",
+"origin": "L",
+"meaning": "new",
+"ko": "새로운",
+"forms": [
+"nov"
+],
+"best": 807,
+"level": "R3",
+"words": [
+{
+"w": "november",
+"parts": [
+"",
+"nov",
+"ember"
+],
+"hint": "아홉(novem) 번째 달 → 11월 — 모양만 닮은 다른 뿌리(아홉)",
+"rank": 807,
+"level": "R3",
+"ko": "11월",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "november",
+"l": true
+},
+{
+"w": "novel",
+"parts": [
+"",
+"nov",
+"el"
+],
+"hint": "새로운 이야기 → 소설",
+"rank": 2317,
+"level": "R4",
+"ko": "소설/새로운",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "novel",
+"l": false
+},
+{
+"w": "innovation",
+"parts": [
+"in",
+"nov",
+"ation"
+],
+"hint": "안에(in) 새것을 넣음 → 혁신",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "안으로·아닌",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "renovate",
+"parts": [
+"re",
+"nov",
+"ate"
+],
+"hint": "다시(re) 새롭게 → 개조하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "다시·뒤로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "log",
+"key": "log",
+"origin": "G",
+"meaning": "word, study",
+"ko": "말·학문",
+"forms": [
+"log"
+],
+"best": 832,
+"level": "R4",
+"words": [
+{
+"w": "technology",
+"parts": [
+"techno",
+"log",
+"y"
+],
+"hint": "기술(techne)의 학문 → 기술",
+"rank": 832,
+"level": "R4",
+"ko": "기술",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "technology",
+"l": false
+},
+{
+"w": "blog",
+"parts": [
+"b",
+"log",
+""
+],
+"hint": "web + log(기록) → 블로그 — 영어 log(통나무·기록)에서",
+"rank": 1850,
+"level": "R4",
+"ko": "블로그",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "blog",
+"l": true
+},
+{
+"w": "apology",
+"parts": [
+"apo",
+"log",
+"y"
+],
+"hint": "떨어져(apo) 변호하는 말 → 사과",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "dialogue",
+"parts": [
+"dia",
+"log",
+"ue"
+],
+"hint": "사이를(dia) 오가는 말 → 대화",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "logic",
+"parts": [
+"",
+"log",
+"ic"
+],
+"hint": "말·이치 → 논리",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "techn",
+"key": "techn",
+"origin": "G",
+"meaning": "art, skill",
+"ko": "기술",
+"forms": [
+"techn"
+],
+"best": 832,
+"level": "R4",
+"words": [
+{
+"w": "technology",
+"parts": [
+"",
+"techn",
+"ology"
+],
+"hint": "기술(techne)의 학문(log) → 기술",
+"rank": 832,
+"level": "R4",
+"ko": "기술",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "technology",
+"l": false
+},
+{
+"w": "technical",
+"parts": [
+"",
+"techn",
+"ical"
+],
+"hint": "기술의",
+"rank": 1803,
+"level": "R4",
+"ko": "기술적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "technical",
+"l": false
+},
+{
+"w": "technique",
+"parts": [
+"",
+"techn",
+"ique"
+],
+"hint": "기법",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "tain",
+"key": "tain",
+"origin": "L",
+"meaning": "hold",
+"ko": "붙잡다",
+"forms": [
+"tain",
+"ten",
+"tin"
+],
+"best": 839,
+"level": "R4",
+"words": [
+{
+"w": "continue",
+"parts": [
+"con",
+"tin",
+"ue"
+],
+"hint": "함께(con) 붙잡아 이어 가다 → 계속하다",
+"rank": 839,
+"level": "R4",
+"ko": "계속하다",
+"pos": "verb",
+"pre": "함께·완전히",
+"x": false,
+"lw": "continue",
+"l": false
+},
+{
+"w": "content",
+"parts": [
+"con",
+"ten",
+"t"
+],
+"hint": "담긴 것 → 내용",
+"rank": 1041,
+"level": "R4",
+"ko": "내용",
+"pos": "noun",
+"pre": "함께·완전히",
+"x": false,
+"lw": "content",
+"l": false
+},
+{
+"w": "contain",
+"parts": [
+"con",
+"tain",
+""
+],
+"hint": "함께(con) 붙잡아 두다 → 담다",
+"rank": 2064,
+"level": "R4",
+"ko": "포함하다(3인칭)",
+"pos": "verb",
+"pre": "함께·완전히",
+"x": false,
+"lw": "contains",
+"l": false
+},
+{
+"w": "maintain",
+"parts": [
+"main",
+"tain",
+""
+],
+"hint": "손(manu)에 붙잡다 → 유지하다",
+"rank": 2217,
+"level": "R4",
+"ko": "유지하다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "maintain",
+"l": false
+},
+{
+"w": "entertainment",
+"parts": [
+"enter",
+"tain",
+"ment"
+],
+"hint": "사이에서(inter) 붙잡아 둠 → 오락",
+"rank": 2439,
+"level": "R4",
+"ko": "오락",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "entertainment",
+"l": false
+},
+{
+"w": "obtain",
+"parts": [
+"ob",
+"tain",
+""
+],
+"hint": "향하여(ob) 붙잡다 → 얻다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "맞서·향하여",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "retain",
+"parts": [
+"re",
+"tain",
+""
+],
+"hint": "뒤로(re) 붙잡다 → 보유하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "다시·뒤로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "cre",
+"key": "cre",
+"origin": "L",
+"meaning": "grow, make",
+"ko": "자라다·만들다",
+"forms": [
+"cre",
+"cresc"
+],
+"best": 850,
+"level": "R4",
+"words": [
+{
+"w": "increase",
+"parts": [
+"in",
+"cre",
+"ase"
+],
+"hint": "안으로(in) 자라다 → 증가하다",
+"rank": 850,
+"level": "R4",
+"ko": "늘다/증가",
+"pos": "verb",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "increase",
+"l": false
+},
+{
+"w": "create",
+"parts": [
+"",
+"cre",
+"ate"
+],
+"hint": "자라게 하다 → 창조하다",
+"rank": 984,
+"level": "R4",
+"ko": "만들다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "create",
+"l": false
+},
+{
+"w": "creative",
+"parts": [
+"",
+"cre",
+"ative"
+],
+"hint": "창조적인",
+"rank": 2433,
+"level": "R4",
+"ko": "창의적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "creative",
+"l": false
+},
+{
+"w": "decrease",
+"parts": [
+"de",
+"cre",
+"ase"
+],
+"hint": "아래로(de) 자라다 → 감소하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "아래로·떨어져",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "recruit",
+"parts": [
+"re",
+"cru",
+"it"
+],
+"hint": "다시(re) 자라나게 → 모집하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "다시·뒤로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "min",
+"key": "min",
+"origin": "L",
+"meaning": "small; project",
+"ko": "작은·내밀다",
+"forms": [
+"min"
+],
+"best": 943,
+"level": "R4",
+"words": [
+{
+"w": "minister",
+"parts": [
+"",
+"min",
+"ister"
+],
+"hint": "작은 자 → 섬기는 자 → 장관",
+"rank": 943,
+"level": "R4",
+"ko": "장관/목사",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "minister",
+"l": false
+},
+{
+"w": "minute",
+"parts": [
+"",
+"min",
+"ute"
+],
+"hint": "작게 나눈 것 → 분(分)",
+"rank": 1092,
+"level": "R4",
+"ko": "분",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "minute",
+"l": false
+},
+{
+"w": "administration",
+"parts": [
+"ad",
+"min",
+"istration"
+],
+"hint": "~에(ad) 섬김 → 행정",
+"rank": 1208,
+"level": "R4",
+"ko": "행정/정부",
+"pos": "noun",
+"pre": "~에·향하여",
+"x": false,
+"lw": "administration",
+"l": false
+},
+{
+"w": "criminal",
+"parts": [
+"",
+"crimin",
+"al"
+],
+"hint": "죄(crimen)의 → 범죄자 — 모양만 닮음",
+"rank": 1779,
+"level": "R4",
+"ko": "범죄자/범죄의",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "criminal",
+"l": true
+},
+{
+"w": "minimum",
+"parts": [
+"",
+"min",
+"imum"
+],
+"hint": "가장 작은 → 최소",
+"rank": 2040,
+"level": "R4",
+"ko": "최소",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "minimum",
+"l": false
+},
+{
+"w": "ministry",
+"parts": [
+"",
+"min",
+"istry"
+],
+"hint": "부(部)",
+"rank": 2313,
+"level": "R4",
+"ko": "부(정부 부처)",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "ministry",
+"l": false
+},
+{
+"w": "minor",
+"parts": [
+"",
+"min",
+"or"
+],
+"hint": "더 작은 → 사소한",
+"rank": 2354,
+"level": "R4",
+"ko": "작은/미성년자",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "minor",
+"l": false
+}
+]
+},
+{
+"root": "cap",
+"key": "cap",
+"origin": "L",
+"meaning": "take, seize",
+"ko": "잡다",
+"forms": [
+"cap",
+"cept",
+"ceiv",
+"ceip"
+],
+"best": 987,
+"level": "R4",
+"words": [
+{
+"w": "except",
+"parts": [
+"ex",
+"cept",
+""
+],
+"hint": "밖으로(ex) 잡아 내다 → 제외하고",
+"rank": 987,
+"level": "R4",
+"ko": "~을 제외하고",
+"pos": "prep",
+"pre": "밖으로",
+"x": false,
+"lw": "except",
+"l": false
+},
+{
+"w": "capital",
+"parts": [
+"",
+"cap",
+"ital"
+],
+"hint": "머리의 → 수도·자본 — 머리(cap)에서 온 사촌",
+"rank": 1014,
+"level": "R4",
+"ko": "수도/자본",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "capital",
+"l": true
+},
+{
+"w": "captain",
+"parts": [
+"",
+"cap",
+"tain"
+],
+"hint": "머리(caput) → 우두머리 — 머리(cap)에서 온 사촌",
+"rank": 1324,
+"level": "R4",
+"ko": "선장/주장",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "captain",
+"l": true
+},
+{
+"w": "accept",
+"parts": [
+"ac",
+"cept",
+""
+],
+"hint": "~에(ad) 잡아 들이다 → 받아들이다",
+"rank": 1436,
+"level": "R4",
+"ko": "받아들이다",
+"pos": "verb",
+"pre": "~에·향하여",
+"x": false,
+"lw": "accept",
+"l": false
+},
+{
+"w": "receive",
+"parts": [
+"re",
+"ceiv",
+"e"
+],
+"hint": "뒤로(re) 받아 잡다 → 받다",
+"rank": 1459,
+"level": "R4",
+"ko": "받다",
+"pos": "verb",
+"pre": "다시·뒤로",
+"x": false,
+"lw": "receive",
+"l": false
+},
+{
+"w": "concept",
+"parts": [
+"con",
+"cept",
+""
+],
+"hint": "함께(con) 잡아 모은 생각 → 개념",
+"rank": 1712,
+"level": "R4",
+"ko": "개념",
+"pos": "noun",
+"pre": "함께·완전히",
+"x": false,
+"lw": "concept",
+"l": false
+},
+{
+"w": "capacity",
+"parts": [
+"",
+"cap",
+"acity"
+],
+"hint": "잡아 담을 양 → 용량·능력",
+"rank": 1948,
+"level": "R4",
+"ko": "용량/능력",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "capacity",
+"l": false
+},
+{
+"w": "escape",
+"parts": [
+"es",
+"cap",
+"e"
+],
+"hint": "밖으로(ex) 망토(cappa)를 벗어 두고 → 달아나다",
+"rank": 2249,
+"level": "R4",
+"ko": "탈출하다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "escape",
+"l": false
+},
+{
+"w": "capable",
+"parts": [
+"",
+"cap",
+"able"
+],
+"hint": "잡을 수 있는 → 할 수 있는",
+"rank": 2386,
+"level": "R4",
+"ko": "능력 있는",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "capable",
+"l": false
+}
+]
+},
+{
+"root": "mit",
+"key": "mit",
+"origin": "L",
+"meaning": "send",
+"ko": "보내다",
+"forms": [
+"mit",
+"miss"
+],
+"best": 1016,
+"level": "R4",
+"words": [
+{
+"w": "committee",
+"parts": [
+"com",
+"mit",
+"tee"
+],
+"hint": "맡겨 보낸 사람들 → 위원회",
+"rank": 1016,
+"level": "R4",
+"ko": "위원회",
+"pos": "noun",
+"pre": "함께",
+"x": false,
+"lw": "committee",
+"l": false
+},
+{
+"w": "commission",
+"parts": [
+"com",
+"miss",
+"ion"
+],
+"hint": "함께(com) 보내 맡김 → 위원회",
+"rank": 1266,
+"level": "R4",
+"ko": "위원회/수수료",
+"pos": "noun",
+"pre": "함께",
+"x": false,
+"lw": "commission",
+"l": false
+},
+{
+"w": "mission",
+"parts": [
+"",
+"miss",
+"ion"
+],
+"hint": "보내진 일 → 임무",
+"rank": 1395,
+"level": "R4",
+"ko": "임무",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "mission",
+"l": false
+},
+{
+"w": "committed",
+"parts": [
+"com",
+"mit",
+"ted"
+],
+"hint": "함께 보내 맡긴 → 헌신한",
+"rank": 2203,
+"level": "R4",
+"ko": "헌신한/저질렀다",
+"pos": "verb",
+"pre": "함께",
+"x": false,
+"lw": "committed",
+"l": false
+},
+{
+"w": "permit",
+"parts": [
+"per",
+"mit",
+""
+],
+"hint": "통과해(per) 보내다 → 허락하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "끝까지·통하여",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "submit",
+"parts": [
+"sub",
+"mit",
+""
+],
+"hint": "아래로(sub) 보내다 → 제출하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "아래",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "admit",
+"parts": [
+"ad",
+"mit",
+""
+],
+"hint": "~에(ad) 들여보내다 → 인정하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "~에·향하여",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "text",
+"key": "text",
+"origin": "L",
+"meaning": "weave",
+"ko": "짜다",
+"forms": [
+"text"
+],
+"best": 1032,
+"level": "R4",
+"words": [
+{
+"w": "text",
+"parts": [
+"",
+"text",
+""
+],
+"hint": "짜 놓은 글 → 본문·문자",
+"rank": 1032,
+"level": "R4",
+"ko": "글/문자",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "text",
+"l": false
+},
+{
+"w": "context",
+"parts": [
+"con",
+"text",
+""
+],
+"hint": "함께(con) 짜인 것 → 맥락",
+"rank": 2293,
+"level": "R4",
+"ko": "맥락",
+"pos": "noun",
+"pre": "함께·완전히",
+"x": false,
+"lw": "context",
+"l": false
+},
+{
+"w": "textile",
+"parts": [
+"",
+"text",
+"ile"
+],
+"hint": "짠 것 → 직물",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "tract",
+"key": "tract",
+"origin": "L",
+"meaning": "pull, draw",
+"ko": "끌다",
+"forms": [
+"tract",
+"treat"
+],
+"best": 1033,
+"level": "R4",
+"words": [
+{
+"w": "treatment",
+"parts": [
+"",
+"treat",
+"ment"
+],
+"hint": "치료",
+"rank": 1033,
+"level": "R4",
+"ko": "치료/대우",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "treatment",
+"l": false
+},
+{
+"w": "contract",
+"parts": [
+"con",
+"tract",
+""
+],
+"hint": "함께(con) 끌어 묶음 → 계약",
+"rank": 1184,
+"level": "R4",
+"ko": "계약",
+"pos": "noun",
+"pre": "함께·완전히",
+"x": false,
+"lw": "contract",
+"l": false
+},
+{
+"w": "treat",
+"parts": [
+"",
+"treat",
+""
+],
+"hint": "끌어 다루다 → 대하다·치료하다",
+"rank": 1805,
+"level": "R4",
+"ko": "대하다/치료하다/간식",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "treat",
+"l": false
+},
+{
+"w": "attract",
+"parts": [
+"at",
+"tract",
+""
+],
+"hint": "~에(ad) 끌다 → 끌어당기다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "~에·향하여",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "extract",
+"parts": [
+"ex",
+"tract",
+""
+],
+"hint": "밖으로(ex) 끌다 → 뽑아내다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "밖으로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "cred",
+"key": "cred",
+"origin": "L",
+"meaning": "believe",
+"ko": "믿다",
+"forms": [
+"cred"
+],
+"best": 1042,
+"level": "R4",
+"words": [
+{
+"w": "credit",
+"parts": [
+"",
+"cred",
+"it"
+],
+"hint": "믿고 맡김 → 신용·학점",
+"rank": 1042,
+"level": "R4",
+"ko": "신용/공로",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "credit",
+"l": false
+},
+{
+"w": "incredible",
+"parts": [
+"in",
+"cred",
+"ible"
+],
+"hint": "믿을(cred) 수 없는(in) → 놀라운",
+"rank": 2308,
+"level": "R4",
+"ko": "믿기 힘든/놀라운",
+"pos": "adj",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "incredible",
+"l": false
+},
+{
+"w": "credible",
+"parts": [
+"",
+"cred",
+"ible"
+],
+"hint": "믿을 만한",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "scrib",
+"key": "scrib",
+"origin": "L",
+"meaning": "write",
+"ko": "쓰다",
+"forms": [
+"scrib",
+"script"
+],
+"best": 1044,
+"level": "R4",
+"words": [
+{
+"w": "describe",
+"parts": [
+"de",
+"scrib",
+"e"
+],
+"hint": "아래로(de) 써 내려가다 → 묘사하다",
+"rank": 1044,
+"level": "R4",
+"ko": "설명했다(describe 과거)",
+"pos": "verb",
+"pre": "아래로·떨어져",
+"x": false,
+"lw": "described",
+"l": false
+},
+{
+"w": "description",
+"parts": [
+"de",
+"script",
+"ion"
+],
+"hint": "묘사",
+"rank": 1854,
+"level": "R4",
+"ko": "설명/묘사",
+"pos": "noun",
+"pre": "아래로·떨어져",
+"x": false,
+"lw": "description",
+"l": false
+},
+{
+"w": "script",
+"parts": [
+"",
+"script",
+""
+],
+"hint": "쓴 것 → 대본",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "subscribe",
+"parts": [
+"sub",
+"scrib",
+"e"
+],
+"hint": "아래에(sub) 이름을 쓰다 → 구독하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "아래",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "sol",
+"key": "sol",
+"origin": "L",
+"meaning": "alone, whole",
+"ko": "혼자·온전한",
+"forms": [
+"sol"
+],
+"best": 1082,
+"level": "R4",
+"words": [
+{
+"w": "absolutely",
+"parts": [
+"ab",
+"sol",
+"utely"
+],
+"hint": "완전히(ab) 풀린 → 절대적으로 — solv(풀다)에서",
+"rank": 1082,
+"level": "R4",
+"ko": "전적으로",
+"pos": "adv",
+"pre": "떨어져",
+"x": false,
+"lw": "absolutely",
+"l": true
+},
+{
+"w": "sold",
+"parts": [
+"",
+"sol",
+"d"
+],
+"hint": "sell 의 과거 — 모양만 닮은 영어 고유어",
+"rank": 1118,
+"level": "R4",
+"ko": "팔았다(sell 과거)",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "sold",
+"l": true
+},
+{
+"w": "solution",
+"parts": [
+"",
+"sol",
+"ution"
+],
+"hint": "풀어(solvere) 냄 → 해결 — solv(풀다)에서",
+"rank": 1500,
+"level": "R4",
+"ko": "해결책",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "solution",
+"l": true
+},
+{
+"w": "solid",
+"parts": [
+"",
+"sol",
+"id"
+],
+"hint": "온전한·단단한",
+"rank": 1879,
+"level": "R4",
+"ko": "단단한/고체",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "solid",
+"l": false
+},
+{
+"w": "soldier",
+"parts": [
+"",
+"sol",
+"dier"
+],
+"hint": "금화(solidus)를 받는 자 → 군인",
+"rank": 2013,
+"level": "R4",
+"ko": "군인들",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "soldiers",
+"l": false
+},
+{
+"w": "solo",
+"parts": [
+"",
+"sol",
+"o"
+],
+"hint": "혼자 → 독주",
+"rank": 2421,
+"level": "R4",
+"ko": "혼자의/독주",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "solo",
+"l": false
+}
+]
+},
+{
+"root": "struct",
+"key": "struct",
+"origin": "L",
+"meaning": "build",
+"ko": "세우다",
+"forms": [
+"struct"
+],
+"best": 1105,
+"level": "R4",
+"words": [
+{
+"w": "construction",
+"parts": [
+"con",
+"struct",
+"ion"
+],
+"hint": "함께(con) 세움 → 건설",
+"rank": 1105,
+"level": "R4",
+"ko": "건설",
+"pos": "noun",
+"pre": "함께·완전히",
+"x": false,
+"lw": "construction",
+"l": false
+},
+{
+"w": "structure",
+"parts": [
+"",
+"struct",
+"ure"
+],
+"hint": "세운 것 → 구조",
+"rank": 1506,
+"level": "R4",
+"ko": "구조",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "structure",
+"l": false
+},
+{
+"w": "destroy",
+"parts": [
+"de",
+"stro",
+"y"
+],
+"hint": "세운 것을 아래로(de) → 파괴하다",
+"rank": 2394,
+"level": "R4",
+"ko": "파괴된(destroy 과거)",
+"pos": "verb",
+"pre": "아래로·떨어져",
+"x": false,
+"lw": "destroyed",
+"l": false
+},
+{
+"w": "instruction",
+"parts": [
+"in",
+"struct",
+"ion"
+],
+"hint": "안에(in) 세워 넣음 → 지시",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "안으로·아닌",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "photo",
+"key": "photo",
+"origin": "G",
+"meaning": "light",
+"ko": "빛",
+"forms": [
+"photo"
+],
+"best": 1113,
+"level": "R4",
+"words": [
+{
+"w": "photo",
+"parts": [
+"",
+"photo",
+""
+],
+"hint": "빛으로 그린 것 → 사진",
+"rank": 1113,
+"level": "R4",
+"ko": "사진",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "photo",
+"l": false
+},
+{
+"w": "photograph",
+"parts": [
+"photo",
+"graph",
+""
+],
+"hint": "빛(photo)으로 그림(graph) → 사진",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "pend",
+"key": "pend",
+"origin": "L",
+"meaning": "hang, weigh, pay",
+"ko": "매달다·재다·치르다",
+"forms": [
+"pend",
+"pens"
+],
+"best": 1120,
+"level": "R4",
+"words": [
+{
+"w": "spend",
+"parts": [
+"s",
+"pend",
+""
+],
+"hint": "무게를 재어 치르다(expendere) → 쓰다",
+"rank": 1120,
+"level": "R4",
+"ko": "쓰다/보내다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "spend",
+"l": false
+},
+{
+"w": "independent",
+"parts": [
+"inde",
+"pend",
+"ent"
+],
+"hint": "매달려(de) 있지 않은(in) → 독립적인",
+"rank": 1217,
+"level": "R4",
+"ko": "독립적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "independent",
+"l": false
+},
+{
+"w": "spending",
+"parts": [
+"s",
+"pend",
+"ing"
+],
+"hint": "지출",
+"rank": 1975,
+"level": "R4",
+"ko": "지출/쓰는",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "spending",
+"l": false
+},
+{
+"w": "expensive",
+"parts": [
+"ex",
+"pens",
+"ive"
+],
+"hint": "밖으로(ex) 많이 치르는 → 비싼",
+"rank": 2030,
+"level": "R4",
+"ko": "비싼",
+"pos": "adj",
+"pre": "밖으로",
+"x": false,
+"lw": "expensive",
+"l": false
+},
+{
+"w": "depend",
+"parts": [
+"de",
+"pend",
+""
+],
+"hint": "~에(de) 매달리다 → 의존하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "아래로·떨어져",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "pension",
+"parts": [
+"",
+"pens",
+"ion"
+],
+"hint": "치러 주는 돈 → 연금",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "ann",
+"key": "ann",
+"origin": "L",
+"meaning": "year",
+"ko": "해(年)",
+"forms": [
+"ann",
+"enn"
+],
+"best": 1125,
+"level": "R4",
+"words": [
+{
+"w": "announced",
+"parts": [
+"an",
+"nounc",
+"ed"
+],
+"hint": "~에(ad) 알리다(nuntiare) → 발표했다 — 모양만 닮음",
+"rank": 1125,
+"level": "R4",
+"ko": "발표했다(announce 과거)",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "announced",
+"l": true
+},
+{
+"w": "annual",
+"parts": [
+"",
+"ann",
+"ual"
+],
+"hint": "해마다의 → 연간",
+"rank": 1179,
+"level": "R4",
+"ko": "매년의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "annual",
+"l": false
+},
+{
+"w": "anniversary",
+"parts": [
+"anni",
+"vers",
+"ary"
+],
+"hint": "해(ann)가 돌아옴(vert) → 기념일",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "phys",
+"key": "phys",
+"origin": "G",
+"meaning": "nature, body",
+"ko": "자연·몸",
+"forms": [
+"phys"
+],
+"best": 1199,
+"level": "R4",
+"words": [
+{
+"w": "physical",
+"parts": [
+"",
+"phys",
+"ical"
+],
+"hint": "몸의·물리적인",
+"rank": 1199,
+"level": "R4",
+"ko": "신체의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "physical",
+"l": false
+},
+{
+"w": "physics",
+"parts": [
+"",
+"phys",
+"ics"
+],
+"hint": "자연의 학문 → 물리학",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "grad",
+"key": "grad",
+"origin": "L",
+"meaning": "step",
+"ko": "걸음",
+"forms": [
+"grad",
+"gress"
+],
+"best": 1294,
+"level": "R4",
+"words": [
+{
+"w": "congress",
+"parts": [
+"con",
+"gress",
+""
+],
+"hint": "함께(con) 걸어 모임 → 의회",
+"rank": 1294,
+"level": "R4",
+"ko": "의회",
+"pos": "noun",
+"pre": "함께·완전히",
+"x": false,
+"lw": "congress",
+"l": false
+},
+{
+"w": "grade",
+"parts": [
+"",
+"grad",
+"e"
+],
+"hint": "걸음·단계 → 학년·등급",
+"rank": 1621,
+"level": "R4",
+"ko": "등급/학년",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "grade",
+"l": false
+},
+{
+"w": "progress",
+"parts": [
+"pro",
+"gress",
+""
+],
+"hint": "앞으로(pro) 걸음 → 진보",
+"rank": 1695,
+"level": "R4",
+"ko": "진전/진행",
+"pos": "noun",
+"pre": "앞으로",
+"x": false,
+"lw": "progress",
+"l": false
+},
+{
+"w": "graduate",
+"parts": [
+"",
+"grad",
+"uate"
+],
+"hint": "단계를 다 밟다 → 졸업하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "aggressive",
+"parts": [
+"ag",
+"gress",
+"ive"
+],
+"hint": "~에게(ad) 걸어 다가가는 → 공격적인",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "mem",
+"key": "mem_mind",
+"origin": "L",
+"meaning": "mind",
+"ko": "마음(ment)",
+"forms": [
+"ment"
+],
+"best": 1357,
+"level": "R4",
+"words": [
+{
+"w": "comment",
+"parts": [
+"com",
+"ment",
+""
+],
+"hint": "마음속 생각을 함께(com) 꺼냄 → 논평",
+"rank": 1357,
+"level": "R4",
+"ko": "댓글/의견",
+"pos": "noun",
+"pre": "함께",
+"x": false,
+"lw": "comment",
+"l": false
+},
+{
+"w": "mental",
+"parts": [
+"",
+"ment",
+"al"
+],
+"hint": "마음의 → 정신의",
+"rank": 1527,
+"level": "R4",
+"ko": "정신의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "mental",
+"l": false
+},
+{
+"w": "mention",
+"parts": [
+"",
+"ment",
+"ion"
+],
+"hint": "마음에 떠올려 말함 → 언급하다",
+"rank": 1869,
+"level": "R4",
+"ko": "언급하다",
+"pos": "verb",
+"pre": "",
+"x": false,
+"lw": "mention",
+"l": false
+},
+{
+"w": "remind",
+"parts": [
+"re",
+"mind",
+""
+],
+"hint": "다시(re) 마음에 → 떠올리게 하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "다시·뒤로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "equ",
+"key": "equ",
+"origin": "L",
+"meaning": "equal",
+"ko": "같은",
+"forms": [
+"equ"
+],
+"best": 1358,
+"level": "R4",
+"words": [
+{
+"w": "equipment",
+"parts": [
+"",
+"equip",
+"ment"
+],
+"hint": "배(skip)에 갖춘 것 → 장비 — 모양만 닮은 다른 뿌리",
+"rank": 1358,
+"level": "R4",
+"ko": "장비",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "equipment",
+"l": true
+},
+{
+"w": "equal",
+"parts": [
+"",
+"equ",
+"al"
+],
+"hint": "같은",
+"rank": 2207,
+"level": "R4",
+"ko": "같은/동등한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "equal",
+"l": false
+},
+{
+"w": "adequate",
+"parts": [
+"ad",
+"equ",
+"ate"
+],
+"hint": "~에(ad) 같게 맞춘 → 적절한",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "~에·향하여",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "prim",
+"key": "prim",
+"origin": "L",
+"meaning": "first",
+"ko": "첫째",
+"forms": [
+"prim",
+"prin"
+],
+"best": 1369,
+"level": "R4",
+"words": [
+{
+"w": "primary",
+"parts": [
+"",
+"prim",
+"ary"
+],
+"hint": "첫째의 → 주요한·초등의",
+"rank": 1369,
+"level": "R4",
+"ko": "주된",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "primary",
+"l": false
+},
+{
+"w": "prime",
+"parts": [
+"",
+"prim",
+"e"
+],
+"hint": "첫째의 → 최고의·총리(prime minister)",
+"rank": 1603,
+"level": "R4",
+"ko": "주요한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "prime",
+"l": false
+},
+{
+"w": "prince",
+"parts": [
+"",
+"prin",
+"ce"
+],
+"hint": "첫째로(prim) 잡은(cap) 자 → 왕자",
+"rank": 1920,
+"level": "R4",
+"ko": "왕자",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "prince",
+"l": false
+},
+{
+"w": "principal",
+"parts": [
+"",
+"prin",
+"cipal"
+],
+"hint": "첫째인 → 주요한·교장",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "principle",
+"parts": [
+"",
+"prin",
+"ciple"
+],
+"hint": "첫째 되는 것 → 원칙",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "lib",
+"key": "lib",
+"origin": "L",
+"meaning": "free; book",
+"ko": "자유·책",
+"forms": [
+"lib"
+],
+"best": 1423,
+"level": "R4",
+"words": [
+{
+"w": "library",
+"parts": [
+"",
+"lib",
+"rary"
+],
+"hint": "책(liber) 두는 곳 → 도서관",
+"rank": 1423,
+"level": "R4",
+"ko": "도서관",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "library",
+"l": false
+},
+{
+"w": "liberal",
+"parts": [
+"",
+"lib",
+"eral"
+],
+"hint": "자유로운(liber) → 자유주의의",
+"rank": 2176,
+"level": "R4",
+"ko": "자유로운/진보적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "liberal",
+"l": false
+},
+{
+"w": "liberty",
+"parts": [
+"",
+"lib",
+"erty"
+],
+"hint": "자유",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "temp",
+"key": "temp",
+"origin": "L",
+"meaning": "time; moderate",
+"ko": "때·알맞게 하다",
+"forms": [
+"temp",
+"tempor"
+],
+"best": 1439,
+"level": "R4",
+"words": [
+{
+"w": "attempt",
+"parts": [
+"at",
+"tempt",
+""
+],
+"hint": "~을(ad) 시험해 보다(temptare) → 시도 — 모양만 닮은 다른 뿌리",
+"rank": 1439,
+"level": "R4",
+"ko": "시도",
+"pos": "noun",
+"pre": "~에·향하여",
+"x": false,
+"lw": "attempt",
+"l": true
+},
+{
+"w": "temperature",
+"parts": [
+"",
+"temper",
+"ature"
+],
+"hint": "알맞게 섞인 정도 → 온도",
+"rank": 2276,
+"level": "R4",
+"ko": "온도/체온",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "temperature",
+"l": false
+},
+{
+"w": "temporary",
+"parts": [
+"",
+"tempor",
+"ary"
+],
+"hint": "한때의 → 임시의",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "spir",
+"key": "spir",
+"origin": "L",
+"meaning": "breathe",
+"ko": "숨 쉬다",
+"forms": [
+"spir"
+],
+"best": 1665,
+"level": "R4",
+"words": [
+{
+"w": "spirit",
+"parts": [
+"",
+"spir",
+"it"
+],
+"hint": "숨 → 정신·영혼",
+"rank": 1665,
+"level": "R4",
+"ko": "정신/영혼",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "spirit",
+"l": false
+},
+{
+"w": "inspired",
+"parts": [
+"in",
+"spir",
+"ed"
+],
+"hint": "안으로(in) 숨을 불어 넣은 → 영감을 받은",
+"rank": 2309,
+"level": "R4",
+"ko": "영감을 받은",
+"pos": "verb",
+"pre": "안으로·아닌",
+"x": false,
+"lw": "inspired",
+"l": false
+},
+{
+"w": "expire",
+"parts": [
+"ex",
+"pir",
+"e"
+],
+"hint": "숨을 밖으로(ex+spir, s 가 빠짐) → 만료되다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "밖으로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "pat",
+"key": "pat",
+"origin": "L",
+"meaning": "suffer, feel",
+"ko": "겪다·느끼다",
+"forms": [
+"pat",
+"pass"
+],
+"best": 1730,
+"level": "R4",
+"words": [
+{
+"w": "patient",
+"parts": [
+"",
+"pat",
+"ient"
+],
+"hint": "겪는 사람 → 환자, 참는 → 참을성 있는",
+"rank": 1730,
+"level": "R4",
+"ko": "환자/참을성 있는",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "patient",
+"l": false
+},
+{
+"w": "passion",
+"parts": [
+"",
+"pass",
+"ion"
+],
+"hint": "겪는 강한 느낌 → 열정",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "compassion",
+"parts": [
+"com",
+"pass",
+"ion"
+],
+"hint": "함께(com) 겪음 → 동정",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "aud",
+"key": "aud",
+"origin": "L",
+"meaning": "hear",
+"ko": "듣다",
+"forms": [
+"aud"
+],
+"best": 1848,
+"level": "R4",
+"words": [
+{
+"w": "audience",
+"parts": [
+"",
+"aud",
+"ience"
+],
+"hint": "듣는 사람들 → 청중",
+"rank": 1848,
+"level": "R4",
+"ko": "관객",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "audience",
+"l": false
+},
+{
+"w": "audio",
+"parts": [
+"",
+"aud",
+"io"
+],
+"hint": "소리",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "audition",
+"parts": [
+"",
+"aud",
+"ition"
+],
+"hint": "들어 보기 → 오디션",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "dem",
+"key": "dem",
+"origin": "G",
+"meaning": "people",
+"ko": "민중",
+"forms": [
+"dem"
+],
+"best": 1853,
+"level": "R4",
+"words": [
+{
+"w": "democratic",
+"parts": [
+"demo",
+"crat",
+"ic"
+],
+"hint": "민중(demo)이 다스리는(crat) → 민주적인",
+"rank": 1853,
+"level": "R4",
+"ko": "민주적인",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "democratic",
+"l": false
+},
+{
+"w": "democracy",
+"parts": [
+"demo",
+"crac",
+"y"
+],
+"hint": "민주주의",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "epidemic",
+"parts": [
+"epi",
+"dem",
+"ic"
+],
+"hint": "민중 위에(epi) 퍼진 → 유행병",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "vinc",
+"key": "vinc",
+"origin": "L",
+"meaning": "conquer",
+"ko": "이기다",
+"forms": [
+"vinc",
+"vict"
+],
+"best": 1886,
+"level": "R4",
+"words": [
+{
+"w": "victory",
+"parts": [
+"",
+"vict",
+"ory"
+],
+"hint": "이김 → 승리",
+"rank": 1886,
+"level": "R4",
+"ko": "승리",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "victory",
+"l": false
+},
+{
+"w": "convince",
+"parts": [
+"con",
+"vinc",
+"e"
+],
+"hint": "완전히(con) 이겨 넘기다 → 설득하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께·완전히",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "path",
+"key": "path",
+"origin": "G",
+"meaning": "feeling, suffering",
+"ko": "느낌·고통",
+"forms": [
+"path"
+],
+"best": 1966,
+"level": "R4",
+"words": [
+{
+"w": "path",
+"parts": [
+"",
+"path",
+""
+],
+"hint": "영어 고유어(길) — 모양만 닮음",
+"rank": 1966,
+"level": "R4",
+"ko": "길",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "path",
+"l": true
+},
+{
+"w": "sympathy",
+"parts": [
+"sym",
+"path",
+"y"
+],
+"hint": "함께(sym) 느낌 → 동정",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "empathy",
+"parts": [
+"em",
+"path",
+"y"
+],
+"hint": "안으로(en) 들어가 느낌 → 공감",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "안으로·되게",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "terr",
+"key": "terr",
+"origin": "L",
+"meaning": "earth",
+"ko": "땅",
+"forms": [
+"terr"
+],
+"best": 1979,
+"level": "R4",
+"words": [
+{
+"w": "terrible",
+"parts": [
+"",
+"terr",
+"ible"
+],
+"hint": "떨게(terrere) 하는 → 끔찍한 — 땅이 아니라 「떨다」 뿌리",
+"rank": 1979,
+"level": "R4",
+"ko": "끔찍한",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "terrible",
+"l": true
+},
+{
+"w": "territory",
+"parts": [
+"",
+"terr",
+"itory"
+],
+"hint": "땅의 범위 → 영토",
+"rank": 2462,
+"level": "R4",
+"ko": "영토",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "territory",
+"l": false
+},
+{
+"w": "terrace",
+"parts": [
+"",
+"terr",
+"ace"
+],
+"hint": "땅을 돋운 곳 → 테라스",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "urb",
+"key": "urb",
+"origin": "L",
+"meaning": "city",
+"ko": "도시",
+"forms": [
+"urb"
+],
+"best": 2232,
+"level": "R4",
+"words": [
+{
+"w": "urban",
+"parts": [
+"",
+"urb",
+"an"
+],
+"hint": "도시의",
+"rank": 2232,
+"level": "R4",
+"ko": "도시의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "urban",
+"l": false
+},
+{
+"w": "suburb",
+"parts": [
+"sub",
+"urb",
+""
+],
+"hint": "도시 아래·곁(sub) → 교외",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "아래",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "corp",
+"key": "corp",
+"origin": "L",
+"meaning": "body",
+"ko": "몸",
+"forms": [
+"corp"
+],
+"best": 2244,
+"level": "R4",
+"words": [
+{
+"w": "corporate",
+"parts": [
+"",
+"corp",
+"orate"
+],
+"hint": "한 몸이 된 → 기업의",
+"rank": 2244,
+"level": "R4",
+"ko": "기업의",
+"pos": "adj",
+"pre": "",
+"x": false,
+"lw": "corporate",
+"l": false
+},
+{
+"w": "corporation",
+"parts": [
+"",
+"corp",
+"oration"
+],
+"hint": "한 몸으로 묶인 것 → 법인·기업",
+"rank": 2481,
+"level": "R4",
+"ko": "기업",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "corporation",
+"l": false
+},
+{
+"w": "corps",
+"parts": [
+"",
+"corp",
+"s"
+],
+"hint": "한 몸 → 군단·단(團)",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "trib",
+"key": "trib",
+"origin": "L",
+"meaning": "give, assign",
+"ko": "주다·나누다",
+"forms": [
+"trib"
+],
+"best": 2247,
+"level": "R4",
+"words": [
+{
+"w": "distribution",
+"parts": [
+"dis",
+"trib",
+"ution"
+],
+"hint": "따로따로(dis) 줌 → 분배·유통",
+"rank": 2247,
+"level": "R4",
+"ko": "분배/유통",
+"pos": "noun",
+"pre": "떨어져·반대",
+"x": false,
+"lw": "distribution",
+"l": false
+},
+{
+"w": "contribute",
+"parts": [
+"con",
+"trib",
+"ute"
+],
+"hint": "함께(con) 주다 → 기여하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "함께·완전히",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "tribute",
+"parts": [
+"",
+"trib",
+"ute"
+],
+"hint": "바치는 것 → 공물·찬사",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "cycl",
+"key": "cycl",
+"origin": "G",
+"meaning": "circle",
+"ko": "원",
+"forms": [
+"cycl"
+],
+"best": 2434,
+"level": "R4",
+"words": [
+{
+"w": "cycle",
+"parts": [
+"",
+"cycl",
+"e"
+],
+"hint": "원 → 주기·자전거",
+"rank": 2434,
+"level": "R4",
+"ko": "순환/자전거",
+"pos": "noun",
+"pre": "",
+"x": false,
+"lw": "cycle",
+"l": false
+},
+{
+"w": "bicycle",
+"parts": [
+"bi",
+"cycl",
+"e"
+],
+"hint": "두(bi) 바퀴 → 자전거",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "둘",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "recycle",
+"parts": [
+"re",
+"cycl",
+"e"
+],
+"hint": "다시(re) 돌리다 → 재활용하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "다시·뒤로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "ped",
+"key": "ped",
+"origin": "L",
+"meaning": "foot",
+"ko": "발",
+"forms": [
+"ped"
+],
+"best": 99999,
+"level": "X",
+"words": [
+{
+"w": "pedestrian",
+"parts": [
+"",
+"ped",
+"estrian"
+],
+"hint": "발로 가는 사람 → 보행자",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "pedal",
+"parts": [
+"",
+"ped",
+"al"
+],
+"hint": "발로 밟는 것 → 페달",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "expedition",
+"parts": [
+"ex",
+"ped",
+"ition"
+],
+"hint": "발을 밖으로(ex) 빼내 떠남 → 원정",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "밖으로",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "aqua",
+"key": "aqua",
+"origin": "L",
+"meaning": "water",
+"ko": "물",
+"forms": [
+"aqu"
+],
+"best": 99999,
+"level": "X",
+"words": [
+{
+"w": "aquarium",
+"parts": [
+"",
+"aqu",
+"arium"
+],
+"hint": "물 담는 곳 → 수족관",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "bio",
+"key": "bio",
+"origin": "G",
+"meaning": "life",
+"ko": "생명",
+"forms": [
+"bio"
+],
+"best": 99999,
+"level": "X",
+"words": [
+{
+"w": "biology",
+"parts": [
+"",
+"bio",
+"logy"
+],
+"hint": "생명의 학문 → 생물학",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "biography",
+"parts": [
+"",
+"bio",
+"graphy"
+],
+"hint": "삶을 쓴 것 → 전기",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "auto",
+"key": "auto",
+"origin": "G",
+"meaning": "self",
+"ko": "스스로",
+"forms": [
+"auto"
+],
+"best": 99999,
+"level": "X",
+"words": [
+{
+"w": "automatic",
+"parts": [
+"",
+"auto",
+"matic"
+],
+"hint": "스스로 움직이는 → 자동의",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "autograph",
+"parts": [
+"",
+"auto",
+"graph"
+],
+"hint": "스스로 쓴 것 → 서명",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "chron",
+"key": "chron",
+"origin": "G",
+"meaning": "time",
+"ko": "시간",
+"forms": [
+"chron"
+],
+"best": 99999,
+"level": "X",
+"words": [
+{
+"w": "chronic",
+"parts": [
+"",
+"chron",
+"ic"
+],
+"hint": "오랜 시간의 → 만성의",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "synchronize",
+"parts": [
+"syn",
+"chron",
+"ize"
+],
+"hint": "같은(syn) 시간에 맞추다 → 동기화하다",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "geo",
+"key": "geo",
+"origin": "G",
+"meaning": "earth",
+"ko": "땅",
+"forms": [
+"geo"
+],
+"best": 99999,
+"level": "X",
+"words": [
+{
+"w": "geography",
+"parts": [
+"",
+"geo",
+"graphy"
+],
+"hint": "땅을 그림 → 지리",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "geology",
+"parts": [
+"",
+"geo",
+"logy"
+],
+"hint": "땅의 학문 → 지질학",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "micro",
+"key": "micro",
+"origin": "G",
+"meaning": "small",
+"ko": "작은",
+"forms": [
+"micro"
+],
+"best": 99999,
+"level": "X",
+"words": [
+{
+"w": "microwave",
+"parts": [
+"",
+"micro",
+"wave"
+],
+"hint": "작은 파동 → 전자레인지",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+},
+{
+"w": "microscope",
+"parts": [
+"",
+"micro",
+"scope"
+],
+"hint": "작은 것을 보는(scope) → 현미경",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "psych",
+"key": "psych",
+"origin": "G",
+"meaning": "mind",
+"ko": "정신",
+"forms": [
+"psych"
+],
+"best": 99999,
+"level": "X",
+"words": [
+{
+"w": "psychology",
+"parts": [
+"",
+"psych",
+"ology"
+],
+"hint": "정신의 학문 → 심리학",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+},
+{
+"root": "hydr",
+"key": "hydr",
+"origin": "G",
+"meaning": "water",
+"ko": "물",
+"forms": [
+"hydr"
+],
+"best": 99999,
+"level": "X",
+"words": [
+{
+"w": "hydrogen",
+"parts": [
+"",
+"hydr",
+"ogen"
+],
+"hint": "물을 낳는(gen) → 수소",
+"rank": 0,
+"level": "",
+"ko": "",
+"pos": "",
+"pre": "",
+"x": true,
+"lw": "",
+"l": false
+}
+]
+}
+]
+}
