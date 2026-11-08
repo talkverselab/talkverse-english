@@ -17,7 +17,7 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
   - 빌드: `bash tools/apk_build.sh toeic` / `APP=toeic bash tools/ios_release.sh` / `tools/zealot_push.sh --app toeic --ci`. CI `release.yml` 은 행렬(english → `latest`, toeic → `latest-toeic`). **toeic_speaking·opic 은 뼈대만**(토익 홈을 같이 씀) — CI 행렬·Zealot 은 내용이 생기면 추가.
   - 앱 사이 이동 `lib/widgets/app_family.dart`(URL 스킴 `talkverse-<앱>://open`, 없으면 apps.talkverse.uk 안내). 프로필 「앱 가족」·토익 홈 「앱 가족」 탭.
   - **사용자가 해야 하는 것(앱마다)**: App Store Connect 앱 레코드(번들 ID 위)·TestFlight 그룹, Zealot 은 첫 업로드 때 자동 생성, 앱 아이콘은 uk 세션(`AppIcon-<id>.appiconset` 이 생기면 select_app 이 자동으로 씀, 그 전엔 영어 아이콘).
-- **토익 단어 익히기**(`lib/toeic/`): 1,317어(명사 386·동사 230·형용사 154·부사 53·관용표현 105·기본 빈도어 389) = 20어 단원 66개, 절벽 단어 화면 부품(`UnitBlock`·`WordTile`·`WordSheet`) 재사용, 뜻 고르기 퀴즈(4지선다, 틀린 낱말 → 복습). 데이터 `assets/data/toeic/toeic_words.json` ← `tools/toeic_words.py`(표제어 `data/toeic/headwords.txt` + 자체 뜻 `tools/toeic_gloss.py`; 절벽 단어장에 있는 388어는 그 뜻). **사용자 결정(가): 책에서는 표제어 목록만 참고, 뜻·예문은 자체 작성 → 번들에 넣음.** 책 이름은 어디에도 없음. 전자책 세션의 구조화 JSON(VOCA 1: 명사 441·관용 120·부사 82)과 대조해 표제어 3개·관용표현 보강(VOCA 2 구조화는 대기).
+- **토익 단어 익히기**(`lib/toeic/`): 1,330어(명사 386·동사 230·형용사 154·부사 53·관용표현 105·기본 빈도어 389) = 20어 단원 66개, 절벽 단어 화면 부품(`UnitBlock`·`WordTile`·`WordSheet`) 재사용, 뜻 고르기 퀴즈(4지선다, 틀린 낱말 → 복습). 데이터 `assets/data/toeic/toeic_words.json` ← `tools/toeic_words.py`(표제어 `data/toeic/headwords.txt` + 자체 뜻 `tools/toeic_gloss.py`; 절벽 단어장에 있는 388어는 그 뜻). **사용자 결정(가): 책에서는 표제어 목록만 참고, 뜻·예문은 자체 작성 → 번들에 넣음.** 책 이름은 어디에도 없음. 전자책 세션의 구조화 JSON(VOCA 1: 명사 441·관용 120·부사 82)과 대조해 표제어 3개·관용표현 보강(VOCA 2 구조화 판과도 대조해 형용사·동사·구동사 보강 — 두 권 합계 표제어 1,207개를 모두 포함).
 - 미착수: RC·LC(전자책 세션 판독 대기), 토익스피킹·OPIc 내용, 예문(자체 작성 예정), 발음기호.
 
 ## 만든 것

@@ -5249,13 +5249,22 @@
 "n": 583
 },
 {
+"w": "resume",
+"pos": "v.",
+"ko": "재개하다 / n 이력서(résumé)",
+"grp": "V",
+"rank": 0,
+"level": "",
+"n": 584
+},
+{
 "w": "retain",
 "pos": "v.",
 "ko": "유지하다, 보유하다",
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 584
+"n": 585
 },
 {
 "w": "retire",
@@ -5264,7 +5273,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 585
+"n": 586
 },
 {
 "w": "reveal",
@@ -5273,7 +5282,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 586
+"n": 587
 },
 {
 "w": "revise",
@@ -5282,7 +5291,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 587
+"n": 588
 },
 {
 "w": "rush",
@@ -5291,7 +5300,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 588
+"n": 589
 },
 {
 "w": "satisfy",
@@ -5300,7 +5309,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 589
+"n": 590
 },
 {
 "w": "seal",
@@ -5309,7 +5318,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 590
+"n": 591
 },
 {
 "w": "select",
@@ -5318,7 +5327,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 591
+"n": 592
 },
 {
 "w": "soak",
@@ -5327,7 +5336,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 592
+"n": 593
 },
 {
 "w": "solicit",
@@ -5336,7 +5345,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 593
+"n": 594
 },
 {
 "w": "specialize",
@@ -5345,7 +5354,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 594
+"n": 595
 },
 {
 "w": "specify",
@@ -5354,7 +5363,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 595
+"n": 596
 },
 {
 "w": "stimulate",
@@ -5363,7 +5372,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 596
+"n": 597
 },
 {
 "w": "stipulate",
@@ -5372,7 +5381,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 597
+"n": 598
 },
 {
 "w": "streamline",
@@ -5381,7 +5390,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 598
+"n": 599
 },
 {
 "w": "strive",
@@ -5390,7 +5399,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 599
+"n": 600
 },
 {
 "w": "submit",
@@ -5399,7 +5408,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 600
+"n": 601
 },
 {
 "w": "subtract",
@@ -5408,7 +5417,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 601
+"n": 602
 },
 {
 "w": "succeed",
@@ -5417,7 +5426,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 602
+"n": 603
 },
 {
 "w": "surpass",
@@ -5426,7 +5435,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 603
+"n": 604
 },
 {
 "w": "suspend",
@@ -5435,7 +5444,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 604
+"n": 605
 },
 {
 "w": "sustain",
@@ -5444,7 +5453,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 605
+"n": 606
 },
 {
 "w": "tear",
@@ -5453,7 +5462,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 606
+"n": 607
 },
 {
 "w": "tend",
@@ -5462,7 +5471,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 607
+"n": 608
 },
 {
 "w": "terminate",
@@ -5471,7 +5480,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 608
+"n": 609
 },
 {
 "w": "undergo",
@@ -5480,7 +5489,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 609
+"n": 610
 },
 {
 "w": "undertake",
@@ -5489,7 +5498,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 610
+"n": 611
 },
 {
 "w": "urge",
@@ -5498,7 +5507,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 611
+"n": 612
 },
 {
 "w": "verify",
@@ -5507,7 +5516,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 612
+"n": 613
 },
 {
 "w": "waive",
@@ -5516,7 +5525,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 613
+"n": 614
 },
 {
 "w": "withdraw",
@@ -5525,7 +5534,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 614
+"n": 615
 },
 {
 "w": "withstand",
@@ -5534,7 +5543,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 615
+"n": 616
 },
 {
 "w": "yield",
@@ -5543,7 +5552,7 @@
 "grp": "V",
 "rank": 0,
 "level": "",
-"n": 616
+"n": 617
 },
 {
 "w": "absent",
@@ -5552,7 +5561,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 617
+"n": 618
 },
 {
 "w": "accessible",
@@ -5561,7 +5570,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 618
+"n": 619
 },
 {
 "w": "accustomed",
@@ -5570,7 +5579,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 619
+"n": 620
 },
 {
 "w": "adjacent",
@@ -5579,7 +5588,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 620
+"n": 621
 },
 {
 "w": "administrative",
@@ -5588,7 +5597,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 621
+"n": 622
 },
 {
 "w": "adverse",
@@ -5597,7 +5606,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 622
+"n": 623
 },
 {
 "w": "advisable",
@@ -5606,7 +5615,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 623
+"n": 624
 },
 {
 "w": "affordable",
@@ -5615,7 +5624,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 624
+"n": 625
 },
 {
 "w": "alternate",
@@ -5624,7 +5633,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 625
+"n": 626
 },
 {
 "w": "anonymous",
@@ -5633,7 +5642,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 626
+"n": 627
 },
 {
 "w": "apparent",
@@ -5642,7 +5651,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 627
+"n": 628
 },
 {
 "w": "apprehensive",
@@ -5651,7 +5660,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 628
+"n": 629
 },
 {
 "w": "authentic",
@@ -5660,7 +5669,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 629
+"n": 630
 },
 {
 "w": "automatic",
@@ -5669,7 +5678,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 630
+"n": 631
 },
 {
 "w": "bankrupt",
@@ -5678,7 +5687,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 631
+"n": 632
 },
 {
 "w": "brand-new",
@@ -5687,7 +5696,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 632
+"n": 633
 },
 {
 "w": "brief",
@@ -5696,7 +5705,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 633
+"n": 634
 },
 {
 "w": "broad",
@@ -5705,7 +5714,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 634
+"n": 635
 },
 {
 "w": "cautious",
@@ -5714,7 +5723,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 635
+"n": 636
 },
 {
 "w": "clerical",
@@ -5723,7 +5732,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 636
+"n": 637
 },
 {
 "w": "commensurate",
@@ -5732,7 +5741,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 637
+"n": 638
 },
 {
 "w": "compact",
@@ -5741,7 +5750,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 638
+"n": 639
 },
 {
 "w": "comparable",
@@ -5750,7 +5759,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 639
+"n": 640
 },
 {
 "w": "compatible",
@@ -5759,7 +5768,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 640
+"n": 641
 },
 {
 "w": "competitive",
@@ -5768,7 +5777,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 641
+"n": 642
 },
 {
 "w": "complimentary",
@@ -5777,7 +5786,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 642
+"n": 643
 },
 {
 "w": "comprehensive",
@@ -5786,7 +5795,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 643
+"n": 644
 },
 {
 "w": "confident",
@@ -5795,7 +5804,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 644
+"n": 645
 },
 {
 "w": "confidential",
@@ -5804,7 +5813,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 645
+"n": 646
 },
 {
 "w": "consecutive",
@@ -5813,7 +5822,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 646
+"n": 647
 },
 {
 "w": "contingent",
@@ -5822,7 +5831,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 647
+"n": 648
 },
 {
 "w": "convenient",
@@ -5831,7 +5840,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 648
+"n": 649
 },
 {
 "w": "corresponding",
@@ -5840,7 +5849,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 649
+"n": 650
 },
 {
 "w": "cozy",
@@ -5849,7 +5858,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 650
+"n": 651
 },
 {
 "w": "culinary",
@@ -5858,7 +5867,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 651
+"n": 652
 },
 {
 "w": "daunting",
@@ -5867,7 +5876,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 652
+"n": 653
 },
 {
 "w": "dedicated",
@@ -5876,7 +5885,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 653
+"n": 654
 },
 {
 "w": "defective",
@@ -5885,7 +5894,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 654
+"n": 655
 },
 {
 "w": "definite",
@@ -5894,7 +5903,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 655
+"n": 656
 },
 {
 "w": "deliberate",
@@ -5903,7 +5912,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 656
+"n": 657
 },
 {
 "w": "delicate",
@@ -5912,7 +5921,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 657
+"n": 658
 },
 {
 "w": "demographic",
@@ -5921,7 +5930,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 658
+"n": 659
 },
 {
 "w": "desirable",
@@ -5930,7 +5939,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 659
+"n": 660
 },
 {
 "w": "diligent",
@@ -5939,7 +5948,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 660
+"n": 661
 },
 {
 "w": "distinguished",
@@ -5948,7 +5957,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 661
+"n": 662
 },
 {
 "w": "diversified",
@@ -5957,7 +5966,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 662
+"n": 663
 },
 {
 "w": "durable",
@@ -5966,7 +5975,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 663
+"n": 664
 },
 {
 "w": "ecological",
@@ -5975,7 +5984,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 664
+"n": 665
 },
 {
 "w": "elaborate",
@@ -5984,7 +5993,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 665
+"n": 666
 },
 {
 "w": "electronic",
@@ -5993,7 +6002,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 666
+"n": 667
 },
 {
 "w": "elementary",
@@ -6002,7 +6011,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 667
+"n": 668
 },
 {
 "w": "eligible",
@@ -6011,7 +6020,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 668
+"n": 669
 },
 {
 "w": "emphatic",
@@ -6020,7 +6029,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 669
+"n": 670
 },
 {
 "w": "encouraging",
@@ -6029,7 +6038,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 670
+"n": 671
 },
 {
 "w": "enthusiastic",
@@ -6038,7 +6047,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 671
+"n": 672
 },
 {
 "w": "entitled",
@@ -6047,7 +6056,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 672
+"n": 673
 },
 {
 "w": "exemplary",
@@ -6056,7 +6065,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 673
+"n": 674
 },
 {
 "w": "exempt",
@@ -6065,7 +6074,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 674
+"n": 675
 },
 {
 "w": "extensive",
@@ -6074,7 +6083,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 675
+"n": 676
 },
 {
 "w": "favorable",
@@ -6083,7 +6092,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 676
+"n": 677
 },
 {
 "w": "feasible",
@@ -6092,7 +6101,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 677
+"n": 678
 },
 {
 "w": "fiscal",
@@ -6101,7 +6110,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 678
+"n": 679
 },
 {
 "w": "flexible",
@@ -6110,7 +6119,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 679
+"n": 680
 },
 {
 "w": "formal",
@@ -6119,7 +6128,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 680
+"n": 681
 },
 {
 "w": "fragile",
@@ -6128,7 +6137,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 681
+"n": 682
 },
 {
 "w": "genuine",
@@ -6137,7 +6146,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 682
+"n": 683
 },
 {
 "w": "hands-on",
@@ -6146,7 +6155,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 683
+"n": 684
 },
 {
 "w": "ideal",
@@ -6155,7 +6164,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 684
+"n": 685
 },
 {
 "w": "identical",
@@ -6164,7 +6173,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 685
+"n": 686
 },
 {
 "w": "illegible",
@@ -6173,7 +6182,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 686
+"n": 687
 },
 {
 "w": "immediate",
@@ -6182,7 +6191,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 687
+"n": 688
 },
 {
 "w": "immense",
@@ -6191,7 +6200,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 688
+"n": 689
 },
 {
 "w": "impressive",
@@ -6200,7 +6209,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 689
+"n": 690
 },
 {
 "w": "inappropriate",
@@ -6209,7 +6218,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 690
+"n": 691
 },
 {
 "w": "incidental",
@@ -6218,7 +6227,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 691
+"n": 692
 },
 {
 "w": "inclement",
@@ -6227,7 +6236,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 692
+"n": 693
 },
 {
 "w": "informative",
@@ -6236,7 +6245,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 693
+"n": 694
 },
 {
 "w": "innovative",
@@ -6245,7 +6254,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 694
+"n": 695
 },
 {
 "w": "insufficient",
@@ -6254,7 +6263,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 695
+"n": 696
 },
 {
 "w": "intensive",
@@ -6263,7 +6272,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 696
+"n": 697
 },
 {
 "w": "invaluable",
@@ -6272,7 +6281,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 697
+"n": 698
 },
 {
 "w": "invigorated",
@@ -6281,7 +6290,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 698
+"n": 699
 },
 {
 "w": "irrelevant",
@@ -6290,7 +6299,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 699
+"n": 700
 },
 {
 "w": "large-scale",
@@ -6299,7 +6308,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 700
+"n": 701
 },
 {
 "w": "last-minute",
@@ -6308,7 +6317,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 701
+"n": 702
 },
 {
 "w": "legible",
@@ -6317,7 +6326,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 702
+"n": 703
 },
 {
 "w": "lenient",
@@ -6326,7 +6335,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 703
+"n": 704
 },
 {
 "w": "long-standing",
@@ -6335,7 +6344,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 704
+"n": 705
 },
 {
 "w": "long-time",
@@ -6344,7 +6353,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 705
+"n": 706
 },
 {
 "w": "loyal",
@@ -6353,7 +6362,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 706
+"n": 707
 },
 {
 "w": "lucrative",
@@ -6362,7 +6371,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 707
+"n": 708
 },
 {
 "w": "mandatory",
@@ -6371,7 +6380,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 708
+"n": 709
 },
 {
 "w": "marine",
@@ -6380,7 +6389,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 709
+"n": 710
 },
 {
 "w": "meticulous",
@@ -6389,7 +6398,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 710
+"n": 711
 },
 {
 "w": "motivated",
@@ -6398,7 +6407,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 711
+"n": 712
 },
 {
 "w": "municipal",
@@ -6407,7 +6416,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 712
+"n": 713
 },
 {
 "w": "narrow",
@@ -6416,7 +6425,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 713
+"n": 714
 },
 {
 "w": "nearby",
@@ -6425,7 +6434,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 714
+"n": 715
 },
 {
 "w": "nonprofit",
@@ -6434,7 +6443,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 715
+"n": 716
 },
 {
 "w": "one-time",
@@ -6443,7 +6452,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 716
+"n": 717
 },
 {
 "w": "one-way",
@@ -6452,7 +6461,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 717
+"n": 718
 },
 {
 "w": "ongoing",
@@ -6461,7 +6470,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 718
+"n": 719
 },
 {
 "w": "operational",
@@ -6470,7 +6479,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 719
+"n": 720
 },
 {
 "w": "opposing",
@@ -6479,7 +6488,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 720
+"n": 721
 },
 {
 "w": "optimal",
@@ -6488,7 +6497,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 721
+"n": 722
 },
 {
 "w": "outgoing",
@@ -6497,7 +6506,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 722
+"n": 723
 },
 {
 "w": "outstanding",
@@ -6506,7 +6515,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 723
+"n": 724
 },
 {
 "w": "overdue",
@@ -6515,7 +6524,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 724
+"n": 725
 },
 {
 "w": "overwhelming",
@@ -6524,7 +6533,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 725
+"n": 726
 },
 {
 "w": "permanent",
@@ -6533,7 +6542,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 726
+"n": 727
 },
 {
 "w": "persuasive",
@@ -6542,7 +6551,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 727
+"n": 728
 },
 {
 "w": "picturesque",
@@ -6551,7 +6560,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 728
+"n": 729
 },
 {
 "w": "plausible",
@@ -6560,7 +6569,16 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 729
+"n": 730
+},
+{
+"w": "preliminary",
+"pos": "adj.",
+"ko": "예비의, 준비의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 731
 },
 {
 "w": "profitable",
@@ -6569,7 +6587,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 730
+"n": 732
 },
 {
 "w": "prominent",
@@ -6578,7 +6596,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 731
+"n": 733
 },
 {
 "w": "promising",
@@ -6587,7 +6605,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 732
+"n": 734
 },
 {
 "w": "prospective",
@@ -6596,7 +6614,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 733
+"n": 735
 },
 {
 "w": "prosperous",
@@ -6605,7 +6623,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 734
+"n": 736
 },
 {
 "w": "protective",
@@ -6614,7 +6632,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 735
+"n": 737
 },
 {
 "w": "punctual",
@@ -6623,7 +6641,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 736
+"n": 738
 },
 {
 "w": "qualified",
@@ -6632,7 +6650,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 737
+"n": 739
 },
 {
 "w": "reasonable",
@@ -6641,7 +6659,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 738
+"n": 740
 },
 {
 "w": "reliable",
@@ -6650,7 +6668,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 739
+"n": 741
 },
 {
 "w": "remarkable",
@@ -6659,7 +6677,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 740
+"n": 742
 },
 {
 "w": "renowned",
@@ -6668,7 +6686,16 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 741
+"n": 743
+},
+{
+"w": "respective",
+"pos": "adj.",
+"ko": "각각의",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 744
 },
 {
 "w": "rewarding",
@@ -6677,7 +6704,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 742
+"n": 745
 },
 {
 "w": "rigid",
@@ -6686,7 +6713,25 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 743
+"n": 746
+},
+{
+"w": "rigorous",
+"pos": "adj.",
+"ko": "엄격한, 철저한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 747
+},
+{
+"w": "robust",
+"pos": "adj.",
+"ko": "튼튼한, 탄탄한",
+"grp": "ADJ",
+"rank": 0,
+"level": "",
+"n": 748
 },
 {
 "w": "screened",
@@ -6695,7 +6740,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 744
+"n": 749
 },
 {
 "w": "sincere",
@@ -6704,7 +6749,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 745
+"n": 750
 },
 {
 "w": "skilled",
@@ -6713,7 +6758,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 746
+"n": 751
 },
 {
 "w": "solar",
@@ -6722,7 +6767,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 747
+"n": 752
 },
 {
 "w": "spacious",
@@ -6731,7 +6776,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 748
+"n": 753
 },
 {
 "w": "state-of-the-art",
@@ -6740,7 +6785,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 749
+"n": 754
 },
 {
 "w": "stationary",
@@ -6749,7 +6794,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 750
+"n": 755
 },
 {
 "w": "steady",
@@ -6758,7 +6803,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 751
+"n": 756
 },
 {
 "w": "strict",
@@ -6767,7 +6812,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 752
+"n": 757
 },
 {
 "w": "subsequent",
@@ -6776,7 +6821,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 753
+"n": 758
 },
 {
 "w": "sufficient",
@@ -6785,7 +6830,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 754
+"n": 759
 },
 {
 "w": "superior",
@@ -6794,7 +6839,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 755
+"n": 760
 },
 {
 "w": "surrounding",
@@ -6803,7 +6848,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 756
+"n": 761
 },
 {
 "w": "talented",
@@ -6812,7 +6857,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 757
+"n": 762
 },
 {
 "w": "tentative",
@@ -6821,7 +6866,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 758
+"n": 763
 },
 {
 "w": "timely",
@@ -6830,7 +6875,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 759
+"n": 764
 },
 {
 "w": "tremendous",
@@ -6839,7 +6884,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 760
+"n": 765
 },
 {
 "w": "unanimous",
@@ -6848,7 +6893,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 761
+"n": 766
 },
 {
 "w": "unforeseen",
@@ -6857,7 +6902,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 762
+"n": 767
 },
 {
 "w": "unprecedented",
@@ -6866,7 +6911,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 763
+"n": 768
 },
 {
 "w": "urgent",
@@ -6875,7 +6920,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 764
+"n": 769
 },
 {
 "w": "vacant",
@@ -6884,7 +6929,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 765
+"n": 770
 },
 {
 "w": "valid",
@@ -6893,7 +6938,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 766
+"n": 771
 },
 {
 "w": "valued",
@@ -6902,7 +6947,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 767
+"n": 772
 },
 {
 "w": "versatile",
@@ -6911,7 +6956,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 768
+"n": 773
 },
 {
 "w": "vulnerable",
@@ -6920,7 +6965,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 769
+"n": 774
 },
 {
 "w": "year-end",
@@ -6929,7 +6974,7 @@
 "grp": "ADJ",
 "rank": 0,
 "level": "",
-"n": 770
+"n": 775
 },
 {
 "w": "accidentally",
@@ -6938,7 +6983,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 771
+"n": 776
 },
 {
 "w": "accurately",
@@ -6947,7 +6992,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 772
+"n": 777
 },
 {
 "w": "adversely",
@@ -6956,7 +7001,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 773
+"n": 778
 },
 {
 "w": "beforehand",
@@ -6965,7 +7010,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 774
+"n": 779
 },
 {
 "w": "closely",
@@ -6974,7 +7019,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 775
+"n": 780
 },
 {
 "w": "considerably",
@@ -6983,7 +7028,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 776
+"n": 781
 },
 {
 "w": "consistently",
@@ -6992,7 +7037,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 777
+"n": 782
 },
 {
 "w": "conveniently",
@@ -7001,7 +7046,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 778
+"n": 783
 },
 {
 "w": "cordially",
@@ -7010,7 +7055,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 779
+"n": 784
 },
 {
 "w": "densely",
@@ -7019,7 +7064,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 780
+"n": 785
 },
 {
 "w": "dramatically",
@@ -7028,7 +7073,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 781
+"n": 786
 },
 {
 "w": "exceptionally",
@@ -7037,7 +7082,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 782
+"n": 787
 },
 {
 "w": "exclusively",
@@ -7046,7 +7091,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 783
+"n": 788
 },
 {
 "w": "frequently",
@@ -7055,7 +7100,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 784
+"n": 789
 },
 {
 "w": "gradually",
@@ -7064,7 +7109,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 785
+"n": 790
 },
 {
 "w": "happily",
@@ -7073,7 +7118,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 786
+"n": 791
 },
 {
 "w": "heavily",
@@ -7082,7 +7127,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 787
+"n": 792
 },
 {
 "w": "increasingly",
@@ -7091,7 +7136,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 788
+"n": 793
 },
 {
 "w": "indefinitely",
@@ -7100,7 +7145,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 789
+"n": 794
 },
 {
 "w": "individually",
@@ -7109,7 +7154,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 790
+"n": 795
 },
 {
 "w": "inevitably",
@@ -7118,7 +7163,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 791
+"n": 796
 },
 {
 "w": "inherently",
@@ -7127,7 +7172,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 792
+"n": 797
 },
 {
 "w": "initially",
@@ -7136,7 +7181,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 793
+"n": 798
 },
 {
 "w": "markedly",
@@ -7145,7 +7190,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 794
+"n": 799
 },
 {
 "w": "meticulously",
@@ -7154,7 +7199,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 795
+"n": 800
 },
 {
 "w": "moderately",
@@ -7163,7 +7208,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 796
+"n": 801
 },
 {
 "w": "mutually",
@@ -7172,7 +7217,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 797
+"n": 802
 },
 {
 "w": "necessarily",
@@ -7181,7 +7226,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 798
+"n": 803
 },
 {
 "w": "occasionally",
@@ -7190,7 +7235,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 799
+"n": 804
 },
 {
 "w": "overnight",
@@ -7199,7 +7244,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 800
+"n": 805
 },
 {
 "w": "overseas",
@@ -7208,7 +7253,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 801
+"n": 806
 },
 {
 "w": "primarily",
@@ -7217,7 +7262,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 802
+"n": 807
 },
 {
 "w": "promptly",
@@ -7226,7 +7271,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 803
+"n": 808
 },
 {
 "w": "provisionally",
@@ -7235,7 +7280,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 804
+"n": 809
 },
 {
 "w": "randomly",
@@ -7244,7 +7289,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 805
+"n": 810
 },
 {
 "w": "rarely",
@@ -7253,7 +7298,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 806
+"n": 811
 },
 {
 "w": "readily",
@@ -7262,7 +7307,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 807
+"n": 812
 },
 {
 "w": "respectively",
@@ -7271,7 +7316,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 808
+"n": 813
 },
 {
 "w": "securely",
@@ -7280,7 +7325,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 809
+"n": 814
 },
 {
 "w": "seemingly",
@@ -7289,7 +7334,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 810
+"n": 815
 },
 {
 "w": "separately",
@@ -7298,7 +7343,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 811
+"n": 816
 },
 {
 "w": "severely",
@@ -7307,7 +7352,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 812
+"n": 817
 },
 {
 "w": "shortly",
@@ -7316,7 +7361,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 813
+"n": 818
 },
 {
 "w": "significantly",
@@ -7325,7 +7370,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 814
+"n": 819
 },
 {
 "w": "solely",
@@ -7334,7 +7379,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 815
+"n": 820
 },
 {
 "w": "somewhat",
@@ -7343,7 +7388,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 816
+"n": 821
 },
 {
 "w": "temporarily",
@@ -7352,7 +7397,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 817
+"n": 822
 },
 {
 "w": "thoroughly",
@@ -7361,7 +7406,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 818
+"n": 823
 },
 {
 "w": "ultimately",
@@ -7370,7 +7415,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 819
+"n": 824
 },
 {
 "w": "unbearably",
@@ -7379,7 +7424,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 820
+"n": 825
 },
 {
 "w": "unusually",
@@ -7388,7 +7433,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 821
+"n": 826
 },
 {
 "w": "urgently",
@@ -7397,7 +7442,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 822
+"n": 827
 },
 {
 "w": "widely",
@@ -7406,7 +7451,7 @@
 "grp": "ADV",
 "rank": 0,
 "level": "",
-"n": 823
+"n": 828
 },
 {
 "w": "a large proportion of",
@@ -7415,7 +7460,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 824
+"n": 829
 },
 {
 "w": "a series of",
@@ -7424,7 +7469,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 825
+"n": 830
 },
 {
 "w": "a wide range of",
@@ -7433,7 +7478,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 826
+"n": 831
 },
 {
 "w": "ahead of schedule",
@@ -7442,7 +7487,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 827
+"n": 832
 },
 {
 "w": "keep track of",
@@ -7451,7 +7496,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 828
+"n": 833
 },
 {
 "w": "make use of",
@@ -7460,7 +7505,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 829
+"n": 834
 },
 {
 "w": "take advantage of",
@@ -7469,7 +7514,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 830
+"n": 835
 },
 {
 "w": "access to",
@@ -7478,7 +7523,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 831
+"n": 836
 },
 {
 "w": "according to",
@@ -7487,7 +7532,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 832
+"n": 837
 },
 {
 "w": "be subject to",
@@ -7496,7 +7541,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 833
+"n": 838
 },
 {
 "w": "compared to",
@@ -7505,7 +7550,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 834
+"n": 839
 },
 {
 "w": "look forward to",
@@ -7514,7 +7559,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 835
+"n": 840
 },
 {
 "w": "to some extent",
@@ -7523,7 +7568,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 836
+"n": 841
 },
 {
 "w": "along with",
@@ -7532,7 +7577,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 837
+"n": 842
 },
 {
 "w": "be faced with",
@@ -7541,7 +7586,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 838
+"n": 843
 },
 {
 "w": "come up with",
@@ -7550,7 +7595,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 839
+"n": 844
 },
 {
 "w": "do business with",
@@ -7559,7 +7604,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 840
+"n": 845
 },
 {
 "w": "with courtesy",
@@ -7568,7 +7613,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 841
+"n": 846
 },
 {
 "w": "with the exception of",
@@ -7577,7 +7622,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 842
+"n": 847
 },
 {
 "w": "with regard to",
@@ -7586,7 +7631,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 843
+"n": 848
 },
 {
 "w": "as a result of",
@@ -7595,7 +7640,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 844
+"n": 849
 },
 {
 "w": "as follows",
@@ -7604,7 +7649,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 845
+"n": 850
 },
 {
 "w": "as for",
@@ -7613,7 +7658,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 846
+"n": 851
 },
 {
 "w": "as of",
@@ -7622,7 +7667,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 847
+"n": 852
 },
 {
 "w": "as usual",
@@ -7631,7 +7676,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 848
+"n": 853
 },
 {
 "w": "come as a surprise",
@@ -7640,7 +7685,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 849
+"n": 854
 },
 {
 "w": "at any time",
@@ -7649,7 +7694,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 850
+"n": 855
 },
 {
 "w": "at no cost",
@@ -7658,7 +7703,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 851
+"n": 856
 },
 {
 "w": "at one's expense",
@@ -7667,7 +7712,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 852
+"n": 857
 },
 {
 "w": "at work",
@@ -7676,7 +7721,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 853
+"n": 858
 },
 {
 "w": "at your earliest convenience",
@@ -7685,7 +7730,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 854
+"n": 859
 },
 {
 "w": "come under pressure",
@@ -7694,7 +7739,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 855
+"n": 860
 },
 {
 "w": "under the supervision of",
@@ -7703,7 +7748,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 856
+"n": 861
 },
 {
 "w": "under way",
@@ -7712,7 +7757,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 857
+"n": 862
 },
 {
 "w": "have something in common",
@@ -7721,7 +7766,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 858
+"n": 863
 },
 {
 "w": "in a timely manner",
@@ -7730,7 +7775,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 859
+"n": 864
 },
 {
 "w": "in addition to",
@@ -7739,7 +7784,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 860
+"n": 865
 },
 {
 "w": "in advance",
@@ -7748,7 +7793,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 861
+"n": 866
 },
 {
 "w": "in an effort to",
@@ -7757,7 +7802,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 862
+"n": 867
 },
 {
 "w": "in bulk",
@@ -7766,7 +7811,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 863
+"n": 868
 },
 {
 "w": "in charge of",
@@ -7775,7 +7820,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 864
+"n": 869
 },
 {
 "w": "in conjunction with",
@@ -7784,7 +7829,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 865
+"n": 870
 },
 {
 "w": "in contrast to",
@@ -7793,7 +7838,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 866
+"n": 871
 },
 {
 "w": "in excess of",
@@ -7802,7 +7847,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 867
+"n": 872
 },
 {
 "w": "in exchange for",
@@ -7811,7 +7856,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 868
+"n": 873
 },
 {
 "w": "in fact",
@@ -7820,7 +7865,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 869
+"n": 874
 },
 {
 "w": "in favor of",
@@ -7829,7 +7874,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 870
+"n": 875
 },
 {
 "w": "in honor of",
@@ -7838,7 +7883,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 871
+"n": 876
 },
 {
 "w": "in light of",
@@ -7847,7 +7892,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 872
+"n": 877
 },
 {
 "w": "in line with",
@@ -7856,7 +7901,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 873
+"n": 878
 },
 {
 "w": "in person",
@@ -7865,7 +7910,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 874
+"n": 879
 },
 {
 "w": "in response to",
@@ -7874,7 +7919,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 875
+"n": 880
 },
 {
 "w": "in search of",
@@ -7883,7 +7928,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 876
+"n": 881
 },
 {
 "w": "in the absence of",
@@ -7892,7 +7937,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 877
+"n": 882
 },
 {
 "w": "in the early stage of",
@@ -7901,7 +7946,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 878
+"n": 883
 },
 {
 "w": "in transit",
@@ -7910,7 +7955,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 879
+"n": 884
 },
 {
 "w": "in use",
@@ -7919,7 +7964,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 880
+"n": 885
 },
 {
 "w": "in writing",
@@ -7928,7 +7973,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 881
+"n": 886
 },
 {
 "w": "an increase in",
@@ -7937,7 +7982,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 882
+"n": 887
 },
 {
 "w": "be scheduled for",
@@ -7946,7 +7991,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 883
+"n": 888
 },
 {
 "w": "for a fee",
@@ -7955,7 +8000,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 884
+"n": 889
 },
 {
 "w": "for the sake of",
@@ -7964,7 +8009,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 885
+"n": 890
 },
 {
 "w": "for your records",
@@ -7973,7 +8018,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 886
+"n": 891
 },
 {
 "w": "hold someone responsible for",
@@ -7982,7 +8027,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 887
+"n": 892
 },
 {
 "w": "make allowances for",
@@ -7991,7 +8036,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 888
+"n": 893
 },
 {
 "w": "keep something out of reach",
@@ -8000,7 +8045,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 889
+"n": 894
 },
 {
 "w": "out of date",
@@ -8009,7 +8054,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 890
+"n": 895
 },
 {
 "w": "out of print",
@@ -8018,7 +8063,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 891
+"n": 896
 },
 {
 "w": "insight into",
@@ -8027,7 +8072,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 892
+"n": 897
 },
 {
 "w": "make inroads into",
@@ -8036,7 +8081,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 893
+"n": 898
 },
 {
 "w": "put something into action",
@@ -8045,7 +8090,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 894
+"n": 899
 },
 {
 "w": "take something into consideration",
@@ -8054,7 +8099,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 895
+"n": 900
 },
 {
 "w": "work from home",
@@ -8063,7 +8108,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 896
+"n": 901
 },
 {
 "w": "based on",
@@ -8072,7 +8117,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 897
+"n": 902
 },
 {
 "w": "from now on",
@@ -8081,7 +8126,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 898
+"n": 903
 },
 {
 "w": "have an effect on",
@@ -8090,7 +8135,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 899
+"n": 904
 },
 {
 "w": "on a regular basis",
@@ -8099,7 +8144,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 900
+"n": 905
 },
 {
 "w": "on behalf of",
@@ -8108,7 +8153,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 901
+"n": 906
 },
 {
 "w": "on business",
@@ -8117,7 +8162,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 902
+"n": 907
 },
 {
 "w": "on display",
@@ -8126,7 +8171,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 903
+"n": 908
 },
 {
 "w": "on or before",
@@ -8135,7 +8180,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 904
+"n": 909
 },
 {
 "w": "on reserve",
@@ -8144,7 +8189,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 905
+"n": 910
 },
 {
 "w": "on the market",
@@ -8153,7 +8198,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 906
+"n": 911
 },
 {
 "w": "on the rise",
@@ -8162,7 +8207,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 907
+"n": 912
 },
 {
 "w": "on time",
@@ -8171,7 +8216,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 908
+"n": 913
 },
 {
 "w": "on top of",
@@ -8180,7 +8225,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 909
+"n": 914
 },
 {
 "w": "be designed to",
@@ -8189,7 +8234,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 910
+"n": 915
 },
 {
 "w": "be eager to",
@@ -8198,7 +8243,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 911
+"n": 916
 },
 {
 "w": "feel free to",
@@ -8207,7 +8252,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 912
+"n": 917
 },
 {
 "w": "remain to be seen",
@@ -8216,7 +8261,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 913
+"n": 918
 },
 {
 "w": "24 hours a day",
@@ -8225,7 +8270,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 914
+"n": 919
 },
 {
 "w": "A and B alike",
@@ -8234,7 +8279,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 915
+"n": 920
 },
 {
 "w": "below the average",
@@ -8243,7 +8288,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 916
+"n": 921
 },
 {
 "w": "beyond repair",
@@ -8252,7 +8297,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 917
+"n": 922
 },
 {
 "w": "by fax",
@@ -8261,7 +8306,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 918
+"n": 923
 },
 {
 "w": "do one's utmost",
@@ -8270,7 +8315,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 919
+"n": 924
 },
 {
 "w": "double-digit increase",
@@ -8279,7 +8324,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 920
+"n": 925
 },
 {
 "w": "lag behind",
@@ -8288,7 +8333,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 921
+"n": 926
 },
 {
 "w": "make something public",
@@ -8297,7 +8342,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 922
+"n": 927
 },
 {
 "w": "make sure",
@@ -8306,7 +8351,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 923
+"n": 928
 },
 {
 "w": "raise questions",
@@ -8315,7 +8360,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 924
+"n": 929
 },
 {
 "w": "A through B",
@@ -8324,7 +8369,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 925
+"n": 930
 },
 {
 "w": "upon request",
@@ -8333,7 +8378,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 926
+"n": 931
 },
 {
 "w": "within walking distance",
@@ -8342,7 +8387,7 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 927
+"n": 932
 },
 {
 "w": "be worth doing",
@@ -8351,7 +8396,70 @@
 "grp": "I",
 "rank": 0,
 "level": "",
-"n": 928
+"n": 933
+},
+{
+"w": "a great deal of",
+"pos": "phr.",
+"ko": "많은(양)",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 934
+},
+{
+"w": "a variety of",
+"pos": "phr.",
+"ko": "다양한",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 935
+},
+{
+"w": "pick up",
+"pos": "phr.",
+"ko": "~을 집다, 태우러 가다, (기술을) 익히다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 936
+},
+{
+"w": "set up",
+"pos": "phr.",
+"ko": "설치하다, 설립하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 937
+},
+{
+"w": "put off",
+"pos": "phr.",
+"ko": "미루다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 938
+},
+{
+"w": "pay off",
+"pos": "phr.",
+"ko": "성과를 내다, (빚을) 다 갚다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 939
+},
+{
+"w": "would like",
+"pos": "phr.",
+"ko": "~하고 싶다, ~을 원하다",
+"grp": "I",
+"rank": 0,
+"level": "",
+"n": 940
 },
 {
 "w": "do",
@@ -8360,7 +8468,7 @@
 "grp": "A",
 "rank": 50,
 "level": "R1",
-"n": 929
+"n": 941
 },
 {
 "w": "time",
@@ -8369,7 +8477,7 @@
 "grp": "A",
 "rank": 60,
 "level": "R1",
-"n": 930
+"n": 942
 },
 {
 "w": "make",
@@ -8378,7 +8486,7 @@
 "grp": "A",
 "rank": 87,
 "level": "R1",
-"n": 931
+"n": 943
 },
 {
 "w": "even",
@@ -8387,7 +8495,7 @@
 "grp": "A",
 "rank": 106,
 "level": "R1",
-"n": 932
+"n": 944
 },
 {
 "w": "right",
@@ -8396,7 +8504,7 @@
 "grp": "A",
 "rank": 113,
 "level": "R1",
-"n": 933
+"n": 945
 },
 {
 "w": "work",
@@ -8405,7 +8513,7 @@
 "grp": "A",
 "rank": 114,
 "level": "R1",
-"n": 934
+"n": 946
 },
 {
 "w": "take",
@@ -8414,7 +8522,7 @@
 "grp": "A",
 "rank": 126,
 "level": "R1",
-"n": 935
+"n": 947
 },
 {
 "w": "look",
@@ -8423,7 +8531,7 @@
 "grp": "A",
 "rank": 147,
 "level": "R1",
-"n": 936
+"n": 948
 },
 {
 "w": "same",
@@ -8432,7 +8540,7 @@
 "grp": "A",
 "rank": 151,
 "level": "R1",
-"n": 937
+"n": 949
 },
 {
 "w": "state",
@@ -8441,7 +8549,7 @@
 "grp": "A",
 "rank": 158,
 "level": "R1",
-"n": 938
+"n": 950
 },
 {
 "w": "find",
@@ -8450,7 +8558,7 @@
 "grp": "A",
 "rank": 164,
 "level": "R1",
-"n": 939
+"n": 951
 },
 {
 "w": "place",
@@ -8459,7 +8567,7 @@
 "grp": "A",
 "rank": 181,
 "level": "R1",
-"n": 940
+"n": 952
 },
 {
 "w": "found",
@@ -8468,7 +8576,7 @@
 "grp": "A",
 "rank": 191,
 "level": "R2",
-"n": 941
+"n": 953
 },
 {
 "w": "number",
@@ -8477,7 +8585,7 @@
 "grp": "A",
 "rank": 210,
 "level": "R2",
-"n": 942
+"n": 954
 },
 {
 "w": "name",
@@ -8486,7 +8594,7 @@
 "grp": "A",
 "rank": 214,
 "level": "R2",
-"n": 943
+"n": 955
 },
 {
 "w": "company",
@@ -8495,7 +8603,7 @@
 "grp": "A",
 "rank": 218,
 "level": "R2",
-"n": 944
+"n": 956
 },
 {
 "w": "business",
@@ -8504,7 +8612,7 @@
 "grp": "A",
 "rank": 239,
 "level": "R2",
-"n": 945
+"n": 957
 },
 {
 "w": "change",
@@ -8513,7 +8621,7 @@
 "grp": "A",
 "rank": 251,
 "level": "R2",
-"n": 946
+"n": 958
 },
 {
 "w": "head",
@@ -8522,7 +8630,7 @@
 "grp": "A",
 "rank": 280,
 "level": "R2",
-"n": 947
+"n": 959
 },
 {
 "w": "national",
@@ -8531,7 +8639,7 @@
 "grp": "A",
 "rank": 282,
 "level": "R2",
-"n": 948
+"n": 960
 },
 {
 "w": "try",
@@ -8540,7 +8648,7 @@
 "grp": "A",
 "rank": 291,
 "level": "R2",
-"n": 949
+"n": 961
 },
 {
 "w": "order",
@@ -8549,7 +8657,7 @@
 "grp": "A",
 "rank": 299,
 "level": "R2",
-"n": 950
+"n": 962
 },
 {
 "w": "party",
@@ -8558,7 +8666,7 @@
 "grp": "A",
 "rank": 300,
 "level": "R2",
-"n": 951
+"n": 963
 },
 {
 "w": "run",
@@ -8567,7 +8675,7 @@
 "grp": "A",
 "rank": 301,
 "level": "R2",
-"n": 952
+"n": 964
 },
 {
 "w": "general",
@@ -8576,7 +8684,7 @@
 "grp": "A",
 "rank": 311,
 "level": "R2",
-"n": 953
+"n": 965
 },
 {
 "w": "course",
@@ -8585,7 +8693,7 @@
 "grp": "A",
 "rank": 333,
 "level": "R3",
-"n": 954
+"n": 966
 },
 {
 "w": "information",
@@ -8594,7 +8702,7 @@
 "grp": "A",
 "rank": 347,
 "level": "R3",
-"n": 955
+"n": 967
 },
 {
 "w": "local",
@@ -8603,7 +8711,7 @@
 "grp": "A",
 "rank": 348,
 "level": "R3",
-"n": 956
+"n": 968
 },
 {
 "w": "coming",
@@ -8612,7 +8720,7 @@
 "grp": "A",
 "rank": 371,
 "level": "R3",
-"n": 957
+"n": 969
 },
 {
 "w": "control",
@@ -8621,7 +8729,7 @@
 "grp": "A",
 "rank": 372,
 "level": "R3",
-"n": 958
+"n": 970
 },
 {
 "w": "pay",
@@ -8630,7 +8738,7 @@
 "grp": "A",
 "rank": 378,
 "level": "R3",
-"n": 959
+"n": 971
 },
 {
 "w": "matter",
@@ -8639,7 +8747,7 @@
 "grp": "A",
 "rank": 402,
 "level": "R3",
-"n": 960
+"n": 972
 },
 {
 "w": "probably",
@@ -8648,7 +8756,7 @@
 "grp": "A",
 "rank": 412,
 "level": "R3",
-"n": 961
+"n": 973
 },
 {
 "w": "close",
@@ -8657,7 +8765,7 @@
 "grp": "A",
 "rank": 418,
 "level": "R3",
-"n": 962
+"n": 974
 },
 {
 "w": "due",
@@ -8666,7 +8774,7 @@
 "grp": "A",
 "rank": 428,
 "level": "R3",
-"n": 963
+"n": 975
 },
 {
 "w": "happy",
@@ -8675,7 +8783,7 @@
 "grp": "A",
 "rank": 429,
 "level": "R3",
-"n": 964
+"n": 976
 },
 {
 "w": "community",
@@ -8684,7 +8792,7 @@
 "grp": "A",
 "rank": 439,
 "level": "R3",
-"n": 965
+"n": 977
 },
 {
 "w": "leave",
@@ -8693,7 +8801,7 @@
 "grp": "A",
 "rank": 442,
 "level": "R3",
-"n": 966
+"n": 978
 },
 {
 "w": "light",
@@ -8702,7 +8810,7 @@
 "grp": "A",
 "rank": 451,
 "level": "R3",
-"n": 967
+"n": 979
 },
 {
 "w": "stay",
@@ -8711,7 +8819,7 @@
 "grp": "A",
 "rank": 457,
 "level": "R3",
-"n": 968
+"n": 980
 },
 {
 "w": "deal",
@@ -8720,7 +8828,7 @@
 "grp": "A",
 "rank": 461,
 "level": "R3",
-"n": 969
+"n": 981
 },
 {
 "w": "report",
@@ -8729,7 +8837,7 @@
 "grp": "A",
 "rank": 465,
 "level": "R3",
-"n": 970
+"n": 982
 },
 {
 "w": "check",
@@ -8738,7 +8846,7 @@
 "grp": "A",
 "rank": 471,
 "level": "R3",
-"n": 971
+"n": 983
 },
 {
 "w": "form",
@@ -8747,7 +8855,7 @@
 "grp": "A",
 "rank": 473,
 "level": "R3",
-"n": 972
+"n": 984
 },
 {
 "w": "further",
@@ -8756,7 +8864,7 @@
 "grp": "A",
 "rank": 474,
 "level": "R3",
-"n": 973
+"n": 985
 },
 {
 "w": "act",
@@ -8765,7 +8873,7 @@
 "grp": "A",
 "rank": 480,
 "level": "R3",
-"n": 974
+"n": 986
 },
 {
 "w": "near",
@@ -8774,7 +8882,7 @@
 "grp": "A",
 "rank": 497,
 "level": "R3",
-"n": 975
+"n": 987
 },
 {
 "w": "plan",
@@ -8783,7 +8891,7 @@
 "grp": "A",
 "rank": 499,
 "level": "R3",
-"n": 976
+"n": 988
 },
 {
 "w": "available",
@@ -8792,7 +8900,7 @@
 "grp": "A",
 "rank": 507,
 "level": "R3",
-"n": 977
+"n": 989
 },
 {
 "w": "list",
@@ -8801,7 +8909,7 @@
 "grp": "A",
 "rank": 513,
 "level": "R3",
-"n": 978
+"n": 990
 },
 {
 "w": "street",
@@ -8810,7 +8918,7 @@
 "grp": "A",
 "rank": 517,
 "level": "R3",
-"n": 979
+"n": 991
 },
 {
 "w": "current",
@@ -8819,7 +8927,7 @@
 "grp": "A",
 "rank": 521,
 "level": "R3",
-"n": 980
+"n": 992
 },
 {
 "w": "meet",
@@ -8828,7 +8936,7 @@
 "grp": "A",
 "rank": 526,
 "level": "R3",
-"n": 981
+"n": 993
 },
 {
 "w": "program",
@@ -8837,7 +8945,7 @@
 "grp": "A",
 "rank": 527,
 "level": "R3",
-"n": 982
+"n": 994
 },
 {
 "w": "chance",
@@ -8846,7 +8954,7 @@
 "grp": "A",
 "rank": 530,
 "level": "R3",
-"n": 983
+"n": 995
 },
 {
 "w": "process",
@@ -8855,7 +8963,7 @@
 "grp": "A",
 "rank": 533,
 "level": "R3",
-"n": 984
+"n": 996
 },
 {
 "w": "study",
@@ -8864,7 +8972,7 @@
 "grp": "A",
 "rank": 536,
 "level": "R3",
-"n": 985
+"n": 997
 },
 {
 "w": "clear",
@@ -8873,7 +8981,7 @@
 "grp": "A",
 "rank": 540,
 "level": "R3",
-"n": 986
+"n": 998
 },
 {
 "w": "board",
@@ -8882,7 +8990,7 @@
 "grp": "A",
 "rank": 549,
 "level": "R3",
-"n": 987
+"n": 999
 },
 {
 "w": "cost",
@@ -8891,7 +8999,7 @@
 "grp": "A",
 "rank": 550,
 "level": "R3",
-"n": 988
+"n": 1000
 },
 {
 "w": "instead",
@@ -8900,7 +9008,7 @@
 "grp": "A",
 "rank": 555,
 "level": "R3",
-"n": 989
+"n": 1001
 },
 {
 "w": "department",
@@ -8909,7 +9017,7 @@
 "grp": "A",
 "rank": 565,
 "level": "R3",
-"n": 990
+"n": 1002
 },
 {
 "w": "fine",
@@ -8918,7 +9026,7 @@
 "grp": "A",
 "rank": 568,
 "level": "R3",
-"n": 991
+"n": 1003
 },
 {
 "w": "force",
@@ -8927,7 +9035,7 @@
 "grp": "A",
 "rank": 569,
 "level": "R3",
-"n": 992
+"n": 1004
 },
 {
 "w": "issue",
@@ -8936,7 +9044,7 @@
 "grp": "A",
 "rank": 571,
 "level": "R3",
-"n": 993
+"n": 1005
 },
 {
 "w": "rest",
@@ -8945,7 +9053,7 @@
 "grp": "A",
 "rank": 576,
 "level": "R3",
-"n": 994
+"n": 1006
 },
 {
 "w": "term",
@@ -8954,7 +9062,7 @@
 "grp": "A",
 "rank": 582,
 "level": "R3",
-"n": 995
+"n": 1007
 },
 {
 "w": "project",
@@ -8963,7 +9071,7 @@
 "grp": "A",
 "rank": 591,
 "level": "R3",
-"n": 996
+"n": 1008
 },
 {
 "w": "account",
@@ -8972,7 +9080,7 @@
 "grp": "A",
 "rank": 597,
 "level": "R3",
-"n": 997
+"n": 1009
 },
 {
 "w": "especially",
@@ -8981,7 +9089,7 @@
 "grp": "A",
 "rank": 599,
 "level": "R3",
-"n": 998
+"n": 1010
 },
 {
 "w": "period",
@@ -8990,7 +9098,7 @@
 "grp": "A",
 "rank": 604,
 "level": "R3",
-"n": 999
+"n": 1011
 },
 {
 "w": "position",
@@ -8999,7 +9107,16 @@
 "grp": "A",
 "rank": 605,
 "level": "R3",
-"n": 1000
+"n": 1012
+},
+{
+"w": "record",
+"pos": "n.",
+"ko": "기록하다/기록",
+"grp": "A",
+"rank": 606,
+"level": "R3",
+"n": 1013
 },
 {
 "w": "similar",
@@ -9008,7 +9125,7 @@
 "grp": "A",
 "rank": 607,
 "level": "R3",
-"n": 1001
+"n": 1014
 },
 {
 "w": "lead",
@@ -9017,7 +9134,7 @@
 "grp": "A",
 "rank": 616,
 "level": "R3",
-"n": 1002
+"n": 1015
 },
 {
 "w": "likely",
@@ -9026,7 +9143,7 @@
 "grp": "A",
 "rank": 617,
 "level": "R3",
-"n": 1003
+"n": 1016
 },
 {
 "w": "personal",
@@ -9035,7 +9152,7 @@
 "grp": "A",
 "rank": 620,
 "level": "R3",
-"n": 1004
+"n": 1017
 },
 {
 "w": "security",
@@ -9044,7 +9161,7 @@
 "grp": "A",
 "rank": 621,
 "level": "R3",
-"n": 1005
+"n": 1018
 },
 {
 "w": "happen",
@@ -9053,7 +9170,7 @@
 "grp": "A",
 "rank": 633,
 "level": "R3",
-"n": 1006
+"n": 1019
 },
 {
 "w": "hold",
@@ -9062,7 +9179,7 @@
 "grp": "A",
 "rank": 634,
 "level": "R3",
-"n": 1007
+"n": 1020
 },
 {
 "w": "online",
@@ -9071,7 +9188,7 @@
 "grp": "A",
 "rank": 638,
 "level": "R3",
-"n": 1008
+"n": 1021
 },
 {
 "w": "private",
@@ -9080,7 +9197,7 @@
 "grp": "A",
 "rank": 640,
 "level": "R3",
-"n": 1009
+"n": 1022
 },
 {
 "w": "return",
@@ -9089,7 +9206,7 @@
 "grp": "A",
 "rank": 642,
 "level": "R3",
-"n": 1010
+"n": 1023
 },
 {
 "w": "view",
@@ -9098,7 +9215,7 @@
 "grp": "A",
 "rank": 647,
 "level": "R3",
-"n": 1011
+"n": 1024
 },
 {
 "w": "present",
@@ -9107,7 +9224,7 @@
 "grp": "A",
 "rank": 658,
 "level": "R3",
-"n": 1012
+"n": 1025
 },
 {
 "w": "result",
@@ -9116,7 +9233,7 @@
 "grp": "A",
 "rank": 659,
 "level": "R3",
-"n": 1013
+"n": 1026
 },
 {
 "w": "training",
@@ -9125,7 +9242,7 @@
 "grp": "A",
 "rank": 662,
 "level": "R3",
-"n": 1014
+"n": 1027
 },
 {
 "w": "design",
@@ -9134,7 +9251,7 @@
 "grp": "A",
 "rank": 667,
 "level": "R3",
-"n": 1015
+"n": 1028
 },
 {
 "w": "interest",
@@ -9143,7 +9260,7 @@
 "grp": "A",
 "rank": 673,
 "level": "R3",
-"n": 1016
+"n": 1029
 },
 {
 "w": "learn",
@@ -9152,7 +9269,7 @@
 "grp": "A",
 "rank": 676,
 "level": "R3",
-"n": 1017
+"n": 1030
 },
 {
 "w": "certain",
@@ -9161,7 +9278,7 @@
 "grp": "A",
 "rank": 685,
 "level": "R3",
-"n": 1018
+"n": 1031
 },
 {
 "w": "performance",
@@ -9170,7 +9287,7 @@
 "grp": "A",
 "rank": 696,
 "level": "R3",
-"n": 1019
+"n": 1032
 },
 {
 "w": "press",
@@ -9179,7 +9296,7 @@
 "grp": "A",
 "rank": 697,
 "level": "R3",
-"n": 1020
+"n": 1033
 },
 {
 "w": "worth",
@@ -9188,7 +9305,7 @@
 "grp": "A",
 "rank": 704,
 "level": "R3",
-"n": 1021
+"n": 1034
 },
 {
 "w": "bill",
@@ -9197,7 +9314,7 @@
 "grp": "A",
 "rank": 707,
 "level": "R3",
-"n": 1022
+"n": 1035
 },
 {
 "w": "provide",
@@ -9206,7 +9323,7 @@
 "grp": "A",
 "rank": 715,
 "level": "R3",
-"n": 1023
+"n": 1036
 },
 {
 "w": "source",
@@ -9215,7 +9332,7 @@
 "grp": "A",
 "rank": 720,
 "level": "R3",
-"n": 1024
+"n": 1037
 },
 {
 "w": "usually",
@@ -9224,7 +9341,7 @@
 "grp": "A",
 "rank": 721,
 "level": "R3",
-"n": 1025
+"n": 1038
 },
 {
 "w": "follow",
@@ -9233,7 +9350,7 @@
 "grp": "A",
 "rank": 724,
 "level": "R3",
-"n": 1026
+"n": 1039
 },
 {
 "w": "rate",
@@ -9242,7 +9359,7 @@
 "grp": "A",
 "rank": 729,
 "level": "R3",
-"n": 1027
+"n": 1040
 },
 {
 "w": "save",
@@ -9251,7 +9368,7 @@
 "grp": "A",
 "rank": 732,
 "level": "R3",
-"n": 1028
+"n": 1041
 },
 {
 "w": "amount",
@@ -9260,7 +9377,7 @@
 "grp": "A",
 "rank": 737,
 "level": "R3",
-"n": 1029
+"n": 1042
 },
 {
 "w": "federal",
@@ -9269,7 +9386,7 @@
 "grp": "A",
 "rank": 745,
 "level": "R3",
-"n": 1030
+"n": 1043
 },
 {
 "w": "picture",
@@ -9278,7 +9395,7 @@
 "grp": "A",
 "rank": 753,
 "level": "R3",
-"n": 1031
+"n": 1044
 },
 {
 "w": "step",
@@ -9287,7 +9404,7 @@
 "grp": "A",
 "rank": 755,
 "level": "R3",
-"n": 1032
+"n": 1045
 },
 {
 "w": "forward",
@@ -9296,7 +9413,7 @@
 "grp": "A",
 "rank": 761,
 "level": "R3",
-"n": 1033
+"n": 1046
 },
 {
 "w": "key",
@@ -9305,7 +9422,7 @@
 "grp": "A",
 "rank": 764,
 "level": "R3",
-"n": 1034
+"n": 1047
 },
 {
 "w": "review",
@@ -9314,7 +9431,7 @@
 "grp": "A",
 "rank": 769,
 "level": "R3",
-"n": 1035
+"n": 1048
 },
 {
 "w": "attention",
@@ -9323,7 +9440,7 @@
 "grp": "A",
 "rank": 775,
 "level": "R3",
-"n": 1036
+"n": 1049
 },
 {
 "w": "lower",
@@ -9332,7 +9449,7 @@
 "grp": "A",
 "rank": 787,
 "level": "R3",
-"n": 1037
+"n": 1050
 },
 {
 "w": "property",
@@ -9341,7 +9458,7 @@
 "grp": "A",
 "rank": 790,
 "level": "R3",
-"n": 1038
+"n": 1051
 },
 {
 "w": "complete",
@@ -9350,7 +9467,7 @@
 "grp": "A",
 "rank": 799,
 "level": "R3",
-"n": 1039
+"n": 1052
 },
 {
 "w": "article",
@@ -9359,7 +9476,7 @@
 "grp": "A",
 "rank": 815,
 "level": "R3",
-"n": 1040
+"n": 1053
 },
 {
 "w": "choice",
@@ -9368,7 +9485,7 @@
 "grp": "A",
 "rank": 836,
 "level": "R4",
-"n": 1041
+"n": 1054
 },
 {
 "w": "continue",
@@ -9377,7 +9494,7 @@
 "grp": "A",
 "rank": 839,
 "level": "R4",
-"n": 1042
+"n": 1055
 },
 {
 "w": "currently",
@@ -9386,7 +9503,7 @@
 "grp": "A",
 "rank": 842,
 "level": "R4",
-"n": 1043
+"n": 1056
 },
 {
 "w": "legal",
@@ -9395,7 +9512,7 @@
 "grp": "A",
 "rank": 851,
 "level": "R4",
-"n": 1044
+"n": 1057
 },
 {
 "w": "staff",
@@ -9404,7 +9521,7 @@
 "grp": "A",
 "rank": 861,
 "level": "R4",
-"n": 1045
+"n": 1058
 },
 {
 "w": "career",
@@ -9413,7 +9530,7 @@
 "grp": "A",
 "rank": 869,
 "level": "R4",
-"n": 1046
+"n": 1059
 },
 {
 "w": "figure",
@@ -9422,7 +9539,7 @@
 "grp": "A",
 "rank": 877,
 "level": "R4",
-"n": 1047
+"n": 1060
 },
 {
 "w": "paper",
@@ -9431,7 +9548,7 @@
 "grp": "A",
 "rank": 883,
 "level": "R4",
-"n": 1048
+"n": 1061
 },
 {
 "w": "popular",
@@ -9440,7 +9557,7 @@
 "grp": "A",
 "rank": 885,
 "level": "R4",
-"n": 1049
+"n": 1062
 },
 {
 "w": "version",
@@ -9449,7 +9566,7 @@
 "grp": "A",
 "rank": 890,
 "level": "R4",
-"n": 1050
+"n": 1063
 },
 {
 "w": "practice",
@@ -9458,7 +9575,7 @@
 "grp": "A",
 "rank": 903,
 "level": "R4",
-"n": 1051
+"n": 1064
 },
 {
 "w": "success",
@@ -9467,7 +9584,7 @@
 "grp": "A",
 "rank": 907,
 "level": "R4",
-"n": 1052
+"n": 1065
 },
 {
 "w": "access",
@@ -9476,7 +9593,7 @@
 "grp": "A",
 "rank": 911,
 "level": "R4",
-"n": 1053
+"n": 1066
 },
 {
 "w": "mark",
@@ -9485,7 +9602,7 @@
 "grp": "A",
 "rank": 920,
 "level": "R4",
-"n": 1054
+"n": 1067
 },
 {
 "w": "missing",
@@ -9494,7 +9611,7 @@
 "grp": "A",
 "rank": 921,
 "level": "R4",
-"n": 1055
+"n": 1068
 },
 {
 "w": "offer",
@@ -9503,7 +9620,7 @@
 "grp": "A",
 "rank": 922,
 "level": "R4",
-"n": 1056
+"n": 1069
 },
 {
 "w": "professional",
@@ -9512,7 +9629,7 @@
 "grp": "A",
 "rank": 924,
 "level": "R4",
-"n": 1057
+"n": 1070
 },
 {
 "w": "risk",
@@ -9521,7 +9638,7 @@
 "grp": "A",
 "rank": 926,
 "level": "R4",
-"n": 1058
+"n": 1071
 },
 {
 "w": "build",
@@ -9530,7 +9647,7 @@
 "grp": "A",
 "rank": 934,
 "level": "R4",
-"n": 1059
+"n": 1072
 },
 {
 "w": "district",
@@ -9539,7 +9656,7 @@
 "grp": "A",
 "rank": 938,
 "level": "R4",
-"n": 1060
+"n": 1073
 },
 {
 "w": "minister",
@@ -9548,7 +9665,7 @@
 "grp": "A",
 "rank": 943,
 "level": "R4",
-"n": 1061
+"n": 1074
 },
 {
 "w": "note",
@@ -9557,7 +9674,7 @@
 "grp": "A",
 "rank": 944,
 "level": "R4",
-"n": 1062
+"n": 1075
 },
 {
 "w": "piece",
@@ -9566,7 +9683,7 @@
 "grp": "A",
 "rank": 946,
 "level": "R4",
-"n": 1063
+"n": 1076
 },
 {
 "w": "products",
@@ -9575,7 +9692,7 @@
 "grp": "A",
 "rank": 947,
 "level": "R4",
-"n": 1064
+"n": 1077
 },
 {
 "w": "recent",
@@ -9584,7 +9701,7 @@
 "grp": "A",
 "rank": 948,
 "level": "R4",
-"n": 1065
+"n": 1078
 },
 {
 "w": "growth",
@@ -9593,7 +9710,7 @@
 "grp": "A",
 "rank": 963,
 "level": "R4",
-"n": 1066
+"n": 1079
 },
 {
 "w": "response",
@@ -9602,7 +9719,7 @@
 "grp": "A",
 "rank": 971,
 "level": "R4",
-"n": 1067
+"n": 1080
 },
 {
 "w": "specific",
@@ -9611,7 +9728,7 @@
 "grp": "A",
 "rank": 976,
 "level": "R4",
-"n": 1068
+"n": 1081
 },
 {
 "w": "standard",
@@ -9620,7 +9737,7 @@
 "grp": "A",
 "rank": 977,
 "level": "R4",
-"n": 1069
+"n": 1082
 },
 {
 "w": "charge",
@@ -9629,7 +9746,7 @@
 "grp": "A",
 "rank": 982,
 "level": "R4",
-"n": 1070
+"n": 1083
 },
 {
 "w": "limited",
@@ -9638,7 +9755,7 @@
 "grp": "A",
 "rank": 991,
 "level": "R4",
-"n": 1071
+"n": 1084
 },
 {
 "w": "recently",
@@ -9647,7 +9764,7 @@
 "grp": "A",
 "rank": 996,
 "level": "R4",
-"n": 1072
+"n": 1085
 },
 {
 "w": "sales",
@@ -9656,7 +9773,7 @@
 "grp": "A",
 "rank": 998,
 "level": "R4",
-"n": 1073
+"n": 1086
 },
 {
 "w": "store",
@@ -9665,7 +9782,7 @@
 "grp": "A",
 "rank": 1000,
 "level": "R4",
-"n": 1074
+"n": 1087
 },
 {
 "w": "track",
@@ -9674,7 +9791,7 @@
 "grp": "A",
 "rank": 1003,
 "level": "R4",
-"n": 1075
+"n": 1088
 },
 {
 "w": "weight",
@@ -9683,7 +9800,7 @@
 "grp": "A",
 "rank": 1006,
 "level": "R4",
-"n": 1076
+"n": 1089
 },
 {
 "w": "addition",
@@ -9692,7 +9809,7 @@
 "grp": "A",
 "rank": 1007,
 "level": "R4",
-"n": 1077
+"n": 1090
 },
 {
 "w": "allow",
@@ -9701,7 +9818,7 @@
 "grp": "A",
 "rank": 1009,
 "level": "R4",
-"n": 1078
+"n": 1091
 },
 {
 "w": "association",
@@ -9710,7 +9827,7 @@
 "grp": "A",
 "rank": 1011,
 "level": "R4",
-"n": 1079
+"n": 1092
 },
 {
 "w": "capital",
@@ -9719,7 +9836,7 @@
 "grp": "A",
 "rank": 1014,
 "level": "R4",
-"n": 1080
+"n": 1093
 },
 {
 "w": "committee",
@@ -9728,7 +9845,7 @@
 "grp": "A",
 "rank": 1016,
 "level": "R4",
-"n": 1081
+"n": 1094
 },
 {
 "w": "conference",
@@ -9737,7 +9854,7 @@
 "grp": "A",
 "rank": 1017,
 "level": "R4",
-"n": 1082
+"n": 1095
 },
 {
 "w": "double",
@@ -9746,7 +9863,7 @@
 "grp": "A",
 "rank": 1019,
 "level": "R4",
-"n": 1083
+"n": 1096
 },
 {
 "w": "normal",
@@ -9755,7 +9872,7 @@
 "grp": "A",
 "rank": 1024,
 "level": "R4",
-"n": 1084
+"n": 1097
 },
 {
 "w": "population",
@@ -9764,7 +9881,7 @@
 "grp": "A",
 "rank": 1026,
 "level": "R4",
-"n": 1085
+"n": 1098
 },
 {
 "w": "campaign",
@@ -9773,7 +9890,7 @@
 "grp": "A",
 "rank": 1038,
 "level": "R4",
-"n": 1086
+"n": 1099
 },
 {
 "w": "focus",
@@ -9782,7 +9899,7 @@
 "grp": "A",
 "rank": 1047,
 "level": "R4",
-"n": 1087
+"n": 1100
 },
 {
 "w": "individual",
@@ -9791,7 +9908,7 @@
 "grp": "A",
 "rank": 1051,
 "level": "R4",
-"n": 1088
+"n": 1101
 },
 {
 "w": "join",
@@ -9800,7 +9917,7 @@
 "grp": "A",
 "rank": 1053,
 "level": "R4",
-"n": 1089
+"n": 1102
 },
 {
 "w": "nearly",
@@ -9809,7 +9926,7 @@
 "grp": "A",
 "rank": 1059,
 "level": "R4",
-"n": 1090
+"n": 1103
 },
 {
 "w": "previous",
@@ -9818,7 +9935,7 @@
 "grp": "A",
 "rank": 1061,
 "level": "R4",
-"n": 1091
+"n": 1104
 },
 {
 "w": "section",
@@ -9827,7 +9944,7 @@
 "grp": "A",
 "rank": 1065,
 "level": "R4",
-"n": 1092
+"n": 1105
 },
 {
 "w": "travel",
@@ -9836,7 +9953,7 @@
 "grp": "A",
 "rank": 1068,
 "level": "R4",
-"n": 1093
+"n": 1106
 },
 {
 "w": "consider",
@@ -9845,7 +9962,7 @@
 "grp": "A",
 "rank": 1069,
 "level": "R4",
-"n": 1094
+"n": 1107
 },
 {
 "w": "contact",
@@ -9854,7 +9971,7 @@
 "grp": "A",
 "rank": 1070,
 "level": "R4",
-"n": 1095
+"n": 1108
 },
 {
 "w": "drop",
@@ -9863,7 +9980,7 @@
 "grp": "A",
 "rank": 1071,
 "level": "R4",
-"n": 1096
+"n": 1109
 },
 {
 "w": "fair",
@@ -9872,7 +9989,7 @@
 "grp": "A",
 "rank": 1072,
 "level": "R4",
-"n": 1097
+"n": 1110
 },
 {
 "w": "link",
@@ -9881,7 +9998,7 @@
 "grp": "A",
 "rank": 1076,
 "level": "R4",
-"n": 1098
+"n": 1111
 },
 {
 "w": "sale",
@@ -9890,7 +10007,7 @@
 "grp": "A",
 "rank": 1078,
 "level": "R4",
-"n": 1099
+"n": 1112
 },
 {
 "w": "tour",
@@ -9899,7 +10016,7 @@
 "grp": "A",
 "rank": 1080,
 "level": "R4",
-"n": 1100
+"n": 1113
 },
 {
 "w": "additional",
@@ -9908,7 +10025,7 @@
 "grp": "A",
 "rank": 1083,
 "level": "R4",
-"n": 1101
+"n": 1114
 },
 {
 "w": "extra",
@@ -9917,7 +10034,7 @@
 "grp": "A",
 "rank": 1087,
 "level": "R4",
-"n": 1102
+"n": 1115
 },
 {
 "w": "immediately",
@@ -9926,7 +10043,7 @@
 "grp": "A",
 "rank": 1089,
 "level": "R4",
-"n": 1103
+"n": 1116
 },
 {
 "w": "significant",
@@ -9935,7 +10052,7 @@
 "grp": "A",
 "rank": 1097,
 "level": "R4",
-"n": 1104
+"n": 1117
 },
 {
 "w": "income",
@@ -9944,7 +10061,7 @@
 "grp": "A",
 "rank": 1108,
 "level": "R4",
-"n": 1105
+"n": 1118
 },
 {
 "w": "statement",
@@ -9953,7 +10070,7 @@
 "grp": "A",
 "rank": 1121,
 "level": "R4",
-"n": 1106
+"n": 1119
 },
 {
 "w": "ability",
@@ -9962,7 +10079,7 @@
 "grp": "A",
 "rank": 1124,
 "level": "R4",
-"n": 1107
+"n": 1120
 },
 {
 "w": "collection",
@@ -9971,7 +10088,7 @@
 "grp": "A",
 "rank": 1129,
 "level": "R4",
-"n": 1108
+"n": 1121
 },
 {
 "w": "definitely",
@@ -9980,7 +10097,7 @@
 "grp": "A",
 "rank": 1132,
 "level": "R4",
-"n": 1109
+"n": 1122
 },
 {
 "w": "knowledge",
@@ -9989,7 +10106,7 @@
 "grp": "A",
 "rank": 1140,
 "level": "R4",
-"n": 1110
+"n": 1123
 },
 {
 "w": "particularly",
@@ -9998,7 +10115,7 @@
 "grp": "A",
 "rank": 1141,
 "level": "R4",
-"n": 1111
+"n": 1124
 },
 {
 "w": "subject",
@@ -10007,7 +10124,7 @@
 "grp": "A",
 "rank": 1143,
 "level": "R4",
-"n": 1112
+"n": 1125
 },
 {
 "w": "author",
@@ -10016,7 +10133,7 @@
 "grp": "A",
 "rank": 1147,
 "level": "R4",
-"n": 1113
+"n": 1126
 },
 {
 "w": "claim",
@@ -10025,7 +10142,7 @@
 "grp": "A",
 "rank": 1149,
 "level": "R4",
-"n": 1114
+"n": 1127
 },
 {
 "w": "fit",
@@ -10034,7 +10151,7 @@
 "grp": "A",
 "rank": 1153,
 "level": "R4",
-"n": 1115
+"n": 1128
 },
 {
 "w": "material",
@@ -10043,7 +10160,7 @@
 "grp": "A",
 "rank": 1166,
 "level": "R4",
-"n": 1116
+"n": 1129
 },
 {
 "w": "regular",
@@ -10052,7 +10169,7 @@
 "grp": "A",
 "rank": 1173,
 "level": "R4",
-"n": 1117
+"n": 1130
 },
 {
 "w": "unit",
@@ -10061,7 +10178,7 @@
 "grp": "A",
 "rank": 1177,
 "level": "R4",
-"n": 1118
+"n": 1131
 },
 {
 "w": "annual",
@@ -10070,7 +10187,7 @@
 "grp": "A",
 "rank": 1179,
 "level": "R4",
-"n": 1119
+"n": 1132
 },
 {
 "w": "contract",
@@ -10079,7 +10196,7 @@
 "grp": "A",
 "rank": 1184,
 "level": "R4",
-"n": 1120
+"n": 1133
 },
 {
 "w": "degree",
@@ -10088,7 +10205,7 @@
 "grp": "A",
 "rank": 1185,
 "level": "R4",
-"n": 1121
+"n": 1134
 },
 {
 "w": "growing",
@@ -10097,7 +10214,7 @@
 "grp": "A",
 "rank": 1191,
 "level": "R4",
-"n": 1122
+"n": 1135
 },
 {
 "w": "opening",
@@ -10106,7 +10223,7 @@
 "grp": "A",
 "rank": 1197,
 "level": "R4",
-"n": 1123
+"n": 1136
 },
 {
 "w": "reach",
@@ -10115,7 +10232,7 @@
 "grp": "A",
 "rank": 1201,
 "level": "R4",
-"n": 1124
+"n": 1137
 },
 {
 "w": "seriously",
@@ -10124,7 +10241,7 @@
 "grp": "A",
 "rank": 1203,
 "level": "R4",
-"n": 1125
+"n": 1138
 },
 {
 "w": "successful",
@@ -10133,7 +10250,7 @@
 "grp": "A",
 "rank": 1206,
 "level": "R4",
-"n": 1126
+"n": 1139
 },
 {
 "w": "direction",
@@ -10142,7 +10259,7 @@
 "grp": "A",
 "rank": 1216,
 "level": "R4",
-"n": 1127
+"n": 1140
 },
 {
 "w": "stock",
@@ -10151,7 +10268,7 @@
 "grp": "A",
 "rank": 1223,
 "level": "R4",
-"n": 1128
+"n": 1141
 },
 {
 "w": "commercial",
@@ -10160,7 +10277,7 @@
 "grp": "A",
 "rank": 1233,
 "level": "R4",
-"n": 1129
+"n": 1142
 },
 {
 "w": "impact",
@@ -10169,7 +10286,7 @@
 "grp": "A",
 "rank": 1240,
 "level": "R4",
-"n": 1130
+"n": 1143
 },
 {
 "w": "lack",
@@ -10178,7 +10295,7 @@
 "grp": "A",
 "rank": 1241,
 "level": "R4",
-"n": 1131
+"n": 1144
 },
 {
 "w": "latest",
@@ -10187,7 +10304,7 @@
 "grp": "A",
 "rank": 1242,
 "level": "R4",
-"n": 1132
+"n": 1145
 },
 {
 "w": "learning",
@@ -10196,7 +10313,7 @@
 "grp": "A",
 "rank": 1243,
 "level": "R4",
-"n": 1133
+"n": 1146
 },
 {
 "w": "multiple",
@@ -10205,7 +10322,7 @@
 "grp": "A",
 "rank": 1244,
 "level": "R4",
-"n": 1134
+"n": 1147
 },
 {
 "w": "operation",
@@ -10214,7 +10331,7 @@
 "grp": "A",
 "rank": 1246,
 "level": "R4",
-"n": 1135
+"n": 1148
 },
 {
 "w": "organization",
@@ -10223,7 +10340,7 @@
 "grp": "A",
 "rank": 1247,
 "level": "R4",
-"n": 1136
+"n": 1149
 },
 {
 "w": "address",
@@ -10232,7 +10349,7 @@
 "grp": "A",
 "rank": 1258,
 "level": "R4",
-"n": 1137
+"n": 1150
 },
 {
 "w": "analysis",
@@ -10241,7 +10358,7 @@
 "grp": "A",
 "rank": 1259,
 "level": "R4",
-"n": 1138
+"n": 1151
 },
 {
 "w": "choose",
@@ -10250,7 +10367,7 @@
 "grp": "A",
 "rank": 1263,
 "level": "R4",
-"n": 1139
+"n": 1152
 },
 {
 "w": "damage",
@@ -10259,7 +10376,7 @@
 "grp": "A",
 "rank": 1295,
 "level": "R4",
-"n": 1140
+"n": 1153
 },
 {
 "w": "directly",
@@ -10268,7 +10385,7 @@
 "grp": "A",
 "rank": 1296,
 "level": "R4",
-"n": 1141
+"n": 1154
 },
 {
 "w": "glad",
@@ -10277,7 +10394,7 @@
 "grp": "A",
 "rank": 1307,
 "level": "R4",
-"n": 1142
+"n": 1155
 },
 {
 "w": "grow",
@@ -10286,7 +10403,7 @@
 "grp": "A",
 "rank": 1309,
 "level": "R4",
-"n": 1143
+"n": 1156
 },
 {
 "w": "notice",
@@ -10295,7 +10412,7 @@
 "grp": "A",
 "rank": 1312,
 "level": "R4",
-"n": 1144
+"n": 1157
 },
 {
 "w": "overall",
@@ -10304,7 +10421,7 @@
 "grp": "A",
 "rank": 1313,
 "level": "R4",
-"n": 1145
+"n": 1158
 },
 {
 "w": "trip",
@@ -10313,7 +10430,7 @@
 "grp": "A",
 "rank": 1321,
 "level": "R4",
-"n": 1146
+"n": 1159
 },
 {
 "w": "basic",
@@ -10322,7 +10439,7 @@
 "grp": "A",
 "rank": 1323,
 "level": "R4",
-"n": 1147
+"n": 1160
 },
 {
 "w": "carry",
@@ -10331,7 +10448,7 @@
 "grp": "A",
 "rank": 1325,
 "level": "R4",
-"n": 1148
+"n": 1161
 },
 {
 "w": "effective",
@@ -10340,7 +10457,7 @@
 "grp": "A",
 "rank": 1328,
 "level": "R4",
-"n": 1149
+"n": 1162
 },
 {
 "w": "highly",
@@ -10349,7 +10466,7 @@
 "grp": "A",
 "rank": 1332,
 "level": "R4",
-"n": 1150
+"n": 1163
 },
 {
 "w": "advice",
@@ -10358,7 +10475,7 @@
 "grp": "A",
 "rank": 1347,
 "level": "R4",
-"n": 1151
+"n": 1164
 },
 {
 "w": "agreement",
@@ -10367,7 +10484,7 @@
 "grp": "A",
 "rank": 1348,
 "level": "R4",
-"n": 1152
+"n": 1165
 },
 {
 "w": "award",
@@ -10376,7 +10493,7 @@
 "grp": "A",
 "rank": 1350,
 "level": "R4",
-"n": 1153
+"n": 1166
 },
 {
 "w": "challenge",
@@ -10385,7 +10502,7 @@
 "grp": "A",
 "rank": 1354,
 "level": "R4",
-"n": 1154
+"n": 1167
 },
 {
 "w": "comment",
@@ -10394,7 +10511,7 @@
 "grp": "A",
 "rank": 1357,
 "level": "R4",
-"n": 1155
+"n": 1168
 },
 {
 "w": "equipment",
@@ -10403,7 +10520,7 @@
 "grp": "A",
 "rank": 1358,
 "level": "R4",
-"n": 1156
+"n": 1169
 },
 {
 "w": "eventually",
@@ -10412,7 +10529,7 @@
 "grp": "A",
 "rank": 1359,
 "level": "R4",
-"n": 1157
+"n": 1170
 },
 {
 "w": "otherwise",
@@ -10421,7 +10538,7 @@
 "grp": "A",
 "rank": 1366,
 "level": "R4",
-"n": 1158
+"n": 1171
 },
 {
 "w": "purpose",
@@ -10430,7 +10547,7 @@
 "grp": "A",
 "rank": 1370,
 "level": "R4",
-"n": 1159
+"n": 1172
 },
 {
 "w": "theory",
@@ -10439,7 +10556,7 @@
 "grp": "A",
 "rank": 1377,
 "level": "R4",
-"n": 1160
+"n": 1173
 },
 {
 "w": "avoid",
@@ -10448,7 +10565,7 @@
 "grp": "A",
 "rank": 1381,
 "level": "R4",
-"n": 1161
+"n": 1174
 },
 {
 "w": "coast",
@@ -10457,7 +10574,7 @@
 "grp": "A",
 "rank": 1385,
 "level": "R4",
-"n": 1162
+"n": 1175
 },
 {
 "w": "economy",
@@ -10466,7 +10583,7 @@
 "grp": "A",
 "rank": 1388,
 "level": "R4",
-"n": 1163
+"n": 1176
 },
 {
 "w": "executive",
@@ -10475,7 +10592,7 @@
 "grp": "A",
 "rank": 1390,
 "level": "R4",
-"n": 1164
+"n": 1177
 },
 {
 "w": "status",
@@ -10484,7 +10601,7 @@
 "grp": "A",
 "rank": 1404,
 "level": "R4",
-"n": 1165
+"n": 1178
 },
 {
 "w": "complex",
@@ -10493,7 +10610,7 @@
 "grp": "A",
 "rank": 1414,
 "level": "R4",
-"n": 1166
+"n": 1179
 },
 {
 "w": "location",
@@ -10502,7 +10619,7 @@
 "grp": "A",
 "rank": 1425,
 "level": "R4",
-"n": 1167
+"n": 1180
 },
 {
 "w": "accept",
@@ -10511,7 +10628,7 @@
 "grp": "A",
 "rank": 1436,
 "level": "R4",
-"n": 1168
+"n": 1181
 },
 {
 "w": "finding",
@@ -10520,7 +10637,7 @@
 "grp": "A",
 "rank": 1447,
 "level": "R4",
-"n": 1169
+"n": 1182
 },
 {
 "w": "prior",
@@ -10529,7 +10646,7 @@
 "grp": "A",
 "rank": 1456,
 "level": "R4",
-"n": 1170
+"n": 1183
 },
 {
 "w": "receive",
@@ -10538,7 +10655,7 @@
 "grp": "A",
 "rank": 1459,
 "level": "R4",
-"n": 1171
+"n": 1184
 },
 {
 "w": "ride",
@@ -10547,7 +10664,7 @@
 "grp": "A",
 "rank": 1461,
 "level": "R4",
-"n": 1172
+"n": 1185
 },
 {
 "w": "serve",
@@ -10556,7 +10673,7 @@
 "grp": "A",
 "rank": 1465,
 "level": "R4",
-"n": 1173
+"n": 1186
 },
 {
 "w": "demand",
@@ -10565,7 +10682,7 @@
 "grp": "A",
 "rank": 1486,
 "level": "R4",
-"n": 1174
+"n": 1187
 },
 {
 "w": "famous",
@@ -10574,7 +10691,7 @@
 "grp": "A",
 "rank": 1489,
 "level": "R4",
-"n": 1175
+"n": 1188
 },
 {
 "w": "investment",
@@ -10583,7 +10700,7 @@
 "grp": "A",
 "rank": 1491,
 "level": "R4",
-"n": 1176
+"n": 1189
 },
 {
 "w": "lie",
@@ -10592,7 +10709,7 @@
 "grp": "A",
 "rank": 1493,
 "level": "R4",
-"n": 1177
+"n": 1190
 },
 {
 "w": "solution",
@@ -10601,7 +10718,7 @@
 "grp": "A",
 "rank": 1500,
 "level": "R4",
-"n": 1178
+"n": 1191
 },
 {
 "w": "structure",
@@ -10610,7 +10727,7 @@
 "grp": "A",
 "rank": 1506,
 "level": "R4",
-"n": 1179
+"n": 1192
 },
 {
 "w": "traditional",
@@ -10619,7 +10736,7 @@
 "grp": "A",
 "rank": 1508,
 "level": "R4",
-"n": 1180
+"n": 1193
 },
 {
 "w": "critical",
@@ -10628,7 +10745,7 @@
 "grp": "A",
 "rank": 1521,
 "level": "R4",
-"n": 1181
+"n": 1194
 },
 {
 "w": "previously",
@@ -10637,7 +10754,7 @@
 "grp": "A",
 "rank": 1534,
 "level": "R4",
-"n": 1182
+"n": 1195
 },
 {
 "w": "separate",
@@ -10646,7 +10763,7 @@
 "grp": "A",
 "rank": 1539,
 "level": "R4",
-"n": 1183
+"n": 1196
 },
 {
 "w": "surface",
@@ -10655,7 +10772,7 @@
 "grp": "A",
 "rank": 1542,
 "level": "R4",
-"n": 1184
+"n": 1197
 },
 {
 "w": "totally",
@@ -10664,7 +10781,7 @@
 "grp": "A",
 "rank": 1545,
 "level": "R4",
-"n": 1185
+"n": 1198
 },
 {
 "w": "benefit",
@@ -10673,7 +10790,7 @@
 "grp": "A",
 "rank": 1553,
 "level": "R4",
-"n": 1186
+"n": 1199
 },
 {
 "w": "budget",
@@ -10682,7 +10799,7 @@
 "grp": "A",
 "rank": 1554,
 "level": "R4",
-"n": 1187
+"n": 1200
 },
 {
 "w": "feature",
@@ -10691,7 +10808,7 @@
 "grp": "A",
 "rank": 1560,
 "level": "R4",
-"n": 1188
+"n": 1201
 },
 {
 "w": "fund",
@@ -10700,7 +10817,7 @@
 "grp": "A",
 "rank": 1561,
 "level": "R4",
-"n": 1189
+"n": 1202
 },
 {
 "w": "hearing",
@@ -10709,7 +10826,7 @@
 "grp": "A",
 "rank": 1563,
 "level": "R4",
-"n": 1190
+"n": 1203
 },
 {
 "w": "seat",
@@ -10718,7 +10835,7 @@
 "grp": "A",
 "rank": 1576,
 "level": "R4",
-"n": 1191
+"n": 1204
 },
 {
 "w": "agent",
@@ -10727,7 +10844,7 @@
 "grp": "A",
 "rank": 1583,
 "level": "R4",
-"n": 1192
+"n": 1205
 },
 {
 "w": "apply",
@@ -10736,7 +10853,7 @@
 "grp": "A",
 "rank": 1585,
 "level": "R4",
-"n": 1193
+"n": 1206
 },
 {
 "w": "authority",
@@ -10745,7 +10862,7 @@
 "grp": "A",
 "rank": 1586,
 "level": "R4",
-"n": 1194
+"n": 1207
 },
 {
 "w": "draw",
@@ -10754,7 +10871,7 @@
 "grp": "A",
 "rank": 1590,
 "level": "R4",
-"n": 1195
+"n": 1208
 },
 {
 "w": "enter",
@@ -10763,7 +10880,7 @@
 "grp": "A",
 "rank": 1593,
 "level": "R4",
-"n": 1196
+"n": 1209
 },
 {
 "w": "foundation",
@@ -10772,7 +10889,7 @@
 "grp": "A",
 "rank": 1596,
 "level": "R4",
-"n": 1197
+"n": 1210
 },
 {
 "w": "gain",
@@ -10781,7 +10898,7 @@
 "grp": "A",
 "rank": 1597,
 "level": "R4",
-"n": 1198
+"n": 1211
 },
 {
 "w": "supply",
@@ -10790,7 +10907,7 @@
 "grp": "A",
 "rank": 1612,
 "level": "R4",
-"n": 1199
+"n": 1212
 },
 {
 "w": "waste",
@@ -10799,7 +10916,7 @@
 "grp": "A",
 "rank": 1613,
 "level": "R4",
-"n": 1200
+"n": 1213
 },
 {
 "w": "apparently",
@@ -10808,7 +10925,7 @@
 "grp": "A",
 "rank": 1616,
 "level": "R4",
-"n": 1201
+"n": 1214
 },
 {
 "w": "edition",
@@ -10817,7 +10934,7 @@
 "grp": "A",
 "rank": 1619,
 "level": "R4",
-"n": 1202
+"n": 1215
 },
 {
 "w": "institute",
@@ -10826,7 +10943,7 @@
 "grp": "A",
 "rank": 1624,
 "level": "R4",
-"n": 1203
+"n": 1216
 },
 {
 "w": "extremely",
@@ -10835,7 +10952,7 @@
 "grp": "A",
 "rank": 1653,
 "level": "R4",
-"n": 1204
+"n": 1217
 },
 {
 "w": "firm",
@@ -10844,7 +10961,7 @@
 "grp": "A",
 "rank": 1654,
 "level": "R4",
-"n": 1205
+"n": 1218
 },
 {
 "w": "handle",
@@ -10853,7 +10970,7 @@
 "grp": "A",
 "rank": 1656,
 "level": "R4",
-"n": 1206
+"n": 1219
 },
 {
 "w": "improve",
@@ -10862,7 +10979,7 @@
 "grp": "A",
 "rank": 1657,
 "level": "R4",
-"n": 1207
+"n": 1220
 },
 {
 "w": "trouble",
@@ -10871,7 +10988,7 @@
 "grp": "A",
 "rank": 1668,
 "level": "R4",
-"n": 1208
+"n": 1221
 },
 {
 "w": "advantage",
@@ -10880,7 +10997,7 @@
 "grp": "A",
 "rank": 1671,
 "level": "R4",
-"n": 1209
+"n": 1222
 },
 {
 "w": "aware",
@@ -10889,7 +11006,7 @@
 "grp": "A",
 "rank": 1673,
 "level": "R4",
-"n": 1210
+"n": 1223
 },
 {
 "w": "decide",
@@ -10898,7 +11015,7 @@
 "grp": "A",
 "rank": 1676,
 "level": "R4",
-"n": 1211
+"n": 1224
 },
 {
 "w": "dinner",
@@ -10907,7 +11024,7 @@
 "grp": "A",
 "rank": 1677,
 "level": "R4",
-"n": 1212
+"n": 1225
 },
 {
 "w": "produce",
@@ -10916,7 +11033,7 @@
 "grp": "A",
 "rank": 1694,
 "level": "R4",
-"n": 1213
+"n": 1226
 },
 {
 "w": "require",
@@ -10925,7 +11042,7 @@
 "grp": "A",
 "rank": 1697,
 "level": "R4",
-"n": 1214
+"n": 1227
 },
 {
 "w": "copy",
@@ -10934,7 +11051,7 @@
 "grp": "A",
 "rank": 1713,
 "level": "R4",
-"n": 1215
+"n": 1228
 },
 {
 "w": "host",
@@ -10943,7 +11060,7 @@
 "grp": "A",
 "rank": 1719,
 "level": "R4",
-"n": 1216
+"n": 1229
 },
 {
 "w": "journal",
@@ -10952,7 +11069,7 @@
 "grp": "A",
 "rank": 1723,
 "level": "R4",
-"n": 1217
+"n": 1230
 },
 {
 "w": "labor",
@@ -10961,7 +11078,7 @@
 "grp": "A",
 "rank": 1724,
 "level": "R4",
-"n": 1218
+"n": 1231
 },
 {
 "w": "length",
@@ -10970,7 +11087,7 @@
 "grp": "A",
 "rank": 1726,
 "level": "R4",
-"n": 1219
+"n": 1232
 },
 {
 "w": "prove",
@@ -10979,7 +11096,7 @@
 "grp": "A",
 "rank": 1732,
 "level": "R4",
-"n": 1220
+"n": 1233
 },
 {
 "w": "rare",
@@ -10988,7 +11105,7 @@
 "grp": "A",
 "rank": 1733,
 "level": "R4",
-"n": 1221
+"n": 1234
 },
 {
 "w": "balance",
@@ -10997,7 +11114,7 @@
 "grp": "A",
 "rank": 1743,
 "level": "R4",
-"n": 1222
+"n": 1235
 },
 {
 "w": "request",
@@ -11006,7 +11123,7 @@
 "grp": "A",
 "rank": 1762,
 "level": "R4",
-"n": 1223
+"n": 1236
 },
 {
 "w": "vehicle",
@@ -11015,7 +11132,7 @@
 "grp": "A",
 "rank": 1766,
 "level": "R4",
-"n": 1224
+"n": 1237
 },
 {
 "w": "volume",
@@ -11024,7 +11141,7 @@
 "grp": "A",
 "rank": 1767,
 "level": "R4",
-"n": 1225
+"n": 1238
 },
 {
 "w": "develop",
@@ -11033,7 +11150,7 @@
 "grp": "A",
 "rank": 1781,
 "level": "R4",
-"n": 1226
+"n": 1239
 },
 {
 "w": "existing",
@@ -11042,7 +11159,7 @@
 "grp": "A",
 "rank": 1784,
 "level": "R4",
-"n": 1227
+"n": 1240
 },
 {
 "w": "file",
@@ -11051,7 +11168,7 @@
 "grp": "A",
 "rank": 1786,
 "level": "R4",
-"n": 1228
+"n": 1241
 },
 {
 "w": "investigation",
@@ -11060,7 +11177,7 @@
 "grp": "A",
 "rank": 1792,
 "level": "R4",
-"n": 1229
+"n": 1242
 },
 {
 "w": "raise",
@@ -11069,7 +11186,7 @@
 "grp": "A",
 "rank": 1797,
 "level": "R4",
-"n": 1230
+"n": 1243
 },
 {
 "w": "responsibility",
@@ -11078,7 +11195,7 @@
 "grp": "A",
 "rank": 1798,
 "level": "R4",
-"n": 1231
+"n": 1244
 },
 {
 "w": "slightly",
@@ -11087,7 +11204,7 @@
 "grp": "A",
 "rank": 1800,
 "level": "R4",
-"n": 1232
+"n": 1245
 },
 {
 "w": "suggest",
@@ -11096,7 +11213,7 @@
 "grp": "A",
 "rank": 1801,
 "level": "R4",
-"n": 1233
+"n": 1246
 },
 {
 "w": "unique",
@@ -11105,7 +11222,7 @@
 "grp": "A",
 "rank": 1806,
 "level": "R4",
-"n": 1234
+"n": 1247
 },
 {
 "w": "appreciate",
@@ -11114,7 +11231,7 @@
 "grp": "A",
 "rank": 1812,
 "level": "R4",
-"n": 1235
+"n": 1248
 },
 {
 "w": "reference",
@@ -11123,7 +11240,7 @@
 "grp": "A",
 "rank": 1836,
 "level": "R4",
-"n": 1236
+"n": 1249
 },
 {
 "w": "strategy",
@@ -11132,7 +11249,7 @@
 "grp": "A",
 "rank": 1841,
 "level": "R4",
-"n": 1237
+"n": 1250
 },
 {
 "w": "audience",
@@ -11141,7 +11258,7 @@
 "grp": "A",
 "rank": 1848,
 "level": "R4",
-"n": 1238
+"n": 1251
 },
 {
 "w": "description",
@@ -11150,7 +11267,7 @@
 "grp": "A",
 "rank": 1854,
 "level": "R4",
-"n": 1239
+"n": 1252
 },
 {
 "w": "mention",
@@ -11159,7 +11276,7 @@
 "grp": "A",
 "rank": 1869,
 "level": "R4",
-"n": 1240
+"n": 1253
 },
 {
 "w": "presence",
@@ -11168,7 +11285,7 @@
 "grp": "A",
 "rank": 1874,
 "level": "R4",
-"n": 1241
+"n": 1254
 },
 {
 "w": "solid",
@@ -11177,7 +11294,7 @@
 "grp": "A",
 "rank": 1879,
 "level": "R4",
-"n": 1242
+"n": 1255
 },
 {
 "w": "taste",
@@ -11186,7 +11303,7 @@
 "grp": "A",
 "rank": 1884,
 "level": "R4",
-"n": 1243
+"n": 1256
 },
 {
 "w": "emergency",
@@ -11195,7 +11312,7 @@
 "grp": "A",
 "rank": 1895,
 "level": "R4",
-"n": 1244
+"n": 1257
 },
 {
 "w": "entirely",
@@ -11204,7 +11321,7 @@
 "grp": "A",
 "rank": 1897,
 "level": "R4",
-"n": 1245
+"n": 1258
 },
 {
 "w": "failure",
@@ -11213,7 +11330,7 @@
 "grp": "A",
 "rank": 1899,
 "level": "R4",
-"n": 1246
+"n": 1259
 },
 {
 "w": "fuel",
@@ -11222,7 +11339,7 @@
 "grp": "A",
 "rank": 1902,
 "level": "R4",
-"n": 1247
+"n": 1260
 },
 {
 "w": "initial",
@@ -11231,7 +11348,7 @@
 "grp": "A",
 "rank": 1907,
 "level": "R4",
-"n": 1248
+"n": 1261
 },
 {
 "w": "quarter",
@@ -11240,7 +11357,7 @@
 "grp": "A",
 "rank": 1923,
 "level": "R4",
-"n": 1249
+"n": 1262
 },
 {
 "w": "session",
@@ -11249,7 +11366,7 @@
 "grp": "A",
 "rank": 1926,
 "level": "R4",
-"n": 1250
+"n": 1263
 },
 {
 "w": "transfer",
@@ -11258,7 +11375,7 @@
 "grp": "A",
 "rank": 1931,
 "level": "R4",
-"n": 1251
+"n": 1264
 },
 {
 "w": "advanced",
@@ -11267,7 +11384,7 @@
 "grp": "A",
 "rank": 1940,
 "level": "R4",
-"n": 1252
+"n": 1265
 },
 {
 "w": "alternative",
@@ -11276,7 +11393,7 @@
 "grp": "A",
 "rank": 1941,
 "level": "R4",
-"n": 1253
+"n": 1266
 },
 {
 "w": "capacity",
@@ -11285,7 +11402,7 @@
 "grp": "A",
 "rank": 1948,
 "level": "R4",
-"n": 1254
+"n": 1267
 },
 {
 "w": "joint",
@@ -11294,7 +11411,7 @@
 "grp": "A",
 "rank": 1962,
 "level": "R4",
-"n": 1255
+"n": 1268
 },
 {
 "w": "museum",
@@ -11303,7 +11420,7 @@
 "grp": "A",
 "rank": 1964,
 "level": "R4",
-"n": 1256
+"n": 1269
 },
 {
 "w": "path",
@@ -11312,7 +11429,7 @@
 "grp": "A",
 "rank": 1966,
 "level": "R4",
-"n": 1257
+"n": 1270
 },
 {
 "w": "purchase",
@@ -11321,7 +11438,7 @@
 "grp": "A",
 "rank": 1971,
 "level": "R4",
-"n": 1258
+"n": 1271
 },
 {
 "w": "remove",
@@ -11330,7 +11447,7 @@
 "grp": "A",
 "rank": 1973,
 "level": "R4",
-"n": 1259
+"n": 1272
 },
 {
 "w": "spending",
@@ -11339,7 +11456,7 @@
 "grp": "A",
 "rank": 1975,
 "level": "R4",
-"n": 1260
+"n": 1273
 },
 {
 "w": "fixed",
@@ -11348,7 +11465,7 @@
 "grp": "A",
 "rank": 2001,
 "level": "R4",
-"n": 1261
+"n": 1274
 },
 {
 "w": "profit",
@@ -11357,7 +11474,7 @@
 "grp": "A",
 "rank": 2010,
 "level": "R4",
-"n": 1262
+"n": 1275
 },
 {
 "w": "suit",
@@ -11366,7 +11483,7 @@
 "grp": "A",
 "rank": 2014,
 "level": "R4",
-"n": 1263
+"n": 1276
 },
 {
 "w": "appearance",
@@ -11375,7 +11492,7 @@
 "grp": "A",
 "rank": 2017,
 "level": "R4",
-"n": 1264
+"n": 1277
 },
 {
 "w": "expensive",
@@ -11384,7 +11501,7 @@
 "grp": "A",
 "rank": 2030,
 "level": "R4",
-"n": 1265
+"n": 1278
 },
 {
 "w": "honor",
@@ -11393,7 +11510,7 @@
 "grp": "A",
 "rank": 2035,
 "level": "R4",
-"n": 1266
+"n": 1279
 },
 {
 "w": "launch",
@@ -11402,7 +11519,7 @@
 "grp": "A",
 "rank": 2038,
 "level": "R4",
-"n": 1267
+"n": 1280
 },
 {
 "w": "originally",
@@ -11411,7 +11528,7 @@
 "grp": "A",
 "rank": 2043,
 "level": "R4",
-"n": 1268
+"n": 1281
 },
 {
 "w": "survey",
@@ -11420,7 +11537,7 @@
 "grp": "A",
 "rank": 2050,
 "level": "R4",
-"n": 1269
+"n": 1282
 },
 {
 "w": "exercise",
@@ -11429,7 +11546,7 @@
 "grp": "A",
 "rank": 2068,
 "level": "R4",
-"n": 1270
+"n": 1283
 },
 {
 "w": "loan",
@@ -11438,7 +11555,7 @@
 "grp": "A",
 "rank": 2077,
 "level": "R4",
-"n": 1271
+"n": 1284
 },
 {
 "w": "appeal",
@@ -11447,7 +11564,7 @@
 "grp": "A",
 "rank": 2102,
 "level": "R4",
-"n": 1272
+"n": 1285
 },
 {
 "w": "appropriate",
@@ -11456,7 +11573,7 @@
 "grp": "A",
 "rank": 2104,
 "level": "R4",
-"n": 1273
+"n": 1286
 },
 {
 "w": "device",
@@ -11465,7 +11582,7 @@
 "grp": "A",
 "rank": 2109,
 "level": "R4",
-"n": 1274
+"n": 1287
 },
 {
 "w": "entry",
@@ -11474,7 +11591,7 @@
 "grp": "A",
 "rank": 2111,
 "level": "R4",
-"n": 1275
+"n": 1288
 },
 {
 "w": "grant",
@@ -11483,7 +11600,7 @@
 "grp": "A",
 "rank": 2116,
 "level": "R4",
-"n": 1276
+"n": 1289
 },
 {
 "w": "route",
@@ -11492,7 +11609,7 @@
 "grp": "A",
 "rank": 2135,
 "level": "R4",
-"n": 1277
+"n": 1290
 },
 {
 "w": "schedule",
@@ -11501,7 +11618,7 @@
 "grp": "A",
 "rank": 2137,
 "level": "R4",
-"n": 1278
+"n": 1291
 },
 {
 "w": "candidate",
@@ -11510,7 +11627,7 @@
 "grp": "A",
 "rank": 2152,
 "level": "R4",
-"n": 1279
+"n": 1292
 },
 {
 "w": "concern",
@@ -11519,7 +11636,7 @@
 "grp": "A",
 "rank": 2154,
 "level": "R4",
-"n": 1280
+"n": 1293
 },
 {
 "w": "discuss",
@@ -11528,7 +11645,7 @@
 "grp": "A",
 "rank": 2156,
 "level": "R4",
-"n": 1281
+"n": 1294
 },
 {
 "w": "relatively",
@@ -11537,7 +11654,7 @@
 "grp": "A",
 "rank": 2187,
 "level": "R4",
-"n": 1282
+"n": 1295
 },
 {
 "w": "advance",
@@ -11546,7 +11663,7 @@
 "grp": "A",
 "rank": 2198,
 "level": "R4",
-"n": 1283
+"n": 1296
 },
 {
 "w": "maintain",
@@ -11555,7 +11672,7 @@
 "grp": "A",
 "rank": 2217,
 "level": "R4",
-"n": 1284
+"n": 1297
 },
 {
 "w": "measure",
@@ -11564,7 +11681,7 @@
 "grp": "A",
 "rank": 2218,
 "level": "R4",
-"n": 1285
+"n": 1298
 },
 {
 "w": "numerous",
@@ -11573,7 +11690,7 @@
 "grp": "A",
 "rank": 2220,
 "level": "R4",
-"n": 1286
+"n": 1299
 },
 {
 "w": "specifically",
@@ -11582,7 +11699,7 @@
 "grp": "A",
 "rank": 2226,
 "level": "R4",
-"n": 1287
+"n": 1300
 },
 {
 "w": "urban",
@@ -11591,7 +11708,7 @@
 "grp": "A",
 "rank": 2232,
 "level": "R4",
-"n": 1288
+"n": 1301
 },
 {
 "w": "approximately",
@@ -11600,7 +11717,7 @@
 "grp": "A",
 "rank": 2238,
 "level": "R4",
-"n": 1289
+"n": 1302
 },
 {
 "w": "conflict",
@@ -11609,7 +11726,7 @@
 "grp": "A",
 "rank": 2242,
 "level": "R4",
-"n": 1290
+"n": 1303
 },
 {
 "w": "distribution",
@@ -11618,7 +11735,7 @@
 "grp": "A",
 "rank": 2247,
 "level": "R4",
-"n": 1291
+"n": 1304
 },
 {
 "w": "fill",
@@ -11627,7 +11744,7 @@
 "grp": "A",
 "rank": 2254,
 "level": "R4",
-"n": 1292
+"n": 1305
 },
 {
 "w": "properly",
@@ -11636,7 +11753,7 @@
 "grp": "A",
 "rank": 2264,
 "level": "R4",
-"n": 1293
+"n": 1306
 },
 {
 "w": "residents",
@@ -11645,7 +11762,7 @@
 "grp": "A",
 "rank": 2268,
 "level": "R4",
-"n": 1294
+"n": 1307
 },
 {
 "w": "revenue",
@@ -11654,7 +11771,7 @@
 "grp": "A",
 "rank": 2269,
 "level": "R4",
-"n": 1295
+"n": 1308
 },
 {
 "w": "secure",
@@ -11663,7 +11780,7 @@
 "grp": "A",
 "rank": 2272,
 "level": "R4",
-"n": 1296
+"n": 1309
 },
 {
 "w": "temperature",
@@ -11672,7 +11789,7 @@
 "grp": "A",
 "rank": 2276,
 "level": "R4",
-"n": 1297
+"n": 1310
 },
 {
 "w": "coverage",
@@ -11681,7 +11798,7 @@
 "grp": "A",
 "rank": 2294,
 "level": "R4",
-"n": 1298
+"n": 1311
 },
 {
 "w": "determine",
@@ -11690,7 +11807,7 @@
 "grp": "A",
 "rank": 2295,
 "level": "R4",
-"n": 1299
+"n": 1312
 },
 {
 "w": "experienced",
@@ -11699,7 +11816,7 @@
 "grp": "A",
 "rank": 2300,
 "level": "R4",
-"n": 1300
+"n": 1313
 },
 {
 "w": "false",
@@ -11708,7 +11825,7 @@
 "grp": "A",
 "rank": 2302,
 "level": "R4",
-"n": 1301
+"n": 1314
 },
 {
 "w": "editor",
@@ -11717,7 +11834,7 @@
 "grp": "A",
 "rank": 2344,
 "level": "R4",
-"n": 1302
+"n": 1315
 },
 {
 "w": "mayor",
@@ -11726,7 +11843,7 @@
 "grp": "A",
 "rank": 2353,
 "level": "R4",
-"n": 1303
+"n": 1316
 },
 {
 "w": "unfortunately",
@@ -11735,7 +11852,7 @@
 "grp": "A",
 "rank": 2373,
 "level": "R4",
-"n": 1304
+"n": 1317
 },
 {
 "w": "assembly",
@@ -11744,7 +11861,7 @@
 "grp": "A",
 "rank": 2382,
 "level": "R4",
-"n": 1305
+"n": 1318
 },
 {
 "w": "customer",
@@ -11753,7 +11870,7 @@
 "grp": "A",
 "rank": 2391,
 "level": "R4",
-"n": 1306
+"n": 1319
 },
 {
 "w": "draft",
@@ -11762,7 +11879,7 @@
 "grp": "A",
 "rank": 2395,
 "level": "R4",
-"n": 1307
+"n": 1320
 },
 {
 "w": "familiar",
@@ -11771,7 +11888,7 @@
 "grp": "A",
 "rank": 2399,
 "level": "R4",
-"n": 1308
+"n": 1321
 },
 {
 "w": "largely",
@@ -11780,7 +11897,7 @@
 "grp": "A",
 "rank": 2408,
 "level": "R4",
-"n": 1309
+"n": 1322
 },
 {
 "w": "relevant",
@@ -11789,7 +11906,7 @@
 "grp": "A",
 "rank": 2418,
 "level": "R4",
-"n": 1310
+"n": 1323
 },
 {
 "w": "seek",
@@ -11798,7 +11915,7 @@
 "grp": "A",
 "rank": 2419,
 "level": "R4",
-"n": 1311
+"n": 1324
 },
 {
 "w": "facility",
@@ -11807,7 +11924,7 @@
 "grp": "A",
 "rank": 2441,
 "level": "R4",
-"n": 1312
+"n": 1325
 },
 {
 "w": "reserve",
@@ -11816,7 +11933,7 @@
 "grp": "A",
 "rank": 2453,
 "level": "R4",
-"n": 1313
+"n": 1326
 },
 {
 "w": "affect",
@@ -11825,7 +11942,7 @@
 "grp": "A",
 "rank": 2467,
 "level": "R4",
-"n": 1314
+"n": 1327
 },
 {
 "w": "assistance",
@@ -11834,7 +11951,7 @@
 "grp": "A",
 "rank": 2471,
 "level": "R4",
-"n": 1315
+"n": 1328
 },
 {
 "w": "corporation",
@@ -11843,7 +11960,7 @@
 "grp": "A",
 "rank": 2481,
 "level": "R4",
-"n": 1316
+"n": 1329
 },
 {
 "w": "deserve",
@@ -11852,7 +11969,7 @@
 "grp": "A",
 "rank": 2486,
 "level": "R4",
-"n": 1317
+"n": 1330
 }
 ]
 }

@@ -13,7 +13,7 @@ import '../widgets/english_decor.dart';
 import '../widgets/word_sheet.dart';
 import 'toeic_words.dart';
 
-/// 토익 단어 익히기 — 1,317어를 20어 단원 타일로(절벽 단어 화면과 같은 부품). 묶음: 기본 빈도어 · 명사 · 동사 · 형용사 · 부사.
+/// 토익 단어 익히기 — 1,330어를 20어 단원 타일로(절벽 단어 화면과 같은 부품). 묶음: 기본 빈도어 · 명사 · 동사 · 형용사 · 부사.
 /// 타일을 누르면 발음, 길게 누르면 단어 시트. 오른쪽 위 퀴즈 = 뜻 고르기 4지선다.
 class ToeicWordsScreen extends StatefulWidget {
   const ToeicWordsScreen({super.key});

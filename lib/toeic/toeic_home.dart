@@ -43,7 +43,7 @@ class _ToeicLearnTab extends StatelessWidget {
             seal: 'Voca',
             sealColor: AppColors.matcha,
             title: tr('토익 단어 익히기'),
-            subtitle: tr('1,317어 · 20어 단원 · 명사·동사·형용사·부사·관용표현 → 기본 빈도어'),
+            subtitle: tr('1,330어 · 20어 단원 · 명사·동사·형용사·부사·관용표현 → 기본 빈도어'),
             onTap: () => openPane(context, (_) => const ToeicWordsScreen()),
           ),
           NavRow(

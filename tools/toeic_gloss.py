@@ -139,6 +139,7 @@ G = {
  'stipulate': 'v|규정하다, 명시하다', 'stipulation': 'n|규정, 조항', 'substitute': 'n|대체물, 대리인 / v 대체하다', 'sustain': 'v|지속하다, 지탱하다', 'sustainability': 'n|지속 가능성',
  'tear': 'v|찢다 / n 찢어진 곳, 눈물', 'urge': 'v|촉구하다 / n 충동', 'withstand': 'v|견디다',
  'community': 'n|지역 사회, 공동체', 'aspect': 'n|측면, 양상', 'dispute': 'n|분쟁, 논쟁 / v 반박하다',
+ 'preliminary': 'a|예비의, 준비의', 'respective': 'a|각각의', 'rigorous': 'a|엄격한, 철저한', 'robust': 'a|튼튼한, 탄탄한', 'resume': 'v|재개하다 / n 이력서(résumé)', 'record': 'n|기록 / v 기록하다 / a 기록적인',
 }
 
 # 관용표현(토익 빈출 구) — 뜻은 이 세션이 직접 씀. 품사 phr.
@@ -162,4 +163,5 @@ I = {
  '24 hours a day': '하루 24시간', 'A and B alike': 'A와 B 모두', 'below the average': '평균 이하의', 'beyond repair': '수리할 수 없는', 'by fax': '팩스로', "do one's utmost": '최선을 다하다',
  'double-digit increase': '두 자릿수 증가', 'lag behind': '뒤처지다', 'make something public': '~을 공개하다', 'make sure': '반드시 ~하다, 확인하다', 'raise questions': '의문을 제기하다',
  'A through B': 'A부터 B까지', 'upon request': '요청 시', 'within walking distance': '걸어갈 수 있는 거리에', 'be worth doing': '~할 가치가 있다',
+ 'a great deal of': '많은(양)', 'a variety of': '다양한', 'pick up': '~을 집다, 태우러 가다, (기술을) 익히다', 'set up': '설치하다, 설립하다', 'put off': '미루다', 'pay off': '성과를 내다, (빚을) 다 갚다', 'would like': '~하고 싶다, ~을 원하다',
 }

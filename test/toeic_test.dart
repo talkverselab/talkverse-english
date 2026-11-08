@@ -33,7 +33,7 @@ void main() {
     await t.pumpWidget(MaterialApp(theme: AppTheme.light(), home: const ToeicWordsScreen()));
     await waitFor(t, find.text('1단원'));
     expect(find.text('1단원'), findsOneWidget);
-    expect(find.textContaining('1,317개'), findsOneWidget);
+    expect(find.textContaining('1,330개'), findsOneWidget);
     await t.pumpWidget(MaterialApp(theme: AppTheme.light(), home: const ToeicQuizScreen(group: 'I')));
     await waitFor(t, find.text('1 / 10'));
     expect(find.text('1 / 10'), findsOneWidget);
