@@ -8,7 +8,7 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 |---|---|
 | ① 캐릭터 시트 | **사용자 통과 2026-11-03** — `data/review/art/chars_en_v1.jpg`, 특징 `data/review/uxui/CHARACTERS.md` (뉴욕 브루클린: Maya·Emma·Jake·Daniel·학습자 남/여). talkverse.uk 세션이 그림 저장소 `chars/en_sheet.jpg` 로 반영 |
 | ② UX/UI 시안 | **사용자 통과 2026-11-03** — 그림 `data/review/uxui/sian_en_01.jpg`(Grok), 글 `sian_en_01.md`(이 세션) + `sian_en_grok_01.md`(Grok). 적용 전 태그 `pre-grok-uxui` |
-| ③ 아이패드 빌드 | **완료** — 최신 Android **영어 Zealot 빌드 11** https://apps.talkverse.uk/Eyi4j/337 · **토익 Zealot 빌드 11** https://apps.talkverse.uk/oQESn/336(커밋 `d908e0b` 토익 비즈니스 회화 10편, 2026-11-08 13:2x) · iOS 는 **TestFlight 2611060005**(`68de096`)가 최신 — 2026-11-07 Xcode 27.2 첫 실행 미완료(CoreSimulator 1174.9.2)로 iOS 빌드 정지, `~/macmini6/scripts/xcode-firstlaunch.sh`(sudo) 뒤 영어·토익 둘 다 올릴 것. 사용자 지시 2026-11-08 "푸쉬 멈추지 말고 진행" → Android 만 먼저 |
+| ③ 아이패드 빌드 | **완료** — 최신 Android **영어 Zealot 빌드 11** https://apps.talkverse.uk/Eyi4j/337 · **토익 Zealot 빌드 12** https://apps.talkverse.uk/oQESn/338(커밋 `2465884` 토익 비즈니스 회화 18편, 2026-11-08 13:5x) · iOS 는 **TestFlight 2611060005**(`68de096`)가 최신 — 2026-11-07 Xcode 27.2 첫 실행 미완료(CoreSimulator 1174.9.2)로 iOS 빌드 정지, `~/macmini6/scripts/xcode-firstlaunch.sh`(sudo) 뒤 영어·토익 둘 다 올릴 것. 사용자 지시 2026-11-08 "푸쉬 멈추지 말고 진행" → Android 만 먼저 |
 | ④ 회화 | **2026-11-07 Claude 초안 시작(사용자 지시, uk 전달·공통 프롬프터 §12)** — 샘플 7편 + 음성(MOSS, 미국 말투, `audio_lines` 132줄), 리뷰 https://talkverse.uk/talkverse/review/en/ . **사용자 톤 확인 뒤 양산.** 앱에는 아직 안 넣음(pubspec·음성 코드). Grok 재작성은 11월 10일 이후. 규칙 `docs/DIALOGUE_EN.md` |
 
 ## 앱내앱(사용자 지시 2026-11-08, 전자책 세션 전달 → 사용자 "ㅇㅋ 고")
