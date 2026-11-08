@@ -32,19 +32,19 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Someone took the yogurt which had my name on it.",
-   "ko": "누가 내 이름 적힌 요거트를 가져갔어.",
+   "en": "Someone removed the yogurt which was clearly labeled with my name.",
+   "ko": "누가 내 이름이 분명히 붙은 요거트를 치웠어.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "which had my name on it"
+     "which was clearly labeled with my name"
     ],
     "red": [
      "which"
     ],
-    "note": "which = 사물 선행사"
+    "note": "which = 사물 선행사(yogurt)"
    },
    "emotion": "annoyed",
    "lemmas": [
@@ -54,13 +54,23 @@
      ""
     ],
     [
-     "took",
-     "take",
+     "removed",
+     "remove",
      ""
     ],
     [
      "yogurt",
      "yogurt",
+     ""
+    ],
+    [
+     "clearly",
+     "clear",
+     ""
+    ],
+    [
+     "labeled",
+     "label",
      ""
     ],
     [
@@ -73,8 +83,8 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "The person who took it left the spoon.",
-   "ko": "가져간 사람이 숟가락은 두고 갔네.",
+   "en": "The employee who took it left the spoon in the sink.",
+   "ko": "가져간 직원이 숟가락은 싱크대에 두고 갔네.",
    "note": "",
    "tags": [],
    "new": [],
@@ -85,13 +95,13 @@
     "red": [
      "who"
     ],
-    "note": "who = 사람 선행사"
+    "note": "who = 사람 선행사(employee)"
    },
    "emotion": "amused",
    "lemmas": [
     [
-     "person",
-     "person",
+     "employee",
+     "employee",
      ""
     ],
     [
@@ -108,20 +118,25 @@
      "spoon",
      "spoon",
      ""
+    ],
+    [
+     "sink",
+     "sink",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "en": "A spoon whose handle is blue. Company spoon.",
-   "ko": "손잡이가 파란 숟가락. 회사 숟가락이야.",
+   "en": "A spoon whose handle is company blue. That narrows it down.",
+   "ko": "손잡이가 회사 파란색인 숟가락. 범위가 좁혀지네.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "whose handle is blue"
+     "whose handle is company blue"
     ],
     "red": [
      "whose"
@@ -141,18 +156,18 @@
      ""
     ],
     [
-     "blue",
-     "blue",
-     ""
-    ],
-    [
-     "Company",
+     "company",
      "company",
      ""
     ],
     [
-     "spoon",
-     "spoon",
+     "blue",
+     "blue",
+     ""
+    ],
+    [
+     "narrows",
+     "narrow",
      ""
     ]
    ]
@@ -160,21 +175,36 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "That narrows it down to everyone.",
-   "ko": "그럼 용의자가 전원으로 좁혀지는데.",
+   "en": "To everyone on this floor, including the cleaning staff.",
+   "ko": "이 층 전원으로. 청소 직원 포함.",
    "note": "받아치기",
    "tags": [],
    "new": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "narrows",
-     "narrow",
+     "everyone",
+     "everyone",
      ""
     ],
     [
-     "everyone",
-     "everyone",
+     "floor",
+     "floor",
+     ""
+    ],
+    [
+     "including",
+     "include",
+     ""
+    ],
+    [
+     "cleaning",
+     "clean",
+     ""
+    ],
+    [
+     "staff",
+     "staff",
      ""
     ]
    ]
@@ -182,14 +212,14 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "What I want is a name, Raj.",
-   "ko": "내가 원하는 건 이름이야, 라지.",
+   "en": "What I need is a name, not a suspect list.",
+   "ko": "내가 필요한 건 이름이지 용의자 명단이 아니야.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "What I want"
+     "What I need"
     ],
     "red": [
      "What"
@@ -199,8 +229,8 @@
    "emotion": "annoyed",
    "lemmas": [
     [
-     "want",
-     "want",
+     "need",
+     "need",
      ""
     ],
     [
@@ -209,8 +239,13 @@
      ""
     ],
     [
-     "Raj",
-     "raj",
+     "suspect",
+     "suspect",
+     ""
+    ],
+    [
+     "list",
+     "list",
      ""
     ]
    ]
@@ -218,8 +253,8 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Hold on. Someone is wiping her mouth.",
-   "ko": "잠깐. 누가 입을 닦고 있어.",
+   "en": "Hold on. Someone is wiping her mouth near the copier.",
+   "ko": "잠깐. 누가 복사기 옆에서 입을 닦고 있어.",
    "note": "hold on = 잠깐",
    "tags": [],
    "new": [],
@@ -244,14 +279,24 @@
      "mouth",
      "mouth",
      ""
+    ],
+    [
+     "near",
+     "near",
+     ""
+    ],
+    [
+     "copier",
+     "copy",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "C",
-   "en": "It was expired. I saved you.",
-   "ko": "유통기한 지났더라. 내가 널 구한 거야.",
+   "en": "It expired yesterday. Consider it a safety inspection.",
+   "ko": "어제 유통기한 지났더라. 안전 점검이라고 생각해.",
    "note": "팀장의 당당한 자백",
    "tags": [],
    "new": [],
@@ -263,8 +308,23 @@
      ""
     ],
     [
-     "saved",
-     "save",
+     "yesterday",
+     "yesterday",
+     ""
+    ],
+    [
+     "Consider",
+     "consider",
+     ""
+    ],
+    [
+     "safety",
+     "safety",
+     ""
+    ],
+    [
+     "inspection",
+     "inspection",
      ""
     ]
    ]
@@ -272,8 +332,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "I knew it. You owe me a yogurt which isn't expired.",
-   "ko": "그럴 줄 알았어요. 안 지난 요거트로 갚으세요.",
+   "en": "I knew it. You owe me a yogurt which hasn't expired.",
+   "ko": "그럴 줄 알았어요. 유통기한 안 지난 요거트로 갚으세요.",
    "note": "",
    "tags": [
     "expr:i knew it"
@@ -285,7 +345,7 @@
    ],
    "gram": {
     "u": [
-     "which isn't expired"
+     "which hasn't expired"
     ],
     "red": [
      "which"
@@ -322,7 +382,7 @@
   "ko": "사람은 who, 사물은 which, 소유는 whose. 「~하는 것」 전체는 what(선행사가 없다). 뒤 문장의 빠진 자리를 보고 고른다."
  },
  "check": {
-  "q": "The person _____ took my yogurt left the spoon.",
+  "q": "The employee _____ took the yogurt left the spoon in the sink.",
   "options": [
    "who",
    "which",

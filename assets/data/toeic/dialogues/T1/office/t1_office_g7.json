@@ -31,30 +31,30 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "This printer is broken.",
-   "ko": "이 프린터 고장 났어.",
+   "en": "This copier is out of order again.",
+   "ko": "이 복사기 또 고장이야.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "This printer"
+     "This copier"
     ],
     "red": [
      "This"
     ],
-    "note": "this one 의 this"
+    "note": "this one 의 this(가까운 것)"
    },
    "emotion": "annoyed",
    "lemmas": [
     [
-     "printer",
-     "print",
+     "copier",
+     "copy",
      ""
     ],
     [
-     "broken",
-     "break",
+     "order",
+     "order",
      ""
     ]
    ]
@@ -62,8 +62,8 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Use the other one. By the window.",
-   "ko": "다른 거 써. 창가에 있는 거.",
+   "en": "Use the other one by the window. It was serviced last week.",
+   "ko": "창가에 있는 다른 거 써. 지난주에 점검받았어.",
    "note": "",
    "tags": [],
    "new": [],
@@ -87,15 +87,30 @@
      "window",
      "window",
      ""
+    ],
+    [
+     "serviced",
+     "service",
+     ""
+    ],
+    [
+     "last",
+     "last",
+     ""
+    ],
+    [
+     "week",
+     "week",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "en": "The other one is also broken.",
-   "ko": "그것도 고장 났어.",
-   "note": "되풀이",
+   "en": "The other one is displaying an error code too.",
+   "ko": "그것도 오류 코드가 떠.",
+   "note": "",
    "tags": [],
    "new": [],
    "gram": {
@@ -105,13 +120,23 @@
     "red": [
      "The other"
     ],
-    "note": ""
+    "note": "the other 되풀이"
    },
    "emotion": "annoyed",
    "lemmas": [
     [
-     "broken",
-     "break",
+     "displaying",
+     "display",
+     ""
+    ],
+    [
+     "error",
+     "error",
+     ""
+    ],
+    [
+     "code",
+     "code",
      ""
     ]
    ]
@@ -119,8 +144,8 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Then another one, third floor.",
-   "ko": "그럼 또 다른 거, 3층.",
+   "en": "Then try another one on the third floor.",
+   "ko": "그럼 3층에 있는 또 다른 거 써 봐.",
    "note": "",
    "tags": [],
    "new": [],
@@ -136,6 +161,11 @@
    "emotion": "neutral",
    "lemmas": [
     [
+     "try",
+     "try",
+     ""
+    ],
+    [
      "third",
      "third",
      ""
@@ -150,21 +180,36 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Not again. That one eats paper.",
-   "ko": "또야? 거긴 종이를 먹어.",
+   "en": "Not again. That one jams every time I print double-sided.",
+   "ko": "또야? 거긴 양면 인쇄만 하면 걸려.",
    "note": "not again = 또야",
    "tags": [],
    "new": [],
    "emotion": "flustered",
    "lemmas": [
     [
-     "eats",
-     "eat",
+     "jams",
+     "jam",
      ""
     ],
     [
-     "paper",
-     "paper",
+     "time",
+     "time",
+     ""
+    ],
+    [
+     "print",
+     "print",
+     ""
+    ],
+    [
+     "double",
+     "double",
+     ""
+    ],
+    [
+     "sided",
+     "side",
      ""
     ]
    ]
@@ -172,8 +217,8 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Fine. The others are in the basement.",
-   "ko": "알았어. 나머지는 지하에 있어.",
+   "en": "Fine. The others are in the basement storage room.",
+   "ko": "알았어. 나머지는 지하 창고에 있어.",
    "note": "",
    "tags": [],
    "new": [],
@@ -197,14 +242,24 @@
      "basement",
      "basement",
      ""
+    ],
+    [
+     "storage",
+     "storage",
+     ""
+    ],
+    [
+     "room",
+     "room",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "en": "Come on. Why are all of them broken?",
-   "ko": "아 진짜. 왜 전부 다 고장이야?",
+   "en": "Come on. Why are all of them out of service at once?",
+   "ko": "아 진짜. 왜 전부 한꺼번에 고장이야?",
    "note": "come on = 아 진짜",
    "tags": [],
    "new": [],
@@ -225,8 +280,13 @@
      ""
     ],
     [
-     "broken",
-     "break",
+     "service",
+     "service",
+     ""
+    ],
+    [
+     "once",
+     "once",
      ""
     ]
    ]
@@ -234,8 +294,8 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Olivia printed the budget. All of it. Twice.",
-   "ko": "올리비아가 예산안을 뽑았거든. 전부. 두 번.",
+   "en": "Olivia printed the annual budget. All 400 pages. In color. Twice.",
+   "ko": "올리비아가 연간 예산안을 뽑았거든. 400쪽 전부. 컬러로. 두 번.",
    "note": "카오스의 원인",
    "tags": [],
    "new": [
@@ -255,8 +315,23 @@
      ""
     ],
     [
+     "annual",
+     "annual",
+     ""
+    ],
+    [
      "budget",
      "budget",
+     ""
+    ],
+    [
+     "pages",
+     "page",
+     ""
+    ],
+    [
+     "color",
+     "color",
      ""
     ],
     [
@@ -272,7 +347,7 @@
   "ko": "one(같은 종류 아무 하나), another(또 다른 하나), the other(남은 하나), the others(남은 전부). 몇 개 중 몇 번째인지로 고른다."
  },
  "check": {
-  "q": "This printer is broken. Use _____ one.",
+  "q": "This copier is out of order. Please use _____ one on the third floor.",
   "options": [
    "other",
    "another",

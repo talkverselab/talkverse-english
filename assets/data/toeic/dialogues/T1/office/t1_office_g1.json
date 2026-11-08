@@ -31,11 +31,20 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Hi Grace. Did you get my vacation request?",
-   "ko": "안녕하세요 그레이스. 제 휴가 신청 받으셨어요?",
-   "note": "vacation request = 휴가 신청",
+   "en": "Hi Grace. Could you confirm whether my vacation request has been approved?",
+   "ko": "안녕하세요 그레이스. 제 휴가 신청이 승인됐는지 확인해 주실 수 있어요?",
+   "note": "",
    "tags": [],
    "new": [],
+   "gram": {
+    "u": [
+     "whether my vacation request has been approved"
+    ],
+    "red": [
+     "whether"
+    ],
+    "note": "whether = ~인지 아닌지(명사절, confirm 의 목적어)"
+   },
    "emotion": "polite",
    "lemmas": [
     [
@@ -44,8 +53,13 @@
      ""
     ],
     [
-     "get",
-     "get",
+     "confirm",
+     "confirm",
+     ""
+    ],
+    [
+     "whether",
+     "whether",
      ""
     ],
     [
@@ -56,6 +70,11 @@
     [
      "request",
      "request",
+     ""
+    ],
+    [
+     "approved",
+     "approved",
      ""
     ]
    ]
@@ -63,20 +82,11 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "I did. I'm not sure whether it was approved.",
-   "ko": "받았죠. 승인됐는지는 잘 모르겠어요.",
-   "note": "",
+   "en": "I'm not sure. The new HR system was updated over the weekend.",
+   "ko": "잘 모르겠어요. 새 인사 시스템이 주말에 업데이트됐거든요.",
+   "note": "i'm not sure = 잘 모르겠어요",
    "tags": [],
    "new": [],
-   "gram": {
-    "u": [
-     "whether it was approved"
-    ],
-    "red": [
-     "whether"
-    ],
-    "note": "whether = ~인지 아닌지(명사절)"
-   },
    "emotion": "neutral",
    "lemmas": [
     [
@@ -85,13 +95,28 @@
      ""
     ],
     [
-     "whether",
-     "whether",
+     "new",
+     "new",
      ""
     ],
     [
-     "approved",
-     "approved",
+     "HR",
+     "hr",
+     ""
+    ],
+    [
+     "system",
+     "system",
+     ""
+    ],
+    [
+     "updated",
+     "update",
+     ""
+    ],
+    [
+     "weekend",
+     "weekend",
      ""
     ]
    ]
@@ -99,8 +124,8 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "You're not sure? You approve them.",
-   "ko": "모르신다고요? 승인은 그쪽이 하시잖아요.",
+   "en": "You're not sure? Approvals are handled by your department.",
+   "ko": "모르신다고요? 승인은 그쪽 부서가 처리하잖아요.",
    "note": "받아치기",
    "tags": [],
    "new": [],
@@ -112,8 +137,18 @@
      ""
     ],
     [
-     "approve",
-     "approve",
+     "Approvals",
+     "approval",
+     ""
+    ],
+    [
+     "handled",
+     "handle",
+     ""
+    ],
+    [
+     "department",
+     "department",
      ""
     ]
    ]
@@ -121,19 +156,19 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "I know that I approved something this morning.",
-   "ko": "오늘 아침에 뭔가를 승인한 건 알아요.",
+   "en": "I know that I approved several requests this morning.",
+   "ko": "오늘 아침에 신청 여러 건을 승인한 건 알아요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "that I approved something this morning"
+     "that I approved several requests this morning"
     ],
     "red": [
      "that"
     ],
-    "note": "that = ~라는 것(명사절)"
+    "note": "that = ~라는 것(명사절, know 의 목적어)"
    },
    "emotion": "neutral",
    "lemmas": [
@@ -148,8 +183,13 @@
      ""
     ],
     [
-     "something",
-     "something",
+     "several",
+     "several",
+     ""
+    ],
+    [
+     "requests",
+     "request",
      ""
     ],
     [
@@ -162,21 +202,31 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Something? Like what?",
-   "ko": "뭔가요? 예를 들면요?",
+   "en": "Several? Including mine, I hope.",
+   "ko": "여러 건이요? 제 것도 들어 있길 바라요.",
    "note": "되묻기",
    "tags": [],
    "new": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "Something",
-     "something",
+     "Several",
+     "several",
      ""
     ],
     [
-     "Like",
-     "like",
+     "Including",
+     "include",
+     ""
+    ],
+    [
+     "mine",
+     "mine",
+     ""
+    ],
+    [
+     "hope",
+     "hope",
      ""
     ]
    ]
@@ -184,14 +234,14 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "The system asked if I wanted to delete all requests.",
-   "ko": "시스템이 신청을 전부 삭제할지 묻더라고요.",
+   "en": "Then the system asked if I wanted to clear all pending requests.",
+   "ko": "그러고 나서 시스템이 대기 중인 신청을 전부 지울지 묻더라고요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "if I wanted to delete all requests"
+     "if I wanted to clear all pending requests"
     ],
     "red": [
      "if"
@@ -216,8 +266,13 @@
      ""
     ],
     [
-     "delete",
-     "delete",
+     "clear",
+     "clear",
+     ""
+    ],
+    [
+     "pending",
+     "pending",
      ""
     ],
     [
@@ -230,16 +285,26 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "And you said yes.",
-   "ko": "그래서 네라고 하셨군요.",
+   "en": "And you clicked \"yes\" without reading it.",
+   "ko": "그래서 안 읽고 \"예\"를 누르셨군요.",
    "note": "반전 확인",
    "tags": [],
    "new": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
-     "said",
-     "say",
+     "clicked",
+     "click",
+     ""
+    ],
+    [
+     "without",
+     "without",
+     ""
+    ],
+    [
+     "reading",
+     "read",
      ""
     ]
    ]
@@ -247,8 +312,8 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "No worries. Nobody is going anywhere now.",
-   "ko": "걱정 마요. 이제 아무도 아무 데도 안 가요.",
+   "en": "No worries. Nobody in this building is going anywhere this year.",
+   "ko": "걱정 마요. 올해 이 건물에서 아무도 아무 데도 안 가요.",
    "note": "규정 로봇의 위로",
    "tags": [
     "expr:no worries"
@@ -267,6 +332,11 @@
      ""
     ],
     [
+     "building",
+     "build",
+     ""
+    ],
+    [
      "going",
      "going",
      ""
@@ -274,6 +344,11 @@
     [
      "anywhere",
      "anywhere",
+     ""
+    ],
+    [
+     "year",
+     "year",
      ""
     ]
    ]
@@ -284,7 +359,7 @@
   "ko": "「~라는 것」은 that, 「~인지 아닌지」는 whether·if. 동사 뒤에 절이 통째로 목적어가 된다."
  },
  "check": {
-  "q": "I'm not sure _____ my vacation was approved.",
+  "q": "Could you confirm _____ my vacation request has been approved?",
   "options": [
    "that",
    "whether",

@@ -1,26 +1,41 @@
 lemma,reading,count,example
 pizza,,7,Maya's pizza is so bad 😂
+client,,6,"I mean, the client seemed genuinely excited."
 twelve,,4,"Yes isn't a number, friend. I'll say twelve."
-print,,4,So the broken printer goes…
-delete,,3,The system asked if I wanted to delete all requests.
-olivia,,3,Everyone now knows Raj earns more than Olivia.
-slide,,3,The slides were boring. You were interesting.
-client,,3,"I mean, the client was excited."
-spoon,,3,The person who took it left the spoon.
+print,,4,So the damaged printer returned by the client goes…
+thirty,,3,Oh no. I hit thirty percent.
+confirm,,3,Hi Grace. Could you confirm whether my vacation request has been approved?
+arrive,,3,Please arrive at the conference room by nine.
+distributed,,3,Who distributed the compensation file to the entire company?
 excuse,,2,Excuse me. I saw that book first.
-thirty,,2,Oh no. I hit thirty percent.
 sandwich,,2,Who? The cashier? He's just a guy who sells me sandwiches.
-confident,,2,I sent the salary file to the team. Felt confident.
-raj,,2,Everyone now knows Raj earns more than Olivia.
-forty,,2,Sounds good. Lunch is forty dollars. Sign here.
-bored,,2,Everyone looked bored.
-boring,,2,"Bored, or boring?"
-respond,,2,I always respond to invitations on time.
-button,,2,It was clicked. The button was pressed.
-confirm,,2,"Just to confirm, which email?"
-stairs,,2,Despite the stairs right there?
-yogurt,,2,Someone took the yogurt which had my name on it.
-expired,,2,It was expired. I saved you.
+hr,,2,I'm not sure. The new HR system was updated over the weekend.
+compensation,,2,I forwarded the compensation file to the team. I felt confident about it.
+confident,,2,I forwarded the compensation file to the team. I felt confident about it.
+attachment,,2,"The attachment marked ""Confidential — HR Only""?"
+branch,,2,All Staff. Every branch. The reach was considerable.
+postpone,,2,"To be honest, our legal team decided to postpone the signing."
+vendor,,2,I came to have lunch with my favorite vendor. The contract was a bonus.
+forty,,2,Sounds good. Lunch is forty dollars per person. Sign here.
+overtime,,2,You can't avoid working overtime during the audit season.
+audit,,2,You can't avoid working overtime during the audit season.
+bored,,2,The entire audience looked bored by slide three.
+slide,,2,The entire audience looked bored by slide three.
+boring,,2,"Bored, or boring? Be specific."
+label,,2,"The label reads ""shipped items — this side of the dock."""
+personnel,,2,"And ""shipping personnel — that side."""
+revised,,2,Let's discuss about the revised delivery schedule.
+respond,,2,I always respond to meeting invitations promptly.
+button,,2,The attachment was selected. The send button was pressed.
+incident,,2,Then the incident was happened.
+invoice,,2,Our accounting team has waited for the invoice since Monday.
+concrete,,2,The cheapest option is as hard as a concrete block.
+poll,,2,Lunch poll results. Either we order pizza or we skip lunch entirely.
+yogurt,,2,Someone removed the yogurt which was clearly labeled with my name.
+spoon,,2,The employee who took it left the spoon in the sink.
+expired,,2,It expired yesterday. Consider it a safety inspection.
+suffering,,2,By means I deliver it. Until means I keep suffering.
+adjustment,,2,"However, the budget for salary adjustments was cut by forty."
 chat,,1,Oh no. Wrong chat.
 tip,,1,Wait. Is this a tip? For a cookie?
 cookie,,1,Wait. Is this a tip? For a cookie?
@@ -32,42 +47,89 @@ upside,,1,Look who's talking. You've been holding that book upside down.
 experimental,,1,It's a very experimental novel.
 jealous,,1,Emma. Are you a little jealous?
 nicest,,1,That might be the nicest thing you've ever said to me.
-grace,,1,Hi Grace. Did you get my vacation request?
-vacation,,1,Hi Grace. Did you get my vacation request?
-approve,,1,You're not sure? You approve them.
-salary,,1,I sent the salary file to the team. Felt confident.
-confidential,,1,"The file named ""Confidential""?"
-typo,,1,"I thought it was a typo of ""confident."""
-considerable,,1,All. The whole building. Considerable reach.
-earn,,1,Everyone now knows Raj earns more than Olivia.
-considerate,,1,I'll be considerate and delete it. From my side.
-pen,,1,Great. Pen or tablet?
-tablet,,1,Great. Pen or tablet?
-bonus,,1,I came to have lunch. The contract was a bonus.
-presentation,,1,"Honestly, how was my presentation?"
-exciting,,1,You read the slides. Wrong slides. Very exciting.
-label,,1,"The label says ""shipped boxes, this side."""
-category,,1,A shipped client. New category.
-attend,,1,Fine. I'll attend the meeting.
-arrive,,1,"And arrive at nine, please."
-invitation,,1,I always respond to invitations on time.
-invoice,,1,We have waited for the invoice since Monday.
-spam,,1,My bad. I have already found it. In spam.
-costly,,1,No way. Told you — cheapest is costliest.
-upstairs,,1,Although you live upstairs.
-elevator,,1,The elevator was crowded because everyone was late.
-starve,,1,Lunch vote. Either we order pizza or we starve.
-eleven,,1,No way. You're paying for eleven.
-narrow,,1,That narrows it down to everyone.
-wipe,,1,Hold on. Someone is wiping her mouth.
-owe,,1,I knew it. You owe me a yogurt which isn't expired.
-suffer,,1,By means I finish. Until means I suffer.
-suffering,,1,I'll be suffering until Friday after all.
-bakery,,1,Across the street is a bakery.
-basement,,1,Fine. The others are in the basement.
-overtime,,1,Equipment doesn't count. Like your overtime.
-truckload,,1,"Three truckloads, apparently."
-furniture,,1,"My bad. I also wrote ""furnitures."""
-sofa,,1,Seriously? There's a sofa in my parking spot.
-uncountable,,1,Advice is uncountable. So is your damage.
-swear,,1,I swear it's coming right now. Just the body.
+grace,,1,Hi Grace. Could you confirm whether my vacation request has been approved?
+vacation,,1,Hi Grace. Could you confirm whether my vacation request has been approved?
+approval,,1,You're not sure? Approvals are handled by your department.
+pending,,1,Then the system asked if I wanted to clear all pending requests.
+confidential,,1,"The attachment marked ""Confidential — HR Only""?"
+assume,,1,"I assumed it was a typo for ""confident."""
+typo,,1,"I assumed it was a typo for ""confident."""
+considerable,,1,All Staff. Every branch. The reach was considerable.
+raj,,1,Everyone now knows Raj earns more than his supervisor.
+earn,,1,Everyone now knows Raj earns more than his supervisor.
+supervisor,,1,Everyone now knows Raj earns more than his supervisor.
+considerate,,1,"I'll be considerate and recall the message. From my inbox, at least."
+recall,,1,"I'll be considerate and recall the message. From my inbox, at least."
+inbox,,1,"I'll be considerate and recall the message. From my inbox, at least."
+finalize,,1,We came to finalize the service agreement this afternoon.
+prefer,,1,Excellent. Would you prefer a pen or the tablet?
+pen,,1,Excellent. Would you prefer a pen or the tablet?
+tablet,,1,Excellent. Would you prefer a pen or the tablet?
+bonus,,1,I came to have lunch with my favorite vendor. The contract was a bonus.
+transparent,,1,Thank you for being so transparent about your priorities.
+priority,,1,Thank you for being so transparent about your priorities.
+presentation,,1,"Honestly, how did my presentation go?"
+exciting,,1,You presented last year's figures. From a different department. Very exciting.
+genuine,,1,"I mean, the client seemed genuinely excited."
+dock,,1,"The label reads ""shipped items — this side of the dock."""
+gentleman,,1,The gentleman standing next to the delivery truck.
+departed,,1,Oh no. That truck just departed. With the printer. And Tom.
+category,,1,A shipped client. That's a new category for the inventory system.
+inventory,,1,A shipped client. That's a new category for the inventory system.
+attend,,1,Noted. I'll attend the meeting in person tomorrow.
+invitation,,1,I always respond to meeting invitations promptly.
+prompt,,1,I always respond to meeting invitations promptly.
+unintentionally,,1,The file was distributed. Unintentionally.
+notified,,1,You changed it last month and notified us yourself.
+spam,,1,My bad. I have just located it. In the spam folder.
+fold,,1,My bad. I have just located it. In the spam folder.
+considerably,,1,This model is considerably cheaper than the one we use now.
+catalog,,1,That one is more comfortable than anything in this catalog.
+procurement,,1,Procurement policy says we purchase the cheapest option available.
+freight,,1,Twenty chairs plus freight. Shipping turned out to be the most expensive line item.
+item,,1,Twenty chairs plus freight. Shipping turned out to be the most expensive line item.
+costly,,1,No way. Told you — the cheapest option is always the costliest.
+downtown,,1,I was late because of heavy traffic downtown.
+elevator,,1,The elevator was out of service because maintenance was scheduled today.
+maintenance,,1,The elevator was out of service because maintenance was scheduled today.
+staircase,,1,Despite the staircase right next to it?
+stairs,,1,"Honestly, I took the stairs. In the wrong direction."
+desk,,1,"I'll arrive early tomorrow, because I'm sleeping under my desk."
+skip,,1,Lunch poll results. Either we order pizza or we skip lunch entirely.
+hostage,,1,That's not a poll. That's a hostage situation.
+affordable,,1,Pizza is not only affordable but also delivered within thirty minutes.
+finger,,1,Twelve. Neither the corporate card nor my finger stopped in time.
+expense,,1,No way. The expense report will say eleven are yours.
+eleven,,1,No way. The expense report will say eleven are yours.
+employee,,1,The employee who took it left the spoon in the sink.
+sink,,1,The employee who took it left the spoon in the sink.
+narrow,,1,A spoon whose handle is company blue. That narrows it down.
+suspect,,1,"What I need is a name, not a suspect list."
+wipe,,1,Hold on. Someone is wiping her mouth near the copier.
+inspection,,1,It expired yesterday. Consider it a safety inspection.
+owe,,1,I knew it. You owe me a yogurt which hasn't expired.
+proposal,,1,I need the revised proposal by Friday. The board meets on Monday.
+meaningful,,1,Is there a meaningful difference?
+deliver,,1,By means I deliver it. Until means I keep suffering.
+suppose,,1,"Oh. Then in one day, I suppose."
+salary,,1,"However, the budget for salary adjustments was cut by forty."
+shift,,1,"In addition, I've covered weekend shifts for three months."
+bakery,,1,The company across the street is a bakery.
+submit,,1,"Fair enough. That's it, I'm submitting my resignation."
+resignation,,1,"Fair enough. That's it, I'm submitting my resignation."
+error,,1,The other one is displaying an error code too.
+jam,,1,Not again. That one jams every time I print double-sided.
+basement,,1,Fine. The others are in the basement storage room.
+storage,,1,Fine. The others are in the basement storage room.
+olivia,,1,Olivia printed the annual budget. All 400 pages. In color. Twice.
+plural,,1,Equipment doesn't take a plural. Neither does your overtime pay.
+truckload,,1,"Three truckloads, according to the delivery confirmation."
+confirmation,,1,"Three truckloads, according to the delivery confirmation."
+furniture,,1,"My bad. I also requested ""furnitures"" on the same form."
+beforehand,,1,Some advice beforehand would have been appreciated.
+uncountable,,1,Advice is uncountable. So is the damage to your reputation.
+reputation,,1,Advice is uncountable. So is the damage to your reputation.
+submitted,,1,The quarterly report. Still not submitted?
+deadline,,1,Almost is not a time. The deadline was an hour ago.
+finalized,,1,I've already finalized the title page and the table of contents.
+swear,,1,I swear the analysis is coming right now. Just the analysis.

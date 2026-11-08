@@ -32,8 +32,8 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "I sent the salary file to the team. Felt confident.",
-   "ko": "급여 파일 팀에 보냈어요. 자신 있었거든요.",
+   "en": "I forwarded the compensation file to the team. I felt confident about it.",
+   "ko": "급여 파일을 팀에 전달했어요. 자신 있었거든요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -49,13 +49,13 @@
    "emotion": "cheerful",
    "lemmas": [
     [
-     "sent",
-     "send",
+     "forwarded",
+     "forward",
      ""
     ],
     [
-     "salary",
-     "salary",
+     "compensation",
+     "compensation",
      ""
     ],
     [
@@ -69,7 +69,7 @@
      ""
     ],
     [
-     "Felt",
+     "felt",
      "feel",
      ""
     ],
@@ -83,14 +83,14 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "The file named \"Confidential\"?",
-   "ko": "파일 이름이 \"기밀\"이었던 그거?",
+   "en": "The attachment marked \"Confidential — HR Only\"?",
+   "ko": "\"기밀 — 인사팀 전용\" 이라고 표시된 그 첨부 파일?",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "\"Confidential\""
+     "Confidential"
     ],
     "red": [
      "Confidential"
@@ -100,18 +100,23 @@
    "emotion": "surprised",
    "lemmas": [
     [
-     "file",
-     "file",
+     "attachment",
+     "attachment",
      ""
     ],
     [
-     "named",
-     "name",
+     "marked",
+     "mark",
      ""
     ],
     [
      "Confidential",
      "confidential",
+     ""
+    ],
+    [
+     "HR",
+     "hr",
      ""
     ]
    ]
@@ -119,14 +124,14 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "I thought it was a typo of \"confident.\"",
-   "ko": "\"confident\" 오타인 줄 알았어요.",
+   "en": "I assumed it was a typo for \"confident.\"",
+   "ko": "\"confident\" 의 오타인 줄 알았어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "\"confident.\""
+     "confident"
     ],
     "red": [
      "confident"
@@ -136,8 +141,8 @@
    "emotion": "flustered",
    "lemmas": [
     [
-     "thought",
-     "think",
+     "assumed",
+     "assume",
      ""
     ],
     [
@@ -155,21 +160,31 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Oh no. You sent it to \"the team\" or \"All\"?",
-   "ko": "어떡해. \"팀\"이야, \"전체\"야?",
+   "en": "Oh no. Did you send it to \"Marketing Team\" or \"All Staff\"?",
+   "ko": "어떡해. \"마케팅팀\"이야, \"전 직원\"이야?",
    "note": "oh no = 어떡해",
    "tags": [],
    "new": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "sent",
+     "send",
      "send",
      ""
     ],
     [
+     "Marketing",
+     "market",
+     ""
+    ],
+    [
+     "Team",
      "team",
-     "team",
+     ""
+    ],
+    [
+     "Staff",
+     "staff",
      ""
     ]
    ]
@@ -177,40 +192,40 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "All. The whole building. Considerable reach.",
-   "ko": "전체요. 건물 전체. 도달률이 상당해요.",
+   "en": "All Staff. Every branch. The reach was considerable.",
+   "ko": "전 직원이요. 전 지점. 도달률이 상당했어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "Considerable reach"
+     "considerable"
     ],
     "red": [
-     "Considerable"
+     "considerable"
     ],
     "note": "considerable = 상당한"
    },
    "emotion": "flustered",
    "lemmas": [
     [
-     "whole",
-     "whole",
+     "Staff",
+     "staff",
      ""
     ],
     [
-     "building",
-     "build",
+     "branch",
+     "branch",
      ""
     ],
     [
-     "Considerable",
+     "reach",
+     "reach",
+     ""
+    ],
+    [
      "considerable",
-     ""
-    ],
-    [
-     "reach",
-     "reach",
+     "considerable",
      ""
     ]
    ]
@@ -218,8 +233,8 @@
   {
    "num": 6,
    "speaker": "C",
-   "en": "Everyone now knows Raj earns more than Olivia.",
-   "ko": "이제 모두가 라지가 올리비아보다 많이 받는 걸 알아요.",
+   "en": "Everyone now knows Raj earns more than his supervisor.",
+   "ko": "이제 모두가 라지가 상사보다 많이 받는 걸 알아요.",
    "note": "인사팀의 팩트",
    "tags": [],
    "new": [],
@@ -246,8 +261,8 @@
      ""
     ],
     [
-     "Olivia",
-     "olivia",
+     "supervisor",
+     "supervisor",
      ""
     ]
    ]
@@ -255,8 +270,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "You're kidding. That's the real emergency.",
-   "ko": "설마. 그게 진짜 비상사태네.",
+   "en": "You're kidding. That's the actual emergency here.",
+   "ko": "설마. 그게 여기서 진짜 비상사태네.",
    "note": "you're kidding = 설마",
    "tags": [],
    "new": [],
@@ -268,8 +283,8 @@
      ""
     ],
     [
-     "real",
-     "real",
+     "actual",
+     "actual",
      ""
     ],
     [
@@ -282,13 +297,13 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "I'll be considerate and delete it. From my side.",
-   "ko": "사려 깊게 삭제할게요. 제 쪽에서요.",
+   "en": "I'll be considerate and recall the message. From my inbox, at least.",
+   "ko": "사려 깊게 메시지를 회수할게요. 최소한 제 받은편지함에서는요.",
    "note": "",
    "tags": [],
    "new": [
     "considerate",
-    "delete"
+    "inbox"
    ],
    "gram": {
     "u": [
@@ -307,13 +322,23 @@
      ""
     ],
     [
-     "delete",
-     "delete",
+     "recall",
+     "recall",
      ""
     ],
     [
-     "side",
-     "side",
+     "message",
+     "message",
+     ""
+    ],
+    [
+     "inbox",
+     "inbox",
+     ""
+    ],
+    [
+     "least",
+     "least",
      ""
     ]
    ]
@@ -324,7 +349,7 @@
   "ko": "confident(자신 있는) vs confidential(기밀의), considerable(상당한) vs considerate(사려 깊은). 모양이 비슷한 형용사는 뜻을 짝으로 외운다."
  },
  "check": {
-  "q": "Please keep this file _____.",
+  "q": "All salary information must be kept strictly _____.",
   "options": [
    "confident",
    "confidential",

@@ -31,14 +31,14 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "The report. Still not done?",
-   "ko": "보고서. 아직도 안 끝났어?",
+   "en": "The quarterly report. Still not submitted?",
+   "ko": "분기 보고서. 아직도 제출 안 했어?",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "Still not done"
+     "Still not submitted"
     ],
     "red": [
      "Still"
@@ -48,8 +48,18 @@
    "emotion": "neutral",
    "lemmas": [
     [
+     "quarterly",
+     "quarter",
+     ""
+    ],
+    [
      "report",
      "report",
+     ""
+    ],
+    [
+     "submitted",
+     "submitted",
      ""
     ]
    ]
@@ -83,8 +93,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Almost is not a time.",
-   "ko": "거의는 시간이 아니야.",
+   "en": "Almost is not a time. The deadline was an hour ago.",
+   "ko": "거의는 시간이 아니야. 마감은 한 시간 전이었어.",
    "note": "팀장 명언",
    "tags": [],
    "new": [],
@@ -99,20 +109,35 @@
      "time",
      "time",
      ""
+    ],
+    [
+     "deadline",
+     "deadline",
+     ""
+    ],
+    [
+     "hour",
+     "hour",
+     ""
+    ],
+    [
+     "ago",
+     "ago",
+     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "en": "I've already written the title.",
-   "ko": "제목은 이미 썼어요.",
+   "en": "I've already finalized the title page and the table of contents.",
+   "ko": "표지랑 목차는 이미 완성했어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "already written"
+     "already finalized"
     ],
     "red": [
      "already"
@@ -122,13 +147,28 @@
    "emotion": "cheerful",
    "lemmas": [
     [
-     "written",
-     "write",
+     "finalized",
+     "finalized",
      ""
     ],
     [
      "title",
      "title",
+     ""
+    ],
+    [
+     "page",
+     "page",
+     ""
+    ],
+    [
+     "table",
+     "table",
+     ""
+    ],
+    [
+     "contents",
+     "content",
      ""
     ]
    ]
@@ -136,16 +176,21 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "And the body?",
-   "ko": "본문은?",
+   "en": "And the actual analysis?",
+   "ko": "그래서 실제 분석은?",
    "note": "짧게 되묻기",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "body",
-     "body",
+     "actual",
+     "actual",
+     ""
+    ],
+    [
+     "analysis",
+     "analysis",
      ""
     ]
    ]
@@ -153,8 +198,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Not yet. But I hardly slept.",
-   "ko": "아직요. 근데 거의 못 잤어요.",
+   "en": "Not yet. But I hardly slept this week.",
+   "ko": "아직요. 근데 이번 주에 거의 못 잤어요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -179,6 +224,11 @@
     [
      "slept",
      "sleep",
+     ""
+    ],
+    [
+     "week",
+     "week",
      ""
     ]
    ]
@@ -229,8 +279,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "I swear it's coming right now. Just the body.",
-   "ko": "맹세코 지금 바로 나와요. 본문만요.",
+   "en": "I swear the analysis is coming right now. Just the analysis.",
+   "ko": "맹세코 분석은 지금 바로 나와요. 분석만요.",
    "note": "right now = 지금 바로",
    "tags": [
     "expr:right",
@@ -248,6 +298,11 @@
      ""
     ],
     [
+     "analysis",
+     "analysis",
+     ""
+    ],
+    [
      "coming",
      "come",
      ""
@@ -258,8 +313,8 @@
      ""
     ],
     [
-     "body",
-     "body",
+     "analysis",
+     "analysis",
      ""
     ]
    ]
@@ -270,7 +325,7 @@
   "ko": "already(이미, 긍정문), yet(아직, 부정·의문문 끝), still(여전히), almost(거의), hardly(거의 ~않다 — 부정의 뜻). 자리와 뜻을 함께 본다."
  },
  "check": {
-  "q": "I have _____ finished the report.",
+  "q": "I have _____ completed the quarterly report.",
   "options": [
    "yet",
    "almost",

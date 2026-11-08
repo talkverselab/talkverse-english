@@ -31,31 +31,36 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Who sent the email to the whole building?",
-   "ko": "누가 건물 전체에 메일을 보냈어?",
+   "en": "Who distributed the compensation file to the entire company?",
+   "ko": "누가 급여 파일을 회사 전체에 배포했어?",
    "note": "능동태 질문",
    "tags": [],
    "new": [],
    "emotion": "annoyed",
    "lemmas": [
     [
-     "sent",
-     "send",
+     "distributed",
+     "distributed",
      ""
     ],
     [
-     "email",
-     "email",
+     "compensation",
+     "compensation",
      ""
     ],
     [
-     "whole",
-     "whole",
+     "file",
+     "file",
      ""
     ],
     [
-     "building",
-     "build",
+     "entire",
+     "entire",
+     ""
+    ],
+    [
+     "company",
+     "company",
      ""
     ]
    ]
@@ -63,35 +68,35 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "The email was sent. By mistake.",
-   "ko": "메일이 보내졌어요. 실수로요.",
+   "en": "The file was distributed. Unintentionally.",
+   "ko": "파일이 배포됐어요. 의도치 않게요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "was sent"
+     "was distributed"
     ],
     "red": [
-     "was sent"
+     "was distributed"
     ],
-    "note": "was sent = 보내졌다(수동태)"
+    "note": "was distributed = 배포됐다(수동태)"
    },
    "emotion": "neutral",
    "lemmas": [
     [
-     "email",
-     "email",
+     "file",
+     "file",
      ""
     ],
     [
-     "sent",
-     "send",
+     "distributed",
+     "distributed",
      ""
     ],
     [
-     "mistake",
-     "mistake",
+     "Unintentionally",
+     "unintentionally",
      ""
     ]
    ]
@@ -99,8 +104,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Sent by whom?",
-   "ko": "누구에 의해 보내졌는데?",
+   "en": "Distributed by whom, exactly?",
+   "ko": "정확히 누구에 의해 배포됐는데?",
    "note": "",
    "tags": [],
    "new": [],
@@ -112,8 +117,13 @@
    "emotion": "teasing",
    "lemmas": [
     [
-     "Sent",
-     "send",
+     "Distributed",
+     "distributed",
+     ""
+    ],
+    [
+     "exactly",
+     "exactly",
      ""
     ]
    ]
@@ -121,18 +131,18 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "It was clicked. The button was pressed.",
-   "ko": "클릭이 됐고요. 버튼이 눌렸어요.",
+   "en": "The attachment was selected. The send button was pressed.",
+   "ko": "첨부 파일이 선택됐고요. 전송 버튼이 눌렸어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "was clicked",
+     "was selected",
      "was pressed"
     ],
     "red": [
-     "was clicked",
+     "was selected",
      "was pressed"
     ],
     "note": "수동태로 책임 지우기"
@@ -140,8 +150,18 @@
    "emotion": "flustered",
    "lemmas": [
     [
-     "clicked",
-     "click",
+     "attachment",
+     "attachment",
+     ""
+    ],
+    [
+     "selected",
+     "selected",
+     ""
+    ],
+    [
+     "send",
+     "send",
      ""
     ],
     [
@@ -159,8 +179,8 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "I mean, buttons don't press themselves.",
-   "ko": "내 말은, 버튼이 스스로 눌리진 않아.",
+   "en": "I mean, buttons don't press themselves in this building.",
+   "ko": "내 말은, 이 건물에선 버튼이 스스로 눌리진 않아.",
    "note": "i mean = 내 말은",
    "tags": [],
    "new": [],
@@ -185,14 +205,19 @@
      "themselves",
      "themselves",
      ""
+    ],
+    [
+     "building",
+     "build",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "en": "Then it was happened.",
-   "ko": "그럼 그것이 발생되었어요.",
+   "en": "Then the incident was happened.",
+   "ko": "그럼 그 사고가 발생되었어요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -208,6 +233,11 @@
    "emotion": "flustered",
    "lemmas": [
     [
+     "incident",
+     "incident",
+     ""
+    ],
+    [
      "happened",
      "happen",
      ""
@@ -217,8 +247,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "\"Was happened\" isn't English.",
-   "ko": "\"was happened\" 는 영어가 아니야.",
+   "en": "\"Was happened\" is not English. Try again.",
+   "ko": "\"was happened\" 는 영어가 아니야. 다시.",
    "note": "문법 교정",
    "tags": [],
    "new": [],
@@ -233,14 +263,19 @@
      "English",
      "english",
      ""
+    ],
+    [
+     "Try",
+     "try",
+     ""
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "en": "Fair enough. It happened. By me.",
-   "ko": "인정. 그게 일어났어요. 저에 의해.",
+   "en": "Fair enough. The incident happened. By me.",
+   "ko": "인정. 그 사고가 일어났어요. 저에 의해.",
    "note": "",
    "tags": [
     "expr:fair enough"
@@ -268,6 +303,11 @@
      ""
     ],
     [
+     "incident",
+     "incident",
+     ""
+    ],
+    [
      "happened",
      "happen",
      ""
@@ -280,7 +320,7 @@
   "ko": "「~되다」= be + 과거분사(was sent). 한 사람은 by 로. happen·arrive 같은 자동사는 수동태가 없다(was happened 는 틀림)."
  },
  "check": {
-  "q": "The email _____ to the whole building by mistake.",
+  "q": "The confidential file _____ to all staff by mistake.",
   "options": [
    "sent",
    "was sent",

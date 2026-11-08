@@ -2,6 +2,7 @@
 # 편마다 RC 장 하나의 문법 포인트(grammar) + 대사에서 뽑은 빈칸 문제 1개(check). 문장·문제는 전부 자체 작문. 사무실 = 뉴욕 마케팅 팀.
 # 표기: 영어 줄 _밑줄 구간_(문법 요소) · *빨간 레마*(영향받는 낱말) · 메모 앞 §(문법 메모, 빨간 글씨). 사용자 지시 2026-11-08.
 # 고정 인물: Olivia 팀장(직설·마감 집착·속정) · Raj 옆자리(간식 사재기·핑계의 달인) · Tom 거래처(요구 많음) · Grace 인사팀(규정 로봇). A = {name} 신입.
+# 2026-11-08 사용자 지시 "좀더 실제 토익에 나오는 중급문장들로" → 문장을 토익 Part 3·4 수준(비즈니스 어휘·구문, 턴당 8~14어)으로 다시 씀. 8턴·문법 포인트·반전은 그대로.
 
 === t1_office_g1
 title: 승인된 건지 삭제된 건지
@@ -10,21 +11,21 @@ scene: 휴가 신청이 승인됐는지 인사팀 Grace 에게 묻는데, 시스
 where: 인사팀 자리
 goal: 명사절 접속사 that · whether · if
 grammar: 명사절 접속사 that / whether(if)|「~라는 것」은 that, 「~인지 아닌지」는 whether·if. 동사 뒤에 절이 통째로 목적어가 된다.
-check: I'm not sure _____ my vacation was approved. | that | whether | because | during | B
+check: Could you confirm _____ my vacation request has been approved? | that | whether | because | during | B
 kind: short
 register: polite
 B: Grace
 twist: 6 chaos
 expr: i'm not sure | no worries
 --
-A | Hi Grace. Did you get my vacation request? | 안녕하세요 그레이스. 제 휴가 신청 받으셨어요? | vacation request = 휴가 신청 | emo=polite
-B | I did. I'm not sure _*whether* it was approved_. | 받았죠. 승인됐는지는 잘 모르겠어요. | §whether = ~인지 아닌지(명사절) | emo=neutral
-A | You're not sure? You approve them. | 모르신다고요? 승인은 그쪽이 하시잖아요. | 받아치기 | emo=surprised
-B | I know _*that* I approved something this morning_. | 오늘 아침에 뭔가를 승인한 건 알아요. | §that = ~라는 것(명사절) | emo=neutral
-A | Something? Like what? | 뭔가요? 예를 들면요? | 되묻기 | emo=worried
-B | The system asked _*if* I wanted to delete all requests_. | 시스템이 신청을 전부 삭제할지 묻더라고요. | §if = ~인지(명사절, whether 와 같음) | emo=neutral
-A | And you said yes. | 그래서 네라고 하셨군요. | 반전 확인 | emo=tsukkomi
-B | No worries. Nobody is going anywhere now. | 걱정 마요. 이제 아무도 아무 데도 안 가요. | 규정 로봇의 위로 | emo=polite
+A | Hi Grace. Could you confirm _*whether* my vacation request has been approved_? | 안녕하세요 그레이스. 제 휴가 신청이 승인됐는지 확인해 주실 수 있어요? | §whether = ~인지 아닌지(명사절, confirm 의 목적어) | emo=polite
+B | I'm not sure. The new HR system was updated over the weekend. | 잘 모르겠어요. 새 인사 시스템이 주말에 업데이트됐거든요. | i'm not sure = 잘 모르겠어요 | emo=neutral
+A | You're not sure? Approvals are handled by your department. | 모르신다고요? 승인은 그쪽 부서가 처리하잖아요. | 받아치기 | emo=surprised
+B | I know _*that* I approved several requests this morning_. | 오늘 아침에 신청 여러 건을 승인한 건 알아요. | §that = ~라는 것(명사절, know 의 목적어) | emo=neutral
+A | Several? Including mine, I hope. | 여러 건이요? 제 것도 들어 있길 바라요. | 되묻기 | emo=worried
+B | Then the system asked _*if* I wanted to clear all pending requests_. | 그러고 나서 시스템이 대기 중인 신청을 전부 지울지 묻더라고요. | §if = ~인지(명사절, whether 와 같음) | emo=neutral
+A | And you clicked "yes" without reading it. | 그래서 안 읽고 "예"를 누르셨군요. | 반전 확인 | emo=tsukkomi
+B | No worries. Nobody in this building is going anywhere this year. | 걱정 마요. 올해 이 건물에서 아무도 아무 데도 안 가요. | 규정 로봇의 위로 | emo=polite
 
 === t1_office_g2
 title: 교통 체증? 위층 살잖아
@@ -33,21 +34,21 @@ scene: 회의에 늦은 A 를 Olivia 가 추궁한다. 핑계는 교통 체증�
 where: 회의실 앞
 goal: 부사절 접속사 because · although vs 전치사 because of · despite
 grammar: 부사절 접속사 vs 전치사|뒤에 「주어+동사」가 오면 접속사(because, although), 명사만 오면 전치사(because of, despite). 뜻은 같아도 자리가 다르다.
-check: You were late _____ the traffic? | because | although | because of | even though | C
+check: The meeting was delayed _____ heavy traffic downtown. | because | although | because of | even though | C
 kind: short
 register: mixed
 B: Olivia
 twist: 5 slip
 expr: are you kidding | honestly
 --
-B | You're late. Reason? | 늦었네. 이유는? | 팀장의 두 단어 | emo=annoyed
-A | I was late _*because of* the traffic_. | 교통 체증 때문에 늦었어요. | §because of + 명사(전치사) | emo=flustered
-B | _*Although* you live upstairs_. | 위층에 살면서도. | §although + 주어 동사(접속사) | emo=teasing
-A | The elevator was crowded _*because* everyone was late_. | 다들 늦어서 엘리베이터가 붐볐어요. | §because + 주어 동사(접속사) | emo=flustered
-B | _*Despite* the stairs_ right there? | 바로 옆에 계단이 있는데도? | §despite + 명사(전치사) | emo=teasing
-A | Honestly, I took the stairs. Down. By mistake. | 솔직히, 계단으로 갔어요. 아래로요. 실수로. | 말실수 자백 | emo=flustered
-B | Are you kidding me right now? | 지금 장난해? | are you kidding = 장난해? | emo=tsukkomi
-A | I'll be early tomorrow. _*Because* I'll sleep here_. | 내일은 일찍 올게요. 여기서 잘 거니까요. | §because 로 마무리 한 방 | emo=neutral
+B | You missed the first twenty minutes of the client meeting. Reason? | 거래처 회의 첫 20분을 놓쳤네. 이유는? | 팀장의 추궁 | emo=annoyed
+A | I was late _*because of* heavy traffic downtown_. | 시내 교통 체증 때문에 늦었어요. | §because of + 명사(전치사) | emo=flustered
+B | _*Although* you live two floors above this office_. | 이 사무실 두 층 위에 살면서도. | §although + 주어 동사(접속사) | emo=teasing
+A | The elevator was out of service _*because* maintenance was scheduled today_. | 오늘 점검이 잡혀 있어서 엘리베이터가 운행 중지였어요. | §because + 주어 동사(접속사) | emo=flustered
+B | _*Despite* the staircase right next to it_? | 바로 옆에 계단이 있는데도? | §despite + 명사(전치사) | emo=teasing
+A | Honestly, I took the stairs. In the wrong direction. | 솔직히, 계단으로 갔어요. 반대 방향으로요. | 말실수 자백 | emo=flustered
+B | Are you kidding me? The client asked if you still work here. | 지금 장난해? 거래처가 네가 아직 여기 다니냐고 묻더라. | are you kidding = 장난해? | emo=tsukkomi
+A | I'll arrive early tomorrow, _*because* I'm sleeping under my desk_. | 내일은 일찍 올게요. 책상 밑에서 잘 거니까요. | §because 로 마무리 한 방 | emo=neutral
 
 === t1_office_g3
 title: 피자 아니면 굶는다
@@ -56,21 +57,21 @@ scene: 점심 주문을 맡은 Raj 가 상관접속사로 협박하더니 피자
 where: 탕비실
 goal: 상관접속사 either A or B · not only A but also B · both A and B
 grammar: 상관접속사|either A or B(둘 중 하나), neither A nor B(둘 다 아님), not only A but also B(A뿐 아니라 B도), both A and B(둘 다). 짝을 외운다.
-check: We can order _____ pizza or salad. | both | either | not only | neither | B
+check: Lunch can be _____ delivered or picked up at the counter. | both | either | not only | neither | B
 kind: short
 register: casual
 B: Raj
 twist: 6 chaos
 expr: for real | no way
 --
-B | Lunch vote. _*Either* we order pizza *or* we starve_. | 점심 투표. 피자를 시키든가 굶든가야. | §either A or B = A 아니면 B | emo=cheerful
-A | That's not a vote. That's a threat. | 그건 투표가 아니라 협박인데. | 받아치기 | emo=tsukkomi
-B | Pizza is _*not only* cheap *but also* fast_. | 피자는 싸기만 한 게 아니라 빠르기까지 하잖아. | §not only A but also B | emo=cheerful
-A | Fine. One pizza. For real, just one. | 알았어. 한 판. 진짜 딱 한 판이야. | for real = 진짜로 | emo=neutral
-B | _*Both* the boss *and* the client_ want some too. | 팀장님도 거래처도 둘 다 먹고 싶대. | §both A and B | emo=neutral
-A | So you ordered… | 그래서 몇 판 시켰는데… | 말끝 흐리기 | emo=worried
-B | Twelve. _*Neither* the card *nor* my hand_ stopped. | 열두 판. 카드도 내 손도 안 멈추더라. | §neither A nor B = A도 B도 아닌 | emo=amused
-A | No way. You're paying for eleven. | 말도 안 돼. 열한 판은 네가 내. | no way = 말도 안 돼 | emo=tsukkomi
+B | Lunch poll results. _*Either* we order pizza *or* we skip lunch entirely_. | 점심 투표 결과. 피자를 시키든가 점심을 아예 거르든가야. | §either A or B = A 아니면 B | emo=cheerful
+A | That's not a poll. That's a hostage situation. | 그건 투표가 아니라 인질극인데. | 받아치기 | emo=tsukkomi
+B | Pizza is _*not only* affordable *but also* delivered within thirty minutes_. | 피자는 가격이 적당할 뿐 아니라 30분 안에 배달까지 되잖아. | §not only A but also B | emo=cheerful
+A | Fine. One large pizza for the team. For real, just one. | 알았어. 팀용 라지 한 판. 진짜 딱 한 판이야. | for real = 진짜로 | emo=neutral
+B | _*Both* the regional manager *and* the client_ requested their own. | 지역 매니저도 거래처도 둘 다 자기 걸 따로 달래. | §both A and B | emo=neutral
+A | So the final order was… | 그래서 최종 주문이… | 말끝 흐리기 | emo=worried
+B | Twelve. _*Neither* the corporate card *nor* my finger_ stopped in time. | 열두 판. 법인카드도 내 손가락도 제때 안 멈추더라. | §neither A nor B = A도 B도 아닌 | emo=amused
+A | No way. The expense report will say eleven are yours. | 말도 안 돼. 경비 보고서엔 열한 판이 네 거라고 쓸 거야. | no way = 말도 안 돼 | emo=tsukkomi
 
 === t1_office_g4
 title: 내 요거트 가져간 사람
@@ -79,7 +80,7 @@ scene: 냉장고 요거트가 사라졌다. 관계대명사로 범인을 좁혀 
 where: 탕비실 냉장고 앞
 goal: 관계대명사 who · whose · which · what
 grammar: 관계대명사|사람은 who, 사물은 which, 소유는 whose. 「~하는 것」 전체는 what(선행사가 없다). 뒤 문장의 빠진 자리를 보고 고른다.
-check: The person _____ took my yogurt left the spoon. | who | which | whose | what | A
+check: The employee _____ took the yogurt left the spoon in the sink. | who | which | whose | what | A
 kind: short
 register: casual
 B: Raj
@@ -87,14 +88,14 @@ C: Olivia
 twist: 7 reveal
 expr: hold on | i knew it
 --
-A | Someone took the yogurt _*which* had my name on it_. | 누가 내 이름 적힌 요거트를 가져갔어. | §which = 사물 선행사 | emo=annoyed
-B | The person _*who* took it_ left the spoon. | 가져간 사람이 숟가락은 두고 갔네. | §who = 사람 선행사 | emo=amused
-A | A spoon _*whose* handle is blue_. Company spoon. | 손잡이가 파란 숟가락. 회사 숟가락이야. | §whose = 소유 | emo=neutral
-B | That narrows it down to everyone. | 그럼 용의자가 전원으로 좁혀지는데. | 받아치기 | emo=teasing
-A | _*What* I want_ is a name, Raj. | 내가 원하는 건 이름이야, 라지. | §what = ~하는 것(선행사 없음) | emo=annoyed
-B | Hold on. Someone is wiping her mouth. | 잠깐. 누가 입을 닦고 있어. | hold on = 잠깐 | emo=surprised
-C | It was expired. I saved you. | 유통기한 지났더라. 내가 널 구한 거야. | 팀장의 당당한 자백 | emo=neutral
-A | I knew it. You owe me a yogurt _*which* isn't expired_. | 그럴 줄 알았어요. 안 지난 요거트로 갚으세요. | §which 절로 마무리 | emo=tsukkomi
+A | Someone removed the yogurt _*which* was clearly labeled with my name_. | 누가 내 이름이 분명히 붙은 요거트를 치웠어. | §which = 사물 선행사(yogurt) | emo=annoyed
+B | The employee _*who* took it_ left the spoon in the sink. | 가져간 직원이 숟가락은 싱크대에 두고 갔네. | §who = 사람 선행사(employee) | emo=amused
+A | A spoon _*whose* handle is company blue_. That narrows it down. | 손잡이가 회사 파란색인 숟가락. 범위가 좁혀지네. | §whose = 소유 | emo=neutral
+B | To everyone on this floor, including the cleaning staff. | 이 층 전원으로. 청소 직원 포함. | 받아치기 | emo=teasing
+A | _*What* I need_ is a name, not a suspect list. | 내가 필요한 건 이름이지 용의자 명단이 아니야. | §what = ~하는 것(선행사 없음) | emo=annoyed
+B | Hold on. Someone is wiping her mouth near the copier. | 잠깐. 누가 복사기 옆에서 입을 닦고 있어. | hold on = 잠깐 | emo=surprised
+C | It expired yesterday. Consider it a safety inspection. | 어제 유통기한 지났더라. 안전 점검이라고 생각해. | 팀장의 당당한 자백 | emo=neutral
+A | I knew it. You owe me a yogurt _*which* hasn't expired_. | 그럴 줄 알았어요. 유통기한 안 지난 요거트로 갚으세요. | §which 절로 마무리 | emo=tsukkomi
 
 === t1_office_g5
 title: 금요일까지가 금요일 몇 시?
@@ -103,21 +104,21 @@ scene: 거래처 Tom 이 「금요일까지」 라고 했는데 by 인지 until 
 where: 전화
 goal: 시간 전치사 by · until · within · in
 grammar: 시간 전치사|by = 늦어도 그때까지 완료, until = 그때까지 계속, within = 기간 안에, in = ~ 뒤에. 토익 Part 5 단골.
-check: Please send the report _____ Friday noon. | until | by | within | during | B
+check: Please submit the revised proposal _____ Friday at noon. | until | by | within | during | B
 kind: short
 register: polite
 B: Tom
 twist: 6 slip
 expr: just to confirm | got it
 --
-B | I need the report _*by* Friday_. | 보고서 금요일까지 주세요. | §by = 늦어도 금요일까지(완료) | emo=polite
-A | Just to confirm, _*by* Friday_ or _*until* Friday_? | 확인 차원에서요, 금요일까지 내는 건가요, 금요일 내내인가요? | §by vs until | emo=polite
-B | Is there a difference? | 차이가 있어요? | 거래처의 질문 | emo=surprised
-A | *By* means I finish. *Until* means I suffer. | by 는 끝낸다는 거고, until 은 고통받는다는 거예요. | §한 줄 요약 | emo=neutral
-B | Then _*by* Friday_. _*Within* three days_, please. | 그럼 금요일까지요. 사흘 안에 부탁해요. | §within = 기간 안에 | emo=polite
+B | I need the revised proposal _*by* Friday_. The board meets on Monday. | 수정 제안서를 금요일까지 주세요. 이사회가 월요일이에요. | §by = 늦어도 금요일까지(완료) | emo=polite
+A | Just to confirm, _*by* Friday_ or _*until* Friday_? | 확인 차원에서요, 금요일까지 제출인가요, 금요일 내내인가요? | §by vs until | emo=polite
+B | Is there a meaningful difference? | 의미 있는 차이가 있나요? | 거래처의 질문 | emo=surprised
+A | *By* means I deliver it. *Until* means I keep suffering. | by 는 제가 납품한다는 거고, until 은 계속 고통받는다는 거예요. | §한 줄 요약 | emo=neutral
+B | Then _*by* Friday_. And please complete the budget section _*within* three business days_. | 그럼 금요일까지요. 예산 항목은 영업일 사흘 안에 끝내 주시고요. | §within = 기간 안에 | emo=polite
 A | Got it. Today is Thursday, Tom. | 알겠어요. 오늘 목요일이에요, 톰. | got it = 알겠어요 | emo=tsukkomi
-B | Oh. Then _*in* one day_. | 아. 그럼 하루 뒤에요. | §in = ~ 뒤에 | emo=flustered
-A | I'll be suffering _*until* Friday_ after all. | 결국 금요일까지 고통받겠네요. | §until 로 되돌아온 마무리 | emo=sad
+B | Oh. Then _*in* one day_, I suppose. | 아. 그럼 하루 뒤네요. | §in = ~ 뒤에 | emo=flustered
+A | So I'll be suffering _*until* Friday_ after all. | 그럼 결국 금요일까지 고통받겠네요. | §until 로 되돌아온 마무리 | emo=sad
 
 === t1_office_g6
 title: 그러므로, 안 돼
@@ -126,21 +127,21 @@ scene: A 가 연봉 인상을 요구한다. Olivia 는 접속부사로만 대답
 where: 팀장 자리
 goal: 접속부사 however · therefore · otherwise · in addition
 grammar: 접속부사|however(그러나), therefore(그러므로), otherwise(그렇지 않으면), in addition(게다가)은 문장을 잇지만 접속사가 아니다 — 앞에 마침표나 세미콜론, 뒤에 쉼표.
-check: Sales are up. _____, your raise is still no. | Therefore | However | Otherwise | Because | B
+check: Quarterly sales increased by 30 percent. _____, the budget for raises was cut. | Therefore | However | Otherwise | Because | B
 kind: short
 register: mixed
 B: Olivia
 twist: 7 emotion
 expr: fair enough | that's it
 --
-A | Sales are up thirty percent. I want a raise. | 매출이 30% 올랐어요. 연봉 올려 주세요. | 돌직구 | emo=neutral
-B | _*However*,_ the budget is down forty. | 그러나 예산은 40% 내려갔지. | §however = 그러나(접속부사) | emo=neutral
-A | _*In addition*,_ I work weekends. | 게다가 저 주말에도 일해요. | §in addition = 게다가 | emo=annoyed
-B | _*Therefore*,_ you have no life. Not my fault. | 그러므로 넌 삶이 없는 거지. 내 탓은 아니고. | §therefore = 그러므로 | emo=teasing
-A | _*Otherwise*,_ I'll take the job across the street. | 아니면 길 건너 회사로 갈 거예요. | §otherwise = 그렇지 않으면 | emo=neutral
-B | Across the street is a bakery. | 길 건너는 빵집이야. | 팩트 폭격 | emo=amused
-A | Fair enough. That's it, I'm leaving. | 인정. 됐어요, 저 가요. | fair enough = 인정 | emo=sad
-B | Sit. Coffee. The raise is in January. Tell no one. | 앉아. 커피. 인상은 1월이야. 아무한테도 말하지 마. | 속정 한 줄 | emo=gentle | heart
+A | Quarterly sales increased by thirty percent. I'd like to discuss a raise. | 분기 매출이 30% 올랐어요. 연봉 인상을 논의하고 싶습니다. | 돌직구 | emo=neutral
+B | _*However*,_ the budget for salary adjustments was cut by forty. | 그러나 급여 조정 예산은 40% 삭감됐지. | §however = 그러나(접속부사) | emo=neutral
+A | _*In addition*,_ I've covered weekend shifts for three months. | 게다가 석 달째 주말 근무를 제가 맡고 있어요. | §in addition = 게다가 | emo=annoyed
+B | _*Therefore*,_ you have no personal life. That's not a budget issue. | 그러므로 넌 사생활이 없는 거지. 그건 예산 문제가 아니야. | §therefore = 그러므로 | emo=teasing
+A | _*Otherwise*,_ I'll accept the offer from the company across the street. | 아니면 길 건너 회사 제안을 받아들일 거예요. | §otherwise = 그렇지 않으면 | emo=neutral
+B | The company across the street is a bakery. | 길 건너 회사는 빵집이야. | 팩트 폭격 | emo=amused
+A | Fair enough. That's it, I'm submitting my resignation. | 인정. 됐어요, 사직서 제출할게요. | fair enough = 인정 | emo=sad
+B | Sit down. Coffee. Your adjustment is effective in January. Tell no one. | 앉아. 커피. 네 인상은 1월부터 적용이야. 아무한테도 말하지 마. | 속정 한 줄 | emo=gentle | heart
 
 === t1_office_g7
 title: 이거 말고 다른 거
@@ -149,21 +150,21 @@ scene: 프린터가 또 고장. one · the other · another 를 돌다 보니 �
 where: 복사실
 goal: 대명사 one · another · the other · the others
 grammar: 부정대명사|one(같은 종류 아무 하나), another(또 다른 하나), the other(남은 하나), the others(남은 전부). 몇 개 중 몇 번째인지로 고른다.
-check: This printer is broken. Use _____ one. | other | another | the others | others | B
+check: This copier is out of order. Please use _____ one on the third floor. | other | another | the others | others | B
 kind: short
 register: casual
 B: Raj
 twist: 6 chaos
 expr: come on | not again
 --
-A | _*This* printer_ is broken. | 이 프린터 고장 났어. | §this one 의 this | emo=annoyed
-B | Use _*the other* one_. By the window. | 다른 거 써. 창가에 있는 거. | §the other = (둘 중) 나머지 하나 | emo=neutral
-A | _*The other* one_ is also broken. | 그것도 고장 났어. | 되풀이 | emo=annoyed
-B | Then _*another* one_, third floor. | 그럼 또 다른 거, 3층. | §another = 또 다른 하나 | emo=neutral
-A | Not again. That one eats paper. | 또야? 거긴 종이를 먹어. | not again = 또야 | emo=flustered
-B | Fine. _*The others*_ are in the basement. | 알았어. 나머지는 지하에 있어. | §the others = 나머지 전부 | emo=amused
-A | Come on. Why are _*all of them*_ broken? | 아 진짜. 왜 전부 다 고장이야? | come on = 아 진짜 | emo=annoyed
-B | Olivia printed the budget. All of it. Twice. | 올리비아가 예산안을 뽑았거든. 전부. 두 번. | 카오스의 원인 | emo=neutral
+A | _*This* copier_ is out of order again. | 이 복사기 또 고장이야. | §this one 의 this(가까운 것) | emo=annoyed
+B | Use _*the other* one_ by the window. It was serviced last week. | 창가에 있는 다른 거 써. 지난주에 점검받았어. | §the other = (둘 중) 나머지 하나 | emo=neutral
+A | _*The other* one_ is displaying an error code too. | 그것도 오류 코드가 떠. | §the other 되풀이 | emo=annoyed
+B | Then try _*another* one_ on the third floor. | 그럼 3층에 있는 또 다른 거 써 봐. | §another = 또 다른 하나 | emo=neutral
+A | Not again. That one jams every time I print double-sided. | 또야? 거긴 양면 인쇄만 하면 걸려. | not again = 또야 | emo=flustered
+B | Fine. _*The others*_ are in the basement storage room. | 알았어. 나머지는 지하 창고에 있어. | §the others = 나머지 전부 | emo=amused
+A | Come on. Why are _*all of them*_ out of service at once? | 아 진짜. 왜 전부 한꺼번에 고장이야? | come on = 아 진짜 | emo=annoyed
+B | Olivia printed the annual budget. All 400 pages. In color. Twice. | 올리비아가 연간 예산안을 뽑았거든. 400쪽 전부. 컬러로. 두 번. | 카오스의 원인 | emo=neutral
 
 === t1_office_g8
 title: 장비 세 개요
@@ -172,7 +173,7 @@ scene: A 가 발주서에 「equipments 세 개」라고 썼다. 셀 수 없는 
 where: 자재 창고
 goal: 가산 · 불가산 명사(equipment · furniture · information · advice)
 grammar: 가산 vs 불가산 명사|equipment, furniture, information, advice, luggage 는 셀 수 없다 — s 도 a 도 안 붙는다. 세려면 a piece of.
-check: We need more _____ for the new office. | equipments | an equipment | equipment | equipment's | C
+check: The new branch requires additional _____ before it opens. | equipments | an equipment | equipment | equipment's | C
 kind: short
 register: casual
 B: Raj
@@ -180,14 +181,14 @@ C: Olivia
 twist: 6 slip
 expr: my bad | seriously
 --
-A | I ordered _three *equipments*_ for the new office. | 새 사무실에 장비 세 개 주문했어. | §equipment 는 불가산 — equipments 는 틀림 | emo=cheerful
-B | _*Equipment* doesn't count_. Like your overtime. | 장비는 셀 수 없어. 네 야근처럼. | §불가산 명사 + 돌직구 | emo=teasing
-A | Then what did I order? | 그럼 내가 뭘 주문한 거야? | 되묻기 | emo=worried
-B | Three truckloads, apparently. | 보아하니 트럭 세 대 분량. | 양이 폭발 | emo=amused
-A | My bad. I also wrote _"*furnitures*."_ | 내 잘못. "furnitures" 라고도 썼어. | §furniture 도 불가산 | emo=flustered
-C | Seriously? There's a sofa in my parking spot. | 진심이야? 내 주차 자리에 소파가 있어. | seriously = 진심이야 | emo=shout
-A | _Some *advice*_ would have been nice. | 조언 좀 해 주지 그랬어. | §advice 도 불가산(an advice 아님) | emo=sad
-B | _*Advice* is uncountable_. So is your damage. | 조언도 못 세. 네 사고도 못 세고. | 마무리 한 방 | emo=teasing
+A | I placed an order for _three *equipments*_ for the new branch. | 새 지점용으로 장비 세 개 발주했어. | §equipment 는 불가산 — equipments 는 틀림 | emo=cheerful
+B | _*Equipment* doesn't take a plural_. Neither does your overtime pay. | equipment 는 복수형이 없어. 네 야근 수당도 없고. | §불가산 명사 + 돌직구 | emo=teasing
+A | Then what exactly did the supplier ship? | 그럼 공급업체가 정확히 뭘 보낸 거야? | 되묻기 | emo=worried
+B | Three truckloads, according to the delivery confirmation. | 배송 확인서에 따르면 트럭 세 대 분량. | 양이 폭발 | emo=amused
+A | My bad. I also requested "_*furnitures*_" on the same form. | 내 잘못. 같은 양식에 "furnitures" 도 요청했어. | §furniture 도 불가산 | emo=flustered
+C | Seriously? There's a conference table in my parking space. | 진심이야? 내 주차 자리에 회의 탁자가 있어. | seriously = 진심이야 | emo=shout
+A | Some _*advice*_ beforehand would have been appreciated. | 미리 조언 좀 해 줬으면 고마웠을 텐데. | §advice 도 불가산(an advice 아님) | emo=sad
+B | _*Advice* is uncountable_. So is the damage to your reputation. | advice 도 못 세. 네 평판 손상도 못 세고. | §마무리 한 방 | emo=teasing
 
 === t1_office_g9
 title: 거의는 시간이 아니야
@@ -196,21 +197,21 @@ scene: Olivia 가 마감 상황을 묻는다. A 는 부사로만 버틴다 — a
 where: A 의 자리
 goal: 부사 almost · still · already · yet · hardly
 grammar: 부사|already(이미, 긍정문), yet(아직, 부정·의문문 끝), still(여전히), almost(거의), hardly(거의 ~않다 — 부정의 뜻). 자리와 뜻을 함께 본다.
-check: I have _____ finished the report. | yet | almost | hardly ever | still not | B
+check: I have _____ completed the quarterly report. | yet | almost | hardly ever | still not | B
 kind: short
 register: mixed
 B: Olivia
 twist: 7 slip
 expr: i swear | right now
 --
-B | The report. _*Still* not done_? | 보고서. 아직도 안 끝났어? | §still = 여전히 | emo=neutral
+B | The quarterly report. _*Still* not submitted_? | 분기 보고서. 아직도 제출 안 했어? | §still = 여전히 | emo=neutral
 A | _*Almost*_. | 거의요. | §almost = 거의 | emo=flustered
-B | Almost is not a time. | 거의는 시간이 아니야. | 팀장 명언 | emo=tsukkomi
-A | I've _*already* written_ the title. | 제목은 이미 썼어요. | §already = 이미(긍정문) | emo=cheerful
-B | And the body? | 본문은? | 짧게 되묻기 | emo=neutral
-A | _Not *yet*_. But I _*hardly* slept_. | 아직요. 근데 거의 못 잤어요. | §yet = 아직(부정문 끝) · hardly = 거의 ~않다 | emo=sad
+B | Almost is not a time. The deadline was an hour ago. | 거의는 시간이 아니야. 마감은 한 시간 전이었어. | 팀장 명언 | emo=tsukkomi
+A | I've _*already* finalized_ the title page and the table of contents. | 표지랑 목차는 이미 완성했어요. | §already = 이미(긍정문) | emo=cheerful
+B | And the actual analysis? | 그래서 실제 분석은? | 짧게 되묻기 | emo=neutral
+A | _Not *yet*_. But I _*hardly* slept_ this week. | 아직요. 근데 이번 주에 거의 못 잤어요. | §yet = 아직(부정문 끝) · hardly = 거의 ~않다 | emo=sad
 B | You _*hardly* slept_ because you were _*hardly* working_? | 거의 일을 안 해서 거의 못 잔 거야? | §hardly 두 번 | emo=teasing
-A | I swear it's coming right now. Just the body. | 맹세코 지금 바로 나와요. 본문만요. | right now = 지금 바로 | emo=flustered
+A | I swear the analysis is coming right now. Just the analysis. | 맹세코 분석은 지금 바로 나와요. 분석만요. | right now = 지금 바로 | emo=flustered
 
 === t1_office_g10
 title: 자신 있었지 기밀은 아니고
@@ -219,7 +220,7 @@ scene: A 가 「기밀」 파일을 전체 메일로 보냈다. 형용사 한 �
 where: 사무실 전체
 goal: 혼동 형용사 confident vs confidential · considerable vs considerate
 grammar: 어형 — 혼동 형용사|confident(자신 있는) vs confidential(기밀의), considerable(상당한) vs considerate(사려 깊은). 모양이 비슷한 형용사는 뜻을 짝으로 외운다.
-check: Please keep this file _____. | confident | confidential | confidence | confidentially | B
+check: All salary information must be kept strictly _____. | confident | confidential | confidence | confidentially | B
 kind: short
 register: mixed
 B: Olivia
@@ -227,14 +228,14 @@ C: Grace
 twist: 5 chaos
 expr: oh no | you're kidding
 --
-A | I sent the salary file to the team. Felt _*confident*_. | 급여 파일 팀에 보냈어요. 자신 있었거든요. | §confident = 자신 있는 | emo=cheerful
-B | The file named _"*Confidential*"_? | 파일 이름이 "기밀"이었던 그거? | §confidential = 기밀의 | emo=surprised
-A | I thought it was a typo of _"*confident*."_ | "confident" 오타인 줄 알았어요. | §혼동 형용사 사고 | emo=flustered
-B | Oh no. You sent it to "the team" or "All"? | 어떡해. "팀"이야, "전체"야? | oh no = 어떡해 | emo=worried
-A | All. The whole building. _*Considerable* reach_. | 전체요. 건물 전체. 도달률이 상당해요. | §considerable = 상당한 | emo=flustered
-C | Everyone now knows Raj earns more than Olivia. | 이제 모두가 라지가 올리비아보다 많이 받는 걸 알아요. | 인사팀의 팩트 | emo=polite
-B | You're kidding. That's the real emergency. | 설마. 그게 진짜 비상사태네. | you're kidding = 설마 | emo=shout
-A | I'll be _*considerate*_ and delete it. From my side. | 사려 깊게 삭제할게요. 제 쪽에서요. | §considerate = 사려 깊은 | emo=neutral
+A | I forwarded the compensation file to the team. I felt _*confident*_ about it. | 급여 파일을 팀에 전달했어요. 자신 있었거든요. | §confident = 자신 있는 | emo=cheerful
+B | The attachment marked "_*Confidential*_ — HR Only"? | "기밀 — 인사팀 전용" 이라고 표시된 그 첨부 파일? | §confidential = 기밀의 | emo=surprised
+A | I assumed it was a typo for "_*confident*_." | "confident" 의 오타인 줄 알았어요. | §혼동 형용사 사고 | emo=flustered
+B | Oh no. Did you send it to "Marketing Team" or "All Staff"? | 어떡해. "마케팅팀"이야, "전 직원"이야? | oh no = 어떡해 | emo=worried
+A | All Staff. Every branch. The reach was _*considerable*_. | 전 직원이요. 전 지점. 도달률이 상당했어요. | §considerable = 상당한 | emo=flustered
+C | Everyone now knows Raj earns more than his supervisor. | 이제 모두가 라지가 상사보다 많이 받는 걸 알아요. | 인사팀의 팩트 | emo=polite
+B | You're kidding. That's the actual emergency here. | 설마. 그게 여기서 진짜 비상사태네. | you're kidding = 설마 | emo=shout
+A | I'll be _*considerate*_ and recall the message. From my inbox, at least. | 사려 깊게 메시지를 회수할게요. 최소한 제 받은편지함에서는요. | §considerate = 사려 깊은 | emo=neutral
 
 === t1_office_g11
 title: 하려고 왔는데 하지 않기로 했다
@@ -243,7 +244,7 @@ scene: Tom 이 계약하러 왔다. to부정사만으로 밀고 당기다가 「
 where: 회의실
 goal: to부정사 — 목적(to do) · 명사 역할(decide to) · 형용사 역할(time to)
 grammar: to부정사|「~하기 위해」(목적), decide·want·plan 뒤 「~하기」(명사), time·way·chance 뒤 「~할」(형용사). to 뒤에는 동사원형.
-check: We came here _____ the contract. | sign | to sign | signing | signed | B
+check: Our representatives came _____ the final terms of the agreement. | review | to review | reviewing | reviewed | B
 kind: short
 register: polite
 B: Tom
@@ -251,14 +252,14 @@ C: Olivia
 twist: 6 reveal
 expr: to be honest | sounds good
 --
-B | We came here _*to sign* the contract_. | 계약서에 서명하러 왔어요. | §to sign = ~하기 위해(목적) | emo=polite
-C | Great. Pen or tablet? | 좋아요. 펜이요, 태블릿이요? | 팀장의 속도 | emo=cheerful
-B | To be honest, we decided _*to wait*_. | 솔직히 말하면, 기다리기로 했어요. | §decide to wait = 기다리기(명사 역할) | emo=neutral
-C | You came here to sign, to wait? | 서명하러 와서 기다린다고요? | 두 to부정사 충돌 | emo=tsukkomi
-B | There's still time _*to think*_. | 아직 생각할 시간이 있잖아요. | §time to think = 생각할(형용사 역할) | emo=polite
-A | There's also a sandwich _*to eat*_. In your hand. | 먹을 샌드위치도 있네요. 손에요. | §a sandwich to eat = 먹을(형용사 역할) | emo=teasing
-B | I came _*to have* lunch_. The contract was a bonus. | 점심 먹으러 온 거예요. 계약은 덤이고요. | §to have lunch = 점심 먹으려고(목적) | emo=flustered
-C | Sounds good. Lunch is forty dollars. Sign here. | 좋네요. 점심값 40달러. 여기 서명하세요. | sounds good = 좋네요 | emo=teasing
+B | We came _*to finalize* the service agreement_ this afternoon. | 오늘 오후에 서비스 계약을 마무리하러 왔어요. | §to finalize = ~하기 위해(목적) | emo=polite
+C | Excellent. Would you prefer a pen or the tablet? | 좋아요. 펜이 좋으세요, 태블릿이 좋으세요? | 팀장의 속도 | emo=cheerful
+B | To be honest, our legal team decided _*to postpone* the signing_. | 솔직히 말씀드리면, 저희 법무팀이 서명을 연기하기로 했어요. | §decide to postpone = 연기하기(명사 역할) | emo=neutral
+C | You came here to sign, in order to postpone? | 서명하러 오셔서 연기하신다고요? | 두 to부정사 충돌 | emo=tsukkomi
+B | There's still plenty of time _*to review* the terms_. | 조건을 검토할 시간은 아직 충분하잖아요. | §time to review = 검토할(형용사 역할) | emo=polite
+A | There's also a sandwich _*to finish*_. In your left hand. | 마저 드실 샌드위치도 있네요. 왼손에요. | §a sandwich to finish = 먹을(형용사 역할) | emo=teasing
+B | I came _*to have* lunch_ with my favorite vendor. The contract was a bonus. | 제일 좋아하는 협력사랑 점심 먹으러 온 거예요. 계약은 덤이고요. | §to have lunch = 점심 먹으려고(목적) | emo=flustered
+C | Sounds good. Lunch is forty dollars per person. Sign here. | 좋네요. 점심은 1인당 40달러. 여기 서명하세요. | sounds good = 좋네요 | emo=teasing
 
 === t1_office_g12
 title: 야근 즐기시죠?
@@ -267,21 +268,21 @@ scene: Olivia 가 동명사로 야근을 「즐기냐」고 묻는다. A 는 동
 where: 저녁 7시 사무실
 goal: 동명사 — enjoy·avoid·finish·mind + -ing, 전치사 + -ing
 grammar: 동명사|enjoy·avoid·finish·mind·consider 뒤에는 -ing(to부정사 아님). 전치사(about, for, without) 뒤에도 -ing.
-check: Do you mind _____ late tonight? | stay | to stay | staying | stayed | C
+check: Would you mind _____ the shipment status before you leave? | check | to check | checking | checked | C
 kind: short
 register: mixed
 B: Olivia
 twist: 7 slip
 expr: not really | no problem
 --
-B | Do you mind _*staying* late tonight_? | 오늘 늦게까지 있어도 괜찮아? | §mind + -ing | emo=neutral
-A | Not really. I enjoy _*going* home_. | 별로요. 저는 집에 가는 걸 즐겨요. | §enjoy + -ing | emo=neutral
-B | You can't avoid _*working* late_ forever. | 야근을 영원히 피할 순 없어. | §avoid + -ing | emo=teasing
-A | I've finished _*trying*_. | 노력하는 건 끝냈어요. | §finish + -ing | emo=sad
-B | Thank you for _*being* honest_. | 솔직해 줘서 고마워. | §전치사 for + -ing | emo=amused
-A | No problem. I left without _*saving* the file_, though. | 천만에요. 근데 파일 저장 안 하고 나왔어요. | §without + -ing | emo=flustered
-B | You considered _*deleting* your career_? | 네 커리어를 지우는 걸 고려한 거야? | §consider + -ing | emo=shout
-A | I'm staying. Enjoying it. Very much. | 남을게요. 즐기면서요. 아주 많이요. | 동명사 항복 | emo=stiff
+B | Would you mind _*staying* late to review the vendor contracts_? | 늦게까지 남아서 협력사 계약서 검토해 줄 수 있어? | §mind + -ing | emo=neutral
+A | Not really. I enjoy _*leaving* the office on time_. | 별로요. 저는 정시에 퇴근하는 걸 즐겨요. | §enjoy + -ing | emo=neutral
+B | You can't avoid _*working* overtime_ during the audit season. | 감사 기간에 야근을 피할 수는 없어. | §avoid + -ing | emo=teasing
+A | I've finished _*trying*_. It's been a long quarter. | 노력하는 건 끝냈어요. 긴 분기였거든요. | §finish + -ing | emo=sad
+B | Thank you for _*being* so transparent about your priorities_. | 우선순위를 그렇게 투명하게 밝혀 줘서 고마워. | §전치사 for + -ing | emo=amused
+A | No problem. I left the building without _*saving* the contract file_, though. | 천만에요. 근데 계약서 파일 저장 안 하고 퇴근했어요. | §without + -ing | emo=flustered
+B | You considered _*ending* your career_ before the audit? | 감사 전에 네 커리어를 끝내는 걸 고려한 거야? | §consider + -ing | emo=shout
+A | I'm staying. And enjoying it. Very much. | 남을게요. 즐기면서요. 아주 많이요. | 동명사 항복 | emo=stiff
 
 === t1_office_g13
 title: 지루한 건 발표인가 나인가
@@ -290,21 +291,21 @@ scene: A 의 발표가 끝났다. Raj 가 bored 와 boring 을 섞어 쓰며 평
 where: 발표 직후 복도
 goal: 분사형 형용사 — boring/bored · interesting/interested · exciting/excited
 grammar: 분사형 형용사|감정을 주는 쪽은 -ing(boring 지루하게 하는), 감정을 느끼는 쪽은 -ed(bored 지루해진). 사람도 -ing 가 될 수 있다(「지루한 사람」).
-check: The audience looked _____ during the slides. | boring | bored | bore | boringly | B
+check: The audience seemed _____ during the budget slides. | boring | bored | bore | boringly | B
 kind: short
 register: casual
 B: Raj
 twist: 6 slip
 expr: honestly | i mean
 --
-A | Honestly, how was my presentation? | 솔직히 내 발표 어땠어? | honestly = 솔직히 | emo=worried
-B | Everyone looked _*bored*_. | 다들 지루해 보였어. | §bored = 지루함을 느낀(사람) | emo=neutral
-A | Bored, or boring? | 지루해한 거야, 지루한 거야? | 분사형 형용사 되묻기 | emo=annoyed
-B | The slides were _*boring*_. You were _*interesting*_. | 슬라이드가 지루했지. 너는 흥미로웠고. | §boring = 지루하게 하는(사물) · interesting | emo=teasing
-A | Interesting how? | 어떻게 흥미로웠는데? | 짧은 되묻기 | emo=neutral
-B | You read the slides. Wrong slides. Very _*exciting*_. | 슬라이드를 읽었잖아. 다른 발표 거. 아주 흥미진진했어. | §exciting = 흥분시키는 | emo=amused
-A | I mean, the client was _*excited*_. | 내 말은, 거래처는 흥분했다고. | §excited = 흥분한(사람) | emo=flustered
-B | He was excited to leave. | 나가게 돼서 흥분한 거지. | 마무리 한 방 | emo=teasing
+A | Honestly, how did my presentation go? | 솔직히 내 발표 어땠어? | honestly = 솔직히 | emo=worried
+B | The entire audience looked _*bored*_ by slide three. | 세 번째 슬라이드쯤엔 청중 전부가 지루해 보였어. | §bored = 지루함을 느낀(사람) | emo=neutral
+A | Bored, or boring? Be specific. | 지루해한 거야, 지루한 거야? 구체적으로. | 분사형 형용사 되묻기 | emo=annoyed
+B | The slides were _*boring*_. You, however, were _*interesting*_. | 슬라이드가 지루했지. 반면 너는 흥미로웠고. | §boring = 지루하게 하는(사물) · interesting | emo=teasing
+A | Interesting in what sense? | 어떤 의미로 흥미로웠는데? | 짧은 되묻기 | emo=neutral
+B | You presented last year's figures. From a different department. Very _*exciting*_. | 작년 수치를 발표했잖아. 다른 부서 거. 아주 흥미진진했어. | §exciting = 흥분시키는 | emo=amused
+A | I mean, the client seemed genuinely _*excited*_. | 내 말은, 거래처는 진심으로 흥분한 것 같았다고. | §excited = 흥분한(사람) | emo=flustered
+B | He was excited to leave early. | 일찍 나가게 돼서 흥분한 거지. | 마무리 한 방 | emo=teasing
 
 === t1_office_g14
 title: 선적된 상자, 보내는 사람
@@ -313,7 +314,7 @@ scene: 창고에서 상자 라벨을 읽는다. 과거분사·현재분사가 �
 where: 발송장
 goal: 분사 — 명사 수식 과거분사(-ed)·현재분사(-ing)
 grammar: 분사|명사 앞뒤에서 꾸밀 때, 「~된」은 과거분사(the attached file), 「~하는」은 현재분사(the person handling it). 수식받는 명사가 하는 쪽인지 당하는 쪽인지 본다.
-check: Please check the _____ file before the meeting. | attach | attached | attaching | attachment | B
+check: Please review the _____ invoice before approving the payment. | attach | attached | attaching | attachment | B
 kind: short
 register: casual
 B: Raj
@@ -321,14 +322,14 @@ C: Olivia
 twist: 6 chaos
 expr: hold on | oh no
 --
-A | The label says "_*shipped* boxes_, this side." | 라벨에 "선적된 상자, 이쪽" 이라고 적혀 있어. | §shipped boxes = 선적된(과거분사) | emo=neutral
-B | And "_*shipping* staff_, that side." | 그리고 "발송 담당 직원, 저쪽." | §shipping staff = 발송하는(현재분사) | emo=neutral
-A | So the _*broken* printer_ goes… | 그럼 고장 난 프린터는… | §broken = 고장 난(과거분사) | emo=worried
-B | With the shipped boxes. It's not staff. | 선적 상자 쪽으로. 직원은 아니잖아. | 분사 논리 | emo=amused
-C | Hold on. Who is the _*person handling* returns_? | 잠깐. 반품 처리하는 사람이 누구야? | §person handling = 처리하는(현재분사, 뒤에서 수식) | emo=annoyed
-A | The person _*standing* next to the truck_. | 트럭 옆에 서 있는 사람이요. | §standing = 서 있는 | emo=neutral
-B | Oh no. That truck left. With the printer. And Tom. | 어떡해. 그 트럭 떠났어. 프린터랑. 톰이랑. | oh no = 어떡해 | emo=flustered
-C | A _*shipped* client_. New category. | 선적된 거래처라. 새로운 분류네. | §shipped client = 선적된(과거분사) | emo=tsukkomi
+A | The label reads "_*shipped* items_ — this side of the dock." | 라벨에 "선적된 물품 — 하역장 이쪽" 이라고 적혀 있어. | §shipped items = 선적된(과거분사) | emo=neutral
+B | And "_*shipping* personnel_ — that side." | 그리고 "발송 담당 인원 — 저쪽." | §shipping personnel = 발송하는(현재분사) | emo=neutral
+A | So the _*damaged* printer_ returned by the client goes… | 그럼 거래처가 반품한 파손된 프린터는… | §damaged = 파손된(과거분사) | emo=worried
+B | With the shipped items. It's clearly not personnel. | 선적 물품 쪽으로. 분명히 인원은 아니잖아. | 분사 논리 | emo=amused
+C | Hold on. Who is the _*person handling* returns_ this week? | 잠깐. 이번 주 반품 처리 담당자가 누구야? | §person handling = 처리하는(현재분사, 뒤에서 수식) | emo=annoyed
+A | The gentleman _*standing* next to the delivery truck_. | 배송 트럭 옆에 서 계신 분이요. | §standing = 서 있는 | emo=neutral
+B | Oh no. That truck just departed. With the printer. And Tom. | 어떡해. 그 트럭 방금 출발했어. 프린터랑. 톰이랑. | oh no = 어떡해 | emo=flustered
+C | A _*shipped* client_. That's a new category for the inventory system. | 선적된 거래처라. 재고 시스템에 새 분류가 생겼네. | §shipped client = 선적된(과거분사) | emo=tsukkomi
 
 === t1_office_g15
 title: 자동사는 목적어를 안 받아요
@@ -337,21 +338,21 @@ scene: Tom 이 전화로 「discuss about」을 쓰자 A 가 타동사·자동�
 where: 전화
 goal: 동사의 종류 — 타동사(discuss·attend)는 전치사 없이, 자동사(arrive·respond)는 전치사와
 grammar: 동사의 종류|discuss, attend, reach, contact 는 바로 목적어(전치사 금지). arrive at, respond to, participate in 은 전치사가 필요하다.
-check: We will _____ the schedule tomorrow. | discuss about | discuss | discussing | discussion | B
+check: We will _____ the delivery schedule at tomorrow's meeting. | discuss about | discuss | discussing | discussion | B
 kind: short
 register: polite
 B: Tom
 twist: 7 slip
 expr: just kidding | of course
 --
-B | Let's discuss about the schedule. | 일정에 대해 논의합시다. | §discuss 는 타동사 — about 없이 discuss the schedule | emo=polite
-A | _*Discuss* the schedule_. No "about." | discuss the schedule. about 없이요. | §타동사 + 목적어 | emo=neutral
-B | Fine. I'll _*attend* the meeting_. | 알았어요. 회의에 참석할게요. | §attend 도 타동사(attend to 아님) | emo=polite
-A | And _*arrive at*_ nine, please. | 그리고 9시에 도착해 주세요. | §arrive 는 자동사 — arrive at | emo=neutral
-B | I always _*respond to*_ invitations on time. | 저는 초대에 항상 제때 답해요. | §respond to = 자동사 + 전치사 | emo=polite
-A | You responded to mine three weeks late. | 제 초대에는 3주 늦게 답하셨죠. | 돌직구 | emo=tsukkomi
-B | Just kidding. I'll _*contact* you_ at nine. | 농담이에요. 9시에 연락할게요. | §contact 도 타동사(contact to 아님) | emo=flustered
-A | Of course. Contact me, not "to me." | 물론이죠. contact me, "to me" 아니고요. | 끝까지 교정 | emo=teasing
+B | Let's discuss about the revised delivery schedule. | 수정된 배송 일정에 대해 논의합시다. | §discuss 는 타동사 — about 없이 discuss the schedule | emo=polite
+A | _*Discuss* the schedule_, Tom. No "about" needed. | discuss the schedule 이에요, 톰. about 은 필요 없어요. | §타동사 + 목적어 | emo=neutral
+B | Noted. I'll _*attend* the meeting_ in person tomorrow. | 알겠어요. 내일 회의에 직접 참석할게요. | §attend 도 타동사(attend to 아님) | emo=polite
+A | Please _*arrive at*_ the conference room by nine. | 9시까지 회의실에 도착해 주세요. | §arrive 는 자동사 — arrive at | emo=neutral
+B | I always _*respond to*_ meeting invitations promptly. | 저는 회의 초대에 항상 신속하게 답해요. | §respond to = 자동사 + 전치사 | emo=polite
+A | You responded to the last one three weeks after the meeting. | 지난번 초대엔 회의 끝나고 3주 뒤에 답하셨죠. | 돌직구 | emo=tsukkomi
+B | Just kidding. I'll _*contact* you_ as soon as I arrive. | 농담이에요. 도착하는 대로 연락드릴게요. | §contact 도 타동사(contact to 아님) | emo=flustered
+A | Of course. Contact me, not "contact to me." | 물론이죠. contact me 지, "contact to me" 아니고요. | 끝까지 교정 | emo=teasing
 
 === t1_office_g16
 title: 누가 보낸 게 아니라 보내진 거예요
@@ -360,21 +361,21 @@ scene: 전체 메일 사고의 뒷수습. A 는 수동태로만 말하며 책임
 where: 팀장 자리
 goal: 수동태 — be + 과거분사, by 행위자, 수동태를 못 쓰는 자동사
 grammar: 수동태|「~되다」= be + 과거분사(was sent). 한 사람은 by 로. happen·arrive 같은 자동사는 수동태가 없다(was happened 는 틀림).
-check: The email _____ to the whole building by mistake. | sent | was sent | has sent | sending | B
+check: The confidential file _____ to all staff by mistake. | sent | was sent | has sent | sending | B
 kind: short
 register: mixed
 B: Olivia
 twist: 7 slip
 expr: i mean | fair enough
 --
-B | Who sent the email to the whole building? | 누가 건물 전체에 메일을 보냈어? | 능동태 질문 | emo=annoyed
-A | The email _*was sent*_. By mistake. | 메일이 보내졌어요. 실수로요. | §was sent = 보내졌다(수동태) | emo=neutral
-B | Sent by whom? | 누구에 의해 보내졌는데? | §by + 행위자 | emo=teasing
-A | It _*was clicked*_. The button _*was pressed*_. | 클릭이 됐고요. 버튼이 눌렸어요. | §수동태로 책임 지우기 | emo=flustered
-B | I mean, buttons don't press themselves. | 내 말은, 버튼이 스스로 눌리진 않아. | i mean = 내 말은 | emo=tsukkomi
-A | Then it _*was happened*_. | 그럼 그것이 발생되었어요. | §happen 은 자동사 — 수동태 불가(틀린 문장) | emo=flustered
-B | "Was happened" isn't English. | "was happened" 는 영어가 아니야. | 문법 교정 | emo=amused
-A | Fair enough. It _*happened*_. By me. | 인정. 그게 일어났어요. 저에 의해. | §자동사 능동 + 억지 by | emo=sad
+B | Who distributed the compensation file to the entire company? | 누가 급여 파일을 회사 전체에 배포했어? | 능동태 질문 | emo=annoyed
+A | The file _*was distributed*_. Unintentionally. | 파일이 배포됐어요. 의도치 않게요. | §was distributed = 배포됐다(수동태) | emo=neutral
+B | Distributed by whom, exactly? | 정확히 누구에 의해 배포됐는데? | §by + 행위자 | emo=teasing
+A | The attachment _*was selected*_. The send button _*was pressed*_. | 첨부 파일이 선택됐고요. 전송 버튼이 눌렸어요. | §수동태로 책임 지우기 | emo=flustered
+B | I mean, buttons don't press themselves in this building. | 내 말은, 이 건물에선 버튼이 스스로 눌리진 않아. | i mean = 내 말은 | emo=tsukkomi
+A | Then the incident _*was happened*_. | 그럼 그 사고가 발생되었어요. | §happen 은 자동사 — 수동태 불가(틀린 문장) | emo=flustered
+B | "Was happened" is not English. Try again. | "was happened" 는 영어가 아니야. 다시. | 문법 교정 | emo=amused
+A | Fair enough. The incident _*happened*_. By me. | 인정. 그 사고가 일어났어요. 저에 의해. | §자동사 능동 + 억지 by | emo=sad
 
 === t1_office_g17
 title: 월요일부터 쭉 기다리는 중
@@ -383,21 +384,21 @@ scene: Tom 이 송장을 아직 못 받았다며 시제를 바꿔 가며 항의�
 where: 전화
 goal: 시제 — 현재완료(have + p.p.) · since/for · 과거 vs 현재완료
 grammar: 시제|「~해 왔다·이미 ~했다」는 현재완료 have + 과거분사. since + 시점, for + 기간. 지난주·어제 같은 과거 시점에는 과거형.
-check: We _____ for the invoice since Monday. | wait | waited | have waited | are waiting | C
+check: Our accounting team _____ for the invoice since Monday. | wait | waited | has waited | is waiting | C
 kind: short
 register: polite
 B: Tom
 twist: 6 reveal
 expr: just to confirm | my bad
 --
-B | We _*have waited* for the invoice *since* Monday_. | 월요일부터 송장을 기다려 왔어요. | §현재완료 + since 시점 | emo=annoyed
-A | I _*sent* it on Monday_. | 월요일에 보냈는데요. | §과거 시점(on Monday) → 과거형 | emo=polite
-B | We _*haven't received* anything *for* a week_. | 일주일 동안 아무것도 못 받았어요. | §현재완료 부정 + for 기간 | emo=annoyed
-A | Just to confirm, which email? | 확인 차원에서요, 어느 메일로요? | just to confirm | emo=polite
-B | The one I _*have used* for ten years_. | 제가 10년째 쓰는 그 메일이요. | §현재완료 + for | emo=polite
-A | You changed it last month. You told me. | 지난달에 바꾸셨잖아요. 직접 말씀하셨어요. | §과거 시점 → 과거형 | emo=neutral
-B | My bad. I _*have* already *found* it_. In spam. | 제 잘못이네요. 벌써 찾았어요. 스팸함에서. | §현재완료 + already | emo=flustered
-A | Then you have waited for nothing since Monday. | 그럼 월요일부터 헛되이 기다리신 거네요. | 시제로 마무리 | emo=teasing
+B | Our accounting team _*has waited* for the invoice *since* Monday_. | 저희 회계팀이 월요일부터 송장을 기다려 왔어요. | §현재완료 + since 시점 | emo=annoyed
+A | I _*sent* it on Monday morning_, with the tracking number. | 월요일 아침에 추적 번호와 함께 보냈는데요. | §과거 시점(on Monday) → 과거형 | emo=polite
+B | We _*haven't received* anything *for* a full week_. | 꼬박 일주일 동안 아무것도 못 받았어요. | §현재완료 부정 + for 기간 | emo=annoyed
+A | Just to confirm, which address should it have gone to? | 확인 차원에서요, 어느 주소로 갔어야 하죠? | just to confirm | emo=polite
+B | The one I _*have used* for ten years_. Everyone has it. | 제가 10년째 쓰는 그 주소요. 다들 갖고 있어요. | §현재완료 + for | emo=polite
+A | You changed it last month and notified us yourself. | 지난달에 바꾸시고 직접 저희에게 알리셨어요. | §과거 시점 → 과거형 | emo=neutral
+B | My bad. I _*have* just *located* it_. In the spam folder. | 제 잘못이네요. 방금 찾았어요. 스팸 폴더에서요. | §현재완료 + just | emo=flustered
+A | So your team has waited for nothing since Monday. | 그럼 팀이 월요일부터 헛되이 기다리신 거네요. | 시제로 마무리 | emo=teasing
 
 === t1_office_g18
 title: 제일 싼 게 제일 비쌌다
@@ -406,7 +407,7 @@ scene: 사무실 의자를 고른다. 비교급·최상급으로 싸우다가 �
 where: 가구 매장 웹사이트 앞
 goal: 비교급·최상급 — -er/more than · the -est/most · as ~ as · 도치(Never have I)
 grammar: 비교급과 최상급|둘을 견주면 비교급(cheaper than, more comfortable than), 셋 이상이면 최상급(the cheapest). 「~만큼」은 as ~ as. 부정어가 문장 앞에 오면 도치(Never have I seen).
-check: This chair is _____ than that one. | cheap | cheaper | cheapest | the cheapest | B
+check: This model is considerably _____ than the one we currently use. | cheap | cheaper | cheapest | the cheapest | B
 kind: short
 register: casual
 B: Raj
@@ -414,11 +415,11 @@ C: Olivia
 twist: 7 chaos
 expr: no way | told you
 --
-A | This chair is _*cheaper than* that one_. | 이 의자가 저것보다 싸. | §비교급 -er than | emo=neutral
-B | That one is _*more comfortable than*_ this. | 저게 이것보다 더 편해. | §more + 형용사 than | emo=neutral
-A | We buy _*the cheapest*_. Olivia's rule. | 제일 싼 걸 사는 거야. 올리비아 규칙. | §최상급 the -est | emo=neutral
-B | The cheapest is _*as hard as* a rock_. | 제일 싼 건 돌만큼 딱딱해. | §as ~ as = ~만큼 | emo=amused
-A | A rock is free. Order twenty. | 돌은 공짜야. 스무 개 주문해. | 돌직구 | emo=teasing
-C | _*Never have I seen*_ a bill this big. | 이렇게 큰 청구서는 본 적이 없어. | §부정어 도치: Never + have + 주어 | emo=shout
-B | Twenty chairs, plus shipping. Shipping was _*the most expensive*_ part. | 의자 스무 개, 배송비 별도. 배송비가 제일 비쌌어. | §최상급 the most | emo=flustered
-A | No way. Told you — cheapest is costliest. | 말도 안 돼. 내가 말했지, 제일 싼 게 제일 비싸다고. | 교훈 한 줄 | emo=tsukkomi
+A | This model is considerably _*cheaper than* the one we use now_. | 이 모델이 지금 쓰는 것보다 훨씬 싸. | §비교급 -er than | emo=neutral
+B | That one is _*more comfortable than*_ anything in this catalog. | 저건 이 카탈로그에 있는 어떤 것보다 편해. | §more + 형용사 than | emo=neutral
+A | Procurement policy says we purchase _*the cheapest*_ option available. | 구매 규정상 구입 가능한 제일 싼 걸 사야 해. | §최상급 the -est | emo=neutral
+B | The cheapest option is _*as hard as* a concrete block_. | 제일 싼 건 콘크리트 블록만큼 딱딱해. | §as ~ as = ~만큼 | emo=amused
+A | Concrete is free. Order twenty units for the whole floor. | 콘크리트는 공짜야. 층 전체용으로 스무 개 주문해. | 돌직구 | emo=teasing
+C | _*Never have I seen*_ an invoice this large for office chairs. | 사무실 의자로 이렇게 큰 청구서는 본 적이 없어. | §부정어 도치: Never + have + 주어 | emo=shout
+B | Twenty chairs plus freight. Shipping turned out to be _*the most expensive*_ line item. | 의자 스무 개에 운임 별도. 배송비가 제일 비싼 항목이 됐어. | §최상급 the most | emo=flustered
+A | No way. Told you — the cheapest option is always the costliest. | 말도 안 돼. 내가 말했지, 제일 싼 게 늘 제일 비싸다고. | 교훈 한 줄 | emo=tsukkomi

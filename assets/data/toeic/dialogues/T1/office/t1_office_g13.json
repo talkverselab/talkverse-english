@@ -31,7 +31,7 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Honestly, how was my presentation?",
+   "en": "Honestly, how did my presentation go?",
    "ko": "솔직히 내 발표 어땠어?",
    "note": "honestly = 솔직히",
    "tags": [],
@@ -47,14 +47,19 @@
      "presentation",
      "presentation",
      ""
+    ],
+    [
+     "go",
+     "go",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "en": "Everyone looked bored.",
-   "ko": "다들 지루해 보였어.",
+   "en": "The entire audience looked bored by slide three.",
+   "ko": "세 번째 슬라이드쯤엔 청중 전부가 지루해 보였어.",
    "note": "",
    "tags": [],
    "new": [],
@@ -70,8 +75,13 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "Everyone",
-     "everyone",
+     "entire",
+     "entire",
+     ""
+    ],
+    [
+     "audience",
+     "audience",
      ""
     ],
     [
@@ -83,14 +93,19 @@
      "bored",
      "bored",
      ""
+    ],
+    [
+     "slide",
+     "slide",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "en": "Bored, or boring?",
-   "ko": "지루해한 거야, 지루한 거야?",
+   "en": "Bored, or boring? Be specific.",
+   "ko": "지루해한 거야, 지루한 거야? 구체적으로.",
    "note": "분사형 형용사 되묻기",
    "tags": [],
    "new": [],
@@ -105,14 +120,19 @@
      "boring",
      "boring",
      ""
+    ],
+    [
+     "specific",
+     "specific",
+     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "en": "The slides were boring. You were interesting.",
-   "ko": "슬라이드가 지루했지. 너는 흥미로웠고.",
+   "en": "The slides were boring. You, however, were interesting.",
+   "ko": "슬라이드가 지루했지. 반면 너는 흥미로웠고.",
    "note": "",
    "tags": [],
    "new": [],
@@ -140,6 +160,11 @@
      ""
     ],
     [
+     "however",
+     "however",
+     ""
+    ],
+    [
      "interesting",
      "interest",
      ""
@@ -149,8 +174,8 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Interesting how?",
-   "ko": "어떻게 흥미로웠는데?",
+   "en": "Interesting in what sense?",
+   "ko": "어떤 의미로 흥미로웠는데?",
    "note": "짧은 되묻기",
    "tags": [],
    "new": [],
@@ -160,14 +185,19 @@
      "Interesting",
      "interest",
      ""
+    ],
+    [
+     "sense",
+     "sense",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "en": "You read the slides. Wrong slides. Very exciting.",
-   "ko": "슬라이드를 읽었잖아. 다른 발표 거. 아주 흥미진진했어.",
+   "en": "You presented last year's figures. From a different department. Very exciting.",
+   "ko": "작년 수치를 발표했잖아. 다른 부서 거. 아주 흥미진진했어.",
    "note": "",
    "tags": [],
    "new": [],
@@ -183,23 +213,33 @@
    "emotion": "amused",
    "lemmas": [
     [
-     "read",
-     "read",
+     "presented",
+     "present",
      ""
     ],
     [
-     "slides",
-     "slide",
+     "last",
+     "last",
      ""
     ],
     [
-     "Wrong",
-     "wrong",
+     "year's",
+     "year",
      ""
     ],
     [
-     "slides",
-     "slide",
+     "figures",
+     "figure",
+     ""
+    ],
+    [
+     "different",
+     "different",
+     ""
+    ],
+    [
+     "department",
+     "department",
      ""
     ],
     [
@@ -212,8 +252,8 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "I mean, the client was excited.",
-   "ko": "내 말은, 거래처는 흥분했다고.",
+   "en": "I mean, the client seemed genuinely excited.",
+   "ko": "내 말은, 거래처는 진심으로 흥분한 것 같았다고.",
    "note": "",
    "tags": [],
    "new": [],
@@ -239,6 +279,16 @@
      ""
     ],
     [
+     "seemed",
+     "seem",
+     ""
+    ],
+    [
+     "genuinely",
+     "genuine",
+     ""
+    ],
+    [
      "excited",
      "excited",
      ""
@@ -248,8 +298,8 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "He was excited to leave.",
-   "ko": "나가게 돼서 흥분한 거지.",
+   "en": "He was excited to leave early.",
+   "ko": "일찍 나가게 돼서 흥분한 거지.",
    "note": "마무리 한 방",
    "tags": [],
    "new": [],
@@ -264,6 +314,11 @@
      "leave",
      "leave",
      ""
+    ],
+    [
+     "early",
+     "early",
+     ""
     ]
    ]
   }
@@ -273,7 +328,7 @@
   "ko": "감정을 주는 쪽은 -ing(boring 지루하게 하는), 감정을 느끼는 쪽은 -ed(bored 지루해진). 사람도 -ing 가 될 수 있다(「지루한 사람」)."
  },
  "check": {
-  "q": "The audience looked _____ during the slides.",
+  "q": "The audience seemed _____ during the budget slides.",
   "options": [
    "boring",
    "bored",

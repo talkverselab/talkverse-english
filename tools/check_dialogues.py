@@ -14,7 +14,7 @@ import add_lemmas  # noqa: E402
 TURNS = {'R0': (6, 8), 'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 16), 'T1': (8, 8)}  # T1 = 토익 비즈니스 회화, 8턴 고정(사용자 지시 2026-11-08)
 WORDS = {('R1', 'short'): (1, 9), ('R1', 'survival'): (1, 9), ('R1', 'long'): (1, 10), ('R1', 'chat'): (1, 7),
          ('R0', 'short'): (1, 6), ('R0', 'survival'): (1, 6), ('R0', 'long'): (1, 6), ('R0', 'chat'): (1, 6)}
-WORDS_UP = {'R2': (1, 12), 'R3': (1, 16), 'R4': (1, 18), 'T1': (1, 12)}
+WORDS_UP = {'R2': (1, 12), 'R3': (1, 16), 'R4': (1, 18), 'T1': (1, 15)}  # T1 중급 문장(사용자 지시 2026-11-08)
 NEW_PER_TURN = {'R0': 3, 'R1': 3, 'R2': 4, 'R3': 5, 'R4': 6, 'T1': 4}
 TWISTS = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
 EMOTIONS = set(json.load(open(ROOT / 'data/tts/voices.json', encoding='utf-8'))['emotions'])

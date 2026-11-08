@@ -31,8 +31,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "I need the report by Friday.",
-   "ko": "보고서 금요일까지 주세요.",
+   "en": "I need the revised proposal by Friday. The board meets on Monday.",
+   "ko": "수정 제안서를 금요일까지 주세요. 이사회가 월요일이에요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -53,13 +53,33 @@
      ""
     ],
     [
-     "report",
-     "report",
+     "revised",
+     "revised",
+     ""
+    ],
+    [
+     "proposal",
+     "proposal",
      ""
     ],
     [
      "Friday",
      "friday",
+     ""
+    ],
+    [
+     "board",
+     "board",
+     ""
+    ],
+    [
+     "meets",
+     "meet",
+     ""
+    ],
+    [
+     "Monday",
+     "monday",
      ""
     ]
    ]
@@ -68,7 +88,7 @@
    "num": 2,
    "speaker": "A",
    "en": "Just to confirm, by Friday or until Friday?",
-   "ko": "확인 차원에서요, 금요일까지 내는 건가요, 금요일 내내인가요?",
+   "ko": "확인 차원에서요, 금요일까지 제출인가요, 금요일 내내인가요?",
    "note": "",
    "tags": [],
    "new": [],
@@ -110,13 +130,18 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Is there a difference?",
-   "ko": "차이가 있어요?",
+   "en": "Is there a meaningful difference?",
+   "ko": "의미 있는 차이가 있나요?",
    "note": "거래처의 질문",
    "tags": [],
    "new": [],
    "emotion": "surprised",
    "lemmas": [
+    [
+     "meaningful",
+     "meaningful",
+     ""
+    ],
     [
      "difference",
      "difference",
@@ -127,8 +152,8 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "By means I finish. Until means I suffer.",
-   "ko": "by 는 끝낸다는 거고, until 은 고통받는다는 거예요.",
+   "en": "By means I deliver it. Until means I keep suffering.",
+   "ko": "by 는 제가 납품한다는 거고, until 은 계속 고통받는다는 거예요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -148,8 +173,8 @@
      ""
     ],
     [
-     "finish",
-     "finish",
+     "deliver",
+     "deliver",
      ""
     ],
     [
@@ -163,8 +188,13 @@
      ""
     ],
     [
-     "suffer",
-     "suffer",
+     "keep",
+     "keep",
+     ""
+    ],
+    [
+     "suffering",
+     "suffering",
      ""
     ]
    ]
@@ -172,19 +202,19 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Then by Friday. Within three days, please.",
-   "ko": "그럼 금요일까지요. 사흘 안에 부탁해요.",
+   "en": "Then by Friday. And please complete the budget section within three business days.",
+   "ko": "그럼 금요일까지요. 예산 항목은 영업일 사흘 안에 끝내 주시고요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
      "by Friday",
-     "Within three days"
+     "within three business days"
     ],
     "red": [
      "by",
-     "Within"
+     "within"
     ],
     "note": "within = 기간 안에"
    },
@@ -196,18 +226,38 @@
      ""
     ],
     [
-     "Within",
+     "please",
+     "please",
+     ""
+    ],
+    [
+     "complete",
+     "complete",
+     ""
+    ],
+    [
+     "budget",
+     "budget",
+     ""
+    ],
+    [
+     "section",
+     "section",
+     ""
+    ],
+    [
      "within",
+     "within",
+     ""
+    ],
+    [
+     "business",
+     "business",
      ""
     ],
     [
      "days",
      "day",
-     ""
-    ],
-    [
-     "please",
-     "please",
      ""
     ]
    ]
@@ -247,8 +297,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Oh. Then in one day.",
-   "ko": "아. 그럼 하루 뒤에요.",
+   "en": "Oh. Then in one day, I suppose.",
+   "ko": "아. 그럼 하루 뒤네요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -267,14 +317,19 @@
      "day",
      "day",
      ""
+    ],
+    [
+     "suppose",
+     "suppose",
+     ""
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "en": "I'll be suffering until Friday after all.",
-   "ko": "결국 금요일까지 고통받겠네요.",
+   "en": "So I'll be suffering until Friday after all.",
+   "ko": "그럼 결국 금요일까지 고통받겠네요.",
    "note": "",
    "tags": [],
    "new": [
@@ -319,7 +374,7 @@
   "ko": "by = 늦어도 그때까지 완료, until = 그때까지 계속, within = 기간 안에, in = ~ 뒤에. 토익 Part 5 단골."
  },
  "check": {
-  "q": "Please send the report _____ Friday noon.",
+  "q": "Please submit the revised proposal _____ Friday at noon.",
   "options": [
    "until",
    "by",

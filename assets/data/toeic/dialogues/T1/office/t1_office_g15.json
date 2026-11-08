@@ -31,8 +31,8 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Let's discuss about the schedule.",
-   "ko": "일정에 대해 논의합시다.",
+   "en": "Let's discuss about the revised delivery schedule.",
+   "ko": "수정된 배송 일정에 대해 논의합시다.",
    "note": "",
    "tags": [],
    "new": [],
@@ -54,6 +54,16 @@
      ""
     ],
     [
+     "revised",
+     "revised",
+     ""
+    ],
+    [
+     "delivery",
+     "delivery",
+     ""
+    ],
+    [
      "schedule",
      "schedule",
      ""
@@ -63,8 +73,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Discuss the schedule. No \"about.\"",
-   "ko": "discuss the schedule. about 없이요.",
+   "en": "Discuss the schedule, Tom. No \"about\" needed.",
+   "ko": "discuss the schedule 이에요, 톰. about 은 필요 없어요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -88,14 +98,24 @@
      "schedule",
      "schedule",
      ""
+    ],
+    [
+     "Tom",
+     "tom",
+     ""
+    ],
+    [
+     "needed",
+     "need",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "en": "Fine. I'll attend the meeting.",
-   "ko": "알았어요. 회의에 참석할게요.",
+   "en": "Noted. I'll attend the meeting in person tomorrow.",
+   "ko": "알겠어요. 내일 회의에 직접 참석할게요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -111,11 +131,6 @@
    "emotion": "polite",
    "lemmas": [
     [
-     "Fine",
-     "fine",
-     ""
-    ],
-    [
      "attend",
      "attend",
      ""
@@ -124,14 +139,24 @@
      "meeting",
      "meet",
      ""
+    ],
+    [
+     "person",
+     "person",
+     ""
+    ],
+    [
+     "tomorrow",
+     "tomorrow",
+     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "en": "And arrive at nine, please.",
-   "ko": "그리고 9시에 도착해 주세요.",
+   "en": "Please arrive at the conference room by nine.",
+   "ko": "9시까지 회의실에 도착해 주세요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -147,13 +172,23 @@
    "emotion": "neutral",
    "lemmas": [
     [
+     "Please",
+     "please",
+     ""
+    ],
+    [
      "arrive",
      "arrive",
      ""
     ],
     [
-     "please",
-     "please",
+     "conference",
+     "conference",
+     ""
+    ],
+    [
+     "room",
+     "room",
      ""
     ]
    ]
@@ -161,8 +196,8 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "I always respond to invitations on time.",
-   "ko": "저는 초대에 항상 제때 답해요.",
+   "en": "I always respond to meeting invitations promptly.",
+   "ko": "저는 회의 초대에 항상 신속하게 답해요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -183,13 +218,18 @@
      ""
     ],
     [
+     "meeting",
+     "meet",
+     ""
+    ],
+    [
      "invitations",
      "invitation",
      ""
     ],
     [
-     "time",
-     "time",
+     "promptly",
+     "prompt",
      ""
     ]
    ]
@@ -197,8 +237,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "You responded to mine three weeks late.",
-   "ko": "제 초대에는 3주 늦게 답하셨죠.",
+   "en": "You responded to the last one three weeks after the meeting.",
+   "ko": "지난번 초대엔 회의 끝나고 3주 뒤에 답하셨죠.",
    "note": "돌직구",
    "tags": [],
    "new": [],
@@ -210,8 +250,8 @@
      ""
     ],
     [
-     "mine",
-     "mine",
+     "last",
+     "last",
      ""
     ],
     [
@@ -220,8 +260,13 @@
      ""
     ],
     [
-     "late",
-     "late",
+     "after",
+     "after",
+     ""
+    ],
+    [
+     "meeting",
+     "meet",
      ""
     ]
    ]
@@ -229,8 +274,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Just kidding. I'll contact you at nine.",
-   "ko": "농담이에요. 9시에 연락할게요.",
+   "en": "Just kidding. I'll contact you as soon as I arrive.",
+   "ko": "농담이에요. 도착하는 대로 연락드릴게요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -254,14 +299,24 @@
      "contact",
      "contact",
      ""
+    ],
+    [
+     "soon",
+     "soon",
+     ""
+    ],
+    [
+     "arrive",
+     "arrive",
+     ""
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "en": "Of course. Contact me, not \"to me.\"",
-   "ko": "물론이죠. contact me, \"to me\" 아니고요.",
+   "en": "Of course. Contact me, not \"contact to me.\"",
+   "ko": "물론이죠. contact me 지, \"contact to me\" 아니고요.",
    "note": "끝까지 교정",
    "tags": [
     "expr:of course"
@@ -278,6 +333,11 @@
      "Contact",
      "contact",
      ""
+    ],
+    [
+     "contact",
+     "contact",
+     ""
     ]
    ]
   }
@@ -287,7 +347,7 @@
   "ko": "discuss, attend, reach, contact 는 바로 목적어(전치사 금지). arrive at, respond to, participate in 은 전치사가 필요하다."
  },
  "check": {
-  "q": "We will _____ the schedule tomorrow.",
+  "q": "We will _____ the delivery schedule at tomorrow's meeting.",
   "options": [
    "discuss about",
    "discuss",

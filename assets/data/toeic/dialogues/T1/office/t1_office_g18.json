@@ -32,14 +32,14 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "This chair is cheaper than that one.",
-   "ko": "이 의자가 저것보다 싸.",
+   "en": "This model is considerably cheaper than the one we use now.",
+   "ko": "이 모델이 지금 쓰는 것보다 훨씬 싸.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "cheaper than that one"
+     "cheaper than the one we use now"
     ],
     "red": [
      "cheaper than"
@@ -49,13 +49,23 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "chair",
-     "chair",
+     "model",
+     "model",
+     ""
+    ],
+    [
+     "considerably",
+     "considerably",
      ""
     ],
     [
      "cheaper",
      "cheap",
+     ""
+    ],
+    [
+     "use",
+     "use",
      ""
     ]
    ]
@@ -63,8 +73,8 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "That one is more comfortable than this.",
-   "ko": "저게 이것보다 더 편해.",
+   "en": "That one is more comfortable than anything in this catalog.",
+   "ko": "저건 이 카탈로그에 있는 어떤 것보다 편해.",
    "note": "",
    "tags": [],
    "new": [],
@@ -83,14 +93,24 @@
      "comfortable",
      "comfortable",
      ""
+    ],
+    [
+     "anything",
+     "anything",
+     ""
+    ],
+    [
+     "catalog",
+     "catalog",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "en": "We buy the cheapest. Olivia's rule.",
-   "ko": "제일 싼 걸 사는 거야. 올리비아 규칙.",
+   "en": "Procurement policy says we purchase the cheapest option available.",
+   "ko": "구매 규정상 구입 가능한 제일 싼 걸 사야 해.",
    "note": "",
    "tags": [],
    "new": [],
@@ -106,8 +126,23 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "buy",
-     "buy",
+     "Procurement",
+     "procurement",
+     ""
+    ],
+    [
+     "policy",
+     "policy",
+     ""
+    ],
+    [
+     "says",
+     "say",
+     ""
+    ],
+    [
+     "purchase",
+     "purchase",
      ""
     ],
     [
@@ -116,13 +151,13 @@
      ""
     ],
     [
-     "Olivia's",
-     "olivia",
+     "option",
+     "option",
      ""
     ],
     [
-     "rule",
-     "rule",
+     "available",
+     "available",
      ""
     ]
    ]
@@ -130,14 +165,14 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "The cheapest is as hard as a rock.",
-   "ko": "제일 싼 건 돌만큼 딱딱해.",
+   "en": "The cheapest option is as hard as a concrete block.",
+   "ko": "제일 싼 건 콘크리트 블록만큼 딱딱해.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "as hard as a rock"
+     "as hard as a concrete block"
     ],
     "red": [
      "as hard as"
@@ -152,13 +187,23 @@
      ""
     ],
     [
+     "option",
+     "option",
+     ""
+    ],
+    [
      "hard",
      "hard",
      ""
     ],
     [
-     "rock",
-     "rock",
+     "concrete",
+     "concrete",
+     ""
+    ],
+    [
+     "block",
+     "block",
      ""
     ]
    ]
@@ -166,16 +211,16 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "A rock is free. Order twenty.",
-   "ko": "돌은 공짜야. 스무 개 주문해.",
+   "en": "Concrete is free. Order twenty units for the whole floor.",
+   "ko": "콘크리트는 공짜야. 층 전체용으로 스무 개 주문해.",
    "note": "돌직구",
    "tags": [],
    "new": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "rock",
-     "rock",
+     "Concrete",
+     "concrete",
      ""
     ],
     [
@@ -192,14 +237,29 @@
      "twenty",
      "twenty",
      ""
+    ],
+    [
+     "units",
+     "unit",
+     ""
+    ],
+    [
+     "whole",
+     "whole",
+     ""
+    ],
+    [
+     "floor",
+     "floor",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "C",
-   "en": "Never have I seen a bill this big.",
-   "ko": "이렇게 큰 청구서는 본 적이 없어.",
+   "en": "Never have I seen an invoice this large for office chairs.",
+   "ko": "사무실 의자로 이렇게 큰 청구서는 본 적이 없어.",
    "note": "",
    "tags": [],
    "new": [],
@@ -220,13 +280,23 @@
      ""
     ],
     [
-     "bill",
-     "bill",
+     "invoice",
+     "invoice",
      ""
     ],
     [
-     "big",
-     "big",
+     "large",
+     "large",
+     ""
+    ],
+    [
+     "office",
+     "office",
+     ""
+    ],
+    [
+     "chairs",
+     "chair",
      ""
     ]
    ]
@@ -234,8 +304,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Twenty chairs, plus shipping. Shipping was the most expensive part.",
-   "ko": "의자 스무 개, 배송비 별도. 배송비가 제일 비쌌어.",
+   "en": "Twenty chairs plus freight. Shipping turned out to be the most expensive line item.",
+   "ko": "의자 스무 개에 운임 별도. 배송비가 제일 비싼 항목이 됐어.",
    "note": "",
    "tags": [],
    "new": [],
@@ -266,8 +336,8 @@
      ""
     ],
     [
-     "shipping",
-     "ship",
+     "freight",
+     "freight",
      ""
     ],
     [
@@ -276,13 +346,23 @@
      ""
     ],
     [
+     "turned",
+     "turn",
+     ""
+    ],
+    [
      "expensive",
      "expensive",
      ""
     ],
     [
-     "part",
-     "part",
+     "line",
+     "line",
+     ""
+    ],
+    [
+     "item",
+     "item",
      ""
     ]
    ]
@@ -290,8 +370,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "No way. Told you — cheapest is costliest.",
-   "ko": "말도 안 돼. 내가 말했지, 제일 싼 게 제일 비싸다고.",
+   "en": "No way. Told you — the cheapest option is always the costliest.",
+   "ko": "말도 안 돼. 내가 말했지, 제일 싼 게 늘 제일 비싸다고.",
    "note": "교훈 한 줄",
    "tags": [
     "expr:no way",
@@ -318,6 +398,11 @@
      ""
     ],
     [
+     "option",
+     "option",
+     ""
+    ],
+    [
      "costliest",
      "costly",
      ""
@@ -330,7 +415,7 @@
   "ko": "둘을 견주면 비교급(cheaper than, more comfortable than), 셋 이상이면 최상급(the cheapest). 「~만큼」은 as ~ as. 부정어가 문장 앞에 오면 도치(Never have I seen)."
  },
  "check": {
-  "q": "This chair is _____ than that one.",
+  "q": "This model is considerably _____ than the one we currently use.",
   "options": [
    "cheap",
    "cheaper",

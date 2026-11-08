@@ -32,8 +32,8 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "I ordered three equipments for the new office.",
-   "ko": "새 사무실에 장비 세 개 주문했어.",
+   "en": "I placed an order for three equipments for the new branch.",
+   "ko": "새 지점용으로 장비 세 개 발주했어.",
    "note": "",
    "tags": [],
    "new": [],
@@ -49,7 +49,12 @@
    "emotion": "cheerful",
    "lemmas": [
     [
-     "ordered",
+     "placed",
+     "place",
+     ""
+    ],
+    [
+     "order",
      "order",
      ""
     ],
@@ -64,8 +69,8 @@
      ""
     ],
     [
-     "office",
-     "office",
+     "branch",
+     "branch",
      ""
     ]
    ]
@@ -73,14 +78,14 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Equipment doesn't count. Like your overtime.",
-   "ko": "장비는 셀 수 없어. 네 야근처럼.",
+   "en": "Equipment doesn't take a plural. Neither does your overtime pay.",
+   "ko": "equipment 는 복수형이 없어. 네 야근 수당도 없고.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "Equipment doesn't count"
+     "Equipment doesn't take a plural"
     ],
     "red": [
      "Equipment"
@@ -95,18 +100,28 @@
      ""
     ],
     [
-     "count",
-     "count",
+     "take",
+     "take",
      ""
     ],
     [
-     "Like",
-     "like",
+     "plural",
+     "plural",
+     ""
+    ],
+    [
+     "Neither",
+     "neither",
      ""
     ],
     [
      "overtime",
      "overtime",
+     ""
+    ],
+    [
+     "pay",
+     "pay",
      ""
     ]
    ]
@@ -114,16 +129,26 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Then what did I order?",
-   "ko": "그럼 내가 뭘 주문한 거야?",
+   "en": "Then what exactly did the supplier ship?",
+   "ko": "그럼 공급업체가 정확히 뭘 보낸 거야?",
    "note": "되묻기",
    "tags": [],
    "new": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "order",
-     "order",
+     "exactly",
+     "exactly",
+     ""
+    ],
+    [
+     "supplier",
+     "supply",
+     ""
+    ],
+    [
+     "ship",
+     "ship",
      ""
     ]
    ]
@@ -131,8 +156,8 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Three truckloads, apparently.",
-   "ko": "보아하니 트럭 세 대 분량.",
+   "en": "Three truckloads, according to the delivery confirmation.",
+   "ko": "배송 확인서에 따르면 트럭 세 대 분량.",
    "note": "양이 폭발",
    "tags": [],
    "new": [],
@@ -144,8 +169,18 @@
      ""
     ],
     [
-     "apparently",
-     "apparently",
+     "according",
+     "according",
+     ""
+    ],
+    [
+     "delivery",
+     "delivery",
+     ""
+    ],
+    [
+     "confirmation",
+     "confirmation",
      ""
     ]
    ]
@@ -153,14 +188,14 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "My bad. I also wrote \"furnitures.\"",
-   "ko": "내 잘못. \"furnitures\" 라고도 썼어.",
+   "en": "My bad. I also requested \"furnitures\" on the same form.",
+   "ko": "내 잘못. 같은 양식에 \"furnitures\" 도 요청했어.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "\"furnitures.\""
+     "furnitures"
     ],
     "red": [
      "furnitures"
@@ -175,13 +210,18 @@
      ""
     ],
     [
-     "wrote",
-     "write",
+     "requested",
+     "request",
      ""
     ],
     [
      "furnitures",
      "furniture",
+     ""
+    ],
+    [
+     "form",
+     "form",
      ""
     ]
    ]
@@ -189,8 +229,8 @@
   {
    "num": 6,
    "speaker": "C",
-   "en": "Seriously? There's a sofa in my parking spot.",
-   "ko": "진심이야? 내 주차 자리에 소파가 있어.",
+   "en": "Seriously? There's a conference table in my parking space.",
+   "ko": "진심이야? 내 주차 자리에 회의 탁자가 있어.",
    "note": "seriously = 진심이야",
    "tags": [],
    "new": [],
@@ -202,8 +242,13 @@
      ""
     ],
     [
-     "sofa",
-     "sofa",
+     "conference",
+     "conference",
+     ""
+    ],
+    [
+     "table",
+     "table",
      ""
     ],
     [
@@ -212,8 +257,8 @@
      ""
     ],
     [
-     "spot",
-     "spot",
+     "space",
+     "space",
      ""
     ]
    ]
@@ -221,14 +266,14 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Some advice would have been nice.",
-   "ko": "조언 좀 해 주지 그랬어.",
+   "en": "Some advice beforehand would have been appreciated.",
+   "ko": "미리 조언 좀 해 줬으면 고마웠을 텐데.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "Some advice"
+     "advice"
     ],
     "red": [
      "advice"
@@ -243,8 +288,13 @@
      ""
     ],
     [
-     "nice",
-     "nice",
+     "beforehand",
+     "beforehand",
+     ""
+    ],
+    [
+     "appreciated",
+     "appreciate",
      ""
     ]
    ]
@@ -252,9 +302,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Advice is uncountable. So is your damage.",
-   "ko": "조언도 못 세. 네 사고도 못 세고.",
-   "note": "마무리 한 방",
+   "en": "Advice is uncountable. So is the damage to your reputation.",
+   "ko": "advice 도 못 세. 네 평판 손상도 못 세고.",
+   "note": "",
    "tags": [],
    "new": [
     "uncountable"
@@ -266,7 +316,7 @@
     "red": [
      "Advice"
     ],
-    "note": ""
+    "note": "마무리 한 방"
    },
    "emotion": "teasing",
    "lemmas": [
@@ -284,6 +334,11 @@
      "damage",
      "damage",
      ""
+    ],
+    [
+     "reputation",
+     "reputation",
+     ""
     ]
    ]
   }
@@ -293,7 +348,7 @@
   "ko": "equipment, furniture, information, advice, luggage 는 셀 수 없다 — s 도 a 도 안 붙는다. 세려면 a piece of."
  },
  "check": {
-  "q": "We need more _____ for the new office.",
+  "q": "The new branch requires additional _____ before it opens.",
   "options": [
    "equipments",
    "an equipment",

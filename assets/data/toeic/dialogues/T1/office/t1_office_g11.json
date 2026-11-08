@@ -32,19 +32,19 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "We came here to sign the contract.",
-   "ko": "계약서에 서명하러 왔어요.",
+   "en": "We came to finalize the service agreement this afternoon.",
+   "ko": "오늘 오후에 서비스 계약을 마무리하러 왔어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "to sign the contract"
+     "to finalize the service agreement"
     ],
     "red": [
-     "to sign"
+     "to finalize"
     ],
-    "note": "to sign = ~하기 위해(목적)"
+    "note": "to finalize = ~하기 위해(목적)"
    },
    "emotion": "polite",
    "lemmas": [
@@ -54,13 +54,23 @@
      ""
     ],
     [
-     "sign",
-     "sign",
+     "finalize",
+     "finalize",
      ""
     ],
     [
-     "contract",
-     "contract",
+     "service",
+     "service",
+     ""
+    ],
+    [
+     "agreement",
+     "agreement",
+     ""
+    ],
+    [
+     "afternoon",
+     "afternoon",
      ""
     ]
    ]
@@ -68,20 +78,25 @@
   {
    "num": 2,
    "speaker": "C",
-   "en": "Great. Pen or tablet?",
-   "ko": "좋아요. 펜이요, 태블릿이요?",
+   "en": "Excellent. Would you prefer a pen or the tablet?",
+   "ko": "좋아요. 펜이 좋으세요, 태블릿이 좋으세요?",
    "note": "팀장의 속도",
    "tags": [],
    "new": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Great",
-     "great",
+     "Excellent",
+     "excellent",
      ""
     ],
     [
-     "Pen",
+     "prefer",
+     "prefer",
+     ""
+    ],
+    [
+     "pen",
      "pen",
      ""
     ],
@@ -95,19 +110,19 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "To be honest, we decided to wait.",
-   "ko": "솔직히 말하면, 기다리기로 했어요.",
+   "en": "To be honest, our legal team decided to postpone the signing.",
+   "ko": "솔직히 말씀드리면, 저희 법무팀이 서명을 연기하기로 했어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "to wait"
+     "to postpone the signing"
     ],
     "red": [
-     "to wait"
+     "to postpone"
     ],
-    "note": "decide to wait = 기다리기(명사 역할)"
+    "note": "decide to postpone = 연기하기(명사 역할)"
    },
    "emotion": "neutral",
    "lemmas": [
@@ -117,13 +132,28 @@
      ""
     ],
     [
+     "legal",
+     "legal",
+     ""
+    ],
+    [
+     "team",
+     "team",
+     ""
+    ],
+    [
      "decided",
      "decide",
      ""
     ],
     [
-     "wait",
-     "wait",
+     "postpone",
+     "postpone",
+     ""
+    ],
+    [
+     "signing",
+     "sign",
      ""
     ]
    ]
@@ -131,8 +161,8 @@
   {
    "num": 4,
    "speaker": "C",
-   "en": "You came here to sign, to wait?",
-   "ko": "서명하러 와서 기다린다고요?",
+   "en": "You came here to sign, in order to postpone?",
+   "ko": "서명하러 오셔서 연기하신다고요?",
    "note": "두 to부정사 충돌",
    "tags": [],
    "new": [],
@@ -149,8 +179,13 @@
      ""
     ],
     [
-     "wait",
-     "wait",
+     "order",
+     "order",
+     ""
+    ],
+    [
+     "postpone",
+     "postpone",
      ""
     ]
    ]
@@ -158,30 +193,40 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "There's still time to think.",
-   "ko": "아직 생각할 시간이 있잖아요.",
+   "en": "There's still plenty of time to review the terms.",
+   "ko": "조건을 검토할 시간은 아직 충분하잖아요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "to think"
+     "to review the terms"
     ],
     "red": [
-     "to think"
+     "to review"
     ],
-    "note": "time to think = 생각할(형용사 역할)"
+    "note": "time to review = 검토할(형용사 역할)"
    },
    "emotion": "polite",
    "lemmas": [
+    [
+     "plenty",
+     "plenty",
+     ""
+    ],
     [
      "time",
      "time",
      ""
     ],
     [
-     "think",
-     "think",
+     "review",
+     "review",
+     ""
+    ],
+    [
+     "terms",
+     "term",
      ""
     ]
    ]
@@ -189,19 +234,19 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "There's also a sandwich to eat. In your hand.",
-   "ko": "먹을 샌드위치도 있네요. 손에요.",
+   "en": "There's also a sandwich to finish. In your left hand.",
+   "ko": "마저 드실 샌드위치도 있네요. 왼손에요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "to eat"
+     "to finish"
     ],
     "red": [
-     "to eat"
+     "to finish"
     ],
-    "note": "a sandwich to eat = 먹을(형용사 역할)"
+    "note": "a sandwich to finish = 먹을(형용사 역할)"
    },
    "emotion": "teasing",
    "lemmas": [
@@ -211,8 +256,13 @@
      ""
     ],
     [
-     "eat",
-     "eat",
+     "finish",
+     "finish",
+     ""
+    ],
+    [
+     "left",
+     "leave",
      ""
     ],
     [
@@ -225,8 +275,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "I came to have lunch. The contract was a bonus.",
-   "ko": "점심 먹으러 온 거예요. 계약은 덤이고요.",
+   "en": "I came to have lunch with my favorite vendor. The contract was a bonus.",
+   "ko": "제일 좋아하는 협력사랑 점심 먹으러 온 거예요. 계약은 덤이고요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -252,6 +302,16 @@
      ""
     ],
     [
+     "favorite",
+     "favorite",
+     ""
+    ],
+    [
+     "vendor",
+     "vendor",
+     ""
+    ],
+    [
      "contract",
      "contract",
      ""
@@ -266,8 +326,8 @@
   {
    "num": 8,
    "speaker": "C",
-   "en": "Sounds good. Lunch is forty dollars. Sign here.",
-   "ko": "좋네요. 점심값 40달러. 여기 서명하세요.",
+   "en": "Sounds good. Lunch is forty dollars per person. Sign here.",
+   "ko": "좋네요. 점심은 1인당 40달러. 여기 서명하세요.",
    "note": "sounds good = 좋네요",
    "tags": [
     "expr:sounds good"
@@ -303,6 +363,16 @@
      ""
     ],
     [
+     "per",
+     "per",
+     ""
+    ],
+    [
+     "person",
+     "person",
+     ""
+    ],
+    [
      "Sign",
      "sign",
      ""
@@ -315,12 +385,12 @@
   "ko": "「~하기 위해」(목적), decide·want·plan 뒤 「~하기」(명사), time·way·chance 뒤 「~할」(형용사). to 뒤에는 동사원형."
  },
  "check": {
-  "q": "We came here _____ the contract.",
+  "q": "Our representatives came _____ the final terms of the agreement.",
   "options": [
-   "sign",
-   "to sign",
-   "signing",
-   "signed"
+   "review",
+   "to review",
+   "reviewing",
+   "reviewed"
   ],
   "answer": 1
  }
