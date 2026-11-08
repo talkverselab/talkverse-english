@@ -45,12 +45,12 @@ void main() {
   });
 }
 
-/// 토익 비즈니스 회화 — 10편, 8턴, 문법 표시·문법 포인트·빈칸 문제가 다 있는지(파일 직접 읽기 — DialogueService 는 빌드된 앱에 따라 고른다).
+/// 토익 비즈니스 회화 — 18편, 8턴, 문법 표시·문법 포인트·빈칸 문제가 다 있는지(파일 직접 읽기 — DialogueService 는 빌드된 앱에 따라 고른다).
 void toeicDialogueTests() {
   test('toeic office dialogues', () async {
     final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
     final paths = manifest.listAssets().where((p) => p.startsWith('assets/data/toeic/dialogues/T1/office/')).toList();
-    expect(paths.length, 10);
+    expect(paths.length, 18);
     for (final p in paths) {
       final d = Dialogue.fromJson(json.decode(await rootBundle.loadString(p)) as Map<String, dynamic>);
       expect(d.turns.length, 8, reason: d.id);

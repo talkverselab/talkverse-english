@@ -1,0 +1,315 @@
+{
+ "id": "t1_office_g17",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "월요일부터 쭉 기다리는 중",
+ "emoji": "🕒",
+ "scene": "Tom 이 송장을 아직 못 받았다며 시제를 바꿔 가며 항의한다. A 는 시제로 받아친다",
+ "where": "전화",
+ "goal": "시제 — 현재완료(have + p.p.) · since/for · 과거 vs 현재완료",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tom"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "just to confirm",
+  "my bad"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "We have waited for the invoice since Monday.",
+   "ko": "월요일부터 송장을 기다려 왔어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "have waited for the invoice since Monday"
+    ],
+    "red": [
+     "have waited",
+     "since"
+    ],
+    "note": "현재완료 + since 시점"
+   },
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "waited",
+     "wait",
+     ""
+    ],
+    [
+     "invoice",
+     "invoice",
+     ""
+    ],
+    [
+     "since",
+     "since",
+     ""
+    ],
+    [
+     "Monday",
+     "monday",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "I sent it on Monday.",
+   "ko": "월요일에 보냈는데요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "sent it on Monday"
+    ],
+    "red": [
+     "sent"
+    ],
+    "note": "과거 시점(on Monday) → 과거형"
+   },
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "sent",
+     "send",
+     ""
+    ],
+    [
+     "Monday",
+     "monday",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "We haven't received anything for a week.",
+   "ko": "일주일 동안 아무것도 못 받았어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "haven't received anything for a week"
+    ],
+    "red": [
+     "haven't received",
+     "for"
+    ],
+    "note": "현재완료 부정 + for 기간"
+   },
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "received",
+     "receive",
+     ""
+    ],
+    [
+     "anything",
+     "anything",
+     ""
+    ],
+    [
+     "week",
+     "week",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Just to confirm, which email?",
+   "ko": "확인 차원에서요, 어느 메일로요?",
+   "note": "just to confirm",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "confirm",
+     "confirm",
+     ""
+    ],
+    [
+     "email",
+     "email",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "The one I have used for ten years.",
+   "ko": "제가 10년째 쓰는 그 메일이요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "have used for ten years"
+    ],
+    "red": [
+     "have used"
+    ],
+    "note": "현재완료 + for"
+   },
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "used",
+     "used",
+     ""
+    ],
+    [
+     "years",
+     "year",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "You changed it last month. You told me.",
+   "ko": "지난달에 바꾸셨잖아요. 직접 말씀하셨어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [],
+    "red": [],
+    "note": "과거 시점 → 과거형"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "changed",
+     "change",
+     ""
+    ],
+    [
+     "last",
+     "last",
+     ""
+    ],
+    [
+     "month",
+     "month",
+     ""
+    ],
+    [
+     "told",
+     "tell",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "My bad. I have already found it. In spam.",
+   "ko": "제 잘못이네요. 벌써 찾았어요. 스팸함에서.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "have already found it"
+    ],
+    "red": [
+     "have",
+     "found"
+    ],
+    "note": "현재완료 + already"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "bad",
+     "worse",
+     ""
+    ],
+    [
+     "found",
+     "find",
+     ""
+    ],
+    [
+     "spam",
+     "spam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Then you have waited for nothing since Monday.",
+   "ko": "그럼 월요일부터 헛되이 기다리신 거네요.",
+   "note": "시제로 마무리",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "waited",
+     "wait",
+     ""
+    ],
+    [
+     "nothing",
+     "nothing",
+     ""
+    ],
+    [
+     "since",
+     "since",
+     ""
+    ],
+    [
+     "Monday",
+     "monday",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "시제",
+  "ko": "「~해 왔다·이미 ~했다」는 현재완료 have + 과거분사. since + 시점, for + 기간. 지난주·어제 같은 과거 시점에는 과거형."
+ },
+ "check": {
+  "q": "We _____ for the invoice since Monday.",
+  "options": [
+   "wait",
+   "waited",
+   "have waited",
+   "are waiting"
+  ],
+  "answer": 2
+ }
+}

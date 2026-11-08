@@ -1,0 +1,349 @@
+{
+ "id": "t1_office_g14",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "선적된 상자, 보내는 사람",
+ "emoji": "📦",
+ "scene": "창고에서 상자 라벨을 읽는다. 과거분사·현재분사가 뒤섞인 라벨 때문에 상자가 엉뚱한 곳으로 간다",
+ "where": "발송장",
+ "goal": "분사 — 명사 수식 과거분사(-ed)·현재분사(-ing)",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raj",
+  "C": "Olivia"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "hold on",
+  "oh no"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "The label says \"shipped boxes, this side.\"",
+   "ko": "라벨에 \"선적된 상자, 이쪽\" 이라고 적혀 있어.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "shipped boxes"
+    ],
+    "red": [
+     "shipped"
+    ],
+    "note": "shipped boxes = 선적된(과거분사)"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "label",
+     "label",
+     ""
+    ],
+    [
+     "says",
+     "say",
+     ""
+    ],
+    [
+     "shipped",
+     "ship",
+     ""
+    ],
+    [
+     "boxes",
+     "box",
+     ""
+    ],
+    [
+     "side",
+     "side",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "And \"shipping staff, that side.\"",
+   "ko": "그리고 \"발송 담당 직원, 저쪽.\"",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "shipping staff"
+    ],
+    "red": [
+     "shipping"
+    ],
+    "note": "shipping staff = 발송하는(현재분사)"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "shipping",
+     "ship",
+     ""
+    ],
+    [
+     "staff",
+     "staff",
+     ""
+    ],
+    [
+     "side",
+     "side",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "So the broken printer goes…",
+   "ko": "그럼 고장 난 프린터는…",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "broken printer"
+    ],
+    "red": [
+     "broken"
+    ],
+    "note": "broken = 고장 난(과거분사)"
+   },
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "broken",
+     "break",
+     ""
+    ],
+    [
+     "printer",
+     "print",
+     ""
+    ],
+    [
+     "goes",
+     "go",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "With the shipped boxes. It's not staff.",
+   "ko": "선적 상자 쪽으로. 직원은 아니잖아.",
+   "note": "분사 논리",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "shipped",
+     "ship",
+     ""
+    ],
+    [
+     "boxes",
+     "box",
+     ""
+    ],
+    [
+     "staff",
+     "staff",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "en": "Hold on. Who is the person handling returns?",
+   "ko": "잠깐. 반품 처리하는 사람이 누구야?",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "person handling returns"
+    ],
+    "red": [
+     "person handling"
+    ],
+    "note": "person handling = 처리하는(현재분사, 뒤에서 수식)"
+   },
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Hold",
+     "hold",
+     ""
+    ],
+    [
+     "person",
+     "person",
+     ""
+    ],
+    [
+     "handling",
+     "handle",
+     ""
+    ],
+    [
+     "returns",
+     "return",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "The person standing next to the truck.",
+   "ko": "트럭 옆에 서 있는 사람이요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "standing next to the truck"
+    ],
+    "red": [
+     "standing"
+    ],
+    "note": "standing = 서 있는"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "person",
+     "person",
+     ""
+    ],
+    [
+     "standing",
+     "stand",
+     ""
+    ],
+    [
+     "next",
+     "next",
+     ""
+    ],
+    [
+     "truck",
+     "truck",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Oh no. That truck left. With the printer. And Tom.",
+   "ko": "어떡해. 그 트럭 떠났어. 프린터랑. 톰이랑.",
+   "note": "oh no = 어떡해",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "truck",
+     "truck",
+     ""
+    ],
+    [
+     "left",
+     "leave",
+     ""
+    ],
+    [
+     "printer",
+     "print",
+     ""
+    ],
+    [
+     "Tom",
+     "tom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "en": "A shipped client. New category.",
+   "ko": "선적된 거래처라. 새로운 분류네.",
+   "note": "",
+   "tags": [],
+   "new": [
+    "category"
+   ],
+   "gram": {
+    "u": [
+     "shipped client"
+    ],
+    "red": [
+     "shipped"
+    ],
+    "note": "shipped client = 선적된(과거분사)"
+   },
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "shipped",
+     "ship",
+     ""
+    ],
+    [
+     "client",
+     "client",
+     ""
+    ],
+    [
+     "New",
+     "new",
+     ""
+    ],
+    [
+     "category",
+     "category",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "분사",
+  "ko": "명사 앞뒤에서 꾸밀 때, 「~된」은 과거분사(the attached file), 「~하는」은 현재분사(the person handling it). 수식받는 명사가 하는 쪽인지 당하는 쪽인지 본다."
+ },
+ "check": {
+  "q": "Please check the _____ file before the meeting.",
+  "options": [
+   "attach",
+   "attached",
+   "attaching",
+   "attachment"
+  ],
+  "answer": 1
+ }
+}

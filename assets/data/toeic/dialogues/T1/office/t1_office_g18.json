@@ -1,0 +1,342 @@
+{
+ "id": "t1_office_g18",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "제일 싼 게 제일 비쌌다",
+ "emoji": "🪑",
+ "scene": "사무실 의자를 고른다. 비교급·최상급으로 싸우다가 가장 싼 의자가 가장 비싸게 먹힌다",
+ "where": "가구 매장 웹사이트 앞",
+ "goal": "비교급·최상급 — -er/more than · the -est/most · as ~ as · 도치(Never have I)",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raj",
+  "C": "Olivia"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "no way",
+  "told you"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "This chair is cheaper than that one.",
+   "ko": "이 의자가 저것보다 싸.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "cheaper than that one"
+    ],
+    "red": [
+     "cheaper than"
+    ],
+    "note": "비교급 -er than"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "chair",
+     "chair",
+     ""
+    ],
+    [
+     "cheaper",
+     "cheap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "That one is more comfortable than this.",
+   "ko": "저게 이것보다 더 편해.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "more comfortable than"
+    ],
+    "red": [
+     "more comfortable than"
+    ],
+    "note": "more + 형용사 than"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "comfortable",
+     "comfortable",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "We buy the cheapest. Olivia's rule.",
+   "ko": "제일 싼 걸 사는 거야. 올리비아 규칙.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "the cheapest"
+    ],
+    "red": [
+     "the cheapest"
+    ],
+    "note": "최상급 the -est"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "buy",
+     "buy",
+     ""
+    ],
+    [
+     "cheapest",
+     "cheap",
+     ""
+    ],
+    [
+     "Olivia's",
+     "olivia",
+     ""
+    ],
+    [
+     "rule",
+     "rule",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "The cheapest is as hard as a rock.",
+   "ko": "제일 싼 건 돌만큼 딱딱해.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "as hard as a rock"
+    ],
+    "red": [
+     "as hard as"
+    ],
+    "note": "as ~ as = ~만큼"
+   },
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "cheapest",
+     "cheap",
+     ""
+    ],
+    [
+     "hard",
+     "hard",
+     ""
+    ],
+    [
+     "rock",
+     "rock",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "A rock is free. Order twenty.",
+   "ko": "돌은 공짜야. 스무 개 주문해.",
+   "note": "돌직구",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "rock",
+     "rock",
+     ""
+    ],
+    [
+     "free",
+     "free",
+     ""
+    ],
+    [
+     "Order",
+     "order",
+     ""
+    ],
+    [
+     "twenty",
+     "twenty",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "en": "Never have I seen a bill this big.",
+   "ko": "이렇게 큰 청구서는 본 적이 없어.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Never have I seen"
+    ],
+    "red": [
+     "Never have I seen"
+    ],
+    "note": "부정어 도치: Never + have + 주어"
+   },
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "seen",
+     "see",
+     ""
+    ],
+    [
+     "bill",
+     "bill",
+     ""
+    ],
+    [
+     "big",
+     "big",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Twenty chairs, plus shipping. Shipping was the most expensive part.",
+   "ko": "의자 스무 개, 배송비 별도. 배송비가 제일 비쌌어.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "the most expensive"
+    ],
+    "red": [
+     "the most expensive"
+    ],
+    "note": "최상급 the most"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Twenty",
+     "twenty",
+     ""
+    ],
+    [
+     "chairs",
+     "chair",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "shipping",
+     "ship",
+     ""
+    ],
+    [
+     "Shipping",
+     "ship",
+     ""
+    ],
+    [
+     "expensive",
+     "expensive",
+     ""
+    ],
+    [
+     "part",
+     "part",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "No way. Told you — cheapest is costliest.",
+   "ko": "말도 안 돼. 내가 말했지, 제일 싼 게 제일 비싸다고.",
+   "note": "교훈 한 줄",
+   "tags": [
+    "expr:no way",
+    "expr:told you"
+   ],
+   "new": [
+    "costly"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "Told",
+     "tell",
+     ""
+    ],
+    [
+     "cheapest",
+     "cheap",
+     ""
+    ],
+    [
+     "costliest",
+     "costly",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "비교급과 최상급",
+  "ko": "둘을 견주면 비교급(cheaper than, more comfortable than), 셋 이상이면 최상급(the cheapest). 「~만큼」은 as ~ as. 부정어가 문장 앞에 오면 도치(Never have I seen)."
+ },
+ "check": {
+  "q": "This chair is _____ than that one.",
+  "options": [
+   "cheap",
+   "cheaper",
+   "cheapest",
+   "the cheapest"
+  ],
+  "answer": 1
+ }
+}

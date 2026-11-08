@@ -1,17 +1,26 @@
 lemma,reading,count,example
 pizza,,7,Maya's pizza is so bad 😂
 twelve,,4,"Yes isn't a number, friend. I'll say twelve."
+print,,4,So the broken printer goes…
+delete,,3,The system asked if I wanted to delete all requests.
+olivia,,3,Everyone now knows Raj earns more than Olivia.
+slide,,3,The slides were boring. You were interesting.
+client,,3,"I mean, the client was excited."
 spoon,,3,The person who took it left the spoon.
 excuse,,2,Excuse me. I saw that book first.
 thirty,,2,Oh no. I hit thirty percent.
-delete,,2,The system asked if I wanted to delete all requests.
+sandwich,,2,Who? The cashier? He's just a guy who sells me sandwiches.
 confident,,2,I sent the salary file to the team. Felt confident.
 raj,,2,Everyone now knows Raj earns more than Olivia.
-olivia,,2,Everyone now knows Raj earns more than Olivia.
+forty,,2,Sounds good. Lunch is forty dollars. Sign here.
+bored,,2,Everyone looked bored.
+boring,,2,"Bored, or boring?"
+respond,,2,I always respond to invitations on time.
+button,,2,It was clicked. The button was pressed.
+confirm,,2,"Just to confirm, which email?"
 stairs,,2,Despite the stairs right there?
 yogurt,,2,Someone took the yogurt which had my name on it.
 expired,,2,It was expired. I saved you.
-print,,2,This printer is broken.
 chat,,1,Oh no. Wrong chat.
 tip,,1,Wait. Is this a tip? For a cookie?
 cookie,,1,Wait. Is this a tip? For a cookie?
@@ -19,7 +28,6 @@ napkin,,1,Great. Can I have a napkin for my tears?
 tears,,1,Great. Can I have a napkin for my tears?
 shake,,1,"Your hands are shaking, {name}."
 cashier,,1,Who? The cashier? He's just a guy who sells me sandwiches.
-sandwich,,1,Who? The cashier? He's just a guy who sells me sandwiches.
 upside,,1,Look who's talking. You've been holding that book upside down.
 experimental,,1,It's a very experimental novel.
 jealous,,1,Emma. Are you a little jealous?
@@ -33,18 +41,28 @@ typo,,1,"I thought it was a typo of ""confident."""
 considerable,,1,All. The whole building. Considerable reach.
 earn,,1,Everyone now knows Raj earns more than Olivia.
 considerate,,1,I'll be considerate and delete it. From my side.
+pen,,1,Great. Pen or tablet?
+tablet,,1,Great. Pen or tablet?
+bonus,,1,I came to have lunch. The contract was a bonus.
+presentation,,1,"Honestly, how was my presentation?"
+exciting,,1,You read the slides. Wrong slides. Very exciting.
+label,,1,"The label says ""shipped boxes, this side."""
+category,,1,A shipped client. New category.
+attend,,1,Fine. I'll attend the meeting.
+arrive,,1,"And arrive at nine, please."
+invitation,,1,I always respond to invitations on time.
+invoice,,1,We have waited for the invoice since Monday.
+spam,,1,My bad. I have already found it. In spam.
+costly,,1,No way. Told you — cheapest is costliest.
 upstairs,,1,Although you live upstairs.
 elevator,,1,The elevator was crowded because everyone was late.
 starve,,1,Lunch vote. Either we order pizza or we starve.
-client,,1,Both the boss and the client want some too.
 eleven,,1,No way. You're paying for eleven.
 narrow,,1,That narrows it down to everyone.
 wipe,,1,Hold on. Someone is wiping her mouth.
 owe,,1,I knew it. You owe me a yogurt which isn't expired.
-confirm,,1,"Just to confirm, by Friday or until Friday?"
 suffer,,1,By means I finish. Until means I suffer.
 suffering,,1,I'll be suffering until Friday after all.
-forty,,1,"However, the budget is down forty."
 bakery,,1,Across the street is a bakery.
 basement,,1,Fine. The others are in the basement.
 overtime,,1,Equipment doesn't count. Like your overtime.

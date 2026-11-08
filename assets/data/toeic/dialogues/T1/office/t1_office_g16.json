@@ -1,0 +1,292 @@
+{
+ "id": "t1_office_g16",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "누가 보낸 게 아니라 보내진 거예요",
+ "emoji": "📨",
+ "scene": "전체 메일 사고의 뒷수습. A 는 수동태로만 말하며 책임을 지운다",
+ "where": "팀장 자리",
+ "goal": "수동태 — be + 과거분사, by 행위자, 수동태를 못 쓰는 자동사",
+ "speakers": {
+  "A": "{name}",
+  "B": "Olivia"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "i mean",
+  "fair enough"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Who sent the email to the whole building?",
+   "ko": "누가 건물 전체에 메일을 보냈어?",
+   "note": "능동태 질문",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "sent",
+     "send",
+     ""
+    ],
+    [
+     "email",
+     "email",
+     ""
+    ],
+    [
+     "whole",
+     "whole",
+     ""
+    ],
+    [
+     "building",
+     "build",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "The email was sent. By mistake.",
+   "ko": "메일이 보내졌어요. 실수로요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "was sent"
+    ],
+    "red": [
+     "was sent"
+    ],
+    "note": "was sent = 보내졌다(수동태)"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "email",
+     "email",
+     ""
+    ],
+    [
+     "sent",
+     "send",
+     ""
+    ],
+    [
+     "mistake",
+     "mistake",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Sent by whom?",
+   "ko": "누구에 의해 보내졌는데?",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [],
+    "red": [],
+    "note": "by + 행위자"
+   },
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Sent",
+     "send",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "It was clicked. The button was pressed.",
+   "ko": "클릭이 됐고요. 버튼이 눌렸어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "was clicked",
+     "was pressed"
+    ],
+    "red": [
+     "was clicked",
+     "was pressed"
+    ],
+    "note": "수동태로 책임 지우기"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "clicked",
+     "click",
+     ""
+    ],
+    [
+     "button",
+     "button",
+     ""
+    ],
+    [
+     "pressed",
+     "press",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "I mean, buttons don't press themselves.",
+   "ko": "내 말은, 버튼이 스스로 눌리진 않아.",
+   "note": "i mean = 내 말은",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "mean",
+     "mean",
+     ""
+    ],
+    [
+     "buttons",
+     "button",
+     ""
+    ],
+    [
+     "press",
+     "press",
+     ""
+    ],
+    [
+     "themselves",
+     "themselves",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Then it was happened.",
+   "ko": "그럼 그것이 발생되었어요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "was happened"
+    ],
+    "red": [
+     "was happened"
+    ],
+    "note": "happen 은 자동사 — 수동태 불가(틀린 문장)"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "happened",
+     "happen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "\"Was happened\" isn't English.",
+   "ko": "\"was happened\" 는 영어가 아니야.",
+   "note": "문법 교정",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "happened",
+     "happen",
+     ""
+    ],
+    [
+     "English",
+     "english",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Fair enough. It happened. By me.",
+   "ko": "인정. 그게 일어났어요. 저에 의해.",
+   "note": "",
+   "tags": [
+    "expr:fair enough"
+   ],
+   "new": [],
+   "gram": {
+    "u": [
+     "happened"
+    ],
+    "red": [
+     "happened"
+    ],
+    "note": "자동사 능동 + 억지 by"
+   },
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "Fair",
+     "fair",
+     ""
+    ],
+    [
+     "enough",
+     "enough",
+     ""
+    ],
+    [
+     "happened",
+     "happen",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "수동태",
+  "ko": "「~되다」= be + 과거분사(was sent). 한 사람은 by 로. happen·arrive 같은 자동사는 수동태가 없다(was happened 는 틀림)."
+ },
+ "check": {
+  "q": "The email _____ to the whole building by mistake.",
+  "options": [
+   "sent",
+   "was sent",
+   "has sent",
+   "sending"
+  ],
+  "answer": 1
+ }
+}

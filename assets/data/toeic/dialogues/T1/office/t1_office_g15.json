@@ -1,0 +1,299 @@
+{
+ "id": "t1_office_g15",
+ "region": "T1",
+ "island": "office",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "office"
+ ],
+ "domain": [
+  "office"
+ ],
+ "title": "자동사는 목적어를 안 받아요",
+ "emoji": "📞",
+ "scene": "Tom 이 전화로 「discuss about」을 쓰자 A 가 타동사·자동사로 받아친다. 결국 둘 다 틀린다",
+ "where": "전화",
+ "goal": "동사의 종류 — 타동사(discuss·attend)는 전치사 없이, 자동사(arrive·respond)는 전치사와",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tom"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "just kidding",
+  "of course"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Let's discuss about the schedule.",
+   "ko": "일정에 대해 논의합시다.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [],
+    "red": [],
+    "note": "discuss 는 타동사 — about 없이 discuss the schedule"
+   },
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Let's",
+     "let",
+     ""
+    ],
+    [
+     "discuss",
+     "discuss",
+     ""
+    ],
+    [
+     "schedule",
+     "schedule",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Discuss the schedule. No \"about.\"",
+   "ko": "discuss the schedule. about 없이요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "Discuss the schedule"
+    ],
+    "red": [
+     "Discuss"
+    ],
+    "note": "타동사 + 목적어"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Discuss",
+     "discuss",
+     ""
+    ],
+    [
+     "schedule",
+     "schedule",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Fine. I'll attend the meeting.",
+   "ko": "알았어요. 회의에 참석할게요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "attend the meeting"
+    ],
+    "red": [
+     "attend"
+    ],
+    "note": "attend 도 타동사(attend to 아님)"
+   },
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Fine",
+     "fine",
+     ""
+    ],
+    [
+     "attend",
+     "attend",
+     ""
+    ],
+    [
+     "meeting",
+     "meet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "And arrive at nine, please.",
+   "ko": "그리고 9시에 도착해 주세요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "arrive at"
+    ],
+    "red": [
+     "arrive at"
+    ],
+    "note": "arrive 는 자동사 — arrive at"
+   },
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "arrive",
+     "arrive",
+     ""
+    ],
+    [
+     "please",
+     "please",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "I always respond to invitations on time.",
+   "ko": "저는 초대에 항상 제때 답해요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "respond to"
+    ],
+    "red": [
+     "respond to"
+    ],
+    "note": "respond to = 자동사 + 전치사"
+   },
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "respond",
+     "respond",
+     ""
+    ],
+    [
+     "invitations",
+     "invitation",
+     ""
+    ],
+    [
+     "time",
+     "time",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "You responded to mine three weeks late.",
+   "ko": "제 초대에는 3주 늦게 답하셨죠.",
+   "note": "돌직구",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "responded",
+     "respond",
+     ""
+    ],
+    [
+     "mine",
+     "mine",
+     ""
+    ],
+    [
+     "weeks",
+     "week",
+     ""
+    ],
+    [
+     "late",
+     "late",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Just kidding. I'll contact you at nine.",
+   "ko": "농담이에요. 9시에 연락할게요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "gram": {
+    "u": [
+     "contact you"
+    ],
+    "red": [
+     "contact"
+    ],
+    "note": "contact 도 타동사(contact to 아님)"
+   },
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "kidding",
+     "kid",
+     ""
+    ],
+    [
+     "contact",
+     "contact",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Of course. Contact me, not \"to me.\"",
+   "ko": "물론이죠. contact me, \"to me\" 아니고요.",
+   "note": "끝까지 교정",
+   "tags": [
+    "expr:of course"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "course",
+     "course",
+     ""
+    ],
+    [
+     "Contact",
+     "contact",
+     ""
+    ]
+   ]
+  }
+ ],
+ "grammar": {
+  "point": "동사의 종류",
+  "ko": "discuss, attend, reach, contact 는 바로 목적어(전치사 금지). arrive at, respond to, participate in 은 전치사가 필요하다."
+ },
+ "check": {
+  "q": "We will _____ the schedule tomorrow.",
+  "options": [
+   "discuss about",
+   "discuss",
+   "discussing",
+   "discussion"
+  ],
+  "answer": 1
+ }
+}
