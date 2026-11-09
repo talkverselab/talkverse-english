@@ -7,7 +7,7 @@ goal: 못 알아들었을 때 Yes 로 때우면 생기는 일
 kind: survival
 register: polite
 B: Cashier
-twist: 7 slip
+twist: 7 chaos
 expr: yes | just this
 --
 B | You all set? | 다 고르셨어요? | all set = 준비 다 됐다, 계산대 단골 말 | emo=neutral

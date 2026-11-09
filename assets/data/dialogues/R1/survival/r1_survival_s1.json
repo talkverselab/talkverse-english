@@ -21,7 +21,7 @@
  },
  "register": "polite",
  "twist": 7,
- "twist_type": "slip",
+ "twist_type": "chaos",
  "flags": [],
  "expressions": [
   "yes",
@@ -36,14 +36,7 @@
    "note": "all set = 준비 다 됐다, 계산대 단골 말",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "set",
-     "set",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -53,19 +46,7 @@
    "note": "just this = 이것만요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "water",
-     "water",
-     ""
-    ],
-    [
-     "please",
-     "please",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -75,19 +56,7 @@
    "note": "You want ~? = ~드릴까요?",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "want",
-     "want",
-     ""
-    ],
-    [
-     "bag",
-     "bag",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -97,8 +66,7 @@
    "note": "뜻을 몰라도 일단 Yes",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": []
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -108,24 +76,7 @@
    "note": "How many? = 몇 개?",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Hot",
-     "hot",
-     ""
-    ],
-    [
-     "dogs",
-     "dog",
-     ""
-    ],
-    [
-     "dollar",
-     "dollar",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 6,
@@ -135,8 +86,7 @@
    "note": "How many 에 Yes 라고 답했다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": []
+   "emotion": "neutral"
   },
   {
    "num": 7,
@@ -146,19 +96,7 @@
    "note": "Four fifty = 4.50달러(가격 읽기)",
    "tags": [],
    "new": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "number",
-     "number",
-     ""
-    ],
-    [
-     "fifty",
-     "fifty",
-     ""
-    ]
-   ]
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -168,24 +106,7 @@
    "note": "say that again = 다시 말해 주세요",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "Wait",
-     "wait",
-     ""
-    ],
-    [
-     "water",
-     "water",
-     ""
-    ],
-    [
-     "say",
-     "say",
-     ""
-    ]
-   ]
+   "emotion": "flustered"
   }
  ]
 }

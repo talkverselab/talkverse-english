@@ -39,8 +39,7 @@
    "note": "So who was that? = 저 사람 누구야?",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": []
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -50,29 +49,7 @@
    "note": "just a guy = 그냥 사람",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "cashier",
-     "cashier",
-     ""
-    ],
-    [
-     "guy",
-     "guy",
-     ""
-    ],
-    [
-     "sells",
-     "sell",
-     ""
-    ],
-    [
-     "sandwiches",
-     "sandwich",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -82,29 +59,7 @@
    "note": "whole = 꼬박",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "laughed",
-     "laugh",
-     ""
-    ],
-    [
-     "whole",
-     "whole",
-     ""
-    ],
-    [
-     "minutes",
-     "minute",
-     ""
-    ],
-    [
-     "counting",
-     "count",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -114,24 +69,7 @@
    "note": "받아치기",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "counting",
-     "count",
-     ""
-    ],
-    [
-     "know",
-     "know",
-     ""
-    ],
-    [
-     "minutes",
-     "minute",
-     ""
-    ]
-   ]
+   "emotion": "teasing"
   },
   {
    "num": 5,
@@ -141,29 +79,7 @@
    "note": "don't get me wrong = 오해하지 마",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "get",
-     "get",
-     ""
-    ],
-    [
-     "wrong",
-     "wrong",
-     ""
-    ],
-    [
-     "like",
-     "like",
-     ""
-    ],
-    [
-     "care",
-     "care",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 6,
@@ -173,34 +89,7 @@
    "note": "look who's talking = 사돈 남 말 하네",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Look",
-     "look",
-     ""
-    ],
-    [
-     "talking",
-     "talk",
-     ""
-    ],
-    [
-     "holding",
-     "hold",
-     ""
-    ],
-    [
-     "book",
-     "book",
-     ""
-    ],
-    [
-     "upside",
-     "upside",
-     ""
-    ]
-   ]
+   "emotion": "teasing"
   },
   {
    "num": 7,
@@ -210,19 +99,7 @@
    "note": "변명",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "experimental",
-     "experimental",
-     ""
-    ],
-    [
-     "novel",
-     "novel",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 8,
@@ -232,19 +109,7 @@
    "note": "jealous = 질투하는",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "little",
-     "little",
-     ""
-    ],
-    [
-     "jealous",
-     "jealous",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 9,
@@ -256,34 +121,7 @@
     "heart"
    ],
    "new": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "Fair",
-     "fair",
-     ""
-    ],
-    [
-     "enough",
-     "enough",
-     ""
-    ],
-    [
-     "little",
-     "little",
-     ""
-    ],
-    [
-     "Maybe",
-     "maybe",
-     ""
-    ],
-    [
-     "little",
-     "little",
-     ""
-    ]
-   ]
+   "emotion": "shy"
   },
   {
    "num": 10,
@@ -293,24 +131,7 @@
    "note": "might be = ~일지도",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "nicest",
-     "nicest",
-     ""
-    ],
-    [
-     "thing",
-     "thing",
-     ""
-    ],
-    [
-     "said",
-     "say",
-     ""
-    ]
-   ]
+   "emotion": "gentle"
   },
   {
    "num": 11,
@@ -322,29 +143,7 @@
     "callback:r1_survival_s1"
    ],
    "new": [],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Excuse",
-     "excuse",
-     ""
-    ],
-    [
-     "forgot",
-     "forget",
-     ""
-    ],
-    [
-     "hot",
-     "hot",
-     ""
-    ],
-    [
-     "dog",
-     "dog",
-     ""
-    ]
-   ]
+   "emotion": "polite"
   },
   {
    "num": 12,
@@ -354,14 +153,7 @@
    "note": "끼어든 사고",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "say",
-     "say",
-     ""
-    ]
-   ]
+   "emotion": "surprised"
   },
   {
    "num": 13,
@@ -371,19 +163,7 @@
    "note": "always = 늘",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "said",
-     "say",
-     ""
-    ],
-    [
-     "say",
-     "say",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 14,
@@ -393,44 +173,7 @@
    "note": "Good to know = 알아 둘게",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Good",
-     "better",
-     ""
-    ],
-    [
-     "know",
-     "know",
-     ""
-    ],
-    [
-     "Remember",
-     "remember",
-     ""
-    ],
-    [
-     "next",
-     "next",
-     ""
-    ],
-    [
-     "time",
-     "time",
-     ""
-    ],
-    [
-     "ask",
-     "ask",
-     ""
-    ],
-    [
-     "something",
-     "something",
-     ""
-    ]
-   ]
+   "emotion": "teasing"
   }
  ]
 }

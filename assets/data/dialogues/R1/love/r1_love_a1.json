@@ -38,29 +38,7 @@
    "note": "saw ~ first = 먼저 봤다",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Excuse",
-     "excuse",
-     ""
-    ],
-    [
-     "saw",
-     "see",
-     ""
-    ],
-    [
-     "book",
-     "book",
-     ""
-    ],
-    [
-     "first",
-     "first",
-     ""
-    ]
-   ]
+   "emotion": "teasing"
   },
   {
    "num": 2,
@@ -70,19 +48,7 @@
    "note": "are you kidding = 농담이죠?",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "kidding",
-     "kid",
-     ""
-    ],
-    [
-     "hand",
-     "hand",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -92,19 +58,7 @@
    "note": "받아치기",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "hand",
-     "hand",
-     ""
-    ],
-    [
-     "book",
-     "book",
-     ""
-    ]
-   ]
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -114,19 +68,7 @@
    "note": "되묻기",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "book",
-     "book",
-     ""
-    ],
-    [
-     "read",
-     "read",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -136,24 +78,7 @@
    "note": "so sad = 너무 슬퍼",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "times",
-     "time",
-     ""
-    ],
-    [
-     "ending",
-     "end",
-     ""
-    ],
-    [
-     "sad",
-     "sad",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 6,
@@ -163,24 +88,7 @@
    "note": "no way = 말도 안 돼",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "way",
-     "way",
-     ""
-    ],
-    [
-     "told",
-     "tell",
-     ""
-    ],
-    [
-     "ending",
-     "end",
-     ""
-    ]
-   ]
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -192,29 +100,7 @@
     "heart"
    ],
    "new": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "guess",
-     "guess",
-     ""
-    ],
-    [
-     "need",
-     "need",
-     ""
-    ],
-    [
-     "someone",
-     "someone",
-     ""
-    ],
-    [
-     "talk",
-     "talk",
-     ""
-    ]
-   ]
+   "emotion": "shy"
   },
   {
    "num": 8,
@@ -224,24 +110,7 @@
    "note": "마지막에 들킨 마음",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Wait",
-     "wait",
-     ""
-    ],
-    [
-     "number",
-     "number",
-     ""
-    ],
-    [
-     "book",
-     "book",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   }
  ]
 }

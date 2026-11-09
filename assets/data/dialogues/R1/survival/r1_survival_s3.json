@@ -37,29 +37,7 @@
    "note": "It's just gonna ask you a question = 팁 화면을 돌릴 때 하는 말",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "dollars",
-     "dollar",
-     ""
-    ],
-    [
-     "gonna",
-     "go",
-     ""
-    ],
-    [
-     "ask",
-     "ask",
-     ""
-    ],
-    [
-     "question",
-     "question",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -69,24 +47,7 @@
    "note": "tip = 봉사료",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Wait",
-     "wait",
-     ""
-    ],
-    [
-     "tip",
-     "tip",
-     ""
-    ],
-    [
-     "cookie",
-     "cookie",
-     ""
-    ]
-   ]
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -96,14 +57,7 @@
    "note": "up to you = 네 마음대로",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "totally",
-     "total",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -113,19 +67,7 @@
    "note": "looking right at = 빤히 보다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "looking",
-     "look",
-     ""
-    ],
-    [
-     "right",
-     "right",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -135,14 +77,7 @@
    "note": "보면서 하는 말",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "looking",
-     "look",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 6,
@@ -152,24 +87,7 @@
    "note": "hit = 누르다",
    "tags": [],
    "new": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "hit",
-     "hit",
-     ""
-    ],
-    [
-     "thirty",
-     "thirty",
-     ""
-    ],
-    [
-     "percent",
-     "percent",
-     ""
-    ]
-   ]
+   "emotion": "worried"
   },
   {
    "num": 7,
@@ -181,24 +99,7 @@
     "heart"
    ],
    "new": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "saw",
-     "see",
-     ""
-    ],
-    [
-     "favorite",
-     "favorite",
-     ""
-    ],
-    [
-     "person",
-     "person",
-     ""
-    ]
-   ]
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -208,24 +109,7 @@
    "note": "Can I have ~? = ~ 주실래요?",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Great",
-     "great",
-     ""
-    ],
-    [
-     "napkin",
-     "napkin",
-     ""
-    ],
-    [
-     "tears",
-     "tears",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   }
  ]
 }

@@ -38,24 +38,7 @@
    "note": "in ten minutes = 10분 뒤에",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "train",
-     "train",
-     ""
-    ],
-    [
-     "Well",
-     "well",
-     ""
-    ],
-    [
-     "minutes",
-     "minute",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -65,14 +48,7 @@
    "note": "wait with you = 같이 기다리다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "wait",
-     "wait",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -82,14 +58,7 @@
    "note": "You don't have to = 안 그래도 돼",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
-   "lemmas": [
-    [
-     "cold",
-     "cold",
-     ""
-    ]
-   ]
+   "emotion": "gentle"
   },
   {
    "num": 4,
@@ -99,19 +68,7 @@
    "note": "honestly = 솔직히",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Honestly",
-     "honest",
-     ""
-    ],
-    [
-     "cold",
-     "cold",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -121,19 +78,7 @@
    "note": "shaking = 떨리는",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "hands",
-     "hand",
-     ""
-    ],
-    [
-     "shaking",
-     "shake",
-     ""
-    ]
-   ]
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -143,34 +88,7 @@
    "note": "by the way = 그나저나",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "little",
-     "little",
-     ""
-    ],
-    [
-     "cold",
-     "cold",
-     ""
-    ],
-    [
-     "way",
-     "way",
-     ""
-    ],
-    [
-     "train",
-     "train",
-     ""
-    ],
-    [
-     "came",
-     "come",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 7,
@@ -180,14 +98,7 @@
    "note": "짧게 멈추기",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "saw",
-     "see",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 8,
@@ -197,19 +108,7 @@
    "note": "get on = 타다",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "saw",
-     "see",
-     ""
-    ],
-    [
-     "getting",
-     "get",
-     ""
-    ]
-   ]
+   "emotion": "surprised"
   },
   {
    "num": 9,
@@ -221,29 +120,7 @@
     "heart"
    ],
    "new": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "mean",
-     "mean",
-     ""
-    ],
-    [
-     "Probably",
-     "probably",
-     ""
-    ],
-    [
-     "really",
-     "real",
-     ""
-    ],
-    [
-     "check",
-     "check",
-     ""
-    ]
-   ]
+   "emotion": "shy"
   },
   {
    "num": 10,
@@ -253,19 +130,7 @@
    "note": "last train = 막차",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "last",
-     "last",
-     ""
-    ],
-    [
-     "train",
-     "train",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 11,
@@ -275,34 +140,7 @@
    "note": "들킨 마음",
    "tags": [],
    "new": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "know",
-     "know",
-     ""
-    ],
-    [
-     "read",
-     "read",
-     ""
-    ],
-    [
-     "sign",
-     "sign",
-     ""
-    ],
-    [
-     "hour",
-     "hour",
-     ""
-    ],
-    [
-     "ago",
-     "ago",
-     ""
-    ]
-   ]
+   "emotion": "shy"
   },
   {
    "num": 12,
@@ -312,8 +150,7 @@
    "note": "말을 다 하지 않기",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
-   "lemmas": []
+   "emotion": "gentle"
   }
  ]
 }

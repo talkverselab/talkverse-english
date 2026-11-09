@@ -38,14 +38,7 @@
    "note": "What can I get you? = 뭐 드릴까요?",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "get",
-     "get",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -55,24 +48,7 @@
    "note": "I'll have ~ = ~로 할게요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "small",
-     "small",
-     ""
-    ],
-    [
-     "coffee",
-     "coffee",
-     ""
-    ],
-    [
-     "please",
-     "please",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -82,14 +58,7 @@
    "note": "for here or to go = 매장·포장 질문",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "go",
-     "go",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -99,19 +68,7 @@
    "note": "to go = 포장",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "go",
-     "go",
-     ""
-    ],
-    [
-     "please",
-     "please",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -121,24 +78,7 @@
    "note": "name for the cup = 컵에 적을 이름",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Perfect",
-     "perfect",
-     ""
-    ],
-    [
-     "Name",
-     "name",
-     ""
-    ],
-    [
-     "cup",
-     "cup",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 6,
@@ -148,8 +88,7 @@
    "note": "이름만 또박또박",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": []
+   "emotion": "neutral"
   },
   {
    "num": 7,
@@ -159,29 +98,7 @@
    "note": "잘못 들은 이름이 컵에 적혔다",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "Small",
-     "small",
-     ""
-    ],
-    [
-     "coffee",
-     "coffee",
-     ""
-    ],
-    [
-     "Dinner",
-     "dinner",
-     ""
-    ],
-    [
-     "Dinner",
-     "dinner",
-     ""
-    ]
-   ]
+   "emotion": "surprised"
   },
   {
    "num": 8,
@@ -191,24 +108,7 @@
    "note": "sure = 그래요, 뭐",
    "tags": [],
    "new": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "Sure",
-     "sure",
-     ""
-    ],
-    [
-     "Tonight",
-     "tonight",
-     ""
-    ],
-    [
-     "Dinner",
-     "dinner",
-     ""
-    ]
-   ]
+   "emotion": "amused"
   }
  ]
 }

@@ -41,14 +41,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:03",
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Guess",
-     "guess",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -60,19 +53,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:03",
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "pizza",
-     "pizza",
-     ""
-    ],
-    [
-     "bad",
-     "worse",
-     ""
-    ]
-   ]
+   "emotion": "amused"
   },
   {
    "num": 3,
@@ -85,8 +66,7 @@
    "ui": "bubble",
    "at": "21:04",
    "emotion": "neutral",
-   "stamp": "🙂",
-   "lemmas": []
+   "stamp": "🙂"
   },
   {
    "num": 4,
@@ -98,19 +78,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:04",
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "Wrong",
-     "wrong",
-     ""
-    ],
-    [
-     "chat",
-     "chat",
-     ""
-    ]
-   ]
+   "emotion": "worried"
   },
   {
    "num": 5,
@@ -122,19 +90,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:05",
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "happened",
-     "happen",
-     ""
-    ],
-    [
-     "pizza",
-     "pizza",
-     ""
-    ]
-   ]
+   "emotion": "neutral"
   },
   {
    "num": 6,
@@ -146,24 +102,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:05",
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "bad",
-     "worse",
-     ""
-    ],
-    [
-     "love",
-     "love",
-     ""
-    ],
-    [
-     "pizza",
-     "pizza",
-     ""
-    ]
-   ]
+   "emotion": "worried"
   },
   {
    "num": 7,
@@ -175,29 +114,7 @@
    "new": [],
    "ui": "bubble",
    "at": "21:06",
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "way",
-     "way",
-     ""
-    ],
-    [
-     "Bring",
-     "bring",
-     ""
-    ],
-    [
-     "dinner",
-     "dinner",
-     ""
-    ],
-    [
-     "Friday",
-     "friday",
-     ""
-    ]
-   ]
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -210,19 +127,7 @@
    "ui": "bubble",
    "at": "21:06",
    "emotion": "neutral",
-   "stamp": "🍕",
-   "lemmas": [
-    [
-     "Friday",
-     "friday",
-     ""
-    ],
-    [
-     "pizza",
-     "pizza",
-     ""
-    ]
-   ]
+   "stamp": "🍕"
   }
  ]
 }
