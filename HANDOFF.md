@@ -1,6 +1,13 @@
 # HANDOFF — 영어유니버스 (talkverselab/talkverse-english, M6 `~/talkverse/english`)
 
-_최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱"). Grab(`~/talkverse/en`)과는 별개 앱._
+_최종 2026-11-09 11:4x KST. 영어앱 세션 정리 종료(uk 전달 사용자 지시 "완료가 된 애들은 M6에 세션을 닫아달라고"). Grab(`~/talkverse/en`)과는 별개 앱._
+
+## 다음 세션이 이어서 할 일(2026-11-09 정리)
+1. **로그인·결제(§11, EMBED 4·5단계)** — 사용자 「착수」 뒤. ja `e154d98` 틀 + `docs/store/STORE.md` 가격표 + `Purchase.ownStream`/`onPurchaseUpdates`(통합 앱 스트림 분리), 콜백 `talkverse.en://auth`. 토익·토익스피킹·OPIc 가격은 uk 가 알림.
+2. **iOS** — 토익·토익스피킹·OPIc App Store Connect 레코드(`com.talkverse.toeic`·`toeicSpeaking`·`opic`)가 생기면 `APP=<id> bash tools/ios_release.sh`(export·PC 백업은 이미 됨).
+3. **사용자 확인 대기** — 영어 회화 샘플 7편 톤(리뷰 https://talkverse.uk/talkverse/review/en/), 한글 독음 비움 여부, 음성 미국 한 벌 vs 3말투, s1 MOSS·VoxCPM2 판 선택, 토익 비즈니스 회화 18편 톤.
+4. **출시 막힘**(`docs/store/STORE.md` §0) — 영어 회화 앱 탑재, 빈 메뉴(문장 플래시카드·소리 사전), 임시 조음 그림 교체(Grok 11/9 13:30 재개), 토익 RC 문제(교재 구성만 참고·자체 작성), 토익스피킹·OPIc 고유 내용.
+5. 통합 앱 = Talkverse 빌드 2 에 영어 포함(uk). 통합 앱은 직접 고치거나 빌드하지 않는다.
 
 ## 상태 표 (공통 프롬프터 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md` 순서)
 
