@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Grok 글 요청 한 건(PC 크롬): 새 챗 또는 기존 챗 → 첨부 → 한 줄(또는 파일) 전송 → 답이 멈출 때까지 기다림 → 마지막 답 글 저장.
 grok_req.py(그림용, ~/Hanja/tools)를 글용으로 고친 것(2026-11-09). 크롬은 PC(작업 스케줄러 Grok-Chrome-en-9262), M6 에서 ssh -fN -L 9262:127.0.0.1:9262 pc.
-  GROK_CDP_PORT=9262 python3 tools/grok_text.py <보낼 글.txt | "-m 한 줄"> <답.md> [첨부 ...] [--chat <챗 주소 또는 id>] [--wait 400]
+  GROK_CDP_PORT=9262 python3 tools/grok_text.py <보낼 글.txt | "-m 한 줄"> <답.md> [첨부 ...] [--chat <챗 주소 또는 id>] [--wait 180]
 첨부는 PC D:\\grok_att\\en\\ 로 scp 한 뒤 그 경로로 붙인다(크롬이 PC 에서 돌기 때문). 한도 문구면 종료 코드 3. 끝나면 탭을 닫는다.
 마지막 줄에 `CHAT <주소>` 를 찍는다 — 같은 방에 이어 보낼 때 --chat 으로 넘긴다."""
 import json, os, subprocess, sys, time, urllib.request
@@ -38,7 +38,7 @@ def main():
         text, out, atts = opt['-m'], a[0], a[1:]
     else:
         text, out, atts = open(a[0], encoding='utf-8').read().strip(), a[1], a[2:]
-    wait = int(opt.get('--wait', 400))
+    wait = int(opt.get('--wait', 180))  # 사용자 지시 2026-11-10: Grok 답은 3분까지만, 넘으면 생성 중지
     remote = []
     if atts:
         subprocess.run(['ssh', 'pc', 'cmd /c if not exist D:\\grok_att\\en mkdir D:\\grok_att\\en'], check=False, capture_output=True)
@@ -80,7 +80,7 @@ def main():
         time.sleep(3)
         left = c.ev("(()=>{const e=%s;return e?(e.value||e.innerText||'').trim().length:-1})()" % G.FIND)
         if left and left > 0:
-            c.ev("(()=>{const b=[...document.querySelectorAll('button')].find(x=>/제출|Submit/.test(x.getAttribute('aria-label')||''));if(b){b.click();return 1}return 0})()")
+            c.ev("(()=>{const b=[...document.querySelectorAll('button')].find(x=>/제출|보내기|Submit|Send/.test(x.getAttribute('aria-label')||''));if(b){b.click();return 1}return 0})()")
             time.sleep(3)
         t0 = time.time(); last = ''; same = 0
         while time.time() - t0 < wait:
@@ -97,6 +97,12 @@ def main():
             else:
                 same = 0
             last = cur
+        else:  # 3분 초과 → 생성 중지(토큰 낭비 방지)
+            hit = c.ev("""(()=>{const b=[...document.querySelectorAll('button')].find(e=>/중지|stop/i.test((e.getAttribute('aria-label')||'')+' '+e.innerText));if(b){b.click();return 1}return 0})()""")
+            if not hit:
+                for typ in ('keyDown', 'keyUp'):
+                    c.call('Input.dispatchKeyEvent', type=typ, key='Escape', code='Escape', windowsVirtualKeyCode=27, nativeVirtualKeyCode=27)
+            time.sleep(2); print('중지(3분 초과)')
         reply = c.ev(REPLY) or ''
         href = c.ev('location.href')
         open(out, 'w', encoding='utf-8').write(reply + '\n')
