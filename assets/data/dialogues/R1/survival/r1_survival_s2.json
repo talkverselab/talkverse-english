@@ -36,11 +36,7 @@
    "en": "Hey! What can I get you?",
    "ko": "어서 오세요! 뭐 드릴까요?",
    "note": "What can I get you? = 뭐 드릴까요?",
-   "tags": [
-    "expr:what",
-    "expr:hey",
-    "expr:can i get"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
@@ -57,14 +53,8 @@
    "en": "I'll have a small coffee, please.",
    "ko": "작은 커피 하나 주세요.",
    "note": "I'll have ~ = ~로 할게요",
-   "tags": [
-    "expr:please",
-    "expr:i'll have"
-   ],
-   "new": [
-    "small",
-    "coffee"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -90,10 +80,7 @@
    "en": "For here or to go?",
    "ko": "드시고 가세요, 가져가세요?",
    "note": "for here or to go = 매장·포장 질문",
-   "tags": [
-    "expr:for here or to go",
-    "expr:to go"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
@@ -110,10 +97,7 @@
    "en": "To go, please.",
    "ko": "가져갈게요.",
    "note": "to go = 포장",
-   "tags": [
-    "expr:please",
-    "expr:to go"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
@@ -136,11 +120,7 @@
    "ko": "좋아요. 컵에 쓸 이름은요?",
    "note": "name for the cup = 컵에 적을 이름",
    "tags": [],
-   "new": [
-    "perfect",
-    "name",
-    "cup"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -178,9 +158,7 @@
    "ko": "작은 커피 나왔습니다… 디너 님? 디너 님?",
    "note": "잘못 들은 이름이 컵에 적혔다",
    "tags": [],
-   "new": [
-    "dinner"
-   ],
+   "new": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -211,13 +189,8 @@
    "en": "Sure. Tonight, I'm Dinner.",
    "ko": "네. 오늘 밤엔 제가 디너예요.",
    "note": "sure = 그래요, 뭐",
-   "tags": [
-    "expr:sure"
-   ],
-   "new": [
-    "sure",
-    "tonight"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "amused",
    "lemmas": [
     [

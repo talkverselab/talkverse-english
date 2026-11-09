@@ -37,13 +37,8 @@
    "en": "Guess what",
    "ko": "있잖아",
    "note": "guess what = 있잖아",
-   "tags": [
-    "expr:what",
-    "expr:guess what"
-   ],
-   "new": [
-    "guess"
-   ],
+   "tags": [],
+   "new": [],
    "ui": "bubble",
    "at": "21:03",
    "emotion": "neutral",
@@ -62,10 +57,7 @@
    "ko": "마야 피자 진짜 맛없어 😂",
    "note": "그걸 당사자가 있는 방에 보냈다",
    "tags": [],
-   "new": [
-    "pizza",
-    "worse"
-   ],
+   "new": [],
    "ui": "bubble",
    "at": "21:03",
    "emotion": "amused",
@@ -102,13 +94,8 @@
    "en": "Oh no. Wrong chat.",
    "ko": "헐. 방 잘못 왔다.",
    "note": "wrong chat = 대화방 착각",
-   "tags": [
-    "expr:oh no"
-   ],
-   "new": [
-    "wrong",
-    "chat"
-   ],
+   "tags": [],
+   "new": [],
    "ui": "bubble",
    "at": "21:04",
    "emotion": "worried",
@@ -131,13 +118,8 @@
    "en": "What happened? Is there pizza?",
    "ko": "무슨 일이야? 피자 있어?",
    "note": "what happened = 무슨 일이야?",
-   "tags": [
-    "expr:what",
-    "expr:what happened"
-   ],
-   "new": [
-    "happen"
-   ],
+   "tags": [],
+   "new": [],
    "ui": "bubble",
    "at": "21:05",
    "emotion": "neutral",
@@ -160,9 +142,7 @@
    "en": "My bad! I love your pizza!",
    "ko": "미안! 네 피자 사랑해!",
    "note": "my bad = 내 잘못",
-   "tags": [
-    "expr:my bad"
-   ],
+   "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "21:05",
@@ -191,13 +171,8 @@
    "en": "No way. Bring your own dinner Friday.",
    "ko": "어림없어. 금요일 저녁은 네가 싸 와.",
    "note": "no way = 어림없어",
-   "tags": [
-    "expr:no way"
-   ],
-   "new": [
-    "bring",
-    "friday"
-   ],
+   "tags": [],
+   "new": [],
    "ui": "bubble",
    "at": "21:06",
    "emotion": "teasing",

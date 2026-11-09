@@ -3,7 +3,7 @@
 1. 그 장면에서 미국 20대가 실제로 하는 짧은 말을 쓴다. 교과서체·번역투·설명 대사·다짐이나 감사로 끝내기 금지.
 2. A = 학습자, `{name}`·`{country}`·`{city}` 만. A 의 국적·성별을 대사로 못 박지 않는다.
 3. 구조: 질문 → 대답 + 농담 → 되치기. 끝 줄은 짧은 한 방이나 여운. 입에 남는 한 줄이 편마다 있어야 한다.
-4. 편마다 `twist_type` 하나(chaos·slip·reveal·emotion·ignore), 전체 chaos 30% 이상. 웃음 킥과 다른 턴에 심쿵 한 줄(연애 편은 필수, `heart`). 연애 = 썸·플러팅까지, 여성이 먼저 다가가는 편을 더 많이. 수위 iOS 12+.
+4. **일상이 먼저(사용자 지시 2026-11-09 "반전요소를 넣으려다보니 일상회화랑 동떨어지고 있어!! 이러면 안됨")**: 장면은 학습자가 실제로 겪는 일상(가게·식당·길·집·학교·직장·약속·전화)과 그 자리의 흔한 표현이 중심. 반전은 그 안의 작은 의외성(말실수·착각·깜빡함·예상 밖 대답·설렘)까지 — 비현실적 사건·과장된 소동·판타지 금지, chaos 도 현실에서 있을 법한 꼬임까지. 반전 때문에 일상 표현이 빠지면 반전을 줄인다. 편마다 `twist_type` 하나(chaos·slip·reveal·emotion·ignore), 전체 chaos 30% 이상. 웃음 킥과 다른 턴에 심쿵 한 줄(연애 편은 필수, `heart`). 연애 = 썸·플러팅까지, 여성이 먼저 다가가는 편을 더 많이. 수위 iOS 12+.
 5. 표현 풀(`data/expressions/top_expressions.csv`) 2개 이상. 메타 표현(say that again 등)은 서바이벌 밖에서 편당 1번.
 6. ko = 한국 사람이 실제로 하는 말(직역 금지), 말투는 영어 말투에 맞춘다. note = 그 턴 핵심 하나 `X = 뜻`.
 7. **턴마다 음성용 감정을 함께 쓴다**(사용자 지시 2026-11-07). 값 16개 = neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle. 영어는 대부분의 턴을 neutral·polite 로 두고 킥이 있는 턴만 감정을 살린다(사용자 청취 2026-11-07 "감정 과잉, 특히 남자"). 강한 값(shout·tsukkomi·excited·flustered)은 드물게. 한 턴에서 감정이 바뀌면 `emo=surprised+worried` 처럼 이어 쓴다.

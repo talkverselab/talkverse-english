@@ -1,7 +1,6 @@
 lemma,reading,count,example
 pizza,,7,Maya's pizza is so bad 😂
 client,,6,"I mean, the client seemed genuinely excited."
-twelve,,4,"Yes isn't a number, friend. I'll say twelve."
 print,,4,So the damaged printer returned by the client goes…
 thirty,,3,Oh no. I hit thirty percent.
 confirm,,3,Hi Grace. Could you confirm whether my vacation request has been approved?
@@ -24,12 +23,14 @@ slide,,2,The entire audience looked bored by slide three.
 boring,,2,"Bored, or boring? Be specific."
 label,,2,"The label reads ""shipped items — this side of the dock."""
 personnel,,2,"And ""shipping personnel — that side."""
+laptop,,2,Oh no. That truck just left. With the printer. And Tom's new laptop.
 revised,,2,Let's discuss about the revised delivery schedule.
 respond,,2,I always respond to meeting invitations promptly.
 button,,2,The attachment was selected. The send button was pressed.
 incident,,2,Then the incident was happened.
 invoice,,2,Our accounting team has waited for the invoice since Monday.
 concrete,,2,The cheapest option is as hard as a concrete block.
+item,,2,Twenty chairs plus freight. Shipping turned out to be the most expensive line item.
 poll,,2,Lunch poll results. Either we order pizza or we skip lunch entirely.
 yogurt,,2,Someone removed the yogurt which was clearly labeled with my name.
 spoon,,2,The employee who took it left the spoon in the sink.
@@ -37,6 +38,7 @@ expired,,2,It expired yesterday. Consider it a safety inspection.
 suffering,,2,By means I deliver it. Until means I keep suffering.
 adjustment,,2,"However, the budget for salary adjustments was cut by forty."
 chat,,1,Oh no. Wrong chat.
+fifty,,1,"Yes isn't a number. One, then. Four fifty."
 tip,,1,Wait. Is this a tip? For a cookie?
 cookie,,1,Wait. Is this a tip? For a cookie?
 napkin,,1,Great. Can I have a napkin for my tears?
@@ -73,9 +75,6 @@ exciting,,1,You presented last year's figures. From a different department. Very
 genuine,,1,"I mean, the client seemed genuinely excited."
 dock,,1,"The label reads ""shipped items — this side of the dock."""
 gentleman,,1,The gentleman standing next to the delivery truck.
-departed,,1,Oh no. That truck just departed. With the printer. And Tom.
-category,,1,A shipped client. That's a new category for the inventory system.
-inventory,,1,A shipped client. That's a new category for the inventory system.
 attend,,1,Noted. I'll attend the meeting in person tomorrow.
 invitation,,1,I always respond to meeting invitations promptly.
 prompt,,1,I always respond to meeting invitations promptly.
@@ -87,7 +86,6 @@ considerably,,1,This model is considerably cheaper than the one we use now.
 catalog,,1,That one is more comfortable than anything in this catalog.
 procurement,,1,Procurement policy says we purchase the cheapest option available.
 freight,,1,Twenty chairs plus freight. Shipping turned out to be the most expensive line item.
-item,,1,Twenty chairs plus freight. Shipping turned out to be the most expensive line item.
 costly,,1,No way. Told you — the cheapest option is always the costliest.
 downtown,,1,I was late because of heavy traffic downtown.
 elevator,,1,The elevator was out of service because maintenance was scheduled today.
@@ -98,9 +96,7 @@ desk,,1,"I'll arrive early tomorrow, because I'm sleeping under my desk."
 skip,,1,Lunch poll results. Either we order pizza or we skip lunch entirely.
 hostage,,1,That's not a poll. That's a hostage situation.
 affordable,,1,Pizza is not only affordable but also delivered within thirty minutes.
-finger,,1,Twelve. Neither the corporate card nor my finger stopped in time.
-expense,,1,No way. The expense report will say eleven are yours.
-eleven,,1,No way. The expense report will say eleven are yours.
+expense,,1,No way. Then the third one goes on your expense report.
 employee,,1,The employee who took it left the spoon in the sink.
 sink,,1,The employee who took it left the spoon in the sink.
 narrow,,1,A spoon whose handle is company blue. That narrows it down.
@@ -123,9 +119,9 @@ basement,,1,Fine. The others are in the basement storage room.
 storage,,1,Fine. The others are in the basement storage room.
 olivia,,1,Olivia printed the annual budget. All 400 pages. In color. Twice.
 plural,,1,Equipment doesn't take a plural. Neither does your overtime pay.
-truckload,,1,"Three truckloads, according to the delivery confirmation."
-confirmation,,1,"Three truckloads, according to the delivery confirmation."
+confirmation,,1,"Three of every item on the list, according to the delivery confirmation."
 furniture,,1,"My bad. I also requested ""furnitures"" on the same form."
+hallway,,1,Seriously? That explains the three coffee machines in the hallway.
 beforehand,,1,Some advice beforehand would have been appreciated.
 uncountable,,1,Advice is uncountable. So is the damage to your reputation.
 reputation,,1,Advice is uncountable. So is the damage to your reputation.

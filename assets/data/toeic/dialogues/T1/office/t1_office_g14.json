@@ -12,7 +12,7 @@
  ],
  "title": "선적된 상자, 보내는 사람",
  "emoji": "📦",
- "scene": "창고에서 상자 라벨을 읽는다. 과거분사·현재분사가 뒤섞인 라벨 때문에 상자가 엉뚱한 곳으로 간다",
+ "scene": "창고에서 상자 라벨을 읽는다. 과거분사·현재분사를 헷갈려 반품할 프린터가 엉뚱한 곳으로 간다",
  "where": "발송장",
  "goal": "분사 — 명사 수식 과거분사(-ed)·현재분사(-ing)",
  "speakers": {
@@ -289,8 +289,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Oh no. That truck just departed. With the printer. And Tom.",
-   "ko": "어떡해. 그 트럭 방금 출발했어. 프린터랑. 톰이랑.",
+   "en": "Oh no. That truck just left. With the printer. And Tom's new laptop.",
+   "ko": "어떡해. 그 트럭 방금 출발했어. 프린터랑. 톰의 새 노트북이랑.",
    "note": "oh no = 어떡해",
    "tags": [],
    "new": [],
@@ -302,8 +302,8 @@
      ""
     ],
     [
-     "departed",
-     "departed",
+     "left",
+     "leave",
      ""
     ],
     [
@@ -312,8 +312,18 @@
      ""
     ],
     [
-     "Tom",
+     "Tom's",
      "tom",
+     ""
+    ],
+    [
+     "new",
+     "new",
+     ""
+    ],
+    [
+     "laptop",
+     "laptop",
      ""
     ]
    ]
@@ -321,21 +331,23 @@
   {
    "num": 8,
    "speaker": "C",
-   "en": "A shipped client. That's a new category for the inventory system.",
-   "ko": "선적된 거래처라. 재고 시스템에 새 분류가 생겼네.",
+   "en": "A shipped laptop. Please call Tom before he notices.",
+   "ko": "선적된 노트북이라. 톰이 알아채기 전에 전화해.",
    "note": "",
-   "tags": [],
+   "tags": [
+    "expr:please"
+   ],
    "new": [
-    "category"
+    "laptop"
    ],
    "gram": {
     "u": [
-     "shipped client"
+     "shipped laptop"
     ],
     "red": [
      "shipped"
     ],
-    "note": "shipped client = 선적된(과거분사)"
+    "note": "shipped laptop = 선적된(과거분사)"
    },
    "emotion": "tsukkomi",
    "lemmas": [
@@ -345,28 +357,33 @@
      ""
     ],
     [
-     "client",
-     "client",
+     "laptop",
+     "laptop",
      ""
     ],
     [
-     "new",
-     "new",
+     "Please",
+     "please",
      ""
     ],
     [
-     "category",
-     "category",
+     "call",
+     "call",
      ""
     ],
     [
-     "inventory",
-     "inventory",
+     "Tom",
+     "tom",
      ""
     ],
     [
-     "system",
-     "system",
+     "before",
+     "before",
+     ""
+    ],
+    [
+     "notices",
+     "notice",
      ""
     ]
    ]

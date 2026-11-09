@@ -49,11 +49,7 @@
    "ko": "누구? 계산원? 그냥 샌드위치 파는 사람이야.",
    "note": "just a guy = 그냥 사람",
    "tags": [],
-   "new": [
-    "cashier",
-    "sell",
-    "sandwich"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -85,10 +81,7 @@
    "ko": "너 꼬박 2분 웃더라. 센 건 아니고.",
    "note": "whole = 꼬박",
    "tags": [],
-   "new": [
-    "laugh",
-    "count"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -146,10 +139,7 @@
    "en": "Don't get me wrong. It's not like I care.",
    "ko": "오해하지 마. 신경 쓰는 건 아니니까.",
    "note": "don't get me wrong = 오해하지 마",
-   "tags": [
-    "expr:don't get me wrong",
-    "expr:it's not like"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
@@ -181,12 +171,8 @@
    "en": "Look who's talking. You've been holding that book upside down.",
    "ko": "사돈 남 말 하네. 너 그 책 거꾸로 들고 있었거든.",
    "note": "look who's talking = 사돈 남 말 하네",
-   "tags": [
-    "expr:look who's talking"
-   ],
-   "new": [
-    "upside"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -223,10 +209,7 @@
    "ko": "아주 실험적인 소설이라서.",
    "note": "변명",
    "tags": [],
-   "new": [
-    "experimental",
-    "novel"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -247,12 +230,8 @@
    "en": "Emma. Are you a little jealous?",
    "ko": "에마. 너 조금 질투해?",
    "note": "jealous = 질투하는",
-   "tags": [
-    "expr:a little"
-   ],
-   "new": [
-    "jealous"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -274,14 +253,9 @@
    "ko": "인정. 조금. 어쩌면 조금보다 더.",
    "note": "fair enough = 그럴 만해",
    "tags": [
-    "heart",
-    "expr:maybe",
-    "expr:a little",
-    "expr:fair enough"
+    "heart"
    ],
-   "new": [
-    "fair"
-   ],
+   "new": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -318,9 +292,7 @@
    "ko": "네가 나한테 한 말 중에 제일 다정한 것 같아.",
    "note": "might be = ~일지도",
    "tags": [],
-   "new": [
-    "nicest"
-   ],
+   "new": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -343,16 +315,13 @@
   {
    "num": 11,
    "speaker": "C",
-   "en": "Excuse me! You forgot your hot dogs! All twelve of them!",
-   "ko": "저기요! 핫도그 두고 가셨어요! 열두 개 전부요!",
+   "en": "Excuse me! You forgot your hot dog again!",
+   "ko": "저기요! 핫도그 또 두고 가셨어요!",
    "note": "Yes 만 하던 첫 편의 그 계산원",
    "tags": [
-    "callback:r1_survival_s1",
-    "expr:excuse me"
+    "callback:r1_survival_s1"
    ],
-   "new": [
-    "forget"
-   ],
+   "new": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -371,13 +340,8 @@
      ""
     ],
     [
-     "dogs",
      "dog",
-     ""
-    ],
-    [
-     "twelve",
-     "twelve",
+     "dog",
      ""
     ]
    ]
@@ -385,20 +349,13 @@
   {
    "num": 12,
    "speaker": "B",
-   "en": "Twelve? What did you say to him?",
-   "ko": "열두 개? 쟤한테 뭐라고 한 거야?",
+   "en": "Again? What did you say to him?",
+   "ko": "또? 쟤한테 뭐라고 한 거야?",
    "note": "끼어든 사고",
-   "tags": [
-    "expr:what"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "surprised",
    "lemmas": [
-    [
-     "Twelve",
-     "twelve",
-     ""
-    ],
     [
      "say",
      "say",
@@ -412,9 +369,7 @@
    "en": "I just said yes. I always say yes.",
    "ko": "그냥 네라고 했어. 난 늘 네라고 해.",
    "note": "always = 늘",
-   "tags": [
-    "expr:yes"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [

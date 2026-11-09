@@ -36,10 +36,7 @@
    "ko": "2달러요. 화면에서 뭐 하나 물어볼 거예요.",
    "note": "It's just gonna ask you a question = 팁 화면을 돌릴 때 하는 말",
    "tags": [],
-   "new": [
-    "ask",
-    "question"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -70,14 +67,8 @@
    "en": "Wait. Is this a tip? For a cookie?",
    "ko": "잠깐만요. 이거 팁이에요? 쿠키에요?",
    "note": "tip = 봉사료",
-   "tags": [
-    "expr:wait"
-   ],
-   "new": [
-    "wait",
-    "tip",
-    "cookie"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -103,14 +94,8 @@
    "en": "It's okay. It's totally up to you.",
    "ko": "괜찮아요. 전적으로 손님 마음이에요.",
    "note": "up to you = 네 마음대로",
-   "tags": [
-    "expr:okay",
-    "expr:it's okay",
-    "expr:totally"
-   ],
-   "new": [
-    "total"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -126,9 +111,7 @@
    "en": "But you're looking right at me.",
    "ko": "근데 저를 빤히 보고 계시잖아요.",
    "note": "looking right at = 빤히 보다",
-   "tags": [
-    "expr:right"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
@@ -167,14 +150,8 @@
    "en": "Oh no. I hit thirty percent.",
    "ko": "헐. 30% 눌렀어요.",
    "note": "hit = 누르다",
-   "tags": [
-    "expr:oh no"
-   ],
-   "new": [
-    "hit",
-    "thirty",
-    "percent"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -203,10 +180,7 @@
    "tags": [
     "heart"
    ],
-   "new": [
-    "favorite",
-    "person"
-   ],
+   "new": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -233,10 +207,7 @@
    "ko": "좋네요. 눈물 닦을 냅킨 주실래요?",
    "note": "Can I have ~? = ~ 주실래요?",
    "tags": [],
-   "new": [
-    "napkin",
-    "tears"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [

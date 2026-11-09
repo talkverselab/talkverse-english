@@ -53,7 +53,7 @@ A | I'll arrive early tomorrow, _*because* I'm sleeping under my desk_. | 내일
 === t1_office_g3
 title: 피자 아니면 굶는다
 emoji: 🍕
-scene: 점심 주문을 맡은 Raj 가 상관접속사로 협박하더니 피자를 열두 판 시킨다
+scene: 점심 주문을 맡은 Raj 가 상관접속사로 밀어붙이더니 결국 피자를 세 판 시킨다
 where: 탕비실
 goal: 상관접속사 either A or B · not only A but also B · both A and B
 grammar: 상관접속사|either A or B(둘 중 하나), neither A nor B(둘 다 아님), not only A but also B(A뿐 아니라 B도), both A and B(둘 다). 짝을 외운다.
@@ -70,8 +70,8 @@ B | Pizza is _*not only* affordable *but also* delivered within thirty minutes_.
 A | Fine. One large pizza for the team. For real, just one. | 알았어. 팀용 라지 한 판. 진짜 딱 한 판이야. | for real = 진짜로 | emo=neutral
 B | _*Both* the regional manager *and* the client_ requested their own. | 지역 매니저도 거래처도 둘 다 자기 걸 따로 달래. | §both A and B | emo=neutral
 A | So the final order was… | 그래서 최종 주문이… | 말끝 흐리기 | emo=worried
-B | Twelve. _*Neither* the corporate card *nor* my finger_ stopped in time. | 열두 판. 법인카드도 내 손가락도 제때 안 멈추더라. | §neither A nor B = A도 B도 아닌 | emo=amused
-A | No way. The expense report will say eleven are yours. | 말도 안 돼. 경비 보고서엔 열한 판이 네 거라고 쓸 거야. | no way = 말도 안 돼 | emo=tsukkomi
+B | Three. _*Neither* the manager *nor* the client_ wanted to share. | 세 판. 매니저도 거래처도 나눠 먹기 싫대. | §neither A nor B = A도 B도 아닌 | emo=amused
+A | No way. Then the third one goes on your expense report. | 말도 안 돼. 그럼 세 번째 판은 네 경비로 올려. | no way = 말도 안 돼 | emo=tsukkomi
 
 === t1_office_g4
 title: 내 요거트 가져간 사람
@@ -184,9 +184,9 @@ expr: my bad | seriously
 A | I placed an order for _three *equipments*_ for the new branch. | 새 지점용으로 장비 세 개 발주했어. | §equipment 는 불가산 — equipments 는 틀림 | emo=cheerful
 B | _*Equipment* doesn't take a plural_. Neither does your overtime pay. | equipment 는 복수형이 없어. 네 야근 수당도 없고. | §불가산 명사 + 돌직구 | emo=teasing
 A | Then what exactly did the supplier ship? | 그럼 공급업체가 정확히 뭘 보낸 거야? | 되묻기 | emo=worried
-B | Three truckloads, according to the delivery confirmation. | 배송 확인서에 따르면 트럭 세 대 분량. | 양이 폭발 | emo=amused
+B | Three of every item on the list, according to the delivery confirmation. | 배송 확인서에 따르면 목록에 있는 품목마다 세 개씩. | 수량 착각 | emo=amused
 A | My bad. I also requested "_*furnitures*_" on the same form. | 내 잘못. 같은 양식에 "furnitures" 도 요청했어. | §furniture 도 불가산 | emo=flustered
-C | Seriously? There's a conference table in my parking space. | 진심이야? 내 주차 자리에 회의 탁자가 있어. | seriously = 진심이야 | emo=shout
+C | Seriously? That explains the three coffee machines in the hallway. | 진심이야? 그래서 복도에 커피 머신이 세 대 있었구나. | seriously = 진심이야 | emo=annoyed
 A | Some _*advice*_ beforehand would have been appreciated. | 미리 조언 좀 해 줬으면 고마웠을 텐데. | §advice 도 불가산(an advice 아님) | emo=sad
 B | _*Advice* is uncountable_. So is the damage to your reputation. | advice 도 못 세. 네 평판 손상도 못 세고. | §마무리 한 방 | emo=teasing
 
@@ -310,7 +310,7 @@ B | He was excited to leave early. | 일찍 나가게 돼서 흥분한 거지. |
 === t1_office_g14
 title: 선적된 상자, 보내는 사람
 emoji: 📦
-scene: 창고에서 상자 라벨을 읽는다. 과거분사·현재분사가 뒤섞인 라벨 때문에 상자가 엉뚱한 곳으로 간다
+scene: 창고에서 상자 라벨을 읽는다. 과거분사·현재분사를 헷갈려 반품할 프린터가 엉뚱한 곳으로 간다
 where: 발송장
 goal: 분사 — 명사 수식 과거분사(-ed)·현재분사(-ing)
 grammar: 분사|명사 앞뒤에서 꾸밀 때, 「~된」은 과거분사(the attached file), 「~하는」은 현재분사(the person handling it). 수식받는 명사가 하는 쪽인지 당하는 쪽인지 본다.
@@ -328,8 +328,8 @@ A | So the _*damaged* printer_ returned by the client goes… | 그럼 거래처
 B | With the shipped items. It's clearly not personnel. | 선적 물품 쪽으로. 분명히 인원은 아니잖아. | 분사 논리 | emo=amused
 C | Hold on. Who is the _*person handling* returns_ this week? | 잠깐. 이번 주 반품 처리 담당자가 누구야? | §person handling = 처리하는(현재분사, 뒤에서 수식) | emo=annoyed
 A | The gentleman _*standing* next to the delivery truck_. | 배송 트럭 옆에 서 계신 분이요. | §standing = 서 있는 | emo=neutral
-B | Oh no. That truck just departed. With the printer. And Tom. | 어떡해. 그 트럭 방금 출발했어. 프린터랑. 톰이랑. | oh no = 어떡해 | emo=flustered
-C | A _*shipped* client_. That's a new category for the inventory system. | 선적된 거래처라. 재고 시스템에 새 분류가 생겼네. | §shipped client = 선적된(과거분사) | emo=tsukkomi
+B | Oh no. That truck just left. With the printer. And Tom's new laptop. | 어떡해. 그 트럭 방금 출발했어. 프린터랑. 톰의 새 노트북이랑. | oh no = 어떡해 | emo=flustered
+C | A _*shipped* laptop_. Please call Tom before he notices. | 선적된 노트북이라. 톰이 알아채기 전에 전화해. | §shipped laptop = 선적된(과거분사) | emo=tsukkomi
 
 === t1_office_g15
 title: 자동사는 목적어를 안 받아요

@@ -36,13 +36,8 @@
    "en": "Excuse me. I saw that book first.",
    "ko": "저기요. 그 책 제가 먼저 봤는데요.",
    "note": "saw ~ first = 먼저 봤다",
-   "tags": [
-    "expr:excuse me"
-   ],
-   "new": [
-    "excuse",
-    "book"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -73,13 +68,8 @@
    "en": "Are you kidding? My hand is on it.",
    "ko": "농담이죠? 제 손이 올라가 있는데요.",
    "note": "are you kidding = 농담이죠?",
-   "tags": [
-    "expr:are you kidding"
-   ],
-   "new": [
-    "kid",
-    "hand"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -123,9 +113,7 @@
    "ko": "당신 책이라고요? 읽어 봤어요?",
    "note": "되묻기",
    "tags": [],
-   "new": [
-    "read"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -147,10 +135,7 @@
    "ko": "다섯 번요. 결말이 너무 슬퍼요.",
    "note": "so sad = 너무 슬퍼",
    "tags": [],
-   "new": [
-    "end",
-    "sad"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -176,12 +161,8 @@
    "en": "No way. You just told me the ending!",
    "ko": "말도 안 돼. 방금 결말을 말했잖아요!",
    "note": "no way = 말도 안 돼",
-   "tags": [
-    "expr:no way"
-   ],
-   "new": [
-    "tell"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -208,13 +189,9 @@
    "ko": "그럼 얘기 나눌 사람이 필요하겠네요.",
    "note": "I guess = 그런가 봐요",
    "tags": [
-    "heart",
-    "expr:i guess"
+    "heart"
    ],
-   "new": [
-    "someone",
-    "talk"
-   ],
+   "new": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -245,9 +222,7 @@
    "en": "Wait, is that your number in the book?",
    "ko": "잠깐, 책에 있는 거 당신 번호예요?",
    "note": "마지막에 들킨 마음",
-   "tags": [
-    "expr:wait"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [

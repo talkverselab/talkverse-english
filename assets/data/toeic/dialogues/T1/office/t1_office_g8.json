@@ -156,16 +156,21 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Three truckloads, according to the delivery confirmation.",
-   "ko": "배송 확인서에 따르면 트럭 세 대 분량.",
-   "note": "양이 폭발",
+   "en": "Three of every item on the list, according to the delivery confirmation.",
+   "ko": "배송 확인서에 따르면 목록에 있는 품목마다 세 개씩.",
+   "note": "수량 착각",
    "tags": [],
    "new": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "truckloads",
-     "truckload",
+     "item",
+     "item",
+     ""
+    ],
+    [
+     "list",
+     "list",
      ""
     ],
     [
@@ -229,12 +234,12 @@
   {
    "num": 6,
    "speaker": "C",
-   "en": "Seriously? There's a conference table in my parking space.",
-   "ko": "진심이야? 내 주차 자리에 회의 탁자가 있어.",
+   "en": "Seriously? That explains the three coffee machines in the hallway.",
+   "ko": "진심이야? 그래서 복도에 커피 머신이 세 대 있었구나.",
    "note": "seriously = 진심이야",
    "tags": [],
    "new": [],
-   "emotion": "shout",
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Seriously",
@@ -242,23 +247,23 @@
      ""
     ],
     [
-     "conference",
-     "conference",
+     "explains",
+     "explain",
      ""
     ],
     [
-     "table",
-     "table",
+     "coffee",
+     "coffee",
      ""
     ],
     [
-     "parking",
-     "park",
+     "machines",
+     "machine",
      ""
     ],
     [
-     "space",
-     "space",
+     "hallway",
+     "hallway",
      ""
     ]
    ]

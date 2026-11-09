@@ -12,7 +12,7 @@
  ],
  "title": "피자 아니면 굶는다",
  "emoji": "🍕",
- "scene": "점심 주문을 맡은 Raj 가 상관접속사로 협박하더니 피자를 열두 판 시킨다",
+ "scene": "점심 주문을 맡은 Raj 가 상관접속사로 밀어붙이더니 결국 피자를 세 판 시킨다",
  "where": "탕비실",
  "goal": "상관접속사 either A or B · not only A but also B · both A and B",
  "speakers": {
@@ -278,14 +278,14 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Twelve. Neither the corporate card nor my finger stopped in time.",
-   "ko": "열두 판. 법인카드도 내 손가락도 제때 안 멈추더라.",
+   "en": "Three. Neither the manager nor the client wanted to share.",
+   "ko": "세 판. 매니저도 거래처도 나눠 먹기 싫대.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "Neither the corporate card nor my finger"
+     "Neither the manager nor the client"
     ],
     "red": [
      "Neither",
@@ -296,23 +296,13 @@
    "emotion": "amused",
    "lemmas": [
     [
-     "Twelve",
-     "twelve",
-     ""
-    ],
-    [
      "Neither",
      "neither",
      ""
     ],
     [
-     "corporate",
-     "corporate",
-     ""
-    ],
-    [
-     "card",
-     "card",
+     "manager",
+     "manager",
      ""
     ],
     [
@@ -321,18 +311,18 @@
      ""
     ],
     [
-     "finger",
-     "finger",
+     "client",
+     "client",
      ""
     ],
     [
-     "stopped",
-     "stop",
+     "wanted",
+     "want",
      ""
     ],
     [
-     "time",
-     "time",
+     "share",
+     "share",
      ""
     ]
    ]
@@ -340,15 +330,13 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "No way. The expense report will say eleven are yours.",
-   "ko": "말도 안 돼. 경비 보고서엔 열한 판이 네 거라고 쓸 거야.",
+   "en": "No way. Then the third one goes on your expense report.",
+   "ko": "말도 안 돼. 그럼 세 번째 판은 네 경비로 올려.",
    "note": "no way = 말도 안 돼",
    "tags": [
     "expr:no way"
    ],
-   "new": [
-    "eleven"
-   ],
+   "new": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -357,6 +345,16 @@
      ""
     ],
     [
+     "third",
+     "third",
+     ""
+    ],
+    [
+     "goes",
+     "go",
+     ""
+    ],
+    [
      "expense",
      "expense",
      ""
@@ -364,16 +362,6 @@
     [
      "report",
      "report",
-     ""
-    ],
-    [
-     "say",
-     "say",
-     ""
-    ],
-    [
-     "eleven",
-     "eleven",
      ""
     ]
    ]

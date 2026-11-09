@@ -12,7 +12,7 @@
  ],
  "title": "Yes는 숫자가 아니에요",
  "emoji": "🌭",
- "scene": "물 한 병을 사러 갔는데 못 알아듣고 Yes 만 하다가 핫도그 열두 개를 산다",
+ "scene": "물 한 병을 사러 갔는데 못 알아듣고 Yes 만 하다가 봉투값에 핫도그까지 산다",
  "where": "브루클린 동네 가게",
  "goal": "못 알아들었을 때 Yes 로 때우면 생기는 일",
  "speakers": {
@@ -21,7 +21,7 @@
  },
  "register": "polite",
  "twist": 7,
- "twist_type": "chaos",
+ "twist_type": "slip",
  "flags": [],
  "expressions": [
   "yes",
@@ -35,9 +35,7 @@
    "ko": "다 고르셨어요?",
    "note": "all set = 준비 다 됐다, 계산대 단골 말",
    "tags": [],
-   "new": [
-    "set"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -53,15 +51,8 @@
    "en": "Yes! Just this water, please.",
    "ko": "네! 이 물만 주세요.",
    "note": "just this = 이것만요",
-   "tags": [
-    "expr:yes",
-    "expr:please",
-    "expr:just this"
-   ],
-   "new": [
-    "water",
-    "please"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -83,9 +74,7 @@
    "ko": "봉투 드릴까요?",
    "note": "You want ~? = ~드릴까요?",
    "tags": [],
-   "new": [
-    "bag"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -106,9 +95,7 @@
    "en": "Yes.",
    "ko": "네.",
    "note": "뜻을 몰라도 일단 Yes",
-   "tags": [
-    "expr:yes"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": []
@@ -120,11 +107,7 @@
    "ko": "핫도그 1달러예요. 몇 개 드려요?",
    "note": "How many? = 몇 개?",
    "tags": [],
-   "new": [
-    "hot",
-    "dog",
-    "dollar"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -150,9 +133,7 @@
    "en": "Yes.",
    "ko": "네.",
    "note": "How many 에 Yes 라고 답했다",
-   "tags": [
-    "expr:yes"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": []
@@ -160,17 +141,11 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Yes isn't a number, friend. I'll say twelve.",
-   "ko": "손님, Yes는 숫자가 아니에요. 열두 개로 할게요.",
-   "note": "I'll say ~ = ~로 치죠",
-   "tags": [
-    "expr:yes"
-   ],
-   "new": [
-    "number",
-    "friend",
-    "twelve"
-   ],
+   "en": "Yes isn't a number. One, then. Four fifty.",
+   "ko": "Yes는 숫자가 아니에요. 그럼 하나요. 4달러 50센트.",
+   "note": "Four fifty = 4.50달러(가격 읽기)",
+   "tags": [],
+   "new": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -179,18 +154,8 @@
      ""
     ],
     [
-     "friend",
-     "friend",
-     ""
-    ],
-    [
-     "say",
-     "say",
-     ""
-    ],
-    [
-     "twelve",
-     "twelve",
+     "fifty",
+     "fifty",
      ""
     ]
    ]
@@ -198,15 +163,29 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Yes.",
-   "ko": "네.",
-   "note": "끝까지 Yes",
-   "tags": [
-    "expr:yes"
-   ],
+   "en": "Wait, just water. Can you say that again?",
+   "ko": "잠깐만요, 물만요. 다시 말해 주실래요?",
+   "note": "say that again = 다시 말해 주세요",
+   "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": []
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "water",
+     "water",
+     ""
+    ],
+    [
+     "say",
+     "say",
+     ""
+    ]
+   ]
   }
  ]
 }

@@ -37,10 +37,7 @@
    "ko": "그러니까 이게 내 지하철이야. 음, 10분 뒤에.",
    "note": "in ten minutes = 10분 뒤에",
    "tags": [],
-   "new": [
-    "train",
-    "minute"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -66,10 +63,7 @@
    "en": "Okay. I can wait with you.",
    "ko": "응. 같이 기다려 줄게.",
    "note": "wait with you = 같이 기다리다",
-   "tags": [
-    "expr:okay",
-    "expr:wait"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
@@ -87,9 +81,7 @@
    "ko": "안 그래도 돼. 춥잖아.",
    "note": "You don't have to = 안 그래도 돼",
    "tags": [],
-   "new": [
-    "cold"
-   ],
+   "new": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -105,12 +97,8 @@
    "en": "Honestly, I'm not that cold.",
    "ko": "솔직히, 그렇게 안 추워.",
    "note": "honestly = 솔직히",
-   "tags": [
-    "expr:honestly"
-   ],
-   "new": [
-    "honest"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -132,9 +120,7 @@
    "ko": "네 손 떨리고 있어, {name}.",
    "note": "shaking = 떨리는",
    "tags": [],
-   "new": [
-    "shake"
-   ],
+   "new": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -155,11 +141,7 @@
    "en": "Okay, I'm a little cold. By the way, your train just came.",
    "ko": "그래, 조금 추워. 그나저나 방금 네 지하철 왔어.",
    "note": "by the way = 그나저나",
-   "tags": [
-    "expr:okay",
-    "expr:a little",
-    "expr:by the way"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
@@ -236,14 +218,9 @@
    "ko": "내 말은, 또 있겠지. 아마도. 제대로 안 찾아봤어.",
    "note": "I mean = 내 말은",
    "tags": [
-    "heart",
-    "expr:really",
-    "expr:i mean"
+    "heart"
    ],
-   "new": [
-    "probably",
-    "check"
-   ],
+   "new": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -296,15 +273,8 @@
    "en": "You know what? I read that sign an hour ago.",
    "ko": "있잖아, 나 그 표지판 한 시간 전에 읽었어.",
    "note": "들킨 마음",
-   "tags": [
-    "expr:what",
-    "expr:you know what"
-   ],
-   "new": [
-    "sign",
-    "hour",
-    "ago"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "shy",
    "lemmas": [
     [
