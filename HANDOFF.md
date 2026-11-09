@@ -7,7 +7,8 @@ _최종 2026-11-09 11:4x KST. 영어앱 세션 정리 종료(uk 전달 사용자
 2. **iOS** — 토익·토익스피킹·OPIc App Store Connect 레코드(`com.talkverse.toeic`·`toeicSpeaking`·`opic`)가 생기면 `APP=<id> bash tools/ios_release.sh`(export·PC 백업은 이미 됨).
 3. **사용자 확인 대기** — 영어 회화 샘플 7편 톤(리뷰 https://talkverse.uk/talkverse/review/en/), 한글 독음 비움 여부, 음성 미국 한 벌 vs 3말투, s1 MOSS·VoxCPM2 판 선택, 토익 비즈니스 회화 18편 톤.
 4. **출시 막힘**(`docs/store/STORE.md` §0) — 영어 회화 앱 탑재, 빈 메뉴(문장 플래시카드·소리 사전), 임시 조음 그림 교체(Grok 11/9 13:30 재개), 토익 RC 문제(교재 구성만 참고·자체 작성), 토익스피킹·OPIc 고유 내용.
-5. 통합 앱 = Talkverse 빌드 2 에 영어 포함(uk). 통합 앱은 직접 고치거나 빌드하지 않는다.
+5. **Grok(2026-11-09 공지 `~/logs/rc/RELAY_grok_20261109.md`)** — 재개됨. 한자 세션 대행은 중단(사용자 지시 "다른세션요청은 그 세션에서 해결") → 이 세션이 직접: 자기 크롬을 켜고 M4 에서 `ssh macmini4 /usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <내 포트>`로 쿠키 동기화, 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 이 저장소로 복사. uk 의 방은 건드리지 않는다. 할 일: 회화 샘플 7편 재작성(사용자 톤 확인 뒤), 조음 그림 교체, 토익 회화 장면 컷.
+6. 통합 앱 = Talkverse 빌드 2 에 영어 포함(uk). 통합 앱은 직접 고치거나 빌드하지 않는다.
 
 ## 상태 표 (공통 프롬프터 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md` 순서)
 
