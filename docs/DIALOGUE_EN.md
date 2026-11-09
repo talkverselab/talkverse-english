@@ -45,3 +45,10 @@
 `data/drafts/*.txt` → `python3 tools/draft_to_json.py` → `~/.venvs/en/bin/python tools/add_lemmas.py` → `~/.venvs/en/bin/python tools/check_dialogues.py --fix`. 형식은 `tools/prompts/dialogue_r1.md`.
 음성: `python3 tools/tts/make_plan.py` 가 회화의 감정 열로 계획을 만들고(목소리는 `data/tts/cast.json`), `tools/tts/check_plan.py` → `make_jobs.py --refs` → `make_jobs.py <편>` → `run_all.py` 순서. 감정을 손으로 다시 적지 않는다.
 편 JSON 은 `pubspec.yaml` 에 아직 넣지 않는다 — 사용자 통과 뒤 앱에 연결한다.
+
+## 5. Grok 프롬프트 최소화(사용자 지시 2026-11-09, uk 전달)
+"그록사용시 … 긴 프롬프터를 처리하다보니 토큰을 많이 먹어 프롬프터 최소화 처리해 그록이 알아서 통일성있게".
+- 규칙은 문서에 한 번만 둔다(`tools/prompts/rewrite_grok.md`, 그림은 `data/review/uxui/CHARACTERS.md`). 방 첫 메시지에 그 규칙 전문 + "앞으로는 파일 이름 한 줄만 보낸다 — 이 규칙대로 처리" 약속.
+- 이후 채팅은 한 줄만(예: `r1_survival_s2 재작성` + 첨부). 규칙을 매번 다시 붙이지 않는다.
+- 그림이 처음과 달라지면 **최초 통과 그림**을 기준으로 다시 맞춘다(이미 만든 그림은 그대로).
+- 감정 열: 회화를 만들 때 줄마다 음성용 `emo=` 를 넣는다(§1, 검사기가 빠지면 오류로 잡는다) — Grok 재작성본을 넣을 때도 감정 열을 유지한다.
