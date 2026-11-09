@@ -1,0 +1,22 @@
+=== t1_office_g5
+title: 금요일까지가 금요일 몇 시?
+emoji: 📅
+scene: 거래처 Tom이 「금요일까지」라고 했는데 by인지 until인지로 밤을 새울 뻔한다
+where: 전화
+goal: 시간 전치사 by · until · within · in
+grammar: 시간 전치사|by = 늦어도 그때까지 완료, until = 그때까지 계속, within = 기간 안에, in = ~ 뒤에. 토익 Part 5 단골.
+check: Please send the revised proposal _____ Friday at noon. | until | by | within | during | B
+kind: short
+register: polite
+B: Tom
+twist: 6 slip
+expr: just to confirm | got it
+--
+B | I need the revised proposal _*by* Friday_. The board meets Monday. | 수정 제안서를 금요일까지 주세요. 이사회가 월요일이에요. | §by = 늦어도 금요일까지(완료) | emo=polite
+A | Just to confirm, _*by* Friday_ or _*until* Friday_? | 확인 차원에서요, 금요일까지 제출인가요 금요일 내내인가요? | §by vs until | emo=polite
+B | Is there actually a real difference between them? | 둘 사이에 진짜 의미 있는 차이가 있나요? | 거래처의 질문 | emo=surprised
+A | *By* means I deliver it. *Until* means I keep working. | by는 제가 납품한다는 거고 until은 계속 일한다는 거예요. | §한 줄 요약 | emo=neutral
+B | Then _*by* Friday_. Finish the budget part _*within* three business days_ too. | 그럼 금요일까지요. 예산 부분도 영업일 사흘 안에 끝내 주시고요. | §within = 기간 안에 | emo=polite
+A | Got it. Today is already Thursday, Tom. | 알겠어요. 오늘 이미 목요일이에요, 톰. | got it = 알겠어요 | emo=tsukkomi
+B | Oh. Then _*in* one day_, I guess. | 아. 그럼 하루 뒤네요. | §in = ~ 뒤에 | emo=flustered
+A | So I'll still be working _*until* Friday_ after all. | 그럼 결국 금요일까지 일하겠네요. | §until 로 되돌아온 마무리 | emo=sad
