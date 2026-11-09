@@ -1,0 +1,22 @@
+=== t1_office_g9
+title: 거의는 시간이 아니야
+emoji: ⌛
+scene: Olivia 가 마감 상황을 묻는다. A 는 부사로만 버틴다 — almost, still, already, yet, hardly
+where: A 의 자리
+goal: 부사 almost · still · already · yet · hardly
+grammar: 부사|already(이미, 긍정문), yet(아직, 부정·의문문 끝), still(여전히), almost(거의), hardly(거의 ~않다 — 부정의 뜻). 자리와 뜻을 함께 본다.
+check: I have _____ completed the quarterly report. | yet | almost | hardly ever | still not | B
+kind: short
+register: mixed
+B: Olivia
+twist: 7 slip
+expr: i swear | right now
+--
+B | The quarterly report. _*Still* not submitted_? | 분기 보고서. 아직도 제출 안 했어? | §still = 여전히 | emo=neutral
+A | _*Almost*_. | 거의요. | §almost = 거의 | emo=flustered
+B | Almost is not a time. The deadline was an hour ago. | 거의는 시간이 아니야. 마감은 한 시간 전이었어. | 팀장 명언 | emo=tsukkomi
+A | I've _*already* finalized_ the title page and the table of contents. | 표지랑 목차는 이미 완성했어요. | §already = 이미(긍정문) | emo=cheerful
+B | And the actual analysis? | 그래서 실제 분석은? | 짧게 되묻기 | emo=neutral
+A | _Not *yet*_. But I _*hardly* slept_ this week. | 아직요. 근데 이번 주에 거의 못 잤어요. | §yet = 아직(부정문 끝) · hardly = 거의 ~않다 | emo=sad
+B | You _*hardly* slept_ because you were _*hardly* working_? | 거의 일을 안 해서 거의 못 잔 거야? | §hardly 두 번 | emo=teasing
+A | I swear the analysis is coming right now. Just the analysis. | 맹세코 분석은 지금 바로 나와요. 분석만요. | right now = 지금 바로 | emo=flustered

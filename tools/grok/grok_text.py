@@ -1,0 +1,112 @@
+# -*- coding: utf-8 -*-
+"""Grok 글 요청 한 건(PC 크롬): 새 챗 또는 기존 챗 → 첨부 → 한 줄(또는 파일) 전송 → 답이 멈출 때까지 기다림 → 마지막 답 글 저장.
+grok_req.py(그림용, ~/Hanja/tools)를 글용으로 고친 것(2026-11-09). 크롬은 PC(작업 스케줄러 Grok-Chrome-en-9262), M6 에서 ssh -fN -L 9262:127.0.0.1:9262 pc.
+  GROK_CDP_PORT=9262 python3 tools/grok_text.py <보낼 글.txt | "-m 한 줄"> <답.md> [첨부 ...] [--chat <챗 주소 또는 id>] [--wait 400]
+첨부는 PC D:\\grok_att\\en\\ 로 scp 한 뒤 그 경로로 붙인다(크롬이 PC 에서 돌기 때문). 한도 문구면 종료 코드 3. 끝나면 탭을 닫는다.
+마지막 줄에 `CHAT <주소>` 를 찍는다 — 같은 방에 이어 보낼 때 --chat 으로 넘긴다."""
+import json, os, subprocess, sys, time, urllib.request
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import grok_cdp as G
+
+PC_ATT = 'D:/grok_att/en/'
+
+
+def new_tab(url):
+    return json.load(urllib.request.urlopen(urllib.request.Request(G.BASE + '/json/new?' + url, method='PUT')))
+
+
+def close_tab(t):
+    try:
+        urllib.request.urlopen(G.BASE + '/json/close/' + t['id'])
+    except Exception:
+        pass
+
+
+# 답 = 마지막 말풍선 안의 코드 블록(없으면 말풍선 글). 처음엔 「Grok」 같은 짧은 자리표시만 있으니 길이로 거른다.
+REPLY = "(()=>{const m=[...document.querySelectorAll('.message-bubble')];if(!m.length)return '';const b=m[m.length-1];const p=b.querySelectorAll('pre, code');return (p.length?p[p.length-1]:b).innerText})()"
+
+
+def main():
+    a = sys.argv[1:]
+    opt = {}
+    for k in ('--chat', '--wait', '-m', '--fetch'):
+        if k in a:
+            i = a.index(k); opt[k] = a[i + 1]; del a[i:i + 2]
+    if '--fetch' in opt:  # 이미 끝난 방에서 마지막 답만 다시 받기
+        text, out, atts = None, opt['--fetch'], []
+    elif '-m' in opt:
+        text, out, atts = opt['-m'], a[0], a[1:]
+    else:
+        text, out, atts = open(a[0], encoding='utf-8').read().strip(), a[1], a[2:]
+    wait = int(opt.get('--wait', 400))
+    remote = []
+    if atts:
+        subprocess.run(['ssh', 'pc', 'cmd /c if not exist D:\\grok_att\\en mkdir D:\\grok_att\\en'], check=False, capture_output=True)
+        for p in atts:
+            subprocess.run(['scp', '-q', p, 'pc:' + PC_ATT], check=True)
+            remote.append((PC_ATT + os.path.basename(p)).replace('/', '\\'))
+    chat = opt.get('--chat', '')
+    url = chat if chat.startswith('http') else ('https://grok.com/c/' + chat if chat else 'https://grok.com/')
+    t = new_tab(url)
+    try:
+        c = G.CDP(t)
+        c.call('Page.bringToFront')
+        for _ in range(40):
+            if c.ev("!!(%s)" % G.FIND):
+                break
+            time.sleep(1)
+        time.sleep(4)
+        if remote:
+            doc = c.call('DOM.getDocument', depth=-1, pierce=True)
+            node = c.call('DOM.querySelector', nodeId=doc['root']['nodeId'], selector='input[type=file]')
+            if not node.get('nodeId'):
+                raise SystemExit('파일 입력 없음')
+            c.call('DOM.setFileInputFiles', nodeId=node['nodeId'], files=remote)
+            time.sleep(4 + 2 * len(remote))
+        model = c.ev("[...document.querySelectorAll('button')].map(b=>b.getAttribute('aria-label')||'').find(x=>/^모델/.test(x))||''")
+        print(model)
+        if text is not None and '전문가' not in model:  # 사용자 지시: 전문가 모드로만(2026-11-09)
+            raise SystemExit('Grok 모델이 전문가가 아님: ' + model)
+        if text is None:
+            r = c.ev(REPLY) or ''
+            open(out, 'w', encoding='utf-8').write(r + '\n'); print('저장', out, len(r), '자'); return
+        n0 = c.ev("document.querySelectorAll('.message-bubble, [class*=message-bubble]').length") or 0
+        lim0 = c.ev("(document.body.innerText.match(/한도에 도달|limit reached/g)||[]).length")
+        c.ev("(()=>{const e=%s;e.focus();return 1})()" % G.FIND)
+        c.call('Input.insertText', text=text)
+        time.sleep(1)
+        for typ in ('keyDown', 'keyUp'):
+            c.call('Input.dispatchKeyEvent', type=typ, key='Enter', code='Enter', windowsVirtualKeyCode=13, nativeVirtualKeyCode=13)
+        time.sleep(3)
+        left = c.ev("(()=>{const e=%s;return e?(e.value||e.innerText||'').trim().length:-1})()" % G.FIND)
+        if left and left > 0:
+            c.ev("(()=>{const b=[...document.querySelectorAll('button')].find(x=>/제출|Submit/.test(x.getAttribute('aria-label')||''));if(b){b.click();return 1}return 0})()")
+            time.sleep(3)
+        t0 = time.time(); last = ''; same = 0
+        while time.time() - t0 < wait:
+            time.sleep(8)
+            if (c.ev("(document.body.innerText.match(/한도에 도달|limit reached/g)||[]).length") or 0) > lim0:
+                print('LIMIT'); sys.exit(3)
+            n = c.ev("document.querySelectorAll('.message-bubble, [class*=message-bubble]').length") or 0
+            cur = c.ev(REPLY) or ''
+            busy = c.ev("/생각 중|Thinking|Generating|생성 중/.test(document.body.innerText.slice(-300))")
+            if n >= n0 + 2 and len(cur) > 60 and cur == last and not busy:
+                same += 1
+                if same >= 4:
+                    break
+            else:
+                same = 0
+            last = cur
+        reply = c.ev(REPLY) or ''
+        href = c.ev('location.href')
+        open(out, 'w', encoding='utf-8').write(reply + '\n')
+        print('저장', out, len(reply), '자')
+        print('CHAT', href)
+        if not reply:
+            sys.exit(2)
+    finally:
+        close_tab(t)
+
+
+if __name__ == '__main__':
+    main()

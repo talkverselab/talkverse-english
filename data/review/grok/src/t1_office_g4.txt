@@ -1,0 +1,23 @@
+=== t1_office_g4
+title: 내 요거트 가져간 사람
+emoji: 🥄
+scene: 냉장고 요거트가 사라졌다. 관계대명사로 범인을 좁혀 가는데 팀장이 입을 닦는다
+where: 탕비실 냉장고 앞
+goal: 관계대명사 who · whose · which · what
+grammar: 관계대명사|사람은 who, 사물은 which, 소유는 whose. 「~하는 것」 전체는 what(선행사가 없다). 뒤 문장의 빠진 자리를 보고 고른다.
+check: The employee _____ took the yogurt left the spoon in the sink. | who | which | whose | what | A
+kind: short
+register: casual
+B: Raj
+C: Olivia
+twist: 7 reveal
+expr: hold on | i knew it
+--
+A | Someone removed the yogurt _*which* was clearly labeled with my name_. | 누가 내 이름이 분명히 붙은 요거트를 치웠어. | §which = 사물 선행사(yogurt) | emo=annoyed
+B | The employee _*who* took it_ left the spoon in the sink. | 가져간 직원이 숟가락은 싱크대에 두고 갔네. | §who = 사람 선행사(employee) | emo=amused
+A | A spoon _*whose* handle is company blue_. That narrows it down. | 손잡이가 회사 파란색인 숟가락. 범위가 좁혀지네. | §whose = 소유 | emo=neutral
+B | To everyone on this floor, including the cleaning staff. | 이 층 전원으로. 청소 직원 포함. | 받아치기 | emo=teasing
+A | _*What* I need_ is a name, not a suspect list. | 내가 필요한 건 이름이지 용의자 명단이 아니야. | §what = ~하는 것(선행사 없음) | emo=annoyed
+B | Hold on. Someone is wiping her mouth near the copier. | 잠깐. 누가 복사기 옆에서 입을 닦고 있어. | hold on = 잠깐 | emo=surprised
+C | It expired yesterday. Consider it a safety inspection. | 어제 유통기한 지났더라. 안전 점검이라고 생각해. | 팀장의 당당한 자백 | emo=neutral
+A | I knew it. You owe me a yogurt _*which* hasn't expired_. | 그럴 줄 알았어요. 유통기한 안 지난 요거트로 갚으세요. | §which 절로 마무리 | emo=tsukkomi

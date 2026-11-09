@@ -1,0 +1,23 @@
+=== t1_office_g10
+title: 자신 있었지 기밀은 아니고
+emoji: 📧
+scene: A 가 「기밀」 파일을 전체 메일로 보냈다. 형용사 한 글자 차이로 회사가 발칵 뒤집힌다
+where: 사무실 전체
+goal: 혼동 형용사 confident vs confidential · considerable vs considerate
+grammar: 어형 — 혼동 형용사|confident(자신 있는) vs confidential(기밀의), considerable(상당한) vs considerate(사려 깊은). 모양이 비슷한 형용사는 뜻을 짝으로 외운다.
+check: All salary information must be kept strictly _____. | confident | confidential | confidence | confidentially | B
+kind: short
+register: mixed
+B: Olivia
+C: Grace
+twist: 5 chaos
+expr: oh no | you're kidding
+--
+A | I forwarded the compensation file to the team. I felt _*confident*_ about it. | 급여 파일을 팀에 전달했어요. 자신 있었거든요. | §confident = 자신 있는 | emo=cheerful
+B | The attachment marked "_*Confidential*_ — HR Only"? | "기밀 — 인사팀 전용" 이라고 표시된 그 첨부 파일? | §confidential = 기밀의 | emo=surprised
+A | I assumed it was a typo for "_*confident*_." | "confident" 의 오타인 줄 알았어요. | §혼동 형용사 사고 | emo=flustered
+B | Oh no. Did you send it to "Marketing Team" or "All Staff"? | 어떡해. "마케팅팀"이야, "전 직원"이야? | oh no = 어떡해 | emo=worried
+A | All Staff. Every branch. The reach was _*considerable*_. | 전 직원이요. 전 지점. 도달률이 상당했어요. | §considerable = 상당한 | emo=flustered
+C | Everyone now knows Raj earns more than his supervisor. | 이제 모두가 라지가 상사보다 많이 받는 걸 알아요. | 인사팀의 팩트 | emo=polite
+B | You're kidding. That's the actual emergency here. | 설마. 그게 여기서 진짜 비상사태네. | you're kidding = 설마 | emo=shout
+A | I'll be _*considerate*_ and recall the message. From my inbox, at least. | 사려 깊게 메시지를 회수할게요. 최소한 제 받은편지함에서는요. | §considerate = 사려 깊은 | emo=neutral

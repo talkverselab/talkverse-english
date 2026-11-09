@@ -33,7 +33,7 @@
    "speaker": "B",
    "en": "You all set?",
    "ko": "다 고르셨어요?",
-   "note": "all set = 준비 다 됐다, 계산대 단골 말",
+   "note": "all set = 준비 다 됨",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -43,7 +43,7 @@
    "speaker": "A",
    "en": "Yes! Just this water, please.",
    "ko": "네! 이 물만 주세요.",
-   "note": "just this = 이것만요",
+   "note": "just this = 이것만",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -51,9 +51,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "You want a bag for that?",
+   "en": "You want a bag?",
    "ko": "봉투 드릴까요?",
-   "note": "You want ~? = ~드릴까요?",
+   "note": "You want ~? = ~드릴까요",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -63,7 +63,7 @@
    "speaker": "A",
    "en": "Yes.",
    "ko": "네.",
-   "note": "뜻을 몰라도 일단 Yes",
+   "note": "일단 Yes",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -72,8 +72,8 @@
    "num": 5,
    "speaker": "B",
    "en": "Hot dogs are a dollar. How many?",
-   "ko": "핫도그 1달러예요. 몇 개 드려요?",
-   "note": "How many? = 몇 개?",
+   "ko": "핫도그 1달러예요. 몇 개요?",
+   "note": "How many? = 몇 개",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -83,7 +83,7 @@
    "speaker": "A",
    "en": "Yes.",
    "ko": "네.",
-   "note": "How many 에 Yes 라고 답했다",
+   "note": "How many에 Yes",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -93,7 +93,7 @@
    "speaker": "B",
    "en": "Yes isn't a number. One, then. Four fifty.",
    "ko": "Yes는 숫자가 아니에요. 그럼 하나요. 4달러 50센트.",
-   "note": "Four fifty = 4.50달러(가격 읽기)",
+   "note": "Four fifty = 4.50달러",
    "tags": [],
    "new": [],
    "emotion": "amused"
@@ -101,8 +101,8 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Wait, just water. Can you say that again?",
-   "ko": "잠깐만요, 물만요. 다시 말해 주실래요?",
+   "en": "Wait, just this water. Can you say that again?",
+   "ko": "잠깐, 이 물만. 다시 말해 주실래요?",
    "note": "say that again = 다시 말해 주세요",
    "tags": [],
    "new": [],

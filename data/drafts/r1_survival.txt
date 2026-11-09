@@ -10,14 +10,14 @@ B: Cashier
 twist: 7 chaos
 expr: yes | just this
 --
-B | You all set? | 다 고르셨어요? | all set = 준비 다 됐다, 계산대 단골 말 | emo=neutral
-A | Yes! Just this water, please. | 네! 이 물만 주세요. | just this = 이것만요 | emo=neutral
-B | You want a bag for that? | 봉투 드릴까요? | You want ~? = ~드릴까요? | emo=neutral
-A | Yes. | 네. | 뜻을 몰라도 일단 Yes | emo=neutral
-B | Hot dogs are a dollar. How many? | 핫도그 1달러예요. 몇 개 드려요? | How many? = 몇 개? | emo=neutral
-A | Yes. | 네. | How many 에 Yes 라고 답했다 | emo=neutral
-B | Yes isn't a number. One, then. Four fifty. | Yes는 숫자가 아니에요. 그럼 하나요. 4달러 50센트. | Four fifty = 4.50달러(가격 읽기) | emo=amused
-A | Wait, just water. Can you say that again? | 잠깐만요, 물만요. 다시 말해 주실래요? | say that again = 다시 말해 주세요 | emo=flustered
+B | You all set? | 다 고르셨어요? | all set = 준비 다 됨 | emo=neutral
+A | Yes! Just this water, please. | 네! 이 물만 주세요. | just this = 이것만 | emo=neutral
+B | You want a bag? | 봉투 드릴까요? | You want ~? = ~드릴까요 | emo=neutral
+A | Yes. | 네. | 일단 Yes | emo=neutral
+B | Hot dogs are a dollar. How many? | 핫도그 1달러예요. 몇 개요? | How many? = 몇 개 | emo=neutral
+A | Yes. | 네. | How many에 Yes | emo=neutral
+B | Yes isn't a number. One, then. Four fifty. | Yes는 숫자가 아니에요. 그럼 하나요. 4달러 50센트. | Four fifty = 4.50달러 | emo=amused
+A | Wait, just this water. Can you say that again? | 잠깐, 이 물만. 다시 말해 주실래요? | say that again = 다시 말해 주세요 | emo=flustered
 
 === r1_survival_s2
 title: 오늘 밤 제 이름은 디너
@@ -31,14 +31,14 @@ B: Maya
 twist: 7 slip
 expr: i'll have | for here or to go | to go | sure
 --
-B | Hey! What can I get you? | 어서 오세요! 뭐 드릴까요? | What can I get you? = 뭐 드릴까요? | emo=neutral
+B | Hey, what can I get you? | 헤이, 뭐 드릴까요? | What can I get you? = 뭐 드릴까요 | emo=neutral
 A | I'll have a small coffee, please. | 작은 커피 하나 주세요. | I'll have ~ = ~로 할게요 | emo=neutral
-B | For here or to go? | 드시고 가세요, 가져가세요? | for here or to go = 매장·포장 질문 | emo=neutral
+B | For here or to go? | 드시고 가세요, 가져가세요? | for here or to go = 매장·포장 | emo=neutral
 A | To go, please. | 가져갈게요. | to go = 포장 | emo=neutral
-B | Perfect. Name for the cup? | 좋아요. 컵에 쓸 이름은요? | name for the cup = 컵에 적을 이름 | emo=neutral
-A | {name}. | {name}요. | 이름만 또박또박 | emo=neutral
-B | Small coffee for… Dinner? Dinner? | 작은 커피 나왔습니다… 디너 님? 디너 님? | 잘못 들은 이름이 컵에 적혔다 | emo=surprised
-A | Sure. Tonight, I'm Dinner. | 네. 오늘 밤엔 제가 디너예요. | sure = 그래요, 뭐 | emo=amused
+B | Got it. Name for the cup? | 알겠어요. 컵 이름은요? | name for the cup = 컵 이름 | emo=neutral
+A | {name}. | {name}요. | 이름만 | emo=neutral
+B | Small coffee for… Dinner? Dinner? | 작은 커피… 디너 님? 디너? | 잘못 들음 | emo=surprised
+A | Sure. Tonight, I'm Dinner. | 네. 오늘 밤은 제가 디너예요. | sure = 뭐 어때요 | emo=amused
 
 === r1_survival_s3
 title: 쿠키 하나에 팁 30%
@@ -52,11 +52,11 @@ B: Clerk
 twist: 6 slip
 expr: oh no | it's okay | wait
 --
-B | Two dollars. It's just gonna ask you a question. | 2달러요. 화면에서 뭐 하나 물어볼 거예요. | It's just gonna ask you a question = 팁 화면을 돌릴 때 하는 말 | emo=neutral
-A | Wait. Is this a tip? For a cookie? | 잠깐만요. 이거 팁이에요? 쿠키에요? | tip = 봉사료 | emo=surprised
-B | It's okay. It's totally up to you. | 괜찮아요. 전적으로 손님 마음이에요. | up to you = 네 마음대로 | emo=neutral
-A | But you're looking right at me. | 근데 저를 빤히 보고 계시잖아요. | looking right at = 빤히 보다 | emo=neutral
-B | I'm not looking. | 안 보는데요. | 보면서 하는 말 | emo=neutral
-A | Oh no. I hit thirty percent. | 헐. 30% 눌렀어요. | hit = 누르다 | emo=worried
-B | I saw. You're my favorite person now. | 봤어요. 이제 제일 좋아하는 손님이에요. | favorite = 제일 좋아하는 | emo=amused heart
-A | Great. Can I have a napkin for my tears? | 좋네요. 눈물 닦을 냅킨 주실래요? | Can I have ~? = ~ 주실래요? | emo=neutral
+B | Two bucks. Screen's gonna ask you a question. | 2달러요. 화면에서 뭐 물어볼 거예요. | Screen's gonna ask = 팁 화면 돌릴 때 하는 말 | emo=neutral
+A | Wait. Tip? For a cookie? | 잠깐. 팁이요? 쿠키에요? | tip = 봉사료 | emo=surprised
+B | It's okay. Totally up to you. | 괜찮아요. 전적으로 마음이에요. | it's okay = 괜찮아요 | emo=neutral
+A | But you're staring right at me. | 근데 저를 빤히 보고 계시잖아요. | staring right at = 빤히 보다 | emo=neutral
+B | I'm not staring. | 안 보는데요. | 보면서 하는 말 | emo=neutral
+A | Oh no. I just hit thirty percent. | 헐. 30% 눌러버렸어요. | hit = 누르다 | emo=worried
+B | I saw that. You're my favorite now. | 봤어요. 이제 제일 좋아하는 손님이에요. | favorite = 제일 좋아하는 | emo=amused heart
+A | Cool. Napkin for my tears, please? | 좋네요. 눈물 닦을 냅킨 주실래요? | Can I have ~? = ~ 주실래요 | emo=neutral

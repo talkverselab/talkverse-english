@@ -1,0 +1,22 @@
+=== t1_office_g13
+title: 지루한 건 발표인가 나인가
+emoji: 🥱
+scene: A 의 발표가 끝났다. Raj 가 bored 와 boring 을 섞어 쓰며 평가하다 스스로 걸린다
+where: 발표 직후 복도
+goal: 분사형 형용사 — boring/bored · interesting/interested · exciting/excited
+grammar: 분사형 형용사|감정을 주는 쪽은 -ing(boring 지루하게 하는), 감정을 느끼는 쪽은 -ed(bored 지루해진). 사람도 -ing 가 될 수 있다(「지루한 사람」).
+check: The audience seemed _____ during the budget slides. | boring | bored | bore | boringly | B
+kind: short
+register: casual
+B: Raj
+twist: 6 slip
+expr: honestly | i mean
+--
+A | Honestly, how did my presentation go? | 솔직히 내 발표 어땠어? | honestly = 솔직히 | emo=worried
+B | The entire audience looked _*bored*_ by slide three. | 세 번째 슬라이드쯤엔 청중 전부가 지루해 보였어. | §bored = 지루함을 느낀(사람) | emo=neutral
+A | Bored, or boring? Be specific. | 지루해한 거야, 지루한 거야? 구체적으로. | 분사형 형용사 되묻기 | emo=annoyed
+B | The slides were _*boring*_. You, however, were _*interesting*_. | 슬라이드가 지루했지. 반면 너는 흥미로웠고. | §boring = 지루하게 하는(사물) · interesting | emo=teasing
+A | Interesting in what sense? | 어떤 의미로 흥미로웠는데? | 짧은 되묻기 | emo=neutral
+B | You presented last year's figures. From a different department. Very _*exciting*_. | 작년 수치를 발표했잖아. 다른 부서 거. 아주 흥미진진했어. | §exciting = 흥분시키는 | emo=amused
+A | I mean, the client seemed genuinely _*excited*_. | 내 말은, 거래처는 진심으로 흥분한 것 같았다고. | §excited = 흥분한(사람) | emo=flustered
+B | He was excited to leave early. | 일찍 나가게 돼서 흥분한 거지. | 마무리 한 방 | emo=teasing

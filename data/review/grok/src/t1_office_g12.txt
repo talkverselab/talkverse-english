@@ -1,0 +1,22 @@
+=== t1_office_g12
+title: 야근 즐기시죠?
+emoji: 🌙
+scene: Olivia 가 동명사로 야근을 「즐기냐」고 묻는다. A 는 동명사로만 빠져나가려 한다
+where: 저녁 7시 사무실
+goal: 동명사 — enjoy·avoid·finish·mind + -ing, 전치사 + -ing
+grammar: 동명사|enjoy·avoid·finish·mind·consider 뒤에는 -ing(to부정사 아님). 전치사(about, for, without) 뒤에도 -ing.
+check: Would you mind _____ the shipment status before you leave? | check | to check | checking | checked | C
+kind: short
+register: mixed
+B: Olivia
+twist: 7 slip
+expr: not really | no problem
+--
+B | Would you mind _*staying* late to review the vendor contracts_? | 늦게까지 남아서 협력사 계약서 검토해 줄 수 있어? | §mind + -ing | emo=neutral
+A | Not really. I enjoy _*leaving* the office on time_. | 별로요. 저는 정시에 퇴근하는 걸 즐겨요. | §enjoy + -ing | emo=neutral
+B | You can't avoid _*working* overtime_ during the audit season. | 감사 기간에 야근을 피할 수는 없어. | §avoid + -ing | emo=teasing
+A | I've finished _*trying*_. It's been a long quarter. | 노력하는 건 끝냈어요. 긴 분기였거든요. | §finish + -ing | emo=sad
+B | Thank you for _*being* so transparent about your priorities_. | 우선순위를 그렇게 투명하게 밝혀 줘서 고마워. | §전치사 for + -ing | emo=amused
+A | No problem. I left the building without _*saving* the contract file_, though. | 천만에요. 근데 계약서 파일 저장 안 하고 퇴근했어요. | §without + -ing | emo=flustered
+B | You considered _*ending* your career_ before the audit? | 감사 전에 네 커리어를 끝내는 걸 고려한 거야? | §consider + -ing | emo=shout
+A | I'm staying. And enjoying it. Very much. | 남을게요. 즐기면서요. 아주 많이요. | 동명사 항복 | emo=stiff

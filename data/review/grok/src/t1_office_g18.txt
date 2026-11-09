@@ -1,0 +1,23 @@
+=== t1_office_g18
+title: 제일 싼 게 제일 비쌌다
+emoji: 🪑
+scene: 사무실 의자를 고른다. 비교급·최상급으로 싸우다가 가장 싼 의자가 가장 비싸게 먹힌다
+where: 가구 매장 웹사이트 앞
+goal: 비교급·최상급 — -er/more than · the -est/most · as ~ as · 도치(Never have I)
+grammar: 비교급과 최상급|둘을 견주면 비교급(cheaper than, more comfortable than), 셋 이상이면 최상급(the cheapest). 「~만큼」은 as ~ as. 부정어가 문장 앞에 오면 도치(Never have I seen).
+check: This model is considerably _____ than the one we currently use. | cheap | cheaper | cheapest | the cheapest | B
+kind: short
+register: casual
+B: Raj
+C: Olivia
+twist: 7 chaos
+expr: no way | told you
+--
+A | This model is considerably _*cheaper than* the one we use now_. | 이 모델이 지금 쓰는 것보다 훨씬 싸. | §비교급 -er than | emo=neutral
+B | That one is _*more comfortable than*_ anything in this catalog. | 저건 이 카탈로그에 있는 어떤 것보다 편해. | §more + 형용사 than | emo=neutral
+A | Procurement policy says we purchase _*the cheapest*_ option available. | 구매 규정상 구입 가능한 제일 싼 걸 사야 해. | §최상급 the -est | emo=neutral
+B | The cheapest option is _*as hard as* a concrete block_. | 제일 싼 건 콘크리트 블록만큼 딱딱해. | §as ~ as = ~만큼 | emo=amused
+A | Concrete is free. Order twenty units for the whole floor. | 콘크리트는 공짜야. 층 전체용으로 스무 개 주문해. | 돌직구 | emo=teasing
+C | _*Never have I seen*_ an invoice this large for office chairs. | 사무실 의자로 이렇게 큰 청구서는 본 적이 없어. | §부정어 도치: Never + have + 주어 | emo=shout
+B | Twenty chairs plus freight. Shipping turned out to be _*the most expensive*_ line item. | 의자 스무 개에 운임 별도. 배송비가 제일 비싼 항목이 됐어. | §최상급 the most | emo=flustered
+A | No way. Told you — the cheapest option is always the costliest. | 말도 안 돼. 내가 말했지, 제일 싼 게 늘 제일 비싸다고. | 교훈 한 줄 | emo=tsukkomi

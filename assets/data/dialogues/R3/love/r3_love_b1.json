@@ -44,7 +44,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Who? The cashier? He's just a guy who sells me sandwiches.",
+   "en": "Who? The cashier? Just some guy who sells me sandwiches.",
    "ko": "누구? 계산원? 그냥 샌드위치 파는 사람이야.",
    "note": "just a guy = 그냥 사람",
    "tags": [],
@@ -54,7 +54,7 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "You laughed for two whole minutes. I wasn't counting.",
+   "en": "You laughed for like two whole minutes. I wasn't counting.",
    "ko": "너 꼬박 2분 웃더라. 센 건 아니고.",
    "note": "whole = 꼬박",
    "tags": [],
@@ -139,9 +139,7 @@
    "en": "Excuse me! You forgot your hot dog again!",
    "ko": "저기요! 핫도그 또 두고 가셨어요!",
    "note": "Yes 만 하던 첫 편의 그 계산원",
-   "tags": [
-    "callback:r1_survival_s1"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "polite"
   },

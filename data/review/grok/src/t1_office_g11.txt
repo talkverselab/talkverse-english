@@ -1,0 +1,23 @@
+=== t1_office_g11
+title: 하려고 왔는데 하지 않기로 했다
+emoji: 🚪
+scene: Tom 이 계약하러 왔다. to부정사만으로 밀고 당기다가 「점심 먹으러」 온 걸로 끝난다
+where: 회의실
+goal: to부정사 — 목적(to do) · 명사 역할(decide to) · 형용사 역할(time to)
+grammar: to부정사|「~하기 위해」(목적), decide·want·plan 뒤 「~하기」(명사), time·way·chance 뒤 「~할」(형용사). to 뒤에는 동사원형.
+check: Our representatives came _____ the final terms of the agreement. | review | to review | reviewing | reviewed | B
+kind: short
+register: polite
+B: Tom
+C: Olivia
+twist: 6 reveal
+expr: to be honest | sounds good
+--
+B | We came _*to finalize* the service agreement_ this afternoon. | 오늘 오후에 서비스 계약을 마무리하러 왔어요. | §to finalize = ~하기 위해(목적) | emo=polite
+C | Excellent. Would you prefer a pen or the tablet? | 좋아요. 펜이 좋으세요, 태블릿이 좋으세요? | 팀장의 속도 | emo=cheerful
+B | To be honest, our legal team decided _*to postpone* the signing_. | 솔직히 말씀드리면, 저희 법무팀이 서명을 연기하기로 했어요. | §decide to postpone = 연기하기(명사 역할) | emo=neutral
+C | You came here to sign, in order to postpone? | 서명하러 오셔서 연기하신다고요? | 두 to부정사 충돌 | emo=tsukkomi
+B | There's still plenty of time _*to review* the terms_. | 조건을 검토할 시간은 아직 충분하잖아요. | §time to review = 검토할(형용사 역할) | emo=polite
+A | There's also a sandwich _*to finish*_. In your left hand. | 마저 드실 샌드위치도 있네요. 왼손에요. | §a sandwich to finish = 먹을(형용사 역할) | emo=teasing
+B | I came _*to have* lunch_ with my favorite vendor. The contract was a bonus. | 제일 좋아하는 협력사랑 점심 먹으러 온 거예요. 계약은 덤이고요. | §to have lunch = 점심 먹으려고(목적) | emo=flustered
+C | Sounds good. Lunch is forty dollars per person. Sign here. | 좋네요. 점심은 1인당 40달러. 여기 서명하세요. | sounds good = 좋네요 | emo=teasing

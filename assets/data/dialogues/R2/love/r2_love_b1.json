@@ -33,7 +33,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "So this is my train. Well, in ten minutes.",
+   "en": "So this is my train. Well, in like ten minutes.",
    "ko": "그러니까 이게 내 지하철이야. 음, 10분 뒤에.",
    "note": "in ten minutes = 10분 뒤에",
    "tags": [],
@@ -53,8 +53,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "You don't have to. It's cold.",
-   "ko": "안 그래도 돼. 춥잖아.",
+   "en": "You don't have to. It's freezing out.",
+   "ko": "안 그래도 돼. 밖은 추워.",
    "note": "You don't have to = 안 그래도 돼",
    "tags": [],
    "new": [],
@@ -83,8 +83,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Okay, I'm a little cold. By the way, your train just came.",
-   "ko": "그래, 조금 추워. 그나저나 방금 네 지하철 왔어.",
+   "en": "Okay, fine. A little. By the way, your train just pulled up.",
+   "ko": "그래, 조금. 그나저나 방금 네 지하철 왔어.",
    "note": "by the way = 그나저나",
    "tags": [],
    "new": [],
@@ -93,7 +93,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "I saw it.",
+   "en": "I saw.",
    "ko": "봤어.",
    "note": "짧게 멈추기",
    "tags": [],
@@ -113,7 +113,7 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "I mean, there's another one. Probably. I didn't really check.",
+   "en": "I mean, there's another one. Probably. Didn't really check.",
    "ko": "내 말은, 또 있겠지. 아마도. 제대로 안 찾아봤어.",
    "note": "I mean = 내 말은",
    "tags": [

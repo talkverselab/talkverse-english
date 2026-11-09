@@ -1,0 +1,20 @@
+=== r1_survival_s1
+title: Yes는 숫자가 아니에요
+emoji: 🌭
+scene: 물 한 병을 사러 갔는데 못 알아듣고 Yes 만 하다가 봉투값에 핫도그까지 산다
+where: 브루클린 동네 가게
+goal: 못 알아들었을 때 Yes 로 때우면 생기는 일
+kind: survival
+register: polite
+B: Cashier
+twist: 7 chaos
+expr: yes | just this
+--
+B | You all set? | 다 고르셨어요? | all set = 준비 다 됐다, 계산대 단골 말 | emo=neutral
+A | Yes! Just this water, please. | 네! 이 물만 주세요. | just this = 이것만요 | emo=neutral
+B | You want a bag for that? | 봉투 드릴까요? | You want ~? = ~드릴까요? | emo=neutral
+A | Yes. | 네. | 뜻을 몰라도 일단 Yes | emo=neutral
+B | Hot dogs are a dollar. How many? | 핫도그 1달러예요. 몇 개 드려요? | How many? = 몇 개? | emo=neutral
+A | Yes. | 네. | How many 에 Yes 라고 답했다 | emo=neutral
+B | Yes isn't a number. One, then. Four fifty. | Yes는 숫자가 아니에요. 그럼 하나요. 4달러 50센트. | Four fifty = 4.50달러(가격 읽기) | emo=amused
+A | Wait, just water. Can you say that again? | 잠깐만요, 물만요. 다시 말해 주실래요? | say that again = 다시 말해 주세요 | emo=flustered

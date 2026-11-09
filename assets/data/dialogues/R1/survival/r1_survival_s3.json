@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Two dollars. It's just gonna ask you a question.",
-   "ko": "2달러요. 화면에서 뭐 하나 물어볼 거예요.",
-   "note": "It's just gonna ask you a question = 팁 화면을 돌릴 때 하는 말",
+   "en": "Two bucks. Screen's gonna ask you a question.",
+   "ko": "2달러요. 화면에서 뭐 물어볼 거예요.",
+   "note": "Screen's gonna ask = 팁 화면 돌릴 때 하는 말",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -42,8 +42,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Wait. Is this a tip? For a cookie?",
-   "ko": "잠깐만요. 이거 팁이에요? 쿠키에요?",
+   "en": "Wait. Tip? For a cookie?",
+   "ko": "잠깐. 팁이요? 쿠키에요?",
    "note": "tip = 봉사료",
    "tags": [],
    "new": [],
@@ -52,9 +52,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "It's okay. It's totally up to you.",
-   "ko": "괜찮아요. 전적으로 손님 마음이에요.",
-   "note": "up to you = 네 마음대로",
+   "en": "It's okay. Totally up to you.",
+   "ko": "괜찮아요. 전적으로 마음이에요.",
+   "note": "it's okay = 괜찮아요",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -62,9 +62,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "But you're looking right at me.",
+   "en": "But you're staring right at me.",
    "ko": "근데 저를 빤히 보고 계시잖아요.",
-   "note": "looking right at = 빤히 보다",
+   "note": "staring right at = 빤히 보다",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -72,7 +72,7 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "I'm not looking.",
+   "en": "I'm not staring.",
    "ko": "안 보는데요.",
    "note": "보면서 하는 말",
    "tags": [],
@@ -82,8 +82,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Oh no. I hit thirty percent.",
-   "ko": "헐. 30% 눌렀어요.",
+   "en": "Oh no. I just hit thirty percent.",
+   "ko": "헐. 30% 눌러버렸어요.",
    "note": "hit = 누르다",
    "tags": [],
    "new": [],
@@ -92,7 +92,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "I saw. You're my favorite person now.",
+   "en": "I saw that. You're my favorite now.",
    "ko": "봤어요. 이제 제일 좋아하는 손님이에요.",
    "note": "favorite = 제일 좋아하는",
    "tags": [
@@ -104,9 +104,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Great. Can I have a napkin for my tears?",
+   "en": "Cool. Napkin for my tears, please?",
    "ko": "좋네요. 눈물 닦을 냅킨 주실래요?",
-   "note": "Can I have ~? = ~ 주실래요?",
+   "note": "Can I have ~? = ~ 주실래요",
    "tags": [],
    "new": [],
    "emotion": "neutral"

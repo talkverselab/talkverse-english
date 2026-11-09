@@ -1,0 +1,22 @@
+=== t1_office_g1
+title: 승인된 건지 삭제된 건지
+emoji: 🏖️
+scene: 휴가 신청이 승인됐는지 인사팀 Grace 에게 묻는데, 시스템이 전 직원 신청을 지워 버렸다
+where: 인사팀 자리
+goal: 명사절 접속사 that · whether · if
+grammar: 명사절 접속사 that / whether(if)|「~라는 것」은 that, 「~인지 아닌지」는 whether·if. 동사 뒤에 절이 통째로 목적어가 된다.
+check: Could you confirm _____ my vacation request has been approved? | that | whether | because | during | B
+kind: short
+register: polite
+B: Grace
+twist: 6 chaos
+expr: i'm not sure | no worries
+--
+A | Hi Grace. Could you confirm _*whether* my vacation request has been approved_? | 안녕하세요 그레이스. 제 휴가 신청이 승인됐는지 확인해 주실 수 있어요? | §whether = ~인지 아닌지(명사절, confirm 의 목적어) | emo=polite
+B | I'm not sure. The new HR system was updated over the weekend. | 잘 모르겠어요. 새 인사 시스템이 주말에 업데이트됐거든요. | i'm not sure = 잘 모르겠어요 | emo=neutral
+A | You're not sure? Approvals are handled by your department. | 모르신다고요? 승인은 그쪽 부서가 처리하잖아요. | 받아치기 | emo=surprised
+B | I know _*that* I approved several requests this morning_. | 오늘 아침에 신청 여러 건을 승인한 건 알아요. | §that = ~라는 것(명사절, know 의 목적어) | emo=neutral
+A | Several? Including mine, I hope. | 여러 건이요? 제 것도 들어 있길 바라요. | 되묻기 | emo=worried
+B | Then the system asked _*if* I wanted to clear all pending requests_. | 그러고 나서 시스템이 대기 중인 신청을 전부 지울지 묻더라고요. | §if = ~인지(명사절, whether 와 같음) | emo=neutral
+A | And you clicked "yes" without reading it. | 그래서 안 읽고 "예"를 누르셨군요. | 반전 확인 | emo=tsukkomi
+B | No worries. Nobody in this building is going anywhere this year. | 걱정 마요. 올해 이 건물에서 아무도 아무 데도 안 가요. | 규정 로봇의 위로 | emo=polite

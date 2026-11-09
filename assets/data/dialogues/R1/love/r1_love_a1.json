@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Excuse me. I saw that book first.",
-   "ko": "저기요. 그 책 제가 먼저 봤는데요.",
-   "note": "saw ~ first = 먼저 봤다",
+   "en": "Excuse me. Pretty sure I saw that book first.",
+   "ko": "저기요. 그 책 제가 먼저 본 거 같은데요.",
+   "note": "saw first = 먼저 봤다",
    "tags": [],
    "new": [],
    "emotion": "teasing"
@@ -43,7 +43,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Are you kidding? My hand is on it.",
+   "en": "Are you kidding? My hand's right on it.",
    "ko": "농담이죠? 제 손이 올라가 있는데요.",
    "note": "are you kidding = 농담이죠?",
    "tags": [],
@@ -53,8 +53,8 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Your hand is on my book.",
-   "ko": "당신 손이 제 책 위에 있는 거죠.",
+   "en": "So your hand's on my book.",
+   "ko": "그럼 당신 손이 제 책 위에 있는 거네요.",
    "note": "받아치기",
    "tags": [],
    "new": [],
@@ -63,8 +63,8 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Your book? Did you read it?",
-   "ko": "당신 책이라고요? 읽어 봤어요?",
+   "en": "Your book? You even read it?",
+   "ko": "당신 책이라고요? 읽어 보긴 했어요?",
    "note": "되묻기",
    "tags": [],
    "new": [],
@@ -73,7 +73,7 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Five times. The ending is so sad.",
+   "en": "Five times. Ending's so sad.",
    "ko": "다섯 번요. 결말이 너무 슬퍼요.",
    "note": "so sad = 너무 슬퍼",
    "tags": [],
@@ -84,7 +84,7 @@
    "num": 6,
    "speaker": "A",
    "en": "No way. You just told me the ending!",
-   "ko": "말도 안 돼. 방금 결말을 말했잖아요!",
+   "ko": "말도 안 돼. 방금 결말 말해버렸잖아요!",
    "note": "no way = 말도 안 돼",
    "tags": [],
    "new": [],
@@ -107,7 +107,7 @@
    "speaker": "A",
    "en": "Wait, is that your number in the book?",
    "ko": "잠깐, 책에 있는 거 당신 번호예요?",
-   "note": "마지막에 들킨 마음",
+   "note": "번호 들킴",
    "tags": [],
    "new": [],
    "emotion": "neutral"

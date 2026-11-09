@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Hey! What can I get you?",
-   "ko": "어서 오세요! 뭐 드릴까요?",
-   "note": "What can I get you? = 뭐 드릴까요?",
+   "en": "Hey, what can I get you?",
+   "ko": "헤이, 뭐 드릴까요?",
+   "note": "What can I get you? = 뭐 드릴까요",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -55,7 +55,7 @@
    "speaker": "B",
    "en": "For here or to go?",
    "ko": "드시고 가세요, 가져가세요?",
-   "note": "for here or to go = 매장·포장 질문",
+   "note": "for here or to go = 매장·포장",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -73,9 +73,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Perfect. Name for the cup?",
-   "ko": "좋아요. 컵에 쓸 이름은요?",
-   "note": "name for the cup = 컵에 적을 이름",
+   "en": "Got it. Name for the cup?",
+   "ko": "알겠어요. 컵 이름은요?",
+   "note": "name for the cup = 컵 이름",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -85,7 +85,7 @@
    "speaker": "A",
    "en": "{name}.",
    "ko": "{name}요.",
-   "note": "이름만 또박또박",
+   "note": "이름만",
    "tags": [],
    "new": [],
    "emotion": "neutral"
@@ -94,8 +94,8 @@
    "num": 7,
    "speaker": "B",
    "en": "Small coffee for… Dinner? Dinner?",
-   "ko": "작은 커피 나왔습니다… 디너 님? 디너 님?",
-   "note": "잘못 들은 이름이 컵에 적혔다",
+   "ko": "작은 커피… 디너 님? 디너?",
+   "note": "잘못 들음",
    "tags": [],
    "new": [],
    "emotion": "surprised"
@@ -104,8 +104,8 @@
    "num": 8,
    "speaker": "A",
    "en": "Sure. Tonight, I'm Dinner.",
-   "ko": "네. 오늘 밤엔 제가 디너예요.",
-   "note": "sure = 그래요, 뭐",
+   "ko": "네. 오늘 밤은 제가 디너예요.",
+   "note": "sure = 뭐 어때요",
    "tags": [],
    "new": [],
    "emotion": "amused"

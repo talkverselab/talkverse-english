@@ -1,0 +1,23 @@
+=== t1_office_g14
+title: 선적된 상자, 보내는 사람
+emoji: 📦
+scene: 창고에서 상자 라벨을 읽는다. 과거분사·현재분사를 헷갈려 반품할 프린터가 엉뚱한 곳으로 간다
+where: 발송장
+goal: 분사 — 명사 수식 과거분사(-ed)·현재분사(-ing)
+grammar: 분사|명사 앞뒤에서 꾸밀 때, 「~된」은 과거분사(the attached file), 「~하는」은 현재분사(the person handling it). 수식받는 명사가 하는 쪽인지 당하는 쪽인지 본다.
+check: Please review the _____ invoice before approving the payment. | attach | attached | attaching | attachment | B
+kind: short
+register: casual
+B: Raj
+C: Olivia
+twist: 6 chaos
+expr: hold on | oh no
+--
+A | The label reads "_*shipped* items_ — this side of the dock." | 라벨에 "선적된 물품 — 하역장 이쪽" 이라고 적혀 있어. | §shipped items = 선적된(과거분사) | emo=neutral
+B | And "_*shipping* personnel_ — that side." | 그리고 "발송 담당 인원 — 저쪽." | §shipping personnel = 발송하는(현재분사) | emo=neutral
+A | So the _*damaged* printer_ returned by the client goes… | 그럼 거래처가 반품한 파손된 프린터는… | §damaged = 파손된(과거분사) | emo=worried
+B | With the shipped items. It's clearly not personnel. | 선적 물품 쪽으로. 분명히 인원은 아니잖아. | 분사 논리 | emo=amused
+C | Hold on. Who is the _*person handling* returns_ this week? | 잠깐. 이번 주 반품 처리 담당자가 누구야? | §person handling = 처리하는(현재분사, 뒤에서 수식) | emo=annoyed
+A | The gentleman _*standing* next to the delivery truck_. | 배송 트럭 옆에 서 계신 분이요. | §standing = 서 있는 | emo=neutral
+B | Oh no. That truck just left. With the printer. And Tom's new laptop. | 어떡해. 그 트럭 방금 출발했어. 프린터랑. 톰의 새 노트북이랑. | oh no = 어떡해 | emo=flustered
+C | A _*shipped* laptop_. Please call Tom before he notices. | 선적된 노트북이라. 톰이 알아채기 전에 전화해. | §shipped laptop = 선적된(과거분사) | emo=tsukkomi
