@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import '../core/app_flavor.dart';
 import '../core/l10n.dart';
@@ -15,6 +14,8 @@ import '../widgets/app_family.dart';
 import '../widgets/stress_toggle.dart';
 import 'about_screen.dart';
 import 'license_screen.dart';
+import '../core/prefs.dart';
+import '../embed.dart' show embedded, switchLanguage;
 
 /// 「프로필」 — 성과 · 기록 · 학습자 프로필(이름·성별) · 설정 · 정보(2026-11-07 메뉴 정리).
 /// 계정(Talkverse ID 로그인·이용권)은 사용자가 「착수」 한 뒤 붙인다(공통 프롬프터 §11).
@@ -50,7 +51,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       ),
     );
     if (ok != true) return;
-    final p = await SharedPreferences.getInstance();
+    final p = await Prefs.getInstance();
     await p.remove('achievements_v1');
     await p.remove('dialogue_last');
     if (mounted) {
@@ -79,6 +80,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     final children = <Widget>[
+      if (switchLanguage != null) ...[ // 통합 앱(Talkverse) — 「다른 언어 배우기」를 맨 위에(EMBED_GUIDE 6단계)
+        _SettingsGroup(items: [_SettingItem(icon: Icons.translate, title: tr('다른 언어 배우기'), subtitle: tr('Talkverse 언어 목록으로'), onTap: switchLanguage)]),
+        const SizedBox(height: 18),
+      ],
       _SectionTitle(tr('성과')),
       const SizedBox(height: 8),
       const AchievementDesk(),
@@ -133,10 +138,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
         ),
       ]),
       const SizedBox(height: 18),
-      _SectionTitle(tr('앱 가족')),
-      const SizedBox(height: 8),
-      const AppFamilyList(),
-      const SizedBox(height: 10),
+      if (!embedded) ...[ // 통합 앱 안에서는 「다른 언어 배우기」가 그 역할을 한다
+        _SectionTitle(tr('앱 가족')),
+        const SizedBox(height: 8),
+        const AppFamilyList(),
+        const SizedBox(height: 10),
+      ],
       _SectionTitle(tr('정보')),
       const SizedBox(height: 8),
       _SettingsGroup(items: [

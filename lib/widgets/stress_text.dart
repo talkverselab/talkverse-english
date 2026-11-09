@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import '../core/theme.dart';
+import '../core/prefs.dart';
 
 /// 강세 표시 켬/끔(사용자 지시 2026-11-03 "영어 악센트 표시 도구, 표시·안 표시") — 영어앱의 「읽기 보조」.
 /// 기본 미표시(사용자 지시 2026-11-07). 앱바 버튼·리더 하단 칩·프로필 설정에서 바꾸고 기기에 기억한다.
@@ -12,14 +12,14 @@ class StressPrefs {
 
   static Future<void> load() async {
     try {
-      on.value = (await SharedPreferences.getInstance()).getBool(_key) ?? false;
+      on.value = (await Prefs.getInstance()).getBool(_key) ?? false;
     } catch (_) {}
   }
 
   static Future<void> toggle() async {
     on.value = !on.value;
     try {
-      (await SharedPreferences.getInstance()).setBool(_key, on.value);
+      (await Prefs.getInstance()).setBool(_key, on.value);
     } catch (_) {}
   }
 }

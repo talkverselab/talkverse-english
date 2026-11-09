@@ -10,6 +10,7 @@ import '../services/tts_service.dart';
 import '../widgets/english_decor.dart';
 import '../widgets/word_art_thumb.dart';
 import 'word_quiz_screen.dart';
+import '../core/embed_env.dart';
 
 /// 화면에 보이는 빈도 순위 끝(사용자 지시 2026-11-07 — 2,000위에서 끊는다). 단어장 자체는 2,494어 그대로.
 const kWordCap = 2000;
@@ -74,7 +75,7 @@ class WordList {
 
   static Future<List<EnWord>> load() async {
     if (_cache != null) return _cache!;
-    final raw = await rootBundle.loadString('assets/data/words/en_words.csv');
+    final raw = await rootBundle.loadString(assetPath('assets/data/words/en_words.csv'));
     final out = <EnWord>[];
     for (final line in raw.split('\n').skip(1)) {
       if (line.trim().isEmpty) continue;
@@ -88,7 +89,7 @@ class WordList {
   /// 「회화 단어 포함」 목록 — 레벨 'C'. 빈도표와 화면에서만 합친다(`tools/conv_words.py`).
   static Future<List<EnWord>> loadConv() async {
     try {
-      return convFrom(await load(), await rootBundle.loadString('assets/data/freq/conv_words_en.json'));
+      return convFrom(await load(), await rootBundle.loadString(assetPath('assets/data/freq/conv_words_en.json')));
     } catch (_) {
       return const [];
     }

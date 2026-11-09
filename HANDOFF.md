@@ -11,6 +11,10 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 | ③ 아이패드 빌드 | **완료** — 최신 Android **Zealot 빌드 15**(커밋 `a7125a8`, 2026-11-08 16:5x) — 영어 https://apps.talkverse.uk/Eyi4j/355 · 토익 https://apps.talkverse.uk/oQESn/356 · 토익스피킹 https://apps.talkverse.uk/UIlBS/357 · OPIc https://apps.talkverse.uk/K7fRJ/358 · iOS 영어 **TestFlight 2611081642**(`a7125a8`). 토익·토익스피킹·OPIc iOS 는 export 까지 되고 업로드는 App Store Connect 앱 레코드(`com.talkverse.toeic`·`toeicSpeaking`·`opic`) 대기 — 사용자가 만들면 `APP=<id> bash tools/ios_release.sh`. 사용자 지시 2026-11-08 "푸쉬 멈추지 말고 진행" → Android 만 먼저 |
 | ④ 회화 | **2026-11-07 Claude 초안 시작(사용자 지시, uk 전달·공통 프롬프터 §12)** — 샘플 7편 + 음성(MOSS, 미국 말투, `audio_lines` 132줄), 리뷰 https://talkverse.uk/talkverse/review/en/ . **사용자 톤 확인 뒤 양산.** 앱에는 아직 안 넣음(pubspec·음성 코드). Grok 재작성은 11월 10일 이후. 규칙 `docs/DIALOGUE_EN.md` |
 
+## 통합 앱 연결 준비(2026-11-09, uk 요청 · `~/talkverse/talkverse-app/EMBED_GUIDE.md`)
+- `lib/embed.dart`(`embedInit`·`embedApp`, 통합 앱에서는 영어 화면만) · `lib/core/embed_env.dart`(`embedded`, `assetPath`=`packages/english_universe/…`, `dataDir`=ApplicationSupport/en, 옛 `art` 1회 이전) · `lib/core/prefs.dart`(설정 키 `en_` 접두, 단독 앱 옛 키 1회 이전). 모든 rootBundle·Image.asset·AssetManifest 가 거친다. 프로필: 통합 앱이면 맨 위 「다른 언어 배우기」, 「앱 가족」 숨김. 단독 앱 동작 그대로(테스트 29개, english APK 빌드 확인).
+- **4·5단계(계정·결제)는 미착수** — 프로젝트 규칙상 사용자 「착수」 뒤(공통 프롬프터 §11). 착수하면 ja `e154d98` 틀 + PRICING.md 가격 + `Purchase.ownStream`/`onPurchaseUpdates` 분리. 콜백 스킴 예정 `talkverse.en://auth`.
+
 ## 스토어·가격(2026-11-09, uk 전달 사용자 지시 "지금 정책대로 다 바꿔야지")
 - `docs/store/STORE.md`: 앱 안 가격표(§11 착수 때 그대로 — 결제 화면은 아직 없음), 네 앱 스토어 첫 줄·고유 도구·실측 숫자·스크린샷 순서, 심사 메모(4.3) 문단, **출시 막힘 점검표**(영어 회화 미탑재·빈 메뉴 2개·임시 조음 그림, 토익 RC 준비 중, 토익스피킹·OPIc 내용 없음). 출시 = 한자앱만, 이 네 앱은 Zealot·TestFlight 만.
 

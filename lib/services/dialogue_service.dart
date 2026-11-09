@@ -1,10 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show AssetManifest, rootBundle;
-import 'package:shared_preferences/shared_preferences.dart';
 
 import '../core/app_flavor.dart';
 import 'learner_prefs.dart';
+import '../core/prefs.dart';
+import '../core/embed_env.dart';
 
 /// 회화(R0~R4, 주제별 JSON) 로더 — 일본어앱 구조 그대로(2026-11-03).
 ///
@@ -215,7 +216,7 @@ class DialogueService {
   String? get lastOpenedId => _lastOpened;
   Future<void> setLastOpened(String id) async {
     _lastOpened = id;
-    (await SharedPreferences.getInstance()).setString(_prefLast, id);
+    (await Prefs.getInstance()).setString(_prefLast, id);
   }
 
   final Map<String, Dialogue> _byId = {};
@@ -226,20 +227,20 @@ class DialogueService {
   String get level => _level;
   Future<void> setLevel(String lv) async {
     _level = lv;
-    (await SharedPreferences.getInstance()).setString(_prefLevel, lv);
+    (await Prefs.getInstance()).setString(_prefLevel, lv);
   }
 
   /// 넓은 화면에서 탭이 동시에 떠 두 번 불릴 수 있어 Future 하나를 공유한다.
   Future<void> ensureLoaded() => _loading ??= _load();
 
   Future<void> _load() async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await Prefs.getInstance();
     _level = prefs.getString(_prefLevel) ?? (AppFlavor.current == AppFlavor.english ? 'R1' : 'T1');
     _lastOpened = prefs.getString(_prefLast);
     final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
     // 영어앱 = assets/data/dialogues/R0~R4, 토익 등 = assets/data/toeic/dialogues/T1(앱내앱마다 자기 회화만)
     final re = AppFlavor.current == AppFlavor.english ? RegExp(r'^assets/data/dialogues/R[0-4]/[^/]+/[^/]+\.json$') : RegExp(r'^assets/data/toeic/dialogues/T[0-9]/[^/]+/[^/]+\.json$');
-    final paths = manifest.listAssets().where(re.hasMatch);
+    final paths = manifest.listAssets().where((p) => re.hasMatch(stripAssetPrefix(p)));
     for (final p in paths) {
       try {
         final d = Dialogue.fromJson(json.decode(await rootBundle.loadString(p)) as Map<String, dynamic>);

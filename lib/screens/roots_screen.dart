@@ -10,6 +10,7 @@ import '../services/tts_service.dart';
 import '../widgets/english_decor.dart';
 import '../widgets/word_sheet.dart';
 import 'word_freq_screen.dart' show EnWord, WordList;
+import '../core/embed_env.dart';
 
 /// 뿌리(라틴·그리스 어근) 단어 패밀리 — 일본어앱 「패밀리 한자」(발음부) 자리의 영어 층(사용자 지시 2026-11-08).
 /// 어근 카드(절벽 구간별) → 가족 시트: 낱말을 앞가지·어근·뒷가지로 색을 나눠 보이고, 조각이 뜻이 되는 한 줄(힌트).
@@ -72,7 +73,7 @@ class _RootsScreenState extends State<RootsScreen> {
   }
 
   Future<void> _load() async {
-    final raw = await rootBundle.loadString('assets/data/roots/roots_en.json');
+    final raw = await rootBundle.loadString(assetPath('assets/data/roots/roots_en.json'));
     final j = json.decode(raw) as Map<String, dynamic>;
     final roots = [for (final r in j['roots'] as List) RootFamily.fromJson(r as Map<String, dynamic>)];
     final words = await WordList.load();

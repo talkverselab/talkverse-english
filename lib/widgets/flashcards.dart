@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import '../core/l10n.dart';
 import '../core/theme.dart';
 import '../screens/word_freq_screen.dart' show EnWord;
 import '../services/tts_service.dart';
 import 'english_decor.dart';
+import '../core/prefs.dart';
 
 /// 단어 플래시카드 엔진 — 영어·토익·토익스피킹·OPIc 네 앱이 **같은 엔진 하나**를 쓴다(사용자 지시 2026-11-08
 /// "모든 앱에 플래쉬카드 루트단어 엔진은 한 모델 사용"). 앱마다 다른 것은 덱(낱말 목록)과 덱 id 뿐.
@@ -20,7 +20,7 @@ class FlashcardEngine {
   static String _key(String deck) => 'flash_$deck';
 
   static Future<FlashcardEngine> load(String deckId) async {
-    final p = await SharedPreferences.getInstance();
+    final p = await Prefs.getInstance();
     final m = <String, int>{};
     for (final e in p.getStringList(_key(deckId)) ?? const <String>[]) {
       final i = e.lastIndexOf('=');
@@ -30,7 +30,7 @@ class FlashcardEngine {
   }
 
   Future<void> save() async {
-    final p = await SharedPreferences.getInstance();
+    final p = await Prefs.getInstance();
     await p.setStringList(_key(deckId), [for (final e in boxes.entries) '${e.key}=${e.value}']);
   }
 

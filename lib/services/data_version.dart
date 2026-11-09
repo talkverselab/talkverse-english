@@ -2,7 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart' show debugPrint;
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
+import '../core/embed_env.dart';
 
 /// 데이터(단어·회화) 업데이트 번호 — 번들 `assets/data/version.json` 의 `db`(사용자 지시 2026-11-04, 모든 언어앱 공통).
 ///
@@ -16,7 +17,7 @@ class DataVersion {
 
   static Future<int> bundled() async {
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/version.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/version.json'))) as Map<String, dynamic>;
       return (j['db'] as num).toInt();
     } catch (_) {
       return 0;
@@ -26,7 +27,7 @@ class DataVersion {
   /// 시작 때 한 번. 번호가 바뀌었으면 true.
   static Future<bool> applyIfChanged() async {
     final bundledV = await bundled();
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await Prefs.getInstance();
     if (prefs.getInt(_kDbVersion) == bundledV) return false;
     for (final k in _resetKeys) {
       await prefs.remove(k);

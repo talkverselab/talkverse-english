@@ -1,7 +1,7 @@
 // 아이패드 두 화면 확인용 스크린샷 흐름 — 일본어앱 dialogue_pane_test 를 영어앱에 맞춤(2026-11-03).
 // 실행: python3 tools/pane_shots.py <아이패드 UDID> <출력폴더> integration_test/dialogue_pane_test.dart
 // 회화 데이터가 아직 없어서, 리더·카드 배치는 테스트 안에서만 만든 자리표시 편(「Sample line」)으로 본다 — 앱 데이터가 아니다.
-import 'package:english_universe/main.dart';
+import 'package:english_universe/embed.dart';
 import 'package:english_universe/services/achievement_service.dart';
 import 'package:english_universe/services/content_sync.dart';
 import 'package:english_universe/services/dialogue_service.dart';

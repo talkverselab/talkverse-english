@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import '../core/platform.dart';
+import '../core/prefs.dart';
 
 /// 영어 발음 지역 — 미국·영국·호주(사용자 지시 2026-11-03). 프로필 「목소리」·리더 하단 칩에서 바꾼다.
 enum EnAccent {
@@ -21,7 +21,7 @@ class AccentPrefs {
 
   static Future<void> load() async {
     try {
-      final v = (await SharedPreferences.getInstance()).getString(_key);
+      final v = (await Prefs.getInstance()).getString(_key);
       accent.value = EnAccent.values.firstWhere((a) => a.name == v, orElse: () => EnAccent.us);
     } catch (_) {}
   }
@@ -29,7 +29,7 @@ class AccentPrefs {
   static Future<void> set(EnAccent a) async {
     accent.value = a;
     try {
-      (await SharedPreferences.getInstance()).setString(_key, a.name);
+      (await Prefs.getInstance()).setString(_key, a.name);
     } catch (_) {}
   }
 
