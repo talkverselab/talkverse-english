@@ -11,6 +11,9 @@ _최종 2026-11-04 03:00 KST. 영어앱 세션(원격 제어 이름 "영어앱")
 | ③ 아이패드 빌드 | **완료** — 최신 Android **Zealot 빌드 15**(커밋 `a7125a8`, 2026-11-08 16:5x) — 영어 https://apps.talkverse.uk/Eyi4j/355 · 토익 https://apps.talkverse.uk/oQESn/356 · 토익스피킹 https://apps.talkverse.uk/UIlBS/357 · OPIc https://apps.talkverse.uk/K7fRJ/358 · iOS 영어 **TestFlight 2611081642**(`a7125a8`). 토익·토익스피킹·OPIc iOS 는 export 까지 되고 업로드는 App Store Connect 앱 레코드(`com.talkverse.toeic`·`toeicSpeaking`·`opic`) 대기 — 사용자가 만들면 `APP=<id> bash tools/ios_release.sh`. 사용자 지시 2026-11-08 "푸쉬 멈추지 말고 진행" → Android 만 먼저 |
 | ④ 회화 | **2026-11-07 Claude 초안 시작(사용자 지시, uk 전달·공통 프롬프터 §12)** — 샘플 7편 + 음성(MOSS, 미국 말투, `audio_lines` 132줄), 리뷰 https://talkverse.uk/talkverse/review/en/ . **사용자 톤 확인 뒤 양산.** 앱에는 아직 안 넣음(pubspec·음성 코드). Grok 재작성은 11월 10일 이후. 규칙 `docs/DIALOGUE_EN.md` |
 
+## 스토어·가격(2026-11-09, uk 전달 사용자 지시 "지금 정책대로 다 바꿔야지")
+- `docs/store/STORE.md`: 앱 안 가격표(§11 착수 때 그대로 — 결제 화면은 아직 없음), 네 앱 스토어 첫 줄·고유 도구·실측 숫자·스크린샷 순서, 심사 메모(4.3) 문단, **출시 막힘 점검표**(영어 회화 미탑재·빈 메뉴 2개·임시 조음 그림, 토익 RC 준비 중, 토익스피킹·OPIc 내용 없음). 출시 = 한자앱만, 이 네 앱은 Zealot·TestFlight 만.
+
 ## 앱내앱(사용자 지시 2026-11-08, 전자책 세션 전달 → 사용자 "ㅇㅋ 고")
 - 영어유니버스 + **토익·토익스피킹·OPIc** 네 앱 = 한 저장소·한 빌드 구조, 출시 따로, 앱 안에서 서로 이동. 정의 `lib/core/app_flavor.dart`(id·이름·스킴·앱 ID·Zealot 이름).
   - Android: productFlavors(`--flavor <id>`), 앱 ID `com.talkverse.english_universe`·`toeic`·`toeic_speaking`·`opic`. iOS: `tools/select_app.sh <id>` 가 `ios/Flutter/App.xcconfig`(번들 ID `com.talkverse.englishUniverse`·`toeic`·`toeicSpeaking`·`opic`, 표시 이름, 스킴, 아이콘) — pbxproj 는 `$(APP_BUNDLE_ID)`·`$(APP_ICON)`. Dart: `--dart-define=APP=<id>` → `main.dart` 가 첫 화면을 고른다.
