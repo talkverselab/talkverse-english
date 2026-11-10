@@ -3,6 +3,8 @@
 _최종 2026-11-09 11:4x KST. 영어앱 세션 정리 종료(uk 전달 사용자 지시 "완료가 된 애들은 M6에 세션을 닫아달라고"). Grab(`~/talkverse/en`)과는 별개 앱._
 
 ## 다음 세션이 이어서 할 일(2026-11-09 정리)
+- **2026-11-10 상태**: PC Grok 크롬 9262(`D:\chrome-grok-en`, 작업 `Grok-Chrome-en-9262`, 전문가) — 도구 `tools/grok/`(답 3분 한도, 넘으면 생성 중지), 규칙 `tools/prompts/rewrite_grok_en.md`·`rewrite_grok_toeic.md`. 영어 7편 Grok 구어 손질 반영(`71c9cb6`). 토익 g1~g8 답만 받음(`data/review/grok/out/`, 미반영) — g9~g18 은 Grok 주간 한도(11/16 초기화) 뒤 `zsh tools/grok/rewrite_run.sh tools/prompts/rewrite_grok_toeic.md t1_office_g{9..18}`.
+- **DB(2026-11-10 점검)**: D1 `audio_lines` en = 7편 132줄(m·f) 이미 있음, 장면 컷 0. 영어 7편은 글이 바뀌어 음성 전부 다시 만들어야 함(새벽 01~07시, `tools/tts/run_all.py` → `pack.py --upload`가 그 편 줄을 갈아 끼움). 회화·단어 글은 앱 에셋이라 올릴 DB 표가 없음.
 1. **로그인·결제(§11, EMBED 4·5단계)** — 사용자 「착수」 뒤. ja `e154d98` 틀 + `docs/store/STORE.md` 가격표 + `Purchase.ownStream`/`onPurchaseUpdates`(통합 앱 스트림 분리), 콜백 `talkverse.en://auth`. 토익·토익스피킹·OPIc 가격은 uk 가 알림.
 2. **iOS** — 토익·토익스피킹·OPIc App Store Connect 레코드(`com.talkverse.toeic`·`toeicSpeaking`·`opic`)가 생기면 `APP=<id> bash tools/ios_release.sh`(export·PC 백업은 이미 됨).
 3. **사용자 확인 대기** — 영어 회화 샘플 7편 톤(리뷰 https://talkverse.uk/talkverse/review/en/), 한글 독음 비움 여부, 음성 미국 한 벌 vs 3말투, s1 MOSS·VoxCPM2 판 선택, 토익 비즈니스 회화 18편 톤.
