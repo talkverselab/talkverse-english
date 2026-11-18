@@ -67,7 +67,7 @@
 "dialogues/R3/work/r3_work_c1.json": "a382f7f8ae36",
 "dialogues/R4/work/r4_work_d1.json": "ea954f767ff6",
 "grammar/sense_course.json": "e17b9f484f0f",
-"toeic/dialogues/T1/office/t1_office_g1.json": "35532e6d6510",
+"toeic/dialogues/T1/office/t1_office_g1.json": "a959540d6a16",
 "toeic/dialogues/T1/office/t1_office_g10.json": "c30fead0dad2",
 "toeic/dialogues/T1/office/t1_office_g11.json": "df08177f24c1",
 "toeic/dialogues/T1/office/t1_office_g12.json": "d2fdf0fa239d",
@@ -80,11 +80,11 @@
 "toeic/dialogues/T1/office/t1_office_g2.json": "0258318771cb",
 "toeic/dialogues/T1/office/t1_office_g3.json": "5c6c7b0ac2ad",
 "toeic/dialogues/T1/office/t1_office_g4.json": "ddbc631025f9",
-"toeic/dialogues/T1/office/t1_office_g5.json": "333b1ab5f5d8",
-"toeic/dialogues/T1/office/t1_office_g6.json": "33a9fdbbbc06",
+"toeic/dialogues/T1/office/t1_office_g5.json": "510f107c983b",
+"toeic/dialogues/T1/office/t1_office_g6.json": "beed9bb22a55",
 "toeic/dialogues/T1/office/t1_office_g7.json": "f117805eecbc",
 "toeic/dialogues/T1/office/t1_office_g8.json": "a5a3e12f6db2",
-"toeic/dialogues/T1/office/t1_office_g9.json": "e25a50f9501d"
+"toeic/dialogues/T1/office/t1_office_g9.json": "fe751176dda2"
 },
-"rev": 2
+"rev": 3
 }
