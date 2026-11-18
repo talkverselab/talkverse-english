@@ -18,10 +18,14 @@ import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
-  setUp(() => SharedPreferences.setMockInitialValues({}));
+  setUp(() {
+    SharedPreferences.setMockInitialValues({});
+    PackageInfo.setMockInitialValues(appName: 'en', packageName: 'com.talkverse.english_universe', version: '1.0.0', buildNumber: '1', buildSignature: '');
+  });
 
   test('{name} 자리표시는 이름이 없으면 ○○', () async {
     await LearnerPrefs.load();
@@ -34,8 +38,12 @@ void main() {
     t.view.physicalSize = const Size(390 * 3, 844 * 3);
     t.view.devicePixelRatio = 3;
     addTearDown(t.view.reset);
+    await t.runAsync(() => DialogueService.instance.ensureLoaded()); // 원고 읽기(파일·에셋)는 실제 비동기 — 먼저 끝내 둔다
     await t.pumpWidget(MaterialApp(theme: AppTheme.light(), home: const MainScreen()));
-    await t.pump(const Duration(milliseconds: 300));
+    for (var i = 0; i < 5 && find.textContaining('회화가 곧 들어옵니다').evaluate().isEmpty; i++) {
+      await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 50)));
+      await t.pump(const Duration(milliseconds: 100));
+    }
     expect(find.byType(NavigationBar), findsOneWidget);
     expect(find.text('배우기'), findsWidgets);
     expect(find.textContaining('회화가 곧 들어옵니다'), findsOneWidget);
