@@ -108,3 +108,4 @@ _최종 2026-11-09 11:4x KST. 영어앱 세션 정리 종료(uk 전달 사용자
 - 돌리기(PC 크롬 9262, 터널 `ssh -fN -L 9262:127.0.0.1:9262 pc`, 먼저 `/usr/bin/python3 tools/grok/grok_fast.py 9262`):
   `zsh tools/grok/rewrite_run.sh tools/prompts/rewrite_grok_en.md $(cat data/review/grok/queue_en.txt)` (토익은 `rewrite_grok_toeic.md`). 방은 25편마다 새로, TIMEOUT 이면 방에서 답부터 읽음.
 - 붙이기: `python3 tools/grok/merge_out.py` → `draft_to_json.py` → `add_lemmas.py` → `check_dialogues.py` → `turn_lock.py`. 그 뒤 version.json db 올림 · `tools/script_publish.py --publish` · script_rev.json 커밋 · 음성은 새벽 01~07.
+- **결과(2026-11-19 04:30)**: 뼈대 방식(`tools/grok/skeleton.py` → `data/review/grok/skel/`, 규칙 `fill_grok_en.md`·`fill_grok_toeic.md`, `SRC=data/review/grok/skel`)으로 69편 전부 받음 — LIMIT·TIMEOUT 0, 줄 수·화자 어긋남 0, 검사 오류 0(음성 목록에 없는 감정 2곳만 표시 교체). db 3 · 서버 원고 rev 2 · 커밋 30d9be2 · uk 에 「Grok 끝」 보냄. 남은 것: 글이 바뀐 편 음성 재생성(새벽 01~07, 음성 판·말투는 사용자 확인 대기 항목 3번 뒤), 토익 편 note 없는 줄 경고는 그대로.
