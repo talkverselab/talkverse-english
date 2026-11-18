@@ -591,7 +591,7 @@ class _SceneCard extends StatelessWidget {
         child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           Text(turn.stamp ?? dialogue.emoji, style: TextStyle(fontSize: small ? 34 : 56)),
           SizedBox(height: small ? 4 : 10),
-          Flexible(child: Text(dialogue.scene, textAlign: TextAlign.center, maxLines: small ? 2 : 3, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: small ? 11 : 13, color: AppColors.sumiLight, height: 1.4))),
+          Flexible(child: Text(dialogue.sceneShown, textAlign: TextAlign.center, maxLines: small ? 2 : 3, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: small ? 11 : 13, color: AppColors.sumiLight, height: 1.4))),
           if (!small) ...[
             const SizedBox(height: 6),
             Text(dialogue.speakerName(turn.speaker), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.beni)),

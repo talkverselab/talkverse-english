@@ -166,6 +166,8 @@ class Dialogue {
             : null,
       );
   bool get isChat => kind == 'chat';
+  /// 화면에 보일 장면 설명 — 원고의 「A」(학습자)를 이름(없으면 「나」)으로(일본어앱 빌드 111과 같음).
+  String get sceneShown => scene.replaceAllMapped(RegExp(r'(?<![A-Za-z])A(?![A-Za-z]) ?(?=[가-힣])'), (_) => speakerName('A'));
   /// 화자 표시 이름: `{name}`(학습자 자리) → 「나」, 그 밖의 중괄호는 뗀다.
   String speakerName(String sp) {
     final raw = speakers[sp] ?? sp;
