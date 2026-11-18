@@ -10,14 +10,14 @@
  "domain": [
   "culture"
  ],
- "title": "팁은 몇 %?",
- "emoji": "🧾",
- "scene": "처음 본 팁 화면, 학습자가 제일 큰 버튼을 눌러 버린다",
- "where": "샌드위치 가게",
- "goal": "팁 화면 고르기",
+ "title": "재채기 한 번에 Bless you",
+ "emoji": "🤧",
+ "scene": "지하철에서 학습자가 재채기를 하자 옆 사람이 \"Bless you\" 하고, 고맙다고 하는 사이 칸 전체가 따라 한다",
+ "where": "지하철 안",
+ "goal": "Bless you 에 답하기",
  "speakers": {
   "A": "{name}",
-  "B": "Cashier"
+  "B": "Stranger"
  },
  "register": "polite",
  "twist": 5,
@@ -31,21 +31,16 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Just turn the screen.",
-   "ko": "화면만 돌려 주세요.",
-   "note": "turn = 돌리다",
+   "en": "Bless you.",
+   "ko": "블레스 유. (몸조심하세요.)",
+   "note": "bless you = 재채기 뒤 인사",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "turn",
-     "turn",
-     ""
-    ],
-    [
-     "screen",
-     "screen",
+     "Bless",
+     "bless",
      ""
     ]
    ]
@@ -53,32 +48,38 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Okay. What is this?",
-   "ko": "네. 이게 뭐예요?",
-   "note": "what is this = 이게 뭐예요",
-   "tags": [],
-   "new": [],
-   "emotion": "neutral",
-   "lemmas": []
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "en": "Tip. You pick.",
-   "ko": "팁이요. 고르시면 돼요.",
-   "note": "pick = 고르다",
+   "en": "Oh. Sorry?",
+   "ko": "아. 네?",
+   "note": "sorry? = 네? 뭐라고요?",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Tip",
-     "tip",
+     "Sorry",
+     "sorry",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "You say \"thank you.\"",
+   "ko": "\"땡큐\" 하면 돼요.",
+   "note": "you say ~ = ~라고 하면 돼요",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "say",
+     "say",
      ""
     ],
     [
-     "pick",
-     "pick",
+     "thank",
+     "thank",
      ""
     ]
    ]
@@ -86,16 +87,16 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Okay. This big one.",
-   "ko": "네. 이 큰 거요.",
-   "note": "big one = 큰 거",
+   "en": "Thank you.",
+   "ko": "고마워요.",
+   "note": "thank you = 고마워요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "big",
-     "big",
+     "Thank",
+     "thank",
      ""
     ]
    ]
@@ -103,21 +104,26 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Thirty percent? Wow.",
-   "ko": "30%요? 와.",
-   "note": "percent = 퍼센트",
+   "en": "Now the whole train says it!",
+   "ko": "이제 칸 전체가 다 해요!",
+   "note": "whole = 전체",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "amused",
    "lemmas": [
     [
-     "Thirty",
-     "thirty",
+     "whole",
+     "whole",
      ""
     ],
     [
-     "percent",
-     "percent",
+     "train",
+     "train",
+     ""
+    ],
+    [
+     "says",
+     "say",
      ""
     ]
    ]
@@ -125,12 +131,12 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "No way. Thirty?",
-   "ko": "말도 안 돼. 30%?",
+   "en": "No way. Thank you, thank you!",
+   "ko": "말도 안 돼. 고마워요, 고마워요!",
    "note": "no way = 말도 안 돼",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "flustered",
    "lemmas": [
     [
      "way",
@@ -138,8 +144,13 @@
      ""
     ],
     [
-     "Thirty",
-     "thirty",
+     "Thank",
+     "thank",
+     ""
+    ],
+    [
+     "thank",
+     "thank",
      ""
     ]
    ]
@@ -147,21 +158,16 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "It's okay. Free cookie!",
-   "ko": "괜찮아요. 쿠키 서비스!",
-   "note": "free = 공짜",
+   "en": "It's okay. Just don't sneeze again.",
+   "ko": "괜찮아요. 또 재채기만 하지 마요.",
+   "note": "again = 또",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Free",
-     "free",
-     ""
-    ],
-    [
-     "cookie",
-     "cookie",
+     "sneeze",
+     "sneeze",
      ""
     ]
    ]

@@ -1,26 +1,26 @@
 === r3_culture_c1
-title: 팁 화면 앞에서 얼어붙다
-emoji: 📱
-scene: 커피 한 잔 계산하는데 태블릿이 팁 30%부터 묻고, 마야가 미국 팁 문화를 설명해 준다
-where: 카페 계산대
-goal: 팁 문화 이해하고 고르기
+title: 야구장 키스캠
+emoji: ⚾
+scene: 처음 간 야구장에서 마야가 야구장 문화를 알려 주는데, 전광판 키스캠이 두 사람을 비추고 마야가 말실수를 한다
+where: 야구장 관중석
+goal: 문화 차이 묻고 받아치기
 kind: long
 register: casual
 B: Maya
 twist: 10 slip
 expr: it depends | tell me about it | i wouldn't say that
 --
-A | Maya, the screen is asking me for a thirty percent tip. | 마야, 화면이 팁 30% 달래. | tip = 팁 | emo=neutral
-B | Oh, the screen. It's just gonna ask you a question. | 아, 그 화면. 그냥 질문하는 거야. | gonna = going to | emo=neutral
-A | For one coffee? He just pressed one button. | 커피 한 잔에? 버튼 하나 눌렀는데. | pressed = 눌렀다 | emo=surprised
-B | Tell me about it. It's everywhere now. | 그러니까 말이야. 요즘 어딜 가나 그래. | tell me about it = 내 말이 | emo=neutral
-A | So what do people actually pick? | 그럼 사람들은 실제로 뭘 골라? | pick = 고르다 | emo=neutral
-B | It depends. Table service, eighteen to twenty. Counter, a dollar or so. | 경우에 따라 달라. 테이블 서빙은 18에서 20, 카운터는 1달러 정도. | or so = ~쯤 | emo=neutral
-A | And "no tip"? Is that rude? | 그럼 「팁 없음」은? 무례해? | rude = 무례한 | emo=neutral
-B | I wouldn't say that. But he's watching you. | 그렇게까진 아니야. 근데 저 사람이 너 보고 있어. | i wouldn't say that = 그렇게까진 | emo=neutral
-A | He is. Okay, I'll do fifteen. Middle button. | 진짜네. 좋아, 15% 할게. 가운데 버튼. | middle = 가운데 | emo=flustered
-B | That was the custom button. You just typed fifty. | 그거 직접 입력 버튼이었어. 너 방금 50 쳤어. | custom = 직접 정하는 | emo=surprised
-A | Fifty percent? For a small coffee? | 50%? 작은 커피에? | 되묻기 | emo=shout
-B | Look at his face. You just made his whole week. | 저 사람 얼굴 봐. 너 덕분에 일주일이 행복하겠다. | made his week = 일주일을 행복하게 했다 | emo=amused
-A | I can't take it back now, can I? | 이제 못 무르지, 그렇지? | take back = 되돌리다 | emo=sad
-B | Nope. But I bet your next coffee is free. | 응. 근데 다음 커피는 공짜일걸. | i bet = 장담해 | emo=cheerful
+A | Maya, why is everyone standing up? | 마야, 왜 다들 일어나? | stand up = 일어나다 | emo=neutral
+B | Seventh inning. We stretch and sing. | 7회야. 다 같이 기지개 켜고 노래해. | stretch = 기지개 켜다 | emo=neutral
+A | Do I have to sing too? | 나도 불러야 돼? | have to = ~해야 하다 | emo=neutral
+B | It depends. Do you know the words? | 그때그때 달라. 가사 알아? | it depends = 상황에 따라 달라 | emo=neutral
+A | Not one word. And the hot dogs are twelve dollars. | 한 단어도 몰라. 게다가 핫도그가 12달러야. | not one = 하나도 | emo=neutral
+B | Tell me about it. Baseball is expensive. | 내 말이. 야구는 비싸. | tell me about it = 내 말이 | emo=annoyed
+A | Is this game always this slow? | 이 경기 원래 이렇게 느려? | slow = 느린 | emo=neutral
+B | I wouldn't say that. It's relaxing. | 그렇게까진 아니야. 느긋한 거지. | i wouldn't say that = 그렇게까진 아니야 | emo=neutral
+A | Wait, why are we on the big screen? | 잠깐, 우리가 왜 전광판에 나와? | big screen = 전광판 | emo=surprised
+B | Kiss cam! Don't worry, we're not a couple… yet. | 키스캠이야! 걱정 마, 우리 커플 아니잖아… 아직은. | 말실수 | emo=flustered
+A | Wait. Not a couple… yet? | 잠깐. 커플 아니야… 아직은? | yet = 아직 | emo=teasing
+B | I said "not." Just "not." | "아니"라고 했어. 그냥 "아니." | just = 그냥 | emo=flustered
+A | The whole stadium is cheering, Maya. | 마야, 경기장 전체가 환호해. | cheer = 환호하다 | emo=amused
+B | Okay, okay. Hot dogs are on me. Just stop smiling. | 알았어, 알았어. 핫도그는 내가 살게. 웃지 좀 마. | on me = 내가 낼게 | emo=shy

@@ -1,22 +1,22 @@
 === r2_culture_b2
-title: 팁 화면의 25%
-emoji: 💳
-scene: 커피 한 잔 계산하는데 태블릿이 팁을 묻고, Jake 가 옆에서 미국 팁 문화를 설명한다
-where: 동네 커피 가게 계산대
-goal: 팁 문화와 화면 선택
+title: 추수감사절 포틀럭
+emoji: 🦃
+scene: 제이크네 추수감사절 포틀럭에 뭘 가져가야 할지 묻는데, 제이크는 질문은 흘려듣고 이모 음식 흉만 본다
+where: 제이크네 아파트 거실
+goal: 초대 문화 묻기
 kind: short
 register: casual
 B: Jake
 twist: 8 ignore
 expr: i have no idea | seriously | makes sense
 --
-A | Jake, it's asking me for a tip. For a coffee. | 제이크, 이거 팁을 물어. 커피 하나에. | tip = 팁 | emo=neutral
-B | Yeah. Eighteen, twenty, twenty-five percent. | 응. 18, 20, 25퍼센트. | percent = 퍼센트 | emo=neutral
-A | Seriously? She just pushed a button. | 진짜? 그냥 버튼 하나 눌렀잖아. | push a button = 버튼을 누르다 | emo=neutral
-B | You can press "custom." Or "no tip." | "직접 입력" 눌러도 돼. 아니면 "팁 없음." | custom = 직접 입력 | emo=neutral
-A | But she's looking at me. | 근데 직원이 나 쳐다보고 있어. | look at = 쳐다보다 | emo=worried
-B | That's the system. It's a feeling thing. | 그게 시스템이야. 기분 문제지. | a feeling thing = 기분 문제 | emo=neutral
-A | Makes sense. I have no idea what to press. | 이해는 가. 뭘 눌러야 할지 모르겠어. | I have no idea = 전혀 모르겠어 | emo=flustered
-B | Hey, they have free cookies on Fridays. | 야, 여기 금요일엔 쿠키 공짜다. | free = 공짜 | emo=cheerful
-A | Jake, focus. The screen is waiting. | 제이크, 집중해. 화면이 기다리잖아. | focus = 집중해 | emo=tsukkomi
-B | Twenty. Then you get the cookie with a smile. | 20. 그럼 쿠키에 미소까지 받아. | with a smile = 웃으면서 | emo=amused
+A | Jake, what's a potluck? Your mom said "bring something." | 제이크, 포틀럭이 뭐야? 너희 엄마가 "뭐 하나 가져와" 그러던데. | potluck = 각자 음식 가져오는 모임 | emo=neutral
+B | Everyone brings one dish. We share it all. | 다들 음식 하나씩 가져와. 다 같이 나눠 먹고. | dish = 요리 한 접시 | emo=neutral
+A | Seriously? So what do I bring? | 진짜? 그럼 난 뭐 가져가? | seriously = 진짜? | emo=neutral
+B | I have no idea. Anything but turkey. | 몰라. 칠면조만 빼고 아무거나. | i have no idea = 전혀 모르겠어 | emo=neutral
+A | Why not turkey? | 칠면조는 왜 안 돼? | why not = 왜 안 돼? | emo=surprised
+B | My mom makes the turkey. It's her thing. | 칠면조는 우리 엄마 담당이야. 엄마 자존심이지. | it's her thing = 그 사람 전문이야 | emo=neutral
+A | Makes sense. What about kimchi fried rice? | 이해돼. 김치볶음밥은 어때? | makes sense = 말 되네 | emo=cheerful
+B | Did I tell you about my aunt's green beans? They're so bad. | 우리 이모 그린빈 얘기 했나? 진짜 별로야. | 질문 흘려듣기 | emo=amused
+A | Jake. Kimchi fried rice. Yes or no? | 제이크. 김치볶음밥. 돼, 안 돼? | yes or no = 돼 안 돼 | emo=tsukkomi
+B | Bring two. Nobody's eating the green beans. | 두 개 가져와. 그린빈은 아무도 안 먹을 거야. | nobody = 아무도 | emo=cheerful

@@ -1,27 +1,27 @@
 === r3_friends_c1
-title: 단톡방 생일 서프라이즈
-emoji: 🎂
-scene: 제이크 생일 서프라이즈를 단톡방에서 짜는데, 제이크 본인도 그 방에 있다
+title: 캠핑 단톡방에 엄마가 있다
+emoji: 🏕️
+scene: 친구들끼리 주말 캠핑을 단톡방에서 짜는데, 마야가 예전에 엄마를 초대해 둔 걸 잊었고 엄마가 모든 걸 챙기기 시작한다
 where: 친구 단톡방
 goal: 계획 세우기·역할 나누기
 kind: chat
 register: chat
 B: Maya
-C: Jake
+C: Mom
 twist: 10 chaos
 expr: i'm in | literally | no way
 --
-B@19:02 | Okay, Jake's birthday is Friday. Surprise party at my place? | 좋아, 제이크 생일 금요일이야. 우리 집에서 깜짝 파티? | surprise party = 깜짝 파티 | emo=excited
-A@19:03 | I'm in. I can bring snacks. | 나 낄래. 간식 가져갈게. | i'm in = 나도 낄래 | emo=neutral
-B@19:03 | Literally perfect. He loves those spicy chips. | 완전 완벽해. 걔 그 매운 과자 엄청 좋아하잖아. | literally = 완전, 진짜 | emo=neutral
-A@19:04 | Who's keeping him busy until eight? | 8시까지 누가 걔 붙잡아 둬? | keep busy = 바쁘게 붙잡아 두다 | emo=neutral
-B@19:04 | You. Take him to the gym. He'll never suspect. | 너. 헬스장 데려가. 절대 눈치 못 챌 거야. | suspect = 의심하다 | emo=neutral
-A@19:05 | Me? He'll want to play basketball for hours. | 나? 걔 몇 시간이고 농구하려고 할 텐데. | for hours = 몇 시간 동안 | emo=worried
-B@19:05 | That's the point. Wear good shoes. | 그게 핵심이야. 좋은 신발 신어. | that's the point = 그게 요점이야 | emo=neutral
-A@19:06 | Fine. What about the cake? | 알았어. 케이크는? | what about = ~는 어때? | emo=neutral
-B@19:06 | Chocolate. Don't tell anyone. Especially Jake. | 초콜릿. 아무한테도 말하지 마. 특히 제이크한테. | especially = 특히 | emo=neutral
-C@19:08 | Can it be chocolate with strawberries? | 딸기 들어간 초콜릿으로 해 줄 수 있어? | 제이크가 이 방에 있다 | emo=cheerful stamp=🎂
-B@19:08 | No way. Jake, why are you in this chat? | 말도 안 돼. 제이크, 너 왜 이 방에 있어? | no way = 말도 안 돼 | emo=shout
-C@19:09 | You made this chat. It's called Jake's Friends. | 네가 만든 방이잖아. 방 이름이 「제이크 친구들」이야. | called = ~라는 이름의 | emo=amused
-A@19:09 | So… still a surprise if we pretend? | 그럼… 모르는 척하면 아직 서프라이즈야? | pretend = ~인 척하다 | emo=amused
-C@19:10 | Totally. I'll act shocked. Strawberries, please. | 완전. 놀란 척할게. 딸기 부탁해. | act shocked = 놀란 척하다 | emo=cheerful
+B@20:01 | Camping this weekend? The lake spot, two nights. | 이번 주말 캠핑? 호수 거기, 2박. | spot = 장소 | emo=neutral
+A@20:02 | I'm in. I'll bring the tent. | 나 낄래. 텐트 가져갈게. | i'm in = 나도 낄래 | emo=cheerful
+B@20:02 | Literally the best. Who's driving? | 완전 최고. 운전은 누가 해? | literally = 완전, 진짜 | emo=neutral
+A@20:03 | Not me. I get lost in parking lots. | 난 아냐. 나 주차장에서도 길 잃어. | get lost = 길을 잃다 | emo=amused
+B@20:03 | Fine, I'll drive. You do snacks. | 알았어, 내가 운전할게. 넌 간식 담당. | do snacks = 간식 맡다 | emo=neutral
+A@20:04 | Deal. Should we bring bug spray? | 콜. 모기 스프레이 가져갈까? | deal = 좋아, 콜 | emo=neutral
+B@20:04 | Nah. We're tough. Just bring marshmallows. | 됐어. 우리 강하잖아. 마시멜로나 가져와. | tough = 강한 | emo=neutral
+A@20:05 | Marshmallows, chips, and… what else? | 마시멜로, 과자, 그리고… 또 뭐? | what else = 또 뭐 | emo=neutral
+B@20:05 | Don't tell my mom. She'll worry. | 우리 엄마한테는 말하지 마. 걱정하셔. | worry = 걱정하다 | emo=neutral
+C@20:07 | Bug spray. Rain jackets. And text me when you get there, sweetie. | 모기 스프레이. 우비. 그리고 도착하면 문자해, 우리 딸. | 엄마가 이 방에 있다 | emo=gentle stamp=⛺
+B@20:07 | No way. Mom?? Why are you in this chat? | 말도 안 돼. 엄마?? 왜 이 방에 있어? | no way = 말도 안 돼 | emo=shout
+C@20:08 | You added me last week. For the cake order. | 네가 지난주에 초대했잖아. 케이크 주문 때문에. | add = 추가하다 | emo=amused
+A@20:08 | So… is your mom coming camping too? | 그럼… 너희 엄마도 캠핑 가셔? | too = ~도 | emo=amused
+C@20:09 | I already packed. I'm bringing soup for everyone. | 벌써 짐 쌌어. 다 같이 먹을 수프 가져갈게. | pack = 짐을 싸다 | emo=cheerful

@@ -10,11 +10,11 @@
  "domain": [
   "culture"
  ],
- "title": "팁 화면의 25%",
- "emoji": "💳",
- "scene": "커피 한 잔 계산하는데 태블릿이 팁을 묻고, Jake 가 옆에서 미국 팁 문화를 설명한다",
- "where": "동네 커피 가게 계산대",
- "goal": "팁 문화와 화면 선택",
+ "title": "추수감사절 포틀럭",
+ "emoji": "🦃",
+ "scene": "제이크네 추수감사절 포틀럭에 뭘 가져가야 할지 묻는데, 제이크는 질문은 흘려듣고 이모 음식 흉만 본다",
+ "where": "제이크네 아파트 거실",
+ "goal": "초대 문화 묻기",
  "speakers": {
   "A": "{name}",
   "B": "Jake"
@@ -32,26 +32,41 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Jake, it's asking me for a tip. For a coffee.",
-   "ko": "제이크, 이거 팁을 물어. 커피 하나에.",
-   "note": "tip = 팁",
+   "en": "Jake, what's a potluck? Your mom said \"bring something.\"",
+   "ko": "제이크, 포틀럭이 뭐야? 너희 엄마가 \"뭐 하나 가져와\" 그러던데.",
+   "note": "potluck = 각자 음식 가져오는 모임",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "asking",
-     "ask",
+     "what's",
+     "what",
      ""
     ],
     [
-     "tip",
-     "tip",
+     "potluck",
+     "potluck",
      ""
     ],
     [
-     "coffee",
-     "coffee",
+     "mom",
+     "mom",
+     ""
+    ],
+    [
+     "said",
+     "say",
+     ""
+    ],
+    [
+     "bring",
+     "bring",
+     ""
+    ],
+    [
+     "something",
+     "something",
      ""
     ]
    ]
@@ -59,31 +74,31 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Yeah. Eighteen, twenty, twenty-five percent.",
-   "ko": "응. 18, 20, 25퍼센트.",
-   "note": "percent = 퍼센트",
+   "en": "Everyone brings one dish. We share it all.",
+   "ko": "다들 음식 하나씩 가져와. 다 같이 나눠 먹고.",
+   "note": "dish = 요리 한 접시",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Eighteen",
-     "eighteen",
+     "Everyone",
+     "everyone",
      ""
     ],
     [
-     "twenty",
-     "twenty",
+     "brings",
+     "bring",
      ""
     ],
     [
-     "twenty",
-     "twenty",
+     "dish",
+     "dish",
      ""
     ],
     [
-     "percent",
-     "percent",
+     "share",
+     "share",
      ""
     ]
    ]
@@ -91,9 +106,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Seriously? She just pushed a button.",
-   "ko": "진짜? 그냥 버튼 하나 눌렀잖아.",
-   "note": "push a button = 버튼을 누르다",
+   "en": "Seriously? So what do I bring?",
+   "ko": "진짜? 그럼 난 뭐 가져가?",
+   "note": "seriously = 진짜?",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -104,13 +119,8 @@
      ""
     ],
     [
-     "pushed",
-     "push",
-     ""
-    ],
-    [
-     "button",
-     "button",
+     "bring",
+     "bring",
      ""
     ]
    ]
@@ -118,26 +128,26 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "You can press \"custom.\" Or \"no tip.\"",
-   "ko": "\"직접 입력\" 눌러도 돼. 아니면 \"팁 없음.\"",
-   "note": "custom = 직접 입력",
+   "en": "I have no idea. Anything but turkey.",
+   "ko": "몰라. 칠면조만 빼고 아무거나.",
+   "note": "i have no idea = 전혀 모르겠어",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "press",
-     "press",
+     "idea",
+     "idea",
      ""
     ],
     [
-     "custom",
-     "custom",
+     "Anything",
+     "anything",
      ""
     ],
     [
-     "tip",
-     "tip",
+     "turkey",
+     "turkey",
      ""
     ]
    ]
@@ -145,16 +155,16 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "But she's looking at me.",
-   "ko": "근데 직원이 나 쳐다보고 있어.",
-   "note": "look at = 쳐다보다",
+   "en": "Why not turkey?",
+   "ko": "칠면조는 왜 안 돼?",
+   "note": "why not = 왜 안 돼?",
    "tags": [],
    "new": [],
-   "emotion": "worried",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "looking",
-     "look",
+     "turkey",
+     "turkey",
      ""
     ]
    ]
@@ -162,21 +172,26 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "That's the system. It's a feeling thing.",
-   "ko": "그게 시스템이야. 기분 문제지.",
-   "note": "a feeling thing = 기분 문제",
+   "en": "My mom makes the turkey. It's her thing.",
+   "ko": "칠면조는 우리 엄마 담당이야. 엄마 자존심이지.",
+   "note": "it's her thing = 그 사람 전문이야",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "system",
-     "system",
+     "mom",
+     "mom",
      ""
     ],
     [
-     "feeling",
-     "feel",
+     "makes",
+     "make",
+     ""
+    ],
+    [
+     "turkey",
+     "turkey",
      ""
     ],
     [
@@ -189,12 +204,12 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Makes sense. I have no idea what to press.",
-   "ko": "이해는 가. 뭘 눌러야 할지 모르겠어.",
-   "note": "I have no idea = 전혀 모르겠어",
+   "en": "Makes sense. What about kimchi fried rice?",
+   "ko": "이해돼. 김치볶음밥은 어때?",
+   "note": "makes sense = 말 되네",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Makes",
@@ -207,13 +222,18 @@
      ""
     ],
     [
-     "idea",
-     "idea",
+     "kimchi",
+     "kimchi",
      ""
     ],
     [
-     "press",
-     "press",
+     "fried",
+     "fried",
+     ""
+    ],
+    [
+     "rice",
+     "rice",
      ""
     ]
    ]
@@ -221,26 +241,36 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Hey, they have free cookies on Fridays.",
-   "ko": "야, 여기 금요일엔 쿠키 공짜다.",
-   "note": "free = 공짜",
+   "en": "Did I tell you about my aunt's green beans? They're so bad.",
+   "ko": "우리 이모 그린빈 얘기 했나? 진짜 별로야.",
+   "note": "질문 흘려듣기",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "amused",
    "lemmas": [
     [
-     "free",
-     "free",
+     "tell",
+     "tell",
      ""
     ],
     [
-     "cookies",
-     "cookies",
+     "aunt's",
+     "aunt",
      ""
     ],
     [
-     "Fridays",
-     "friday",
+     "green",
+     "green",
+     ""
+    ],
+    [
+     "beans",
+     "beans",
+     ""
+    ],
+    [
+     "bad",
+     "worse",
      ""
     ]
    ]
@@ -248,26 +278,26 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "Jake, focus. The screen is waiting.",
-   "ko": "제이크, 집중해. 화면이 기다리잖아.",
-   "note": "focus = 집중해",
+   "en": "Jake. Kimchi fried rice. Yes or no?",
+   "ko": "제이크. 김치볶음밥. 돼, 안 돼?",
+   "note": "yes or no = 돼 안 돼",
    "tags": [],
    "new": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
-     "focus",
-     "focus",
+     "Kimchi",
+     "kimchi",
      ""
     ],
     [
-     "screen",
-     "screen",
+     "fried",
+     "fried",
      ""
     ],
     [
-     "waiting",
-     "wait",
+     "rice",
+     "rice",
      ""
     ]
    ]
@@ -275,31 +305,36 @@
   {
    "num": 10,
    "speaker": "B",
-   "en": "Twenty. Then you get the cookie with a smile.",
-   "ko": "20. 그럼 쿠키에 미소까지 받아.",
-   "note": "with a smile = 웃으면서",
+   "en": "Bring two. Nobody's eating the green beans.",
+   "ko": "두 개 가져와. 그린빈은 아무도 안 먹을 거야.",
+   "note": "nobody = 아무도",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Twenty",
-     "twenty",
+     "Bring",
+     "bring",
      ""
     ],
     [
-     "get",
-     "get",
+     "Nobody's",
+     "nobody",
      ""
     ],
     [
-     "cookie",
-     "cookie",
+     "eating",
+     "eat",
      ""
     ],
     [
-     "smile",
-     "smile",
+     "green",
+     "green",
+     ""
+    ],
+    [
+     "beans",
+     "beans",
      ""
     ]
    ]

@@ -10,11 +10,11 @@
  "domain": [
   "culture"
  ],
- "title": "팁 화면 앞에서 얼어붙다",
- "emoji": "📱",
- "scene": "커피 한 잔 계산하는데 태블릿이 팁 30%부터 묻고, 마야가 미국 팁 문화를 설명해 준다",
- "where": "카페 계산대",
- "goal": "팁 문화 이해하고 고르기",
+ "title": "야구장 키스캠",
+ "emoji": "⚾",
+ "scene": "처음 간 야구장에서 마야가 야구장 문화를 알려 주는데, 전광판 키스캠이 두 사람을 비추고 마야가 말실수를 한다",
+ "where": "야구장 관중석",
+ "goal": "문화 차이 묻고 받아치기",
  "speakers": {
   "A": "{name}",
   "B": "Maya"
@@ -32,36 +32,21 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Maya, the screen is asking me for a thirty percent tip.",
-   "ko": "마야, 화면이 팁 30% 달래.",
-   "note": "tip = 팁",
+   "en": "Maya, why is everyone standing up?",
+   "ko": "마야, 왜 다들 일어나?",
+   "note": "stand up = 일어나다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "screen",
-     "screen",
+     "everyone",
+     "everyone",
      ""
     ],
     [
-     "asking",
-     "ask",
-     ""
-    ],
-    [
-     "thirty",
-     "thirty",
-     ""
-    ],
-    [
-     "percent",
-     "percent",
-     ""
-    ],
-    [
-     "tip",
-     "tip",
+     "standing",
+     "stand",
      ""
     ]
    ]
@@ -69,31 +54,26 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Oh, the screen. It's just gonna ask you a question.",
-   "ko": "아, 그 화면. 그냥 질문하는 거야.",
-   "note": "gonna = going to",
+   "en": "Seventh inning. We stretch and sing.",
+   "ko": "7회야. 다 같이 기지개 켜고 노래해.",
+   "note": "stretch = 기지개 켜다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "screen",
-     "screen",
+     "Seventh",
+     "seventh",
      ""
     ],
     [
-     "gonna",
-     "go",
+     "stretch",
+     "stretch",
      ""
     ],
     [
-     "ask",
-     "ask",
-     ""
-    ],
-    [
-     "question",
-     "question",
+     "sing",
+     "sing",
      ""
     ]
    ]
@@ -101,26 +81,16 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "For one coffee? He just pressed one button.",
-   "ko": "커피 한 잔에? 버튼 하나 눌렀는데.",
-   "note": "pressed = 눌렀다",
+   "en": "Do I have to sing too?",
+   "ko": "나도 불러야 돼?",
+   "note": "have to = ~해야 하다",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "coffee",
-     "coffee",
-     ""
-    ],
-    [
-     "pressed",
-     "press",
-     ""
-    ],
-    [
-     "button",
-     "button",
+     "sing",
+     "sing",
      ""
     ]
    ]
@@ -128,21 +98,26 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Tell me about it. It's everywhere now.",
-   "ko": "그러니까 말이야. 요즘 어딜 가나 그래.",
-   "note": "tell me about it = 내 말이",
+   "en": "It depends. Do you know the words?",
+   "ko": "그때그때 달라. 가사 알아?",
+   "note": "it depends = 상황에 따라 달라",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Tell",
-     "tell",
+     "depends",
+     "depends",
      ""
     ],
     [
-     "everywhere",
-     "everywhere",
+     "know",
+     "know",
+     ""
+    ],
+    [
+     "words",
+     "word",
      ""
     ]
    ]
@@ -150,26 +125,36 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "So what do people actually pick?",
-   "ko": "그럼 사람들은 실제로 뭘 골라?",
-   "note": "pick = 고르다",
+   "en": "Not one word. And the hot dogs are twelve dollars.",
+   "ko": "한 단어도 몰라. 게다가 핫도그가 12달러야.",
+   "note": "not one = 하나도",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "people",
-     "person",
+     "word",
+     "word",
      ""
     ],
     [
-     "actually",
-     "actual",
+     "hot",
+     "hot",
      ""
     ],
     [
-     "pick",
-     "pick",
+     "dogs",
+     "dog",
+     ""
+    ],
+    [
+     "twelve",
+     "twelve",
+     ""
+    ],
+    [
+     "dollars",
+     "dollar",
      ""
     ]
    ]
@@ -177,46 +162,26 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "It depends. Table service, eighteen to twenty. Counter, a dollar or so.",
-   "ko": "경우에 따라 달라. 테이블 서빙은 18에서 20, 카운터는 1달러 정도.",
-   "note": "or so = ~쯤",
+   "en": "Tell me about it. Baseball is expensive.",
+   "ko": "내 말이. 야구는 비싸.",
+   "note": "tell me about it = 내 말이",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "depends",
-     "depends",
+     "Tell",
+     "tell",
      ""
     ],
     [
-     "Table",
-     "table",
+     "Baseball",
+     "baseball",
      ""
     ],
     [
-     "service",
-     "service",
-     ""
-    ],
-    [
-     "eighteen",
-     "eighteen",
-     ""
-    ],
-    [
-     "twenty",
-     "twenty",
-     ""
-    ],
-    [
-     "Counter",
-     "count",
-     ""
-    ],
-    [
-     "dollar",
-     "dollar",
+     "expensive",
+     "expensive",
      ""
     ]
    ]
@@ -224,21 +189,21 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "And \"no tip\"? Is that rude?",
-   "ko": "그럼 「팁 없음」은? 무례해?",
-   "note": "rude = 무례한",
+   "en": "Is this game always this slow?",
+   "ko": "이 경기 원래 이렇게 느려?",
+   "note": "slow = 느린",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "tip",
-     "tip",
+     "game",
+     "game",
      ""
     ],
     [
-     "rude",
-     "rude",
+     "slow",
+     "slow",
      ""
     ]
    ]
@@ -246,9 +211,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "I wouldn't say that. But he's watching you.",
-   "ko": "그렇게까진 아니야. 근데 저 사람이 너 보고 있어.",
-   "note": "i wouldn't say that = 그렇게까진",
+   "en": "I wouldn't say that. It's relaxing.",
+   "ko": "그렇게까진 아니야. 느긋한 거지.",
+   "note": "i wouldn't say that = 그렇게까진 아니야",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -259,8 +224,8 @@
      ""
     ],
     [
-     "watching",
-     "watch",
+     "relaxing",
+     "relax",
      ""
     ]
    ]
@@ -268,26 +233,26 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "He is. Okay, I'll do fifteen. Middle button.",
-   "ko": "진짜네. 좋아, 15% 할게. 가운데 버튼.",
-   "note": "middle = 가운데",
+   "en": "Wait, why are we on the big screen?",
+   "ko": "잠깐, 우리가 왜 전광판에 나와?",
+   "note": "big screen = 전광판",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "fifteen",
-     "fifteen",
+     "Wait",
+     "wait",
      ""
     ],
     [
-     "Middle",
-     "middle",
+     "big",
+     "big",
      ""
     ],
     [
-     "button",
-     "button",
+     "screen",
+     "screen",
      ""
     ]
    ]
@@ -295,31 +260,31 @@
   {
    "num": 10,
    "speaker": "B",
-   "en": "That was the custom button. You just typed fifty.",
-   "ko": "그거 직접 입력 버튼이었어. 너 방금 50 쳤어.",
-   "note": "custom = 직접 정하는",
+   "en": "Kiss cam! Don't worry, we're not a couple… yet.",
+   "ko": "키스캠이야! 걱정 마, 우리 커플 아니잖아… 아직은.",
+   "note": "말실수",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "custom",
-     "custom",
+     "Kiss",
+     "kiss",
      ""
     ],
     [
-     "button",
-     "button",
+     "cam",
+     "cam",
      ""
     ],
     [
-     "typed",
-     "type",
+     "worry",
+     "worry",
      ""
     ],
     [
-     "fifty",
-     "fifty",
+     "couple",
+     "couple",
      ""
     ]
    ]
@@ -327,31 +292,21 @@
   {
    "num": 11,
    "speaker": "A",
-   "en": "Fifty percent? For a small coffee?",
-   "ko": "50%? 작은 커피에?",
-   "note": "되묻기",
+   "en": "Wait. Not a couple… yet?",
+   "ko": "잠깐. 커플 아니야… 아직은?",
+   "note": "yet = 아직",
    "tags": [],
    "new": [],
-   "emotion": "shout",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Fifty",
-     "fifty",
+     "Wait",
+     "wait",
      ""
     ],
     [
-     "percent",
-     "percent",
-     ""
-    ],
-    [
-     "small",
-     "small",
-     ""
-    ],
-    [
-     "coffee",
-     "coffee",
+     "couple",
+     "couple",
      ""
     ]
    ]
@@ -359,36 +314,16 @@
   {
    "num": 12,
    "speaker": "B",
-   "en": "Look at his face. You just made his whole week.",
-   "ko": "저 사람 얼굴 봐. 너 덕분에 일주일이 행복하겠다.",
-   "note": "made his week = 일주일을 행복하게 했다",
+   "en": "I said \"not.\" Just \"not.\"",
+   "ko": "\"아니\"라고 했어. 그냥 \"아니.\"",
+   "note": "just = 그냥",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Look",
-     "look",
-     ""
-    ],
-    [
-     "face",
-     "face",
-     ""
-    ],
-    [
-     "made",
-     "make",
-     ""
-    ],
-    [
-     "whole",
-     "whole",
-     ""
-    ],
-    [
-     "week",
-     "week",
+     "said",
+     "say",
      ""
     ]
    ]
@@ -396,16 +331,26 @@
   {
    "num": 13,
    "speaker": "A",
-   "en": "I can't take it back now, can I?",
-   "ko": "이제 못 무르지, 그렇지?",
-   "note": "take back = 되돌리다",
+   "en": "The whole stadium is cheering, Maya.",
+   "ko": "마야, 경기장 전체가 환호해.",
+   "note": "cheer = 환호하다",
    "tags": [],
    "new": [],
-   "emotion": "sad",
+   "emotion": "amused",
    "lemmas": [
     [
-     "take",
-     "take",
+     "whole",
+     "whole",
+     ""
+    ],
+    [
+     "stadium",
+     "stadium",
+     ""
+    ],
+    [
+     "cheering",
+     "cheer",
      ""
     ]
    ]
@@ -413,31 +358,31 @@
   {
    "num": 14,
    "speaker": "B",
-   "en": "Nope. But I bet your next coffee is free.",
-   "ko": "응. 근데 다음 커피는 공짜일걸.",
-   "note": "i bet = 장담해",
+   "en": "Okay, okay. Hot dogs are on me. Just stop smiling.",
+   "ko": "알았어, 알았어. 핫도그는 내가 살게. 웃지 좀 마.",
+   "note": "on me = 내가 낼게",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "shy",
    "lemmas": [
     [
-     "bet",
-     "bet",
+     "Hot",
+     "hot",
      ""
     ],
     [
-     "next",
-     "next",
+     "dogs",
+     "dog",
      ""
     ],
     [
-     "coffee",
-     "coffee",
+     "stop",
+     "stop",
      ""
     ],
     [
-     "free",
-     "free",
+     "smiling",
+     "smile",
      ""
     ]
    ]

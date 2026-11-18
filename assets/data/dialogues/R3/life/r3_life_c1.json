@@ -10,11 +10,11 @@
  "domain": [
   "life"
  ],
- "title": "냉장고 이름표 전쟁",
- "emoji": "🧊",
- "scene": "룸메이트 다니엘이 냉장고 모든 칸에 이름표를 붙였는데, 학습자 우유에만 「먹어도 됨」이라고 적혀 있다",
- "where": "아파트 부엌",
- "goal": "집안 규칙 정하기·불만 말하기",
+ "title": "집 보러 갔더니 볼링장 위",
+ "emoji": "🎳",
+ "scene": "대니얼과 싸고 넓은 아파트를 보러 갔는데, 바닥 아래가 24시간 볼링장이다",
+ "where": "매물로 나온 아파트",
+ "goal": "집 조건 묻고 따지기",
  "speakers": {
   "A": "{name}",
   "B": "Daniel"
@@ -32,26 +32,26 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Daniel, why is everything in the fridge labeled?",
-   "ko": "다니엘, 냉장고에 왜 전부 이름표가 붙어 있어?",
-   "note": "labeled = 이름표가 붙은",
+   "en": "Daniel, this place is huge. And cheap.",
+   "ko": "대니얼, 여기 엄청 넓어. 게다가 싸.",
+   "note": "huge = 엄청 큰",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "everything",
-     "everything",
+     "place",
+     "place",
      ""
     ],
     [
-     "fridge",
-     "fridge",
+     "huge",
+     "huge",
      ""
     ],
     [
-     "labeled",
-     "label",
+     "cheap",
+     "cheap",
      ""
     ]
    ]
@@ -59,36 +59,31 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "System. Top shelf is mine, middle is yours.",
-   "ko": "체계야. 위 칸은 내 거, 가운데는 네 거.",
-   "note": "shelf = 선반, 칸",
+   "en": "Don't get me wrong, I love it. But why so cheap?",
+   "ko": "오해하지 마, 나도 좋아. 근데 왜 이렇게 싸?",
+   "note": "don't get me wrong = 오해하지 마",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "System",
-     "system",
+     "get",
+     "get",
      ""
     ],
     [
-     "Top",
-     "top",
+     "wrong",
+     "wrong",
      ""
     ],
     [
-     "shelf",
-     "shelf",
+     "love",
+     "love",
      ""
     ],
     [
-     "mine",
-     "mine",
-     ""
-    ],
-    [
-     "middle",
-     "middle",
+     "cheap",
+     "cheap",
      ""
     ]
    ]
@@ -96,21 +91,16 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "And the bottom shelf says \"Daniel later.\"",
-   "ko": "근데 아래 칸에는 「다니엘 나중에」라고 써 있는데.",
-   "note": "later = 나중에",
+   "en": "The ad says \"lively neighborhood.\"",
+   "ko": "광고에 \"활기찬 동네\"래.",
+   "note": "lively = 활기찬",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "bottom",
-     "bottom",
-     ""
-    ],
-    [
-     "shelf",
-     "shelf",
+     "ad",
+     "ad",
      ""
     ],
     [
@@ -119,8 +109,13 @@
      ""
     ],
     [
-     "later",
-     "later",
+     "lively",
+     "live",
+     ""
+    ],
+    [
+     "neighborhood",
+     "neighborhood",
      ""
     ]
    ]
@@ -128,26 +123,21 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "That's for leftovers. Future me is very busy.",
-   "ko": "그건 남은 음식용. 미래의 나는 아주 바쁘거든.",
-   "note": "leftovers = 남은 음식",
+   "en": "What do you mean, lively?",
+   "ko": "활기차다는 게 무슨 뜻이야?",
+   "note": "what do you mean = 무슨 뜻이야",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "leftovers",
-     "leftover",
+     "mean",
+     "mean",
      ""
     ],
     [
-     "Future",
-     "future",
-     ""
-    ],
-    [
-     "busy",
-     "busy",
+     "lively",
+     "live",
      ""
     ]
    ]
@@ -155,31 +145,21 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Don't get me wrong, I like the system.",
-   "ko": "오해하지 마, 체계는 좋아.",
-   "note": "don't get me wrong = 오해하지 마",
+   "en": "I don't know. It's quiet now.",
+   "ko": "몰라. 지금은 조용한데.",
+   "note": "quiet = 조용한",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "get",
-     "get",
+     "know",
+     "know",
      ""
     ],
     [
-     "wrong",
-     "wrong",
-     ""
-    ],
-    [
-     "like",
-     "like",
-     ""
-    ],
-    [
-     "system",
-     "system",
+     "quiet",
+     "quiet",
      ""
     ]
    ]
@@ -187,31 +167,31 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "But my milk says \"OK to drink.\" What do you mean, OK?",
-   "ko": "근데 내 우유에 「마셔도 됨」이라고 써 있어. 됨이 뭐야?",
-   "note": "what do you mean = 무슨 말이야",
+   "en": "Wait, the floor is shaking. Is that… bowling?",
+   "ko": "잠깐, 바닥이 흔들려. 이거… 볼링이야?",
+   "note": "shake = 흔들리다",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "milk",
-     "milk",
+     "Wait",
+     "wait",
      ""
     ],
     [
-     "says",
-     "say",
+     "floor",
+     "floor",
      ""
     ],
     [
-     "drink",
-     "drink",
+     "shaking",
+     "shake",
      ""
     ],
     [
-     "mean",
-     "mean",
+     "bowling",
+     "bowl",
      ""
     ]
    ]
@@ -219,26 +199,26 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "It's a note for me. So I don't feel guilty.",
-   "ko": "나 보라고 쓴 메모야. 죄책감 안 들게.",
-   "note": "guilty = 죄책감 드는",
+   "en": "Someone just yelled \"strike!\"",
+   "ko": "방금 누가 \"스트라이크!\" 외쳤어.",
+   "note": "yell = 외치다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "note",
-     "note",
+     "Someone",
+     "someone",
      ""
     ],
     [
-     "feel",
-     "feel",
+     "yelled",
+     "yell",
      ""
     ],
     [
-     "guilty",
-     "guilty",
+     "strike",
+     "strike",
      ""
     ]
    ]
@@ -246,31 +226,26 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "You wrote permission for yourself on my milk?",
-   "ko": "내 우유에 너한테 주는 허락을 써 놨다고?",
-   "note": "permission = 허락",
+   "en": "There's a bowling alley under us.",
+   "ko": "우리 밑에 볼링장이 있어.",
+   "note": "under = ~ 아래",
    "tags": [],
    "new": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
-     "wrote",
-     "write",
+     "bowling",
+     "bowl",
      ""
     ],
     [
-     "permission",
-     "permission",
+     "alley",
+     "alley",
      ""
     ],
     [
-     "yourself",
-     "yourself",
-     ""
-    ],
-    [
-     "milk",
-     "milk",
+     "under",
+     "under",
      ""
     ]
    ]
@@ -278,12 +253,12 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "I swear I only had a little. Like, a coffee's worth.",
-   "ko": "맹세코 조금만 마셨어. 커피 한 잔 분량.",
-   "note": "i swear = 맹세해",
+   "en": "I swear the ad didn't say that.",
+   "ko": "맹세코 광고엔 그런 말 없었어.",
+   "note": "i swear = 맹세코",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "annoyed",
    "lemmas": [
     [
      "swear",
@@ -291,23 +266,13 @@
      ""
     ],
     [
-     "little",
-     "little",
+     "ad",
+     "ad",
      ""
     ],
     [
-     "Like",
-     "like",
-     ""
-    ],
-    [
-     "coffee's",
-     "coffee",
-     ""
-    ],
-    [
-     "worth",
-     "worth",
+     "say",
+     "say",
      ""
     ]
    ]
@@ -315,21 +280,21 @@
   {
    "num": 10,
    "speaker": "A",
-   "en": "The carton is empty, Daniel.",
-   "ko": "팩이 비었어, 다니엘.",
-   "note": "carton = 종이팩",
+   "en": "Is it open all night?",
+   "ko": "밤새 하는 거야?",
+   "note": "open all night = 밤새 영업하는",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "worried",
    "lemmas": [
     [
-     "carton",
-     "carton",
+     "open",
+     "open",
      ""
     ],
     [
-     "empty",
-     "empty",
+     "night",
+     "night",
      ""
     ]
    ]
@@ -337,21 +302,26 @@
   {
    "num": 11,
    "speaker": "B",
-   "en": "It's a large coffee.",
-   "ko": "큰 사이즈 커피야.",
-   "note": "변명",
+   "en": "Twenty-four hours. There's a sign.",
+   "ko": "24시간. 간판 있어.",
+   "note": "sign = 간판",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "large",
-     "large",
+     "Twenty",
+     "twenty",
      ""
     ],
     [
-     "coffee",
-     "coffee",
+     "hours",
+     "hour",
+     ""
+    ],
+    [
+     "sign",
+     "sign",
      ""
     ]
    ]
@@ -359,41 +329,16 @@
   {
    "num": 12,
    "speaker": "A",
-   "en": "New rule. Your label goes on my milk too: \"Buy more.\"",
-   "ko": "새 규칙. 내 우유에 네 이름표도 붙여: 「더 사 오기」.",
-   "note": "buy more = 더 사다",
+   "en": "So… we'd never sleep.",
+   "ko": "그럼… 우린 절대 못 자겠네.",
+   "note": "never = 절대 ~않다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "sad",
    "lemmas": [
     [
-     "New",
-     "new",
-     ""
-    ],
-    [
-     "rule",
-     "rule",
-     ""
-    ],
-    [
-     "label",
-     "label",
-     ""
-    ],
-    [
-     "goes",
-     "go",
-     ""
-    ],
-    [
-     "milk",
-     "milk",
-     ""
-    ],
-    [
-     "Buy",
-     "buy",
+     "sleep",
+     "sleep",
      ""
     ]
    ]
@@ -401,16 +346,16 @@
   {
    "num": 13,
    "speaker": "B",
-   "en": "Fair. I'll get two. One labeled \"Ours.\"",
-   "ko": "공평하네. 두 개 사 올게. 하나는 「우리 거」라고 붙여서.",
-   "note": "ours = 우리 것",
+   "en": "But residents get free shoes. I'm signing.",
+   "ko": "근데 주민은 볼링화 공짜래. 나 계약한다.",
+   "note": "resident = 주민",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Fair",
-     "fair",
+     "residents",
+     "residents",
      ""
     ],
     [
@@ -419,8 +364,18 @@
      ""
     ],
     [
-     "labeled",
-     "label",
+     "free",
+     "free",
+     ""
+    ],
+    [
+     "shoes",
+     "shoes",
+     ""
+    ],
+    [
+     "signing",
+     "sign",
      ""
     ]
    ]

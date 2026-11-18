@@ -1,23 +1,23 @@
 === r2_love_b3
-title: 비 오는 날 우산 하나
-emoji: ☂️
-scene: 버스 정류장에서 우산 없는 학습자에게 Emma 가 먼저 우산을 내밀고, 사실 집 방향이 정반대다
-where: 비 오는 버스 정류장
-goal: 호의 받기와 돌려 말하기
+title: 요리 수업 짝꿍
+emoji: 🍝
+scene: 동네 요리 수업에서 Emma 가 먼저 짝을 하자고 하는데, 알고 보니 명단에서 학습자 이름을 보고 같은 반에 신청했다
+where: 동네 요리 교실
+goal: 함께 일하며 가볍게 받아치기
 kind: long
 register: casual
 B: Emma
 twist: 9 reveal
 expr: are you sure | no big deal | i knew it
 --
-B | You're getting soaked. Come under here. | 너 다 젖는다. 여기 들어와. | soaked = 흠뻑 젖은 | emo=neutral
-A | Are you sure? It's a small umbrella. | 진짜 괜찮아? 우산 작은데. | are you sure = 확실해 | emo=polite
-B | It's fine. Which way are you going? | 괜찮아. 너 어느 쪽 가? | which way = 어느 쪽 | emo=neutral
-A | Up that hill. Ten minutes. | 저 언덕 위로. 10분. | hill = 언덕 | emo=neutral
-B | Same. Let's go. No big deal. | 나도. 가자. 별거 아냐. | no big deal = 별일 아냐 | emo=neutral
-A | Your shoulder's all wet, Emma. | 에마, 네 어깨 다 젖었어. | shoulder = 어깨 | emo=worried
-B | It's my bad side anyway. | 어차피 내 안 예쁜 쪽이야. | bad side = 안 예쁜 쪽 | emo=amused
-A | So where do you live? | 그래서 너 어디 살아? | where do you live = 어디 살아 | emo=neutral
-B | Um. Down there. Next to the bus stop. | 음. 저 아래. 버스 정류장 옆. | next to = ~ 옆 | emo=shy
-A | I knew it. You walked me up for nothing. | 그럴 줄 알았어. 괜히 나 데려다준 거네. | for nothing = 괜히 | emo=teasing
-B | Not for nothing. | 괜히는 아니야. | 짧게 끝내기 | emo=shy heart
+B | Hey, you need a partner? I'm a terrible cook. | 야, 짝 필요해? 나 요리 진짜 못해. | partner = 짝 | emo=neutral
+A | Are you sure you want me? I burn water. | 나랑 해도 괜찮겠어? 나 물도 태워. | are you sure = 확실해? | emo=neutral
+B | Perfect. We'll be bad together. | 완벽해. 같이 망하자. | together = 같이 | emo=neutral
+A | Okay. Step one says chop the onions. | 좋아. 1단계, 양파 썰기래. | chop = 썰다 | emo=neutral
+B | I'll do it. No big deal. | 내가 할게. 별거 아냐. | no big deal = 별일 아냐 | emo=neutral
+A | Emma, you're crying. | 에마, 너 울어. | crying = 우는 | emo=worried
+B | It's the onions. Not you. | 양파 때문이야. 너 때문 아니고. | not you = 너 말고 | emo=teasing
+A | So why did you pick this class? | 근데 이 수업은 왜 신청했어? | pick = 고르다 | emo=neutral
+B | Honestly? I saw your name on the list. | 솔직히? 명단에서 네 이름 봤거든. | on the list = 명단에 | emo=shy
+A | I knew it. You can cook, right? | 그럴 줄 알았어. 너 요리 잘하지? | i knew it = 그럴 줄 알았어 | emo=teasing
+B | A little. Next week, my place? | 조금. 다음 주엔 우리 집? | my place = 우리 집 | emo=shy heart

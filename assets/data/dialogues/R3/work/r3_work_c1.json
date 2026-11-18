@@ -10,11 +10,11 @@
  "domain": [
   "work"
  ],
- "title": "화상 회의 음소거",
- "emoji": "💻",
- "scene": "재택 화상 회의에서 음소거가 꺼진 줄 모르고 혼잣말을 하다가 팀장 마야가 그걸 칭찬으로 받아 준다",
- "where": "집, 화상 회의",
- "goal": "회의에서 의견 말하기·실수 수습하기",
+ "title": "송별 카드에 쓴 한마디",
+ "emoji": "💌",
+ "scene": "떠나는 동료 톰의 송별 카드를 돌려 쓰는데, 학습자가 \"드디어!\"라고 써 버리고 팀장 마야가 수습한다",
+ "where": "사무실 휴게실",
+ "goal": "격식 있는 인사말 쓰기·실수 수습하기",
  "speakers": {
   "A": "{name}",
   "B": "Maya"
@@ -32,36 +32,36 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Okay, last item. Any thoughts on the new schedule?",
-   "ko": "좋아요, 마지막 안건. 새 일정에 의견 있어요?",
-   "note": "thoughts = 의견",
+   "en": "Hey, can you sign Tom's farewell card? It's due by three.",
+   "ko": "저기요, 톰 송별 카드에 한마디 써 줄래요? 3시까지예요.",
+   "note": "farewell card = 송별 카드",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "last",
-     "last",
+     "sign",
+     "sign",
      ""
     ],
     [
-     "item",
-     "item",
+     "Tom's",
+     "tom",
      ""
     ],
     [
-     "thoughts",
-     "thought",
+     "farewell",
+     "farewell",
      ""
     ],
     [
-     "new",
-     "new",
+     "card",
+     "card",
      ""
     ],
     [
-     "schedule",
-     "schedule",
+     "due",
+     "due",
      ""
     ]
    ]
@@ -69,36 +69,31 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Sorry, give me a second. My cat's on the keyboard.",
-   "ko": "죄송해요, 잠깐만요. 고양이가 키보드 위에 있어서요.",
-   "note": "give me a second = 잠깐만",
+   "en": "Sure. What do people usually write?",
+   "ko": "그럼요. 보통 뭐라고 써요?",
+   "note": "usually = 보통",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Sorry",
-     "sorry",
+     "Sure",
+     "sure",
      ""
     ],
     [
-     "give",
-     "give",
+     "people",
+     "person",
      ""
     ],
     [
-     "second",
-     "second",
+     "usually",
+     "usual",
      ""
     ],
     [
-     "cat's",
-     "cat",
-     ""
-    ],
-    [
-     "keyboard",
-     "keyboard",
+     "write",
+     "write",
      ""
     ]
    ]
@@ -106,31 +101,36 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Take your time. We love the cat.",
-   "ko": "천천히 해요. 다들 고양이 좋아해요.",
-   "note": "take your time = 천천히",
+   "en": "Something short. \"Good luck,\" \"We'll miss you.\"",
+   "ko": "짧게요. \"행운을 빌어요\", \"보고 싶을 거예요.\"",
+   "note": "miss = 그리워하다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Take",
-     "take",
+     "Something",
+     "something",
      ""
     ],
     [
-     "time",
-     "time",
+     "short",
+     "short",
      ""
     ],
     [
-     "love",
-     "love",
+     "Good",
+     "better",
      ""
     ],
     [
-     "cat",
-     "cat",
+     "luck",
+     "luck",
+     ""
+    ],
+    [
+     "miss",
+     "miss",
      ""
     ]
    ]
@@ -138,12 +138,12 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Okay. To be honest, the Monday meeting feels a little early.",
-   "ko": "네. 솔직히 월요일 회의가 좀 이른 것 같아요.",
+   "en": "To be honest, I only talked to him twice.",
+   "ko": "솔직히 그분이랑 딱 두 번 얘기했어요.",
    "note": "to be honest = 솔직히",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "honest",
@@ -151,28 +151,13 @@
      ""
     ],
     [
-     "Monday",
-     "monday",
+     "talked",
+     "talk",
      ""
     ],
     [
-     "meeting",
-     "meet",
-     ""
-    ],
-    [
-     "feels",
-     "feel",
-     ""
-    ],
-    [
-     "little",
-     "little",
-     ""
-    ],
-    [
-     "early",
-     "early",
+     "twice",
+     "twice",
      ""
     ]
    ]
@@ -180,26 +165,26 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Fair. How early is too early?",
-   "ko": "그럴 수 있죠. 얼마나 이르면 너무 이른 거예요?",
-   "note": "too early = 너무 이른",
+   "en": "That's fine. Keep it simple.",
+   "ko": "괜찮아요. 간단하게 써요.",
+   "note": "keep it simple = 간단하게",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Fair",
-     "fair",
+     "fine",
+     "fine",
      ""
     ],
     [
-     "early",
-     "early",
+     "Keep",
+     "keep",
      ""
     ],
     [
-     "early",
-     "early",
+     "simple",
+     "simple",
      ""
     ]
    ]
@@ -207,36 +192,31 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Eight is fine. Seven means I'm still asleep. Actually, I'm still asleep at eight.",
-   "ko": "8시는 괜찮아요. 7시면 전 아직 자요. 사실 8시에도 자요.",
-   "note": "혼잣말이 다 들림",
+   "en": "Okay… \"Finally! Good luck, Tom.\"",
+   "ko": "좋아요… \"드디어! 행운을 빌어요, 톰.\"",
+   "note": "「드디어!」 말실수",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "fine",
-     "fine",
+     "Finally",
+     "final",
      ""
     ],
     [
-     "means",
-     "mean",
+     "Good",
+     "better",
      ""
     ],
     [
-     "asleep",
-     "asleep",
+     "luck",
+     "luck",
      ""
     ],
     [
-     "Actually",
-     "actual",
-     ""
-    ],
-    [
-     "asleep",
-     "asleep",
+     "Tom",
+     "tom",
      ""
     ]
    ]
@@ -244,26 +224,26 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "You know you're not muted, right?",
-   "ko": "음소거 안 된 거 알죠?",
-   "note": "muted = 음소거된",
+   "en": "Finally? You wrote \"finally\"?",
+   "ko": "드디어요? \"드디어\"라고 썼어요?",
+   "note": "finally = 드디어",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "know",
-     "know",
+     "Finally",
+     "final",
      ""
     ],
     [
-     "muted",
-     "mute",
+     "wrote",
+     "write",
      ""
     ],
     [
-     "right",
-     "right",
+     "finally",
+     "final",
      ""
     ]
    ]
@@ -271,26 +251,36 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Oh no. My bad. Everyone heard that?",
-   "ko": "이런. 제 실수예요. 다들 들으셨어요?",
-   "note": "my bad = 내 실수",
+   "en": "I meant \"finally retiring.\" Like, congrats!",
+   "ko": "\"드디어 은퇴\"라는 뜻이었어요. 축하한다는!",
+   "note": "i meant = ~라는 뜻이었다",
    "tags": [],
    "new": [],
    "emotion": "flustered",
    "lemmas": [
     [
-     "bad",
-     "worse",
+     "meant",
+     "mean",
      ""
     ],
     [
-     "Everyone",
-     "everyone",
+     "finally",
+     "final",
      ""
     ],
     [
-     "heard",
-     "hear",
+     "retiring",
+     "retire",
+     ""
+    ],
+    [
+     "Like",
+     "like",
+     ""
+    ],
+    [
+     "congrats",
+     "congrats",
      ""
     ]
    ]
@@ -298,21 +288,31 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "Everyone. Even the client.",
-   "ko": "다요. 고객사도요.",
-   "note": "client = 고객사",
+   "en": "He's not retiring. He's moving to our biggest competitor.",
+   "ko": "은퇴 아니에요. 제일 큰 경쟁사로 옮기는 거예요.",
+   "note": "competitor = 경쟁사",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Everyone",
-     "everyone",
+     "retiring",
+     "retire",
      ""
     ],
     [
-     "client",
-     "client",
+     "moving",
+     "move",
+     ""
+    ],
+    [
+     "biggest",
+     "biggest",
+     ""
+    ],
+    [
+     "competitor",
+     "competitor",
      ""
     ]
    ]
@@ -320,21 +320,21 @@
   {
    "num": 10,
    "speaker": "A",
-   "en": "I'm so sorry. That was very unprofessional.",
-   "ko": "정말 죄송해요. 너무 프로답지 못했어요.",
-   "note": "unprofessional = 프로답지 못한",
+   "en": "Oh no. My bad. Can I fix it?",
+   "ko": "이런. 제 실수예요. 고칠 수 있어요?",
+   "note": "my bad = 내 실수",
    "tags": [],
    "new": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "sorry",
-     "sorry",
+     "bad",
+     "worse",
      ""
     ],
     [
-     "unprofessional",
-     "unprofessional",
+     "fix",
+     "fix",
      ""
     ]
    ]
@@ -342,41 +342,21 @@
   {
    "num": 11,
    "speaker": "B",
-   "en": "That being said, it's the most honest thing anyone said today.",
-   "ko": "그렇긴 한데, 오늘 나온 말 중에 제일 솔직했어요.",
+   "en": "It's in pen. That being said…",
+   "ko": "펜으로 썼잖아요. 그렇긴 한데…",
    "note": "that being said = 그렇긴 해도",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "said",
-     "say",
-     ""
-    ],
-    [
-     "honest",
-     "honest",
-     ""
-    ],
-    [
-     "thing",
-     "thing",
-     ""
-    ],
-    [
-     "anyone",
-     "anyone",
+     "pen",
+     "pen",
      ""
     ],
     [
      "said",
      "say",
-     ""
-    ],
-    [
-     "today",
-     "today",
      ""
     ]
    ]
@@ -384,26 +364,31 @@
   {
    "num": 12,
    "speaker": "B",
-   "en": "The client says they're asleep at eight too.",
-   "ko": "고객사도 8시엔 잔대요.",
-   "note": "반전",
+   "en": "Add \"…we'll be watching you.\" Now it sounds tough.",
+   "ko": "\"…지켜보겠습니다\"를 붙여요. 그럼 세 보여요.",
+   "note": "tough = 강한",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
-     "client",
-     "client",
+     "Add",
+     "add",
      ""
     ],
     [
-     "says",
-     "say",
+     "watching",
+     "watch",
      ""
     ],
     [
-     "asleep",
-     "asleep",
+     "sounds",
+     "sound",
+     ""
+    ],
+    [
+     "tough",
+     "tough",
      ""
     ]
    ]
@@ -411,16 +396,26 @@
   {
    "num": 13,
    "speaker": "A",
-   "en": "So we're moving it?",
-   "ko": "그럼 옮기는 거예요?",
-   "note": "move = 옮기다",
+   "en": "\"Finally! We'll be watching you.\" That's scary.",
+   "ko": "\"드디어! 지켜보겠습니다.\" 그거 무서운데요.",
+   "note": "scary = 무서운",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "moving",
-     "move",
+     "Finally",
+     "final",
+     ""
+    ],
+    [
+     "watching",
+     "watch",
+     ""
+    ],
+    [
+     "scary",
+     "scary",
      ""
     ]
    ]
@@ -428,21 +423,21 @@
   {
    "num": 14,
    "speaker": "B",
-   "en": "Nine-thirty. All because of you and the cat.",
-   "ko": "9시 반이요. 전부 당신하고 고양이 덕분이에요.",
-   "note": "because of = ~때문에",
+   "en": "Perfect. He'll frame it.",
+   "ko": "완벽해요. 액자에 넣으실 거예요.",
+   "note": "frame = 액자에 넣다",
    "tags": [],
    "new": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "thirty",
-     "thirty",
+     "Perfect",
+     "perfect",
      ""
     ],
     [
-     "cat",
-     "cat",
+     "frame",
+     "frame",
      ""
     ]
    ]

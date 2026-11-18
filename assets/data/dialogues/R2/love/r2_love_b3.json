@@ -10,11 +10,11 @@
  "domain": [
   "love"
  ],
- "title": "비 오는 날 우산 하나",
- "emoji": "☂️",
- "scene": "버스 정류장에서 우산 없는 학습자에게 Emma 가 먼저 우산을 내밀고, 사실 집 방향이 정반대다",
- "where": "비 오는 버스 정류장",
- "goal": "호의 받기와 돌려 말하기",
+ "title": "요리 수업 짝꿍",
+ "emoji": "🍝",
+ "scene": "동네 요리 수업에서 Emma 가 먼저 짝을 하자고 하는데, 알고 보니 명단에서 학습자 이름을 보고 같은 반에 신청했다",
+ "where": "동네 요리 교실",
+ "goal": "함께 일하며 가볍게 받아치기",
  "speakers": {
   "A": "{name}",
   "B": "Emma"
@@ -32,31 +32,31 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "You're getting soaked. Come under here.",
-   "ko": "너 다 젖는다. 여기 들어와.",
-   "note": "soaked = 흠뻑 젖은",
+   "en": "Hey, you need a partner? I'm a terrible cook.",
+   "ko": "야, 짝 필요해? 나 요리 진짜 못해.",
+   "note": "partner = 짝",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "getting",
-     "get",
+     "need",
+     "need",
      ""
     ],
     [
-     "soaked",
-     "soaked",
+     "partner",
+     "partner",
      ""
     ],
     [
-     "Come",
-     "come",
+     "terrible",
+     "terrible",
      ""
     ],
     [
-     "under",
-     "under",
+     "cook",
+     "cook",
      ""
     ]
    ]
@@ -64,12 +64,12 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Are you sure? It's a small umbrella.",
-   "ko": "진짜 괜찮아? 우산 작은데.",
-   "note": "are you sure = 확실해",
+   "en": "Are you sure you want me? I burn water.",
+   "ko": "나랑 해도 괜찮겠어? 나 물도 태워.",
+   "note": "are you sure = 확실해?",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "sure",
@@ -77,13 +77,18 @@
      ""
     ],
     [
-     "small",
-     "small",
+     "want",
+     "want",
      ""
     ],
     [
-     "umbrella",
-     "umbrella",
+     "burn",
+     "burn",
+     ""
+    ],
+    [
+     "water",
+     "water",
      ""
     ]
    ]
@@ -91,26 +96,26 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "It's fine. Which way are you going?",
-   "ko": "괜찮아. 너 어느 쪽 가?",
-   "note": "which way = 어느 쪽",
+   "en": "Perfect. We'll be bad together.",
+   "ko": "완벽해. 같이 망하자.",
+   "note": "together = 같이",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "fine",
-     "fine",
+     "Perfect",
+     "perfect",
      ""
     ],
     [
-     "way",
-     "way",
+     "bad",
+     "worse",
      ""
     ],
     [
-     "going",
-     "going",
+     "together",
+     "together",
      ""
     ]
    ]
@@ -118,21 +123,31 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Up that hill. Ten minutes.",
-   "ko": "저 언덕 위로. 10분.",
-   "note": "hill = 언덕",
+   "en": "Okay. Step one says chop the onions.",
+   "ko": "좋아. 1단계, 양파 썰기래.",
+   "note": "chop = 썰다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "hill",
-     "hill",
+     "Step",
+     "step",
      ""
     ],
     [
-     "minutes",
-     "minute",
+     "says",
+     "say",
+     ""
+    ],
+    [
+     "chop",
+     "chop",
+     ""
+    ],
+    [
+     "onions",
+     "onion",
      ""
     ]
    ]
@@ -140,23 +155,13 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Same. Let's go. No big deal.",
-   "ko": "나도. 가자. 별거 아냐.",
+   "en": "I'll do it. No big deal.",
+   "ko": "내가 할게. 별거 아냐.",
    "note": "no big deal = 별일 아냐",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
-    [
-     "Let's",
-     "let",
-     ""
-    ],
-    [
-     "go",
-     "go",
-     ""
-    ],
     [
      "big",
      "big",
@@ -172,16 +177,16 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Your shoulder's all wet, Emma.",
-   "ko": "에마, 네 어깨 다 젖었어.",
-   "note": "shoulder = 어깨",
+   "en": "Emma, you're crying.",
+   "ko": "에마, 너 울어.",
+   "note": "crying = 우는",
    "tags": [],
    "new": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "wet",
-     "wet",
+     "crying",
+     "cry",
      ""
     ]
    ]
@@ -189,26 +194,16 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "It's my bad side anyway.",
-   "ko": "어차피 내 안 예쁜 쪽이야.",
-   "note": "bad side = 안 예쁜 쪽",
+   "en": "It's the onions. Not you.",
+   "ko": "양파 때문이야. 너 때문 아니고.",
+   "note": "not you = 너 말고",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "bad",
-     "worse",
-     ""
-    ],
-    [
-     "side",
-     "side",
-     ""
-    ],
-    [
-     "anyway",
-     "anyway",
+     "onions",
+     "onion",
      ""
     ]
    ]
@@ -216,16 +211,21 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "So where do you live?",
-   "ko": "그래서 너 어디 살아?",
-   "note": "where do you live = 어디 살아",
+   "en": "So why did you pick this class?",
+   "ko": "근데 이 수업은 왜 신청했어?",
+   "note": "pick = 고르다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "live",
-     "live",
+     "pick",
+     "pick",
+     ""
+    ],
+    [
+     "class",
+     "class",
      ""
     ]
    ]
@@ -233,26 +233,31 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "Um. Down there. Next to the bus stop.",
-   "ko": "음. 저 아래. 버스 정류장 옆.",
-   "note": "next to = ~ 옆",
+   "en": "Honestly? I saw your name on the list.",
+   "ko": "솔직히? 명단에서 네 이름 봤거든.",
+   "note": "on the list = 명단에",
    "tags": [],
    "new": [],
    "emotion": "shy",
    "lemmas": [
     [
-     "Next",
-     "next",
+     "Honestly",
+     "honest",
      ""
     ],
     [
-     "bus",
-     "bus",
+     "saw",
+     "see",
      ""
     ],
     [
-     "stop",
-     "stop",
+     "name",
+     "name",
+     ""
+    ],
+    [
+     "list",
+     "list",
      ""
     ]
    ]
@@ -260,9 +265,9 @@
   {
    "num": 10,
    "speaker": "A",
-   "en": "I knew it. You walked me up for nothing.",
-   "ko": "그럴 줄 알았어. 괜히 나 데려다준 거네.",
-   "note": "for nothing = 괜히",
+   "en": "I knew it. You can cook, right?",
+   "ko": "그럴 줄 알았어. 너 요리 잘하지?",
+   "note": "i knew it = 그럴 줄 알았어",
    "tags": [],
    "new": [],
    "emotion": "teasing",
@@ -273,13 +278,13 @@
      ""
     ],
     [
-     "walked",
-     "walk",
+     "cook",
+     "cook",
      ""
     ],
     [
-     "nothing",
-     "nothing",
+     "right",
+     "right",
      ""
     ]
    ]
@@ -287,9 +292,9 @@
   {
    "num": 11,
    "speaker": "B",
-   "en": "Not for nothing.",
-   "ko": "괜히는 아니야.",
-   "note": "짧게 끝내기",
+   "en": "A little. Next week, my place?",
+   "ko": "조금. 다음 주엔 우리 집?",
+   "note": "my place = 우리 집",
    "tags": [
     "heart"
    ],
@@ -297,8 +302,23 @@
    "emotion": "shy",
    "lemmas": [
     [
-     "nothing",
-     "nothing",
+     "little",
+     "little",
+     ""
+    ],
+    [
+     "Next",
+     "next",
+     ""
+    ],
+    [
+     "week",
+     "week",
+     ""
+    ],
+    [
+     "place",
+     "place",
      ""
     ]
    ]

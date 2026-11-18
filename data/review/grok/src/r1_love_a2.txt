@@ -1,8 +1,8 @@
 === r1_love_a2
-title: 빨래방에서 양말 한 짝
-emoji: 🧦
-scene: 빨래방에서 Emma 가 학습자 양말 한 짝을 들고 와 "이거 찾아요?" 하더니 돌려주는 조건을 건다
-where: 동네 빨래방
+title: 리드줄이 엉켰다
+emoji: 🐕
+scene: 공원에서 Emma 의 개와 학습자의 개 리드줄이 엉키고, 줄을 풀어 주던 Emma 가 먼저 마음을 내비친다
+where: 동네 공원 산책로
 goal: 가볍게 대화 이어 가기
 kind: short
 register: casual
@@ -10,11 +10,11 @@ B: Emma
 twist: 6 emotion
 expr: excuse me | are you sure | i guess | maybe
 --
-B | Excuse me. Are you missing a sock? | 저기요. 양말 한 짝 없어지지 않았어요? | missing = 없어진 | emo=neutral
-A | Maybe. Is it blue with little cats? | 그럴지도요. 작은 고양이 있는 파란 거요? | maybe = 그럴지도 | emo=neutral
-B | Yep. Very serious sock. | 네. 아주 진지한 양말이네요. | serious = 진지한 | emo=neutral
-A | Can I have it back? | 돌려주실래요? | Can I have ~ back? = 돌려주세요 | emo=polite
-B | One coffee. Then it's yours. | 커피 한 잔이요. 그럼 돌려드릴게요. | then it's yours = 그럼 당신 거 | emo=neutral
-B | I guess I just want coffee with you. | 그냥 당신이랑 커피 마시고 싶은 거 같아요. | I guess = ~인 것 같아요 | emo=shy heart
-A | Are you sure it's not your sock plan? | 그거 양말 작전 아니에요? | are you sure = 확실해요? | emo=teasing
-B | It was. It worked. | 맞아요. 먹혔네요. | it worked = 통했다 | emo=amused
+B | Excuse me. I think our dogs are friends now. | 저기요. 우리 개들 이제 친구 된 것 같아요. | excuse me = 저기요 | emo=neutral
+A | Maybe too friendly. Look at the leashes. | 너무 친해진 것 같은데요. 줄 좀 봐요. | maybe = 아마 | emo=neutral
+B | Okay, you go left. I go right. | 좋아요, 그쪽은 왼쪽으로. 난 오른쪽. | go left = 왼쪽으로 가다 | emo=neutral
+A | Now it's worse. | 이제 더 심해졌어요. | worse = 더 나쁜 | emo=neutral
+B | Hold still. Let me do it. | 가만있어요. 내가 할게요. | hold still = 가만있다 | emo=gentle
+B | I guess I walk here every day. Just saying. | 난 매일 여기 걷는 것 같아요. 그냥 하는 말이에요. | I guess = ~인 것 같아요 | emo=shy heart
+A | Are you sure this was an accident? | 이거 사고 맞아요? | are you sure = 확실해요? | emo=teasing
+B | My dog did it. Not me. Maybe. | 우리 개가 한 거예요. 난 아니고. 아마도. | maybe = 아마도 | emo=amused

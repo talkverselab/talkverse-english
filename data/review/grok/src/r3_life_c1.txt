@@ -1,25 +1,25 @@
 === r3_life_c1
-title: 냉장고 이름표 전쟁
-emoji: 🧊
-scene: 룸메이트 다니엘이 냉장고 모든 칸에 이름표를 붙였는데, 학습자 우유에만 「먹어도 됨」이라고 적혀 있다
-where: 아파트 부엌
-goal: 집안 규칙 정하기·불만 말하기
+title: 집 보러 갔더니 볼링장 위
+emoji: 🎳
+scene: 대니얼과 싸고 넓은 아파트를 보러 갔는데, 바닥 아래가 24시간 볼링장이다
+where: 매물로 나온 아파트
+goal: 집 조건 묻고 따지기
 kind: long
 register: casual
 B: Daniel
 twist: 6 chaos
 expr: what do you mean | don't get me wrong | i swear
 --
-A | Daniel, why is everything in the fridge labeled? | 다니엘, 냉장고에 왜 전부 이름표가 붙어 있어? | labeled = 이름표가 붙은 | emo=surprised
-B | System. Top shelf is mine, middle is yours. | 체계야. 위 칸은 내 거, 가운데는 네 거. | shelf = 선반, 칸 | emo=neutral
-A | And the bottom shelf says "Daniel later." | 근데 아래 칸에는 「다니엘 나중에」라고 써 있는데. | later = 나중에 | emo=neutral
-B | That's for leftovers. Future me is very busy. | 그건 남은 음식용. 미래의 나는 아주 바쁘거든. | leftovers = 남은 음식 | emo=neutral
-A | Don't get me wrong, I like the system. | 오해하지 마, 체계는 좋아. | don't get me wrong = 오해하지 마 | emo=polite
-A | But my milk says "OK to drink." What do you mean, OK? | 근데 내 우유에 「마셔도 됨」이라고 써 있어. 됨이 뭐야? | what do you mean = 무슨 말이야 | emo=annoyed
-B | It's a note for me. So I don't feel guilty. | 나 보라고 쓴 메모야. 죄책감 안 들게. | guilty = 죄책감 드는 | emo=neutral
-A | You wrote permission for yourself on my milk? | 내 우유에 너한테 주는 허락을 써 놨다고? | permission = 허락 | emo=tsukkomi
-B | I swear I only had a little. Like, a coffee's worth. | 맹세코 조금만 마셨어. 커피 한 잔 분량. | i swear = 맹세해 | emo=flustered
-A | The carton is empty, Daniel. | 팩이 비었어, 다니엘. | carton = 종이팩 | emo=annoyed
-B | It's a large coffee. | 큰 사이즈 커피야. | 변명 | emo=neutral
-A | New rule. Your label goes on my milk too: "Buy more." | 새 규칙. 내 우유에 네 이름표도 붙여: 「더 사 오기」. | buy more = 더 사다 | emo=neutral
-B | Fair. I'll get two. One labeled "Ours." | 공평하네. 두 개 사 올게. 하나는 「우리 거」라고 붙여서. | ours = 우리 것 | emo=gentle
+A | Daniel, this place is huge. And cheap. | 대니얼, 여기 엄청 넓어. 게다가 싸. | huge = 엄청 큰 | emo=neutral
+B | Don't get me wrong, I love it. But why so cheap? | 오해하지 마, 나도 좋아. 근데 왜 이렇게 싸? | don't get me wrong = 오해하지 마 | emo=neutral
+A | The ad says "lively neighborhood." | 광고에 "활기찬 동네"래. | lively = 활기찬 | emo=neutral
+B | What do you mean, lively? | 활기차다는 게 무슨 뜻이야? | what do you mean = 무슨 뜻이야 | emo=neutral
+A | I don't know. It's quiet now. | 몰라. 지금은 조용한데. | quiet = 조용한 | emo=neutral
+A | Wait, the floor is shaking. Is that… bowling? | 잠깐, 바닥이 흔들려. 이거… 볼링이야? | shake = 흔들리다 | emo=surprised
+B | Someone just yelled "strike!" | 방금 누가 "스트라이크!" 외쳤어. | yell = 외치다 | emo=neutral
+A | There's a bowling alley under us. | 우리 밑에 볼링장이 있어. | under = ~ 아래 | emo=tsukkomi
+B | I swear the ad didn't say that. | 맹세코 광고엔 그런 말 없었어. | i swear = 맹세코 | emo=annoyed
+A | Is it open all night? | 밤새 하는 거야? | open all night = 밤새 영업하는 | emo=worried
+B | Twenty-four hours. There's a sign. | 24시간. 간판 있어. | sign = 간판 | emo=neutral
+A | So… we'd never sleep. | 그럼… 우린 절대 못 자겠네. | never = 절대 ~않다 | emo=sad
+B | But residents get free shoes. I'm signing. | 근데 주민은 볼링화 공짜래. 나 계약한다. | resident = 주민 | emo=cheerful

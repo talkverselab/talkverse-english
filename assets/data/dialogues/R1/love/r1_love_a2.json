@@ -10,10 +10,10 @@
  "domain": [
   "love"
  ],
- "title": "빨래방에서 양말 한 짝",
- "emoji": "🧦",
- "scene": "빨래방에서 Emma 가 학습자 양말 한 짝을 들고 와 \"이거 찾아요?\" 하더니 돌려주는 조건을 건다",
- "where": "동네 빨래방",
+ "title": "리드줄이 엉켰다",
+ "emoji": "🐕",
+ "scene": "공원에서 Emma 의 개와 학습자의 개 리드줄이 엉키고, 줄을 풀어 주던 Emma 가 먼저 마음을 내비친다",
+ "where": "동네 공원 산책로",
  "goal": "가볍게 대화 이어 가기",
  "speakers": {
   "A": "{name}",
@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Excuse me. Are you missing a sock?",
-   "ko": "저기요. 양말 한 짝 없어지지 않았어요?",
-   "note": "missing = 없어진",
+   "en": "Excuse me. I think our dogs are friends now.",
+   "ko": "저기요. 우리 개들 이제 친구 된 것 같아요.",
+   "note": "excuse me = 저기요",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -46,13 +46,18 @@
      ""
     ],
     [
-     "missing",
-     "miss",
+     "think",
+     "think",
      ""
     ],
     [
-     "sock",
-     "sock",
+     "dogs",
+     "dog",
+     ""
+    ],
+    [
+     "friends",
+     "friend",
      ""
     ]
    ]
@@ -60,9 +65,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Maybe. Is it blue with little cats?",
-   "ko": "그럴지도요. 작은 고양이 있는 파란 거요?",
-   "note": "maybe = 그럴지도",
+   "en": "Maybe too friendly. Look at the leashes.",
+   "ko": "너무 친해진 것 같은데요. 줄 좀 봐요.",
+   "note": "maybe = 아마",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -73,18 +78,18 @@
      ""
     ],
     [
-     "blue",
-     "blue",
+     "friendly",
+     "friend",
      ""
     ],
     [
-     "little",
-     "little",
+     "Look",
+     "look",
      ""
     ],
     [
-     "cats",
-     "cat",
+     "leashes",
+     "leash",
      ""
     ]
    ]
@@ -92,21 +97,31 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Yep. Very serious sock.",
-   "ko": "네. 아주 진지한 양말이네요.",
-   "note": "serious = 진지한",
+   "en": "Okay, you go left. I go right.",
+   "ko": "좋아요, 그쪽은 왼쪽으로. 난 오른쪽.",
+   "note": "go left = 왼쪽으로 가다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "serious",
-     "serious",
+     "go",
+     "go",
      ""
     ],
     [
-     "sock",
-     "sock",
+     "left",
+     "leave",
+     ""
+    ],
+    [
+     "go",
+     "go",
+     ""
+    ],
+    [
+     "right",
+     "right",
      ""
     ]
    ]
@@ -114,27 +129,38 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Can I have it back?",
-   "ko": "돌려주실래요?",
-   "note": "Can I have ~ back? = 돌려주세요",
-   "tags": [],
-   "new": [],
-   "emotion": "polite",
-   "lemmas": []
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "en": "One coffee. Then it's yours.",
-   "ko": "커피 한 잔이요. 그럼 돌려드릴게요.",
-   "note": "then it's yours = 그럼 당신 거",
+   "en": "Now it's worse.",
+   "ko": "이제 더 심해졌어요.",
+   "note": "worse = 더 나쁜",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "coffee",
-     "coffee",
+     "worse",
+     "bad",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Hold still. Let me do it.",
+   "ko": "가만있어요. 내가 할게요.",
+   "note": "hold still = 가만있다",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Hold",
+     "hold",
+     ""
+    ],
+    [
+     "Let",
+     "let",
      ""
     ]
    ]
@@ -142,8 +168,8 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "I guess I just want coffee with you.",
-   "ko": "그냥 당신이랑 커피 마시고 싶은 거 같아요.",
+   "en": "I guess I walk here every day. Just saying.",
+   "ko": "난 매일 여기 걷는 것 같아요. 그냥 하는 말이에요.",
    "note": "I guess = ~인 것 같아요",
    "tags": [
     "heart"
@@ -157,13 +183,18 @@
      ""
     ],
     [
-     "want",
-     "want",
+     "walk",
+     "walk",
      ""
     ],
     [
-     "coffee",
-     "coffee",
+     "day",
+     "day",
+     ""
+    ],
+    [
+     "saying",
+     "say",
      ""
     ]
    ]
@@ -171,8 +202,8 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Are you sure it's not your sock plan?",
-   "ko": "그거 양말 작전 아니에요?",
+   "en": "Are you sure this was an accident?",
+   "ko": "이거 사고 맞아요?",
    "note": "are you sure = 확실해요?",
    "tags": [],
    "new": [],
@@ -184,13 +215,8 @@
      ""
     ],
     [
-     "sock",
-     "sock",
-     ""
-    ],
-    [
-     "plan",
-     "plan",
+     "accident",
+     "accident",
      ""
     ]
    ]
@@ -198,16 +224,21 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "It was. It worked.",
-   "ko": "맞아요. 먹혔네요.",
-   "note": "it worked = 통했다",
+   "en": "My dog did it. Not me. Maybe.",
+   "ko": "우리 개가 한 거예요. 난 아니고. 아마도.",
+   "note": "maybe = 아마도",
    "tags": [],
    "new": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "worked",
-     "work",
+     "dog",
+     "dog",
+     ""
+    ],
+    [
+     "Maybe",
+     "maybe",
      ""
     ]
    ]

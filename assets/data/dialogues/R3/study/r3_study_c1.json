@@ -10,11 +10,11 @@
  "domain": [
   "study"
  ],
- "title": "조별 과제 무임승차",
- "emoji": "📚",
- "scene": "조별 발표 전날, 연락이 없던 제이크가 나타나 자기가 다 했다고 하는데, 정말로 다 해 놨다",
- "where": "학교 도서관 스터디룸",
- "goal": "역할 나누기·불만 정중하게 말하기",
+ "title": "언어 교환 파트너의 비밀",
+ "emoji": "🗣️",
+ "scene": "학습자가 제이크와 영어·한국어 언어 교환을 하는데, 한국어를 못한다던 제이크가 사실 한국 드라마를 자막 없이 본다",
+ "where": "학교 카페",
+ "goal": "서로 가르치고 고쳐 주기",
  "speakers": {
   "A": "{name}",
   "B": "Jake"
@@ -32,21 +32,26 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Jake! The presentation is tomorrow. Where have you been?",
-   "ko": "제이크! 발표 내일이야. 어디 있었어?",
-   "note": "presentation = 발표",
+   "en": "Okay, Jake. Your turn. Say \"annyeong.\"",
+   "ko": "좋아, 제이크. 네 차례야. \"안녕\" 해 봐.",
+   "note": "your turn = 네 차례",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "presentation",
-     "presentation",
+     "turn",
+     "turn",
      ""
     ],
     [
-     "tomorrow",
-     "tomorrow",
+     "Say",
+     "say",
+     ""
+    ],
+    [
+     "annyeong",
+     "annyeong",
      ""
     ]
    ]
@@ -54,26 +59,26 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Busy. Very busy. You know how it is.",
-   "ko": "바빴어. 엄청. 알잖아.",
-   "note": "you know how it is = 알잖아",
+   "en": "Ahn… nyong? Like that?",
+   "ko": "안… 뇽? 이렇게?",
+   "note": "like that = 이렇게",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Busy",
-     "busy",
+     "Ahn",
+     "ahn",
      ""
     ],
     [
-     "busy",
-     "busy",
+     "nyong",
+     "nyong",
      ""
     ],
     [
-     "know",
-     "know",
+     "Like",
+     "like",
      ""
     ]
    ]
@@ -81,26 +86,31 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "I don't, actually. You didn't answer for two weeks.",
-   "ko": "사실 몰라. 너 2주 동안 답이 없었어.",
-   "note": "answer = 답하다",
+   "en": "Close. Now help me with my English essay.",
+   "ko": "비슷해. 이제 내 영어 에세이 좀 봐 줘.",
+   "note": "close = 비슷해",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "actually",
-     "actual",
+     "Close",
+     "close",
      ""
     ],
     [
-     "answer",
-     "answer",
+     "help",
+     "help",
      ""
     ],
     [
-     "weeks",
-     "week",
+     "English",
+     "english",
+     ""
+    ],
+    [
+     "essay",
+     "essay",
      ""
     ]
    ]
@@ -108,26 +118,26 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "My phone was in a drawer. On purpose.",
-   "ko": "폰을 서랍에 넣어 놨거든. 일부러.",
-   "note": "drawer = 서랍",
+   "en": "Sure. This sentence is kinda stiff.",
+   "ko": "그래. 이 문장 좀 딱딱하다.",
+   "note": "kinda = 좀",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "phone",
-     "phone",
+     "Sure",
+     "sure",
      ""
     ],
     [
-     "drawer",
-     "draw",
+     "sentence",
+     "sentence",
      ""
     ],
     [
-     "purpose",
-     "purpose",
+     "stiff",
+     "stiff",
      ""
     ]
    ]
@@ -135,26 +145,26 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "So I did all the slides myself. All twenty.",
-   "ko": "그래서 내가 슬라이드 혼자 다 했어. 스무 장 전부.",
-   "note": "slides = 슬라이드",
+   "en": "Stiff? What are you talking about? It's perfect.",
+   "ko": "딱딱해? 무슨 소리야? 완벽한데.",
+   "note": "what are you talking about = 무슨 소리야",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "slides",
-     "slide",
+     "Stiff",
+     "stiff",
      ""
     ],
     [
-     "myself",
-     "myself",
+     "talking",
+     "talk",
      ""
     ],
     [
-     "twenty",
-     "twenty",
+     "perfect",
+     "perfect",
      ""
     ]
    ]
@@ -162,26 +172,26 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Twenty? I made thirty.",
-   "ko": "스무 장? 난 서른 장 만들었는데.",
-   "note": "반전 시작",
+   "en": "As if. Nobody says \"I am very much delighted.\"",
+   "ko": "퍽이나. 아무도 \"I am very much delighted\" 라고 안 해.",
+   "note": "as if = 퍽이나",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Twenty",
-     "twenty",
+     "Nobody",
+     "nobody",
      ""
     ],
     [
-     "made",
-     "make",
+     "says",
+     "say",
      ""
     ],
     [
-     "thirty",
-     "thirty",
+     "delighted",
+     "delighted",
      ""
     ]
    ]
@@ -189,196 +199,12 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "What are you talking about?",
-   "ko": "무슨 소리야?",
-   "note": "what are you talking about = 무슨 소리야",
-   "tags": [],
-   "new": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "talking",
-     "talk",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "en": "Phone in the drawer, laptop on the desk. No distractions.",
-   "ko": "폰은 서랍에, 노트북은 책상에. 방해 없이.",
-   "note": "distraction = 방해 요소",
+   "en": "Fine. You're a good teacher.",
+   "ko": "알았어. 너 잘 가르친다.",
+   "note": "teacher = 선생님",
    "tags": [],
    "new": [],
    "emotion": "neutral",
-   "lemmas": [
-    [
-     "Phone",
-     "phone",
-     ""
-    ],
-    [
-     "drawer",
-     "draw",
-     ""
-    ],
-    [
-     "laptop",
-     "laptop",
-     ""
-    ],
-    [
-     "desk",
-     "desk",
-     ""
-    ],
-    [
-     "distractions",
-     "distraction",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "en": "As if. Show me.",
-   "ko": "그럴 리가. 보여 줘.",
-   "note": "as if = 퍽이나",
-   "tags": [],
-   "new": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Show",
-     "show",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "en": "Here. Charts, notes, and a practice script for both of us.",
-   "ko": "여기. 차트, 메모, 그리고 우리 둘 연습 대본.",
-   "note": "practice = 연습",
-   "tags": [],
-   "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Charts",
-     "chart",
-     ""
-    ],
-    [
-     "notes",
-     "note",
-     ""
-    ],
-    [
-     "practice",
-     "practice",
-     ""
-    ],
-    [
-     "script",
-     "script",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "A",
-   "en": "This is… actually really good.",
-   "ko": "이거… 진짜 괜찮네.",
-   "note": "actually = 진짜로",
-   "tags": [],
-   "new": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "actually",
-     "actual",
-     ""
-    ],
-    [
-     "really",
-     "real",
-     ""
-    ],
-    [
-     "good",
-     "better",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "B",
-   "en": "I knew it. You thought I was a free rider.",
-   "ko": "그럴 줄 알았어. 내가 무임승차한다고 생각했지.",
-   "note": "i knew it = 그럴 줄 알았어",
-   "tags": [],
-   "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "knew",
-     "know",
-     ""
-    ],
-    [
-     "thought",
-     "think",
-     ""
-    ],
-    [
-     "free",
-     "free",
-     ""
-    ],
-    [
-     "rider",
-     "rider",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "A",
-   "en": "A little. Okay, a lot.",
-   "ko": "조금. 알았어, 많이.",
-   "note": "인정",
-   "tags": [],
-   "new": [],
-   "emotion": "shy",
-   "lemmas": [
-    [
-     "little",
-     "little",
-     ""
-    ],
-    [
-     "lot",
-     "lot",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 14,
-   "speaker": "B",
-   "en": "Fine. You present the boring part. I'll do the jokes.",
-   "ko": "좋아. 넌 지루한 부분 발표해. 농담은 내가 할게.",
-   "note": "present = 발표하다",
-   "tags": [],
-   "new": [],
-   "emotion": "amused",
    "lemmas": [
     [
      "Fine",
@@ -386,23 +212,217 @@
      ""
     ],
     [
-     "present",
-     "present",
+     "good",
+     "better",
      ""
     ],
     [
-     "boring",
-     "boring",
+     "teacher",
+     "teach",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Gomawo. I mean… thanks.",
+   "ko": "고마워. 아니… 땡큐.",
+   "note": "한국어가 튀어나옴",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Gomawo",
+     "gomawo",
      ""
     ],
     [
-     "part",
-     "part",
+     "mean",
+     "mean",
      ""
     ],
     [
-     "jokes",
-     "joke",
+     "thanks",
+     "thank",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "en": "Wait. You just said \"gomawo.\" Perfectly.",
+   "ko": "잠깐. 너 방금 \"고마워\" 했잖아. 완벽하게.",
+   "note": "perfectly = 완벽하게",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "said",
+     "say",
+     ""
+    ],
+    [
+     "gomawo",
+     "gomawo",
+     ""
+    ],
+    [
+     "Perfectly",
+     "perfect",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "en": "Did I? Lucky guess.",
+   "ko": "내가? 그냥 찍은 거야.",
+   "note": "lucky guess = 운 좋게 맞힘",
+   "tags": [],
+   "new": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Lucky",
+     "lucky",
+     ""
+    ],
+    [
+     "guess",
+     "guess",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "en": "Your phone. Is that a Korean drama with no subtitles?",
+   "ko": "네 폰. 그거 자막 없는 한국 드라마야?",
+   "note": "subtitles = 자막",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "phone",
+     "phone",
+     ""
+    ],
+    [
+     "Korean",
+     "korean",
+     ""
+    ],
+    [
+     "drama",
+     "drama",
+     ""
+    ],
+    [
+     "subtitles",
+     "subtitles",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "en": "Okay. I've watched like three hundred episodes.",
+   "ko": "그래. 한 300편쯤 봤어.",
+   "note": "like = 한 ~쯤",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "watched",
+     "watch",
+     ""
+    ],
+    [
+     "like",
+     "like",
+     ""
+    ],
+    [
+     "hundred",
+     "hundred",
+     ""
+    ],
+    [
+     "episodes",
+     "episode",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "en": "I knew it. So why the language exchange?",
+   "ko": "그럴 줄 알았어. 그럼 언어 교환은 왜 해?",
+   "note": "i knew it = 그럴 줄 알았어",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "knew",
+     "know",
+     ""
+    ],
+    [
+     "language",
+     "language",
+     ""
+    ],
+    [
+     "exchange",
+     "exchange",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "en": "Free coffee. And you're funny when you correct me.",
+   "ko": "공짜 커피. 그리고 너 나 고쳐 줄 때 웃겨.",
+   "note": "correct = 고치다",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Free",
+     "free",
+     ""
+    ],
+    [
+     "coffee",
+     "coffee",
+     ""
+    ],
+    [
+     "funny",
+     "funny",
+     ""
+    ],
+    [
+     "correct",
+     "correct",
      ""
     ]
    ]

@@ -53,32 +53,32 @@ A | Oh. Sorry, everyone. | 아. 다들 죄송해요. | everyone = 여러분 | em
 B | No ice cream tonight. That's the real medicine. | 오늘 밤엔 아이스크림 금지. 그게 진짜 약이에요. | the real medicine = 진짜 약 | emo=teasing
 
 === r3_friends_c1
-title: 단톡방 생일 서프라이즈
-emoji: 🎂
-scene: 제이크 생일 서프라이즈를 단톡방에서 짜는데, 제이크 본인도 그 방에 있다
+title: 캠핑 단톡방에 엄마가 있다
+emoji: 🏕️
+scene: 친구들끼리 주말 캠핑을 단톡방에서 짜는데, 마야가 예전에 엄마를 초대해 둔 걸 잊었고 엄마가 모든 걸 챙기기 시작한다
 where: 친구 단톡방
 goal: 계획 세우기·역할 나누기
 kind: chat
 register: chat
 B: Maya
-C: Jake
+C: Mom
 twist: 10 chaos
 expr: i'm in | literally | no way
 --
-B@19:02 | Okay, Jake's birthday is Friday. Surprise party at my place? | 좋아, 제이크 생일 금요일이야. 우리 집에서 깜짝 파티? | surprise party = 깜짝 파티 | emo=excited
-A@19:03 | I'm in. I can bring snacks. | 나 낄래. 간식 가져갈게. | i'm in = 나도 낄래 | emo=neutral
-B@19:03 | Literally perfect. He loves those spicy chips. | 완전 완벽해. 걔 그 매운 과자 엄청 좋아하잖아. | literally = 완전, 진짜 | emo=neutral
-A@19:04 | Who's keeping him busy until eight? | 8시까지 누가 걔 붙잡아 둬? | keep busy = 바쁘게 붙잡아 두다 | emo=neutral
-B@19:04 | You. Take him to the gym. He'll never suspect. | 너. 헬스장 데려가. 절대 눈치 못 챌 거야. | suspect = 의심하다 | emo=neutral
-A@19:05 | Me? He'll want to play basketball for hours. | 나? 걔 몇 시간이고 농구하려고 할 텐데. | for hours = 몇 시간 동안 | emo=worried
-B@19:05 | That's the point. Wear good shoes. | 그게 핵심이야. 좋은 신발 신어. | that's the point = 그게 요점이야 | emo=neutral
-A@19:06 | Fine. What about the cake? | 알았어. 케이크는? | what about = ~는 어때? | emo=neutral
-B@19:06 | Chocolate. Don't tell anyone. Especially Jake. | 초콜릿. 아무한테도 말하지 마. 특히 제이크한테. | especially = 특히 | emo=neutral
-C@19:08 | Can it be chocolate with strawberries? | 딸기 들어간 초콜릿으로 해 줄 수 있어? | 제이크가 이 방에 있다 | emo=cheerful stamp=🎂
-B@19:08 | No way. Jake, why are you in this chat? | 말도 안 돼. 제이크, 너 왜 이 방에 있어? | no way = 말도 안 돼 | emo=shout
-C@19:09 | You made this chat. It's called Jake's Friends. | 네가 만든 방이잖아. 방 이름이 「제이크 친구들」이야. | called = ~라는 이름의 | emo=amused
-A@19:09 | So… still a surprise if we pretend? | 그럼… 모르는 척하면 아직 서프라이즈야? | pretend = ~인 척하다 | emo=amused
-C@19:10 | Totally. I'll act shocked. Strawberries, please. | 완전. 놀란 척할게. 딸기 부탁해. | act shocked = 놀란 척하다 | emo=cheerful
+B@20:01 | Camping this weekend? The lake spot, two nights. | 이번 주말 캠핑? 호수 거기, 2박. | spot = 장소 | emo=neutral
+A@20:02 | I'm in. I'll bring the tent. | 나 낄래. 텐트 가져갈게. | i'm in = 나도 낄래 | emo=cheerful
+B@20:02 | Literally the best. Who's driving? | 완전 최고. 운전은 누가 해? | literally = 완전, 진짜 | emo=neutral
+A@20:03 | Not me. I get lost in parking lots. | 난 아냐. 나 주차장에서도 길 잃어. | get lost = 길을 잃다 | emo=amused
+B@20:03 | Fine, I'll drive. You do snacks. | 알았어, 내가 운전할게. 넌 간식 담당. | do snacks = 간식 맡다 | emo=neutral
+A@20:04 | Deal. Should we bring bug spray? | 콜. 모기 스프레이 가져갈까? | deal = 좋아, 콜 | emo=neutral
+B@20:04 | Nah. We're tough. Just bring marshmallows. | 됐어. 우리 강하잖아. 마시멜로나 가져와. | tough = 강한 | emo=neutral
+A@20:05 | Marshmallows, chips, and… what else? | 마시멜로, 과자, 그리고… 또 뭐? | what else = 또 뭐 | emo=neutral
+B@20:05 | Don't tell my mom. She'll worry. | 우리 엄마한테는 말하지 마. 걱정하셔. | worry = 걱정하다 | emo=neutral
+C@20:07 | Bug spray. Rain jackets. And text me when you get there, sweetie. | 모기 스프레이. 우비. 그리고 도착하면 문자해, 우리 딸. | 엄마가 이 방에 있다 | emo=gentle stamp=⛺
+B@20:07 | No way. Mom?? Why are you in this chat? | 말도 안 돼. 엄마?? 왜 이 방에 있어? | no way = 말도 안 돼 | emo=shout
+C@20:08 | You added me last week. For the cake order. | 네가 지난주에 초대했잖아. 케이크 주문 때문에. | add = 추가하다 | emo=amused
+A@20:08 | So… is your mom coming camping too? | 그럼… 너희 엄마도 캠핑 가셔? | too = ~도 | emo=amused
+C@20:09 | I already packed. I'm bringing soup for everyone. | 벌써 짐 쌌어. 다 같이 먹을 수프 가져갈게. | pack = 짐을 싸다 | emo=cheerful
 
 === r3_friends_c2
 title: 빌려 간 후드티
@@ -108,31 +108,31 @@ A | Wash it and give it back, and we're even. | 빨아서 돌려주면 퉁 치�
 B | Deal. I owe you one. Maybe two. | 콜. 하나 빚졌어. 두 개일지도. | i owe you one = 신세 졌어 | emo=cheerful
 
 === r3_love_c1
-title: 우산 하나, 정류장 둘
-emoji: ☔
-scene: 비 오는 버스 정류장에서 에마가 우산 하나로 같이 가자고 하는데, 집 방향이 정반대다
-where: 비 오는 버스 정류장
-goal: 같이 가자고 제안하기·돌려 말하기
+title: 아침 7시 러닝 크루
+emoji: 🏃
+scene: 아침 러닝 크루에서 매번 학습자 옆에서 뛰던 Emma 가 사실은 달리기를 싫어한다고 털어놓는다
+where: 강변 러닝 코스
+goal: 꾸준한 만남에서 마음 떠보기
 kind: long
 register: casual
 B: Emma
 twist: 11 reveal
 expr: honestly | i mean | it's not like
 --
-B | You don't have an umbrella, do you? | 너 우산 없지? | ~, do you? = 그렇지? | emo=neutral
-A | The forecast said sunny. I trusted it. | 일기예보가 맑다고 했어. 믿었지. | forecast = 일기예보 | emo=neutral
-B | Rookie mistake. Mine's big enough for two. | 초보 실수네. 내 거 둘이 쓸 만큼 커. | big enough for two = 둘이 쓸 만큼 큰 | emo=neutral
-A | Are you sure? Which way are you going? | 정말? 너 어느 쪽으로 가? | which way = 어느 방향 | emo=neutral
-B | Your way. Whatever your way is. | 네 쪽. 네가 어디로 가든. | whatever = 무엇이든 | emo=shy
-A | I live by the river. That's like twenty minutes. | 나 강가 쪽 살아. 20분쯤 걸려. | by the river = 강가에 | emo=neutral
-B | Honestly, I love walking in the rain. | 솔직히 나 빗속 걷는 거 좋아해. | honestly = 솔직히 | emo=neutral
-A | Since when? You complained about rain all last week. | 언제부터? 지난주 내내 비 투덜댔잖아. | complained = 투덜댔다 | emo=teasing
-B | I mean, it's different with company. | 내 말은, 같이 있으면 다르다고. | company = 함께 있는 사람 | emo=shy
-A | It's not like you're doing this just for me, right? | 설마 나 때문에 이러는 건 아니지? | it's not like = ~인 것도 아니고 | emo=teasing
-B | My bus stop is the other way. Three stops back. | 내 정류장은 반대쪽이야. 세 정거장 전. | the other way = 반대 방향 | emo=flustered
-A | So you waited here in the rain. On purpose. | 그러니까 일부러 여기서 비 맞고 기다렸네. | on purpose = 일부러 | emo=neutral
-B | With an umbrella. I'm not crazy. | 우산 쓰고. 나 미친 거 아니거든. | not crazy = 미치진 않았어 | emo=shy
-A | Okay. Twenty minutes, then. Maybe we walk slow. | 좋아. 그럼 20분. 천천히 걸을까. | walk slow = 천천히 걷다 | emo=gentle heart
+B | Morning. You're early again. | 좋은 아침. 또 일찍 왔네. | early = 일찍 | emo=neutral
+A | So are you. Every day this week. | 너도. 이번 주 내내. | so are you = 너도 그래 | emo=neutral
+B | I mean, I'm a runner. Obviously. | 뭐, 나 러너잖아. 당연하지. | i mean = 아니 뭐 | emo=neutral
+A | You're breathing really hard, Emma. | 에마, 너 숨 엄청 차는데. | breathe hard = 숨이 차다 | emo=neutral
+B | It's not like I'm dying. Keep going. | 죽는 것도 아니고. 계속 가. | it's not like ~ = ~인 것도 아니고 | emo=neutral
+A | Want to slow down? | 속도 좀 줄일까? | slow down = 속도를 줄이다 | emo=gentle
+B | Only if you want to. | 네가 원하면. | only if = ~라면 | emo=neutral
+A | I'm fine. You're the one turning red. | 난 괜찮아. 빨개진 건 너야. | turn red = 빨개지다 | emo=teasing
+B | It's cold. That's all. | 추워서 그래. 그게 다야. | that's all = 그게 다야 | emo=flustered
+A | Emma. How long have you been running? | 에마. 너 달리기 한 지 얼마나 됐어? | how long = 얼마나 오래 | emo=neutral
+B | Honestly? Two weeks. Since you joined. | 솔직히? 2주. 너 들어온 뒤로. | honestly = 솔직히 | emo=shy
+A | So you hate running. | 그럼 너 달리기 싫어하는구나. | hate = 싫어하다 | emo=amused
+B | I hate it so much. | 진짜 싫어. | so much = 너무 | emo=amused
+A | Then let's walk. There's coffee at the end anyway. | 그럼 걷자. 어차피 끝에 커피 있잖아. | let's walk = 걷자 | emo=gentle heart
 
 === r3_love_c2
 title: 줄 서기의 기술
@@ -162,30 +162,30 @@ B | Dream on. Okay, but just one. | 꿈 깨. 알았어, 하나만이야. | dream
 A | Sesame from across the street, please. | 길 건너 참깨로 부탁해. | 콜백 한 방 | emo=amused
 
 === r3_life_c1
-title: 냉장고 이름표 전쟁
-emoji: 🧊
-scene: 룸메이트 다니엘이 냉장고 모든 칸에 이름표를 붙였는데, 학습자 우유에만 「먹어도 됨」이라고 적혀 있다
-where: 아파트 부엌
-goal: 집안 규칙 정하기·불만 말하기
+title: 집 보러 갔더니 볼링장 위
+emoji: 🎳
+scene: 대니얼과 싸고 넓은 아파트를 보러 갔는데, 바닥 아래가 24시간 볼링장이다
+where: 매물로 나온 아파트
+goal: 집 조건 묻고 따지기
 kind: long
 register: casual
 B: Daniel
 twist: 6 chaos
 expr: what do you mean | don't get me wrong | i swear
 --
-A | Daniel, why is everything in the fridge labeled? | 다니엘, 냉장고에 왜 전부 이름표가 붙어 있어? | labeled = 이름표가 붙은 | emo=surprised
-B | System. Top shelf is mine, middle is yours. | 체계야. 위 칸은 내 거, 가운데는 네 거. | shelf = 선반, 칸 | emo=neutral
-A | And the bottom shelf says "Daniel later." | 근데 아래 칸에는 「다니엘 나중에」라고 써 있는데. | later = 나중에 | emo=neutral
-B | That's for leftovers. Future me is very busy. | 그건 남은 음식용. 미래의 나는 아주 바쁘거든. | leftovers = 남은 음식 | emo=neutral
-A | Don't get me wrong, I like the system. | 오해하지 마, 체계는 좋아. | don't get me wrong = 오해하지 마 | emo=polite
-A | But my milk says "OK to drink." What do you mean, OK? | 근데 내 우유에 「마셔도 됨」이라고 써 있어. 됨이 뭐야? | what do you mean = 무슨 말이야 | emo=annoyed
-B | It's a note for me. So I don't feel guilty. | 나 보라고 쓴 메모야. 죄책감 안 들게. | guilty = 죄책감 드는 | emo=neutral
-A | You wrote permission for yourself on my milk? | 내 우유에 너한테 주는 허락을 써 놨다고? | permission = 허락 | emo=tsukkomi
-B | I swear I only had a little. Like, a coffee's worth. | 맹세코 조금만 마셨어. 커피 한 잔 분량. | i swear = 맹세해 | emo=flustered
-A | The carton is empty, Daniel. | 팩이 비었어, 다니엘. | carton = 종이팩 | emo=annoyed
-B | It's a large coffee. | 큰 사이즈 커피야. | 변명 | emo=neutral
-A | New rule. Your label goes on my milk too: "Buy more." | 새 규칙. 내 우유에 네 이름표도 붙여: 「더 사 오기」. | buy more = 더 사다 | emo=neutral
-B | Fair. I'll get two. One labeled "Ours." | 공평하네. 두 개 사 올게. 하나는 「우리 거」라고 붙여서. | ours = 우리 것 | emo=gentle
+A | Daniel, this place is huge. And cheap. | 대니얼, 여기 엄청 넓어. 게다가 싸. | huge = 엄청 큰 | emo=neutral
+B | Don't get me wrong, I love it. But why so cheap? | 오해하지 마, 나도 좋아. 근데 왜 이렇게 싸? | don't get me wrong = 오해하지 마 | emo=neutral
+A | The ad says "lively neighborhood." | 광고에 "활기찬 동네"래. | lively = 활기찬 | emo=neutral
+B | What do you mean, lively? | 활기차다는 게 무슨 뜻이야? | what do you mean = 무슨 뜻이야 | emo=neutral
+A | I don't know. It's quiet now. | 몰라. 지금은 조용한데. | quiet = 조용한 | emo=neutral
+A | Wait, the floor is shaking. Is that… bowling? | 잠깐, 바닥이 흔들려. 이거… 볼링이야? | shake = 흔들리다 | emo=surprised
+B | Someone just yelled "strike!" | 방금 누가 "스트라이크!" 외쳤어. | yell = 외치다 | emo=neutral
+A | There's a bowling alley under us. | 우리 밑에 볼링장이 있어. | under = ~ 아래 | emo=tsukkomi
+B | I swear the ad didn't say that. | 맹세코 광고엔 그런 말 없었어. | i swear = 맹세코 | emo=annoyed
+A | Is it open all night? | 밤새 하는 거야? | open all night = 밤새 영업하는 | emo=worried
+B | Twenty-four hours. There's a sign. | 24시간. 간판 있어. | sign = 간판 | emo=neutral
+A | So… we'd never sleep. | 그럼… 우린 절대 못 자겠네. | never = 절대 ~않다 | emo=sad
+B | But residents get free shoes. I'm signing. | 근데 주민은 볼링화 공짜래. 나 계약한다. | resident = 주민 | emo=cheerful
 
 === r3_life_c2
 title: 택배 기사와 개
@@ -242,83 +242,83 @@ A | No worries. It was very well guarded. | 괜찮아요. 아주 잘 지켜졌�
 C | You can put yours up now. Cake crisis over. | 이제 손님 것 올리셔도 돼요. 케이크 사태 끝. | crisis = 위기 | emo=polite
 
 === r3_culture_c1
-title: 팁 화면 앞에서 얼어붙다
-emoji: 📱
-scene: 커피 한 잔 계산하는데 태블릿이 팁 30%부터 묻고, 마야가 미국 팁 문화를 설명해 준다
-where: 카페 계산대
-goal: 팁 문화 이해하고 고르기
+title: 야구장 키스캠
+emoji: ⚾
+scene: 처음 간 야구장에서 마야가 야구장 문화를 알려 주는데, 전광판 키스캠이 두 사람을 비추고 마야가 말실수를 한다
+where: 야구장 관중석
+goal: 문화 차이 묻고 받아치기
 kind: long
 register: casual
 B: Maya
 twist: 10 slip
 expr: it depends | tell me about it | i wouldn't say that
 --
-A | Maya, the screen is asking me for a thirty percent tip. | 마야, 화면이 팁 30% 달래. | tip = 팁 | emo=neutral
-B | Oh, the screen. It's just gonna ask you a question. | 아, 그 화면. 그냥 질문하는 거야. | gonna = going to | emo=neutral
-A | For one coffee? He just pressed one button. | 커피 한 잔에? 버튼 하나 눌렀는데. | pressed = 눌렀다 | emo=surprised
-B | Tell me about it. It's everywhere now. | 그러니까 말이야. 요즘 어딜 가나 그래. | tell me about it = 내 말이 | emo=neutral
-A | So what do people actually pick? | 그럼 사람들은 실제로 뭘 골라? | pick = 고르다 | emo=neutral
-B | It depends. Table service, eighteen to twenty. Counter, a dollar or so. | 경우에 따라 달라. 테이블 서빙은 18에서 20, 카운터는 1달러 정도. | or so = ~쯤 | emo=neutral
-A | And "no tip"? Is that rude? | 그럼 「팁 없음」은? 무례해? | rude = 무례한 | emo=neutral
-B | I wouldn't say that. But he's watching you. | 그렇게까진 아니야. 근데 저 사람이 너 보고 있어. | i wouldn't say that = 그렇게까진 | emo=neutral
-A | He is. Okay, I'll do fifteen. Middle button. | 진짜네. 좋아, 15% 할게. 가운데 버튼. | middle = 가운데 | emo=flustered
-B | That was the custom button. You just typed fifty. | 그거 직접 입력 버튼이었어. 너 방금 50 쳤어. | custom = 직접 정하는 | emo=surprised
-A | Fifty percent? For a small coffee? | 50%? 작은 커피에? | 되묻기 | emo=shout
-B | Look at his face. You just made his whole week. | 저 사람 얼굴 봐. 너 덕분에 일주일이 행복하겠다. | made his week = 일주일을 행복하게 했다 | emo=amused
-A | I can't take it back now, can I? | 이제 못 무르지, 그렇지? | take back = 되돌리다 | emo=sad
-B | Nope. But I bet your next coffee is free. | 응. 근데 다음 커피는 공짜일걸. | i bet = 장담해 | emo=cheerful
+A | Maya, why is everyone standing up? | 마야, 왜 다들 일어나? | stand up = 일어나다 | emo=neutral
+B | Seventh inning. We stretch and sing. | 7회야. 다 같이 기지개 켜고 노래해. | stretch = 기지개 켜다 | emo=neutral
+A | Do I have to sing too? | 나도 불러야 돼? | have to = ~해야 하다 | emo=neutral
+B | It depends. Do you know the words? | 그때그때 달라. 가사 알아? | it depends = 상황에 따라 달라 | emo=neutral
+A | Not one word. And the hot dogs are twelve dollars. | 한 단어도 몰라. 게다가 핫도그가 12달러야. | not one = 하나도 | emo=neutral
+B | Tell me about it. Baseball is expensive. | 내 말이. 야구는 비싸. | tell me about it = 내 말이 | emo=annoyed
+A | Is this game always this slow? | 이 경기 원래 이렇게 느려? | slow = 느린 | emo=neutral
+B | I wouldn't say that. It's relaxing. | 그렇게까진 아니야. 느긋한 거지. | i wouldn't say that = 그렇게까진 아니야 | emo=neutral
+A | Wait, why are we on the big screen? | 잠깐, 우리가 왜 전광판에 나와? | big screen = 전광판 | emo=surprised
+B | Kiss cam! Don't worry, we're not a couple… yet. | 키스캠이야! 걱정 마, 우리 커플 아니잖아… 아직은. | 말실수 | emo=flustered
+A | Wait. Not a couple… yet? | 잠깐. 커플 아니야… 아직은? | yet = 아직 | emo=teasing
+B | I said "not." Just "not." | "아니"라고 했어. 그냥 "아니." | just = 그냥 | emo=flustered
+A | The whole stadium is cheering, Maya. | 마야, 경기장 전체가 환호해. | cheer = 환호하다 | emo=amused
+B | Okay, okay. Hot dogs are on me. Just stop smiling. | 알았어, 알았어. 핫도그는 내가 살게. 웃지 좀 마. | on me = 내가 낼게 | emo=shy
 
 === r3_work_c1
-title: 화상 회의 음소거
-emoji: 💻
-scene: 재택 화상 회의에서 음소거가 꺼진 줄 모르고 혼잣말을 하다가 팀장 마야가 그걸 칭찬으로 받아 준다
-where: 집, 화상 회의
-goal: 회의에서 의견 말하기·실수 수습하기
+title: 송별 카드에 쓴 한마디
+emoji: 💌
+scene: 떠나는 동료 톰의 송별 카드를 돌려 쓰는데, 학습자가 "드디어!"라고 써 버리고 팀장 마야가 수습한다
+where: 사무실 휴게실
+goal: 격식 있는 인사말 쓰기·실수 수습하기
 kind: long
 register: mixed
 B: Maya
 twist: 6 slip
 expr: to be honest | that being said | my bad
 --
-B | Okay, last item. Any thoughts on the new schedule? | 좋아요, 마지막 안건. 새 일정에 의견 있어요? | thoughts = 의견 | emo=neutral
-A | Sorry, give me a second. My cat's on the keyboard. | 죄송해요, 잠깐만요. 고양이가 키보드 위에 있어서요. | give me a second = 잠깐만 | emo=flustered
-B | Take your time. We love the cat. | 천천히 해요. 다들 고양이 좋아해요. | take your time = 천천히 | emo=neutral
-A | Okay. To be honest, the Monday meeting feels a little early. | 네. 솔직히 월요일 회의가 좀 이른 것 같아요. | to be honest = 솔직히 | emo=polite
-B | Fair. How early is too early? | 그럴 수 있죠. 얼마나 이르면 너무 이른 거예요? | too early = 너무 이른 | emo=neutral
-A | Eight is fine. Seven means I'm still asleep. Actually, I'm still asleep at eight. | 8시는 괜찮아요. 7시면 전 아직 자요. 사실 8시에도 자요. | 혼잣말이 다 들림 | emo=neutral
-B | You know you're not muted, right? | 음소거 안 된 거 알죠? | muted = 음소거된 | emo=amused
-A | Oh no. My bad. Everyone heard that? | 이런. 제 실수예요. 다들 들으셨어요? | my bad = 내 실수 | emo=flustered
-B | Everyone. Even the client. | 다요. 고객사도요. | client = 고객사 | emo=neutral
-A | I'm so sorry. That was very unprofessional. | 정말 죄송해요. 너무 프로답지 못했어요. | unprofessional = 프로답지 못한 | emo=worried
-B | That being said, it's the most honest thing anyone said today. | 그렇긴 한데, 오늘 나온 말 중에 제일 솔직했어요. | that being said = 그렇긴 해도 | emo=amused
-B | The client says they're asleep at eight too. | 고객사도 8시엔 잔대요. | 반전 | emo=neutral
-A | So we're moving it? | 그럼 옮기는 거예요? | move = 옮기다 | emo=surprised
-B | Nine-thirty. All because of you and the cat. | 9시 반이요. 전부 당신하고 고양이 덕분이에요. | because of = ~때문에 | emo=cheerful
+B | Hey, can you sign Tom's farewell card? It's due by three. | 저기요, 톰 송별 카드에 한마디 써 줄래요? 3시까지예요. | farewell card = 송별 카드 | emo=polite
+A | Sure. What do people usually write? | 그럼요. 보통 뭐라고 써요? | usually = 보통 | emo=polite
+B | Something short. "Good luck," "We'll miss you." | 짧게요. "행운을 빌어요", "보고 싶을 거예요." | miss = 그리워하다 | emo=neutral
+A | To be honest, I only talked to him twice. | 솔직히 그분이랑 딱 두 번 얘기했어요. | to be honest = 솔직히 | emo=neutral
+B | That's fine. Keep it simple. | 괜찮아요. 간단하게 써요. | keep it simple = 간단하게 | emo=neutral
+A | Okay… "Finally! Good luck, Tom." | 좋아요… "드디어! 행운을 빌어요, 톰." | 「드디어!」 말실수 | emo=neutral
+B | Finally? You wrote "finally"? | 드디어요? "드디어"라고 썼어요? | finally = 드디어 | emo=surprised
+A | I meant "finally retiring." Like, congrats! | "드디어 은퇴"라는 뜻이었어요. 축하한다는! | i meant = ~라는 뜻이었다 | emo=flustered
+B | He's not retiring. He's moving to our biggest competitor. | 은퇴 아니에요. 제일 큰 경쟁사로 옮기는 거예요. | competitor = 경쟁사 | emo=neutral
+A | Oh no. My bad. Can I fix it? | 이런. 제 실수예요. 고칠 수 있어요? | my bad = 내 실수 | emo=worried
+B | It's in pen. That being said… | 펜으로 썼잖아요. 그렇긴 한데… | that being said = 그렇긴 해도 | emo=neutral
+B | Add "…we'll be watching you." Now it sounds tough. | "…지켜보겠습니다"를 붙여요. 그럼 세 보여요. | tough = 강한 | emo=amused
+A | "Finally! We'll be watching you." That's scary. | "드디어! 지켜보겠습니다." 그거 무서운데요. | scary = 무서운 | emo=tsukkomi
+B | Perfect. He'll frame it. | 완벽해요. 액자에 넣으실 거예요. | frame = 액자에 넣다 | emo=cheerful
 
 === r3_study_c1
-title: 조별 과제 무임승차
-emoji: 📚
-scene: 조별 발표 전날, 연락이 없던 제이크가 나타나 자기가 다 했다고 하는데, 정말로 다 해 놨다
-where: 학교 도서관 스터디룸
-goal: 역할 나누기·불만 정중하게 말하기
+title: 언어 교환 파트너의 비밀
+emoji: 🗣️
+scene: 학습자가 제이크와 영어·한국어 언어 교환을 하는데, 한국어를 못한다던 제이크가 사실 한국 드라마를 자막 없이 본다
+where: 학교 카페
+goal: 서로 가르치고 고쳐 주기
 kind: long
 register: casual
 B: Jake
 twist: 9 reveal
 expr: what are you talking about | as if | i knew it
 --
-A | Jake! The presentation is tomorrow. Where have you been? | 제이크! 발표 내일이야. 어디 있었어? | presentation = 발표 | emo=neutral
-B | Busy. Very busy. You know how it is. | 바빴어. 엄청. 알잖아. | you know how it is = 알잖아 | emo=neutral
-A | I don't, actually. You didn't answer for two weeks. | 사실 몰라. 너 2주 동안 답이 없었어. | answer = 답하다 | emo=neutral
-B | My phone was in a drawer. On purpose. | 폰을 서랍에 넣어 놨거든. 일부러. | drawer = 서랍 | emo=neutral
-A | So I did all the slides myself. All twenty. | 그래서 내가 슬라이드 혼자 다 했어. 스무 장 전부. | slides = 슬라이드 | emo=annoyed
-B | Twenty? I made thirty. | 스무 장? 난 서른 장 만들었는데. | 반전 시작 | emo=surprised
-A | What are you talking about? | 무슨 소리야? | what are you talking about = 무슨 소리야 | emo=surprised
-B | Phone in the drawer, laptop on the desk. No distractions. | 폰은 서랍에, 노트북은 책상에. 방해 없이. | distraction = 방해 요소 | emo=neutral
-A | As if. Show me. | 그럴 리가. 보여 줘. | as if = 퍽이나 | emo=teasing
-B | Here. Charts, notes, and a practice script for both of us. | 여기. 차트, 메모, 그리고 우리 둘 연습 대본. | practice = 연습 | emo=neutral
-A | This is… actually really good. | 이거… 진짜 괜찮네. | actually = 진짜로 | emo=surprised
-B | I knew it. You thought I was a free rider. | 그럴 줄 알았어. 내가 무임승차한다고 생각했지. | i knew it = 그럴 줄 알았어 | emo=neutral
-A | A little. Okay, a lot. | 조금. 알았어, 많이. | 인정 | emo=shy
-B | Fine. You present the boring part. I'll do the jokes. | 좋아. 넌 지루한 부분 발표해. 농담은 내가 할게. | present = 발표하다 | emo=amused
+A | Okay, Jake. Your turn. Say "annyeong." | 좋아, 제이크. 네 차례야. "안녕" 해 봐. | your turn = 네 차례 | emo=neutral
+B | Ahn… nyong? Like that? | 안… 뇽? 이렇게? | like that = 이렇게 | emo=neutral
+A | Close. Now help me with my English essay. | 비슷해. 이제 내 영어 에세이 좀 봐 줘. | close = 비슷해 | emo=neutral
+B | Sure. This sentence is kinda stiff. | 그래. 이 문장 좀 딱딱하다. | kinda = 좀 | emo=neutral
+A | Stiff? What are you talking about? It's perfect. | 딱딱해? 무슨 소리야? 완벽한데. | what are you talking about = 무슨 소리야 | emo=neutral
+B | As if. Nobody says "I am very much delighted." | 퍽이나. 아무도 "I am very much delighted" 라고 안 해. | as if = 퍽이나 | emo=neutral
+A | Fine. You're a good teacher. | 알았어. 너 잘 가르친다. | teacher = 선생님 | emo=neutral
+B | Gomawo. I mean… thanks. | 고마워. 아니… 땡큐. | 한국어가 튀어나옴 | emo=flustered
+A | Wait. You just said "gomawo." Perfectly. | 잠깐. 너 방금 "고마워" 했잖아. 완벽하게. | perfectly = 완벽하게 | emo=surprised
+B | Did I? Lucky guess. | 내가? 그냥 찍은 거야. | lucky guess = 운 좋게 맞힘 | emo=stiff
+A | Your phone. Is that a Korean drama with no subtitles? | 네 폰. 그거 자막 없는 한국 드라마야? | subtitles = 자막 | emo=surprised
+B | Okay. I've watched like three hundred episodes. | 그래. 한 300편쯤 봤어. | like = 한 ~쯤 | emo=flustered
+A | I knew it. So why the language exchange? | 그럴 줄 알았어. 그럼 언어 교환은 왜 해? | i knew it = 그럴 줄 알았어 | emo=teasing
+B | Free coffee. And you're funny when you correct me. | 공짜 커피. 그리고 너 나 고쳐 줄 때 웃겨. | correct = 고치다 | emo=amused
 
