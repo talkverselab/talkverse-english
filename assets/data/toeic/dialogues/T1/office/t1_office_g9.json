@@ -282,14 +282,8 @@
    "en": "I swear the analysis is coming right now. Just the analysis.",
    "ko": "맹세코 분석은 지금 바로 나와요. 분석만요.",
    "note": "right now = 지금 바로",
-   "tags": [
-    "expr:right",
-    "expr:right now",
-    "expr:i swear"
-   ],
-   "new": [
-    "swear"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "flustered",
    "lemmas": [
     [

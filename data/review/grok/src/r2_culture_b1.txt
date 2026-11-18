@@ -1,0 +1,22 @@
+=== r2_culture_b1
+title: 핼러윈 파티에 정장 입고 감
+emoji: 🎃
+scene: 핼러윈인 줄 모르고 회사 행사 정장을 입고 Maya 파티에 갔는데, 다들 코스튬으로 오해한다
+where: Maya 의 집 파티
+goal: 문화 차이 수습하기
+kind: long
+register: casual
+B: Maya
+twist: 4 slip
+expr: oh my god | that's so cute | i can't believe it
+--
+B | Oh my god, you came! Wait. What are you? | 세상에, 왔구나! 잠깐. 너 뭐로 분장한 거야? | what are you = 뭐로 분장했어 | emo=neutral
+A | What do you mean? I'm just… me. | 무슨 말이야? 나 그냥… 나인데. | just me = 그냥 나 | emo=neutral
+B | It's Halloween, {name}. Everyone's in costume. | 핼러윈이잖아, {name}. 다 코스튬 입었어. | costume = 분장 옷 | emo=neutral
+A | I came from a work dinner. In a suit. | 회사 저녁 먹고 왔어. 정장 입고. | suit = 정장 | emo=flustered
+B | No, no. You're "a guy with a job." | 아냐, 아냐. 너는 "직장 다니는 사람" 코스튬이야. | a guy with a job = 직장인 | emo=neutral
+A | That's not a costume. That's my life. | 그건 코스튬이 아니라 내 인생이야. | 받아치기 | emo=neutral
+B | People love it. That vampire wants your card. | 사람들 좋아해. 저 뱀파이어가 네 명함 달래. | card = 명함 | emo=amused
+A | I can't believe it. Networking at Halloween. | 말도 안 돼. 핼러윈에 인맥 쌓기라니. | networking = 인맥 쌓기 | emo=amused
+B | That's so cute. You're the best costume here. | 너무 귀엽다. 네가 여기서 최고 코스튬이야. | that's so cute = 너무 귀여워 | emo=cheerful
+A | Next year I'm coming as a guy with no job. | 내년엔 백수로 올 거야. | no job = 백수 | emo=teasing

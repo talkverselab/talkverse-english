@@ -1,0 +1,20 @@
+=== r0_survival_a2
+title: 버스 안 탈 건데요
+emoji: 🚌
+scene: 정류장에서 시간을 물었을 뿐인데 기사는 탈 거냐고 계속 묻는다
+where: 버스 정류장
+goal: 시간 묻기
+kind: survival
+register: polite
+B: Driver
+twist: 7 reveal
+expr: excuse me | no thanks
+--
+A | Excuse me. What time is it? | 저기요. 지금 몇 시예요? | What time is it? = 몇 시예요? | emo=polite
+B | It's ten. Are you getting on? | 10시요. 타실 거예요? | get on = 타다 | emo=neutral
+A | No thanks. Just the time. | 아뇨, 괜찮아요. 시간만요. | no thanks = 괜찮아요 | emo=neutral
+B | You sure? Last bus today. | 정말요? 오늘 막차예요. | last bus = 막차 | emo=neutral
+A | Really? It's only ten! | 진짜요? 아직 10시인데요! | only = 겨우 | emo=surprised
+B | Ten at night. Look up. | 밤 10시예요. 위를 봐요. | at night = 밤 | emo=neutral
+A | Oh no. It's so dark. | 어떡해. 완전 깜깜하네. | dark = 어두운 | emo=worried
+B | Get on. I'll wait. | 타요. 기다릴게요. | I'll wait = 기다릴게요 | emo=gentle

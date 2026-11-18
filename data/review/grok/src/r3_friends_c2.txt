@@ -1,0 +1,26 @@
+=== r3_friends_c2
+title: 빌려 간 후드티
+emoji: 🧥
+scene: 제이크에게 빌려준 후드티를 돌려받으려는데, 메이야가 그 후드티를 입고 나타난다
+where: 캠퍼스 카페
+goal: 돌려 달라고 부드럽게 말하기
+kind: long
+register: casual
+B: Maya
+twist: 8 reveal
+expr: by the way | that's on me | i owe you one
+--
+A | Hey, by the way, have you seen my gray hoodie? | 야, 그나저나 내 회색 후드티 봤어? | by the way = 그나저나 | emo=neutral
+B | The soft one with the little hole on the sleeve? | 소매에 작은 구멍 있는 부드러운 거? | sleeve = 소매 | emo=neutral
+A | That's the one. I lent it to Jake last month. | 그거. 지난달에 제이크한테 빌려줬거든. | lent = 빌려줬다 | emo=neutral
+B | Jake? He said it was his. He wore it to class. | 제이크? 자기 거라던데. 수업에 입고 왔어. | wore = 입었다 | emo=surprised
+A | Of course he did. I'll text him tonight. | 그럴 줄 알았어. 오늘 밤에 문자할게. | of course = 당연하지 | emo=annoyed
+B | Don't be too hard on him. It's really comfy. | 너무 몰아붙이지 마. 진짜 편하거든. | comfy = 편한 | emo=neutral
+A | How do you know it's comfy? | 편한 건 네가 어떻게 알아? | 되묻기 | emo=neutral
+B | Because I'm kind of wearing it right now. | 왜냐면 내가 지금 그거 입고 있거든. | kind of = 좀, 약간 | emo=flustered
+A | Maya. It's under your jacket. I can see the hole. | 마야. 재킷 밑에 있네. 구멍 보여. | under = 아래에 | emo=tsukkomi
+B | Jake lent it to me. That's on me, I should've asked. | 제이크가 빌려줬어. 내 잘못이야, 물어봤어야 했는데. | that's on me = 내 탓이야 | emo=shy
+A | So my hoodie has been to more classes than me. | 그러니까 내 후드티가 나보다 수업을 더 들었네. | 말장난 | emo=amused
+B | It got an A in history, actually. | 사실 역사 과목 A 받았어. | actually = 사실 | emo=neutral
+A | Wash it and give it back, and we're even. | 빨아서 돌려주면 퉁 치자. | we're even = 비긴 걸로 | emo=neutral
+B | Deal. I owe you one. Maybe two. | 콜. 하나 빚졌어. 두 개일지도. | i owe you one = 신세 졌어 | emo=cheerful

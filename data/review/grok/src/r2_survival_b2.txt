@@ -1,0 +1,22 @@
+=== r2_survival_b2
+title: 셀프 계산대가 나를 의심한다
+emoji: 🛒
+scene: 마트 셀프 계산대가 바나나 무게 때문에 계속 직원을 부르고, 직원은 학습자 얼굴을 기억한다
+where: 동네 마트 셀프 계산대
+goal: 기계 안내 말과 직원 부르기
+kind: survival
+register: mixed
+B: Clerk
+twist: 7 chaos
+expr: hold on | not again | my bad
+--
+A | Hi, sorry. It says "unexpected item in the bagging area." | 저기요, 죄송한데요. "봉투 칸에 예상치 못한 물건"이래요. | bagging area = 봉투 놓는 칸 | emo=polite
+B | Okay, hold on. What did you put there? | 네, 잠깐만요. 거기 뭐 올리셨어요? | hold on = 잠깐만 | emo=neutral
+A | Just my bananas. I scanned them already. | 그냥 바나나요. 이미 찍었어요. | scan = 찍다 | emo=neutral
+B | You have to weigh bananas. Press "produce" first. | 바나나는 무게를 달아야 해요. "농산물"부터 누르세요. | weigh = 무게를 달다 | emo=neutral
+A | Got it. Okay… now it's yelling again. | 알겠어요. 어… 또 소리 지르네요. | yell = 소리 지르다 | emo=neutral
+B | Not again. Did you put your bag on it? | 또요? 가방 올리셨어요? | not again = 또야 | emo=annoyed
+A | My bad. That's my backpack. | 제 잘못이에요. 그거 제 배낭이에요. | my bad = 내 실수 | emo=shy
+B | Wait, you were here yesterday. With the eggs. | 잠깐, 어제도 오셨죠. 계란 그 손님. | 어제 일을 기억함 | emo=surprised
+A | Please don't tell anyone about the eggs. | 계란 얘기는 아무한테도 하지 마세요. | don't tell anyone = 아무한테도 말하지 마 | emo=flustered
+B | Next time, just come to my line. | 다음엔 그냥 제 줄로 오세요. | my line = 제 계산대 | emo=amused

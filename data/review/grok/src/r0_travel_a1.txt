@@ -1,0 +1,19 @@
+=== r0_travel_a1
+title: 사진 한 장만
+emoji: 📸
+scene: 관광지에서 사진을 부탁했더니 셀카만 열 장 찍혀 있다
+where: 다리 위 전망대
+goal: 부탁하기
+kind: short
+register: polite
+B: Tourist
+twist: 6 chaos
+expr: excuse me | of course
+--
+A | Excuse me. One photo, please? | 저기요. 사진 한 장 부탁해요. | one photo = 사진 한 장 | emo=polite
+B | Of course. Smile! | 물론이죠. 웃어요! | of course = 물론 | emo=neutral
+A | Thank you. Is it good? | 고마워요. 잘 나왔어요? | good = 잘된 | emo=polite
+B | Very good. Ten photos! | 아주 좋아요. 열 장이요! | ten = 열 | emo=neutral
+A | Ten? Let me see. | 열 장이요? 볼게요. | let me see = 보자 | emo=neutral
+A | These are all… you. | 이거 다… 당신이잖아요. | all = 전부 | emo=tsukkomi
+B | Oh no. Wrong side! | 어머. 반대쪽이었네! | wrong side = 반대쪽 | emo=flustered

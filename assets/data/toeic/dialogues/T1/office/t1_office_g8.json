@@ -12,7 +12,7 @@
  ],
  "title": "장비 세 개요",
  "emoji": "📦",
- "scene": "A 가 발주서에 「equipments 세 개」라고 썼다. 셀 수 없는 명사 때문에 창고가 넘친다",
+ "scene": "A가 발주서에 「equipments 세 개」라고 썼다. 셀 수 없는 명사 때문에 창고가 넘친다",
  "where": "자재 창고",
  "goal": "가산 · 불가산 명사(equipment · furniture · information · advice)",
  "speakers": {
@@ -32,7 +32,7 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "I placed an order for three equipments for the new branch.",
+   "en": "I ordered three equipments for the new branch.",
    "ko": "새 지점용으로 장비 세 개 발주했어.",
    "note": "",
    "tags": [],
@@ -49,12 +49,7 @@
    "emotion": "cheerful",
    "lemmas": [
     [
-     "placed",
-     "place",
-     ""
-    ],
-    [
-     "order",
+     "ordered",
      "order",
      ""
     ],
@@ -78,8 +73,8 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Equipment doesn't take a plural. Neither does your overtime pay.",
-   "ko": "equipment 는 복수형이 없어. 네 야근 수당도 없고.",
+   "en": "Equipment doesn't take a plural. Neither does your common sense.",
+   "ko": "equipment는 복수형이 없어. 네 상식도 없고.",
    "note": "",
    "tags": [],
    "new": [],
@@ -115,13 +110,13 @@
      ""
     ],
     [
-     "overtime",
-     "overtime",
+     "common",
+     "common",
      ""
     ],
     [
-     "pay",
-     "pay",
+     "sense",
+     "sense",
      ""
     ]
    ]
@@ -129,7 +124,7 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Then what exactly did the supplier ship?",
+   "en": "Then what exactly did the supplier actually ship?",
    "ko": "그럼 공급업체가 정확히 뭘 보낸 거야?",
    "note": "되묻기",
    "tags": [],
@@ -147,6 +142,11 @@
      ""
     ],
     [
+     "actually",
+     "actual",
+     ""
+    ],
+    [
      "ship",
      "ship",
      ""
@@ -156,14 +156,19 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Three of every item on the list, according to the delivery confirmation.",
-   "ko": "배송 확인서에 따르면 목록에 있는 품목마다 세 개씩.",
+   "en": "Three of every single item on the list, per the confirmation.",
+   "ko": "확인서 기준으로 목록에 있는 품목마다 세 개씩.",
    "note": "수량 착각",
    "tags": [],
    "new": [],
    "emotion": "amused",
    "lemmas": [
     [
+     "single",
+     "single",
+     ""
+    ],
+    [
      "item",
      "item",
      ""
@@ -174,13 +179,8 @@
      ""
     ],
     [
-     "according",
-     "according",
-     ""
-    ],
-    [
-     "delivery",
-     "delivery",
+     "per",
+     "per",
      ""
     ],
     [
@@ -193,8 +193,8 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "My bad. I also requested \"furnitures\" on the same form.",
-   "ko": "내 잘못. 같은 양식에 \"furnitures\" 도 요청했어.",
+   "en": "My bad. I also wrote \"furnitures\" on the same form.",
+   "ko": "내 잘못. 같은 양식에 \"furnitures\"도 적었어.",
    "note": "",
    "tags": [],
    "new": [],
@@ -215,8 +215,8 @@
      ""
     ],
     [
-     "requested",
-     "request",
+     "wrote",
+     "write",
      ""
     ],
     [
@@ -271,8 +271,8 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Some advice beforehand would have been appreciated.",
-   "ko": "미리 조언 좀 해 줬으면 고마웠을 텐데.",
+   "en": "Some advice beforehand would have helped a lot.",
+   "ko": "미리 조언 좀 해 줬으면 많이 도움이 됐을 텐데.",
    "note": "",
    "tags": [],
    "new": [],
@@ -298,8 +298,13 @@
      ""
     ],
     [
-     "appreciated",
-     "appreciate",
+     "helped",
+     "help",
+     ""
+    ],
+    [
+     "lot",
+     "lot",
      ""
     ]
    ]
@@ -307,13 +312,11 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Advice is uncountable. So is the damage to your reputation.",
-   "ko": "advice 도 못 세. 네 평판 손상도 못 세고.",
+   "en": "Advice is uncountable. So is the mess you created.",
+   "ko": "advice도 못 세. 네가 만든 난장판도 못 세고.",
    "note": "",
    "tags": [],
-   "new": [
-    "uncountable"
-   ],
+   "new": [],
    "gram": {
     "u": [
      "Advice is uncountable"
@@ -336,13 +339,13 @@
      ""
     ],
     [
-     "damage",
-     "damage",
+     "mess",
+     "mess",
      ""
     ],
     [
-     "reputation",
-     "reputation",
+     "created",
+     "create",
      ""
     ]
    ]
@@ -353,7 +356,7 @@
   "ko": "equipment, furniture, information, advice, luggage 는 셀 수 없다 — s 도 a 도 안 붙는다. 세려면 a piece of."
  },
  "check": {
-  "q": "The new branch requires additional _____ before it opens.",
+  "q": "The new branch needs additional _____ before opening.",
   "options": [
    "equipments",
    "an equipment",

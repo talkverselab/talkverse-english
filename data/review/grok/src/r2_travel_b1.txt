@@ -1,0 +1,22 @@
+=== r2_travel_b1
+title: 공항 보안검색대의 고추장
+emoji: 🛂
+scene: 공항 검색대에서 가방 속 소스 병 때문에 걸리고, 직원이 그 소스를 궁금해한다
+where: 공항 보안검색대
+goal: 검색대 지시 알아듣기
+kind: survival
+register: polite
+B: Officer
+twist: 8 chaos
+expr: what does that mean | almost | are you kidding
+--
+B | Is this your bag? Please step over here. | 이거 손님 가방이에요? 이쪽으로 오세요. | step over = 이쪽으로 오다 | emo=neutral
+A | Yes. Is something wrong? | 네. 뭐 문제 있어요? | something wrong = 문제 | emo=worried
+B | There's a liquid. Over three ounces. | 액체가 있어요. 3온스 넘는 거요. | liquid = 액체 | emo=neutral
+A | Three ounces? What does that mean? | 3온스요? 그게 무슨 뜻이에요? | what does that mean = 무슨 뜻 | emo=neutral
+B | About ninety milliliters. This red jar is too big. | 90밀리쯤이요. 이 빨간 병은 너무 커요. | jar = 병 | emo=neutral
+A | It's hot pepper paste. From my mom. | 고추장이에요. 엄마가 주신 거예요. | hot pepper paste = 고추장 | emo=sad
+B | I'm sorry. It can't go on the plane. | 죄송해요. 기내엔 못 가져가요. | go on the plane = 기내 반입 | emo=polite
+A | Are you kidding? It's almost full. | 농담이죠? 거의 꽉 찼는데. | are you kidding = 농담이지 | emo=annoyed
+B | Is it good with rice? Asking for… my lunch. | 밥이랑 먹으면 맛있어요? 제… 점심 때문에 묻는 거예요. | asking for = ~ 때문에 묻다 | emo=shy
+A | It's amazing with rice. Enjoy it, I guess. | 밥이랑 최고예요. 맛있게 드세요, 뭐. | I guess = 뭐, 그렇지 | emo=amused

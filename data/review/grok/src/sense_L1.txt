@@ -1,0 +1,19 @@
+=== sense_L1
+title: 관사 익히기 — 카페 줄에서
+focus: 관사 익히기 (a · the)
+--
+Maya | I'll get {a|1} coffee. You want {one|2}? | 나 커피 {한 잔|1} 시킬게. 너도 {하나|2} 마실래?
+나 | Sure. {The|3} guy in front of us is ordering for {an|4} army. | 좋아. 우리 앞에 {그|3} 남자, {한|4} 부대 분량을 시키네.
+Maya | Twelve lattes. That's {a|1} lot of milk. | 라테 열두 잔. 우유가 {꽤|1} 많이 들겠다.
+나 | Look, he dropped {a|1} card. | 봐, 저 사람 카드 {한 장|1} 떨어뜨렸어.
+Maya | Go give it back. {The|3} card, not your number. | 가서 돌려줘. {그|3} 카드 말이야, 네 번호 말고.
+나 | Excuse me, is this {your|5} card? | 저기요, 이거 {당신|5} 카드예요?
+Guy | Oh, thanks! You just saved {the|3} whole office. | 어, 고마워요! 방금 {저희|3} 사무실 전체를 살리셨어요.
+Guy | Here, take {a|1} latte. I ordered too many anyway. | 자, 라테 {한 잔|1} 가져가요. 어차피 너무 많이 시켰어요.
+Maya | {A|1} free latte? Okay, you're coming every morning. | 공짜 라테 {한 잔|1}? 좋아, 너 이제 매일 아침 와야겠다.
+나 | Only if {the|3} card guy comes too. | {그|3} 카드 아저씨도 온다면.
+--
+note | a·an — 처음 꺼내는 하나. 한국어는 안 붙이지만 영어는 셀 수 있는 것 하나면 꼭 붙여요 (a coffee, an army).
+note | the — 둘 다 아는 「그」 것. 방금 말했거나 눈앞에 있는 것 (the guy in front of us).
+note | a lot of — 「많은」 덩어리 표현. a 를 빼지 않아요.
+note | 이름·가게 이름 앞에는 a·the 를 안 붙여요 — 대신 your·my 같은 말이 그 자리를 채우기도 해요 (your card).

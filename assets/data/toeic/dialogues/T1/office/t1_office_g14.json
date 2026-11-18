@@ -334,12 +334,8 @@
    "en": "A shipped laptop. Please call Tom before he notices.",
    "ko": "선적된 노트북이라. 톰이 알아채기 전에 전화해.",
    "note": "",
-   "tags": [
-    "expr:please"
-   ],
-   "new": [
-    "laptop"
-   ],
+   "tags": [],
+   "new": [],
    "gram": {
     "u": [
      "shipped laptop"

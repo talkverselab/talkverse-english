@@ -1,0 +1,19 @@
+=== sense_L4
+title: 과거와 현재완료 — 전 애인 이야기
+focus: 과거 · 현재완료 익히기
+--
+Emma | {Have you ever been|1} to that ramen place? | 그 라멘집 {가 본 적 있어|1}?
+나 | Yeah, I {went|2} there last week. | 응, 지난주에 {갔어|2}.
+Emma | With who? | 누구랑?
+나 | Alone. Why? | 혼자. 왜?
+Emma | My ex {took|2} me there once. | 전 남친이 한 번 거기 {데려갔었어|2}.
+나 | Oh. {Have you been|1} back since then? | 아. 그 뒤로 다시 {가 봤어|1}?
+Emma | Never. {I've avoided|1} that street for a year. | 한 번도. 1년 동안 그 길을 {피해 왔어|1}.
+나 | Then let's go tonight. New memory. | 그럼 오늘 밤 가자. 새 기억으로.
+Emma | {I've already decided|1}. Yes. | {벌써 정했어|1}. 좋아.
+나 | That was fast. | 빠르다.
+--
+note | 과거(went, took) — 끝난 때가 분명할 때 (last week, once).
+note | have + p.p. — 지금까지 이어진 경험·결과. 「~해 본 적 있어?」 = Have you ever …?
+note | since then, for a year, already — 현재완료와 잘 붙는 말.
+note | last week·yesterday 같은 끝난 때와 현재완료는 같이 안 써요.

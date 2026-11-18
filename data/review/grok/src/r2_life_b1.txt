@@ -1,0 +1,22 @@
+=== r2_life_b1
+title: 집주인 문자는 늘 짧다
+emoji: 🔧
+scene: 고장 난 싱크대를 집주인에게 알리는데, 고치러 온 사람이 위층 Daniel 이다
+where: 원룸 부엌
+goal: 고장 신고하기
+kind: long
+register: mixed
+B: Daniel
+twist: 5 reveal
+expr: what happened | no worries | i owe you one
+--
+A | Hi, I texted the landlord about the sink. | 안녕하세요, 집주인한테 싱크대 문자했는데요. | landlord = 집주인 | emo=polite
+B | Yeah. She sent me. What happened? | 응. 그분이 나 보냈어. 무슨 일이야? | what happened = 무슨 일 | emo=neutral
+A | The water won't go down. It just sits there. | 물이 안 내려가요. 그냥 고여 있어요. | go down = 내려가다 | emo=neutral
+B | Did you put rice in it? | 쌀 넣었어? | put ~ in = ~을 넣다 | emo=neutral
+A | Wait. Aren't you the guy from upstairs? | 잠깐. 위층 사는 분 아니에요? | upstairs = 위층 | emo=surprised
+B | Daniel. I fix stuff for her. Free rent. | 대니얼. 그분 대신 이것저것 고쳐. 월세 공짜. | free rent = 월세 면제 | emo=neutral
+A | That's why you're always carrying tools. | 그래서 맨날 공구 들고 다니셨구나. | carry = 들고 다니다 | emo=amused
+B | Okay. Done. No more rice. | 됐다. 끝. 쌀은 이제 그만. | no more = 더는 안 돼 | emo=neutral
+A | Thanks. I owe you one. | 고마워요. 신세 졌어요. | I owe you one = 신세 졌어 | emo=polite
+B | No worries. Just stop dropping things on my ceiling. | 괜찮아. 내 천장에 물건 떨어뜨리는 것만 그만해. | ceiling = 천장 | emo=amused

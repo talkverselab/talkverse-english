@@ -1,0 +1,27 @@
+=== r3_friends_c1
+title: 단톡방 생일 서프라이즈
+emoji: 🎂
+scene: 제이크 생일 서프라이즈를 단톡방에서 짜는데, 제이크 본인도 그 방에 있다
+where: 친구 단톡방
+goal: 계획 세우기·역할 나누기
+kind: chat
+register: chat
+B: Maya
+C: Jake
+twist: 10 chaos
+expr: i'm in | literally | no way
+--
+B@19:02 | Okay, Jake's birthday is Friday. Surprise party at my place? | 좋아, 제이크 생일 금요일이야. 우리 집에서 깜짝 파티? | surprise party = 깜짝 파티 | emo=excited
+A@19:03 | I'm in. I can bring snacks. | 나 낄래. 간식 가져갈게. | i'm in = 나도 낄래 | emo=neutral
+B@19:03 | Literally perfect. He loves those spicy chips. | 완전 완벽해. 걔 그 매운 과자 엄청 좋아하잖아. | literally = 완전, 진짜 | emo=neutral
+A@19:04 | Who's keeping him busy until eight? | 8시까지 누가 걔 붙잡아 둬? | keep busy = 바쁘게 붙잡아 두다 | emo=neutral
+B@19:04 | You. Take him to the gym. He'll never suspect. | 너. 헬스장 데려가. 절대 눈치 못 챌 거야. | suspect = 의심하다 | emo=neutral
+A@19:05 | Me? He'll want to play basketball for hours. | 나? 걔 몇 시간이고 농구하려고 할 텐데. | for hours = 몇 시간 동안 | emo=worried
+B@19:05 | That's the point. Wear good shoes. | 그게 핵심이야. 좋은 신발 신어. | that's the point = 그게 요점이야 | emo=neutral
+A@19:06 | Fine. What about the cake? | 알았어. 케이크는? | what about = ~는 어때? | emo=neutral
+B@19:06 | Chocolate. Don't tell anyone. Especially Jake. | 초콜릿. 아무한테도 말하지 마. 특히 제이크한테. | especially = 특히 | emo=neutral
+C@19:08 | Can it be chocolate with strawberries? | 딸기 들어간 초콜릿으로 해 줄 수 있어? | 제이크가 이 방에 있다 | emo=cheerful stamp=🎂
+B@19:08 | No way. Jake, why are you in this chat? | 말도 안 돼. 제이크, 너 왜 이 방에 있어? | no way = 말도 안 돼 | emo=shout
+C@19:09 | You made this chat. It's called Jake's Friends. | 네가 만든 방이잖아. 방 이름이 「제이크 친구들」이야. | called = ~라는 이름의 | emo=amused
+A@19:09 | So… still a surprise if we pretend? | 그럼… 모르는 척하면 아직 서프라이즈야? | pretend = ~인 척하다 | emo=amused
+C@19:10 | Totally. I'll act shocked. Strawberries, please. | 완전. 놀란 척할게. 딸기 부탁해. | act shocked = 놀란 척하다 | emo=cheerful

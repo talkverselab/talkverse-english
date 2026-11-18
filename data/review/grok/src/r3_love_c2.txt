@@ -1,0 +1,26 @@
+=== r3_love_c2
+title: 줄 서기의 기술
+emoji: 🥯
+scene: 아침 베이글 가게 줄에서 매일 마주치는 다니엘이 일부러 학습자 뒤에 서 왔다는 걸 털어놓는다
+where: 아침 베이글 가게 줄
+goal: 가벼운 스몰토크에서 마음 떠보기
+kind: short
+register: casual
+B: Daniel
+twist: 9 reveal
+expr: guess what | you know what | dream on
+--
+B | Same time, same line. We have to stop meeting like this. | 같은 시간, 같은 줄. 우리 이렇게 그만 만나야겠다. | stop meeting like this = 이렇게 자꾸 만나는 거 | emo=neutral
+A | You're the one behind me every single morning. | 매일 아침 내 뒤에 서는 건 너거든. | every single = 하루도 빠짐없이 | emo=neutral
+B | Coincidence. This is the only good bagel place. | 우연이야. 여기가 유일하게 괜찮은 베이글 집이잖아. | coincidence = 우연 | emo=neutral
+A | There's one across the street. With no line. | 길 건너에도 하나 있는데. 줄도 없고. | across the street = 길 건너 | emo=neutral
+B | The sesame there is a crime. | 거기 참깨 베이글은 범죄야. | crime = 범죄 | emo=amused
+A | Guess what? I've seen you buy sesame there. | 그거 알아? 너 거기서 참깨 사는 거 봤어. | guess what = 있잖아, 그거 알아? | emo=neutral
+B | That was research. | 그건 조사였어. | research = 조사 | emo=neutral
+A | Research for what? | 무슨 조사? | 되묻기 | emo=neutral
+B | You know what, fine. I come here at eight because you do. | 있잖아, 알았어. 네가 8시에 와서 나도 8시에 오는 거야. | you know what = 있잖아 | emo=shy
+A | So I'm the reason you wait twenty minutes for bread. | 그러니까 너 빵 하나에 20분 기다리는 게 나 때문이야? | the reason = 이유 | emo=surprised
+B | Don't flatter yourself. It's also very good bread. | 착각하지 마. 빵도 진짜 맛있거든. | flatter yourself = 착각하다 | emo=teasing
+A | Then buy me one, and I'll think about it. | 그럼 하나 사 줘, 생각해 볼게. | think about it = 생각해 보다 | emo=teasing
+B | Dream on. Okay, but just one. | 꿈 깨. 알았어, 하나만이야. | dream on = 꿈 깨 | emo=amused heart
+A | Sesame from across the street, please. | 길 건너 참깨로 부탁해. | 콜백 한 방 | emo=amused

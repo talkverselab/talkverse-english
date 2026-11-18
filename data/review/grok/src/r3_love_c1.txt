@@ -1,0 +1,26 @@
+=== r3_love_c1
+title: 우산 하나, 정류장 둘
+emoji: ☔
+scene: 비 오는 버스 정류장에서 에마가 우산 하나로 같이 가자고 하는데, 집 방향이 정반대다
+where: 비 오는 버스 정류장
+goal: 같이 가자고 제안하기·돌려 말하기
+kind: long
+register: casual
+B: Emma
+twist: 11 reveal
+expr: honestly | i mean | it's not like
+--
+B | You don't have an umbrella, do you? | 너 우산 없지? | ~, do you? = 그렇지? | emo=neutral
+A | The forecast said sunny. I trusted it. | 일기예보가 맑다고 했어. 믿었지. | forecast = 일기예보 | emo=neutral
+B | Rookie mistake. Mine's big enough for two. | 초보 실수네. 내 거 둘이 쓸 만큼 커. | big enough for two = 둘이 쓸 만큼 큰 | emo=neutral
+A | Are you sure? Which way are you going? | 정말? 너 어느 쪽으로 가? | which way = 어느 방향 | emo=neutral
+B | Your way. Whatever your way is. | 네 쪽. 네가 어디로 가든. | whatever = 무엇이든 | emo=shy
+A | I live by the river. That's like twenty minutes. | 나 강가 쪽 살아. 20분쯤 걸려. | by the river = 강가에 | emo=neutral
+B | Honestly, I love walking in the rain. | 솔직히 나 빗속 걷는 거 좋아해. | honestly = 솔직히 | emo=neutral
+A | Since when? You complained about rain all last week. | 언제부터? 지난주 내내 비 투덜댔잖아. | complained = 투덜댔다 | emo=teasing
+B | I mean, it's different with company. | 내 말은, 같이 있으면 다르다고. | company = 함께 있는 사람 | emo=shy
+A | It's not like you're doing this just for me, right? | 설마 나 때문에 이러는 건 아니지? | it's not like = ~인 것도 아니고 | emo=teasing
+B | My bus stop is the other way. Three stops back. | 내 정류장은 반대쪽이야. 세 정거장 전. | the other way = 반대 방향 | emo=flustered
+A | So you waited here in the rain. On purpose. | 그러니까 일부러 여기서 비 맞고 기다렸네. | on purpose = 일부러 | emo=neutral
+B | With an umbrella. I'm not crazy. | 우산 쓰고. 나 미친 거 아니거든. | not crazy = 미치진 않았어 | emo=shy
+A | Okay. Twenty minutes, then. Maybe we walk slow. | 좋아. 그럼 20분. 천천히 걸을까. | walk slow = 천천히 걷다 | emo=gentle heart

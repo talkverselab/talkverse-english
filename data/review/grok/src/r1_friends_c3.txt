@@ -1,0 +1,20 @@
+=== r1_friends_c3
+title: 마야의 팟캐스트 손님
+emoji: 🎙️
+scene: Maya 가 커피 마시자고 불러 놓고 갑자기 마이크를 켜고 학습자를 팟캐스트 손님으로 만든다
+where: Maya 의 방
+goal: 갑작스러운 질문에 짧게 답하기
+kind: short
+register: casual
+B: Maya
+twist: 3 reveal
+expr: what's up | wait | i don't know | that's crazy
+--
+B | Hey! Sit down. Coffee's right there. | 안녕! 앉아. 커피 거기 있어. | right there = 바로 거기 | emo=neutral
+A | Thanks. What's up? | 고마워. 무슨 일이야? | what's up = 무슨 일이야 | emo=neutral
+B | Nothing. Also, we're live. | 별거 아냐. 그리고 지금 방송 중이야. | we're live = 생방송 중 | emo=teasing
+A | Wait. Live? Like, people are listening? | 잠깐. 방송? 사람들이 듣는다고? | wait = 잠깐 | emo=neutral
+B | Three people. My mom is one. | 세 명. 그중 한 명은 우리 엄마. | 숫자 킥 | emo=neutral
+A | Hi, Maya's mom. | 안녕하세요, 마야 어머님. | 바로 적응 | emo=polite
+B | First question. Why are you so cute? | 첫 질문. 넌 왜 이렇게 귀여워? | cute = 귀여운 | emo=teasing
+A | I don't know. That's crazy. | 몰라. 말도 안 돼. | I don't know = 몰라 | emo=shy

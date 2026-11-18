@@ -31,7 +31,7 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "This copier is out of order again.",
+   "en": "This copier is down again.",
    "ko": "이 복사기 또 고장이야.",
    "note": "",
    "tags": [],
@@ -43,7 +43,7 @@
     "red": [
      "This"
     ],
-    "note": "this one 의 this(가까운 것)"
+    "note": "this = 가까운 것"
    },
    "emotion": "annoyed",
    "lemmas": [
@@ -51,18 +51,13 @@
      "copier",
      "copy",
      ""
-    ],
-    [
-     "order",
-     "order",
-     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "en": "Use the other one by the window. It was serviced last week.",
+   "en": "Use the other one by the window. It got serviced last week.",
    "ko": "창가에 있는 다른 거 써. 지난주에 점검받았어.",
    "note": "",
    "tags": [],
@@ -89,6 +84,11 @@
      ""
     ],
     [
+     "got",
+     "get",
+     ""
+    ],
+    [
      "serviced",
      "service",
      ""
@@ -108,7 +108,7 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "The other one is displaying an error code too.",
+   "en": "The other one is throwing an error code too.",
    "ko": "그것도 오류 코드가 떠.",
    "note": "",
    "tags": [],
@@ -125,8 +125,8 @@
    "emotion": "annoyed",
    "lemmas": [
     [
-     "displaying",
-     "display",
+     "throwing",
+     "throw",
      ""
     ],
     [
@@ -180,7 +180,7 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Not again. That one jams every time I print double-sided.",
+   "en": "Not again. That one jams every single double-sided job.",
    "ko": "또야? 거긴 양면 인쇄만 하면 걸려.",
    "note": "not again = 또야",
    "tags": [],
@@ -193,13 +193,8 @@
      ""
     ],
     [
-     "time",
-     "time",
-     ""
-    ],
-    [
-     "print",
-     "print",
+     "single",
+     "single",
      ""
     ],
     [
@@ -211,14 +206,19 @@
      "sided",
      "side",
      ""
+    ],
+    [
+     "job",
+     "job",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "en": "Fine. The others are in the basement storage room.",
-   "ko": "알았어. 나머지는 지하 창고에 있어.",
+   "en": "Fine. The others are all down in the basement storage.",
+   "ko": "알았어. 나머지는 전부 지하 창고에 있어.",
    "note": "",
    "tags": [],
    "new": [],
@@ -247,18 +247,13 @@
      "storage",
      "storage",
      ""
-    ],
-    [
-     "room",
-     "room",
-     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "en": "Come on. Why are all of them out of service at once?",
+   "en": "Come on. Why are all of them out of service right now?",
    "ko": "아 진짜. 왜 전부 한꺼번에 고장이야?",
    "note": "come on = 아 진짜",
    "tags": [],
@@ -285,8 +280,8 @@
      ""
     ],
     [
-     "once",
-     "once",
+     "right",
+     "right",
      ""
     ]
    ]
@@ -294,14 +289,11 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Olivia printed the annual budget. All 400 pages. In color. Twice.",
-   "ko": "올리비아가 연간 예산안을 뽑았거든. 400쪽 전부. 컬러로. 두 번.",
+   "en": "Olivia ran the annual budget. Four hundred pages. In color. Twice.",
+   "ko": "올리비아가 연간 예산안을 뽑았거든. 400쪽. 컬러로. 두 번.",
    "note": "카오스의 원인",
    "tags": [],
-   "new": [
-    "olivia",
-    "print"
-   ],
+   "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -310,8 +302,8 @@
      ""
     ],
     [
-     "printed",
-     "print",
+     "ran",
+     "run",
      ""
     ],
     [
@@ -322,6 +314,11 @@
     [
      "budget",
      "budget",
+     ""
+    ],
+    [
+     "hundred",
+     "hundred",
      ""
     ],
     [
@@ -347,7 +344,7 @@
   "ko": "one(같은 종류 아무 하나), another(또 다른 하나), the other(남은 하나), the others(남은 전부). 몇 개 중 몇 번째인지로 고른다."
  },
  "check": {
-  "q": "This copier is out of order. Please use _____ one on the third floor.",
+  "q": "This copier is broken. Try _____ one on the third floor.",
   "options": [
    "other",
    "another",

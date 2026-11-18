@@ -1,0 +1,19 @@
+=== sense_L2
+title: 전치사 익히기 — 약속 장소 헷갈림
+focus: 전치사 익히기 (in · on · at)
+--
+Jake | Meet me {at|1} the station {at|2} seven. | 7시{에|2} 역{에서|1} 만나.
+나 | Seven {on|3} Friday, right? | 금요일{에|3} 7시 맞지?
+Jake | Yeah. I'll be {in|4} front of the bakery. | 응. 빵집 {앞에|4} 있을게.
+나 | Which one? There's one {on|5} Main Street too. | 어느 빵집? 메인 스트리트{에도|5} 하나 있잖아.
+Jake | The one {in|6} the station. Next to the stairs. | 역 {안에|6} 있는 거. 계단 옆.
+나 | Got it. I'm {on|7} the train now. | 알았어. 나 지금 지하철 {타고|7} 있어.
+Jake | Wait, now? It's Thursday. | 잠깐, 지금? 오늘 목요일이야.
+나 | ...I'm already {at|1} the station. | ...나 벌써 역{에|1} 와 있는데.
+Jake | Then stay there. I'm coming. {In|8} ten minutes. | 그럼 거기 있어. 갈게. 10분 {뒤에|8}.
+나 | So it's {on|3} Thursday now? | 그럼 이제 목요일{에|3} 보는 거야?
+--
+note | at — 한 점. 시각(at seven)·딱 그 장소(at the station).
+note | on — 위에 붙어 있음. 요일·날짜(on Friday)·거리 이름(on Main Street)·탈것 위(on the train).
+note | in — 안에 들어 있음. 공간 안(in the station)·「~뒤에」(in ten minutes)·달·해(in May).
+note | 한국어 「에」 하나가 영어에서는 셋으로 나뉘어요.

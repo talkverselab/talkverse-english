@@ -1,0 +1,20 @@
+=== r1_culture_a2
+title: 브런치는 몇 시?
+emoji: 🥞
+scene: Maya 가 일요일 브런치에 초대해 아침 9시에 갔더니, 브런치는 오후 2시였다
+where: Maya 의 집 앞
+goal: 약속 시간 묻고 확인하기
+kind: chat
+register: chat
+B: Maya
+twist: 5 reveal
+expr: you up | i'm good | what do you mean | no way
+--
+A@09:02 | I'm here! You up? | 나 도착! 일어났어? | you up? = 일어났어? | emo=neutral
+B@09:15 | Here where? | 어디 도착? | 되묻기 | emo=neutral
+A@09:15 | Your place. Brunch, right? | 너네 집. 브런치 맞지? | right? = 맞지? | emo=neutral
+B@09:16 | Brunch is at two. | 브런치 2시야. | at two = 2시에 | emo=neutral
+A@09:16 | What do you mean? It's breakfast! | 무슨 말이야? 아침이잖아! | what do you mean = 무슨 말이야 | emo=surprised
+B@09:17 | Brunch is never breakfast. lol | 브런치는 절대 아침 아니야 ㅋㅋ | never = 절대 | emo=amused
+A@09:17 | No way. I'm good. Waiting here. | 말도 안 돼. 괜찮아. 여기서 기다릴게. | I'm good = 괜찮아 | emo=neutral
+B@09:18 | Door's open. Bring bagels. | 문 열려 있어. 베이글 사 와. | bring = 가져오다 | emo=teasing stamp=🥯

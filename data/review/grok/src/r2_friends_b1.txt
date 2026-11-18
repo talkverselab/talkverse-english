@@ -1,0 +1,22 @@
+=== r2_friends_b1
+title: 단톡방에 "누가 내 피자 먹었어?"
+emoji: 🍕
+scene: Jake 가 냉장고 피자 범인을 찾는데, 범인은 자기 자신이었다
+where: 셰어하우스 거실
+goal: 따지기와 핑계
+kind: long
+register: casual
+B: Jake
+twist: 9 chaos
+expr: what are you talking about | i swear | come on
+--
+B | {name}, did you eat my pizza? | {name}, 너 내 피자 먹었어? | did you eat = 먹었어 | emo=neutral
+A | What are you talking about? I just got home. | 무슨 소리야? 나 방금 왔어. | what are you talking about = 무슨 소리야 | emo=neutral
+B | There were three slices. Now there's one. | 세 조각 있었는데. 이제 하나야. | slice = 조각 | emo=annoyed
+A | I swear I didn't touch it. | 진짜 손도 안 댔어. | I swear = 맹세해 | emo=neutral
+B | Then who? Daniel only eats salad. | 그럼 누구야? 대니얼은 샐러드만 먹잖아. | only eats = ~만 먹다 | emo=neutral
+A | Come on, look at the box. There's your note. | 야, 상자 좀 봐. 네 쪽지 있잖아. | note = 쪽지 | emo=teasing
+B | "Jake, don't eat this at 2 a.m." | "제이크, 새벽 두 시에 이거 먹지 마." | 자기한테 쓴 쪽지 | emo=neutral
+A | You wrote that to yourself, man. | 그거 네가 너한테 쓴 거잖아. | to yourself = 너 자신에게 | emo=amused
+B | Oh. That's why my shirt smells like pepperoni. | 아. 그래서 내 셔츠에서 페퍼로니 냄새가 나는구나. | smells like = ~ 냄새가 나다 | emo=surprised
+A | Mystery solved. You owe me an apology. | 사건 해결. 사과해. | owe ~ an apology = 사과할 게 있다 | emo=teasing

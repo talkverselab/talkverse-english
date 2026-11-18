@@ -1,0 +1,20 @@
+=== r1_love_a3
+title: 엘리베이터 9층
+emoji: 🛗
+scene: 같은 건물 Daniel 과 엘리베이터에서 매일 마주치는데, 오늘 Daniel 이 내릴 층을 일부러 지나친다
+where: 아파트 엘리베이터
+goal: 짧은 인사로 대화 열기
+kind: short
+register: casual
+B: Daniel
+twist: 6 reveal
+expr: hey | long time no see | kind of
+--
+B | Hey. Nine, right? | 안녕. 9층 맞지? | right? = 맞지? | emo=neutral
+A | Yeah. You always remember. | 응. 맨날 기억하네. | remember = 기억하다 | emo=neutral
+B | Kind of hard to forget. | 잊기 좀 어렵지. | kind of = 좀 | emo=neutral
+A | Long time no see. Like, since yesterday. | 오랜만이야. 어제 이후로. | long time no see = 오랜만 | emo=neutral
+B | Felt long. | 길게 느껴졌어. | 짧은 직진 | emo=gentle heart
+A | Wait. You live on four. We passed it. | 잠깐. 너 4층 살잖아. 지나쳤어. | passed = 지나쳤다 | emo=surprised
+B | Yeah. I know. | 응. 알아. | 일부러 | emo=neutral
+A | So… nine together, then. | 그럼… 같이 9층이네. | together = 같이 | emo=shy

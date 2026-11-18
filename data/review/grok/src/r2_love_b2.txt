@@ -1,0 +1,22 @@
+=== r2_love_b2
+title: 빨래방 건조기 하나 남았다
+emoji: 🧺
+scene: 빨래방 마지막 건조기를 두고 Emma 와 실랑이하다 같이 쓰기로 한다
+where: 동네 빨래방
+goal: 양보·제안하기
+kind: long
+register: casual
+B: Emma
+twist: 8 emotion
+expr: it's up to you | to be honest | why not
+--
+B | Sorry, is this dryer yours? | 미안, 이 건조기 네 거야? | dryer = 건조기 | emo=polite
+A | Kind of. I was about to use it. | 어느 정도는. 막 쓰려던 참이었어. | be about to = 막 ~하려던 참 | emo=neutral
+B | It's the last one. Mine's all wet. | 이게 마지막이야. 내 건 다 젖었어. | wet = 젖은 | emo=neutral
+A | Mine too. How much do you have? | 나도. 너는 얼마나 돼? | how much = 얼마나 | emo=neutral
+B | Two towels and one sad sweater. | 수건 두 장이랑 불쌍한 스웨터 하나. | sad sweater = 불쌍한 스웨터 | emo=amused
+A | We could just share. It's up to you. | 그냥 같이 써도 돼. 너 편한 대로. | it's up to you = 네 맘대로 해 | emo=gentle
+B | Why not? Forty minutes. We just… wait here. | 그러지 뭐. 40분이야. 우리 그냥… 여기서 기다리는 거네. | why not = 안 될 거 없지 | emo=neutral
+A | To be honest, I was hoping you'd say that. | 솔직히, 네가 그렇게 말해 주길 바랐어. | to be honest = 솔직히 | emo=shy heart
+B | Your sock is in my sweater. | 네 양말이 내 스웨터 안에 있어. | 말 돌리기 | emo=flustered
+A | Keep it. Then you have to see me again. | 가져. 그럼 나 또 봐야 하잖아. | have to = ~해야 하다 | emo=teasing

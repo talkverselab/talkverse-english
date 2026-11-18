@@ -1,0 +1,25 @@
+=== r3_life_c2
+title: 택배 기사와 개
+emoji: 📦
+scene: 택배를 기다리는데 기사가 문 앞 개가 무서워 못 온다고 전화한다. 그 개는 이웃의 인형이다
+where: 아파트 현관
+goal: 전화로 배달 위치 설명하기
+kind: survival
+register: polite
+B: Driver
+twist: 10 chaos
+expr: hold on | what do you mean | i have no idea
+--
+B | Hi, I'm outside with your package. Is the dog friendly? | 안녕하세요, 택배 들고 밖에 있는데요. 개 순한가요? | friendly = 순한, 친근한 | emo=neutral
+A | Dog? I don't have a dog. | 개요? 저 개 안 키우는데요. | 부정 | emo=surprised
+B | There's a big brown one right by your door. | 문 바로 옆에 갈색 큰 개가 있어요. | right by = 바로 옆 | emo=neutral
+A | Hold on, which building are you at? | 잠깐만요, 어느 건물에 계세요? | hold on = 잠깐만 | emo=neutral
+B | 4B. Blue door, plants on both sides. | 4B요. 파란 문, 양쪽에 화분 있는 데요. | on both sides = 양쪽에 | emo=neutral
+A | That's me. I have no idea where a dog came from. | 저 맞아요. 개가 어디서 왔는지 전혀 모르겠어요. | i have no idea = 전혀 모르겠어 | emo=neutral
+B | It hasn't moved at all. It's just staring at me. | 하나도 안 움직여요. 그냥 저를 쳐다봐요. | staring = 빤히 보는 | emo=neutral
+A | Is it barking? | 짖어요? | bark = 짖다 | emo=neutral
+B | No. It's very calm. Too calm. | 아뇨. 아주 조용해요. 너무 조용해요. | too calm = 너무 조용한 | emo=worried
+A | Oh. My neighbor's giant stuffed dog. She puts it out to scare people. | 아. 옆집 큰 개 인형이에요. 사람 겁주려고 내놔요. | stuffed = 봉제 인형인 | emo=amused
+B | What do you mean, stuffed? I've been out here ten minutes. | 인형이라니요? 저 여기서 10분 서 있었어요. | what do you mean = 무슨 말이에요 | emo=tsukkomi
+A | So it works. I'm coming down now. | 효과가 있긴 하네요. 지금 내려갈게요. | it works = 효과가 있다 | emo=amused
+B | Please hurry. It's still looking at me. | 빨리 와 주세요. 아직도 저 보고 있어요. | still = 아직도 | emo=worried

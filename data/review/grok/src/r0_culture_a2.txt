@@ -1,0 +1,19 @@
+=== r0_culture_a2
+title: How are you 의 정답
+emoji: 🙂
+scene: 가게마다 How are you 를 묻길래 진짜 하루 이야기를 시작한다
+where: 동네 마트 계산대
+goal: 인사 받는 법
+kind: short
+register: casual
+B: Cashier
+twist: 5 reveal
+expr: how's it going | i'm good
+--
+B | Hey! How's it going? | 안녕하세요! 잘 지내요? | how's it going = 잘 지내요? | emo=polite
+A | Not good. My bus was late. | 별로요. 버스가 늦었어요. | late = 늦은 | emo=sad
+B | Oh. Sorry. Bag? | 아. 저런. 봉투요? | bag = 봉투 | emo=neutral
+A | And my coffee was cold. | 그리고 커피도 식었어요. | cold = 차가운 | emo=neutral
+B | It's just "hi" here. | 여기선 그냥 「안녕」이에요. | just = 그냥 | emo=amused
+A | Oh! Then… I'm good! | 아! 그럼… 좋아요! | i'm good = 잘 지내요 | emo=flustered
+B | Me too. Cold coffee too. | 저도요. 저도 커피 식었어요. | me too = 저도 | emo=neutral

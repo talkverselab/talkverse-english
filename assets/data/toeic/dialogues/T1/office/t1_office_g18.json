@@ -373,13 +373,8 @@
    "en": "No way. Told you — the cheapest option is always the costliest.",
    "ko": "말도 안 돼. 내가 말했지, 제일 싼 게 늘 제일 비싸다고.",
    "note": "교훈 한 줄",
-   "tags": [
-    "expr:no way",
-    "expr:told you"
-   ],
-   "new": [
-    "costly"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [

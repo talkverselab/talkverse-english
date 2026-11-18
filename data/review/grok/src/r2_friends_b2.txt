@@ -1,0 +1,21 @@
+=== r2_friends_b2
+title: 생일 서프라이즈를 본인한테 물어보기
+emoji: 🎂
+scene: Maya 생일 깜짝 파티를 준비하다가 단톡방을 잘못 골라 Maya 본인에게 묻는다
+where: 카페에서 휴대폰 채팅
+goal: 계획 세우기와 오발송 수습
+kind: chat
+register: chat
+B: Maya
+twist: 6 slip
+expr: guess what | never mind | i'm down
+--
+A@19:02 | Okay, cake or pizza for Maya's party? | 자, 마야 파티에 케이크야 피자야? | party = 파티 | emo=neutral
+B@19:03 | Wait. What party? | 잠깐. 무슨 파티? | what party = 무슨 파티 | emo=neutral
+A@19:03 | Oh no. Wrong chat. | 헐. 방 잘못 왔다. | wrong chat = 방 착각 | emo=neutral
+A@19:04 | Never mind! There's no party. | 아무것도 아냐! 파티 없어. | never mind = 신경 쓰지 마 | emo=neutral
+B@19:04 | Friday? Because I'm free Friday. | 금요일? 나 금요일 비거든. | free = 시간 되는 | emo=teasing
+A@19:05 | Guess what. I'm terrible at secrets. | 있잖아. 나 비밀 진짜 못 지켜. | guess what = 있잖아 | emo=shy
+B@19:05 | Pizza. Obviously. And I'm down for 8. | 피자. 당연하지. 8시 좋아. | I'm down = 나 콜 | emo=excited
+A@19:06 | Act surprised, okay? | 놀란 척해, 알았지? | act surprised = 놀란 척하다 | emo=neutral
+B@19:06 | I literally do podcasts. I can act. | 나 팟캐스트 하는 사람이야. 연기 돼. | literally = 진짜로 | emo=amused stamp=😎

@@ -1,0 +1,20 @@
+=== r1_survival_s4
+title: 약국에서 "Sure"의 값
+emoji: 💊
+scene: 두통약 하나 사러 갔는데 회원 가입·영수증 질문마다 Sure 라고 했다가 영수증이 1미터가 된다
+where: 동네 약국 계산대
+goal: 계산대 질문에 고르는 말로 답하기
+kind: survival
+register: polite
+B: Clerk
+twist: 6 chaos
+expr: sure | just this
+--
+B | Hi there. Just this? | 안녕하세요. 이것만요? | just this = 이것만 | emo=polite
+A | Yes. Something for a headache. | 네. 두통에 먹는 거요. | headache = 두통 | emo=neutral
+B | You have our rewards card? | 저희 적립 카드 있으세요? | rewards card = 적립 카드 | emo=polite
+A | Sure. | 네. | 뜻을 몰라도 일단 Sure | emo=neutral
+B | Great, I'll sign you up. Receipt by email? | 좋아요, 가입해 드릴게요. 영수증은 메일로요? | sign up = 가입시키다 | emo=polite
+A | Sure. | 네. | 또 Sure | emo=neutral
+B | Okay. Here's your receipt. And your coupons. | 네. 영수증이요. 그리고 쿠폰도요. | coupons = 쿠폰 | emo=amused
+A | Wait. This receipt is longer than me. | 잠깐만요. 영수증이 저보다 길어요. | longer than = ~보다 긴 | emo=surprised

@@ -329,12 +329,8 @@
    "en": "Sounds good. Lunch is forty dollars per person. Sign here.",
    "ko": "좋네요. 점심은 1인당 40달러. 여기 서명하세요.",
    "note": "sounds good = 좋네요",
-   "tags": [
-    "expr:sounds good"
-   ],
-   "new": [
-    "forty"
-   ],
+   "tags": [],
+   "new": [],
    "emotion": "teasing",
    "lemmas": [
     [

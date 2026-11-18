@@ -12,7 +12,7 @@
  ],
  "title": "그러므로, 안 돼",
  "emoji": "💸",
- "scene": "A 가 연봉 인상을 요구한다. Olivia 는 접속부사로만 대답하다가 커피를 내민다",
+ "scene": "A가 연봉 인상을 요구한다. Olivia는 접속부사로만 대답하다가 커피를 내민다",
  "where": "팀장 자리",
  "goal": "접속부사 however · therefore · otherwise · in addition",
  "speakers": {
@@ -31,8 +31,8 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Quarterly sales increased by thirty percent. I'd like to discuss a raise.",
-   "ko": "분기 매출이 30% 올랐어요. 연봉 인상을 논의하고 싶습니다.",
+   "en": "Quarterly sales jumped thirty percent. I'd like to talk about a raise.",
+   "ko": "분기 매출이 30% 올랐어요. 연봉 인상에 대해 얘기하고 싶습니다.",
    "note": "돌직구",
    "tags": [],
    "new": [],
@@ -49,8 +49,8 @@
      ""
     ],
     [
-     "increased",
-     "increase",
+     "jumped",
+     "jump",
      ""
     ],
     [
@@ -69,8 +69,8 @@
      ""
     ],
     [
-     "discuss",
-     "discuss",
+     "talk",
+     "talk",
      ""
     ],
     [
@@ -83,8 +83,8 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "However, the budget for salary adjustments was cut by forty.",
-   "ko": "그러나 급여 조정 예산은 40% 삭감됐지.",
+   "en": "However, the budget for salary adjustments got cut by forty percent.",
+   "ko": "그러나 급여 조정 예산은 40% 삭감됐어.",
    "note": "",
    "tags": [],
    "new": [],
@@ -120,6 +120,11 @@
      ""
     ],
     [
+     "got",
+     "get",
+     ""
+    ],
+    [
      "cut",
      "cut",
      ""
@@ -128,14 +133,19 @@
      "forty",
      "forty",
      ""
+    ],
+    [
+     "percent",
+     "percent",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "en": "In addition, I've covered weekend shifts for three months.",
-   "ko": "게다가 석 달째 주말 근무를 제가 맡고 있어요.",
+   "en": "In addition, I've been covering weekend shifts for three full months.",
+   "ko": "게다가 석 달째 주말 근무를 제가 다 맡고 있어요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -156,7 +166,7 @@
      ""
     ],
     [
-     "covered",
+     "covering",
      "cover",
      ""
     ],
@@ -171,6 +181,11 @@
      ""
     ],
     [
+     "full",
+     "full",
+     ""
+    ],
+    [
      "months",
      "month",
      ""
@@ -180,8 +195,8 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Therefore, you have no personal life. That's not a budget issue.",
-   "ko": "그러므로 넌 사생활이 없는 거지. 그건 예산 문제가 아니야.",
+   "en": "Therefore, you basically have no personal life. That's not a budget thing.",
+   "ko": "그러므로 넌 사실상 사생활이 없는 거지. 그건 예산 문제가 아니야.",
    "note": "",
    "tags": [],
    "new": [],
@@ -202,6 +217,11 @@
      ""
     ],
     [
+     "basically",
+     "basically",
+     ""
+    ],
+    [
      "personal",
      "personal",
      ""
@@ -217,8 +237,8 @@
      ""
     ],
     [
-     "issue",
-     "issue",
+     "thing",
+     "thing",
      ""
     ]
    ]
@@ -226,8 +246,8 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Otherwise, I'll accept the offer from the company across the street.",
-   "ko": "아니면 길 건너 회사 제안을 받아들일 거예요.",
+   "en": "Otherwise, I'll take the offer from the place across the street.",
+   "ko": "아니면 길 건너 쪽 제안을 받아들일 거예요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -248,8 +268,8 @@
      ""
     ],
     [
-     "accept",
-     "accept",
+     "take",
+     "take",
      ""
     ],
     [
@@ -258,8 +278,8 @@
      ""
     ],
     [
-     "company",
-     "company",
+     "place",
+     "place",
      ""
     ],
     [
@@ -277,16 +297,16 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "The company across the street is a bakery.",
-   "ko": "길 건너 회사는 빵집이야.",
+   "en": "The place across the street is just a bakery.",
+   "ko": "길 건너는 그냥 빵집이야.",
    "note": "팩트 폭격",
    "tags": [],
    "new": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "company",
-     "company",
+     "place",
+     "place",
      ""
     ],
     [
@@ -309,10 +329,12 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Fair enough. That's it, I'm submitting my resignation.",
+   "en": "Fair enough. That's it, I'm handing in my resignation.",
    "ko": "인정. 됐어요, 사직서 제출할게요.",
    "note": "fair enough = 인정",
-   "tags": [],
+   "tags": [
+    "heart"
+   ],
    "new": [],
    "emotion": "sad",
    "lemmas": [
@@ -327,8 +349,8 @@
      ""
     ],
     [
-     "submitting",
-     "submit",
+     "handing",
+     "hand",
      ""
     ],
     [
@@ -341,7 +363,7 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Sit down. Coffee. Your adjustment is effective in January. Tell no one.",
+   "en": "Sit down. Coffee. Your adjustment starts in January. Tell no one.",
    "ko": "앉아. 커피. 네 인상은 1월부터 적용이야. 아무한테도 말하지 마.",
    "note": "속정 한 줄",
    "tags": [],
@@ -364,8 +386,8 @@
      ""
     ],
     [
-     "effective",
-     "effective",
+     "starts",
+     "start",
      ""
     ],
     [
@@ -386,7 +408,7 @@
   "ko": "however(그러나), therefore(그러므로), otherwise(그렇지 않으면), in addition(게다가)은 문장을 잇지만 접속사가 아니다 — 앞에 마침표나 세미콜론, 뒤에 쉼표."
  },
  "check": {
-  "q": "Quarterly sales increased by 30 percent. _____, the budget for raises was cut.",
+  "q": "Sales jumped thirty percent. _____, the raise budget was cut hard.",
   "options": [
    "Therefore",
    "However",

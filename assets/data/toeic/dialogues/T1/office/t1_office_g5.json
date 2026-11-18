@@ -12,7 +12,7 @@
  ],
  "title": "금요일까지가 금요일 몇 시?",
  "emoji": "📅",
- "scene": "거래처 Tom 이 「금요일까지」 라고 했는데 by 인지 until 인지로 밤을 새울 뻔한다",
+ "scene": "거래처 Tom이 「금요일까지」라고 했는데 by인지 until인지로 밤을 새울 뻔한다",
  "where": "전화",
  "goal": "시간 전치사 by · until · within · in",
  "speakers": {
@@ -31,7 +31,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "I need the revised proposal by Friday. The board meets on Monday.",
+   "en": "I need the revised proposal by Friday. The board meets Monday.",
    "ko": "수정 제안서를 금요일까지 주세요. 이사회가 월요일이에요.",
    "note": "",
    "tags": [],
@@ -88,7 +88,7 @@
    "num": 2,
    "speaker": "A",
    "en": "Just to confirm, by Friday or until Friday?",
-   "ko": "확인 차원에서요, 금요일까지 제출인가요, 금요일 내내인가요?",
+   "ko": "확인 차원에서요, 금요일까지 제출인가요 금요일 내내인가요?",
    "note": "",
    "tags": [],
    "new": [],
@@ -130,21 +130,31 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Is there a meaningful difference?",
-   "ko": "의미 있는 차이가 있나요?",
+   "en": "Is there actually a real difference between them?",
+   "ko": "둘 사이에 진짜 의미 있는 차이가 있나요?",
    "note": "거래처의 질문",
    "tags": [],
    "new": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "meaningful",
-     "meaningful",
+     "actually",
+     "actual",
+     ""
+    ],
+    [
+     "real",
+     "real",
      ""
     ],
     [
      "difference",
      "difference",
+     ""
+    ],
+    [
+     "between",
+     "between",
      ""
     ]
    ]
@@ -152,8 +162,8 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "By means I deliver it. Until means I keep suffering.",
-   "ko": "by 는 제가 납품한다는 거고, until 은 계속 고통받는다는 거예요.",
+   "en": "By means I deliver it. Until means I keep working.",
+   "ko": "by는 제가 납품한다는 거고 until은 계속 일한다는 거예요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -193,8 +203,8 @@
      ""
     ],
     [
-     "suffering",
-     "suffering",
+     "working",
+     "work",
      ""
     ]
    ]
@@ -202,8 +212,8 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Then by Friday. And please complete the budget section within three business days.",
-   "ko": "그럼 금요일까지요. 예산 항목은 영업일 사흘 안에 끝내 주시고요.",
+   "en": "Then by Friday. Finish the budget part within three business days too.",
+   "ko": "그럼 금요일까지요. 예산 부분도 영업일 사흘 안에 끝내 주시고요.",
    "note": "",
    "tags": [],
    "new": [],
@@ -226,13 +236,8 @@
      ""
     ],
     [
-     "please",
-     "please",
-     ""
-    ],
-    [
-     "complete",
-     "complete",
+     "Finish",
+     "finish",
      ""
     ],
     [
@@ -241,8 +246,8 @@
      ""
     ],
     [
-     "section",
-     "section",
+     "part",
+     "part",
      ""
     ],
     [
@@ -265,8 +270,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Got it. Today is Thursday, Tom.",
-   "ko": "알겠어요. 오늘 목요일이에요, 톰.",
+   "en": "Got it. Today is already Thursday, Tom.",
+   "ko": "알겠어요. 오늘 이미 목요일이에요, 톰.",
    "note": "got it = 알겠어요",
    "tags": [],
    "new": [],
@@ -297,7 +302,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Oh. Then in one day, I suppose.",
+   "en": "Oh. Then in one day, I guess.",
    "ko": "아. 그럼 하루 뒤네요.",
    "note": "",
    "tags": [],
@@ -319,8 +324,8 @@
      ""
     ],
     [
-     "suppose",
-     "suppose",
+     "guess",
+     "guess",
      ""
     ]
    ]
@@ -328,13 +333,11 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "So I'll be suffering until Friday after all.",
-   "ko": "그럼 결국 금요일까지 고통받겠네요.",
+   "en": "So I'll still be working until Friday after all.",
+   "ko": "그럼 결국 금요일까지 일하겠네요.",
    "note": "",
    "tags": [],
-   "new": [
-    "suffering"
-   ],
+   "new": [],
    "gram": {
     "u": [
      "until Friday"
@@ -347,8 +350,8 @@
    "emotion": "sad",
    "lemmas": [
     [
-     "suffering",
-     "suffering",
+     "working",
+     "work",
      ""
     ],
     [
@@ -374,7 +377,7 @@
   "ko": "by = 늦어도 그때까지 완료, until = 그때까지 계속, within = 기간 안에, in = ~ 뒤에. 토익 Part 5 단골."
  },
  "check": {
-  "q": "Please submit the revised proposal _____ Friday at noon.",
+  "q": "Please send the revised proposal _____ Friday at noon.",
   "options": [
    "until",
    "by",

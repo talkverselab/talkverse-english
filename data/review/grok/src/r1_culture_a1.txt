@@ -1,0 +1,20 @@
+=== r1_culture_a1
+title: 할로윈 사탕은 하나만
+emoji: 🎃
+scene: 처음 맞는 할로윈, 사탕 나눠 주는 집에서 그릇을 통째로 들고 갈 뻔하다가 꼬마에게 혼난다
+where: 할로윈 밤 동네 현관
+goal: 행사 날 인사와 규칙
+kind: short
+register: casual
+B: Kid
+twist: 6 slip
+expr: sorry | oh my god
+--
+B | Trick or treat! | 트릭 오어 트릿! | trick or treat = 사탕 안 주면 장난칠 거야 | emo=neutral
+A | Hi! Wait, I'm not giving candy. I'm getting it. | 안녕! 잠깐, 난 주는 게 아니라 받는 쪽이야. | getting = 받는 | emo=neutral
+B | Then why do you have the bowl? | 그럼 왜 그릇을 들고 있어요? | bowl = 그릇 | emo=neutral
+A | The sign says "take one." | 표지판에 "하나 가져가세요"라고 써 있어서. | take one = 하나 가져가기 | emo=neutral
+B | One candy. Not one bowl. | 사탕 하나요. 그릇 하나가 아니고. | not ~ = ~ 아니고 | emo=tsukkomi
+A | Oh my god. Sorry. | 세상에. 미안. | oh my god = 세상에 | emo=flustered
+B | It's fine. Your costume is good. | 괜찮아요. 의상 멋있어요. | costume = 분장 의상 | emo=neutral
+A | Costume? These are my normal clothes. | 의상? 이거 그냥 내 평소 옷이야. | normal = 평소의 | emo=amused

@@ -1,0 +1,26 @@
+=== r3_work_c1
+title: 화상 회의 음소거
+emoji: 💻
+scene: 재택 화상 회의에서 음소거가 꺼진 줄 모르고 혼잣말을 하다가 팀장 마야가 그걸 칭찬으로 받아 준다
+where: 집, 화상 회의
+goal: 회의에서 의견 말하기·실수 수습하기
+kind: long
+register: mixed
+B: Maya
+twist: 6 slip
+expr: to be honest | that being said | my bad
+--
+B | Okay, last item. Any thoughts on the new schedule? | 좋아요, 마지막 안건. 새 일정에 의견 있어요? | thoughts = 의견 | emo=neutral
+A | Sorry, give me a second. My cat's on the keyboard. | 죄송해요, 잠깐만요. 고양이가 키보드 위에 있어서요. | give me a second = 잠깐만 | emo=flustered
+B | Take your time. We love the cat. | 천천히 해요. 다들 고양이 좋아해요. | take your time = 천천히 | emo=neutral
+A | Okay. To be honest, the Monday meeting feels a little early. | 네. 솔직히 월요일 회의가 좀 이른 것 같아요. | to be honest = 솔직히 | emo=polite
+B | Fair. How early is too early? | 그럴 수 있죠. 얼마나 이르면 너무 이른 거예요? | too early = 너무 이른 | emo=neutral
+A | Eight is fine. Seven means I'm still asleep. Actually, I'm still asleep at eight. | 8시는 괜찮아요. 7시면 전 아직 자요. 사실 8시에도 자요. | 혼잣말이 다 들림 | emo=neutral
+B | You know you're not muted, right? | 음소거 안 된 거 알죠? | muted = 음소거된 | emo=amused
+A | Oh no. My bad. Everyone heard that? | 이런. 제 실수예요. 다들 들으셨어요? | my bad = 내 실수 | emo=flustered
+B | Everyone. Even the client. | 다요. 고객사도요. | client = 고객사 | emo=neutral
+A | I'm so sorry. That was very unprofessional. | 정말 죄송해요. 너무 프로답지 못했어요. | unprofessional = 프로답지 못한 | emo=worried
+B | That being said, it's the most honest thing anyone said today. | 그렇긴 한데, 오늘 나온 말 중에 제일 솔직했어요. | that being said = 그렇긴 해도 | emo=amused
+B | The client says they're asleep at eight too. | 고객사도 8시엔 잔대요. | 반전 | emo=neutral
+A | So we're moving it? | 그럼 옮기는 거예요? | move = 옮기다 | emo=surprised
+B | Nine-thirty. All because of you and the cat. | 9시 반이요. 전부 당신하고 고양이 덕분이에요. | because of = ~때문에 | emo=cheerful

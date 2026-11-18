@@ -1,0 +1,27 @@
+=== r3_travel_c1
+title: 기내 선반 쟁탈전
+emoji: ✈️
+scene: 비행기에서 짐 넣을 자리를 두고 옆자리 승객과 신경전을 벌이는데, 그 가방이 승무원 것이다
+where: 비행기 안 통로
+goal: 기내에서 부탁하고 양보하기
+kind: survival
+register: polite
+B: Passenger
+C: Flight attendant
+twist: 9 reveal
+expr: excuse me | would you mind | no worries
+--
+A | Excuse me, is this space taken? | 실례지만, 여기 자리 있나요? | taken = 이미 쓰는 | emo=polite
+B | Sorry, that's for my second bag. | 죄송한데, 제 두 번째 가방 자리예요. | second = 두 번째 | emo=stiff
+A | Would you mind putting it under your seat? | 혹시 그건 좌석 밑에 넣어 주실 수 있을까요? | would you mind = ~해 주실래요? | emo=polite
+B | It won't fit. It's a very important bag. | 안 들어가요. 아주 중요한 가방이거든요. | fit = 들어가다 | emo=stiff
+A | Mine's tiny. I can squeeze it in next to yours. | 제 건 작아요. 옆에 끼워 넣을게요. | squeeze in = 끼워 넣다 | emo=polite
+B | Please don't touch it. It has a cake inside. | 건드리지 마세요. 안에 케이크 있어요. | inside = 안에 | emo=worried
+A | A cake? For a five-hour flight? | 케이크요? 다섯 시간 비행에? | 되묻기 | emo=surprised
+B | It's my sister's wedding cake. Top layer only. | 동생 결혼식 케이크예요. 맨 윗단만요. | layer = 층, 단 | emo=neutral
+C | Is everything okay here? That bag is actually mine. | 괜찮으세요? 사실 그 가방 제 거예요. | actually = 사실 | emo=polite
+B | Wait. Then where's my cake? | 잠깐만요. 그럼 제 케이크는요? | 반전 | emo=surprised
+C | In the front closet. You handed it to me at the door. | 앞쪽 수납장에요. 탈 때 저한테 주셨잖아요. | handed = 건넸다 | emo=polite
+B | Oh no. I've been guarding a stranger's bag for an hour. | 이런. 한 시간 동안 모르는 사람 가방을 지키고 있었네요. | guard = 지키다 | emo=flustered
+A | No worries. It was very well guarded. | 괜찮아요. 아주 잘 지켜졌어요. | no worries = 괜찮아요 | emo=amused
+C | You can put yours up now. Cake crisis over. | 이제 손님 것 올리셔도 돼요. 케이크 사태 끝. | crisis = 위기 | emo=polite

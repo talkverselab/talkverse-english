@@ -1,0 +1,26 @@
+=== r3_survival_c2
+title: 약국에서 증상 설명하기
+emoji: 💊
+scene: 목이 아파서 약국에 갔는데 약사가 묻는 말마다 학습자가 너무 자세하게 대답해서 줄이 길어진다
+where: 동네 약국
+goal: 증상 말하고 약 고르기
+kind: survival
+register: polite
+B: Pharmacist
+twist: 9 ignore
+expr: to be honest | it depends | are you sure
+--
+A | Hi. My throat's been killing me since yesterday. | 안녕하세요. 어제부터 목이 너무 아파요. | killing me = 엄청 아프다 | emo=neutral
+B | Sorry to hear that. Any fever or cough? | 안됐네요. 열이나 기침은요? | fever = 열 | emo=polite
+A | No fever. A little cough at night, mostly after ice cream. | 열은 없어요. 밤에 기침 조금요, 주로 아이스크림 먹고 나서요. | mostly = 주로 | emo=neutral
+B | Ice cream. Okay. Are you taking anything right now? | 아이스크림이요. 네. 지금 드시는 약 있어요? | taking = 복용 중 | emo=neutral
+A | To be honest, just vitamins. And my roommate's tea. | 솔직히 비타민만요. 그리고 룸메이트 차요. | to be honest = 솔직히 | emo=neutral
+B | What kind of tea? It depends on what's in it. | 무슨 차요? 뭐가 들었느냐에 따라 달라서요. | it depends = 그때그때 달라 | emo=neutral
+A | Green, I think. The box has a tiny sleeping panda on it. | 녹차 같아요. 상자에 자는 판다가 조그맣게 있어요. | tiny = 아주 작은 | emo=cheerful
+B | That's probably chamomile. Totally fine. | 그건 아마 캐모마일이에요. 전혀 괜찮아요. | probably = 아마 | emo=polite
+A | Oh, and last week I sang for three hours at a party. | 아, 그리고 지난주에 파티에서 세 시간 노래했어요. | sang = 노래했다 | emo=neutral
+B | Here are throat drops. Take one every four hours. | 여기 목캔디요. 네 시간마다 하나씩 드세요. | 말 끊고 바로 약 | emo=neutral
+A | Are you sure? You didn't ask about the singing. | 확실해요? 노래 얘기는 안 물어보셨잖아요. | are you sure = 확실해? | emo=surprised
+B | I heard. The whole line heard. | 들었어요. 줄 선 분들 다 들으셨어요. | the whole line = 줄 전체 | emo=amused
+A | Oh. Sorry, everyone. | 아. 다들 죄송해요. | everyone = 여러분 | emo=flustered
+B | No ice cream tonight. That's the real medicine. | 오늘 밤엔 아이스크림 금지. 그게 진짜 약이에요. | the real medicine = 진짜 약 | emo=teasing

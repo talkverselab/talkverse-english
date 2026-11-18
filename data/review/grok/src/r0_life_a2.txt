@@ -1,0 +1,20 @@
+=== r0_life_a2
+title: 세탁기는 내 편
+emoji: 🧺
+scene: 빨래방에서 내 빨래를 꺼냈는데 남의 빨간 양말이 섞여 다 분홍이 됐다
+where: 동네 빨래방
+goal: 문제 말하기
+kind: short
+register: casual
+B: Jake
+twist: 5 chaos
+expr: oh my god | i'm sorry
+--
+B | Done? Let me see. | 다 됐어? 보자. | let me see = 보자 | emo=neutral
+A | My white shirt… | 내 하얀 셔츠가… | white = 하얀 | emo=neutral
+B | It's pink now. | 이제 분홍이네. | pink = 분홍 | emo=neutral
+A | Oh my god. Why? | 세상에. 왜? | oh my god = 세상에 | emo=surprised
+B | One red sock. Mine. | 빨간 양말 한 짝. 내 거. | sock = 양말 | emo=neutral
+A | Jake! Really? | 제이크! 진짜? | really = 진짜 | emo=shout
+B | I'm sorry. Pink is nice? | 미안. 분홍 예쁘잖아? | nice = 좋은 | emo=polite
+A | Now it's your shirt. | 이제 네 셔츠야. | your shirt = 네 셔츠 | emo=annoyed

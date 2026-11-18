@@ -1,0 +1,19 @@
+=== r0_culture_a1
+title: 팁은 몇 %?
+emoji: 🧾
+scene: 처음 본 팁 화면, 학습자가 제일 큰 버튼을 눌러 버린다
+where: 샌드위치 가게
+goal: 팁 화면 고르기
+kind: survival
+register: polite
+B: Cashier
+twist: 5 chaos
+expr: no way | it's okay
+--
+B | Just turn the screen. | 화면만 돌려 주세요. | turn = 돌리다 | emo=neutral
+A | Okay. What is this? | 네. 이게 뭐예요? | what is this = 이게 뭐예요 | emo=neutral
+B | Tip. You pick. | 팁이요. 고르시면 돼요. | pick = 고르다 | emo=neutral
+A | Okay. This big one. | 네. 이 큰 거요. | big one = 큰 거 | emo=neutral
+B | Thirty percent? Wow. | 30%요? 와. | percent = 퍼센트 | emo=surprised
+A | No way. Thirty? | 말도 안 돼. 30%? | no way = 말도 안 돼 | emo=surprised
+B | It's okay. Free cookie! | 괜찮아요. 쿠키 서비스! | free = 공짜 | emo=amused

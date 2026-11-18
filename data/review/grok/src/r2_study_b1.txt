@@ -1,0 +1,22 @@
+=== r2_study_b1
+title: 조별 과제 단톡방
+emoji: 📚
+scene: 조별 과제 단톡방에서 한 명이 계속 읽씹하더니 마감 전날 완벽한 자료를 올린다
+where: 휴대폰 채팅
+goal: 역할 나누기와 독촉
+kind: chat
+register: chat
+B: Maya
+C: Jake
+twist: 8 reveal
+expr: you free | for sure | no way
+--
+A@20:10 | Team, presentation is Thursday. Who does what? | 얘들아, 발표 목요일이야. 누가 뭐 할래? | who does what = 역할 분담 | emo=neutral
+B@20:11 | I'll do the slides. For sure. | 내가 슬라이드 할게. 확실히. | for sure = 확실히 | emo=neutral
+A@20:12 | Jake? You free to do the research? | 제이크? 자료 조사 할 수 있어? | you free = 시간 돼 | emo=neutral
+A@20:40 | Jake. Hello? | 제이크. 여보세요? | 독촉 | emo=annoyed read=false
+B@21:15 | He's at basketball. Always. | 쟤 농구하러 갔어. 늘. | always = 맨날 | emo=amused
+A@23:50 | Okay, I'll just do it myself. | 알았어, 그냥 내가 할게. | myself = 내가 직접 | emo=sad
+C@23:58 | Done. 20 pages. With sources. | 끝. 20쪽. 출처 포함. | sources = 출처 | emo=neutral
+B@23:59 | No way. When did you do this? | 말도 안 돼. 언제 했어? | no way = 말도 안 돼 | emo=surprised
+C@23:59 | Halftime. | 하프타임에. | 짧은 한 방 | emo=neutral stamp=🏀

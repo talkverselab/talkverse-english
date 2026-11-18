@@ -1,0 +1,20 @@
+=== r0_friends_a1
+title: 내 이름은 안 바뀌었어
+emoji: 👋
+scene: Maya 가 처음 만난 날 이름을 세 번 다르게 부른다
+where: 친구 집 파티
+goal: 이름 말하기
+kind: short
+register: casual
+B: Maya
+twist: 6 slip
+expr: nice to meet you | say that again
+--
+B | Hi! I'm Maya. You are…? | 안녕! 나 마야야. 너는…? | You are…? = 너는…? | emo=cheerful
+A | I'm {name}. Nice to meet you. | 나 {name}. 반가워. | nice to meet you = 반가워 | emo=neutral
+B | Nice to meet you, Nina! | 반가워, 니나! | 이름을 잘못 들음 | emo=cheerful
+A | No, {name}. | 아니, {name}. | 이름만 다시 | emo=neutral
+B | Sorry! Say that again? | 미안! 다시 말해 줄래? | say that again = 다시 말해 줘 | emo=polite
+A | {name}. Like… {name}. | {name}. 그러니까… {name}. | 또박또박 | emo=neutral
+B | Got it. Hi, Nina! | 알았어. 안녕, 니나! | got it = 알았어 | emo=cheerful
+A | Okay. Tonight I'm Nina. | 그래. 오늘 밤 난 니나야. | tonight = 오늘 밤 | emo=amused

@@ -1,0 +1,20 @@
+=== r0_survival_a1
+title: 물 한 잔이 두 잔
+emoji: 💧
+scene: 식당에서 물을 달라고 했는데, 「Two?」에 Yes 라고 해서 물이 두 잔 나온다
+where: 동네 식당
+goal: 물·숫자 말하기
+kind: survival
+register: polite
+B: Server
+twist: 6 chaos
+expr: excuse me | just this
+--
+A | Excuse me. Water, please. | 저기요. 물 주세요. | water, please = 물 주세요 | emo=polite
+B | Sure. Just one? | 네. 한 잔이요? | just one = 하나만 | emo=neutral
+A | Yes. Just this table. | 네. 이 테이블만요. | just this = 이것만 | emo=neutral
+B | Two? For you and your friend? | 두 잔이요? 친구분 것까지요? | for you = 당신 것 | emo=neutral
+A | Yes. | 네. | 일단 Yes | emo=neutral
+B | Here you go. Two waters. | 여기요. 물 두 잔이요. | here you go = 여기 있어요 | emo=cheerful
+A | My friend is… not here. | 제 친구는… 안 왔어요. | not here = 여기 없다 | emo=flustered
+B | Okay. More water for you! | 그럼요. 물 더 드세요! | more = 더 | emo=amused

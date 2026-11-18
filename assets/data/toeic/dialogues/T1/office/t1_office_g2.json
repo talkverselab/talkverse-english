@@ -10,9 +10,9 @@
  "domain": [
   "office"
  ],
- "title": "교통 체증? 위층 살잖아",
+ "title": "교통 체증? 위층에 살잖아",
  "emoji": "⏰",
- "scene": "회의에 늦은 A 를 Olivia 가 추궁한다. 핑계는 교통 체증인데 A 는 사무실 위층에 산다",
+ "scene": "회의에 늦은 A를 Olivia가 추궁한다. 핑계는 교통 체증인데 A는 사무실 위층에 산다",
  "where": "회의실 앞",
  "goal": "부사절 접속사 because · although vs 전치사 because of · despite",
  "speakers": {
@@ -31,16 +31,16 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "You missed the first twenty minutes of the client meeting. Reason?",
-   "ko": "거래처 회의 첫 20분을 놓쳤네. 이유는?",
+   "en": "You skipped the first twenty minutes of the client call. What's the excuse?",
+   "ko": "거래처 콜 첫 20분을 빠졌네. 변명은 뭐야?",
    "note": "팀장의 추궁",
    "tags": [],
    "new": [],
    "emotion": "annoyed",
    "lemmas": [
     [
-     "missed",
-     "miss",
+     "skipped",
+     "skip",
      ""
     ],
     [
@@ -64,13 +64,18 @@
      ""
     ],
     [
-     "meeting",
-     "meet",
+     "call",
+     "call",
      ""
     ],
     [
-     "Reason",
-     "reason",
+     "What's",
+     "what",
+     ""
+    ],
+    [
+     "excuse",
+     "excuse",
      ""
     ]
    ]
@@ -78,35 +83,40 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "I was late because of heavy traffic downtown.",
+   "en": "I got stuck because of the traffic jam downtown.",
    "ko": "시내 교통 체증 때문에 늦었어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "because of heavy traffic downtown"
+     "because of the traffic jam downtown"
     ],
     "red": [
      "because of"
     ],
-    "note": "because of + 명사(전치사)"
+    "note": "because of + 명사 (전치사)"
    },
    "emotion": "flustered",
    "lemmas": [
     [
-     "late",
-     "late",
+     "got",
+     "get",
      ""
     ],
     [
-     "heavy",
-     "heavy",
+     "stuck",
+     "stick",
      ""
     ],
     [
      "traffic",
      "traffic",
+     ""
+    ],
+    [
+     "jam",
+     "jam",
      ""
     ],
     [
@@ -119,19 +129,19 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Although you live two floors above this office.",
-   "ko": "이 사무실 두 층 위에 살면서도.",
+   "en": "Although you live just two floors above this office.",
+   "ko": "바로 이 사무실 두 층 위에 살면서도.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "Although you live two floors above this office"
+     "Although you live just two floors above this office"
     ],
     "red": [
      "Although"
     ],
-    "note": "although + 주어 동사(접속사)"
+    "note": "although + 주어+동사 (접속사)"
    },
    "emotion": "teasing",
    "lemmas": [
@@ -165,19 +175,19 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "The elevator was out of service because maintenance was scheduled today.",
-   "ko": "오늘 점검이 잡혀 있어서 엘리베이터가 운행 중지였어요.",
+   "en": "The elevator broke down because they scheduled maintenance this morning.",
+   "ko": "오늘 아침에 점검 일정이 잡혀서 엘리베이터가 고장 났어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "because maintenance was scheduled today"
+     "because they scheduled maintenance this morning"
     ],
     "red": [
      "because"
     ],
-    "note": "because + 주어 동사(접속사)"
+    "note": "because + 주어+동사 (접속사)"
    },
    "emotion": "flustered",
    "lemmas": [
@@ -187,13 +197,8 @@
      ""
     ],
     [
-     "service",
-     "service",
-     ""
-    ],
-    [
-     "maintenance",
-     "maintenance",
+     "broke",
+     "break",
      ""
     ],
     [
@@ -202,8 +207,13 @@
      ""
     ],
     [
-     "today",
-     "today",
+     "maintenance",
+     "maintenance",
+     ""
+    ],
+    [
+     "morning",
+     "morning",
      ""
     ]
    ]
@@ -223,7 +233,7 @@
     "red": [
      "Despite"
     ],
-    "note": "despite + 명사(전치사)"
+    "note": "despite + 명사 (전치사)"
    },
    "emotion": "teasing",
    "lemmas": [
@@ -252,8 +262,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Honestly, I took the stairs. In the wrong direction.",
-   "ko": "솔직히, 계단으로 갔어요. 반대 방향으로요.",
+   "en": "Honestly, I took the stairs. Just went the wrong way.",
+   "ko": "솔직히 계단으로 갔어요. 그냥 반대 방향으로요.",
    "note": "말실수 자백",
    "tags": [],
    "new": [],
@@ -275,13 +285,18 @@
      ""
     ],
     [
+     "went",
+     "go",
+     ""
+    ],
+    [
      "wrong",
      "wrong",
      ""
     ],
     [
-     "direction",
-     "direction",
+     "way",
+     "way",
      ""
     ]
    ]
@@ -289,7 +304,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Are you kidding me? The client asked if you still work here.",
+   "en": "Are you kidding me? The client wondered if you still work here.",
    "ko": "지금 장난해? 거래처가 네가 아직 여기 다니냐고 묻더라.",
    "note": "are you kidding = 장난해?",
    "tags": [],
@@ -307,8 +322,8 @@
      ""
     ],
     [
-     "asked",
-     "ask",
+     "wondered",
+     "wonder",
      ""
     ],
     [
@@ -321,17 +336,14 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "I'll arrive early tomorrow, because I'm sleeping under my desk.",
-   "ko": "내일은 일찍 올게요. 책상 밑에서 잘 거니까요.",
+   "en": "I'll be early tomorrow because I'm camping under my desk tonight.",
+   "ko": "내일은 일찍 올게요. 오늘 밤 책상 밑에서 잘 거니까요.",
    "note": "",
    "tags": [],
-   "new": [
-    "arrive",
-    "desk"
-   ],
+   "new": [],
    "gram": {
     "u": [
-     "because I'm sleeping under my desk"
+     "because I'm camping under my desk tonight"
     ],
     "red": [
      "because"
@@ -341,11 +353,6 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "arrive",
-     "arrive",
-     ""
-    ],
-    [
      "early",
      "early",
      ""
@@ -356,8 +363,8 @@
      ""
     ],
     [
-     "sleeping",
-     "sleep",
+     "camping",
+     "camp",
      ""
     ],
     [
@@ -368,6 +375,11 @@
     [
      "desk",
      "desk",
+     ""
+    ],
+    [
+     "tonight",
+     "tonight",
      ""
     ]
    ]
@@ -378,7 +390,7 @@
   "ko": "뒤에 「주어+동사」가 오면 접속사(because, although), 명사만 오면 전치사(because of, despite). 뜻은 같아도 자리가 다르다."
  },
  "check": {
-  "q": "The meeting was delayed _____ heavy traffic downtown.",
+  "q": "I got stuck _____ the traffic jam downtown.",
   "options": [
    "because",
    "although",

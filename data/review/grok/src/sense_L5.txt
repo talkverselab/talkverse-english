@@ -1,0 +1,19 @@
+=== sense_L5
+title: be 와 do — 첫 데이트 질문
+focus: be 와 do 익히기
+--
+Emma | {Are you|1} nervous? | 너 긴장{했어|1}?
+나 | No. {Do I|2} look nervous? | 아니. 나 긴장해 {보여|2}?
+Emma | You {are|1} holding the menu upside down. | 메뉴 거꾸로 들고 {있잖아|1}.
+나 | {It is|1} a modern menu. | 요즘 메뉴{야|1}.
+Emma | {Do you|2} come here often? | 여기 자주 {와|2}?
+나 | {I don't|2}. {Do you|2}? | 아니 {안 와|2}. 너는 {와|2}?
+Emma | Every Friday. The waiter {is|1} my brother. | 금요일마다. 저 웨이터가 우리 오빠{야|1}.
+나 | {Is he|1} watching us right now? | 지금 우리 보고 {있는 거야|1}?
+Emma | He {does|2} that. Smile. | 원래 그{래|2}. 웃어.
+나 | {I am|1} smiling. This {is|1} my nervous smile. | 웃고 {있어|1}. 이게 내 긴장한 웃음{이야|1}.
+--
+note | be(am·is·are) — 「~이다 / ~한 상태다 / ~하는 중이다」. 형용사·명사·-ing 앞.
+note | do(do·does) — 일반 동사의 질문·부정을 돕는 말. Do you come …? / I don't.
+note | 「Are you come?」처럼 섞지 않아요 — 뒤에 동사가 있으면 do, 상태면 be.
+note | 짧은 대답도 같은 쪽으로: Are you …? → I am. / Do you …? → I do.

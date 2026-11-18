@@ -1,0 +1,19 @@
+=== r0_love_a2
+title: 커피 또 사 줄게
+emoji: ☕
+scene: 카페에서 매일 보는 사람이 오늘은 학습자 커피값을 먼저 냈다
+where: 아침 카페
+goal: 고마움·다음 약속
+kind: short
+register: casual
+B: Emma
+twist: 6 emotion
+expr: my treat | see you
+--
+B | Hi again. Same coffee? | 또 왔네. 같은 커피? | same = 같은 | emo=neutral
+A | Yes. Same coffee. | 응. 같은 걸로. | 같은 말 받기 | emo=neutral
+B | Done. My treat today. | 됐어. 오늘은 내가 살게. | my treat = 내가 살게 | emo=neutral
+A | Really? Why? | 진짜? 왜? | why = 왜 | emo=surprised
+B | You smile every morning. | 너 아침마다 웃잖아. | every morning = 매일 아침 | emo=shy heart
+A | Then tomorrow, my treat. | 그럼 내일은 내가 살게. | tomorrow = 내일 | emo=neutral
+B | Tomorrow? Okay. See you. | 내일? 좋아. 또 봐. | see you = 또 봐 | emo=neutral

@@ -1,0 +1,19 @@
+=== sense_L7
+title: 구동사 — 이삿날
+focus: 구동사 익히기 (동사 + 작은 말)
+--
+Jake | Can you {pick|1} me {up|1} at nine? | 9시에 나 {태우러 와|1} 줄 수 있어?
+나 | Sure. Did you {figure out|2} the truck? | 그래. 트럭은 {해결했어|2}?
+Jake | My cousin {backed out|3}. | 사촌이 {발 뺐어|3}.
+나 | So we're {carrying|4} everything {down|4} ourselves? | 그럼 우리가 전부 들고 {내려가|4}?
+Jake | Don't {freak out|5}. It's only a sofa. | {놀라지|5} 마. 소파 하나야.
+나 | On the fifth floor. With no elevator. | 5층에. 엘리베이터 없이.
+Jake | We'll {take|6} it {apart|6}. | {분해하면|6} 돼.
+나 | Last time you {took|6} a chair {apart|6}, it never {came|7} back {together|7}. | 지난번에 너 의자 {분해했을|6} 때, 다시 {안 맞춰졌잖아|7}.
+Jake | That's why I {called|8} you {up|8}. | 그래서 너한테 {전화한|8} 거야.
+나 | I'm {hanging up|9} now. | 나 이제 {끊는다|9}.
+--
+note | 동사 + up·out·down·apart 같은 작은 말이 붙으면 뜻이 새로 생겨요 — 통째로 외우는 게 빨라요.
+note | pick up = 태우러 가다 / 줍다, figure out = 알아내다·해결하다, freak out = 기겁하다.
+note | 목적어가 대명사면 가운데에: pick me up (pick up me 는 어색).
+note | back out = 하기로 한 걸 빼다, hang up = 전화를 끊다.

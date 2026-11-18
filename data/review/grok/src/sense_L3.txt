@@ -1,0 +1,19 @@
+=== sense_L3
+title: 시제 익히기 — 룸메이트 전화
+focus: 시제 익히기 (늘 하는 일 · 지금 하는 일)
+--
+Daniel | What {are you doing|1}? | 뭐 {하고 있어|1}?
+나 | {I'm cooking|1}. Well, {I'm trying|1}. | 요리 {하는 중이야|1}. 음, {해 보는 중이야|1}.
+Daniel | You never {cook|2}. | 너 요리 절대 안 {하잖아|2}.
+나 | I {cook|2} every Sunday. | 나 일요일마다 요리 {해|2}.
+Daniel | You {order|2} pizza every Sunday. | 너 일요일마다 피자 {시키잖아|2}.
+나 | Okay, but today {I'm making|1} pasta. | 그래, 근데 오늘은 파스타 {만드는 중이야|1}.
+Daniel | Why {is the alarm beeping|1}? | 근데 화재 경보는 왜 {울리고 있어|1}?
+나 | It always {does|2} that. It's dramatic. | 그거 원래 늘 그{래|2}. 오버가 심해.
+Daniel | {I'm coming|1} home. Don't touch anything. | 나 집에 {가는 중이야|1}. 아무것도 만지지 마.
+나 | Too late. {I'm ordering|1} pizza. | 늦었어. 피자 {시키는 중이야|1}.
+--
+note | be + -ing — 지금 이 순간 하는 중 (I'm cooking).
+note | 그냥 동사(현재) — 늘·습관 (I cook every Sunday). 3인칭 하나면 -s (It always does).
+note | I'm coming — 「지금 가는 중 / 곧 갈게」. 약속된 가까운 미래도 -ing 로 말해요.
+note | 한국어 「해」는 둘 다 되지만 영어는 꼭 골라야 해요.

@@ -12,7 +12,7 @@
  ],
  "title": "피자 아니면 굶는다",
  "emoji": "🍕",
- "scene": "점심 주문을 맡은 Raj 가 상관접속사로 밀어붙이더니 결국 피자를 세 판 시킨다",
+ "scene": "점심 주문을 맡은 Raj가 상관접속사로 밀어붙이더니 결국 피자를 세 판 시킨다",
  "where": "탕비실",
  "goal": "상관접속사 either A or B · not only A but also B · both A and B",
  "speakers": {
@@ -31,14 +31,14 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Lunch poll results. Either we order pizza or we skip lunch entirely.",
-   "ko": "점심 투표 결과. 피자를 시키든가 점심을 아예 거르든가야.",
+   "en": "Poll's in. Either we get pizza or we all skip lunch.",
+   "ko": "투표 끝. 피자 시키든가 아니면 다 점심 굶든가야.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "Either we order pizza or we skip lunch entirely"
+     "Either we get pizza or we all skip lunch"
     ],
     "red": [
      "Either",
@@ -49,18 +49,8 @@
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Lunch",
-     "lunch",
-     ""
-    ],
-    [
+     "Poll's",
      "poll",
-     "poll",
-     ""
-    ],
-    [
-     "results",
-     "result",
      ""
     ],
     [
@@ -69,8 +59,8 @@
      ""
     ],
     [
-     "order",
-     "order",
+     "get",
+     "get",
      ""
     ],
     [
@@ -86,11 +76,6 @@
     [
      "lunch",
      "lunch",
-     ""
-    ],
-    [
-     "entirely",
-     "entire",
      ""
     ]
    ]
@@ -98,8 +83,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "That's not a poll. That's a hostage situation.",
-   "ko": "그건 투표가 아니라 인질극인데.",
+   "en": "That's not a poll. That's basically a hostage deal.",
+   "ko": "그건 투표가 아니라 거의 인질극인데.",
    "note": "받아치기",
    "tags": [],
    "new": [],
@@ -111,13 +96,18 @@
      ""
     ],
     [
+     "basically",
+     "basically",
+     ""
+    ],
+    [
      "hostage",
      "hostage",
      ""
     ],
     [
-     "situation",
-     "situation",
+     "deal",
+     "deal",
      ""
     ]
    ]
@@ -125,14 +115,14 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Pizza is not only affordable but also delivered within thirty minutes.",
-   "ko": "피자는 가격이 적당할 뿐 아니라 30분 안에 배달까지 되잖아.",
+   "en": "Pizza is not only cheap but also here in twenty minutes.",
+   "ko": "피자는 싸기만 한 게 아니라 20분이면 오잖아.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "not only affordable but also delivered within thirty minutes"
+     "not only cheap but also here in twenty minutes"
     ],
     "red": [
      "not only",
@@ -148,23 +138,13 @@
      ""
     ],
     [
-     "affordable",
-     "affordable",
+     "cheap",
+     "cheap",
      ""
     ],
     [
-     "delivered",
-     "delivered",
-     ""
-    ],
-    [
-     "within",
-     "within",
-     ""
-    ],
-    [
-     "thirty",
-     "thirty",
+     "twenty",
+     "twenty",
      ""
     ],
     [
@@ -177,7 +157,7 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Fine. One large pizza for the team. For real, just one.",
+   "en": "Fine. One large for the whole team. For real, only one.",
    "ko": "알았어. 팀용 라지 한 판. 진짜 딱 한 판이야.",
    "note": "for real = 진짜로",
    "tags": [],
@@ -195,8 +175,8 @@
      ""
     ],
     [
-     "pizza",
-     "pizza",
+     "whole",
+     "whole",
      ""
     ],
     [
@@ -214,8 +194,8 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Both the regional manager and the client requested their own.",
-   "ko": "지역 매니저도 거래처도 둘 다 자기 걸 따로 달래.",
+   "en": "Both the regional manager and the client want their own pies.",
+   "ko": "지역 매니저도 거래처도 둘 다 자기 피자 따로 달래.",
    "note": "",
    "tags": [],
    "new": [],
@@ -247,8 +227,13 @@
      ""
     ],
     [
-     "requested",
-     "request",
+     "want",
+     "want",
+     ""
+    ],
+    [
+     "pies",
+     "pie",
      ""
     ]
    ]
@@ -256,8 +241,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "So the final order was…",
-   "ko": "그래서 최종 주문이…",
+   "en": "So the final count ended up…",
+   "ko": "그래서 최종 수량이…",
    "note": "말끝 흐리기",
    "tags": [],
    "new": [],
@@ -269,8 +254,13 @@
      ""
     ],
     [
-     "order",
-     "order",
+     "count",
+     "count",
+     ""
+    ],
+    [
+     "ended",
+     "end",
      ""
     ]
    ]
@@ -278,7 +268,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Three. Neither the manager nor the client wanted to share.",
+   "en": "Three. Neither the manager nor the client would share.",
    "ko": "세 판. 매니저도 거래처도 나눠 먹기 싫대.",
    "note": "",
    "tags": [],
@@ -316,11 +306,6 @@
      ""
     ],
     [
-     "wanted",
-     "want",
-     ""
-    ],
-    [
      "share",
      "share",
      ""
@@ -330,12 +315,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "No way. Then the third one goes on your expense report.",
-   "ko": "말도 안 돼. 그럼 세 번째 판은 네 경비로 올려.",
+   "en": "No way. The extra one goes straight on your expense report.",
+   "ko": "말도 안 돼. 그럼 추가 한 판은 바로 네 경비로 올려.",
    "note": "no way = 말도 안 돼",
-   "tags": [
-    "expr:no way"
-   ],
+   "tags": [],
    "new": [],
    "emotion": "tsukkomi",
    "lemmas": [
@@ -345,13 +328,18 @@
      ""
     ],
     [
-     "third",
-     "third",
+     "extra",
+     "extra",
      ""
     ],
     [
      "goes",
      "go",
+     ""
+    ],
+    [
+     "straight",
+     "straight",
      ""
     ],
     [
@@ -372,7 +360,7 @@
   "ko": "either A or B(둘 중 하나), neither A nor B(둘 다 아님), not only A but also B(A뿐 아니라 B도), both A and B(둘 다). 짝을 외운다."
  },
  "check": {
-  "q": "Lunch can be _____ delivered or picked up at the counter.",
+  "q": "Lunch is _____ pizza delivery or nothing at all.",
   "options": [
    "both",
    "either",

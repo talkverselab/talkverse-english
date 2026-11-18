@@ -1,0 +1,20 @@
+=== r1_love_a2
+title: 빨래방에서 양말 한 짝
+emoji: 🧦
+scene: 빨래방에서 Emma 가 학습자 양말 한 짝을 들고 와 "이거 찾아요?" 하더니 돌려주는 조건을 건다
+where: 동네 빨래방
+goal: 가볍게 대화 이어 가기
+kind: short
+register: casual
+B: Emma
+twist: 6 emotion
+expr: excuse me | are you sure | i guess | maybe
+--
+B | Excuse me. Are you missing a sock? | 저기요. 양말 한 짝 없어지지 않았어요? | missing = 없어진 | emo=neutral
+A | Maybe. Is it blue with little cats? | 그럴지도요. 작은 고양이 있는 파란 거요? | maybe = 그럴지도 | emo=neutral
+B | Yep. Very serious sock. | 네. 아주 진지한 양말이네요. | serious = 진지한 | emo=neutral
+A | Can I have it back? | 돌려주실래요? | Can I have ~ back? = 돌려주세요 | emo=polite
+B | One coffee. Then it's yours. | 커피 한 잔이요. 그럼 돌려드릴게요. | then it's yours = 그럼 당신 거 | emo=neutral
+B | I guess I just want coffee with you. | 그냥 당신이랑 커피 마시고 싶은 거 같아요. | I guess = ~인 것 같아요 | emo=shy heart
+A | Are you sure it's not your sock plan? | 그거 양말 작전 아니에요? | are you sure = 확실해요? | emo=teasing
+B | It was. It worked. | 맞아요. 먹혔네요. | it worked = 통했다 | emo=amused

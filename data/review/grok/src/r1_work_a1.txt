@@ -1,0 +1,20 @@
+=== r1_work_a1
+title: 첫 출근 커피 심부름
+emoji: ☕
+scene: 카페 아르바이트 첫날, 사장이 "Can you grab me a coffee?" 했는데 학습자가 진짜로 커피를 잡고 있다
+where: 동네 카페 카운터 뒤
+goal: 일터에서 지시 알아듣기
+kind: survival
+register: polite
+B: Manager
+twist: 5 slip
+expr: got it | say that again | sure | you got it
+--
+B | Morning! First day, right? | 좋은 아침! 첫날이죠? | first day = 첫날 | emo=neutral
+A | Yes. I'm ready. | 네. 준비됐어요. | ready = 준비된 | emo=polite
+B | Can you grab me a coffee? | 커피 하나 갖다 줄래요? | grab = 갖다 주다(구어) | emo=neutral
+A | Sure. Got it. | 네. 알겠어요. | got it = 알겠어요 | emo=polite
+B | Why are you just holding the cup? | 왜 컵을 그냥 잡고 있어요? | holding = 잡고 있다 | emo=surprised
+A | You said "grab." Say that again? | "그랩"이라고 하셨잖아요. 다시 말해 주실래요? | grab = 움켜잡다 | emo=neutral
+B | Grab means bring. Bring it to me. | 그랩은 갖다 달라는 뜻이에요. 나한테 줘요. | bring = 가져오다 | emo=amused
+A | You got it. Now I'm bringing. | 알겠습니다. 이제 갖다 드려요. | you got it = 알겠습니다 | emo=cheerful

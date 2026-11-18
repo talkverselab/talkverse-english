@@ -1,0 +1,20 @@
+=== r1_travel_a1
+title: 창가 자리 부탁
+emoji: ✈️
+scene: 비행기 체크인에서 창가 자리를 부탁했는데, 직원이 준 자리는 창문이 없는 창가였다
+where: 공항 체크인 카운터
+goal: 자리 요청하기
+kind: survival
+register: polite
+B: Agent
+twist: 6 chaos
+expr: can i get | sure | how much | oh no
+--
+B | Hi there. Where are you flying today? | 안녕하세요. 오늘 어디로 가세요? | flying = 비행기로 가다 | emo=polite
+A | Chicago. Can I get a window seat? | 시카고요. 창가 자리 주실 수 있어요? | can I get ~? = ~ 주실래요 | emo=polite
+B | Sure. Window seat, row twelve. | 네. 창가 자리, 12열이요. | row = 열 | emo=polite
+A | Great. How much is a bag? | 좋아요. 짐은 얼마예요? | how much = 얼마예요 | emo=neutral
+B | Thirty-five. Have a good flight! | 35달러요. 좋은 비행 되세요! | have a good ~ = 좋은 ~ 되세요 | emo=polite
+A | Oh no. Row twelve has no window. | 아 이런. 12열엔 창문이 없어요. | oh no = 아 이런 | emo=surprised
+B | It's next to the wall. Very close. | 벽 옆이에요. 아주 가까워요. | next to = 옆에 | emo=neutral
+A | So I'm looking at a wall to Chicago. | 그럼 시카고까지 벽만 보고 가네요. | looking at = 보다 | emo=tsukkomi

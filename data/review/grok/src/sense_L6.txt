@@ -1,0 +1,19 @@
+=== sense_L6
+title: 셀 수 있는 것 — 장보기 메모
+focus: 셀 수 있는 것 · 없는 것
+--
+Daniel | We need {some|1} eggs and {some|1} milk. | 계란 {좀|1}이랑 우유 {좀|1} 필요해.
+나 | How {many|2} eggs? | 계란 {몇 개|2}?
+Daniel | {A dozen|3}. And {a little|4} cheese. | {한 판|3}. 그리고 치즈 {조금|4}.
+나 | How {much|5} cheese is {a little|4}? | 치즈 {조금|4}이 {얼마|5}야?
+Daniel | For you? {A few|6} slices. For me? The whole block. | 너한테는? {몇|6} 장. 나한테는? 한 덩어리 통째로.
+나 | Do we have {any|7} bread? | 빵은 {좀|7} 있어?
+Daniel | There's {no|8} bread. You ate it. | 빵 {없어|8}. 네가 먹었잖아.
+나 | I ate {two slices|9}. | 나 {두 쪽|9} 먹었어.
+Daniel | There were {two slices|9} left. | {두 쪽|9} 남아 있었거든.
+나 | Then buy {lots of|10} bread. | 그럼 빵 {많이|10} 사.
+--
+note | 셀 수 있는 것(eggs, slices) — many, a few, 복수 -s.
+note | 셀 수 없는 것(milk, cheese, bread) — much, a little, 복수 없음. 세려면 a slice of, a bottle of.
+note | some — 긍정문의 「좀」, any — 질문·부정의 「좀」.
+note | lots of·a lot of — 둘 다에 써요.

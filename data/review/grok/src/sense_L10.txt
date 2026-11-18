@@ -1,0 +1,19 @@
+=== sense_L10
+title: 이어 말하기 — 소개팅 상대
+focus: 이어 말하기 (who · that · so · because)
+--
+Maya | Remember the guy {who|1} fixed my bike? | 내 자전거 고쳐 준 {그|1} 남자 기억나?
+나 | The one {that|2} talks to his plants? | 화분한테 말 거는 {그|2} 사람?
+Maya | Yes. He wants to meet you, {so|3} I gave him your number. | 응. 너 만나고 싶대서 {그래서|3} 네 번호 줬어.
+나 | Why me? | 왜 나야?
+Maya | {Because|4} you laughed at his joke once. | 네가 그 사람 농담에 한 번 웃었{거든|4}.
+나 | It wasn't a joke. He was serious. | 그거 농담 아니었어. 진지했어.
+Maya | {Even though|5} he's weird, he's sweet. | 이상하긴 {해도|5} 다정해.
+나 | The plant guy {who|1} cried at a movie? | 영화 보다 운 {그|1} 화분남?
+Maya | That's the guy {that|2} I'd marry, honestly. | 솔직히 그게 내가 결혼하고 싶은 {그런|2} 남자야.
+나 | Then why didn't you give him your number? | 그럼 왜 네 번호를 안 줬어?
+--
+note | who·that — 사람·물건 뒤에 붙여 「~하는 그」로 설명을 이어요. 한국어는 앞에, 영어는 뒤에 붙어요.
+note | so — 「그래서」 결과, because — 「~니까」 이유.
+note | even though — 「~이긴 해도」.
+note | 말을 끊지 않고 이어 붙이면 훨씬 원어민처럼 들려요.

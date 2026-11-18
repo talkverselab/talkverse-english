@@ -1,0 +1,20 @@
+=== r1_life_a2
+title: 택배가 이웃집으로
+emoji: 📦
+scene: 내 택배가 옆집 앞에 놓였고, 문을 두드렸더니 옆집 사람이 이미 상자를 뜯어 쓰고 있다
+where: 아파트 복도
+goal: 이웃에게 정중하게 따지기
+kind: short
+register: polite
+B: Neighbor
+twist: 6 slip
+expr: hi there | i think so | are you sure | no problem
+--
+A | Hi there. I think my package is here. | 안녕하세요. 제 택배가 여기 온 것 같아요. | I think ~ = ~인 것 같아요 | emo=polite
+B | Oh, the blue box? | 아, 파란 상자요? | 되묻기 | emo=neutral
+A | I think so. It has my name on it. | 그런 것 같아요. 제 이름이 적혀 있어요. | on it = 거기에 | emo=neutral
+B | Are you sure? Let me check. | 확실해요? 확인해 볼게요. | let me check = 확인해 볼게요 | emo=neutral
+B | Oh. It's open. | 아. 열려 있네요. | open = 열린 | emo=flustered
+A | And you're wearing my new hat. | 그리고 제 새 모자를 쓰고 계시네요. | wearing = 쓰고 있다 | emo=tsukkomi
+B | It fit so well. Sorry! | 너무 잘 맞아서요. 죄송해요! | fit = 맞다 | emo=flustered
+A | No problem. Can I have it back now? | 괜찮아요. 이제 돌려주실래요? | no problem = 괜찮아요 | emo=neutral

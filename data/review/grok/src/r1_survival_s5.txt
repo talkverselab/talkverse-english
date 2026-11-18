@@ -1,0 +1,20 @@
+=== r1_survival_s5
+title: 지하철 카드 잔액 0
+emoji: 🚇
+scene: 개찰구에서 카드가 안 되자 뒤에 줄이 생기고, 역무원이 알려 준 건 카드가 거꾸로였다는 것
+where: 지하철 개찰구
+goal: 도움 청하기와 기계 앞 표현
+kind: survival
+register: polite
+B: Station worker
+twist: 7 reveal
+expr: excuse me | what do you mean | got it | one sec
+--
+A | Excuse me. My card isn't working. | 저기요. 카드가 안 돼요. | isn't working = 안 돼요 | emo=neutral
+B | Tap it again. Slowly. | 다시 대 보세요. 천천히요. | tap = 갖다 대다 | emo=neutral
+A | It says "See agent." | "직원에게 문의"라고 떠요. | see agent = 직원에게 문의 | emo=neutral
+B | I'm the agent. One sec. | 제가 직원이에요. 잠깐만요. | one sec = 잠깐만요 | emo=neutral
+A | The line behind me is getting long. | 뒤에 줄이 길어져요. | line = 줄 | emo=flustered
+B | Yeah, they love you. | 네, 다들 좋아하시네요. | 비꼬는 말 | emo=amused
+B | Your card is upside down. | 카드가 거꾸로예요. | upside down = 거꾸로 | emo=neutral
+A | What do you mean? Oh. Got it. | 무슨 말이에요? 아. 알겠어요. | what do you mean = 무슨 말이에요? | emo=flustered

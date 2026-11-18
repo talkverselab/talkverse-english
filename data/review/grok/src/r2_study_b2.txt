@@ -1,0 +1,22 @@
+=== r2_study_b2
+title: 도서관 옆자리
+emoji: 📖
+scene: 도서관에서 매일 같은 자리에 앉는 Emma 가 먼저 쪽지로 말을 건다
+where: 대학 도서관
+goal: 조용히 말 걸기
+kind: long
+register: casual
+B: Emma
+twist: 9 emotion
+expr: excuse me | what's up | i guess
+--
+B | Excuse me. Is this seat taken? | 저기. 이 자리 누구 있어? | seat taken = 자리 있음 | emo=polite
+A | No, go ahead. | 아니, 앉아. | go ahead = 그렇게 해 | emo=neutral
+B | You're here every day, right? Same seat. | 너 매일 오지? 같은 자리. | every day = 매일 | emo=neutral
+A | I guess. It's near the outlet. | 그런가 봐. 콘센트 가까워서. | outlet = 콘센트 | emo=neutral
+B | Smart. My laptop dies in an hour. | 똑똑하네. 내 노트북 한 시간이면 꺼져. | dies = 꺼지다 | emo=amused
+A | You can use it too. What's up with your phone? | 너도 써. 근데 폰은 왜 그래? | what's up with = ~ 왜 그래 | emo=neutral
+B | Nothing. I'm writing you a note. | 아무것도. 너한테 쪽지 쓰는 중이야. | write a note = 쪽지 쓰다 | emo=shy
+A | You're sitting right next to me. | 너 바로 옆에 앉아 있잖아. | right next to = 바로 옆 | emo=amused
+B | It's a library. And it's easier this way. | 도서관이잖아. 그리고 이게 더 쉬워. | easier = 더 쉬운 | emo=shy heart
+A | "Coffee after this?" Okay. I guess I'll answer here. | "이거 끝나고 커피?" 좋아. 여기서 대답할게. | after this = 이거 끝나고 | emo=gentle

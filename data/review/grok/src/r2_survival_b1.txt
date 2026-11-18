@@ -1,0 +1,22 @@
+=== r2_survival_b1
+title: 약국에서 "Same as usual"
+emoji: 💊
+scene: 약국에서 감기약을 찾는데, 약사가 단골로 착각하고 남의 처방을 건넨다
+where: 동네 약국 카운터
+goal: 증상 말하기와 착각 바로잡기
+kind: survival
+register: polite
+B: Pharmacist
+twist: 6 chaos
+expr: excuse me | what do you mean | just to confirm
+--
+A | Excuse me. Do you have something for a sore throat? | 저기요. 목 아픈 데 먹는 거 있어요? | sore throat = 목 아픔 | emo=polite
+B | Sure. Any fever? Or just the throat? | 그럼요. 열도 있어요? 아니면 목만요? | fever = 열 | emo=neutral
+A | Just the throat. And I can't stop coughing. | 목만요. 그리고 기침이 안 멈춰요. | can't stop ~ing = 계속 ~하다 | emo=neutral
+B | Okay. Wait, are you picking up for Mr. Lee too? | 네. 잠깐, 이 선생님 약도 찾아가세요? | pick up = 찾아가다 | emo=neutral
+A | Mr. Lee? What do you mean? | 이 선생님이요? 무슨 말씀이세요? | what do you mean = 무슨 뜻이에요 | emo=surprised
+B | Same as usual, right? Here's his sleep medicine. | 늘 하던 거죠? 여기 그분 수면제요. | same as usual = 늘 하던 대로 | emo=cheerful
+A | I don't know a Mr. Lee. I just moved here. | 저 이 선생님 몰라요. 여기 막 이사 왔어요. | just moved = 막 이사 왔다 | emo=flustered
+B | Oh no. You have the exact same jacket. | 어머. 재킷이 완전 똑같으시네요. | the exact same = 완전 똑같은 | emo=surprised
+A | Just to confirm, the throat stuff is for me? | 확인 차 여쭤요, 목 약은 제 거죠? | just to confirm = 확인하자면 | emo=neutral
+B | Yes. Take two a day. And maybe buy a new jacket. | 네. 하루 두 알이요. 그리고 재킷 하나 새로 사세요. | take two a day = 하루 두 번 | emo=amused

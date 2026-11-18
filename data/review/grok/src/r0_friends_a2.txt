@@ -1,0 +1,20 @@
+=== r0_friends_a2
+title: 피자는 반반
+emoji: 🍕
+scene: Jake 와 피자를 반씩 나누기로 했는데 Jake 의 「반」은 이상하다
+where: 집 소파
+goal: 나누기·많다 적다
+kind: short
+register: casual
+B: Jake
+twist: 6 chaos
+expr: come on | no way
+--
+B | Pizza? Half and half? | 피자? 반반? | half and half = 반반 | emo=neutral
+A | Sure. Half for me. | 좋아. 반은 내 거. | for me = 내 거 | emo=neutral
+B | Okay. This half is mine. | 오케이. 이 반은 내 거. | mine = 내 것 | emo=neutral
+A | And that half? | 그럼 저 반은? | that half = 저 반 | emo=neutral
+B | Also mine. Big day. | 그것도 내 거. 오늘 힘들었거든. | big day = 힘든 날 | emo=neutral
+A | Come on! No way! | 야! 말도 안 돼! | come on = 야, 왜 이래 | emo=tsukkomi
+B | You get the box. | 넌 상자 가져. | box = 상자 | emo=teasing
+A | Wow. Great friend. | 와. 좋은 친구네. | 비꼬기 | emo=annoyed

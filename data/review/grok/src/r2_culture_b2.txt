@@ -1,0 +1,22 @@
+=== r2_culture_b2
+title: 팁 화면의 25%
+emoji: 💳
+scene: 커피 한 잔 계산하는데 태블릿이 팁을 묻고, Jake 가 옆에서 미국 팁 문화를 설명한다
+where: 동네 커피 가게 계산대
+goal: 팁 문화와 화면 선택
+kind: short
+register: casual
+B: Jake
+twist: 8 ignore
+expr: i have no idea | seriously | makes sense
+--
+A | Jake, it's asking me for a tip. For a coffee. | 제이크, 이거 팁을 물어. 커피 하나에. | tip = 팁 | emo=neutral
+B | Yeah. Eighteen, twenty, twenty-five percent. | 응. 18, 20, 25퍼센트. | percent = 퍼센트 | emo=neutral
+A | Seriously? She just pushed a button. | 진짜? 그냥 버튼 하나 눌렀잖아. | push a button = 버튼을 누르다 | emo=neutral
+B | You can press "custom." Or "no tip." | "직접 입력" 눌러도 돼. 아니면 "팁 없음." | custom = 직접 입력 | emo=neutral
+A | But she's looking at me. | 근데 직원이 나 쳐다보고 있어. | look at = 쳐다보다 | emo=worried
+B | That's the system. It's a feeling thing. | 그게 시스템이야. 기분 문제지. | a feeling thing = 기분 문제 | emo=neutral
+A | Makes sense. I have no idea what to press. | 이해는 가. 뭘 눌러야 할지 모르겠어. | I have no idea = 전혀 모르겠어 | emo=flustered
+B | Hey, they have free cookies on Fridays. | 야, 여기 금요일엔 쿠키 공짜다. | free = 공짜 | emo=cheerful
+A | Jake, focus. The screen is waiting. | 제이크, 집중해. 화면이 기다리잖아. | focus = 집중해 | emo=tsukkomi
+B | Twenty. Then you get the cookie with a smile. | 20. 그럼 쿠키에 미소까지 받아. | with a smile = 웃으면서 | emo=amused

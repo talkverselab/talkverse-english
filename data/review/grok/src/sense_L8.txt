@@ -1,0 +1,19 @@
+=== sense_L8
+title: 조동사 말맛 — 우산 하나
+focus: 조동사 말맛 (can · should · might · have to)
+--
+나 | It {might|1} rain later. | 이따 비 {올지도 몰라|1}.
+Emma | Then you {should|2} bring an umbrella. | 그럼 우산 {챙기는 게 좋겠다|2}.
+나 | I {can't|3} find mine. | 내 거 {못 찾겠어|3}.
+Emma | You {can|4} use mine. | 내 거 {써도 돼|4}.
+나 | Then you'll get wet. I {have to|5} say no. | 그럼 네가 젖잖아. 거절{해야겠어|5}.
+Emma | Or we {could|6} share it. | 아니면 같이 {쓸 수도 있지|6}.
+나 | It's a small umbrella. | 작은 우산인데.
+Emma | Then you'll {have to|5} stand close. | 그럼 가까이 {서야겠네|5}.
+나 | I {might|1} be okay with that. | 그건 {괜찮을지도|1}.
+Emma | You {should|2} be. | {괜찮아야지|2}.
+--
+note | might — 「~일지도」, 반쯤 확신.
+note | should — 「~하는 게 좋겠다」, 부드러운 권유.
+note | can — 할 수 있다 / 해도 된다. could — 제안할 때 더 부드럽게 (we could share).
+note | have to — 「꼭 ~해야 한다」, 사정이 그래서. must 보다 일상적이에요.

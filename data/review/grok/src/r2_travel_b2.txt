@@ -1,0 +1,22 @@
+=== r2_travel_b2
+title: 호텔 방이 업그레이드됐는데
+emoji: 🏨
+scene: 체크인에서 방이 무료 업그레이드됐다는데, 알고 보니 엘리베이터 없는 꼭대기 층이다
+where: 작은 호텔 프런트
+goal: 체크인 말과 확인 질문
+kind: short
+register: polite
+B: Clerk
+twist: 7 reveal
+expr: just to confirm | sounds good | that's it
+--
+A | Hi, I have a reservation. Under {name}. | 안녕하세요, 예약했어요. {name} 이름으로요. | under ~ = ~ 이름으로 | emo=polite
+B | Welcome! Good news. You got a free upgrade. | 어서 오세요! 좋은 소식이에요. 무료 업그레이드됐어요. | upgrade = 업그레이드 | emo=cheerful
+A | Really? Sounds good. | 진짜요? 좋네요. | sounds good = 좋아요 | emo=excited
+B | It's our top room. Amazing view. | 저희 제일 위층 방이에요. 전망 끝내줘요. | view = 전망 | emo=cheerful
+A | Just to confirm, breakfast is included? | 확인 차, 조식 포함이죠? | included = 포함된 | emo=neutral
+B | Yes, from seven to ten. | 네, 7시부터 10시까지요. | from ~ to ~ = ~부터 ~까지 | emo=neutral
+A | Great. Where's the elevator? | 좋아요. 엘리베이터는 어디예요? | elevator = 엘리베이터 | emo=neutral
+B | That's the thing. There isn't one. Sixth floor. | 그게 말이죠. 없어요. 6층이에요. | that's the thing = 그게 문제예요 | emo=polite
+A | That's it. That's the upgrade. | 그거네요. 그게 업그레이드구나. | that's it = 바로 그거 | emo=tsukkomi
+B | Breakfast tastes better after stairs. | 계단 오르고 먹는 조식이 더 맛있어요. | after stairs = 계단 뒤에 | emo=amused

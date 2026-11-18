@@ -1,0 +1,20 @@
+=== r0_life_a1
+title: 냉장고 속 이름표
+emoji: 🧃
+scene: 룸메이트 Daniel 이 냉장고 모든 것에 이름표를 붙였다
+where: 집 부엌
+goal: 누구 것인지 묻기
+kind: short
+register: casual
+B: Daniel
+twist: 7 slip
+expr: what's up | come on
+--
+A | Hey Daniel. What's up? | 대니얼. 뭐 해? | what's up = 뭐 해 | emo=neutral
+B | Name tags. On my food. | 이름표. 내 음식에. | name tag = 이름표 | emo=neutral
+A | The milk is yours? | 우유가 네 거야? | yours = 네 것 | emo=neutral
+B | Yes. The eggs too. | 응. 달걀도. | too = ~도 | emo=neutral
+A | And the water? Come on. | 물도? 왜 이래. | come on = 왜 이래 | emo=tsukkomi
+B | Yes. And this one. | 응. 이것도. | this one = 이거 | emo=neutral
+A | That says "{name}". | 거기 「{name}」라고 써 있는데. | says = ~라고 쓰여 있다 | emo=surprised
+B | For you. Your yogurt. | 너 주려고. 네 요거트. | 말없이 챙김 | emo=gentle

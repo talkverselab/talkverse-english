@@ -1,0 +1,19 @@
+=== sense_L9
+title: 가정 — 로또 이야기
+focus: 가정 익히기 (if)
+--
+Maya | {If you won|1} the lottery, what {would you do|2}? | 로또 {되면|1} 뭐 {할 거야|2}?
+나 | {I'd quit|2} my job tomorrow. | 내일 회사 {그만둘 거야|2}.
+Maya | {If I were|1} you, {I'd wait|2} a week. | {내가 너라면|1} 일주일은 {기다리겠다|2}.
+나 | Why? | 왜?
+Maya | {If you quit|3} too fast, they'll know. | 너무 빨리 {그만두면|3} 다들 눈치챌 거야.
+나 | {If they find out|3}, {I'll buy|4} them lunch. | {알게 되면|3} 점심 {사 주지 뭐|4}.
+Maya | {If you buy|3} lunch, {I'll come|4} too. | 점심 {사면|3} 나도 {갈게|4}.
+나 | You don't work there. | 너 거기 안 다니잖아.
+Maya | {If I had|1} a rich friend, {I would|2}. | {부자 친구가 있다면|1} {다니겠지|2}.
+나 | I haven't even bought a ticket. | 나 아직 복권도 안 샀어.
+--
+note | If + 현재, will — 진짜 있을 법한 일 (If you quit too fast, they'll know).
+note | If + 과거, would — 지금은 아닌 상상 (If you won…, what would you do?).
+note | If I were you — 「내가 너라면」. 상상에서는 were 를 써요.
+note | 한국어 「~면」 하나가 영어에서는 둘로 나뉘어요 — 진짜냐 상상이냐.

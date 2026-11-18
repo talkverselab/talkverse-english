@@ -1,0 +1,20 @@
+=== r0_study_a1
+title: 필기 빌려줄래?
+emoji: 📓
+scene: 수업 필기를 빌렸더니 Maya 의 공책에는 그림만 가득하다
+where: 학교 도서관
+goal: 빌리기 부탁
+kind: short
+register: casual
+B: Maya
+twist: 6 reveal
+expr: of course | what does that mean
+--
+A | Maya, your notes, please? | 마야, 필기 좀 빌려줘. | notes = 필기 | emo=neutral
+B | Of course! Here. | 물론! 여기. | of course = 물론 | emo=neutral
+A | Thanks. Wait… a cat? | 고마워. 잠깐… 고양이? | wait = 잠깐 | emo=surprised
+B | That's the test. Page one. | 그게 시험이야. 1쪽. | page = 쪽 | emo=neutral
+A | What does that mean? | 그게 무슨 뜻이야? | what does that mean = 무슨 뜻이야 | emo=neutral
+B | I draw. I don't write. | 난 그려. 안 써. | draw = 그리다 | emo=amused
+A | And the A plus? | 그런데 A+는? | A plus = A+ | emo=neutral
+B | The teacher loves cats. | 선생님이 고양이를 좋아해. | love = 아주 좋아하다 | emo=teasing

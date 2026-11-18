@@ -1,0 +1,20 @@
+=== r1_study_a1
+title: 수업 첫날 자리
+emoji: 🎒
+scene: 어학원 첫 수업, 빈자리에 앉았더니 그 자리는 선생님 자리였다
+where: 어학원 교실
+goal: 자리 묻기와 자기소개
+kind: short
+register: polite
+B: Teacher
+twist: 5 reveal
+expr: excuse me | nice to meet you | i'm sorry | no worries
+--
+A | Excuse me. Is anyone sitting here? | 저기요. 여기 누구 앉아요? | is anyone ~? = 누구 ~해요? | emo=polite
+B | Kind of. Go ahead, though. | 뭐 그런 편이죠. 그래도 앉아요. | go ahead = 그렇게 해요 | emo=neutral
+A | Thanks. Nice to meet you. I'm {name}. | 고마워요. 반가워요. 저는 {name}이에요. | nice to meet you = 반가워요 | emo=polite
+B | Nice to meet you, {name}. Ready for class? | 반가워요, {name}. 수업 준비됐어요? | ready for ~ = ~ 준비된 | emo=polite
+B | Okay. Then can you teach today? | 좋아요. 그럼 오늘 수업 해 줄래요? | teach = 가르치다 | emo=teasing
+A | Wait. Is this your chair? | 잠깐. 이게 선생님 자리예요? | your chair = 당신 의자 | emo=neutral
+A | I'm sorry! I'll move. | 죄송해요! 비킬게요. | I'm sorry = 죄송해요 | emo=flustered
+B | No worries. Best student already. | 괜찮아요. 벌써 최고 학생이네요. | no worries = 괜찮아요 | emo=gentle

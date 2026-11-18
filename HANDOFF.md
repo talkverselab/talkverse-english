@@ -101,3 +101,10 @@ _최종 2026-11-09 11:4x KST. 영어앱 세션 정리 종료(uk 전달 사용자
 - M6 부하 규칙(2026-11-03): 빌드 시작 전 `pgrep -f flutter_tools.snapshot | wc -l` 이 3 이상이면 1분씩 대기, 시뮬레이터는 쓰고 바로 `xcrun simctl shutdown`. 이 앱 시뮬레이터 = `en-shots iPad Air 11`(iOS 26.5, UDID FFD4E03F-4171-4B78-AC33-11D3070768EF).
 - 확인: `flutter analyze` · `flutter test`(22개) · `python3 tools/pane_shots.py <UDID> <스크래치> integration_test/dialogue_pane_test.dart` → `overflowed by` 0.
 - 커밋은 경로 지정, `ios/Podfile.lock` 은 추적 안 함.
+
+## 2026-11-18 밤 — 「Grok 대사 작성」(사용자 지시 진행, uk 순서 대기)
+- 원칙(사용자): Claude 는 초안까지, 대사는 Grok(빠른 모드)이 쓰고 받은 그대로 붙인다. **uk 순서표 12번 — 「en 시작」 받기 전엔 Grok 쓰지 않음.**
+- 대상: 영어 59(`data/review/grok/queue_en.txt`) + 토익 18(g1~g8 은 예전 Grok 답을 그대로 붙임 → 남은 10 `queue_toeic.txt`) + 언어감각 10급(`queue_sense.txt`, 규칙 `tools/prompts/rewrite_grok_sense.md`).
+- 돌리기(PC 크롬 9262, 터널 `ssh -fN -L 9262:127.0.0.1:9262 pc`, 먼저 `/usr/bin/python3 tools/grok/grok_fast.py 9262`):
+  `zsh tools/grok/rewrite_run.sh tools/prompts/rewrite_grok_en.md $(cat data/review/grok/queue_en.txt)` (토익은 `rewrite_grok_toeic.md`, 감각은 `rewrite_grok_sense.md`). 방은 25편마다 새로, TIMEOUT 이면 방에서 답부터 읽음.
+- 붙이기: `python3 tools/grok/merge_out.py` → `draft_to_json.py` → `add_lemmas.py` → `check_dialogues.py` → `turn_lock.py`; 감각은 `python3 tools/grok/merge_sense.py`. 그 뒤 version.json db 올림 · `tools/script_publish.py --publish` · script_rev.json 커밋 · 음성은 새벽 01~07.
