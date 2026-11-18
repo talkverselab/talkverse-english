@@ -1,0 +1,203 @@
+{
+ "id": "r0_study_a1",
+ "region": "R0",
+ "island": "study",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "필기 빌려줄래?",
+ "emoji": "📓",
+ "scene": "수업 필기를 빌렸더니 Maya 의 공책에는 그림만 가득하다",
+ "where": "학교 도서관",
+ "goal": "빌리기 부탁",
+ "speakers": {
+  "A": "{name}",
+  "B": "Maya"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "of course",
+  "what does that mean"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Maya, your notes, please?",
+   "ko": "마야, 필기 좀 빌려줘.",
+   "note": "notes = 필기",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "notes",
+     "note",
+     ""
+    ],
+    [
+     "please",
+     "please",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Of course! Here.",
+   "ko": "물론! 여기.",
+   "note": "of course = 물론",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "course",
+     "course",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Thanks. Wait… a cat?",
+   "ko": "고마워. 잠깐… 고양이?",
+   "note": "wait = 잠깐",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Thanks",
+     "thank",
+     ""
+    ],
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "cat",
+     "cat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "That's the test. Page one.",
+   "ko": "그게 시험이야. 1쪽.",
+   "note": "page = 쪽",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "test",
+     "test",
+     ""
+    ],
+    [
+     "Page",
+     "page",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "What does that mean?",
+   "ko": "그게 무슨 뜻이야?",
+   "note": "what does that mean = 무슨 뜻이야",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "mean",
+     "mean",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "I draw. I don't write.",
+   "ko": "난 그려. 안 써.",
+   "note": "draw = 그리다",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "draw",
+     "draw",
+     ""
+    ],
+    [
+     "write",
+     "write",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "And the A plus?",
+   "ko": "그런데 A+는?",
+   "note": "A plus = A+",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "plus",
+     "plus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "The teacher loves cats.",
+   "ko": "선생님이 고양이를 좋아해.",
+   "note": "love = 아주 좋아하다",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "teacher",
+     "teach",
+     ""
+    ],
+    [
+     "loves",
+     "love",
+     ""
+    ],
+    [
+     "cats",
+     "cat",
+     ""
+    ]
+   ]
+  }
+ ]
+}

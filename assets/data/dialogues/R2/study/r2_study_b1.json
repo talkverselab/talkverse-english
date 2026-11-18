@@ -1,0 +1,226 @@
+{
+ "id": "r2_study_b1",
+ "region": "R2",
+ "island": "study",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "조별 과제 단톡방",
+ "emoji": "📚",
+ "scene": "조별 과제 단톡방에서 한 명이 계속 읽씹하더니 마감 전날 완벽한 자료를 올린다",
+ "where": "휴대폰 채팅",
+ "goal": "역할 나누기와 독촉",
+ "speakers": {
+  "A": "{name}",
+  "B": "Maya",
+  "C": "Jake"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "you free",
+  "for sure",
+  "no way"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Team, presentation is Thursday. Who does what?",
+   "ko": "얘들아, 발표 목요일이야. 누가 뭐 할래?",
+   "note": "who does what = 역할 분담",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:10",
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Team",
+     "team",
+     ""
+    ],
+    [
+     "presentation",
+     "presentation",
+     ""
+    ],
+    [
+     "Thursday",
+     "thursday",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "I'll do the slides. For sure.",
+   "ko": "내가 슬라이드 할게. 확실히.",
+   "note": "for sure = 확실히",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:11",
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "slides",
+     "slide",
+     ""
+    ],
+    [
+     "sure",
+     "sure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Jake? You free to do the research?",
+   "ko": "제이크? 자료 조사 할 수 있어?",
+   "note": "you free = 시간 돼",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:12",
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "free",
+     "free",
+     ""
+    ],
+    [
+     "research",
+     "research",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Jake. Hello?",
+   "ko": "제이크. 여보세요?",
+   "note": "독촉",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:40",
+   "emotion": "annoyed",
+   "read": false,
+   "lemmas": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "He's at basketball. Always.",
+   "ko": "쟤 농구하러 갔어. 늘.",
+   "note": "always = 맨날",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "21:15",
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "basketball",
+     "basketball",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Okay, I'll just do it myself.",
+   "ko": "알았어, 그냥 내가 할게.",
+   "note": "myself = 내가 직접",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "23:50",
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "myself",
+     "myself",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "en": "Done. 20 pages. With sources.",
+   "ko": "끝. 20쪽. 출처 포함.",
+   "note": "sources = 출처",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "23:58",
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "pages",
+     "page",
+     ""
+    ],
+    [
+     "sources",
+     "source",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "No way. When did you do this?",
+   "ko": "말도 안 돼. 언제 했어?",
+   "note": "no way = 말도 안 돼",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "23:59",
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "way",
+     "way",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "en": "Halftime.",
+   "ko": "하프타임에.",
+   "note": "짧은 한 방",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "23:59",
+   "emotion": "neutral",
+   "stamp": "🏀",
+   "lemmas": [
+    [
+     "Halftime",
+     "halftime",
+     ""
+    ]
+   ]
+  }
+ ]
+}

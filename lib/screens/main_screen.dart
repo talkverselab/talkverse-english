@@ -11,6 +11,7 @@ import 'about_screen.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
 import 'roots_screen.dart';
+import 'sense_course_screen.dart';
 import 'sound_chart_screen.dart';
 import 'word_freq_screen.dart';
 import 'word_quiz_screen.dart';
@@ -403,6 +404,13 @@ class _LearnTabState extends State<LearnTab> {
               ),
             sectionTitle(tr('기초')),
             const SoundChartNavRow(),
+            NavRow(
+              seal: 'Feel',
+              sealColor: AppColors.beni,
+              title: tr('언어감각 익히기'),
+              subtitle: tr('관사·전치사·시제… 10급 · 대화를 통째로 외우기'),
+              onTap: () => openPane(context, (_) => const SenseCourseScreen()),
+            ),
             sectionTitle(tr('회화')),
             NavRow(
               seal: 'Talk',

@@ -1,0 +1,255 @@
+{
+ "id": "r1_travel_a1",
+ "region": "R1",
+ "island": "travel",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "창가 자리 부탁",
+ "emoji": "✈️",
+ "scene": "비행기 체크인에서 창가 자리를 부탁했는데, 직원이 준 자리는 창문이 없는 창가였다",
+ "where": "공항 체크인 카운터",
+ "goal": "자리 요청하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Agent"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "can i get",
+  "sure",
+  "how much",
+  "oh no"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Hi there. Where are you flying today?",
+   "ko": "안녕하세요. 오늘 어디로 가세요?",
+   "note": "flying = 비행기로 가다",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "flying",
+     "fly",
+     ""
+    ],
+    [
+     "today",
+     "today",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Chicago. Can I get a window seat?",
+   "ko": "시카고요. 창가 자리 주실 수 있어요?",
+   "note": "can I get ~? = ~ 주실래요",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Chicago",
+     "chicago",
+     ""
+    ],
+    [
+     "get",
+     "get",
+     ""
+    ],
+    [
+     "window",
+     "window",
+     ""
+    ],
+    [
+     "seat",
+     "seat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Sure. Window seat, row twelve.",
+   "ko": "네. 창가 자리, 12열이요.",
+   "note": "row = 열",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Sure",
+     "sure",
+     ""
+    ],
+    [
+     "Window",
+     "window",
+     ""
+    ],
+    [
+     "seat",
+     "seat",
+     ""
+    ],
+    [
+     "row",
+     "row",
+     ""
+    ],
+    [
+     "twelve",
+     "twelve",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Great. How much is a bag?",
+   "ko": "좋아요. 짐은 얼마예요?",
+   "note": "how much = 얼마예요",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Great",
+     "great",
+     ""
+    ],
+    [
+     "bag",
+     "bag",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Thirty-five. Have a good flight!",
+   "ko": "35달러요. 좋은 비행 되세요!",
+   "note": "have a good ~ = 좋은 ~ 되세요",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Thirty",
+     "thirty",
+     ""
+    ],
+    [
+     "good",
+     "better",
+     ""
+    ],
+    [
+     "flight",
+     "flight",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Oh no. Row twelve has no window.",
+   "ko": "아 이런. 12열엔 창문이 없어요.",
+   "note": "oh no = 아 이런",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Row",
+     "row",
+     ""
+    ],
+    [
+     "twelve",
+     "twelve",
+     ""
+    ],
+    [
+     "window",
+     "window",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "It's next to the wall. Very close.",
+   "ko": "벽 옆이에요. 아주 가까워요.",
+   "note": "next to = 옆에",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "next",
+     "next",
+     ""
+    ],
+    [
+     "wall",
+     "wall",
+     ""
+    ],
+    [
+     "close",
+     "close",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "So I'm looking at a wall to Chicago.",
+   "ko": "그럼 시카고까지 벽만 보고 가네요.",
+   "note": "looking at = 보다",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "looking",
+     "look",
+     ""
+    ],
+    [
+     "wall",
+     "wall",
+     ""
+    ],
+    [
+     "Chicago",
+     "chicago",
+     ""
+    ]
+   ]
+  }
+ ]
+}

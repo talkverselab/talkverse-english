@@ -1,0 +1,333 @@
+{
+ "id": "r2_survival_b1",
+ "region": "R2",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "약국에서 \"Same as usual\"",
+ "emoji": "💊",
+ "scene": "약국에서 감기약을 찾는데, 약사가 단골로 착각하고 남의 처방을 건넨다",
+ "where": "동네 약국 카운터",
+ "goal": "증상 말하기와 착각 바로잡기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pharmacist"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "excuse me",
+  "what do you mean",
+  "just to confirm"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Excuse me. Do you have something for a sore throat?",
+   "ko": "저기요. 목 아픈 데 먹는 거 있어요?",
+   "note": "sore throat = 목 아픔",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "something",
+     "something",
+     ""
+    ],
+    [
+     "sore",
+     "sore",
+     ""
+    ],
+    [
+     "throat",
+     "throat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Sure. Any fever? Or just the throat?",
+   "ko": "그럼요. 열도 있어요? 아니면 목만요?",
+   "note": "fever = 열",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Sure",
+     "sure",
+     ""
+    ],
+    [
+     "fever",
+     "fever",
+     ""
+    ],
+    [
+     "throat",
+     "throat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Just the throat. And I can't stop coughing.",
+   "ko": "목만요. 그리고 기침이 안 멈춰요.",
+   "note": "can't stop ~ing = 계속 ~하다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "throat",
+     "throat",
+     ""
+    ],
+    [
+     "stop",
+     "stop",
+     ""
+    ],
+    [
+     "coughing",
+     "cough",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "Okay. Wait, are you picking up for Mr. Lee too?",
+   "ko": "네. 잠깐, 이 선생님 약도 찾아가세요?",
+   "note": "pick up = 찾아가다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "picking",
+     "pick",
+     ""
+    ],
+    [
+     "Mr",
+     "mr",
+     ""
+    ],
+    [
+     "Lee",
+     "lee",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "Mr. Lee? What do you mean?",
+   "ko": "이 선생님이요? 무슨 말씀이세요?",
+   "note": "what do you mean = 무슨 뜻이에요",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Mr",
+     "mr",
+     ""
+    ],
+    [
+     "Lee",
+     "lee",
+     ""
+    ],
+    [
+     "mean",
+     "mean",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Same as usual, right? Here's his sleep medicine.",
+   "ko": "늘 하던 거죠? 여기 그분 수면제요.",
+   "note": "same as usual = 늘 하던 대로",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "usual",
+     "usual",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ],
+    [
+     "sleep",
+     "sleep",
+     ""
+    ],
+    [
+     "medicine",
+     "medicine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "I don't know a Mr. Lee. I just moved here.",
+   "ko": "저 이 선생님 몰라요. 여기 막 이사 왔어요.",
+   "note": "just moved = 막 이사 왔다",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "know",
+     "know",
+     ""
+    ],
+    [
+     "Mr",
+     "mr",
+     ""
+    ],
+    [
+     "Lee",
+     "lee",
+     ""
+    ],
+    [
+     "moved",
+     "move",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Oh no. You have the exact same jacket.",
+   "ko": "어머. 재킷이 완전 똑같으시네요.",
+   "note": "the exact same = 완전 똑같은",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "exact",
+     "exact",
+     ""
+    ],
+    [
+     "jacket",
+     "jacket",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "en": "Just to confirm, the throat stuff is for me?",
+   "ko": "확인 차 여쭤요, 목 약은 제 거죠?",
+   "note": "just to confirm = 확인하자면",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "confirm",
+     "confirm",
+     ""
+    ],
+    [
+     "throat",
+     "throat",
+     ""
+    ],
+    [
+     "stuff",
+     "stuff",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "en": "Yes. Take two a day. And maybe buy a new jacket.",
+   "ko": "네. 하루 두 알이요. 그리고 재킷 하나 새로 사세요.",
+   "note": "take two a day = 하루 두 번",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Take",
+     "take",
+     ""
+    ],
+    [
+     "day",
+     "day",
+     ""
+    ],
+    [
+     "maybe",
+     "maybe",
+     ""
+    ],
+    [
+     "buy",
+     "buy",
+     ""
+    ],
+    [
+     "new",
+     "new",
+     ""
+    ],
+    [
+     "jacket",
+     "jacket",
+     ""
+    ]
+   ]
+  }
+ ]
+}

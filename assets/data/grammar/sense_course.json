@@ -1,0 +1,1346 @@
+{
+ "title": "언어감각 익히기",
+ "subtitle": "정규과정 · 영상 → 대화 통째로 외우기 → 참고",
+ "levels": [
+  {
+   "id": "L1",
+   "title": "관사 익히기 (a · the)",
+   "lessons": [
+    {
+     "id": "L1-talk",
+     "title": "관사 익히기 — 카페 줄에서",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "Maya",
+       "en": "I'll get {a|1} coffee. You want {one|2}?",
+       "ko": "나 커피 {한 잔|1} 시킬게. 너도 {하나|2} 마실래?"
+      },
+      {
+       "who": "나",
+       "en": "Sure. {The|3} guy in front of us is ordering for {an|4} army.",
+       "ko": "좋아. 우리 앞에 {그|3} 남자, {한|4} 부대 분량을 시키네."
+      },
+      {
+       "who": "Maya",
+       "en": "Twelve lattes. That's {a|1} lot of milk.",
+       "ko": "라테 열두 잔. 우유가 {꽤|1} 많이 들겠다."
+      },
+      {
+       "who": "나",
+       "en": "Look, he dropped {a|1} card.",
+       "ko": "봐, 저 사람 카드 {한 장|1} 떨어뜨렸어."
+      },
+      {
+       "who": "Maya",
+       "en": "Go give it back. {The|3} card, not your number.",
+       "ko": "가서 돌려줘. {그|3} 카드 말이야, 네 번호 말고."
+      },
+      {
+       "who": "나",
+       "en": "Excuse me, is this {your|5} card?",
+       "ko": "저기요, 이거 {당신|5} 카드예요?"
+      },
+      {
+       "who": "Guy",
+       "en": "Oh, thanks! You just saved {the|3} whole office.",
+       "ko": "어, 고마워요! 방금 {저희|3} 사무실 전체를 살리셨어요."
+      },
+      {
+       "who": "Guy",
+       "en": "Here, take {a|1} latte. I ordered too many anyway.",
+       "ko": "자, 라테 {한 잔|1} 가져가요. 어차피 너무 많이 시켰어요."
+      },
+      {
+       "who": "Maya",
+       "en": "{A|1} free latte? Okay, you're coming every morning.",
+       "ko": "공짜 라테 {한 잔|1}? 좋아, 너 이제 매일 아침 와야겠다."
+      },
+      {
+       "who": "나",
+       "en": "Only if {the|3} card guy comes too.",
+       "ko": "{그|3} 카드 아저씨도 온다면."
+      }
+     ],
+     "footnotes": [
+      "a·an — 처음 꺼내는 하나. 한국어는 안 붙이지만 영어는 셀 수 있는 것 하나면 꼭 붙여요 (a coffee, an army).",
+      "the — 둘 다 아는 「그」 것. 방금 말했거나 눈앞에 있는 것 (the guy in front of us).",
+      "a lot of — 「많은」 덩어리 표현. a 를 빼지 않아요.",
+      "이름·가게 이름 앞에는 a·the 를 안 붙여요 — 대신 your·my 같은 말이 그 자리를 채우기도 해요 (your card)."
+     ]
+    },
+    {
+     "id": "L1-ref",
+     "kind": "ref",
+     "title": "관사 한눈에 (a · an · the · 안 붙일 때)",
+     "points": [
+      {
+       "head": "a / an  하나, 처음 꺼낼 때",
+       "tip": "자음 소리 앞 a, 모음 소리 앞 an. 철자가 아니라 소리로 정해요 (an hour, a university).",
+       "sentences": [
+        {
+         "en": "I need a charger.",
+         "ko": "충전기 하나 필요해."
+        },
+        {
+         "en": "It's an easy one.",
+         "ko": "그거 쉬운 거야."
+        }
+       ]
+      },
+      {
+       "head": "the  둘 다 아는 그것",
+       "tip": "방금 말한 것, 하나뿐인 것, 눈앞의 것.",
+       "sentences": [
+        {
+         "en": "The charger is on the table.",
+         "ko": "그 충전기 탁자 위에 있어."
+        },
+        {
+         "en": "Close the door, please.",
+         "ko": "문 좀 닫아 줘."
+        }
+       ]
+      },
+      {
+       "head": "안 붙일 때",
+       "tip": "셀 수 없는 것을 일반적으로 말할 때, 복수를 일반적으로 말할 때.",
+       "sentences": [
+        {
+         "en": "I love coffee.",
+         "ko": "나 커피 좋아해."
+        },
+        {
+         "en": "Dogs are cute.",
+         "ko": "개는 귀여워."
+        }
+       ]
+      },
+      {
+       "head": "my · your 가 있으면 관사 없음",
+       "tip": "a my friend 는 틀려요. a friend of mine 처럼 써요.",
+       "sentences": [
+        {
+         "en": "This is my friend.",
+         "ko": "얘는 내 친구야."
+        },
+        {
+         "en": "He's a friend of mine.",
+         "ko": "걔 내 친구 중 하나야."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "전치사 익히기 (in · on · at)",
+   "lessons": [
+    {
+     "id": "L2-talk",
+     "title": "전치사 익히기 — 약속 장소 헷갈림",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "Jake",
+       "en": "Meet me {at|1} the station {at|2} seven.",
+       "ko": "7시{에|2} 역{에서|1} 만나."
+      },
+      {
+       "who": "나",
+       "en": "Seven {on|3} Friday, right?",
+       "ko": "금요일{에|3} 7시 맞지?"
+      },
+      {
+       "who": "Jake",
+       "en": "Yeah. I'll be {in|4} front of the bakery.",
+       "ko": "응. 빵집 {앞에|4} 있을게."
+      },
+      {
+       "who": "나",
+       "en": "Which one? There's one {on|5} Main Street too.",
+       "ko": "어느 빵집? 메인 스트리트{에도|5} 하나 있잖아."
+      },
+      {
+       "who": "Jake",
+       "en": "The one {in|6} the station. Next to the stairs.",
+       "ko": "역 {안에|6} 있는 거. 계단 옆."
+      },
+      {
+       "who": "나",
+       "en": "Got it. I'm {on|7} the train now.",
+       "ko": "알았어. 나 지금 지하철 {타고|7} 있어."
+      },
+      {
+       "who": "Jake",
+       "en": "Wait, now? It's Thursday.",
+       "ko": "잠깐, 지금? 오늘 목요일이야."
+      },
+      {
+       "who": "나",
+       "en": "...I'm already {at|1} the station.",
+       "ko": "...나 벌써 역{에|1} 와 있는데."
+      },
+      {
+       "who": "Jake",
+       "en": "Then stay there. I'm coming. {In|8} ten minutes.",
+       "ko": "그럼 거기 있어. 갈게. 10분 {뒤에|8}."
+      },
+      {
+       "who": "나",
+       "en": "So it's {on|3} Thursday now?",
+       "ko": "그럼 이제 목요일{에|3} 보는 거야?"
+      }
+     ],
+     "footnotes": [
+      "at — 한 점. 시각(at seven)·딱 그 장소(at the station).",
+      "on — 위에 붙어 있음. 요일·날짜(on Friday)·거리 이름(on Main Street)·탈것 위(on the train).",
+      "in — 안에 들어 있음. 공간 안(in the station)·「~뒤에」(in ten minutes)·달·해(in May).",
+      "한국어 「에」 하나가 영어에서는 셋으로 나뉘어요."
+     ]
+    },
+    {
+     "id": "L2-ref",
+     "kind": "ref",
+     "title": "전치사 한눈에 (시간 · 장소 · 탈것)",
+     "points": [
+      {
+       "head": "at  점",
+       "tip": "시각, 정확한 지점, 행사.",
+       "sentences": [
+        {
+         "en": "See you at noon.",
+         "ko": "정오에 봐."
+        },
+        {
+         "en": "I'm at the door.",
+         "ko": "나 문 앞이야."
+        }
+       ]
+      },
+      {
+       "head": "on  면·날",
+       "tip": "요일·날짜, 표면, 거리, 버스·지하철·비행기.",
+       "sentences": [
+        {
+         "en": "It's on Monday.",
+         "ko": "월요일이야."
+        },
+        {
+         "en": "I'm on the bus.",
+         "ko": "버스 타고 있어."
+        }
+       ]
+      },
+      {
+       "head": "in  안·기간",
+       "tip": "안쪽, 달·해·계절, 「~ 뒤에」, 승용차·택시.",
+       "sentences": [
+        {
+         "en": "I'm in the car.",
+         "ko": "차 안이야."
+        },
+        {
+         "en": "Back in five.",
+         "ko": "5분 뒤에 올게."
+        }
+       ]
+      },
+      {
+       "head": "아무것도 안 붙일 때",
+       "tip": "home·here·there·tomorrow·next week 앞에는 전치사를 안 써요.",
+       "sentences": [
+        {
+         "en": "I'm home.",
+         "ko": "나 집이야."
+        },
+        {
+         "en": "See you tomorrow.",
+         "ko": "내일 봐."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "시제 익히기 (늘 하는 일 · 지금 하는 일)",
+   "lessons": [
+    {
+     "id": "L3-talk",
+     "title": "시제 익히기 — 룸메이트 전화",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "Daniel",
+       "en": "What {are you doing|1}?",
+       "ko": "뭐 {하고 있어|1}?"
+      },
+      {
+       "who": "나",
+       "en": "{I'm cooking|1}. Well, {I'm trying|1}.",
+       "ko": "요리 {하는 중이야|1}. 음, {해 보는 중이야|1}."
+      },
+      {
+       "who": "Daniel",
+       "en": "You never {cook|2}.",
+       "ko": "너 요리 절대 안 {하잖아|2}."
+      },
+      {
+       "who": "나",
+       "en": "I {cook|2} every Sunday.",
+       "ko": "나 일요일마다 요리 {해|2}."
+      },
+      {
+       "who": "Daniel",
+       "en": "You {order|2} pizza every Sunday.",
+       "ko": "너 일요일마다 피자 {시키잖아|2}."
+      },
+      {
+       "who": "나",
+       "en": "Okay, but today {I'm making|1} pasta.",
+       "ko": "그래, 근데 오늘은 파스타 {만드는 중이야|1}."
+      },
+      {
+       "who": "Daniel",
+       "en": "Why {is the alarm beeping|1}?",
+       "ko": "근데 화재 경보는 왜 {울리고 있어|1}?"
+      },
+      {
+       "who": "나",
+       "en": "It always {does|2} that. It's dramatic.",
+       "ko": "그거 원래 늘 그{래|2}. 오버가 심해."
+      },
+      {
+       "who": "Daniel",
+       "en": "{I'm coming|1} home. Don't touch anything.",
+       "ko": "나 집에 {가는 중이야|1}. 아무것도 만지지 마."
+      },
+      {
+       "who": "나",
+       "en": "Too late. {I'm ordering|1} pizza.",
+       "ko": "늦었어. 피자 {시키는 중이야|1}."
+      }
+     ],
+     "footnotes": [
+      "be + -ing — 지금 이 순간 하는 중 (I'm cooking).",
+      "그냥 동사(현재) — 늘·습관 (I cook every Sunday). 3인칭 하나면 -s (It always does).",
+      "I'm coming — 「지금 가는 중 / 곧 갈게」. 약속된 가까운 미래도 -ing 로 말해요.",
+      "한국어 「해」는 둘 다 되지만 영어는 꼭 골라야 해요."
+     ]
+    },
+    {
+     "id": "L3-ref",
+     "kind": "ref",
+     "title": "현재 · 현재진행 한눈에",
+     "points": [
+      {
+       "head": "늘 하는 일  I work",
+       "tip": "습관·사실·일정. he·she·it 이면 -s.",
+       "sentences": [
+        {
+         "en": "She works at a bank.",
+         "ko": "걔 은행에서 일해."
+        },
+        {
+         "en": "The store opens at nine.",
+         "ko": "가게 9시에 열어."
+        }
+       ]
+      },
+      {
+       "head": "지금 하는 일  I'm working",
+       "tip": "말하는 순간, 요즘 잠깐.",
+       "sentences": [
+        {
+         "en": "I'm working from home this week.",
+         "ko": "이번 주는 재택이야."
+        },
+        {
+         "en": "It's raining.",
+         "ko": "비 와."
+        }
+       ]
+      },
+      {
+       "head": "가까운 약속  I'm meeting",
+       "tip": "정해 둔 계획은 -ing 로.",
+       "sentences": [
+        {
+         "en": "I'm meeting Jake tonight.",
+         "ko": "오늘 밤 제이크 만나."
+        },
+        {
+         "en": "We're leaving at six.",
+         "ko": "우리 6시에 출발해."
+        }
+       ]
+      },
+      {
+       "head": "-ing 로 잘 안 쓰는 동사",
+       "tip": "know·like·want·need 같은 상태 동사.",
+       "sentences": [
+        {
+         "en": "I know.",
+         "ko": "알아."
+        },
+        {
+         "en": "I want that one.",
+         "ko": "그거 갖고 싶어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "과거 · 현재완료 익히기",
+   "lessons": [
+    {
+     "id": "L4-talk",
+     "title": "과거와 현재완료 — 전 애인 이야기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "Emma",
+       "en": "{Have you ever been|1} to that ramen place?",
+       "ko": "그 라멘집 {가 본 적 있어|1}?"
+      },
+      {
+       "who": "나",
+       "en": "Yeah, I {went|2} there last week.",
+       "ko": "응, 지난주에 {갔어|2}."
+      },
+      {
+       "who": "Emma",
+       "en": "With who?",
+       "ko": "누구랑?"
+      },
+      {
+       "who": "나",
+       "en": "Alone. Why?",
+       "ko": "혼자. 왜?"
+      },
+      {
+       "who": "Emma",
+       "en": "My ex {took|2} me there once.",
+       "ko": "전 남친이 한 번 거기 {데려갔었어|2}."
+      },
+      {
+       "who": "나",
+       "en": "Oh. {Have you been|1} back since then?",
+       "ko": "아. 그 뒤로 다시 {가 봤어|1}?"
+      },
+      {
+       "who": "Emma",
+       "en": "Never. {I've avoided|1} that street for a year.",
+       "ko": "한 번도. 1년 동안 그 길을 {피해 왔어|1}."
+      },
+      {
+       "who": "나",
+       "en": "Then let's go tonight. New memory.",
+       "ko": "그럼 오늘 밤 가자. 새 기억으로."
+      },
+      {
+       "who": "Emma",
+       "en": "{I've already decided|1}. Yes.",
+       "ko": "{벌써 정했어|1}. 좋아."
+      },
+      {
+       "who": "나",
+       "en": "That was fast.",
+       "ko": "빠르다."
+      }
+     ],
+     "footnotes": [
+      "과거(went, took) — 끝난 때가 분명할 때 (last week, once).",
+      "have + p.p. — 지금까지 이어진 경험·결과. 「~해 본 적 있어?」 = Have you ever …?",
+      "since then, for a year, already — 현재완료와 잘 붙는 말.",
+      "last week·yesterday 같은 끝난 때와 현재완료는 같이 안 써요."
+     ]
+    },
+    {
+     "id": "L4-ref",
+     "kind": "ref",
+     "title": "과거 · 현재완료 한눈에",
+     "points": [
+      {
+       "head": "과거  I did",
+       "tip": "때가 분명한 끝난 일.",
+       "sentences": [
+        {
+         "en": "I saw her yesterday.",
+         "ko": "어제 걔 봤어."
+        },
+        {
+         "en": "We met in 2020.",
+         "ko": "우리 2020년에 만났어."
+        }
+       ]
+      },
+      {
+       "head": "경험  I've done",
+       "tip": "살면서 해 본 적.",
+       "sentences": [
+        {
+         "en": "I've never tried it.",
+         "ko": "한 번도 안 먹어 봤어."
+        },
+        {
+         "en": "Have you been to Busan?",
+         "ko": "부산 가 봤어?"
+        }
+       ]
+      },
+      {
+       "head": "지금까지  I've been",
+       "tip": "for·since 로 기간.",
+       "sentences": [
+        {
+         "en": "I've lived here for two years.",
+         "ko": "여기 산 지 2년 됐어."
+        },
+        {
+         "en": "She's been busy since Monday.",
+         "ko": "걔 월요일부터 바빠."
+        }
+       ]
+      },
+      {
+       "head": "방금·벌써",
+       "tip": "just·already·yet.",
+       "sentences": [
+        {
+         "en": "I've just eaten.",
+         "ko": "방금 먹었어."
+        },
+        {
+         "en": "Have you finished yet?",
+         "ko": "벌써 끝냈어?"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "be 와 do 익히기",
+   "lessons": [
+    {
+     "id": "L5-talk",
+     "title": "be 와 do — 첫 데이트 질문",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "Emma",
+       "en": "{Are you|1} nervous?",
+       "ko": "너 긴장{했어|1}?"
+      },
+      {
+       "who": "나",
+       "en": "No. {Do I|2} look nervous?",
+       "ko": "아니. 나 긴장해 {보여|2}?"
+      },
+      {
+       "who": "Emma",
+       "en": "You {are|1} holding the menu upside down.",
+       "ko": "메뉴 거꾸로 들고 {있잖아|1}."
+      },
+      {
+       "who": "나",
+       "en": "{It is|1} a modern menu.",
+       "ko": "요즘 메뉴{야|1}."
+      },
+      {
+       "who": "Emma",
+       "en": "{Do you|2} come here often?",
+       "ko": "여기 자주 {와|2}?"
+      },
+      {
+       "who": "나",
+       "en": "{I don't|2}. {Do you|2}?",
+       "ko": "아니 {안 와|2}. 너는 {와|2}?"
+      },
+      {
+       "who": "Emma",
+       "en": "Every Friday. The waiter {is|1} my brother.",
+       "ko": "금요일마다. 저 웨이터가 우리 오빠{야|1}."
+      },
+      {
+       "who": "나",
+       "en": "{Is he|1} watching us right now?",
+       "ko": "지금 우리 보고 {있는 거야|1}?"
+      },
+      {
+       "who": "Emma",
+       "en": "He {does|2} that. Smile.",
+       "ko": "원래 그{래|2}. 웃어."
+      },
+      {
+       "who": "나",
+       "en": "{I am|1} smiling. This {is|1} my nervous smile.",
+       "ko": "웃고 {있어|1}. 이게 내 긴장한 웃음{이야|1}."
+      }
+     ],
+     "footnotes": [
+      "be(am·is·are) — 「~이다 / ~한 상태다 / ~하는 중이다」. 형용사·명사·-ing 앞.",
+      "do(do·does) — 일반 동사의 질문·부정을 돕는 말. Do you come …? / I don't.",
+      "「Are you come?」처럼 섞지 않아요 — 뒤에 동사가 있으면 do, 상태면 be.",
+      "짧은 대답도 같은 쪽으로: Are you …? → I am. / Do you …? → I do."
+     ]
+    },
+    {
+     "id": "L5-ref",
+     "kind": "ref",
+     "title": "be · do 한눈에",
+     "points": [
+      {
+       "head": "be  상태·정체",
+       "tip": "형용사·명사·장소·-ing 앞.",
+       "sentences": [
+        {
+         "en": "I'm tired.",
+         "ko": "나 피곤해."
+        },
+        {
+         "en": "Is she here?",
+         "ko": "걔 여기 있어?"
+        }
+       ]
+      },
+      {
+       "head": "do  일반 동사 돕기",
+       "tip": "질문은 Do/Does + 주어 + 동사원형.",
+       "sentences": [
+        {
+         "en": "Do you drink coffee?",
+         "ko": "커피 마셔?"
+        },
+        {
+         "en": "Does he know?",
+         "ko": "걔 알아?"
+        }
+       ]
+      },
+      {
+       "head": "부정",
+       "tip": "be 는 not, 일반 동사는 don't·doesn't.",
+       "sentences": [
+        {
+         "en": "I'm not hungry.",
+         "ko": "배 안 고파."
+        },
+        {
+         "en": "I don't eat meat.",
+         "ko": "나 고기 안 먹어."
+        }
+       ]
+      },
+      {
+       "head": "짧은 대답",
+       "tip": "질문의 첫 단어로 대답해요.",
+       "sentences": [
+        {
+         "en": "Are you ready? — I am.",
+         "ko": "준비됐어? — 응."
+        },
+        {
+         "en": "Do you like it? — I do.",
+         "ko": "좋아? — 응, 좋아."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "title": "셀 수 있는 것 · 없는 것",
+   "lessons": [
+    {
+     "id": "L6-talk",
+     "title": "셀 수 있는 것 — 장보기 메모",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "Daniel",
+       "en": "We need {some|1} eggs and {some|1} milk.",
+       "ko": "계란 {좀|1}이랑 우유 {좀|1} 필요해."
+      },
+      {
+       "who": "나",
+       "en": "How {many|2} eggs?",
+       "ko": "계란 {몇 개|2}?"
+      },
+      {
+       "who": "Daniel",
+       "en": "{A dozen|3}. And {a little|4} cheese.",
+       "ko": "{한 판|3}. 그리고 치즈 {조금|4}."
+      },
+      {
+       "who": "나",
+       "en": "How {much|5} cheese is {a little|4}?",
+       "ko": "치즈 {조금|4}이 {얼마|5}야?"
+      },
+      {
+       "who": "Daniel",
+       "en": "For you? {A few|6} slices. For me? The whole block.",
+       "ko": "너한테는? {몇|6} 장. 나한테는? 한 덩어리 통째로."
+      },
+      {
+       "who": "나",
+       "en": "Do we have {any|7} bread?",
+       "ko": "빵은 {좀|7} 있어?"
+      },
+      {
+       "who": "Daniel",
+       "en": "There's {no|8} bread. You ate it.",
+       "ko": "빵 {없어|8}. 네가 먹었잖아."
+      },
+      {
+       "who": "나",
+       "en": "I ate {two slices|9}.",
+       "ko": "나 {두 쪽|9} 먹었어."
+      },
+      {
+       "who": "Daniel",
+       "en": "There were {two slices|9} left.",
+       "ko": "{두 쪽|9} 남아 있었거든."
+      },
+      {
+       "who": "나",
+       "en": "Then buy {lots of|10} bread.",
+       "ko": "그럼 빵 {많이|10} 사."
+      }
+     ],
+     "footnotes": [
+      "셀 수 있는 것(eggs, slices) — many, a few, 복수 -s.",
+      "셀 수 없는 것(milk, cheese, bread) — much, a little, 복수 없음. 세려면 a slice of, a bottle of.",
+      "some — 긍정문의 「좀」, any — 질문·부정의 「좀」.",
+      "lots of·a lot of — 둘 다에 써요."
+     ]
+    },
+    {
+     "id": "L6-ref",
+     "kind": "ref",
+     "title": "셀 수 있는 것 · 없는 것 한눈에",
+     "points": [
+      {
+       "head": "many · a few",
+       "tip": "셀 수 있는 것.",
+       "sentences": [
+        {
+         "en": "How many people?",
+         "ko": "몇 명이야?"
+        },
+        {
+         "en": "I have a few ideas.",
+         "ko": "생각이 몇 개 있어."
+        }
+       ]
+      },
+      {
+       "head": "much · a little",
+       "tip": "셀 수 없는 것.",
+       "sentences": [
+        {
+         "en": "How much time do we have?",
+         "ko": "시간 얼마나 있어?"
+        },
+        {
+         "en": "Just a little sugar.",
+         "ko": "설탕 조금만."
+        }
+       ]
+      },
+      {
+       "head": "세는 말",
+       "tip": "a cup of · a piece of · a slice of · a bottle of.",
+       "sentences": [
+        {
+         "en": "Two cups of coffee.",
+         "ko": "커피 두 잔."
+        },
+        {
+         "en": "A piece of advice.",
+         "ko": "조언 하나."
+        }
+       ]
+      },
+      {
+       "head": "some · any · no",
+       "tip": "긍정 some, 질문·부정 any, 「하나도 없다」 no.",
+       "sentences": [
+        {
+         "en": "Any questions?",
+         "ko": "질문 있어요?"
+        },
+        {
+         "en": "There's no time.",
+         "ko": "시간 없어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "title": "구동사 익히기 (동사 + 작은 말)",
+   "lessons": [
+    {
+     "id": "L7-talk",
+     "title": "구동사 — 이삿날",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "Jake",
+       "en": "Can you {pick|1} me {up|1} at nine?",
+       "ko": "9시에 나 {태우러 와|1} 줄 수 있어?"
+      },
+      {
+       "who": "나",
+       "en": "Sure. Did you {figure out|2} the truck?",
+       "ko": "그래. 트럭은 {해결했어|2}?"
+      },
+      {
+       "who": "Jake",
+       "en": "My cousin {backed out|3}.",
+       "ko": "사촌이 {발 뺐어|3}."
+      },
+      {
+       "who": "나",
+       "en": "So we're {carrying|4} everything {down|4} ourselves?",
+       "ko": "그럼 우리가 전부 들고 {내려가|4}?"
+      },
+      {
+       "who": "Jake",
+       "en": "Don't {freak out|5}. It's only a sofa.",
+       "ko": "{놀라지|5} 마. 소파 하나야."
+      },
+      {
+       "who": "나",
+       "en": "On the fifth floor. With no elevator.",
+       "ko": "5층에. 엘리베이터 없이."
+      },
+      {
+       "who": "Jake",
+       "en": "We'll {take|6} it {apart|6}.",
+       "ko": "{분해하면|6} 돼."
+      },
+      {
+       "who": "나",
+       "en": "Last time you {took|6} a chair {apart|6}, it never {came|7} back {together|7}.",
+       "ko": "지난번에 너 의자 {분해했을|6} 때, 다시 {안 맞춰졌잖아|7}."
+      },
+      {
+       "who": "Jake",
+       "en": "That's why I {called|8} you {up|8}.",
+       "ko": "그래서 너한테 {전화한|8} 거야."
+      },
+      {
+       "who": "나",
+       "en": "I'm {hanging up|9} now.",
+       "ko": "나 이제 {끊는다|9}."
+      }
+     ],
+     "footnotes": [
+      "동사 + up·out·down·apart 같은 작은 말이 붙으면 뜻이 새로 생겨요 — 통째로 외우는 게 빨라요.",
+      "pick up = 태우러 가다 / 줍다, figure out = 알아내다·해결하다, freak out = 기겁하다.",
+      "목적어가 대명사면 가운데에: pick me up (pick up me 는 어색).",
+      "back out = 하기로 한 걸 빼다, hang up = 전화를 끊다."
+     ]
+    },
+    {
+     "id": "L7-ref",
+     "kind": "ref",
+     "title": "자주 쓰는 구동사",
+     "points": [
+      {
+       "head": "pick up",
+       "tip": "태우다·줍다·(전화를) 받다.",
+       "sentences": [
+        {
+         "en": "I'll pick you up.",
+         "ko": "데리러 갈게."
+        },
+        {
+         "en": "Pick up the phone!",
+         "ko": "전화 좀 받아!"
+        }
+       ]
+      },
+      {
+       "head": "figure out",
+       "tip": "알아내다.",
+       "sentences": [
+        {
+         "en": "I can't figure it out.",
+         "ko": "도저히 모르겠어."
+        },
+        {
+         "en": "We'll figure it out.",
+         "ko": "어떻게든 될 거야."
+        }
+       ]
+      },
+      {
+       "head": "run out of",
+       "tip": "다 떨어지다.",
+       "sentences": [
+        {
+         "en": "We ran out of milk.",
+         "ko": "우유 다 떨어졌어."
+        },
+        {
+         "en": "I'm running out of time.",
+         "ko": "시간이 없어."
+        }
+       ]
+      },
+      {
+       "head": "show up · end up",
+       "tip": "나타나다 · 결국 ~하게 되다.",
+       "sentences": [
+        {
+         "en": "He didn't show up.",
+         "ko": "걔 안 나타났어."
+        },
+        {
+         "en": "We ended up staying.",
+         "ko": "결국 남게 됐어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "title": "조동사 말맛 (can · should · might · have to)",
+   "lessons": [
+    {
+     "id": "L8-talk",
+     "title": "조동사 말맛 — 우산 하나",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "나",
+       "en": "It {might|1} rain later.",
+       "ko": "이따 비 {올지도 몰라|1}."
+      },
+      {
+       "who": "Emma",
+       "en": "Then you {should|2} bring an umbrella.",
+       "ko": "그럼 우산 {챙기는 게 좋겠다|2}."
+      },
+      {
+       "who": "나",
+       "en": "I {can't|3} find mine.",
+       "ko": "내 거 {못 찾겠어|3}."
+      },
+      {
+       "who": "Emma",
+       "en": "You {can|4} use mine.",
+       "ko": "내 거 {써도 돼|4}."
+      },
+      {
+       "who": "나",
+       "en": "Then you'll get wet. I {have to|5} say no.",
+       "ko": "그럼 네가 젖잖아. 거절{해야겠어|5}."
+      },
+      {
+       "who": "Emma",
+       "en": "Or we {could|6} share it.",
+       "ko": "아니면 같이 {쓸 수도 있지|6}."
+      },
+      {
+       "who": "나",
+       "en": "It's a small umbrella.",
+       "ko": "작은 우산인데."
+      },
+      {
+       "who": "Emma",
+       "en": "Then you'll {have to|5} stand close.",
+       "ko": "그럼 가까이 {서야겠네|5}."
+      },
+      {
+       "who": "나",
+       "en": "I {might|1} be okay with that.",
+       "ko": "그건 {괜찮을지도|1}."
+      },
+      {
+       "who": "Emma",
+       "en": "You {should|2} be.",
+       "ko": "{괜찮아야지|2}."
+      }
+     ],
+     "footnotes": [
+      "might — 「~일지도」, 반쯤 확신.",
+      "should — 「~하는 게 좋겠다」, 부드러운 권유.",
+      "can — 할 수 있다 / 해도 된다. could — 제안할 때 더 부드럽게 (we could share).",
+      "have to — 「꼭 ~해야 한다」, 사정이 그래서. must 보다 일상적이에요."
+     ]
+    },
+    {
+     "id": "L8-ref",
+     "kind": "ref",
+     "title": "조동사 한눈에",
+     "points": [
+      {
+       "head": "can · could",
+       "tip": "능력·허락·부드러운 제안.",
+       "sentences": [
+        {
+         "en": "Can I sit here?",
+         "ko": "여기 앉아도 돼요?"
+        },
+        {
+         "en": "We could go later.",
+         "ko": "이따 가도 되고."
+        }
+       ]
+      },
+      {
+       "head": "should",
+       "tip": "권유·조언.",
+       "sentences": [
+        {
+         "en": "You should rest.",
+         "ko": "좀 쉬어."
+        },
+        {
+         "en": "Should I call her?",
+         "ko": "걔한테 전화할까?"
+        }
+       ]
+      },
+      {
+       "head": "might · may",
+       "tip": "가능성.",
+       "sentences": [
+        {
+         "en": "I might be late.",
+         "ko": "늦을지도 몰라."
+        },
+        {
+         "en": "It may snow.",
+         "ko": "눈 올 수도 있어."
+        }
+       ]
+      },
+      {
+       "head": "have to · gotta",
+       "tip": "해야 하는 사정. 말로는 gotta 도 많이 써요.",
+       "sentences": [
+        {
+         "en": "I have to go.",
+         "ko": "가 봐야 해."
+        },
+        {
+         "en": "I gotta work tomorrow.",
+         "ko": "내일 일해야 돼."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "title": "가정 익히기 (if)",
+   "lessons": [
+    {
+     "id": "L9-talk",
+     "title": "가정 — 로또 이야기",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "Maya",
+       "en": "{If you won|1} the lottery, what {would you do|2}?",
+       "ko": "로또 {되면|1} 뭐 {할 거야|2}?"
+      },
+      {
+       "who": "나",
+       "en": "{I'd quit|2} my job tomorrow.",
+       "ko": "내일 회사 {그만둘 거야|2}."
+      },
+      {
+       "who": "Maya",
+       "en": "{If I were|1} you, {I'd wait|2} a week.",
+       "ko": "{내가 너라면|1} 일주일은 {기다리겠다|2}."
+      },
+      {
+       "who": "나",
+       "en": "Why?",
+       "ko": "왜?"
+      },
+      {
+       "who": "Maya",
+       "en": "{If you quit|3} too fast, they'll know.",
+       "ko": "너무 빨리 {그만두면|3} 다들 눈치챌 거야."
+      },
+      {
+       "who": "나",
+       "en": "{If they find out|3}, {I'll buy|4} them lunch.",
+       "ko": "{알게 되면|3} 점심 {사 주지 뭐|4}."
+      },
+      {
+       "who": "Maya",
+       "en": "{If you buy|3} lunch, {I'll come|4} too.",
+       "ko": "점심 {사면|3} 나도 {갈게|4}."
+      },
+      {
+       "who": "나",
+       "en": "You don't work there.",
+       "ko": "너 거기 안 다니잖아."
+      },
+      {
+       "who": "Maya",
+       "en": "{If I had|1} a rich friend, {I would|2}.",
+       "ko": "{부자 친구가 있다면|1} {다니겠지|2}."
+      },
+      {
+       "who": "나",
+       "en": "I haven't even bought a ticket.",
+       "ko": "나 아직 복권도 안 샀어."
+      }
+     ],
+     "footnotes": [
+      "If + 현재, will — 진짜 있을 법한 일 (If you quit too fast, they'll know).",
+      "If + 과거, would — 지금은 아닌 상상 (If you won…, what would you do?).",
+      "If I were you — 「내가 너라면」. 상상에서는 were 를 써요.",
+      "한국어 「~면」 하나가 영어에서는 둘로 나뉘어요 — 진짜냐 상상이냐."
+     ]
+    },
+    {
+     "id": "L9-ref",
+     "kind": "ref",
+     "title": "가정 한눈에",
+     "points": [
+      {
+       "head": "있을 법한 일",
+       "tip": "If + 현재, will.",
+       "sentences": [
+        {
+         "en": "If it rains, I'll stay home.",
+         "ko": "비 오면 집에 있을래."
+        },
+        {
+         "en": "If you need help, call me.",
+         "ko": "도움 필요하면 전화해."
+        }
+       ]
+      },
+      {
+       "head": "지금과 다른 상상",
+       "tip": "If + 과거, would.",
+       "sentences": [
+        {
+         "en": "If I had time, I'd go.",
+         "ko": "시간 있으면 갈 텐데."
+        },
+        {
+         "en": "If I knew, I'd tell you.",
+         "ko": "알면 말해 줬지."
+        }
+       ]
+      },
+      {
+       "head": "If I were you",
+       "tip": "조언할 때 자주.",
+       "sentences": [
+        {
+         "en": "If I were you, I'd say sorry.",
+         "ko": "나라면 사과하겠다."
+        },
+        {
+         "en": "I wouldn't do that.",
+         "ko": "나라면 그거 안 해."
+        }
+       ]
+      },
+      {
+       "head": "unless · as long as",
+       "tip": "~하지 않으면 · ~하기만 하면.",
+       "sentences": [
+        {
+         "en": "Unless it's free.",
+         "ko": "공짜가 아니라면."
+        },
+        {
+         "en": "As long as you're happy.",
+         "ko": "너만 좋다면."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "title": "이어 말하기 (who · that · so · because)",
+   "lessons": [
+    {
+     "id": "L10-talk",
+     "title": "이어 말하기 — 소개팅 상대",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 익히게 돼요.",
+     "sentences": [
+      {
+       "who": "Maya",
+       "en": "Remember the guy {who|1} fixed my bike?",
+       "ko": "내 자전거 고쳐 준 {그|1} 남자 기억나?"
+      },
+      {
+       "who": "나",
+       "en": "The one {that|2} talks to his plants?",
+       "ko": "화분한테 말 거는 {그|2} 사람?"
+      },
+      {
+       "who": "Maya",
+       "en": "Yes. He wants to meet you, {so|3} I gave him your number.",
+       "ko": "응. 너 만나고 싶대서 {그래서|3} 네 번호 줬어."
+      },
+      {
+       "who": "나",
+       "en": "Why me?",
+       "ko": "왜 나야?"
+      },
+      {
+       "who": "Maya",
+       "en": "{Because|4} you laughed at his joke once.",
+       "ko": "네가 그 사람 농담에 한 번 웃었{거든|4}."
+      },
+      {
+       "who": "나",
+       "en": "It wasn't a joke. He was serious.",
+       "ko": "그거 농담 아니었어. 진지했어."
+      },
+      {
+       "who": "Maya",
+       "en": "{Even though|5} he's weird, he's sweet.",
+       "ko": "이상하긴 {해도|5} 다정해."
+      },
+      {
+       "who": "나",
+       "en": "The plant guy {who|1} cried at a movie?",
+       "ko": "영화 보다 운 {그|1} 화분남?"
+      },
+      {
+       "who": "Maya",
+       "en": "That's the guy {that|2} I'd marry, honestly.",
+       "ko": "솔직히 그게 내가 결혼하고 싶은 {그런|2} 남자야."
+      },
+      {
+       "who": "나",
+       "en": "Then why didn't you give him your number?",
+       "ko": "그럼 왜 네 번호를 안 줬어?"
+      }
+     ],
+     "footnotes": [
+      "who·that — 사람·물건 뒤에 붙여 「~하는 그」로 설명을 이어요. 한국어는 앞에, 영어는 뒤에 붙어요.",
+      "so — 「그래서」 결과, because — 「~니까」 이유.",
+      "even though — 「~이긴 해도」.",
+      "말을 끊지 않고 이어 붙이면 훨씬 원어민처럼 들려요."
+     ]
+    },
+    {
+     "id": "L10-ref",
+     "kind": "ref",
+     "title": "이어 말하기 한눈에",
+     "points": [
+      {
+       "head": "who · that",
+       "tip": "사람 뒤 who, 물건·사람 뒤 that.",
+       "sentences": [
+        {
+         "en": "The girl who sat next to me.",
+         "ko": "내 옆에 앉았던 여자애."
+        },
+        {
+         "en": "The phone that I lost.",
+         "ko": "내가 잃어버린 폰."
+        }
+       ]
+      },
+      {
+       "head": "so · because",
+       "tip": "결과 · 이유.",
+       "sentences": [
+        {
+         "en": "I was tired, so I slept.",
+         "ko": "피곤해서 잤어."
+        },
+        {
+         "en": "I slept because I was tired.",
+         "ko": "피곤해서 잤어."
+        }
+       ]
+      },
+      {
+       "head": "but · though",
+       "tip": "하지만 · ~이긴 한데.",
+       "sentences": [
+        {
+         "en": "It's cheap but good.",
+         "ko": "싼데 좋아."
+        },
+        {
+         "en": "It's good, though.",
+         "ko": "그래도 좋아."
+        }
+       ]
+      },
+      {
+       "head": "when · while",
+       "tip": "~할 때 · ~하는 동안.",
+       "sentences": [
+        {
+         "en": "Call me when you're free.",
+         "ko": "시간 날 때 전화해."
+        },
+        {
+         "en": "I read while I wait.",
+         "ko": "기다리는 동안 책 읽어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

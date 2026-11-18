@@ -1,0 +1,453 @@
+{
+ "id": "r3_love_c1",
+ "region": "R3",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "우산 하나, 정류장 둘",
+ "emoji": "☔",
+ "scene": "비 오는 버스 정류장에서 에마가 우산 하나로 같이 가자고 하는데, 집 방향이 정반대다",
+ "where": "비 오는 버스 정류장",
+ "goal": "같이 가자고 제안하기·돌려 말하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emma"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "honestly",
+  "i mean",
+  "it's not like"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "You don't have an umbrella, do you?",
+   "ko": "너 우산 없지?",
+   "note": "~, do you? = 그렇지?",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "umbrella",
+     "umbrella",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "The forecast said sunny. I trusted it.",
+   "ko": "일기예보가 맑다고 했어. 믿었지.",
+   "note": "forecast = 일기예보",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "forecast",
+     "forecast",
+     ""
+    ],
+    [
+     "said",
+     "say",
+     ""
+    ],
+    [
+     "sunny",
+     "sunny",
+     ""
+    ],
+    [
+     "trusted",
+     "trust",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Rookie mistake. Mine's big enough for two.",
+   "ko": "초보 실수네. 내 거 둘이 쓸 만큼 커.",
+   "note": "big enough for two = 둘이 쓸 만큼 큰",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Rookie",
+     "rookie",
+     ""
+    ],
+    [
+     "mistake",
+     "mistake",
+     ""
+    ],
+    [
+     "Mine's",
+     "mine",
+     ""
+    ],
+    [
+     "big",
+     "big",
+     ""
+    ],
+    [
+     "enough",
+     "enough",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Are you sure? Which way are you going?",
+   "ko": "정말? 너 어느 쪽으로 가?",
+   "note": "which way = 어느 방향",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "sure",
+     "sure",
+     ""
+    ],
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "going",
+     "going",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Your way. Whatever your way is.",
+   "ko": "네 쪽. 네가 어디로 가든.",
+   "note": "whatever = 무엇이든",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "Whatever",
+     "whatever",
+     ""
+    ],
+    [
+     "way",
+     "way",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "I live by the river. That's like twenty minutes.",
+   "ko": "나 강가 쪽 살아. 20분쯤 걸려.",
+   "note": "by the river = 강가에",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "live",
+     "live",
+     ""
+    ],
+    [
+     "river",
+     "river",
+     ""
+    ],
+    [
+     "like",
+     "like",
+     ""
+    ],
+    [
+     "twenty",
+     "twenty",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Honestly, I love walking in the rain.",
+   "ko": "솔직히 나 빗속 걷는 거 좋아해.",
+   "note": "honestly = 솔직히",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Honestly",
+     "honest",
+     ""
+    ],
+    [
+     "love",
+     "love",
+     ""
+    ],
+    [
+     "walking",
+     "walk",
+     ""
+    ],
+    [
+     "rain",
+     "rain",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Since when? You complained about rain all last week.",
+   "ko": "언제부터? 지난주 내내 비 투덜댔잖아.",
+   "note": "complained = 투덜댔다",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Since",
+     "since",
+     ""
+    ],
+    [
+     "complained",
+     "complain",
+     ""
+    ],
+    [
+     "rain",
+     "rain",
+     ""
+    ],
+    [
+     "last",
+     "last",
+     ""
+    ],
+    [
+     "week",
+     "week",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "I mean, it's different with company.",
+   "ko": "내 말은, 같이 있으면 다르다고.",
+   "note": "company = 함께 있는 사람",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "mean",
+     "mean",
+     ""
+    ],
+    [
+     "different",
+     "different",
+     ""
+    ],
+    [
+     "company",
+     "company",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "It's not like you're doing this just for me, right?",
+   "ko": "설마 나 때문에 이러는 건 아니지?",
+   "note": "it's not like = ~인 것도 아니고",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "like",
+     "like",
+     ""
+    ],
+    [
+     "doing",
+     "doing",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "en": "My bus stop is the other way. Three stops back.",
+   "ko": "내 정류장은 반대쪽이야. 세 정거장 전.",
+   "note": "the other way = 반대 방향",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "bus",
+     "bus",
+     ""
+    ],
+    [
+     "stop",
+     "stop",
+     ""
+    ],
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "stops",
+     "stop",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "en": "So you waited here in the rain. On purpose.",
+   "ko": "그러니까 일부러 여기서 비 맞고 기다렸네.",
+   "note": "on purpose = 일부러",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "waited",
+     "wait",
+     ""
+    ],
+    [
+     "rain",
+     "rain",
+     ""
+    ],
+    [
+     "purpose",
+     "purpose",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "en": "With an umbrella. I'm not crazy.",
+   "ko": "우산 쓰고. 나 미친 거 아니거든.",
+   "note": "not crazy = 미치진 않았어",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "umbrella",
+     "umbrella",
+     ""
+    ],
+    [
+     "crazy",
+     "crazy",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "en": "Okay. Twenty minutes, then. Maybe we walk slow.",
+   "ko": "좋아. 그럼 20분. 천천히 걸을까.",
+   "note": "walk slow = 천천히 걷다",
+   "tags": [
+    "heart"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Twenty",
+     "twenty",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ],
+    [
+     "Maybe",
+     "maybe",
+     ""
+    ],
+    [
+     "walk",
+     "walk",
+     ""
+    ],
+    [
+     "slow",
+     "slow",
+     ""
+    ]
+   ]
+  }
+ ]
+}

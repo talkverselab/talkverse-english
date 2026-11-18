@@ -1,0 +1,166 @@
+{
+ "id": "r0_travel_a2",
+ "region": "R0",
+ "island": "travel",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "호텔 방 번호",
+ "emoji": "🏨",
+ "scene": "호텔 직원이 방 번호를 말했는데 학습자가 숫자를 거꾸로 알아듣는다",
+ "where": "호텔 앞 데스크",
+ "goal": "숫자 확인하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Clerk"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "say that again",
+  "got it"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Your room is fifty-one.",
+   "ko": "방은 51호예요.",
+   "note": "fifty-one = 51",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "room",
+     "room",
+     ""
+    ],
+    [
+     "fifty",
+     "fifty",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Fifteen? One, five?",
+   "ko": "15호요? 일, 오?",
+   "note": "fifteen = 15",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Fifteen",
+     "fifteen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "No. Fifty-one. Five, one.",
+   "ko": "아뇨. 51이요. 오, 일.",
+   "note": "five, one = 오, 일",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Fifty",
+     "fifty",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Sorry. Say that again?",
+   "ko": "죄송해요. 다시 말해 주세요.",
+   "note": "say that again = 다시 말해 주세요",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Sorry",
+     "sorry",
+     ""
+    ],
+    [
+     "Say",
+     "say",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Five. One. Fifty-one.",
+   "ko": "오. 일. 51.",
+   "note": "천천히",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Fifty",
+     "fifty",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Got it. Fifteen!",
+   "ko": "알겠어요. 15호!",
+   "note": "또 거꾸로",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Got",
+     "get",
+     ""
+    ],
+    [
+     "Fifteen",
+     "fifteen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "I'll walk with you.",
+   "ko": "같이 가 드릴게요.",
+   "note": "walk with = 같이 걷다",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "walk",
+     "walk",
+     ""
+    ]
+   ]
+  }
+ ]
+}

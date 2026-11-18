@@ -1,0 +1,221 @@
+{
+ "id": "r1_love_a3",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "엘리베이터 9층",
+ "emoji": "🛗",
+ "scene": "같은 건물 Daniel 과 엘리베이터에서 매일 마주치는데, 오늘 Daniel 이 내릴 층을 일부러 지나친다",
+ "where": "아파트 엘리베이터",
+ "goal": "짧은 인사로 대화 열기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Daniel"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "hey",
+  "long time no see",
+  "kind of"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Hey. Nine, right?",
+   "ko": "안녕. 9층 맞지?",
+   "note": "right? = 맞지?",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "right",
+     "right",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Yeah. You always remember.",
+   "ko": "응. 맨날 기억하네.",
+   "note": "remember = 기억하다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "remember",
+     "remember",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Kind of hard to forget.",
+   "ko": "잊기 좀 어렵지.",
+   "note": "kind of = 좀",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Kind",
+     "kind",
+     ""
+    ],
+    [
+     "hard",
+     "hard",
+     ""
+    ],
+    [
+     "forget",
+     "forget",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Long time no see. Like, since yesterday.",
+   "ko": "오랜만이야. 어제 이후로.",
+   "note": "long time no see = 오랜만",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Long",
+     "long",
+     ""
+    ],
+    [
+     "time",
+     "time",
+     ""
+    ],
+    [
+     "see",
+     "see",
+     ""
+    ],
+    [
+     "Like",
+     "like",
+     ""
+    ],
+    [
+     "since",
+     "since",
+     ""
+    ],
+    [
+     "yesterday",
+     "yesterday",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Felt long.",
+   "ko": "길게 느껴졌어.",
+   "note": "짧은 직진",
+   "tags": [
+    "heart"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Felt",
+     "feel",
+     ""
+    ],
+    [
+     "long",
+     "long",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Wait. You live on four. We passed it.",
+   "ko": "잠깐. 너 4층 살잖아. 지나쳤어.",
+   "note": "passed = 지나쳤다",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "live",
+     "live",
+     ""
+    ],
+    [
+     "passed",
+     "pass",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Yeah. I know.",
+   "ko": "응. 알아.",
+   "note": "일부러",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "know",
+     "know",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "So… nine together, then.",
+   "ko": "그럼… 같이 9층이네.",
+   "note": "together = 같이",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "together",
+     "together",
+     ""
+    ]
+   ]
+  }
+ ]
+}

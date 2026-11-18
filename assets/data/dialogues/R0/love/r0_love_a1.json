@@ -1,0 +1,168 @@
+{
+ "id": "r0_love_a1",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "우산 하나",
+ "emoji": "☔",
+ "scene": "비 오는 날 Emma 가 우산이 하나뿐이라며 같이 쓰자고 한다",
+ "where": "카페 앞",
+ "goal": "같이 하기 제안",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emma"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "oh no",
+  "i guess"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Oh no. It's raining.",
+   "ko": "어떡해. 비 온다.",
+   "note": "it's raining = 비가 와",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "raining",
+     "rain",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "I have no umbrella.",
+   "ko": "나 우산 없어.",
+   "note": "umbrella = 우산",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "umbrella",
+     "umbrella",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "I have one. Just one.",
+   "ko": "나 있어. 하나만.",
+   "note": "just one = 하나뿐",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Is it big?",
+   "ko": "커?",
+   "note": "big = 큰",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "big",
+     "big",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Not really. We stand close.",
+   "ko": "별로. 붙어 서야 돼.",
+   "note": "close = 가까이",
+   "tags": [
+    "heart"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "really",
+     "real",
+     ""
+    ],
+    [
+     "stand",
+     "stand",
+     ""
+    ],
+    [
+     "close",
+     "close",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "I guess that's okay.",
+   "ko": "그럼 뭐… 괜찮아.",
+   "note": "i guess = 그런 것 같아",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "guess",
+     "guess",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Also, my bag has two.",
+   "ko": "근데 내 가방에 두 개 있어.",
+   "note": "우산이 사실 둘",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "bag",
+     "bag",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Emma!",
+   "ko": "에마!",
+   "note": "이름만",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": []
+  }
+ ]
+}

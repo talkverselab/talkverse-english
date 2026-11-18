@@ -1,0 +1,180 @@
+{
+ "id": "r0_travel_a1",
+ "region": "R0",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "사진 한 장만",
+ "emoji": "📸",
+ "scene": "관광지에서 사진을 부탁했더니 셀카만 열 장 찍혀 있다",
+ "where": "다리 위 전망대",
+ "goal": "부탁하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tourist"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "excuse me",
+  "of course"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Excuse me. One photo, please?",
+   "ko": "저기요. 사진 한 장 부탁해요.",
+   "note": "one photo = 사진 한 장",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "photo",
+     "photo",
+     ""
+    ],
+    [
+     "please",
+     "please",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Of course. Smile!",
+   "ko": "물론이죠. 웃어요!",
+   "note": "of course = 물론",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "course",
+     "course",
+     ""
+    ],
+    [
+     "Smile",
+     "smile",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Thank you. Is it good?",
+   "ko": "고마워요. 잘 나왔어요?",
+   "note": "good = 잘된",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Thank",
+     "thank",
+     ""
+    ],
+    [
+     "good",
+     "better",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "Very good. Ten photos!",
+   "ko": "아주 좋아요. 열 장이요!",
+   "note": "ten = 열",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "good",
+     "better",
+     ""
+    ],
+    [
+     "photos",
+     "photo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "Ten? Let me see.",
+   "ko": "열 장이요? 볼게요.",
+   "note": "let me see = 보자",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Let",
+     "let",
+     ""
+    ],
+    [
+     "see",
+     "see",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "These are all… you.",
+   "ko": "이거 다… 당신이잖아요.",
+   "note": "all = 전부",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Oh no. Wrong side!",
+   "ko": "어머. 반대쪽이었네!",
+   "note": "wrong side = 반대쪽",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Wrong",
+     "wrong",
+     ""
+    ],
+    [
+     "side",
+     "side",
+     ""
+    ]
+   ]
+  }
+ ]
+}

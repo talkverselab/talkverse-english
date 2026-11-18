@@ -38,7 +38,39 @@
    "note": "saw first = 먼저 봤다",
    "tags": [],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "Pretty",
+     "pretty",
+     ""
+    ],
+    [
+     "sure",
+     "sure",
+     ""
+    ],
+    [
+     "saw",
+     "see",
+     ""
+    ],
+    [
+     "book",
+     "book",
+     ""
+    ],
+    [
+     "first",
+     "first",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -48,7 +80,24 @@
    "note": "are you kidding = 농담이죠?",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "kidding",
+     "kid",
+     ""
+    ],
+    [
+     "hand's",
+     "hand",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -58,7 +107,19 @@
    "note": "받아치기",
    "tags": [],
    "new": [],
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "hand's",
+     "hand",
+     ""
+    ],
+    [
+     "book",
+     "book",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -68,7 +129,19 @@
    "note": "되묻기",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "book",
+     "book",
+     ""
+    ],
+    [
+     "read",
+     "read",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -78,7 +151,24 @@
    "note": "so sad = 너무 슬퍼",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "times",
+     "time",
+     ""
+    ],
+    [
+     "Ending's",
+     "end",
+     ""
+    ],
+    [
+     "sad",
+     "sad",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -88,7 +178,24 @@
    "note": "no way = 말도 안 돼",
    "tags": [],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "told",
+     "tell",
+     ""
+    ],
+    [
+     "ending",
+     "end",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -100,7 +207,29 @@
     "heart"
    ],
    "new": [],
-   "emotion": "shy"
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "guess",
+     "guess",
+     ""
+    ],
+    [
+     "need",
+     "need",
+     ""
+    ],
+    [
+     "someone",
+     "someone",
+     ""
+    ],
+    [
+     "talk",
+     "talk",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -110,7 +239,24 @@
    "note": "번호 들킴",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "number",
+     "number",
+     ""
+    ],
+    [
+     "book",
+     "book",
+     ""
+    ]
+   ]
   }
  ]
 }

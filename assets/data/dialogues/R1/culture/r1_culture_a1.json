@@ -1,0 +1,228 @@
+{
+ "id": "r1_culture_a1",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "할로윈 사탕은 하나만",
+ "emoji": "🎃",
+ "scene": "처음 맞는 할로윈, 사탕 나눠 주는 집에서 그릇을 통째로 들고 갈 뻔하다가 꼬마에게 혼난다",
+ "where": "할로윈 밤 동네 현관",
+ "goal": "행사 날 인사와 규칙",
+ "speakers": {
+  "A": "{name}",
+  "B": "Kid"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "sorry",
+  "oh my god"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Trick or treat!",
+   "ko": "트릭 오어 트릿!",
+   "note": "trick or treat = 사탕 안 주면 장난칠 거야",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Trick",
+     "trick",
+     ""
+    ],
+    [
+     "treat",
+     "treat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Hi! Wait, I'm not giving candy. I'm getting it.",
+   "ko": "안녕! 잠깐, 난 주는 게 아니라 받는 쪽이야.",
+   "note": "getting = 받는",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "giving",
+     "give",
+     ""
+    ],
+    [
+     "candy",
+     "candy",
+     ""
+    ],
+    [
+     "getting",
+     "get",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Then why do you have the bowl?",
+   "ko": "그럼 왜 그릇을 들고 있어요?",
+   "note": "bowl = 그릇",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "bowl",
+     "bowl",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "The sign says \"take one.\"",
+   "ko": "표지판에 \"하나 가져가세요\"라고 써 있어서.",
+   "note": "take one = 하나 가져가기",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "sign",
+     "sign",
+     ""
+    ],
+    [
+     "says",
+     "say",
+     ""
+    ],
+    [
+     "take",
+     "take",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "One candy. Not one bowl.",
+   "ko": "사탕 하나요. 그릇 하나가 아니고.",
+   "note": "not ~ = ~ 아니고",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "candy",
+     "candy",
+     ""
+    ],
+    [
+     "bowl",
+     "bowl",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Oh my god. Sorry.",
+   "ko": "세상에. 미안.",
+   "note": "oh my god = 세상에",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "god",
+     "god",
+     ""
+    ],
+    [
+     "Sorry",
+     "sorry",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "It's fine. Your costume is good.",
+   "ko": "괜찮아요. 의상 멋있어요.",
+   "note": "costume = 분장 의상",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "fine",
+     "fine",
+     ""
+    ],
+    [
+     "costume",
+     "costume",
+     ""
+    ],
+    [
+     "good",
+     "better",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Costume? These are my normal clothes.",
+   "ko": "의상? 이거 그냥 내 평소 옷이야.",
+   "note": "normal = 평소의",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Costume",
+     "costume",
+     ""
+    ],
+    [
+     "normal",
+     "normal",
+     ""
+    ],
+    [
+     "clothes",
+     "clothes",
+     ""
+    ]
+   ]
+  }
+ ]
+}

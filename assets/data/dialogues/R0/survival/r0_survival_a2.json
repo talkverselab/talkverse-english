@@ -1,0 +1,203 @@
+{
+ "id": "r0_survival_a2",
+ "region": "R0",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "버스 안 탈 건데요",
+ "emoji": "🚌",
+ "scene": "정류장에서 시간을 물었을 뿐인데 기사는 탈 거냐고 계속 묻는다",
+ "where": "버스 정류장",
+ "goal": "시간 묻기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Driver"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "excuse me",
+  "no thanks"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Excuse me. What time is it?",
+   "ko": "저기요. 지금 몇 시예요?",
+   "note": "What time is it? = 몇 시예요?",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "time",
+     "time",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "It's ten. Are you getting on?",
+   "ko": "10시요. 타실 거예요?",
+   "note": "get on = 타다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "getting",
+     "get",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "No thanks. Just the time.",
+   "ko": "아뇨, 괜찮아요. 시간만요.",
+   "note": "no thanks = 괜찮아요",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "thanks",
+     "thank",
+     ""
+    ],
+    [
+     "time",
+     "time",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "You sure? Last bus today.",
+   "ko": "정말요? 오늘 막차예요.",
+   "note": "last bus = 막차",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "sure",
+     "sure",
+     ""
+    ],
+    [
+     "Last",
+     "last",
+     ""
+    ],
+    [
+     "bus",
+     "bus",
+     ""
+    ],
+    [
+     "today",
+     "today",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "Really? It's only ten!",
+   "ko": "진짜요? 아직 10시인데요!",
+   "note": "only = 겨우",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Really",
+     "real",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Ten at night. Look up.",
+   "ko": "밤 10시예요. 위를 봐요.",
+   "note": "at night = 밤",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "night",
+     "night",
+     ""
+    ],
+    [
+     "Look",
+     "look",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "Oh no. It's so dark.",
+   "ko": "어떡해. 완전 깜깜하네.",
+   "note": "dark = 어두운",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "dark",
+     "dark",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Get on. I'll wait.",
+   "ko": "타요. 기다릴게요.",
+   "note": "I'll wait = 기다릴게요",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Get",
+     "get",
+     ""
+    ],
+    [
+     "wait",
+     "wait",
+     ""
+    ]
+   ]
+  }
+ ]
+}

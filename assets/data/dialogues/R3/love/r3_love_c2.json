@@ -1,0 +1,413 @@
+{
+ "id": "r3_love_c2",
+ "region": "R3",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "줄 서기의 기술",
+ "emoji": "🥯",
+ "scene": "아침 베이글 가게 줄에서 매일 마주치는 다니엘이 일부러 학습자 뒤에 서 왔다는 걸 털어놓는다",
+ "where": "아침 베이글 가게 줄",
+ "goal": "가벼운 스몰토크에서 마음 떠보기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Daniel"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "guess what",
+  "you know what",
+  "dream on"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Same time, same line. We have to stop meeting like this.",
+   "ko": "같은 시간, 같은 줄. 우리 이렇게 그만 만나야겠다.",
+   "note": "stop meeting like this = 이렇게 자꾸 만나는 거",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "time",
+     "time",
+     ""
+    ],
+    [
+     "line",
+     "line",
+     ""
+    ],
+    [
+     "stop",
+     "stop",
+     ""
+    ],
+    [
+     "meeting",
+     "meet",
+     ""
+    ],
+    [
+     "like",
+     "like",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "You're the one behind me every single morning.",
+   "ko": "매일 아침 내 뒤에 서는 건 너거든.",
+   "note": "every single = 하루도 빠짐없이",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "behind",
+     "behind",
+     ""
+    ],
+    [
+     "single",
+     "single",
+     ""
+    ],
+    [
+     "morning",
+     "morning",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Coincidence. This is the only good bagel place.",
+   "ko": "우연이야. 여기가 유일하게 괜찮은 베이글 집이잖아.",
+   "note": "coincidence = 우연",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Coincidence",
+     "coincidence",
+     ""
+    ],
+    [
+     "good",
+     "better",
+     ""
+    ],
+    [
+     "bagel",
+     "bagel",
+     ""
+    ],
+    [
+     "place",
+     "place",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "There's one across the street. With no line.",
+   "ko": "길 건너에도 하나 있는데. 줄도 없고.",
+   "note": "across the street = 길 건너",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "across",
+     "across",
+     ""
+    ],
+    [
+     "street",
+     "street",
+     ""
+    ],
+    [
+     "line",
+     "line",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "The sesame there is a crime.",
+   "ko": "거기 참깨 베이글은 범죄야.",
+   "note": "crime = 범죄",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "sesame",
+     "sesame",
+     ""
+    ],
+    [
+     "crime",
+     "crime",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Guess what? I've seen you buy sesame there.",
+   "ko": "그거 알아? 너 거기서 참깨 사는 거 봤어.",
+   "note": "guess what = 있잖아, 그거 알아?",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Guess",
+     "guess",
+     ""
+    ],
+    [
+     "seen",
+     "see",
+     ""
+    ],
+    [
+     "buy",
+     "buy",
+     ""
+    ],
+    [
+     "sesame",
+     "sesame",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "That was research.",
+   "ko": "그건 조사였어.",
+   "note": "research = 조사",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "research",
+     "research",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Research for what?",
+   "ko": "무슨 조사?",
+   "note": "되묻기",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Research",
+     "research",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "You know what, fine. I come here at eight because you do.",
+   "ko": "있잖아, 알았어. 네가 8시에 와서 나도 8시에 오는 거야.",
+   "note": "you know what = 있잖아",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "know",
+     "know",
+     ""
+    ],
+    [
+     "fine",
+     "fine",
+     ""
+    ],
+    [
+     "come",
+     "come",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "So I'm the reason you wait twenty minutes for bread.",
+   "ko": "그러니까 너 빵 하나에 20분 기다리는 게 나 때문이야?",
+   "note": "the reason = 이유",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "reason",
+     "reason",
+     ""
+    ],
+    [
+     "wait",
+     "wait",
+     ""
+    ],
+    [
+     "twenty",
+     "twenty",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ],
+    [
+     "bread",
+     "bread",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "en": "Don't flatter yourself. It's also very good bread.",
+   "ko": "착각하지 마. 빵도 진짜 맛있거든.",
+   "note": "flatter yourself = 착각하다",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "flatter",
+     "flatter",
+     ""
+    ],
+    [
+     "yourself",
+     "yourself",
+     ""
+    ],
+    [
+     "good",
+     "better",
+     ""
+    ],
+    [
+     "bread",
+     "bread",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "en": "Then buy me one, and I'll think about it.",
+   "ko": "그럼 하나 사 줘, 생각해 볼게.",
+   "note": "think about it = 생각해 보다",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "buy",
+     "buy",
+     ""
+    ],
+    [
+     "think",
+     "think",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "en": "Dream on. Okay, but just one.",
+   "ko": "꿈 깨. 알았어, 하나만이야.",
+   "note": "dream on = 꿈 깨",
+   "tags": [
+    "heart"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Dream",
+     "dream",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "en": "Sesame from across the street, please.",
+   "ko": "길 건너 참깨로 부탁해.",
+   "note": "콜백 한 방",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Sesame",
+     "sesame",
+     ""
+    ],
+    [
+     "across",
+     "across",
+     ""
+    ],
+    [
+     "street",
+     "street",
+     ""
+    ],
+    [
+     "please",
+     "please",
+     ""
+    ]
+   ]
+  }
+ ]
+}

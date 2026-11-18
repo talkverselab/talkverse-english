@@ -1,0 +1,177 @@
+{
+ "id": "r0_survival_a1",
+ "region": "R0",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "물 한 잔이 두 잔",
+ "emoji": "💧",
+ "scene": "식당에서 물을 달라고 했는데, 「Two?」에 Yes 라고 해서 물이 두 잔 나온다",
+ "where": "동네 식당",
+ "goal": "물·숫자 말하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Server"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "excuse me",
+  "just this"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Excuse me. Water, please.",
+   "ko": "저기요. 물 주세요.",
+   "note": "water, please = 물 주세요",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "Water",
+     "water",
+     ""
+    ],
+    [
+     "please",
+     "please",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Sure. Just one?",
+   "ko": "네. 한 잔이요?",
+   "note": "just one = 하나만",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Sure",
+     "sure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Yes. Just this table.",
+   "ko": "네. 이 테이블만요.",
+   "note": "just this = 이것만",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "table",
+     "table",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "Two? For you and your friend?",
+   "ko": "두 잔이요? 친구분 것까지요?",
+   "note": "for you = 당신 것",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "friend",
+     "friend",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "Yes.",
+   "ko": "네.",
+   "note": "일단 Yes",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Here you go. Two waters.",
+   "ko": "여기요. 물 두 잔이요.",
+   "note": "here you go = 여기 있어요",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "go",
+     "go",
+     ""
+    ],
+    [
+     "waters",
+     "water",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "My friend is… not here.",
+   "ko": "제 친구는… 안 왔어요.",
+   "note": "not here = 여기 없다",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "friend",
+     "friend",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Okay. More water for you!",
+   "ko": "그럼요. 물 더 드세요!",
+   "note": "more = 더",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "water",
+     "water",
+     ""
+    ]
+   ]
+  }
+ ]
+}

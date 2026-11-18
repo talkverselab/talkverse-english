@@ -1,0 +1,28 @@
+=== r4_work_d1
+title: 연봉 협상, 한 문장만 더
+emoji: 🤝
+scene: 이직 제안을 받고 팀장 다니엘에게 연봉 얘기를 꺼내는데, 다니엘도 같은 회사에서 제안을 받은 상태다
+where: 사무실 작은 회의실
+goal: 연봉·조건 협상하고 돌려 말하기
+kind: long
+register: mixed
+B: Daniel
+twist: 10 reveal
+expr: to be honest | that being said | it's up to you
+--
+A | Do you have a minute? There's something I've been meaning to bring up. | 잠깐 시간 돼요? 꺼내려고 했던 얘기가 있어서요. | bring up = 꺼내다 | emo=polite
+B | Sure. Close the door if it's the kind of thing that needs a closed door. | 그럼요. 문 닫아야 하는 얘기면 문 닫고요. | needs a closed door = 비밀스러운 | emo=neutral
+A | I got an offer from another company last week. A pretty good one. | 지난주에 다른 회사에서 제안을 받았어요. 꽤 괜찮은 걸로요. | offer = 제안 | emo=stiff
+B | I had a feeling. You've been wearing a nice shirt on Tuesdays. | 그럴 것 같았어요. 화요일마다 좋은 셔츠 입고 오더라고요. | had a feeling = 그런 느낌이 들었다 | emo=teasing
+A | To be honest, I'd rather stay. I like this team and what we're building. | 솔직히 저는 남고 싶어요. 이 팀도, 우리가 만드는 것도 좋아서요. | I'd rather = 차라리 ~하고 싶다 | emo=polite
+B | That's good to hear. What would it take to keep you? | 다행이네요. 붙잡으려면 뭐가 필요해요? | what would it take = 뭐가 있어야 | emo=neutral
+A | A raise that's closer to their number, and one remote day a week. | 그쪽 금액에 가까운 인상이랑, 일주일에 하루 재택이요. | raise = 연봉 인상 | emo=neutral
+B | That's a reasonable ask. I can't promise their number, but I can fight for it. | 무리한 요구는 아니에요. 그 금액은 약속 못 해도 싸워 볼 수는 있어요. | reasonable = 합리적인 | emo=neutral
+A | That being said, I need an answer by Friday. They want me to start soon. | 그렇긴 한데, 금요일까지 답을 줘야 해요. 빨리 시작하길 원해서요. | that being said = 그렇긴 해도 | emo=worried
+B | Which company, if you don't mind me asking? | 실례가 안 된다면, 어느 회사예요? | if you don't mind me asking = 여쭤봐도 된다면 | emo=neutral
+A | The design studio by the bridge. Why are you smiling? | 다리 옆 디자인 스튜디오요. 왜 웃으세요? | 반전 직전 | emo=surprised
+B | Because they called me too. They want a team lead. And, apparently, a team. | 저한테도 연락이 왔거든요. 팀장을 원한대요. 그리고 듣자 하니, 팀도요. | apparently = 듣자 하니 | emo=amused
+A | Wait. So they're trying to hire both of us? | 잠깐만요. 그럼 우리 둘 다 데려가려는 거예요? | hire = 채용하다 | emo=surprised
+B | Looks like it. So now we have two offers and one very nervous boss upstairs. | 그런 것 같네요. 그럼 우리한텐 제안 둘, 위층엔 엄청 초조한 사장님 한 명. | nervous = 초조한 | emo=teasing
+A | Should we negotiate together, then? | 그럼 같이 협상할까요? | negotiate = 협상하다 | emo=neutral
+B | It's up to you. But I already booked the big meeting room for Friday. | 당신한테 달렸어요. 근데 나 이미 금요일에 큰 회의실 잡아 놨어요. | it's up to you = 네 맘대로 | emo=amused

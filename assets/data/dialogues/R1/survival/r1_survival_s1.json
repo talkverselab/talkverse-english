@@ -36,7 +36,14 @@
    "note": "all set = 준비 다 됨",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "set",
+     "set",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -46,7 +53,19 @@
    "note": "just this = 이것만",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "water",
+     "water",
+     ""
+    ],
+    [
+     "please",
+     "please",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -56,7 +75,19 @@
    "note": "You want ~? = ~드릴까요",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "want",
+     "want",
+     ""
+    ],
+    [
+     "bag",
+     "bag",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -66,7 +97,8 @@
    "note": "일단 Yes",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": []
   },
   {
    "num": 5,
@@ -76,7 +108,24 @@
    "note": "How many? = 몇 개",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Hot",
+     "hot",
+     ""
+    ],
+    [
+     "dogs",
+     "dog",
+     ""
+    ],
+    [
+     "dollar",
+     "dollar",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -86,7 +135,8 @@
    "note": "How many에 Yes",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": []
   },
   {
    "num": 7,
@@ -96,7 +146,19 @@
    "note": "Four fifty = 4.50달러",
    "tags": [],
    "new": [],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "number",
+     "number",
+     ""
+    ],
+    [
+     "fifty",
+     "fifty",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -106,7 +168,24 @@
    "note": "say that again = 다시 말해 주세요",
    "tags": [],
    "new": [],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "water",
+     "water",
+     ""
+    ],
+    [
+     "say",
+     "say",
+     ""
+    ]
+   ]
   }
  ]
 }

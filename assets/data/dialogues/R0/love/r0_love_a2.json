@@ -1,0 +1,173 @@
+{
+ "id": "r0_love_a2",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "커피 또 사 줄게",
+ "emoji": "☕",
+ "scene": "카페에서 매일 보는 사람이 오늘은 학습자 커피값을 먼저 냈다",
+ "where": "아침 카페",
+ "goal": "고마움·다음 약속",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emma"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [
+  "my treat",
+  "see you"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Hi again. Same coffee?",
+   "ko": "또 왔네. 같은 커피?",
+   "note": "same = 같은",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "coffee",
+     "coffee",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Yes. Same coffee.",
+   "ko": "응. 같은 걸로.",
+   "note": "같은 말 받기",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "coffee",
+     "coffee",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Done. My treat today.",
+   "ko": "됐어. 오늘은 내가 살게.",
+   "note": "my treat = 내가 살게",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "treat",
+     "treat",
+     ""
+    ],
+    [
+     "today",
+     "today",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Really? Why?",
+   "ko": "진짜? 왜?",
+   "note": "why = 왜",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Really",
+     "real",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "You smile every morning.",
+   "ko": "너 아침마다 웃잖아.",
+   "note": "every morning = 매일 아침",
+   "tags": [
+    "heart"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "smile",
+     "smile",
+     ""
+    ],
+    [
+     "morning",
+     "morning",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Then tomorrow, my treat.",
+   "ko": "그럼 내일은 내가 살게.",
+   "note": "tomorrow = 내일",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "tomorrow",
+     "tomorrow",
+     ""
+    ],
+    [
+     "treat",
+     "treat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Tomorrow? Okay. See you.",
+   "ko": "내일? 좋아. 또 봐.",
+   "note": "see you = 또 봐",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Tomorrow",
+     "tomorrow",
+     ""
+    ],
+    [
+     "See",
+     "see",
+     ""
+    ]
+   ]
+  }
+ ]
+}

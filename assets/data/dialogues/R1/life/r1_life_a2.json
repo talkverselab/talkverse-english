@@ -1,0 +1,215 @@
+{
+ "id": "r1_life_a2",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "택배가 이웃집으로",
+ "emoji": "📦",
+ "scene": "내 택배가 옆집 앞에 놓였고, 문을 두드렸더니 옆집 사람이 이미 상자를 뜯어 쓰고 있다",
+ "where": "아파트 복도",
+ "goal": "이웃에게 정중하게 따지기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Neighbor"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "hi there",
+  "i think so",
+  "are you sure",
+  "no problem"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Hi there. I think my package is here.",
+   "ko": "안녕하세요. 제 택배가 여기 온 것 같아요.",
+   "note": "I think ~ = ~인 것 같아요",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "think",
+     "think",
+     ""
+    ],
+    [
+     "package",
+     "package",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Oh, the blue box?",
+   "ko": "아, 파란 상자요?",
+   "note": "되묻기",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "blue",
+     "blue",
+     ""
+    ],
+    [
+     "box",
+     "box",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "I think so. It has my name on it.",
+   "ko": "그런 것 같아요. 제 이름이 적혀 있어요.",
+   "note": "on it = 거기에",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "think",
+     "think",
+     ""
+    ],
+    [
+     "name",
+     "name",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "Are you sure? Let me check.",
+   "ko": "확실해요? 확인해 볼게요.",
+   "note": "let me check = 확인해 볼게요",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "sure",
+     "sure",
+     ""
+    ],
+    [
+     "Let",
+     "let",
+     ""
+    ],
+    [
+     "check",
+     "check",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Oh. It's open.",
+   "ko": "아. 열려 있네요.",
+   "note": "open = 열린",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "open",
+     "open",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "And you're wearing my new hat.",
+   "ko": "그리고 제 새 모자를 쓰고 계시네요.",
+   "note": "wearing = 쓰고 있다",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "wearing",
+     "wear",
+     ""
+    ],
+    [
+     "new",
+     "new",
+     ""
+    ],
+    [
+     "hat",
+     "hat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "It fit so well. Sorry!",
+   "ko": "너무 잘 맞아서요. 죄송해요!",
+   "note": "fit = 맞다",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "fit",
+     "fit",
+     ""
+    ],
+    [
+     "well",
+     "well",
+     ""
+    ],
+    [
+     "Sorry",
+     "sorry",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "No problem. Can I have it back now?",
+   "ko": "괜찮아요. 이제 돌려주실래요?",
+   "note": "no problem = 괜찮아요",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "problem",
+     "problem",
+     ""
+    ]
+   ]
+  }
+ ]
+}

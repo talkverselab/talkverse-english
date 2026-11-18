@@ -1,0 +1,313 @@
+{
+ "id": "r2_travel_b1",
+ "region": "R2",
+ "island": "travel",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "공항 보안검색대의 고추장",
+ "emoji": "🛂",
+ "scene": "공항 검색대에서 가방 속 소스 병 때문에 걸리고, 직원이 그 소스를 궁금해한다",
+ "where": "공항 보안검색대",
+ "goal": "검색대 지시 알아듣기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Officer"
+ },
+ "register": "polite",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "what does that mean",
+  "almost",
+  "are you kidding"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Is this your bag? Please step over here.",
+   "ko": "이거 손님 가방이에요? 이쪽으로 오세요.",
+   "note": "step over = 이쪽으로 오다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "bag",
+     "bag",
+     ""
+    ],
+    [
+     "Please",
+     "please",
+     ""
+    ],
+    [
+     "step",
+     "step",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Yes. Is something wrong?",
+   "ko": "네. 뭐 문제 있어요?",
+   "note": "something wrong = 문제",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "something",
+     "something",
+     ""
+    ],
+    [
+     "wrong",
+     "wrong",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "There's a liquid. Over three ounces.",
+   "ko": "액체가 있어요. 3온스 넘는 거요.",
+   "note": "liquid = 액체",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "liquid",
+     "liquid",
+     ""
+    ],
+    [
+     "ounces",
+     "ounce",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Three ounces? What does that mean?",
+   "ko": "3온스요? 그게 무슨 뜻이에요?",
+   "note": "what does that mean = 무슨 뜻",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "ounces",
+     "ounce",
+     ""
+    ],
+    [
+     "mean",
+     "mean",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "About ninety milliliters. This red jar is too big.",
+   "ko": "90밀리쯤이요. 이 빨간 병은 너무 커요.",
+   "note": "jar = 병",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "ninety",
+     "ninety",
+     ""
+    ],
+    [
+     "milliliters",
+     "milliliters",
+     ""
+    ],
+    [
+     "red",
+     "red",
+     ""
+    ],
+    [
+     "jar",
+     "jar",
+     ""
+    ],
+    [
+     "big",
+     "big",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "It's hot pepper paste. From my mom.",
+   "ko": "고추장이에요. 엄마가 주신 거예요.",
+   "note": "hot pepper paste = 고추장",
+   "tags": [],
+   "new": [],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "hot",
+     "hot",
+     ""
+    ],
+    [
+     "pepper",
+     "pepper",
+     ""
+    ],
+    [
+     "paste",
+     "paste",
+     ""
+    ],
+    [
+     "mom",
+     "mom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "I'm sorry. It can't go on the plane.",
+   "ko": "죄송해요. 기내엔 못 가져가요.",
+   "note": "go on the plane = 기내 반입",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "sorry",
+     "sorry",
+     ""
+    ],
+    [
+     "go",
+     "go",
+     ""
+    ],
+    [
+     "plane",
+     "plane",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Are you kidding? It's almost full.",
+   "ko": "농담이죠? 거의 꽉 찼는데.",
+   "note": "are you kidding = 농담이지",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "kidding",
+     "kid",
+     ""
+    ],
+    [
+     "almost",
+     "almost",
+     ""
+    ],
+    [
+     "full",
+     "full",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "Is it good with rice? Asking for… my lunch.",
+   "ko": "밥이랑 먹으면 맛있어요? 제… 점심 때문에 묻는 거예요.",
+   "note": "asking for = ~ 때문에 묻다",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "good",
+     "better",
+     ""
+    ],
+    [
+     "rice",
+     "rice",
+     ""
+    ],
+    [
+     "Asking",
+     "ask",
+     ""
+    ],
+    [
+     "lunch",
+     "lunch",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "It's amazing with rice. Enjoy it, I guess.",
+   "ko": "밥이랑 최고예요. 맛있게 드세요, 뭐.",
+   "note": "I guess = 뭐, 그렇지",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "amazing",
+     "amazing",
+     ""
+    ],
+    [
+     "rice",
+     "rice",
+     ""
+    ],
+    [
+     "Enjoy",
+     "enjoy",
+     ""
+    ],
+    [
+     "guess",
+     "guess",
+     ""
+    ]
+   ]
+  }
+ ]
+}

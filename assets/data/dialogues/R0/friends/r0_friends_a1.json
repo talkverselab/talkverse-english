@@ -1,0 +1,186 @@
+{
+ "id": "r0_friends_a1",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "내 이름은 안 바뀌었어",
+ "emoji": "👋",
+ "scene": "Maya 가 처음 만난 날 이름을 세 번 다르게 부른다",
+ "where": "친구 집 파티",
+ "goal": "이름 말하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Maya"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "nice to meet you",
+  "say that again"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Hi! I'm Maya. You are…?",
+   "ko": "안녕! 나 마야야. 너는…?",
+   "note": "You are…? = 너는…?",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "I'm {name}. Nice to meet you.",
+   "ko": "나 {name}. 반가워.",
+   "note": "nice to meet you = 반가워",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Nice",
+     "nice",
+     ""
+    ],
+    [
+     "meet",
+     "meet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Nice to meet you, Nina!",
+   "ko": "반가워, 니나!",
+   "note": "이름을 잘못 들음",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Nice",
+     "nice",
+     ""
+    ],
+    [
+     "meet",
+     "meet",
+     ""
+    ],
+    [
+     "Nina",
+     "nina",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "No, {name}.",
+   "ko": "아니, {name}.",
+   "note": "이름만 다시",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Sorry! Say that again?",
+   "ko": "미안! 다시 말해 줄래?",
+   "note": "say that again = 다시 말해 줘",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Sorry",
+     "sorry",
+     ""
+    ],
+    [
+     "Say",
+     "say",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "{name}. Like… {name}.",
+   "ko": "{name}. 그러니까… {name}.",
+   "note": "또박또박",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Like",
+     "like",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Got it. Hi, Nina!",
+   "ko": "알았어. 안녕, 니나!",
+   "note": "got it = 알았어",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Got",
+     "get",
+     ""
+    ],
+    [
+     "Nina",
+     "nina",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Okay. Tonight I'm Nina.",
+   "ko": "그래. 오늘 밤 난 니나야.",
+   "note": "tonight = 오늘 밤",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Tonight",
+     "tonight",
+     ""
+    ],
+    [
+     "Nina",
+     "nina",
+     ""
+    ]
+   ]
+  }
+ ]
+}

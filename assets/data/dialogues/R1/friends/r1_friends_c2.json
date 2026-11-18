@@ -1,0 +1,220 @@
+{
+ "id": "r1_friends_c2",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "농구 내기",
+ "emoji": "🏀",
+ "scene": "Jake 와 자유투 내기를 했는데, 진 사람이 저녁을 사기로 한 게 둘 다 지는 걸로 끝난다",
+ "where": "동네 농구장",
+ "goal": "내기 걸고 놀리기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jake"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "come on",
+  "you're kidding",
+  "i'm in",
+  "no way"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "One shot. Loser buys dinner.",
+   "ko": "한 골. 지는 사람이 저녁 사기.",
+   "note": "loser = 진 사람",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "shot",
+     "shoot",
+     ""
+    ],
+    [
+     "Loser",
+     "loser",
+     ""
+    ],
+    [
+     "buys",
+     "buy",
+     ""
+    ],
+    [
+     "dinner",
+     "dinner",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "I'm in. You go first.",
+   "ko": "콜. 너 먼저 해.",
+   "note": "I'm in = 나도 할래",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "go",
+     "go",
+     ""
+    ],
+    [
+     "first",
+     "first",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Easy. Watch this.",
+   "ko": "쉽지. 잘 봐.",
+   "note": "watch this = 잘 봐",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Easy",
+     "easy",
+     ""
+    ],
+    [
+     "Watch",
+     "watch",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "You missed the whole hoop.",
+   "ko": "골대 전체를 놓쳤네.",
+   "note": "missed = 놓쳤다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "missed",
+     "miss",
+     ""
+    ],
+    [
+     "whole",
+     "whole",
+     ""
+    ],
+    [
+     "hoop",
+     "hoop",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Come on. Your turn.",
+   "ko": "아 진짜. 네 차례야.",
+   "note": "come on = 아 왜 이래",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Come",
+     "come",
+     ""
+    ],
+    [
+     "turn",
+     "turn",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Okay… and it's on the roof.",
+   "ko": "좋아… 그리고 지붕 위로 갔네.",
+   "note": "on the roof = 지붕 위",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "roof",
+     "roof",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "You're kidding. That was my ball.",
+   "ko": "농담이지. 그거 내 공이었어.",
+   "note": "you're kidding = 농담이지",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "kidding",
+     "kid",
+     ""
+    ],
+    [
+     "ball",
+     "ball",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "No way. So dinner's on both of us?",
+   "ko": "말도 안 돼. 그럼 저녁은 둘 다 내?",
+   "note": "on both of us = 둘이 내다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "dinner's",
+     "dinner",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -41,7 +41,14 @@
    "new": [],
    "ui": "bubble",
    "at": "21:03",
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Guess",
+     "guess",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -53,7 +60,24 @@
    "new": [],
    "ui": "bubble",
    "at": "21:03",
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "actually",
+     "actual",
+     ""
+    ],
+    [
+     "terrible",
+     "terrible",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -66,7 +90,8 @@
    "ui": "bubble",
    "at": "21:04",
    "emotion": "neutral",
-   "stamp": "🙂"
+   "stamp": "🙂",
+   "lemmas": []
   },
   {
    "num": 4,
@@ -78,7 +103,24 @@
    "new": [],
    "ui": "bubble",
    "at": "21:04",
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "Wrong",
+     "wrong",
+     ""
+    ],
+    [
+     "chat",
+     "chat",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -90,7 +132,24 @@
    "new": [],
    "ui": "bubble",
    "at": "21:05",
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "happened",
+     "happen",
+     ""
+    ],
+    [
+     "Pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "tonight",
+     "tonight",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -102,7 +161,24 @@
    "new": [],
    "ui": "bubble",
    "at": "21:05",
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "bad",
+     "worse",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "best",
+     "good",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -114,7 +190,29 @@
    "new": [],
    "ui": "bubble",
    "at": "21:06",
-   "emotion": "teasing"
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "bringing",
+     "bring",
+     ""
+    ],
+    [
+     "dinner",
+     "dinner",
+     ""
+    ],
+    [
+     "Friday",
+     "friday",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -127,7 +225,24 @@
    "ui": "bubble",
    "at": "21:06",
    "emotion": "neutral",
-   "stamp": "🍕"
+   "stamp": "🍕",
+   "lemmas": [
+    [
+     "Friday",
+     "friday",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "mine",
+     "mine",
+     ""
+    ]
+   ]
   }
  ]
 }

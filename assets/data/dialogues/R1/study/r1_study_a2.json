@@ -1,0 +1,225 @@
+{
+ "id": "r1_study_a2",
+ "region": "R1",
+ "island": "study",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "시험 전날 밤",
+ "emoji": "📖",
+ "scene": "시험 전날 Jake 와 같이 공부하기로 했는데, Jake 가 들고 온 건 간식만 다섯 봉지다",
+ "where": "학교 도서관",
+ "goal": "같이 공부 계획 세우기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jake"
+ },
+ "register": "chat",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "you free",
+  "let's go",
+  "what",
+  "sounds good"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "You free? Library, now.",
+   "ko": "시간 돼? 도서관, 지금.",
+   "note": "you free? = 시간 돼?",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:01",
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "free",
+     "free",
+     ""
+    ],
+    [
+     "Library",
+     "library",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Let's go. Bringing supplies.",
+   "ko": "가자. 준비물 챙겨 갈게.",
+   "note": "supplies = 준비물",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:02",
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Let's",
+     "let",
+     ""
+    ],
+    [
+     "go",
+     "go",
+     ""
+    ],
+    [
+     "Bringing",
+     "bring",
+     ""
+    ],
+    [
+     "supplies",
+     "supply",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Where are you?",
+   "ko": "어디야?",
+   "note": "where = 어디",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:20",
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "Here. Five bags of chips.",
+   "ko": "왔어. 감자칩 다섯 봉지.",
+   "note": "bags = 봉지",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:21",
+   "emotion": "excited",
+   "stamp": "🍿",
+   "lemmas": [
+    [
+     "bags",
+     "bag",
+     ""
+    ],
+    [
+     "chips",
+     "chip",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "What? Where's your book?",
+   "ko": "뭐? 책은?",
+   "note": "what = 뭐?",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:21",
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "book",
+     "book",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Book? Test is tomorrow?",
+   "ko": "책? 시험 내일이야?",
+   "note": "되묻기",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:22",
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Book",
+     "book",
+     ""
+    ],
+    [
+     "Test",
+     "test",
+     ""
+    ],
+    [
+     "tomorrow",
+     "tomorrow",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "Yes. At nine.",
+   "ko": "응. 9시에.",
+   "note": "at nine = 9시에",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:22",
+   "emotion": "tsukkomi",
+   "lemmas": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Sounds good. Chips first.",
+   "ko": "좋아. 감자칩부터.",
+   "note": "sounds good = 좋아",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "20:23",
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Sounds",
+     "sound",
+     ""
+    ],
+    [
+     "good",
+     "better",
+     ""
+    ],
+    [
+     "Chips",
+     "chip",
+     ""
+    ],
+    [
+     "first",
+     "first",
+     ""
+    ]
+   ]
+  }
+ ]
+}

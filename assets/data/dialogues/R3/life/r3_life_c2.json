@@ -1,0 +1,384 @@
+{
+ "id": "r3_life_c2",
+ "region": "R3",
+ "island": "life",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "택배 기사와 개",
+ "emoji": "📦",
+ "scene": "택배를 기다리는데 기사가 문 앞 개가 무서워 못 온다고 전화한다. 그 개는 이웃의 인형이다",
+ "where": "아파트 현관",
+ "goal": "전화로 배달 위치 설명하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Driver"
+ },
+ "register": "polite",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "hold on",
+  "what do you mean",
+  "i have no idea"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Hi, I'm outside with your package. Is the dog friendly?",
+   "ko": "안녕하세요, 택배 들고 밖에 있는데요. 개 순한가요?",
+   "note": "friendly = 순한, 친근한",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "outside",
+     "outside",
+     ""
+    ],
+    [
+     "package",
+     "package",
+     ""
+    ],
+    [
+     "dog",
+     "dog",
+     ""
+    ],
+    [
+     "friendly",
+     "friend",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Dog? I don't have a dog.",
+   "ko": "개요? 저 개 안 키우는데요.",
+   "note": "부정",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Dog",
+     "dog",
+     ""
+    ],
+    [
+     "dog",
+     "dog",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "There's a big brown one right by your door.",
+   "ko": "문 바로 옆에 갈색 큰 개가 있어요.",
+   "note": "right by = 바로 옆",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "big",
+     "big",
+     ""
+    ],
+    [
+     "brown",
+     "brown",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ],
+    [
+     "door",
+     "door",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Hold on, which building are you at?",
+   "ko": "잠깐만요, 어느 건물에 계세요?",
+   "note": "hold on = 잠깐만",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Hold",
+     "hold",
+     ""
+    ],
+    [
+     "building",
+     "build",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "4B. Blue door, plants on both sides.",
+   "ko": "4B요. 파란 문, 양쪽에 화분 있는 데요.",
+   "note": "on both sides = 양쪽에",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Blue",
+     "blue",
+     ""
+    ],
+    [
+     "door",
+     "door",
+     ""
+    ],
+    [
+     "plants",
+     "plant",
+     ""
+    ],
+    [
+     "sides",
+     "side",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "That's me. I have no idea where a dog came from.",
+   "ko": "저 맞아요. 개가 어디서 왔는지 전혀 모르겠어요.",
+   "note": "i have no idea = 전혀 모르겠어",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "idea",
+     "idea",
+     ""
+    ],
+    [
+     "dog",
+     "dog",
+     ""
+    ],
+    [
+     "came",
+     "come",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "It hasn't moved at all. It's just staring at me.",
+   "ko": "하나도 안 움직여요. 그냥 저를 쳐다봐요.",
+   "note": "staring = 빤히 보는",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "moved",
+     "move",
+     ""
+    ],
+    [
+     "staring",
+     "star",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Is it barking?",
+   "ko": "짖어요?",
+   "note": "bark = 짖다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "barking",
+     "bark",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "No. It's very calm. Too calm.",
+   "ko": "아뇨. 아주 조용해요. 너무 조용해요.",
+   "note": "too calm = 너무 조용한",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "calm",
+     "calm",
+     ""
+    ],
+    [
+     "calm",
+     "calm",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "Oh. My neighbor's giant stuffed dog. She puts it out to scare people.",
+   "ko": "아. 옆집 큰 개 인형이에요. 사람 겁주려고 내놔요.",
+   "note": "stuffed = 봉제 인형인",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "neighbor's",
+     "neighbor",
+     ""
+    ],
+    [
+     "giant",
+     "giant",
+     ""
+    ],
+    [
+     "stuffed",
+     "stuff",
+     ""
+    ],
+    [
+     "dog",
+     "dog",
+     ""
+    ],
+    [
+     "puts",
+     "put",
+     ""
+    ],
+    [
+     "scare",
+     "scare",
+     ""
+    ],
+    [
+     "people",
+     "person",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "en": "What do you mean, stuffed? I've been out here ten minutes.",
+   "ko": "인형이라니요? 저 여기서 10분 서 있었어요.",
+   "note": "what do you mean = 무슨 말이에요",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "mean",
+     "mean",
+     ""
+    ],
+    [
+     "stuffed",
+     "stuff",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "en": "So it works. I'm coming down now.",
+   "ko": "효과가 있긴 하네요. 지금 내려갈게요.",
+   "note": "it works = 효과가 있다",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "works",
+     "work",
+     ""
+    ],
+    [
+     "coming",
+     "come",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "en": "Please hurry. It's still looking at me.",
+   "ko": "빨리 와 주세요. 아직도 저 보고 있어요.",
+   "note": "still = 아직도",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Please",
+     "please",
+     ""
+    ],
+    [
+     "hurry",
+     "hurry",
+     ""
+    ],
+    [
+     "looking",
+     "look",
+     ""
+    ]
+   ]
+  }
+ ]
+}

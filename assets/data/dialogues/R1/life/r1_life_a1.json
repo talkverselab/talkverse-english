@@ -1,0 +1,230 @@
+{
+ "id": "r1_life_a1",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "냉장고 이름표 전쟁",
+ "emoji": "🧀",
+ "scene": "룸메이트 Daniel 이 냉장고 음식마다 이름표를 붙였는데, 학습자 요거트에도 Daniel 이름이 붙어 있다",
+ "where": "공유 아파트 부엌",
+ "goal": "내 것 주장하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Daniel"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "what's up",
+  "for real",
+  "seriously",
+  "my bad"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Daniel. What's up with these labels?",
+   "ko": "대니얼. 이 이름표들 뭐야?",
+   "note": "what's up with ~? = ~ 왜 이래?",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "What's",
+     "what",
+     ""
+    ],
+    [
+     "labels",
+     "label",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "System. Your food, your name.",
+   "ko": "시스템이야. 네 음식엔 네 이름.",
+   "note": "system = 정해진 방식",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "System",
+     "system",
+     ""
+    ],
+    [
+     "food",
+     "food",
+     ""
+    ],
+    [
+     "name",
+     "name",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Okay. But this yogurt says Daniel.",
+   "ko": "알았어. 근데 이 요거트엔 대니얼이라고 써 있어.",
+   "note": "says = ~라고 써 있다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "yogurt",
+     "yogurt",
+     ""
+    ],
+    [
+     "says",
+     "say",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "For real? Let me see.",
+   "ko": "진짜? 보여 줘.",
+   "note": "for real = 진짜?",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "real",
+     "real",
+     ""
+    ],
+    [
+     "Let",
+     "let",
+     ""
+    ],
+    [
+     "see",
+     "see",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "And the milk. And the eggs.",
+   "ko": "우유도. 계란도.",
+   "note": "and the ~ = ~도",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "milk",
+     "milk",
+     ""
+    ],
+    [
+     "eggs",
+     "eggs",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Seriously, I bought the labels too.",
+   "ko": "진짜로, 이름표도 내가 샀거든.",
+   "note": "seriously = 진짜로",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Seriously",
+     "serious",
+     ""
+    ],
+    [
+     "bought",
+     "buy",
+     ""
+    ],
+    [
+     "labels",
+     "label",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "Daniel, my bad? Or your bad?",
+   "ko": "대니얼, 내 잘못이야? 네 잘못이야?",
+   "note": "my bad = 내 잘못",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "bad",
+     "worse",
+     ""
+    ],
+    [
+     "bad",
+     "worse",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Our bad. I'll make breakfast.",
+   "ko": "우리 잘못. 내가 아침 할게.",
+   "note": "our bad = 우리 잘못",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "bad",
+     "worse",
+     ""
+    ],
+    [
+     "make",
+     "make",
+     ""
+    ],
+    [
+     "breakfast",
+     "breakfast",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -39,6 +39,7 @@ dependencies:
   flutter_tts: ^4.2.0
   http: ^1.6.0
   crypto: ^3.0.6
+  video_player: ^2.14.1
   cupertino_icons: ^1.0.8
   url_launcher: ^6.3.3
 
@@ -70,10 +71,45 @@ flutter:
     - assets/data/words/
     - assets/data/freq/
     - assets/data/roots/
+    - assets/data/grammar/
     - assets/images/ipa/
     - assets/data/toeic/
     - assets/data/toeic/dialogues/T1/office/
     - assets/data/version.json
+    - assets/data/script_rev.json
+    - assets/data/dialogues/R0/culture/
+    - assets/data/dialogues/R0/friends/
+    - assets/data/dialogues/R0/life/
+    - assets/data/dialogues/R0/love/
+    - assets/data/dialogues/R0/study/
+    - assets/data/dialogues/R0/survival/
+    - assets/data/dialogues/R0/travel/
+    - assets/data/dialogues/R0/work/
+    - assets/data/dialogues/R1/culture/
+    - assets/data/dialogues/R1/friends/
+    - assets/data/dialogues/R1/life/
+    - assets/data/dialogues/R1/love/
+    - assets/data/dialogues/R1/study/
+    - assets/data/dialogues/R1/survival/
+    - assets/data/dialogues/R1/travel/
+    - assets/data/dialogues/R1/work/
+    - assets/data/dialogues/R2/culture/
+    - assets/data/dialogues/R2/friends/
+    - assets/data/dialogues/R2/life/
+    - assets/data/dialogues/R2/love/
+    - assets/data/dialogues/R2/study/
+    - assets/data/dialogues/R2/survival/
+    - assets/data/dialogues/R2/travel/
+    - assets/data/dialogues/R2/work/
+    - assets/data/dialogues/R3/culture/
+    - assets/data/dialogues/R3/friends/
+    - assets/data/dialogues/R3/life/
+    - assets/data/dialogues/R3/love/
+    - assets/data/dialogues/R3/study/
+    - assets/data/dialogues/R3/survival/
+    - assets/data/dialogues/R3/travel/
+    - assets/data/dialogues/R3/work/
+    - assets/data/dialogues/R4/work/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

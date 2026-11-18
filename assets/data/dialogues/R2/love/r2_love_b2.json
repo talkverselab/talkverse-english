@@ -1,0 +1,265 @@
+{
+ "id": "r2_love_b2",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "빨래방 건조기 하나 남았다",
+ "emoji": "🧺",
+ "scene": "빨래방 마지막 건조기를 두고 Emma 와 실랑이하다 같이 쓰기로 한다",
+ "where": "동네 빨래방",
+ "goal": "양보·제안하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emma"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [
+  "it's up to you",
+  "to be honest",
+  "why not"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Sorry, is this dryer yours?",
+   "ko": "미안, 이 건조기 네 거야?",
+   "note": "dryer = 건조기",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Sorry",
+     "sorry",
+     ""
+    ],
+    [
+     "dryer",
+     "dryer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Kind of. I was about to use it.",
+   "ko": "어느 정도는. 막 쓰려던 참이었어.",
+   "note": "be about to = 막 ~하려던 참",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Kind",
+     "kind",
+     ""
+    ],
+    [
+     "use",
+     "use",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "It's the last one. Mine's all wet.",
+   "ko": "이게 마지막이야. 내 건 다 젖었어.",
+   "note": "wet = 젖은",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "last",
+     "last",
+     ""
+    ],
+    [
+     "Mine's",
+     "mine",
+     ""
+    ],
+    [
+     "wet",
+     "wet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Mine too. How much do you have?",
+   "ko": "나도. 너는 얼마나 돼?",
+   "note": "how much = 얼마나",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Mine",
+     "mine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Two towels and one sad sweater.",
+   "ko": "수건 두 장이랑 불쌍한 스웨터 하나.",
+   "note": "sad sweater = 불쌍한 스웨터",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "towels",
+     "towel",
+     ""
+    ],
+    [
+     "sad",
+     "sad",
+     ""
+    ],
+    [
+     "sweater",
+     "sweat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "We could just share. It's up to you.",
+   "ko": "그냥 같이 써도 돼. 너 편한 대로.",
+   "note": "it's up to you = 네 맘대로 해",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "share",
+     "share",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Why not? Forty minutes. We just… wait here.",
+   "ko": "그러지 뭐. 40분이야. 우리 그냥… 여기서 기다리는 거네.",
+   "note": "why not = 안 될 거 없지",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Forty",
+     "forty",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ],
+    [
+     "wait",
+     "wait",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "To be honest, I was hoping you'd say that.",
+   "ko": "솔직히, 네가 그렇게 말해 주길 바랐어.",
+   "note": "to be honest = 솔직히",
+   "tags": [
+    "heart"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "honest",
+     "honest",
+     ""
+    ],
+    [
+     "hoping",
+     "hope",
+     ""
+    ],
+    [
+     "say",
+     "say",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "Your sock is in my sweater.",
+   "ko": "네 양말이 내 스웨터 안에 있어.",
+   "note": "말 돌리기",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "sock",
+     "sock",
+     ""
+    ],
+    [
+     "sweater",
+     "sweat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "Keep it. Then you have to see me again.",
+   "ko": "가져. 그럼 나 또 봐야 하잖아.",
+   "note": "have to = ~해야 하다",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Keep",
+     "keep",
+     ""
+    ],
+    [
+     "see",
+     "see",
+     ""
+    ]
+   ]
+  }
+ ]
+}

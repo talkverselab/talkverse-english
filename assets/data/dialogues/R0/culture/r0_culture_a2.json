@@ -1,0 +1,170 @@
+{
+ "id": "r0_culture_a2",
+ "region": "R0",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "How are you 의 정답",
+ "emoji": "🙂",
+ "scene": "가게마다 How are you 를 묻길래 진짜 하루 이야기를 시작한다",
+ "where": "동네 마트 계산대",
+ "goal": "인사 받는 법",
+ "speakers": {
+  "A": "{name}",
+  "B": "Cashier"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "how's it going",
+  "i'm good"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Hey! How's it going?",
+   "ko": "안녕하세요! 잘 지내요?",
+   "note": "how's it going = 잘 지내요?",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "going",
+     "going",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Not good. My bus was late.",
+   "ko": "별로요. 버스가 늦었어요.",
+   "note": "late = 늦은",
+   "tags": [],
+   "new": [],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "good",
+     "better",
+     ""
+    ],
+    [
+     "bus",
+     "bus",
+     ""
+    ],
+    [
+     "late",
+     "late",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Oh. Sorry. Bag?",
+   "ko": "아. 저런. 봉투요?",
+   "note": "bag = 봉투",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Sorry",
+     "sorry",
+     ""
+    ],
+    [
+     "Bag",
+     "bag",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "And my coffee was cold.",
+   "ko": "그리고 커피도 식었어요.",
+   "note": "cold = 차가운",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "coffee",
+     "coffee",
+     ""
+    ],
+    [
+     "cold",
+     "cold",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "It's just \"hi\" here.",
+   "ko": "여기선 그냥 「안녕」이에요.",
+   "note": "just = 그냥",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Oh! Then… I'm good!",
+   "ko": "아! 그럼… 좋아요!",
+   "note": "i'm good = 잘 지내요",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "good",
+     "better",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Me too. Cold coffee too.",
+   "ko": "저도요. 저도 커피 식었어요.",
+   "note": "me too = 저도",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Cold",
+     "cold",
+     ""
+    ],
+    [
+     "coffee",
+     "coffee",
+     ""
+    ]
+   ]
+  }
+ ]
+}

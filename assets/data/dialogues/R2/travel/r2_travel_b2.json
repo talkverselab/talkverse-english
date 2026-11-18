@@ -1,0 +1,297 @@
+{
+ "id": "r2_travel_b2",
+ "region": "R2",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "호텔 방이 업그레이드됐는데",
+ "emoji": "🏨",
+ "scene": "체크인에서 방이 무료 업그레이드됐다는데, 알고 보니 엘리베이터 없는 꼭대기 층이다",
+ "where": "작은 호텔 프런트",
+ "goal": "체크인 말과 확인 질문",
+ "speakers": {
+  "A": "{name}",
+  "B": "Clerk"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "just to confirm",
+  "sounds good",
+  "that's it"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Hi, I have a reservation. Under {name}.",
+   "ko": "안녕하세요, 예약했어요. {name} 이름으로요.",
+   "note": "under ~ = ~ 이름으로",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "reservation",
+     "reservation",
+     ""
+    ],
+    [
+     "Under",
+     "under",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Welcome! Good news. You got a free upgrade.",
+   "ko": "어서 오세요! 좋은 소식이에요. 무료 업그레이드됐어요.",
+   "note": "upgrade = 업그레이드",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Welcome",
+     "welcome",
+     ""
+    ],
+    [
+     "Good",
+     "better",
+     ""
+    ],
+    [
+     "news",
+     "new",
+     ""
+    ],
+    [
+     "got",
+     "get",
+     ""
+    ],
+    [
+     "free",
+     "free",
+     ""
+    ],
+    [
+     "upgrade",
+     "upgrade",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Really? Sounds good.",
+   "ko": "진짜요? 좋네요.",
+   "note": "sounds good = 좋아요",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Really",
+     "real",
+     ""
+    ],
+    [
+     "Sounds",
+     "sound",
+     ""
+    ],
+    [
+     "good",
+     "better",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "It's our top room. Amazing view.",
+   "ko": "저희 제일 위층 방이에요. 전망 끝내줘요.",
+   "note": "view = 전망",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "top",
+     "top",
+     ""
+    ],
+    [
+     "room",
+     "room",
+     ""
+    ],
+    [
+     "Amazing",
+     "amazing",
+     ""
+    ],
+    [
+     "view",
+     "view",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "Just to confirm, breakfast is included?",
+   "ko": "확인 차, 조식 포함이죠?",
+   "note": "included = 포함된",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "confirm",
+     "confirm",
+     ""
+    ],
+    [
+     "breakfast",
+     "breakfast",
+     ""
+    ],
+    [
+     "included",
+     "include",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Yes, from seven to ten.",
+   "ko": "네, 7시부터 10시까지요.",
+   "note": "from ~ to ~ = ~부터 ~까지",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "Great. Where's the elevator?",
+   "ko": "좋아요. 엘리베이터는 어디예요?",
+   "note": "elevator = 엘리베이터",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Great",
+     "great",
+     ""
+    ],
+    [
+     "elevator",
+     "elevator",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "That's the thing. There isn't one. Sixth floor.",
+   "ko": "그게 말이죠. 없어요. 6층이에요.",
+   "note": "that's the thing = 그게 문제예요",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "thing",
+     "thing",
+     ""
+    ],
+    [
+     "Sixth",
+     "sixth",
+     ""
+    ],
+    [
+     "floor",
+     "floor",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "en": "That's it. That's the upgrade.",
+   "ko": "그거네요. 그게 업그레이드구나.",
+   "note": "that's it = 바로 그거",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "upgrade",
+     "upgrade",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "en": "Breakfast tastes better after stairs.",
+   "ko": "계단 오르고 먹는 조식이 더 맛있어요.",
+   "note": "after stairs = 계단 뒤에",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Breakfast",
+     "breakfast",
+     ""
+    ],
+    [
+     "tastes",
+     "taste",
+     ""
+    ],
+    [
+     "better",
+     "good",
+     ""
+    ],
+    [
+     "after",
+     "after",
+     ""
+    ],
+    [
+     "stairs",
+     "stairs",
+     ""
+    ]
+   ]
+  }
+ ]
+}

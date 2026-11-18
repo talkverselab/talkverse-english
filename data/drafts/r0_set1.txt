@@ -1,0 +1,289 @@
+# R0 왕초보 — 한 턴 6단어 이하, 6~8턴(사용자 지시 2026-11-18 심사 준비: 급마다 30%). 전부 자체 작문.
+
+=== r0_survival_a1
+title: 물 한 잔이 두 잔
+emoji: 💧
+scene: 식당에서 물을 달라고 했는데, 「Two?」에 Yes 라고 해서 물이 두 잔 나온다
+where: 동네 식당
+goal: 물·숫자 말하기
+kind: survival
+register: polite
+B: Server
+twist: 6 chaos
+expr: excuse me | just this
+--
+A | Excuse me. Water, please. | 저기요. 물 주세요. | water, please = 물 주세요 | emo=polite
+B | Sure. Just one? | 네. 한 잔이요? | just one = 하나만 | emo=neutral
+A | Yes. Just this table. | 네. 이 테이블만요. | just this = 이것만 | emo=neutral
+B | Two? For you and your friend? | 두 잔이요? 친구분 것까지요? | for you = 당신 것 | emo=neutral
+A | Yes. | 네. | 일단 Yes | emo=neutral
+B | Here you go. Two waters. | 여기요. 물 두 잔이요. | here you go = 여기 있어요 | emo=cheerful
+A | My friend is… not here. | 제 친구는… 안 왔어요. | not here = 여기 없다 | emo=flustered
+B | Okay. More water for you! | 그럼요. 물 더 드세요! | more = 더 | emo=amused
+
+=== r0_survival_a2
+title: 버스 안 탈 건데요
+emoji: 🚌
+scene: 정류장에서 시간을 물었을 뿐인데 기사는 탈 거냐고 계속 묻는다
+where: 버스 정류장
+goal: 시간 묻기
+kind: survival
+register: polite
+B: Driver
+twist: 7 reveal
+expr: excuse me | no thanks
+--
+A | Excuse me. What time is it? | 저기요. 지금 몇 시예요? | What time is it? = 몇 시예요? | emo=polite
+B | It's ten. Are you getting on? | 10시요. 타실 거예요? | get on = 타다 | emo=neutral
+A | No thanks. Just the time. | 아뇨, 괜찮아요. 시간만요. | no thanks = 괜찮아요 | emo=neutral
+B | You sure? Last bus today. | 정말요? 오늘 막차예요. | last bus = 막차 | emo=neutral
+A | Really? It's only ten! | 진짜요? 아직 10시인데요! | only = 겨우 | emo=surprised
+B | Ten at night. Look up. | 밤 10시예요. 위를 봐요. | at night = 밤 | emo=neutral
+A | Oh no. It's so dark. | 어떡해. 완전 깜깜하네. | dark = 어두운 | emo=worried
+B | Get on. I'll wait. | 타요. 기다릴게요. | I'll wait = 기다릴게요 | emo=gentle
+
+=== r0_friends_a1
+title: 내 이름은 안 바뀌었어
+emoji: 👋
+scene: Maya 가 처음 만난 날 이름을 세 번 다르게 부른다
+where: 친구 집 파티
+goal: 이름 말하기
+kind: short
+register: casual
+B: Maya
+twist: 6 slip
+expr: nice to meet you | say that again
+--
+B | Hi! I'm Maya. You are…? | 안녕! 나 마야야. 너는…? | You are…? = 너는…? | emo=cheerful
+A | I'm {name}. Nice to meet you. | 나 {name}. 반가워. | nice to meet you = 반가워 | emo=neutral
+B | Nice to meet you, Nina! | 반가워, 니나! | 이름을 잘못 들음 | emo=cheerful
+A | No, {name}. | 아니, {name}. | 이름만 다시 | emo=neutral
+B | Sorry! Say that again? | 미안! 다시 말해 줄래? | say that again = 다시 말해 줘 | emo=polite
+A | {name}. Like… {name}. | {name}. 그러니까… {name}. | 또박또박 | emo=neutral
+B | Got it. Hi, Nina! | 알았어. 안녕, 니나! | got it = 알았어 | emo=cheerful
+A | Okay. Tonight I'm Nina. | 그래. 오늘 밤 난 니나야. | tonight = 오늘 밤 | emo=amused
+
+=== r0_friends_a2
+title: 피자는 반반
+emoji: 🍕
+scene: Jake 와 피자를 반씩 나누기로 했는데 Jake 의 「반」은 이상하다
+where: 집 소파
+goal: 나누기·많다 적다
+kind: short
+register: casual
+B: Jake
+twist: 6 chaos
+expr: come on | no way
+--
+B | Pizza? Half and half? | 피자? 반반? | half and half = 반반 | emo=neutral
+A | Sure. Half for me. | 좋아. 반은 내 거. | for me = 내 거 | emo=neutral
+B | Okay. This half is mine. | 오케이. 이 반은 내 거. | mine = 내 것 | emo=neutral
+A | And that half? | 그럼 저 반은? | that half = 저 반 | emo=neutral
+B | Also mine. Big day. | 그것도 내 거. 오늘 힘들었거든. | big day = 힘든 날 | emo=neutral
+A | Come on! No way! | 야! 말도 안 돼! | come on = 야, 왜 이래 | emo=tsukkomi
+B | You get the box. | 넌 상자 가져. | box = 상자 | emo=teasing
+A | Wow. Great friend. | 와. 좋은 친구네. | 비꼬기 | emo=annoyed
+
+=== r0_love_a1
+title: 우산 하나
+emoji: ☔
+scene: 비 오는 날 Emma 가 우산이 하나뿐이라며 같이 쓰자고 한다
+where: 카페 앞
+goal: 같이 하기 제안
+kind: short
+register: casual
+B: Emma
+twist: 7 reveal
+expr: oh no | i guess
+--
+B | Oh no. It's raining. | 어떡해. 비 온다. | it's raining = 비가 와 | emo=neutral
+A | I have no umbrella. | 나 우산 없어. | umbrella = 우산 | emo=neutral
+B | I have one. Just one. | 나 있어. 하나만. | just one = 하나뿐 | emo=neutral
+A | Is it big? | 커? | big = 큰 | emo=neutral
+B | Not really. We stand close. | 별로. 붙어 서야 돼. | close = 가까이 | emo=shy heart
+A | I guess that's okay. | 그럼 뭐… 괜찮아. | i guess = 그런 것 같아 | emo=neutral
+B | Also, my bag has two. | 근데 내 가방에 두 개 있어. | 우산이 사실 둘 | emo=teasing
+A | Emma! | 에마! | 이름만 | emo=surprised
+
+=== r0_love_a2
+title: 커피 또 사 줄게
+emoji: ☕
+scene: 카페에서 매일 보는 사람이 오늘은 학습자 커피값을 먼저 냈다
+where: 아침 카페
+goal: 고마움·다음 약속
+kind: short
+register: casual
+B: Emma
+twist: 6 emotion
+expr: my treat | see you
+--
+B | Hi again. Same coffee? | 또 왔네. 같은 커피? | same = 같은 | emo=neutral
+A | Yes. Same coffee. | 응. 같은 걸로. | 같은 말 받기 | emo=neutral
+B | Done. My treat today. | 됐어. 오늘은 내가 살게. | my treat = 내가 살게 | emo=neutral
+A | Really? Why? | 진짜? 왜? | why = 왜 | emo=surprised
+B | You smile every morning. | 너 아침마다 웃잖아. | every morning = 매일 아침 | emo=shy heart
+A | Then tomorrow, my treat. | 그럼 내일은 내가 살게. | tomorrow = 내일 | emo=neutral
+B | Tomorrow? Okay. See you. | 내일? 좋아. 또 봐. | see you = 또 봐 | emo=neutral
+
+=== r0_life_a1
+title: 냉장고 속 이름표
+emoji: 🧃
+scene: 룸메이트 Daniel 이 냉장고 모든 것에 이름표를 붙였다
+where: 집 부엌
+goal: 누구 것인지 묻기
+kind: short
+register: casual
+B: Daniel
+twist: 7 slip
+expr: what's up | come on
+--
+A | Hey Daniel. What's up? | 대니얼. 뭐 해? | what's up = 뭐 해 | emo=neutral
+B | Name tags. On my food. | 이름표. 내 음식에. | name tag = 이름표 | emo=neutral
+A | The milk is yours? | 우유가 네 거야? | yours = 네 것 | emo=neutral
+B | Yes. The eggs too. | 응. 달걀도. | too = ~도 | emo=neutral
+A | And the water? Come on. | 물도? 왜 이래. | come on = 왜 이래 | emo=tsukkomi
+B | Yes. And this one. | 응. 이것도. | this one = 이거 | emo=neutral
+A | That says "{name}". | 거기 「{name}」라고 써 있는데. | says = ~라고 쓰여 있다 | emo=surprised
+B | For you. Your yogurt. | 너 주려고. 네 요거트. | 말없이 챙김 | emo=gentle
+
+=== r0_life_a2
+title: 세탁기는 내 편
+emoji: 🧺
+scene: 빨래방에서 내 빨래를 꺼냈는데 남의 빨간 양말이 섞여 다 분홍이 됐다
+where: 동네 빨래방
+goal: 문제 말하기
+kind: short
+register: casual
+B: Jake
+twist: 5 chaos
+expr: oh my god | i'm sorry
+--
+B | Done? Let me see. | 다 됐어? 보자. | let me see = 보자 | emo=neutral
+A | My white shirt… | 내 하얀 셔츠가… | white = 하얀 | emo=neutral
+B | It's pink now. | 이제 분홍이네. | pink = 분홍 | emo=neutral
+A | Oh my god. Why? | 세상에. 왜? | oh my god = 세상에 | emo=surprised
+B | One red sock. Mine. | 빨간 양말 한 짝. 내 거. | sock = 양말 | emo=neutral
+A | Jake! Really? | 제이크! 진짜? | really = 진짜 | emo=shout
+B | I'm sorry. Pink is nice? | 미안. 분홍 예쁘잖아? | nice = 좋은 | emo=polite
+A | Now it's your shirt. | 이제 네 셔츠야. | your shirt = 네 셔츠 | emo=annoyed
+
+=== r0_travel_a1
+title: 사진 한 장만
+emoji: 📸
+scene: 관광지에서 사진을 부탁했더니 셀카만 열 장 찍혀 있다
+where: 다리 위 전망대
+goal: 부탁하기
+kind: short
+register: polite
+B: Tourist
+twist: 6 chaos
+expr: excuse me | of course
+--
+A | Excuse me. One photo, please? | 저기요. 사진 한 장 부탁해요. | one photo = 사진 한 장 | emo=polite
+B | Of course. Smile! | 물론이죠. 웃어요! | of course = 물론 | emo=neutral
+A | Thank you. Is it good? | 고마워요. 잘 나왔어요? | good = 잘된 | emo=polite
+B | Very good. Ten photos! | 아주 좋아요. 열 장이요! | ten = 열 | emo=neutral
+A | Ten? Let me see. | 열 장이요? 볼게요. | let me see = 보자 | emo=neutral
+A | These are all… you. | 이거 다… 당신이잖아요. | all = 전부 | emo=tsukkomi
+B | Oh no. Wrong side! | 어머. 반대쪽이었네! | wrong side = 반대쪽 | emo=flustered
+
+=== r0_travel_a2
+title: 호텔 방 번호
+emoji: 🏨
+scene: 호텔 직원이 방 번호를 말했는데 학습자가 숫자를 거꾸로 알아듣는다
+where: 호텔 앞 데스크
+goal: 숫자 확인하기
+kind: survival
+register: polite
+B: Clerk
+twist: 6 slip
+expr: say that again | got it
+--
+B | Your room is fifty-one. | 방은 51호예요. | fifty-one = 51 | emo=polite
+A | Fifteen? One, five? | 15호요? 일, 오? | fifteen = 15 | emo=neutral
+B | No. Fifty-one. Five, one. | 아뇨. 51이요. 오, 일. | five, one = 오, 일 | emo=polite
+A | Sorry. Say that again? | 죄송해요. 다시 말해 주세요. | say that again = 다시 말해 주세요 | emo=polite
+B | Five. One. Fifty-one. | 오. 일. 51. | 천천히 | emo=neutral
+A | Got it. Fifteen! | 알겠어요. 15호! | 또 거꾸로 | emo=cheerful
+B | I'll walk with you. | 같이 가 드릴게요. | walk with = 같이 걷다 | emo=gentle
+
+=== r0_culture_a1
+title: 팁은 몇 %?
+emoji: 🧾
+scene: 처음 본 팁 화면, 학습자가 제일 큰 버튼을 눌러 버린다
+where: 샌드위치 가게
+goal: 팁 화면 고르기
+kind: survival
+register: polite
+B: Cashier
+twist: 5 chaos
+expr: no way | it's okay
+--
+B | Just turn the screen. | 화면만 돌려 주세요. | turn = 돌리다 | emo=neutral
+A | Okay. What is this? | 네. 이게 뭐예요? | what is this = 이게 뭐예요 | emo=neutral
+B | Tip. You pick. | 팁이요. 고르시면 돼요. | pick = 고르다 | emo=neutral
+A | Okay. This big one. | 네. 이 큰 거요. | big one = 큰 거 | emo=neutral
+B | Thirty percent? Wow. | 30%요? 와. | percent = 퍼센트 | emo=surprised
+A | No way. Thirty? | 말도 안 돼. 30%? | no way = 말도 안 돼 | emo=surprised
+B | It's okay. Free cookie! | 괜찮아요. 쿠키 서비스! | free = 공짜 | emo=amused
+
+=== r0_culture_a2
+title: How are you 의 정답
+emoji: 🙂
+scene: 가게마다 How are you 를 묻길래 진짜 하루 이야기를 시작한다
+where: 동네 마트 계산대
+goal: 인사 받는 법
+kind: short
+register: casual
+B: Cashier
+twist: 5 reveal
+expr: how's it going | i'm good
+--
+B | Hey! How's it going? | 안녕하세요! 잘 지내요? | how's it going = 잘 지내요? | emo=polite
+A | Not good. My bus was late. | 별로요. 버스가 늦었어요. | late = 늦은 | emo=sad
+B | Oh. Sorry. Bag? | 아. 저런. 봉투요? | bag = 봉투 | emo=neutral
+A | And my coffee was cold. | 그리고 커피도 식었어요. | cold = 차가운 | emo=neutral
+B | It's just "hi" here. | 여기선 그냥 「안녕」이에요. | just = 그냥 | emo=amused
+A | Oh! Then… I'm good! | 아! 그럼… 좋아요! | i'm good = 잘 지내요 | emo=flustered
+B | Me too. Cold coffee too. | 저도요. 저도 커피 식었어요. | me too = 저도 | emo=neutral
+
+=== r0_work_a1
+title: 첫 출근 문
+emoji: 🚪
+scene: 첫 출근, 문 앞에서 카드가 안 열려 경비원을 부르는데 문은 당기는 문이었다
+where: 사무실 건물 입구
+goal: 도움 청하기
+kind: short
+register: polite
+B: Guard
+twist: 6 chaos
+expr: excuse me | one sec
+--
+A | Excuse me. My card won't work. | 저기요. 카드가 안 돼요. | not working = 안 된다 | emo=worried
+B | First day? | 첫날이에요? | first day = 첫날 | emo=neutral
+A | Yes. Nine o'clock. I'm late. | 네. 9시요. 늦었어요. | late = 늦은 | emo=neutral
+B | One sec. Let me see. | 잠깐만요. 볼게요. | one sec = 잠깐만 | emo=neutral
+B | Card is fine. | 카드는 괜찮네요. | fine = 괜찮은 | emo=neutral
+B | Door says "pull." | 문에 「당기시오」라고 써 있어요. | pull = 당기다 | emo=neutral
+A | Oh. Good morning, door. | 아. 안녕, 문아. | good morning = 좋은 아침 | emo=flustered
+
+=== r0_study_a1
+title: 필기 빌려줄래?
+emoji: 📓
+scene: 수업 필기를 빌렸더니 Maya 의 공책에는 그림만 가득하다
+where: 학교 도서관
+goal: 빌리기 부탁
+kind: short
+register: casual
+B: Maya
+twist: 6 reveal
+expr: of course | what does that mean
+--
+A | Maya, your notes, please? | 마야, 필기 좀 빌려줘. | notes = 필기 | emo=neutral
+B | Of course! Here. | 물론! 여기. | of course = 물론 | emo=neutral
+A | Thanks. Wait… a cat? | 고마워. 잠깐… 고양이? | wait = 잠깐 | emo=surprised
+B | That's the test. Page one. | 그게 시험이야. 1쪽. | page = 쪽 | emo=neutral
+A | What does that mean? | 그게 무슨 뜻이야? | what does that mean = 무슨 뜻이야 | emo=neutral
+B | I draw. I don't write. | 난 그려. 안 써. | draw = 그리다 | emo=amused
+A | And the A plus? | 그런데 A+는? | A plus = A+ | emo=neutral
+B | The teacher loves cats. | 선생님이 고양이를 좋아해. | love = 아주 좋아하다 | emo=teasing

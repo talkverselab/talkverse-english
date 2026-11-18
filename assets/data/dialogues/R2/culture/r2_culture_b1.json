@@ -1,0 +1,308 @@
+{
+ "id": "r2_culture_b1",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "핼러윈 파티에 정장 입고 감",
+ "emoji": "🎃",
+ "scene": "핼러윈인 줄 모르고 회사 행사 정장을 입고 Maya 파티에 갔는데, 다들 코스튬으로 오해한다",
+ "where": "Maya 의 집 파티",
+ "goal": "문화 차이 수습하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Maya"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "oh my god",
+  "that's so cute",
+  "i can't believe it"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Oh my god, you came! Wait. What are you?",
+   "ko": "세상에, 왔구나! 잠깐. 너 뭐로 분장한 거야?",
+   "note": "what are you = 뭐로 분장했어",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "god",
+     "god",
+     ""
+    ],
+    [
+     "came",
+     "come",
+     ""
+    ],
+    [
+     "Wait",
+     "wait",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "What do you mean? I'm just… me.",
+   "ko": "무슨 말이야? 나 그냥… 나인데.",
+   "note": "just me = 그냥 나",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "mean",
+     "mean",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "It's Halloween, {name}. Everyone's in costume.",
+   "ko": "핼러윈이잖아, {name}. 다 코스튬 입었어.",
+   "note": "costume = 분장 옷",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Halloween",
+     "halloween",
+     ""
+    ],
+    [
+     "Everyone's",
+     "everyone",
+     ""
+    ],
+    [
+     "costume",
+     "costume",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "I came from a work dinner. In a suit.",
+   "ko": "회사 저녁 먹고 왔어. 정장 입고.",
+   "note": "suit = 정장",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "came",
+     "come",
+     ""
+    ],
+    [
+     "work",
+     "work",
+     ""
+    ],
+    [
+     "dinner",
+     "dinner",
+     ""
+    ],
+    [
+     "suit",
+     "suit",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "No, no. You're \"a guy with a job.\"",
+   "ko": "아냐, 아냐. 너는 \"직장 다니는 사람\" 코스튬이야.",
+   "note": "a guy with a job = 직장인",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "guy",
+     "guy",
+     ""
+    ],
+    [
+     "job",
+     "job",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "That's not a costume. That's my life.",
+   "ko": "그건 코스튬이 아니라 내 인생이야.",
+   "note": "받아치기",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "costume",
+     "costume",
+     ""
+    ],
+    [
+     "life",
+     "life",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "People love it. That vampire wants your card.",
+   "ko": "사람들 좋아해. 저 뱀파이어가 네 명함 달래.",
+   "note": "card = 명함",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "People",
+     "person",
+     ""
+    ],
+    [
+     "love",
+     "love",
+     ""
+    ],
+    [
+     "vampire",
+     "vampire",
+     ""
+    ],
+    [
+     "wants",
+     "want",
+     ""
+    ],
+    [
+     "card",
+     "card",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "I can't believe it. Networking at Halloween.",
+   "ko": "말도 안 돼. 핼러윈에 인맥 쌓기라니.",
+   "note": "networking = 인맥 쌓기",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "believe",
+     "believe",
+     ""
+    ],
+    [
+     "Networking",
+     "network",
+     ""
+    ],
+    [
+     "Halloween",
+     "halloween",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "That's so cute. You're the best costume here.",
+   "ko": "너무 귀엽다. 네가 여기서 최고 코스튬이야.",
+   "note": "that's so cute = 너무 귀여워",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "cute",
+     "cute",
+     ""
+    ],
+    [
+     "best",
+     "good",
+     ""
+    ],
+    [
+     "costume",
+     "costume",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "Next year I'm coming as a guy with no job.",
+   "ko": "내년엔 백수로 올 거야.",
+   "note": "no job = 백수",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Next",
+     "next",
+     ""
+    ],
+    [
+     "year",
+     "year",
+     ""
+    ],
+    [
+     "coming",
+     "come",
+     ""
+    ],
+    [
+     "guy",
+     "guy",
+     ""
+    ],
+    [
+     "job",
+     "job",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -34,19 +34,20 @@ void main() {
     expect(LearnerPrefs.fill('Hi, {name}!'), 'Hi, Min!');
   });
 
-  testWidgets('폰 폭: 하단 탭 4개, 회화 없으면 안내', (t) async {
+  testWidgets('폰 폭: 하단 탭 4개, 회화가 있으면 오늘의 편(안내 없음)', (t) async {
     t.view.physicalSize = const Size(390 * 3, 844 * 3);
     t.view.devicePixelRatio = 3;
     addTearDown(t.view.reset);
     await t.runAsync(() => DialogueService.instance.ensureLoaded()); // 원고 읽기(파일·에셋)는 실제 비동기 — 먼저 끝내 둔다
     await t.pumpWidget(MaterialApp(theme: AppTheme.light(), home: const MainScreen()));
-    for (var i = 0; i < 5 && find.textContaining('회화가 곧 들어옵니다').evaluate().isEmpty; i++) {
+    expect(DialogueService.instance.all, isNotEmpty); // 앱 안 회화(pubspec)
+    for (var i = 0; i < 5; i++) {
       await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 50)));
       await t.pump(const Duration(milliseconds: 100));
     }
     expect(find.byType(NavigationBar), findsOneWidget);
     expect(find.text('배우기'), findsWidgets);
-    expect(find.textContaining('회화가 곧 들어옵니다'), findsOneWidget);
+    expect(find.textContaining('회화가 곧 들어옵니다'), findsNothing);
   });
 
   testWidgets('아이패드 폭: 레일 + 두 칸', (t) async {

@@ -1,0 +1,202 @@
+{
+ "id": "r1_survival_s4",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "약국에서 \"Sure\"의 값",
+ "emoji": "💊",
+ "scene": "두통약 하나 사러 갔는데 회원 가입·영수증 질문마다 Sure 라고 했다가 영수증이 1미터가 된다",
+ "where": "동네 약국 계산대",
+ "goal": "계산대 질문에 고르는 말로 답하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Clerk"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "sure",
+  "just this"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Hi there. Just this?",
+   "ko": "안녕하세요. 이것만요?",
+   "note": "just this = 이것만",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Yes. Something for a headache.",
+   "ko": "네. 두통에 먹는 거요.",
+   "note": "headache = 두통",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Something",
+     "something",
+     ""
+    ],
+    [
+     "headache",
+     "headache",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "You have our rewards card?",
+   "ko": "저희 적립 카드 있으세요?",
+   "note": "rewards card = 적립 카드",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "rewards",
+     "reward",
+     ""
+    ],
+    [
+     "card",
+     "card",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Sure.",
+   "ko": "네.",
+   "note": "뜻을 몰라도 일단 Sure",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Sure",
+     "sure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Great, I'll sign you up. Receipt by email?",
+   "ko": "좋아요, 가입해 드릴게요. 영수증은 메일로요?",
+   "note": "sign up = 가입시키다",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Great",
+     "great",
+     ""
+    ],
+    [
+     "sign",
+     "sign",
+     ""
+    ],
+    [
+     "Receipt",
+     "receipt",
+     ""
+    ],
+    [
+     "email",
+     "email",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Sure.",
+   "ko": "네.",
+   "note": "또 Sure",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Sure",
+     "sure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "Okay. Here's your receipt. And your coupons.",
+   "ko": "네. 영수증이요. 그리고 쿠폰도요.",
+   "note": "coupons = 쿠폰",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "receipt",
+     "receipt",
+     ""
+    ],
+    [
+     "coupons",
+     "coupon",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Wait. This receipt is longer than me.",
+   "ko": "잠깐만요. 영수증이 저보다 길어요.",
+   "note": "longer than = ~보다 긴",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "receipt",
+     "receipt",
+     ""
+    ],
+    [
+     "longer",
+     "long",
+     ""
+    ]
+   ]
+  }
+ ]
+}

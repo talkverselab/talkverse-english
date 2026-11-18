@@ -1,0 +1,230 @@
+{
+ "id": "r1_friends_c3",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "마야의 팟캐스트 손님",
+ "emoji": "🎙️",
+ "scene": "Maya 가 커피 마시자고 불러 놓고 갑자기 마이크를 켜고 학습자를 팟캐스트 손님으로 만든다",
+ "where": "Maya 의 방",
+ "goal": "갑작스러운 질문에 짧게 답하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Maya"
+ },
+ "register": "casual",
+ "twist": 3,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "what's up",
+  "wait",
+  "i don't know",
+  "that's crazy"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Hey! Sit down. Coffee's right there.",
+   "ko": "안녕! 앉아. 커피 거기 있어.",
+   "note": "right there = 바로 거기",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Sit",
+     "sit",
+     ""
+    ],
+    [
+     "Coffee's",
+     "coffee",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Thanks. What's up?",
+   "ko": "고마워. 무슨 일이야?",
+   "note": "what's up = 무슨 일이야",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Thanks",
+     "thank",
+     ""
+    ],
+    [
+     "What's",
+     "what",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Nothing. Also, we're live.",
+   "ko": "별거 아냐. 그리고 지금 방송 중이야.",
+   "note": "we're live = 생방송 중",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Nothing",
+     "nothing",
+     ""
+    ],
+    [
+     "live",
+     "live",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Wait. Live? Like, people are listening?",
+   "ko": "잠깐. 방송? 사람들이 듣는다고?",
+   "note": "wait = 잠깐",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "Live",
+     "live",
+     ""
+    ],
+    [
+     "Like",
+     "like",
+     ""
+    ],
+    [
+     "people",
+     "person",
+     ""
+    ],
+    [
+     "listening",
+     "listen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Three people. My mom is one.",
+   "ko": "세 명. 그중 한 명은 우리 엄마.",
+   "note": "숫자 킥",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "people",
+     "person",
+     ""
+    ],
+    [
+     "mom",
+     "mom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Hi, Maya's mom.",
+   "ko": "안녕하세요, 마야 어머님.",
+   "note": "바로 적응",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "mom",
+     "mom",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "First question. Why are you so cute?",
+   "ko": "첫 질문. 넌 왜 이렇게 귀여워?",
+   "note": "cute = 귀여운",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "First",
+     "first",
+     ""
+    ],
+    [
+     "question",
+     "question",
+     ""
+    ],
+    [
+     "cute",
+     "cute",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "I don't know. That's crazy.",
+   "ko": "몰라. 말도 안 돼.",
+   "note": "I don't know = 몰라",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "know",
+     "know",
+     ""
+    ],
+    [
+     "crazy",
+     "crazy",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,308 @@
+{
+ "id": "r2_culture_b2",
+ "region": "R2",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "팁 화면의 25%",
+ "emoji": "💳",
+ "scene": "커피 한 잔 계산하는데 태블릿이 팁을 묻고, Jake 가 옆에서 미국 팁 문화를 설명한다",
+ "where": "동네 커피 가게 계산대",
+ "goal": "팁 문화와 화면 선택",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jake"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "ignore",
+ "flags": [],
+ "expressions": [
+  "i have no idea",
+  "seriously",
+  "makes sense"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Jake, it's asking me for a tip. For a coffee.",
+   "ko": "제이크, 이거 팁을 물어. 커피 하나에.",
+   "note": "tip = 팁",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "asking",
+     "ask",
+     ""
+    ],
+    [
+     "tip",
+     "tip",
+     ""
+    ],
+    [
+     "coffee",
+     "coffee",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Yeah. Eighteen, twenty, twenty-five percent.",
+   "ko": "응. 18, 20, 25퍼센트.",
+   "note": "percent = 퍼센트",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Eighteen",
+     "eighteen",
+     ""
+    ],
+    [
+     "twenty",
+     "twenty",
+     ""
+    ],
+    [
+     "twenty",
+     "twenty",
+     ""
+    ],
+    [
+     "percent",
+     "percent",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Seriously? She just pushed a button.",
+   "ko": "진짜? 그냥 버튼 하나 눌렀잖아.",
+   "note": "push a button = 버튼을 누르다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Seriously",
+     "serious",
+     ""
+    ],
+    [
+     "pushed",
+     "push",
+     ""
+    ],
+    [
+     "button",
+     "button",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "You can press \"custom.\" Or \"no tip.\"",
+   "ko": "\"직접 입력\" 눌러도 돼. 아니면 \"팁 없음.\"",
+   "note": "custom = 직접 입력",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "press",
+     "press",
+     ""
+    ],
+    [
+     "custom",
+     "custom",
+     ""
+    ],
+    [
+     "tip",
+     "tip",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "But she's looking at me.",
+   "ko": "근데 직원이 나 쳐다보고 있어.",
+   "note": "look at = 쳐다보다",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "looking",
+     "look",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "That's the system. It's a feeling thing.",
+   "ko": "그게 시스템이야. 기분 문제지.",
+   "note": "a feeling thing = 기분 문제",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "system",
+     "system",
+     ""
+    ],
+    [
+     "feeling",
+     "feel",
+     ""
+    ],
+    [
+     "thing",
+     "thing",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "Makes sense. I have no idea what to press.",
+   "ko": "이해는 가. 뭘 눌러야 할지 모르겠어.",
+   "note": "I have no idea = 전혀 모르겠어",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Makes",
+     "make",
+     ""
+    ],
+    [
+     "sense",
+     "sense",
+     ""
+    ],
+    [
+     "idea",
+     "idea",
+     ""
+    ],
+    [
+     "press",
+     "press",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Hey, they have free cookies on Fridays.",
+   "ko": "야, 여기 금요일엔 쿠키 공짜다.",
+   "note": "free = 공짜",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "free",
+     "free",
+     ""
+    ],
+    [
+     "cookies",
+     "cookies",
+     ""
+    ],
+    [
+     "Fridays",
+     "friday",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "en": "Jake, focus. The screen is waiting.",
+   "ko": "제이크, 집중해. 화면이 기다리잖아.",
+   "note": "focus = 집중해",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "focus",
+     "focus",
+     ""
+    ],
+    [
+     "screen",
+     "screen",
+     ""
+    ],
+    [
+     "waiting",
+     "wait",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "en": "Twenty. Then you get the cookie with a smile.",
+   "ko": "20. 그럼 쿠키에 미소까지 받아.",
+   "note": "with a smile = 웃으면서",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Twenty",
+     "twenty",
+     ""
+    ],
+    [
+     "get",
+     "get",
+     ""
+    ],
+    [
+     "cookie",
+     "cookie",
+     ""
+    ],
+    [
+     "smile",
+     "smile",
+     ""
+    ]
+   ]
+  }
+ ]
+}

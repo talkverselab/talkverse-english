@@ -1,0 +1,198 @@
+{
+ "id": "r0_life_a2",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "세탁기는 내 편",
+ "emoji": "🧺",
+ "scene": "빨래방에서 내 빨래를 꺼냈는데 남의 빨간 양말이 섞여 다 분홍이 됐다",
+ "where": "동네 빨래방",
+ "goal": "문제 말하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jake"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "oh my god",
+  "i'm sorry"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Done? Let me see.",
+   "ko": "다 됐어? 보자.",
+   "note": "let me see = 보자",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Let",
+     "let",
+     ""
+    ],
+    [
+     "see",
+     "see",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "My white shirt…",
+   "ko": "내 하얀 셔츠가…",
+   "note": "white = 하얀",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "white",
+     "white",
+     ""
+    ],
+    [
+     "shirt",
+     "shirt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "It's pink now.",
+   "ko": "이제 분홍이네.",
+   "note": "pink = 분홍",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "pink",
+     "pink",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Oh my god. Why?",
+   "ko": "세상에. 왜?",
+   "note": "oh my god = 세상에",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "god",
+     "god",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "One red sock. Mine.",
+   "ko": "빨간 양말 한 짝. 내 거.",
+   "note": "sock = 양말",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "red",
+     "red",
+     ""
+    ],
+    [
+     "sock",
+     "sock",
+     ""
+    ],
+    [
+     "Mine",
+     "mine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Jake! Really?",
+   "ko": "제이크! 진짜?",
+   "note": "really = 진짜",
+   "tags": [],
+   "new": [],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Really",
+     "real",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "I'm sorry. Pink is nice?",
+   "ko": "미안. 분홍 예쁘잖아?",
+   "note": "nice = 좋은",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "sorry",
+     "sorry",
+     ""
+    ],
+    [
+     "Pink",
+     "pink",
+     ""
+    ],
+    [
+     "nice",
+     "nice",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Now it's your shirt.",
+   "ko": "이제 네 셔츠야.",
+   "note": "your shirt = 네 셔츠",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "shirt",
+     "shirt",
+     ""
+    ]
+   ]
+  }
+ ]
+}

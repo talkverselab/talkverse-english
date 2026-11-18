@@ -1,0 +1,283 @@
+{
+ "id": "r2_friends_b1",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "단톡방에 \"누가 내 피자 먹었어?\"",
+ "emoji": "🍕",
+ "scene": "Jake 가 냉장고 피자 범인을 찾는데, 범인은 자기 자신이었다",
+ "where": "셰어하우스 거실",
+ "goal": "따지기와 핑계",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jake"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "what are you talking about",
+  "i swear",
+  "come on"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "{name}, did you eat my pizza?",
+   "ko": "{name}, 너 내 피자 먹었어?",
+   "note": "did you eat = 먹었어",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "eat",
+     "eat",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "What are you talking about? I just got home.",
+   "ko": "무슨 소리야? 나 방금 왔어.",
+   "note": "what are you talking about = 무슨 소리야",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "talking",
+     "talk",
+     ""
+    ],
+    [
+     "got",
+     "get",
+     ""
+    ],
+    [
+     "home",
+     "home",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "There were three slices. Now there's one.",
+   "ko": "세 조각 있었는데. 이제 하나야.",
+   "note": "slice = 조각",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "slices",
+     "slice",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "I swear I didn't touch it.",
+   "ko": "진짜 손도 안 댔어.",
+   "note": "I swear = 맹세해",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "swear",
+     "swear",
+     ""
+    ],
+    [
+     "touch",
+     "touch",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Then who? Daniel only eats salad.",
+   "ko": "그럼 누구야? 대니얼은 샐러드만 먹잖아.",
+   "note": "only eats = ~만 먹다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "eats",
+     "eat",
+     ""
+    ],
+    [
+     "salad",
+     "salad",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Come on, look at the box. There's your note.",
+   "ko": "야, 상자 좀 봐. 네 쪽지 있잖아.",
+   "note": "note = 쪽지",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Come",
+     "come",
+     ""
+    ],
+    [
+     "look",
+     "look",
+     ""
+    ],
+    [
+     "box",
+     "box",
+     ""
+    ],
+    [
+     "note",
+     "note",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "\"Jake, don't eat this at 2 a.m.\"",
+   "ko": "\"제이크, 새벽 두 시에 이거 먹지 마.\"",
+   "note": "자기한테 쓴 쪽지",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "eat",
+     "eat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "You wrote that to yourself, man.",
+   "ko": "그거 네가 너한테 쓴 거잖아.",
+   "note": "to yourself = 너 자신에게",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "wrote",
+     "write",
+     ""
+    ],
+    [
+     "yourself",
+     "yourself",
+     ""
+    ],
+    [
+     "man",
+     "man",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "Oh. That's why my shirt smells like pepperoni.",
+   "ko": "아. 그래서 내 셔츠에서 페퍼로니 냄새가 나는구나.",
+   "note": "smells like = ~ 냄새가 나다",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "shirt",
+     "shirt",
+     ""
+    ],
+    [
+     "smells",
+     "smell",
+     ""
+    ],
+    [
+     "like",
+     "like",
+     ""
+    ],
+    [
+     "pepperoni",
+     "pepperoni",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "Mystery solved. You owe me an apology.",
+   "ko": "사건 해결. 사과해.",
+   "note": "owe ~ an apology = 사과할 게 있다",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Mystery",
+     "mystery",
+     ""
+    ],
+    [
+     "solved",
+     "solve",
+     ""
+    ],
+    [
+     "owe",
+     "owe",
+     ""
+    ],
+    [
+     "apology",
+     "apology",
+     ""
+    ]
+   ]
+  }
+ ]
+}

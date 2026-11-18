@@ -1,0 +1,447 @@
+{
+ "id": "r3_travel_c1",
+ "region": "R3",
+ "island": "travel",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "기내 선반 쟁탈전",
+ "emoji": "✈️",
+ "scene": "비행기에서 짐 넣을 자리를 두고 옆자리 승객과 신경전을 벌이는데, 그 가방이 승무원 것이다",
+ "where": "비행기 안 통로",
+ "goal": "기내에서 부탁하고 양보하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Passenger",
+  "C": "Flight attendant"
+ },
+ "register": "polite",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "excuse me",
+  "would you mind",
+  "no worries"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Excuse me, is this space taken?",
+   "ko": "실례지만, 여기 자리 있나요?",
+   "note": "taken = 이미 쓰는",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "space",
+     "space",
+     ""
+    ],
+    [
+     "taken",
+     "take",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Sorry, that's for my second bag.",
+   "ko": "죄송한데, 제 두 번째 가방 자리예요.",
+   "note": "second = 두 번째",
+   "tags": [],
+   "new": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Sorry",
+     "sorry",
+     ""
+    ],
+    [
+     "second",
+     "second",
+     ""
+    ],
+    [
+     "bag",
+     "bag",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Would you mind putting it under your seat?",
+   "ko": "혹시 그건 좌석 밑에 넣어 주실 수 있을까요?",
+   "note": "would you mind = ~해 주실래요?",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "mind",
+     "mind",
+     ""
+    ],
+    [
+     "putting",
+     "put",
+     ""
+    ],
+    [
+     "under",
+     "under",
+     ""
+    ],
+    [
+     "seat",
+     "seat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "It won't fit. It's a very important bag.",
+   "ko": "안 들어가요. 아주 중요한 가방이거든요.",
+   "note": "fit = 들어가다",
+   "tags": [],
+   "new": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "fit",
+     "fit",
+     ""
+    ],
+    [
+     "important",
+     "important",
+     ""
+    ],
+    [
+     "bag",
+     "bag",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "Mine's tiny. I can squeeze it in next to yours.",
+   "ko": "제 건 작아요. 옆에 끼워 넣을게요.",
+   "note": "squeeze in = 끼워 넣다",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Mine's",
+     "mine",
+     ""
+    ],
+    [
+     "tiny",
+     "tiny",
+     ""
+    ],
+    [
+     "squeeze",
+     "squeeze",
+     ""
+    ],
+    [
+     "next",
+     "next",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Please don't touch it. It has a cake inside.",
+   "ko": "건드리지 마세요. 안에 케이크 있어요.",
+   "note": "inside = 안에",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Please",
+     "please",
+     ""
+    ],
+    [
+     "touch",
+     "touch",
+     ""
+    ],
+    [
+     "cake",
+     "cake",
+     ""
+    ],
+    [
+     "inside",
+     "inside",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "A cake? For a five-hour flight?",
+   "ko": "케이크요? 다섯 시간 비행에?",
+   "note": "되묻기",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "cake",
+     "cake",
+     ""
+    ],
+    [
+     "hour",
+     "hour",
+     ""
+    ],
+    [
+     "flight",
+     "flight",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "It's my sister's wedding cake. Top layer only.",
+   "ko": "동생 결혼식 케이크예요. 맨 윗단만요.",
+   "note": "layer = 층, 단",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "sister's",
+     "sister",
+     ""
+    ],
+    [
+     "wedding",
+     "wedding",
+     ""
+    ],
+    [
+     "cake",
+     "cake",
+     ""
+    ],
+    [
+     "Top",
+     "top",
+     ""
+    ],
+    [
+     "layer",
+     "layer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "en": "Is everything okay here? That bag is actually mine.",
+   "ko": "괜찮으세요? 사실 그 가방 제 거예요.",
+   "note": "actually = 사실",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "everything",
+     "everything",
+     ""
+    ],
+    [
+     "bag",
+     "bag",
+     ""
+    ],
+    [
+     "actually",
+     "actual",
+     ""
+    ],
+    [
+     "mine",
+     "mine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "en": "Wait. Then where's my cake?",
+   "ko": "잠깐만요. 그럼 제 케이크는요?",
+   "note": "반전",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "cake",
+     "cake",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "en": "In the front closet. You handed it to me at the door.",
+   "ko": "앞쪽 수납장에요. 탈 때 저한테 주셨잖아요.",
+   "note": "handed = 건넸다",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "front",
+     "front",
+     ""
+    ],
+    [
+     "closet",
+     "closet",
+     ""
+    ],
+    [
+     "handed",
+     "hand",
+     ""
+    ],
+    [
+     "door",
+     "door",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "en": "Oh no. I've been guarding a stranger's bag for an hour.",
+   "ko": "이런. 한 시간 동안 모르는 사람 가방을 지키고 있었네요.",
+   "note": "guard = 지키다",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "guarding",
+     "guard",
+     ""
+    ],
+    [
+     "stranger's",
+     "strange",
+     ""
+    ],
+    [
+     "bag",
+     "bag",
+     ""
+    ],
+    [
+     "hour",
+     "hour",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "en": "No worries. It was very well guarded.",
+   "ko": "괜찮아요. 아주 잘 지켜졌어요.",
+   "note": "no worries = 괜찮아요",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "worries",
+     "worry",
+     ""
+    ],
+    [
+     "well",
+     "well",
+     ""
+    ],
+    [
+     "guarded",
+     "guard",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "en": "You can put yours up now. Cake crisis over.",
+   "ko": "이제 손님 것 올리셔도 돼요. 케이크 사태 끝.",
+   "note": "crisis = 위기",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "put",
+     "put",
+     ""
+    ],
+    [
+     "Cake",
+     "cake",
+     ""
+    ],
+    [
+     "crisis",
+     "crisis",
+     ""
+    ]
+   ]
+  }
+ ]
+}

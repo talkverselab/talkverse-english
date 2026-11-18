@@ -37,7 +37,34 @@
    "note": "Screen's gonna ask = 팁 화면 돌릴 때 하는 말",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "bucks",
+     "bucks",
+     ""
+    ],
+    [
+     "Screen's",
+     "screen",
+     ""
+    ],
+    [
+     "gonna",
+     "go",
+     ""
+    ],
+    [
+     "ask",
+     "ask",
+     ""
+    ],
+    [
+     "question",
+     "question",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -47,7 +74,24 @@
    "note": "tip = 봉사료",
    "tags": [],
    "new": [],
-   "emotion": "surprised"
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "Tip",
+     "tip",
+     ""
+    ],
+    [
+     "cookie",
+     "cookie",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -57,7 +101,14 @@
    "note": "it's okay = 괜찮아요",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Totally",
+     "total",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -67,7 +118,19 @@
    "note": "staring right at = 빤히 보다",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "staring",
+     "star",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -77,7 +140,14 @@
    "note": "보면서 하는 말",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "staring",
+     "star",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -87,7 +157,24 @@
    "note": "hit = 누르다",
    "tags": [],
    "new": [],
-   "emotion": "worried"
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "hit",
+     "hit",
+     ""
+    ],
+    [
+     "thirty",
+     "thirty",
+     ""
+    ],
+    [
+     "percent",
+     "percent",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -99,7 +186,19 @@
     "heart"
    ],
    "new": [],
-   "emotion": "amused"
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "saw",
+     "see",
+     ""
+    ],
+    [
+     "favorite",
+     "favorite",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -109,7 +208,29 @@
    "note": "Can I have ~? = ~ 주실래요",
    "tags": [],
    "new": [],
-   "emotion": "neutral"
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Cool",
+     "cool",
+     ""
+    ],
+    [
+     "Napkin",
+     "napkin",
+     ""
+    ],
+    [
+     "tears",
+     "tears",
+     ""
+    ],
+    [
+     "please",
+     "please",
+     ""
+    ]
+   ]
   }
  ]
 }

@@ -1,0 +1,216 @@
+{
+ "id": "r1_love_a2",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "빨래방에서 양말 한 짝",
+ "emoji": "🧦",
+ "scene": "빨래방에서 Emma 가 학습자 양말 한 짝을 들고 와 \"이거 찾아요?\" 하더니 돌려주는 조건을 건다",
+ "where": "동네 빨래방",
+ "goal": "가볍게 대화 이어 가기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emma"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [
+  "excuse me",
+  "are you sure",
+  "i guess",
+  "maybe"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Excuse me. Are you missing a sock?",
+   "ko": "저기요. 양말 한 짝 없어지지 않았어요?",
+   "note": "missing = 없어진",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "missing",
+     "miss",
+     ""
+    ],
+    [
+     "sock",
+     "sock",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Maybe. Is it blue with little cats?",
+   "ko": "그럴지도요. 작은 고양이 있는 파란 거요?",
+   "note": "maybe = 그럴지도",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Maybe",
+     "maybe",
+     ""
+    ],
+    [
+     "blue",
+     "blue",
+     ""
+    ],
+    [
+     "little",
+     "little",
+     ""
+    ],
+    [
+     "cats",
+     "cat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Yep. Very serious sock.",
+   "ko": "네. 아주 진지한 양말이네요.",
+   "note": "serious = 진지한",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "serious",
+     "serious",
+     ""
+    ],
+    [
+     "sock",
+     "sock",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Can I have it back?",
+   "ko": "돌려주실래요?",
+   "note": "Can I have ~ back? = 돌려주세요",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "One coffee. Then it's yours.",
+   "ko": "커피 한 잔이요. 그럼 돌려드릴게요.",
+   "note": "then it's yours = 그럼 당신 거",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "coffee",
+     "coffee",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "I guess I just want coffee with you.",
+   "ko": "그냥 당신이랑 커피 마시고 싶은 거 같아요.",
+   "note": "I guess = ~인 것 같아요",
+   "tags": [
+    "heart"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "guess",
+     "guess",
+     ""
+    ],
+    [
+     "want",
+     "want",
+     ""
+    ],
+    [
+     "coffee",
+     "coffee",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "Are you sure it's not your sock plan?",
+   "ko": "그거 양말 작전 아니에요?",
+   "note": "are you sure = 확실해요?",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "sure",
+     "sure",
+     ""
+    ],
+    [
+     "sock",
+     "sock",
+     ""
+    ],
+    [
+     "plan",
+     "plan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "It was. It worked.",
+   "ko": "맞아요. 먹혔네요.",
+   "note": "it worked = 통했다",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "worked",
+     "work",
+     ""
+    ]
+   ]
+  }
+ ]
+}

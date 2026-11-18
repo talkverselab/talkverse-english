@@ -1,0 +1,307 @@
+{
+ "id": "r2_love_b3",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "비 오는 날 우산 하나",
+ "emoji": "☂️",
+ "scene": "버스 정류장에서 우산 없는 학습자에게 Emma 가 먼저 우산을 내밀고, 사실 집 방향이 정반대다",
+ "where": "비 오는 버스 정류장",
+ "goal": "호의 받기와 돌려 말하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emma"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "are you sure",
+  "no big deal",
+  "i knew it"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "You're getting soaked. Come under here.",
+   "ko": "너 다 젖는다. 여기 들어와.",
+   "note": "soaked = 흠뻑 젖은",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "getting",
+     "get",
+     ""
+    ],
+    [
+     "soaked",
+     "soaked",
+     ""
+    ],
+    [
+     "Come",
+     "come",
+     ""
+    ],
+    [
+     "under",
+     "under",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Are you sure? It's a small umbrella.",
+   "ko": "진짜 괜찮아? 우산 작은데.",
+   "note": "are you sure = 확실해",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "sure",
+     "sure",
+     ""
+    ],
+    [
+     "small",
+     "small",
+     ""
+    ],
+    [
+     "umbrella",
+     "umbrella",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "It's fine. Which way are you going?",
+   "ko": "괜찮아. 너 어느 쪽 가?",
+   "note": "which way = 어느 쪽",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "fine",
+     "fine",
+     ""
+    ],
+    [
+     "way",
+     "way",
+     ""
+    ],
+    [
+     "going",
+     "going",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Up that hill. Ten minutes.",
+   "ko": "저 언덕 위로. 10분.",
+   "note": "hill = 언덕",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "hill",
+     "hill",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Same. Let's go. No big deal.",
+   "ko": "나도. 가자. 별거 아냐.",
+   "note": "no big deal = 별일 아냐",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Let's",
+     "let",
+     ""
+    ],
+    [
+     "go",
+     "go",
+     ""
+    ],
+    [
+     "big",
+     "big",
+     ""
+    ],
+    [
+     "deal",
+     "deal",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Your shoulder's all wet, Emma.",
+   "ko": "에마, 네 어깨 다 젖었어.",
+   "note": "shoulder = 어깨",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "wet",
+     "wet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "It's my bad side anyway.",
+   "ko": "어차피 내 안 예쁜 쪽이야.",
+   "note": "bad side = 안 예쁜 쪽",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "bad",
+     "worse",
+     ""
+    ],
+    [
+     "side",
+     "side",
+     ""
+    ],
+    [
+     "anyway",
+     "anyway",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "So where do you live?",
+   "ko": "그래서 너 어디 살아?",
+   "note": "where do you live = 어디 살아",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "live",
+     "live",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "Um. Down there. Next to the bus stop.",
+   "ko": "음. 저 아래. 버스 정류장 옆.",
+   "note": "next to = ~ 옆",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Next",
+     "next",
+     ""
+    ],
+    [
+     "bus",
+     "bus",
+     ""
+    ],
+    [
+     "stop",
+     "stop",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "I knew it. You walked me up for nothing.",
+   "ko": "그럴 줄 알았어. 괜히 나 데려다준 거네.",
+   "note": "for nothing = 괜히",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "knew",
+     "know",
+     ""
+    ],
+    [
+     "walked",
+     "walk",
+     ""
+    ],
+    [
+     "nothing",
+     "nothing",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "en": "Not for nothing.",
+   "ko": "괜히는 아니야.",
+   "note": "짧게 끝내기",
+   "tags": [
+    "heart"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "nothing",
+     "nothing",
+     ""
+    ]
+   ]
+  }
+ ]
+}

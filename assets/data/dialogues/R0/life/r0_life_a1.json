@@ -1,0 +1,177 @@
+{
+ "id": "r0_life_a1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "냉장고 속 이름표",
+ "emoji": "🧃",
+ "scene": "룸메이트 Daniel 이 냉장고 모든 것에 이름표를 붙였다",
+ "where": "집 부엌",
+ "goal": "누구 것인지 묻기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Daniel"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "what's up",
+  "come on"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "Hey Daniel. What's up?",
+   "ko": "대니얼. 뭐 해?",
+   "note": "what's up = 뭐 해",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "What's",
+     "what",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "Name tags. On my food.",
+   "ko": "이름표. 내 음식에.",
+   "note": "name tag = 이름표",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Name",
+     "name",
+     ""
+    ],
+    [
+     "tags",
+     "tag",
+     ""
+    ],
+    [
+     "food",
+     "food",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "The milk is yours?",
+   "ko": "우유가 네 거야?",
+   "note": "yours = 네 것",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "milk",
+     "milk",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "en": "Yes. The eggs too.",
+   "ko": "응. 달걀도.",
+   "note": "too = ~도",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "eggs",
+     "eggs",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "en": "And the water? Come on.",
+   "ko": "물도? 왜 이래.",
+   "note": "come on = 왜 이래",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "water",
+     "water",
+     ""
+    ],
+    [
+     "Come",
+     "come",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "en": "Yes. And this one.",
+   "ko": "응. 이것도.",
+   "note": "this one = 이거",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "That says \"{name}\".",
+   "ko": "거기 「{name}」라고 써 있는데.",
+   "note": "says = ~라고 쓰여 있다",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "says",
+     "say",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "For you. Your yogurt.",
+   "ko": "너 주려고. 네 요거트.",
+   "note": "말없이 챙김",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "yogurt",
+     "yogurt",
+     ""
+    ]
+   ]
+  }
+ ]
+}

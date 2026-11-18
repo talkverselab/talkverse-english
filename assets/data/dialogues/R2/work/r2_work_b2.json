@@ -1,0 +1,294 @@
+{
+ "id": "r2_work_b2",
+ "region": "R2",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "점심 주문 총무",
+ "emoji": "🥗",
+ "scene": "팀 점심 주문을 맡았는데 모두 \"아무거나\"라더니 받고 나서 불평한다",
+ "where": "사무실 휴게실",
+ "goal": "의견 묻기와 정하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jake",
+  "C": "Maya"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "i don't know",
+  "it depends",
+  "told you"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "en": "I'm ordering lunch. What do you guys want?",
+   "ko": "점심 시킬 건데. 뭐 먹을래?",
+   "note": "what do you want = 뭐 먹을래",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "ordering",
+     "order",
+     ""
+    ],
+    [
+     "lunch",
+     "lunch",
+     ""
+    ],
+    [
+     "guys",
+     "guy",
+     ""
+    ],
+    [
+     "want",
+     "want",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "en": "I don't know. Anything.",
+   "ko": "몰라. 아무거나.",
+   "note": "anything = 아무거나",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "know",
+     "know",
+     ""
+    ],
+    [
+     "Anything",
+     "anything",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "en": "It depends. Not too heavy. But filling.",
+   "ko": "상황 봐서. 너무 무겁지 않게. 근데 배부르게.",
+   "note": "filling = 배부른",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "depends",
+     "depends",
+     ""
+    ],
+    [
+     "heavy",
+     "heavy",
+     ""
+    ],
+    [
+     "filling",
+     "fill",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Okay. Salads for everyone.",
+   "ko": "알겠어. 다 샐러드.",
+   "note": "for everyone = 모두에게",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Salads",
+     "salad",
+     ""
+    ],
+    [
+     "everyone",
+     "everyone",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Salad? That's not lunch. That's a side.",
+   "ko": "샐러드? 그건 점심이 아니라 반찬이지.",
+   "note": "side = 곁들이는 음식",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Salad",
+     "salad",
+     ""
+    ],
+    [
+     "lunch",
+     "lunch",
+     ""
+    ],
+    [
+     "side",
+     "side",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "en": "Can mine have chicken? And no onions?",
+   "ko": "내 거 닭 넣어 줄 수 있어? 양파 빼고?",
+   "note": "no onions = 양파 빼고",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "mine",
+     "mine",
+     ""
+    ],
+    [
+     "chicken",
+     "chicken",
+     ""
+    ],
+    [
+     "onions",
+     "onion",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "en": "You both said \"anything.\"",
+   "ko": "둘 다 \"아무거나\"라며.",
+   "note": "받아치기",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "said",
+     "say",
+     ""
+    ],
+    [
+     "anything",
+     "anything",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "en": "Anything means pizza. Everyone knows that.",
+   "ko": "아무거나는 피자 뜻이지. 다 알아.",
+   "note": "means = 뜻하다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Anything",
+     "anything",
+     ""
+    ],
+    [
+     "means",
+     "mean",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "Everyone",
+     "everyone",
+     ""
+    ],
+    [
+     "knows",
+     "know",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "en": "Told you. He always does this.",
+   "ko": "내가 말했지. 쟤 맨날 이래.",
+   "note": "told you = 내가 뭐랬어",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Told",
+     "tell",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "Fine. Pizza for him. Salad for us.",
+   "ko": "됐어. 쟤는 피자. 우리는 샐러드.",
+   "note": "for him = 쟤 거",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Fine",
+     "fine",
+     ""
+    ],
+    [
+     "Pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "Salad",
+     "salad",
+     ""
+    ]
+   ]
+  }
+ ]
+}

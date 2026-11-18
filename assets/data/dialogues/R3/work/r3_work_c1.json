@@ -1,0 +1,451 @@
+{
+ "id": "r3_work_c1",
+ "region": "R3",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "화상 회의 음소거",
+ "emoji": "💻",
+ "scene": "재택 화상 회의에서 음소거가 꺼진 줄 모르고 혼잣말을 하다가 팀장 마야가 그걸 칭찬으로 받아 준다",
+ "where": "집, 화상 회의",
+ "goal": "회의에서 의견 말하기·실수 수습하기",
+ "speakers": {
+  "A": "{name}",
+  "B": "Maya"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "expressions": [
+  "to be honest",
+  "that being said",
+  "my bad"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "en": "Okay, last item. Any thoughts on the new schedule?",
+   "ko": "좋아요, 마지막 안건. 새 일정에 의견 있어요?",
+   "note": "thoughts = 의견",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "last",
+     "last",
+     ""
+    ],
+    [
+     "item",
+     "item",
+     ""
+    ],
+    [
+     "thoughts",
+     "thought",
+     ""
+    ],
+    [
+     "new",
+     "new",
+     ""
+    ],
+    [
+     "schedule",
+     "schedule",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "en": "Sorry, give me a second. My cat's on the keyboard.",
+   "ko": "죄송해요, 잠깐만요. 고양이가 키보드 위에 있어서요.",
+   "note": "give me a second = 잠깐만",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Sorry",
+     "sorry",
+     ""
+    ],
+    [
+     "give",
+     "give",
+     ""
+    ],
+    [
+     "second",
+     "second",
+     ""
+    ],
+    [
+     "cat's",
+     "cat",
+     ""
+    ],
+    [
+     "keyboard",
+     "keyboard",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "en": "Take your time. We love the cat.",
+   "ko": "천천히 해요. 다들 고양이 좋아해요.",
+   "note": "take your time = 천천히",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Take",
+     "take",
+     ""
+    ],
+    [
+     "time",
+     "time",
+     ""
+    ],
+    [
+     "love",
+     "love",
+     ""
+    ],
+    [
+     "cat",
+     "cat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "en": "Okay. To be honest, the Monday meeting feels a little early.",
+   "ko": "네. 솔직히 월요일 회의가 좀 이른 것 같아요.",
+   "note": "to be honest = 솔직히",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "honest",
+     "honest",
+     ""
+    ],
+    [
+     "Monday",
+     "monday",
+     ""
+    ],
+    [
+     "meeting",
+     "meet",
+     ""
+    ],
+    [
+     "feels",
+     "feel",
+     ""
+    ],
+    [
+     "little",
+     "little",
+     ""
+    ],
+    [
+     "early",
+     "early",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "en": "Fair. How early is too early?",
+   "ko": "그럴 수 있죠. 얼마나 이르면 너무 이른 거예요?",
+   "note": "too early = 너무 이른",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Fair",
+     "fair",
+     ""
+    ],
+    [
+     "early",
+     "early",
+     ""
+    ],
+    [
+     "early",
+     "early",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "en": "Eight is fine. Seven means I'm still asleep. Actually, I'm still asleep at eight.",
+   "ko": "8시는 괜찮아요. 7시면 전 아직 자요. 사실 8시에도 자요.",
+   "note": "혼잣말이 다 들림",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "fine",
+     "fine",
+     ""
+    ],
+    [
+     "means",
+     "mean",
+     ""
+    ],
+    [
+     "asleep",
+     "asleep",
+     ""
+    ],
+    [
+     "Actually",
+     "actual",
+     ""
+    ],
+    [
+     "asleep",
+     "asleep",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "en": "You know you're not muted, right?",
+   "ko": "음소거 안 된 거 알죠?",
+   "note": "muted = 음소거된",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "know",
+     "know",
+     ""
+    ],
+    [
+     "muted",
+     "mute",
+     ""
+    ],
+    [
+     "right",
+     "right",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "Oh no. My bad. Everyone heard that?",
+   "ko": "이런. 제 실수예요. 다들 들으셨어요?",
+   "note": "my bad = 내 실수",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "bad",
+     "worse",
+     ""
+    ],
+    [
+     "Everyone",
+     "everyone",
+     ""
+    ],
+    [
+     "heard",
+     "hear",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "en": "Everyone. Even the client.",
+   "ko": "다요. 고객사도요.",
+   "note": "client = 고객사",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Everyone",
+     "everyone",
+     ""
+    ],
+    [
+     "client",
+     "client",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "I'm so sorry. That was very unprofessional.",
+   "ko": "정말 죄송해요. 너무 프로답지 못했어요.",
+   "note": "unprofessional = 프로답지 못한",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "sorry",
+     "sorry",
+     ""
+    ],
+    [
+     "unprofessional",
+     "unprofessional",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "en": "That being said, it's the most honest thing anyone said today.",
+   "ko": "그렇긴 한데, 오늘 나온 말 중에 제일 솔직했어요.",
+   "note": "that being said = 그렇긴 해도",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "said",
+     "say",
+     ""
+    ],
+    [
+     "honest",
+     "honest",
+     ""
+    ],
+    [
+     "thing",
+     "thing",
+     ""
+    ],
+    [
+     "anyone",
+     "anyone",
+     ""
+    ],
+    [
+     "said",
+     "say",
+     ""
+    ],
+    [
+     "today",
+     "today",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "en": "The client says they're asleep at eight too.",
+   "ko": "고객사도 8시엔 잔대요.",
+   "note": "반전",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "client",
+     "client",
+     ""
+    ],
+    [
+     "says",
+     "say",
+     ""
+    ],
+    [
+     "asleep",
+     "asleep",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "en": "So we're moving it?",
+   "ko": "그럼 옮기는 거예요?",
+   "note": "move = 옮기다",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "moving",
+     "move",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "en": "Nine-thirty. All because of you and the cat.",
+   "ko": "9시 반이요. 전부 당신하고 고양이 덕분이에요.",
+   "note": "because of = ~때문에",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "thirty",
+     "thirty",
+     ""
+    ],
+    [
+     "cat",
+     "cat",
+     ""
+    ]
+   ]
+  }
+ ]
+}
