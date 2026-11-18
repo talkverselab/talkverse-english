@@ -32,12 +32,12 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Hi. My throat's been killing me since yesterday.",
+   "en": "Hi. My throat's been really sore since yesterday.",
    "ko": "안녕하세요. 어제부터 목이 너무 아파요.",
-   "note": "killing me = 엄청 아프다",
+   "note": "throat = 목",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "throat's",
@@ -45,8 +45,13 @@
      ""
     ],
     [
-     "killing",
-     "kill",
+     "really",
+     "real",
+     ""
+    ],
+    [
+     "sore",
+     "sore",
      ""
     ],
     [
@@ -64,25 +69,20 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Sorry to hear that. Any fever or cough?",
-   "ko": "안됐네요. 열이나 기침은요?",
-   "note": "fever = 열",
+   "en": "Any other symptoms? Fever or cough?",
+   "ko": "다른 증상 있어요? 열이나 기침?",
+   "note": "symptoms = 증상",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Sorry",
-     "sorry",
+     "symptoms",
+     "symptoms",
      ""
     ],
     [
-     "hear",
-     "hear",
-     ""
-    ],
-    [
-     "fever",
+     "Fever",
      "fever",
      ""
     ],
@@ -96,9 +96,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "No fever. A little cough at night, mostly after ice cream.",
-   "ko": "열은 없어요. 밤에 기침 조금요, 주로 아이스크림 먹고 나서요.",
-   "note": "mostly = 주로",
+   "en": "No fever. Just hurts when I swallow.",
+   "ko": "열은 없어요. 삼킬 때만 아파요.",
+   "note": "swallow = 삼키다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -109,33 +109,13 @@
      ""
     ],
     [
-     "little",
-     "little",
+     "hurts",
+     "hurt",
      ""
     ],
     [
-     "cough",
-     "cough",
-     ""
-    ],
-    [
-     "night",
-     "night",
-     ""
-    ],
-    [
-     "after",
-     "after",
-     ""
-    ],
-    [
-     "ice",
-     "ice",
-     ""
-    ],
-    [
-     "cream",
-     "cream",
+     "swallow",
+     "swallow",
      ""
     ]
    ]
@@ -143,36 +123,21 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Ice cream. Okay. Are you taking anything right now?",
-   "ko": "아이스크림이요. 네. 지금 드시는 약 있어요?",
-   "note": "taking = 복용 중",
+   "en": "Have you taken anything yet?",
+   "ko": "뭐 드신 거 있어요?",
+   "note": "taken = 드시다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Ice",
-     "ice",
-     ""
-    ],
-    [
-     "cream",
-     "cream",
-     ""
-    ],
-    [
-     "taking",
+     "taken",
      "take",
      ""
     ],
     [
      "anything",
      "anything",
-     ""
-    ],
-    [
-     "right",
-     "right",
      ""
     ]
    ]
@@ -212,12 +177,12 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "What kind of tea? It depends on what's in it.",
+   "en": "What kind of tea? It depends what's in it.",
    "ko": "무슨 차요? 뭐가 들었느냐에 따라 달라서요.",
-   "note": "it depends = 그때그때 달라",
+   "note": "it depends = 에 따라 달라서요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "kind",
@@ -244,41 +209,36 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Green, I think. The box has a tiny sleeping panda on it.",
-   "ko": "녹차 같아요. 상자에 자는 판다가 조그맣게 있어요.",
-   "note": "tiny = 아주 작은",
+   "en": "Some herbal thing. Smells like flowers.",
+   "ko": "허브 같은 거요. 꽃 냄새 나요.",
+   "note": "herbal = 허브",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Green",
-     "green",
+     "herbal",
+     "herbal",
      ""
     ],
     [
-     "think",
-     "think",
+     "thing",
+     "thing",
      ""
     ],
     [
-     "box",
-     "box",
+     "Smells",
+     "smell",
      ""
     ],
     [
-     "tiny",
-     "tiny",
+     "like",
+     "like",
      ""
     ],
     [
-     "sleeping",
-     "sleep",
-     ""
-    ],
-    [
-     "panda",
-     "panda",
+     "flowers",
+     "flowers",
      ""
     ]
    ]
@@ -286,31 +246,26 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "That's probably chamomile. Totally fine.",
-   "ko": "그건 아마 캐모마일이에요. 전혀 괜찮아요.",
-   "note": "probably = 아마",
+   "en": "Okay. How long does the pain last?",
+   "ko": "알겠어요. 통증은 얼마나 지속돼요?",
+   "note": "pain = 통증",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "probably",
-     "probably",
+     "long",
+     "long",
      ""
     ],
     [
-     "chamomile",
-     "chamomile",
+     "pain",
+     "pain",
      ""
     ],
     [
-     "Totally",
-     "total",
-     ""
-    ],
-    [
-     "fine",
-     "fine",
+     "last",
+     "last",
      ""
     ]
    ]
@@ -318,23 +273,13 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "Oh, and last week I sang for three hours at a party.",
+   "en": "Oh, and I sang for three hours at a party last week.",
    "ko": "아, 그리고 지난주에 파티에서 세 시간 노래했어요.",
-   "note": "sang = 노래했다",
+   "note": "sang = 노래하다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
-    [
-     "last",
-     "last",
-     ""
-    ],
-    [
-     "week",
-     "week",
-     ""
-    ],
     [
      "sang",
      "sing",
@@ -349,37 +294,32 @@
      "party",
      "party",
      ""
+    ],
+    [
+     "last",
+     "last",
+     ""
+    ],
+    [
+     "week",
+     "week",
+     ""
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "B",
-   "en": "Here are throat drops. Take one every four hours.",
-   "ko": "여기 목캔디요. 네 시간마다 하나씩 드세요.",
-   "note": "말 끊고 바로 약",
+   "en": "That might be it. Overuse.",
+   "ko": "그게 원인일 수도요. 과사용.",
+   "note": "overuse = 과사용",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "throat",
-     "throat",
-     ""
-    ],
-    [
-     "drops",
-     "drop",
-     ""
-    ],
-    [
-     "Take",
-     "take",
-     ""
-    ],
-    [
-     "hours",
-     "hour",
+     "Overuse",
+     "overuse",
      ""
     ]
    ]
@@ -387,12 +327,12 @@
   {
    "num": 11,
    "speaker": "A",
-   "en": "Are you sure? You didn't ask about the singing.",
+   "en": "Are you sure? You didn't ask about singing.",
    "ko": "확실해요? 노래 얘기는 안 물어보셨잖아요.",
-   "note": "are you sure = 확실해?",
+   "note": "are you sure = 확실해요",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
      "sure",
@@ -414,31 +354,26 @@
   {
    "num": 12,
    "speaker": "B",
-   "en": "I heard. The whole line heard.",
-   "ko": "들었어요. 줄 선 분들 다 들으셨어요.",
-   "note": "the whole line = 줄 전체",
+   "en": "It's relevant. Rest your voice.",
+   "ko": "관련 있어요. 목소리 쉬세요.",
+   "note": "relevant = 관련 있는",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "polite",
    "lemmas": [
     [
-     "heard",
-     "hear",
+     "relevant",
+     "relevant",
      ""
     ],
     [
-     "whole",
-     "whole",
+     "Rest",
+     "rest",
      ""
     ],
     [
-     "line",
-     "line",
-     ""
-    ],
-    [
-     "heard",
-     "hear",
+     "voice",
+     "voice",
      ""
     ]
    ]
@@ -446,21 +381,16 @@
   {
    "num": 13,
    "speaker": "A",
-   "en": "Oh. Sorry, everyone.",
-   "ko": "아. 다들 죄송해요.",
-   "note": "everyone = 여러분",
+   "en": "So no more parties?",
+   "ko": "그럼 파티 그만?",
+   "note": "parties = 파티",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Sorry",
-     "sorry",
-     ""
-    ],
-    [
-     "everyone",
-     "everyone",
+     "parties",
+     "party",
      ""
     ]
    ]
@@ -470,10 +400,10 @@
    "speaker": "B",
    "en": "No ice cream tonight. That's the real medicine.",
    "ko": "오늘 밤엔 아이스크림 금지. 그게 진짜 약이에요.",
-   "note": "the real medicine = 진짜 약",
+   "note": "ice cream = 아이스크림",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "amused",
    "lemmas": [
     [
      "ice",

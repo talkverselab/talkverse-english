@@ -34,10 +34,10 @@
    "speaker": "B",
    "en": "{name}, did you eat my pizza?",
    "ko": "{name}, 너 내 피자 먹었어?",
-   "note": "did you eat = 먹었어",
+   "note": "pizza = 피자",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "annoyed",
    "lemmas": [
     [
      "eat",
@@ -81,16 +81,26 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "There were three slices. Now there's one.",
-   "ko": "세 조각 있었는데. 이제 하나야.",
-   "note": "slice = 조각",
+   "en": "The box is empty in the fridge.",
+   "ko": "냉장고에 상자 비어 있어.",
+   "note": "empty = 빈",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "slices",
-     "slice",
+     "box",
+     "box",
+     ""
+    ],
+    [
+     "empty",
+     "empty",
+     ""
+    ],
+    [
+     "fridge",
+     "fridge",
      ""
     ]
    ]
@@ -100,7 +110,7 @@
    "speaker": "A",
    "en": "I swear I didn't touch it.",
    "ko": "진짜 손도 안 댔어.",
-   "note": "I swear = 맹세해",
+   "note": "i swear = 진짜",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -120,21 +130,31 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Then who? Daniel only eats salad.",
-   "ko": "그럼 누구야? 대니얼은 샐러드만 먹잖아.",
-   "note": "only eats = ~만 먹다",
+   "en": "Someone took the last two slices.",
+   "ko": "누가 마지막 두 조각 가져갔어.",
+   "note": "slices = 조각",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "eats",
-     "eat",
+     "Someone",
+     "someone",
      ""
     ],
     [
-     "salad",
-     "salad",
+     "took",
+     "take",
+     ""
+    ],
+    [
+     "last",
+     "last",
+     ""
+    ],
+    [
+     "slices",
+     "slice",
      ""
     ]
    ]
@@ -142,9 +162,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Come on, look at the box. There's your note.",
+   "en": "Come on, look at the box. Your note's there.",
    "ko": "야, 상자 좀 봐. 네 쪽지 있잖아.",
-   "note": "note = 쪽지",
+   "note": "come on = 야",
    "tags": [],
    "new": [],
    "emotion": "teasing",
@@ -165,7 +185,7 @@
      ""
     ],
     [
-     "note",
+     "note's",
      "note",
      ""
     ]
@@ -174,16 +194,26 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "\"Jake, don't eat this at 2 a.m.\"",
-   "ko": "\"제이크, 새벽 두 시에 이거 먹지 마.\"",
-   "note": "자기한테 쓴 쪽지",
+   "en": "Wait, I wrote that this morning.",
+   "ko": "잠깐, 그거 오늘 아침 내가 썼어.",
+   "note": "wrote = 썼다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "eat",
-     "eat",
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "wrote",
+     "write",
+     ""
+    ],
+    [
+     "morning",
+     "morning",
      ""
     ]
    ]
@@ -191,26 +221,26 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "You wrote that to yourself, man.",
-   "ko": "그거 네가 너한테 쓴 거잖아.",
-   "note": "to yourself = 너 자신에게",
+   "en": "Yeah, and you left the lid open.",
+   "ko": "응, 그리고 뚜껑 열어 뒀잖아.",
+   "note": "lid = 뚜껑",
    "tags": [],
    "new": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "wrote",
-     "write",
+     "left",
+     "leave",
      ""
     ],
     [
-     "yourself",
-     "yourself",
+     "lid",
+     "lid",
      ""
     ],
     [
-     "man",
-     "man",
+     "open",
+     "open",
      ""
     ]
    ]
@@ -220,7 +250,7 @@
    "speaker": "B",
    "en": "Oh. That's why my shirt smells like pepperoni.",
    "ko": "아. 그래서 내 셔츠에서 페퍼로니 냄새가 나는구나.",
-   "note": "smells like = ~ 냄새가 나다",
+   "note": "pepperoni = 페퍼로니",
    "tags": [],
    "new": [],
    "emotion": "surprised",
@@ -250,31 +280,26 @@
   {
    "num": 10,
    "speaker": "A",
-   "en": "Mystery solved. You owe me an apology.",
+   "en": "Case closed. Apologize.",
    "ko": "사건 해결. 사과해.",
-   "note": "owe ~ an apology = 사과할 게 있다",
+   "note": "case closed = 사건 해결",
    "tags": [],
    "new": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "Mystery",
-     "mystery",
+     "Case",
+     "case",
      ""
     ],
     [
-     "solved",
-     "solve",
+     "closed",
+     "close",
      ""
     ],
     [
-     "owe",
-     "owe",
-     ""
-    ],
-    [
-     "apology",
-     "apology",
+     "Apologize",
+     "apologize",
      ""
     ]
    ]

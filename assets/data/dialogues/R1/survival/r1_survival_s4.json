@@ -31,29 +31,30 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Hi there. Just this?",
+   "en": "Hi. Just this today?",
    "ko": "안녕하세요. 이것만요?",
    "note": "just this = 이것만",
    "tags": [],
    "new": [],
    "emotion": "polite",
-   "lemmas": []
+   "lemmas": [
+    [
+     "today",
+     "today",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "en": "Yes. Something for a headache.",
-   "ko": "네. 두통에 먹는 거요.",
-   "note": "headache = 두통",
+   "en": "Yes, the headache one.",
+   "ko": "네, 두통약 하나요.",
+   "note": "headache one = 두통약 하나",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
-    [
-     "Something",
-     "something",
-     ""
-    ],
     [
      "headache",
      "headache",
@@ -64,21 +65,26 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "You have our rewards card?",
-   "ko": "저희 적립 카드 있으세요?",
-   "note": "rewards card = 적립 카드",
+   "en": "Want to join our rewards?",
+   "ko": "리워드 가입하시겠어요?",
+   "note": "join rewards = 리워드 가입",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "rewards",
-     "reward",
+     "Want",
+     "want",
      ""
     ],
     [
-     "card",
-     "card",
+     "join",
+     "join",
+     ""
+    ],
+    [
+     "rewards",
+     "reward",
      ""
     ]
    ]
@@ -88,10 +94,10 @@
    "speaker": "A",
    "en": "Sure.",
    "ko": "네.",
-   "note": "뜻을 몰라도 일단 Sure",
+   "note": "sure = 네",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "Sure",
@@ -103,31 +109,26 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Great, I'll sign you up. Receipt by email?",
-   "ko": "좋아요, 가입해 드릴게요. 영수증은 메일로요?",
-   "note": "sign up = 가입시키다",
+   "en": "Email receipt or print?",
+   "ko": "이메일 영수증 아니면 출력?",
+   "note": "email or print = 이메일 아니면 출력",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Great",
-     "great",
+     "Email",
+     "email",
      ""
     ],
     [
-     "sign",
-     "sign",
-     ""
-    ],
-    [
-     "Receipt",
+     "receipt",
      "receipt",
      ""
     ],
     [
-     "email",
-     "email",
+     "print",
+     "print",
      ""
     ]
    ]
@@ -137,7 +138,7 @@
    "speaker": "A",
    "en": "Sure.",
    "ko": "네.",
-   "note": "또 Sure",
+   "note": "sure = 네",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -152,21 +153,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Okay. Here's your receipt. And your coupons.",
-   "ko": "네. 영수증이요. 그리고 쿠폰도요.",
-   "note": "coupons = 쿠폰",
+   "en": "Okay, printing everything now.",
+   "ko": "알겠어요, 지금 다 출력할게요.",
+   "note": "printing everything = 다 출력",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "receipt",
-     "receipt",
+     "printing",
+     "print",
      ""
     ],
     [
-     "coupons",
-     "coupon",
+     "everything",
+     "everything",
      ""
     ]
    ]
@@ -176,7 +177,7 @@
    "speaker": "A",
    "en": "Wait. This receipt is longer than me.",
    "ko": "잠깐만요. 영수증이 저보다 길어요.",
-   "note": "longer than = ~보다 긴",
+   "note": "longer than me = 저보다 길다",
    "tags": [],
    "new": [],
    "emotion": "surprised",

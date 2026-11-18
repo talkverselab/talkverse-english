@@ -55,15 +55,15 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Oh, hi! Is everything okay?",
-   "ko": "아, 안녕하세요! 별일 없죠?",
-   "note": "is everything okay = 별일 없죠?",
+   "en": "Oh, hello. Everything okay?",
+   "ko": "아, 안녕. 괜찮은가요?",
+   "note": "everything okay = 괜찮은가요",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "everything",
+     "Everything",
      "everything",
      ""
     ]
@@ -72,12 +72,12 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "I think so. It's about the guitar.",
+   "en": "I think so. About the guitar.",
    "ko": "그런 것 같아요. 기타 얘기인데요.",
-   "note": "I think so = 그런 것 같아요",
+   "note": "i think so = 그런 것 같다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "think",
@@ -94,9 +94,9 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Is it too loud?",
-   "ko": "너무 시끄러워요?",
-   "note": "too loud = 너무 시끄러운",
+   "en": "Too loud at night?",
+   "ko": "밤에 너무 시끄러워요?",
+   "note": "too loud = 너무 시끄럽다",
    "tags": [],
    "new": [],
    "emotion": "worried",
@@ -105,32 +105,32 @@
      "loud",
      "loud",
      ""
+    ],
+    [
+     "night",
+     "night",
+     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "en": "I play every night at midnight.",
-   "ko": "제가 매일 밤 12시에 치거든요.",
-   "note": "every night = 매일 밤",
+   "en": "I can stop if you want.",
+   "ko": "원하시면 멈출게요.",
+   "note": "stop if = 멈추다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "play",
-     "play",
+     "stop",
+     "stop",
      ""
     ],
     [
-     "night",
-     "night",
-     ""
-    ],
-    [
-     "midnight",
-     "midnight",
+     "want",
+     "want",
      ""
     ]
    ]
@@ -138,26 +138,26 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Yes, and… you're really good! Can you play more?",
+   "en": "Yes, and... you play so well! More please?",
    "ko": "네, 그리고… 진짜 잘 치세요! 더 쳐 주실래요?",
-   "note": "항의하려다 칭찬",
+   "note": "play so well = 진짜 잘 치다",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "really",
-     "real",
+     "play",
+     "play",
      ""
     ],
     [
-     "good",
-     "better",
+     "well",
+     "well",
      ""
     ],
     [
-     "play",
-     "play",
+     "please",
+     "please",
      ""
     ]
    ]
@@ -165,12 +165,12 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Are you sure? Tonight, a new song!",
+   "en": "Are you sure? New song tonight!",
    "ko": "정말요? 오늘 밤엔 신곡이에요!",
-   "note": "are you sure = 정말요?",
+   "note": "are you sure = 정말요",
    "tags": [],
    "new": [],
-   "emotion": "excited",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "sure",
@@ -178,18 +178,18 @@
      ""
     ],
     [
-     "Tonight",
+     "New",
+     "new",
+     ""
+    ],
+    [
+     "song",
+     "song",
+     ""
+    ],
+    [
      "tonight",
-     ""
-    ],
-    [
-     "new",
-     "new",
-     ""
-    ],
-    [
-     "song",
-     "song",
+     "tonight",
      ""
     ]
    ]
@@ -197,12 +197,12 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "No problem… I'll sleep tomorrow.",
+   "en": "No problem... I'll sleep tomorrow.",
    "ko": "괜찮아요… 잠은 내일 잘게요.",
    "note": "no problem = 괜찮아요",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "amused",
    "lemmas": [
     [
      "problem",

@@ -10,11 +10,11 @@
  "domain": [
   "love"
  ],
- "title": "줄 서기의 기술",
+ "title": "Line Standing 101",
  "emoji": "🥯",
- "scene": "아침 베이글 가게 줄에서 매일 마주치는 다니엘이 일부러 학습자 뒤에 서 왔다는 걸 털어놓는다",
- "where": "아침 베이글 가게 줄",
- "goal": "가벼운 스몰토크에서 마음 떠보기",
+ "scene": "Morning bagel shop line, Daniel admits he lines up behind you on purpose every day",
+ "where": "Morning bagel shop line",
+ "goal": "Light small talk to testing the waters",
  "speakers": {
   "A": "{name}",
   "B": "Daniel"
@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Same time, same line. We have to stop meeting like this.",
-   "ko": "같은 시간, 같은 줄. 우리 이렇게 그만 만나야겠다.",
-   "note": "stop meeting like this = 이렇게 자꾸 만나는 거",
+   "en": "Same time, same line. We really gotta stop meeting like this.",
+   "ko": "같은 시간, 같은 줄. 이렇게 자꾸 마주치는 거 진짜 그만해야겠다.",
+   "note": "stop meeting like this = 이렇게 자꾸 마주치다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -47,6 +47,16 @@
     [
      "line",
      "line",
+     ""
+    ],
+    [
+     "really",
+     "real",
+     ""
+    ],
+    [
+     "gotta",
+     "get",
      ""
     ],
     [
@@ -69,26 +79,41 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "You're the one behind me every single morning.",
-   "ko": "매일 아침 내 뒤에 서는 건 너거든.",
-   "note": "every single = 하루도 빠짐없이",
+   "en": "Or the universe just really wants us to get bagels together.",
+   "ko": "아니면 우주가 우리한테 베이글 같이 먹으라고 하는 거겠지.",
+   "note": "universe wants = 우주가 원하다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "behind",
-     "behind",
+     "universe",
+     "universe",
      ""
     ],
     [
-     "single",
-     "single",
+     "really",
+     "real",
      ""
     ],
     [
-     "morning",
-     "morning",
+     "wants",
+     "want",
+     ""
+    ],
+    [
+     "get",
+     "get",
+     ""
+    ],
+    [
+     "bagels",
+     "bagel",
+     ""
+    ],
+    [
+     "together",
+     "together",
      ""
     ]
    ]
@@ -96,31 +121,36 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Coincidence. This is the only good bagel place.",
-   "ko": "우연이야. 여기가 유일하게 괜찮은 베이글 집이잖아.",
-   "note": "coincidence = 우연",
+   "en": "This spot has the best everything bagels, no argument.",
+   "ko": "여기 에브리싱 베이글이 진짜 최고야, 반론 불가.",
+   "note": "no argument = 반론 불가",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Coincidence",
-     "coincidence",
+     "spot",
+     "spot",
      ""
     ],
     [
+     "best",
      "good",
-     "better",
      ""
     ],
     [
-     "bagel",
+     "everything",
+     "everything",
+     ""
+    ],
+    [
+     "bagels",
      "bagel",
      ""
     ],
     [
-     "place",
-     "place",
+     "argument",
+     "argument",
      ""
     ]
    ]
@@ -128,26 +158,21 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "There's one across the street. With no line.",
-   "ko": "길 건너에도 하나 있는데. 줄도 없고.",
-   "note": "across the street = 길 건너",
+   "en": "I always go sesame. What about you?",
+   "ko": "나는 항상 참깨. 너는?",
+   "note": "go sesame = 참깨로 하다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "across",
-     "across",
+     "go",
+     "go",
      ""
     ],
     [
-     "street",
-     "street",
-     ""
-    ],
-    [
-     "line",
-     "line",
+     "sesame",
+     "sesame",
      ""
     ]
    ]
@@ -155,21 +180,31 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "The sesame there is a crime.",
-   "ko": "거기 참깨 베이글은 범죄야.",
-   "note": "crime = 범죄",
+   "en": "Same. Every single morning without fail.",
+   "ko": "똑같아. 매일 아침 빠짐없이.",
+   "note": "without fail = 빠짐없이",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "sesame",
-     "sesame",
+     "single",
+     "single",
      ""
     ],
     [
-     "crime",
-     "crime",
+     "morning",
+     "morning",
+     ""
+    ],
+    [
+     "without",
+     "without",
+     ""
+    ],
+    [
+     "fail",
+     "fail",
      ""
     ]
    ]
@@ -177,9 +212,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Guess what? I've seen you buy sesame there.",
+   "en": "Guess what. I saw you grabbing the sesame one back there.",
    "ko": "그거 알아? 너 거기서 참깨 사는 거 봤어.",
-   "note": "guess what = 있잖아, 그거 알아?",
+   "note": "guess what = 그거 알아?",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -190,13 +225,13 @@
      ""
     ],
     [
-     "seen",
+     "saw",
      "see",
      ""
     ],
     [
-     "buy",
-     "buy",
+     "grabbing",
+     "grab",
      ""
     ],
     [
@@ -209,16 +244,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "That was research.",
-   "ko": "그건 조사였어.",
-   "note": "research = 조사",
+   "en": "Yeah, they ran out of them up front again.",
+   "ko": "응, 앞쪽에서 또 떨어졌더라고.",
+   "note": "ran out = 떨어지다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "research",
-     "research",
+     "ran",
+     "run",
+     ""
+    ],
+    [
+     "front",
+     "front",
      ""
     ]
    ]
@@ -226,16 +266,36 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Research for what?",
-   "ko": "무슨 조사?",
-   "note": "되묻기",
+   "en": "Classic. This line is moving so slow today.",
+   "ko": "전형적인 거네. 오늘 줄이 진짜 느리다.",
+   "note": "classic = 전형적인",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Research",
-     "research",
+     "Classic",
+     "classic",
+     ""
+    ],
+    [
+     "line",
+     "line",
+     ""
+    ],
+    [
+     "moving",
+     "move",
+     ""
+    ],
+    [
+     "slow",
+     "slow",
+     ""
+    ],
+    [
+     "today",
+     "today",
      ""
     ]
    ]
@@ -243,12 +303,12 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "You know what, fine. I come here at eight because you do.",
+   "en": "You know what. I figured it out. You show up at 8, so I do too.",
    "ko": "있잖아, 알았어. 네가 8시에 와서 나도 8시에 오는 거야.",
    "note": "you know what = 있잖아",
    "tags": [],
    "new": [],
-   "emotion": "shy",
+   "emotion": "teasing",
    "lemmas": [
     [
      "know",
@@ -256,13 +316,13 @@
      ""
     ],
     [
-     "fine",
-     "fine",
+     "figured",
+     "figure",
      ""
     ],
     [
-     "come",
-     "come",
+     "show",
+     "show",
      ""
     ]
    ]
@@ -270,36 +330,26 @@
   {
    "num": 10,
    "speaker": "A",
-   "en": "So I'm the reason you wait twenty minutes for bread.",
-   "ko": "그러니까 너 빵 하나에 20분 기다리는 게 나 때문이야?",
-   "note": "the reason = 이유",
+   "en": "Wait, you've been timing it on purpose?",
+   "ko": "잠깐, 일부러 시간 맞춰 온 거야?",
+   "note": "timing it = 시간 맞추다",
    "tags": [],
    "new": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "reason",
-     "reason",
-     ""
-    ],
-    [
-     "wait",
+     "Wait",
      "wait",
      ""
     ],
     [
-     "twenty",
-     "twenty",
+     "timing",
+     "time",
      ""
     ],
     [
-     "minutes",
-     "minute",
-     ""
-    ],
-    [
-     "bread",
-     "bread",
+     "purpose",
+     "purpose",
      ""
     ]
    ]
@@ -307,31 +357,31 @@
   {
    "num": 11,
    "speaker": "B",
-   "en": "Don't flatter yourself. It's also very good bread.",
-   "ko": "착각하지 마. 빵도 진짜 맛있거든.",
-   "note": "flatter yourself = 착각하다",
+   "en": "For a couple weeks now. Just so we end up like this.",
+   "ko": "몇 주 전부터. 그냥 이렇게 되게 하려고.",
+   "note": "end up like this = 이렇게 되다",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "flatter",
-     "flatter",
+     "couple",
+     "couple",
      ""
     ],
     [
-     "yourself",
-     "yourself",
+     "weeks",
+     "week",
      ""
     ],
     [
-     "good",
-     "better",
+     "end",
+     "end",
      ""
     ],
     [
-     "bread",
-     "bread",
+     "like",
+     "like",
      ""
     ]
    ]
@@ -339,21 +389,26 @@
   {
    "num": 12,
    "speaker": "A",
-   "en": "Then buy me one, and I'll think about it.",
-   "ko": "그럼 하나 사 줘, 생각해 볼게.",
-   "note": "think about it = 생각해 보다",
+   "en": "That's kinda bold, not gonna lie.",
+   "ko": "좀 대담한데, 솔직히.",
+   "note": "kinda bold = 좀 대담하다",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "buy",
-     "buy",
+     "bold",
+     "bold",
      ""
     ],
     [
-     "think",
-     "think",
+     "gonna",
+     "go",
+     ""
+    ],
+    [
+     "lie",
+     "lie",
      ""
     ]
    ]
@@ -361,18 +416,23 @@
   {
    "num": 13,
    "speaker": "B",
-   "en": "Dream on. Okay, but just one.",
-   "ko": "꿈 깨. 알았어, 하나만이야.",
+   "en": "Dream on. Okay, just one more though...",
+   "ko": "꿈 깨. 알았어, 하나만이야...",
    "note": "dream on = 꿈 깨",
    "tags": [
     "heart"
    ],
    "new": [],
-   "emotion": "amused",
+   "emotion": "gentle",
    "lemmas": [
     [
      "Dream",
      "dream",
+     ""
+    ],
+    [
+     "though",
+     "though",
      ""
     ]
    ]
@@ -380,15 +440,20 @@
   {
    "num": 14,
    "speaker": "A",
-   "en": "Sesame from across the street, please.",
+   "en": "Grab me the sesame one from across the street?",
    "ko": "길 건너 참깨로 부탁해.",
-   "note": "콜백 한 방",
+   "note": "grab me = 가져다 줘",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Sesame",
+     "Grab",
+     "grab",
+     ""
+    ],
+    [
+     "sesame",
      "sesame",
      ""
     ],
@@ -400,11 +465,6 @@
     [
      "street",
      "street",
-     ""
-    ],
-    [
-     "please",
-     "please",
      ""
     ]
    ]

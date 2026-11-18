@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Jake, what's a potluck? Your mom said \"bring something.\"",
+   "en": "Jake, what's a potluck? Your mom said bring something.",
    "ko": "제이크, 포틀럭이 뭐야? 너희 엄마가 \"뭐 하나 가져와\" 그러던데.",
-   "note": "potluck = 각자 음식 가져오는 모임",
+   "note": "potluck = 포틀럭",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -74,9 +74,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Everyone brings one dish. We share it all.",
-   "ko": "다들 음식 하나씩 가져와. 다 같이 나눠 먹고.",
-   "note": "dish = 요리 한 접시",
+   "en": "Everyone brings a dish to share.",
+   "ko": "다들 나눠 먹을 음식 하나씩 가져와.",
+   "note": "dish = 음식",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -108,7 +108,7 @@
    "speaker": "A",
    "en": "Seriously? So what do I bring?",
    "ko": "진짜? 그럼 난 뭐 가져가?",
-   "note": "seriously = 진짜?",
+   "note": "seriously = 진짜",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -130,7 +130,7 @@
    "speaker": "B",
    "en": "I have no idea. Anything but turkey.",
    "ko": "몰라. 칠면조만 빼고 아무거나.",
-   "note": "i have no idea = 전혀 모르겠어",
+   "note": "i have no idea = 몰라",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -155,16 +155,21 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Why not turkey?",
-   "ko": "칠면조는 왜 안 돼?",
-   "note": "why not = 왜 안 돼?",
+   "en": "Something easy then.",
+   "ko": "그럼 쉬운 걸로.",
+   "note": "easy = 쉬운",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "turkey",
-     "turkey",
+     "Something",
+     "something",
+     ""
+    ],
+    [
+     "easy",
+     "easy",
      ""
     ]
    ]
@@ -172,31 +177,21 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "My mom makes the turkey. It's her thing.",
-   "ko": "칠면조는 우리 엄마 담당이야. 엄마 자존심이지.",
-   "note": "it's her thing = 그 사람 전문이야",
+   "en": "Yeah, nothing fancy.",
+   "ko": "응, 거창한 거 말고.",
+   "note": "fancy = 거창한",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "mom",
-     "mom",
+     "nothing",
+     "nothing",
      ""
     ],
     [
-     "makes",
-     "make",
-     ""
-    ],
-    [
-     "turkey",
-     "turkey",
-     ""
-    ],
-    [
-     "thing",
-     "thing",
+     "fancy",
+     "fancy",
      ""
     ]
    ]
@@ -204,12 +199,12 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Makes sense. What about kimchi fried rice?",
+   "en": "Makes sense. How about kimchi fried rice?",
    "ko": "이해돼. 김치볶음밥은 어때?",
-   "note": "makes sense = 말 되네",
+   "note": "makes sense = 이해돼",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Makes",
@@ -241,16 +236,16 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Did I tell you about my aunt's green beans? They're so bad.",
+   "en": "Did I mention my aunt's green beans? They're awful.",
    "ko": "우리 이모 그린빈 얘기 했나? 진짜 별로야.",
-   "note": "질문 흘려듣기",
+   "note": "green beans = 그린빈",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "tell",
-     "tell",
+     "mention",
+     "mention",
      ""
     ],
     [
@@ -269,8 +264,8 @@
      ""
     ],
     [
-     "bad",
-     "worse",
+     "awful",
+     "awful",
      ""
     ]
    ]
@@ -278,26 +273,16 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "Jake. Kimchi fried rice. Yes or no?",
-   "ko": "제이크. 김치볶음밥. 돼, 안 돼?",
-   "note": "yes or no = 돼 안 돼",
+   "en": "So skip those.",
+   "ko": "그럼 그건 피하고.",
+   "note": "skip = 피하다",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "amused",
    "lemmas": [
     [
-     "Kimchi",
-     "kimchi",
-     ""
-    ],
-    [
-     "fried",
-     "fried",
-     ""
-    ],
-    [
-     "rice",
-     "rice",
+     "skip",
+     "skip",
      ""
     ]
    ]
@@ -305,12 +290,12 @@
   {
    "num": 10,
    "speaker": "B",
-   "en": "Bring two. Nobody's eating the green beans.",
+   "en": "Bring two. No one will eat the green beans.",
    "ko": "두 개 가져와. 그린빈은 아무도 안 먹을 거야.",
-   "note": "nobody = 아무도",
+   "note": "bring = 가져오다",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "teasing",
    "lemmas": [
     [
      "Bring",
@@ -318,12 +303,7 @@
      ""
     ],
     [
-     "Nobody's",
-     "nobody",
-     ""
-    ],
-    [
-     "eating",
+     "eat",
      "eat",
      ""
     ],

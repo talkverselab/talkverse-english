@@ -1,0 +1,24 @@
+=== t1_office_g14
+title: 선적된 상자, 보내는 사람
+emoji: 📦
+scene: 창고에서 상자 라벨을 읽는다. 과거분사·현재분사를 헷갈려 반품할 프린터가 엉뚱한 곳으로 간다
+where: 발송장
+goal: 분사 — 명사 수식 과거분사(-ed)·현재분사(-ing)
+grammar: 분사|명사 앞뒤에서 꾸밀 때, 「~된」은 과거분사(the attached file), 「~하는」은 현재분사(the person handling it). 수식받는 명사가 하는 쪽인지 당하는 쪽인지 본다.
+check: Please review the _____ invoice before approving the payment. | attach | attached | attaching | attachment | B
+kind: short
+register: casual
+B: Raj
+C: Olivia
+twist: 6 chaos
+expr: hold on | oh no
+level: 토익 Part 3·4 중급 비즈니스 회화 · 한 줄 영어 1~15 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+A | ____ | 흐름: 라벨에 "선적된 물품 — 하역장 이쪽" 이라고 적혀 있어. · 문법 줄: shipped 를 *shipped* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: 그리고 "발송 담당 인원 — 저쪽." · 문법 줄: shipping 를 *shipping* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+A | ____ | 흐름: 그럼 거래처가 반품한 파손된 프린터는… · 문법 줄: damaged 를 *damaged* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+C | ____ | 흐름: 잠깐. 이번 주 반품 처리 담당자가 누구야? · 「hold on」를 이 줄에 그대로 · 문법 줄: person handling 를 *person handling* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+A | ____ | 흐름: 배송 트럭 옆에 서 계신 분이요. · 문법 줄: standing 를 *standing* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작 · ← 반전(chaos)
+B | ____ | 흐름: 어떡해. 그 트럭 방금 출발했어. 프린터랑. 톰의 새 노트북이랑. · 「oh no」를 이 줄에 그대로
+C | ____ | 흐름: 선적된 노트북이라. 톰이 알아채기 전에 전화해. · 문법 줄: shipped 를 *shipped* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작

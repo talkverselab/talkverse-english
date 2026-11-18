@@ -38,15 +38,15 @@
    "new": [],
    "gram": {
     "u": [
-     "has waited for the invoice since Monday"
+     "Our accounting team has waited for the invoice since Monday."
     ],
     "red": [
      "has waited",
      "since"
     ],
-    "note": "현재완료 + since 시점"
+    "note": " has waited: 현재완료, 과거부터 현재까지 계속 / § since: 시점과 함께"
    },
-   "emotion": "annoyed",
+   "emotion": "polite",
    "lemmas": [
     [
      "accounting",
@@ -83,21 +83,21 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "I sent it on Monday morning, with the tracking number.",
+   "en": "We sent it Monday morning with the tracking number.",
    "ko": "월요일 아침에 추적 번호와 함께 보냈는데요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "sent it on Monday morning"
+     "We sent it Monday morning with the tracking number."
     ],
     "red": [
      "sent"
     ],
-    "note": "과거 시점(on Monday) → 과거형"
+    "note": " sent: 과거 시제, 특정 과거 시점"
    },
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "sent",
@@ -136,15 +136,15 @@
    "new": [],
    "gram": {
     "u": [
-     "haven't received anything for a full week"
+     "We haven't received anything for a full week."
     ],
     "red": [
      "haven't received",
      "for"
     ],
-    "note": "현재완료 부정 + for 기간"
+    "note": " haven't received: 현재완료 부정 / § for: 기간과 함께"
    },
-   "emotion": "annoyed",
+   "emotion": "polite",
    "lemmas": [
     [
      "received",
@@ -171,9 +171,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Just to confirm, which address should it have gone to?",
+   "en": "just to confirm Which address should it have gone to?",
    "ko": "확인 차원에서요, 어느 주소로 갔어야 하죠?",
-   "note": "just to confirm",
+   "note": "",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -198,22 +198,27 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "The one I have used for ten years. Everyone has it.",
+   "en": "The address I have used for ten years. Everyone has it.",
    "ko": "제가 10년째 쓰는 그 주소요. 다들 갖고 있어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "have used for ten years"
+     "The address I have used for ten years. Everyone has it."
     ],
     "red": [
      "have used"
     ],
-    "note": "현재완료 + for"
+    "note": " have used: 현재완료, 기간 동안 계속 사용"
    },
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
+    [
+     "address",
+     "address",
+     ""
+    ],
     [
      "used",
      "used",
@@ -234,17 +239,12 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "You changed it last month and notified us yourself.",
+   "en": "You changed it last month and told us yourself.",
    "ko": "지난달에 바꾸시고 직접 저희에게 알리셨어요.",
    "note": "",
    "tags": [],
    "new": [],
-   "gram": {
-    "u": [],
-    "red": [],
-    "note": "과거 시점 → 과거형"
-   },
-   "emotion": "neutral",
+   "emotion": "surprised",
    "lemmas": [
     [
      "changed",
@@ -262,8 +262,8 @@
      ""
     ],
     [
-     "notified",
-     "notified",
+     "told",
+     "tell",
      ""
     ],
     [
@@ -276,20 +276,18 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "My bad. I have just located it. In the spam folder.",
+   "en": "my bad I have just located it. In the spam folder.",
    "ko": "제 잘못이네요. 방금 찾았어요. 스팸 폴더에서요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
-    "u": [
-     "have just located it"
-    ],
+    "u": [],
     "red": [
      "have",
      "located"
     ],
-    "note": "현재완료 + just"
+    "note": " have located: 현재완료, 방금 완료된 동작"
    },
    "emotion": "flustered",
    "lemmas": [
@@ -318,12 +316,12 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "So your team has waited for nothing since Monday.",
+   "en": "So your team has been waiting since Monday for nothing.",
    "ko": "그럼 팀이 월요일부터 헛되이 기다리신 거네요.",
-   "note": "시제로 마무리",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "amused",
    "lemmas": [
     [
      "team",
@@ -331,13 +329,8 @@
      ""
     ],
     [
-     "waited",
+     "waiting",
      "wait",
-     ""
-    ],
-    [
-     "nothing",
-     "nothing",
      ""
     ],
     [
@@ -348,6 +341,11 @@
     [
      "Monday",
      "monday",
+     ""
+    ],
+    [
+     "nothing",
+     "nothing",
      ""
     ]
    ]

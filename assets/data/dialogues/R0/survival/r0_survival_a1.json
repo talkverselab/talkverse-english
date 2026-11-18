@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Excuse me. Water, please.",
-   "ko": "저기요. 물 주세요.",
-   "note": "water, please = 물 주세요",
+   "en": "Excuse me, water please.",
+   "ko": "저기요, 물 좀 주세요.",
+   "note": "excuse me = 저기요",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -44,7 +44,7 @@
      ""
     ],
     [
-     "Water",
+     "water",
      "water",
      ""
     ],
@@ -58,50 +58,38 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Sure. Just one?",
-   "ko": "네. 한 잔이요?",
-   "note": "just one = 하나만",
+   "en": "For here? Two?",
+   "ko": "여기서 드실 거예요? 두 잔요?",
+   "note": "Two? = 두 잔이요?",
    "tags": [],
    "new": [],
    "emotion": "neutral",
-   "lemmas": [
-    [
-     "Sure",
-     "sure",
-     ""
-    ]
-   ]
+   "lemmas": []
   },
   {
    "num": 3,
    "speaker": "A",
-   "en": "Yes. Just this table.",
-   "ko": "네. 이 테이블만요.",
-   "note": "just this = 이것만",
+   "en": "Yes, just this.",
+   "ko": "네, 이 테이블만요.",
+   "note": "just this = 이 테이블만",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "table",
-     "table",
-     ""
-    ]
-   ]
+   "emotion": "polite",
+   "lemmas": []
   },
   {
    "num": 4,
    "speaker": "B",
-   "en": "Two? For you and your friend?",
-   "ko": "두 잔이요? 친구분 것까지요?",
-   "note": "for you = 당신 것",
+   "en": "Okay, one moment.",
+   "ko": "알겠어요, 잠깐만요.",
+   "note": "one moment = 잠깐만요",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "friend",
-     "friend",
+     "moment",
+     "moment",
      ""
     ]
    ]
@@ -109,29 +97,30 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Yes.",
-   "ko": "네.",
-   "note": "일단 Yes",
+   "en": "Thank you so much.",
+   "ko": "정말 고마워요.",
+   "note": "thank you = 고마워요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": []
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Thank",
+     "thank",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "en": "Here you go. Two waters.",
-   "ko": "여기요. 물 두 잔이요.",
-   "note": "here you go = 여기 있어요",
+   "en": "Here, two waters.",
+   "ko": "여기요, 물 두 잔.",
+   "note": "two waters = 물 두 잔",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "amused",
    "lemmas": [
-    [
-     "go",
-     "go",
-     ""
-    ],
     [
      "waters",
      "water",
@@ -142,16 +131,16 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "My friend is… not here.",
-   "ko": "제 친구는… 안 왔어요.",
-   "note": "not here = 여기 없다",
+   "en": "Oh, two glasses?",
+   "ko": "어, 두 잔이요?",
+   "note": "two glasses = 두 잔",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "friend",
-     "friend",
+     "glasses",
+     "glass",
      ""
     ]
    ]
@@ -159,12 +148,12 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Okay. More water for you!",
-   "ko": "그럼요. 물 더 드세요!",
-   "note": "more = 더",
+   "en": "Yes, more water!",
+   "ko": "네, 물 더 드세요!",
+   "note": "more water = 물 더",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "water",

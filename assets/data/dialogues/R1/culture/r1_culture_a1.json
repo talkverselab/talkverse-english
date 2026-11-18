@@ -33,10 +33,10 @@
    "speaker": "B",
    "en": "Trick or treat!",
    "ko": "트릭 오어 트릿!",
-   "note": "trick or treat = 사탕 안 주면 장난칠 거야",
+   "note": "trick or treat = 트릭 오어 트릿",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Trick",
@@ -53,31 +53,21 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Hi! Wait, I'm not giving candy. I'm getting it.",
-   "ko": "안녕! 잠깐, 난 주는 게 아니라 받는 쪽이야.",
-   "note": "getting = 받는",
+   "en": "Oh, candy. Take one?",
+   "ko": "아, 사탕. 하나 가져?",
+   "note": "take one = 하나 가져",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Wait",
-     "wait",
-     ""
-    ],
-    [
-     "giving",
-     "give",
-     ""
-    ],
-    [
      "candy",
      "candy",
      ""
     ],
     [
-     "getting",
-     "get",
+     "Take",
+     "take",
      ""
     ]
    ]
@@ -85,43 +75,37 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Then why do you have the bowl?",
-   "ko": "그럼 왜 그릇을 들고 있어요?",
-   "note": "bowl = 그릇",
+   "en": "Yeah, just one each.",
+   "ko": "응, 각자 하나만.",
+   "note": "just one = 하나만",
    "tags": [],
    "new": [],
    "emotion": "neutral",
-   "lemmas": [
-    [
-     "bowl",
-     "bowl",
-     ""
-    ]
-   ]
+   "lemmas": []
   },
   {
    "num": 4,
    "speaker": "A",
-   "en": "The sign says \"take one.\"",
-   "ko": "표지판에 \"하나 가져가세요\"라고 써 있어서.",
-   "note": "take one = 하나 가져가기",
+   "en": "Okay. This bowl looks full.",
+   "ko": "알겠어. 이 그릇 가득해 보이네.",
+   "note": "looks full = 가득해 보이다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "sign",
-     "sign",
+     "bowl",
+     "bowl",
      ""
     ],
     [
-     "says",
-     "say",
+     "looks",
+     "look",
      ""
     ],
     [
-     "take",
-     "take",
+     "full",
+     "full",
      ""
     ]
    ]
@@ -129,21 +113,26 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "One candy. Not one bowl.",
-   "ko": "사탕 하나요. 그릇 하나가 아니고.",
-   "note": "not ~ = ~ 아니고",
+   "en": "Don't take the whole thing!",
+   "ko": "통째로 가져가지 마!",
+   "note": "whole thing = 통째로",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "candy",
-     "candy",
+     "take",
+     "take",
      ""
     ],
     [
-     "bowl",
-     "bowl",
+     "whole",
+     "whole",
+     ""
+    ],
+    [
+     "thing",
+     "thing",
      ""
     ]
    ]
@@ -173,26 +162,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "It's fine. Your costume is good.",
-   "ko": "괜찮아요. 의상 멋있어요.",
-   "note": "costume = 분장 의상",
+   "en": "You're a grown-up. One candy.",
+   "ko": "어른이잖아. 사탕 하나.",
+   "note": "one candy = 사탕 하나",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "fine",
-     "fine",
+     "grown",
+     "grow",
      ""
     ],
     [
-     "costume",
-     "costume",
-     ""
-    ],
-    [
-     "good",
-     "better",
+     "candy",
+     "candy",
      ""
     ]
    ]
@@ -200,9 +184,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Costume? These are my normal clothes.",
+   "en": "Costume? This is just my normal clothes.",
    "ko": "의상? 이거 그냥 내 평소 옷이야.",
-   "note": "normal = 평소의",
+   "note": "normal clothes = 평소 옷",
    "tags": [],
    "new": [],
    "emotion": "amused",

@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Team, presentation is Thursday. Who does what?",
+   "en": "Guys, presentation's Thursday. Who's doing what?",
    "ko": "얘들아, 발표 목요일이야. 누가 뭐 할래?",
-   "note": "who does what = 역할 분담",
+   "note": "presentation = 발표",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -43,18 +43,23 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "Team",
-     "team",
+     "Guys",
+     "guy",
      ""
     ],
     [
-     "presentation",
+     "presentation's",
      "presentation",
      ""
     ],
     [
      "Thursday",
      "thursday",
+     ""
+    ],
+    [
+     "doing",
+     "doing",
      ""
     ]
    ]
@@ -69,7 +74,7 @@
    "new": [],
    "ui": "bubble",
    "at": "20:11",
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "slides",
@@ -88,7 +93,7 @@
    "speaker": "A",
    "en": "Jake? You free to do the research?",
    "ko": "제이크? 자료 조사 할 수 있어?",
-   "note": "you free = 시간 돼",
+   "note": "you free = 할 수 있어",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -110,32 +115,36 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Jake. Hello?",
-   "ko": "제이크. 여보세요?",
-   "note": "독촉",
+   "en": "Jake, you there?",
+   "ko": "제이크, 있어?",
+   "note": "there = 있어",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:40",
-   "emotion": "annoyed",
-   "read": false,
+   "emotion": "neutral",
    "lemmas": []
   },
   {
    "num": 5,
    "speaker": "B",
-   "en": "He's at basketball. Always.",
-   "ko": "쟤 농구하러 갔어. 늘.",
-   "note": "always = 맨날",
+   "en": "He's probably gaming again.",
+   "ko": "또 게임 하고 있을걸.",
+   "note": "gaming = 게임",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "21:15",
-   "emotion": "amused",
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "basketball",
-     "basketball",
+     "probably",
+     "probably",
+     ""
+    ],
+    [
+     "gaming",
+     "game",
      ""
     ]
    ]
@@ -143,18 +152,33 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Okay, I'll just do it myself.",
-   "ko": "알았어, 그냥 내가 할게.",
-   "note": "myself = 내가 직접",
+   "en": "Deadline's tomorrow. We need that research.",
+   "ko": "마감 내일이야. 자료 필요해.",
+   "note": "deadline = 마감",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "23:50",
-   "emotion": "sad",
+   "emotion": "worried",
    "lemmas": [
     [
-     "myself",
-     "myself",
+     "Deadline's",
+     "deadline",
+     ""
+    ],
+    [
+     "tomorrow",
+     "tomorrow",
+     ""
+    ],
+    [
+     "need",
+     "need",
+     ""
+    ],
+    [
+     "research",
+     "research",
      ""
     ]
    ]
@@ -162,9 +186,9 @@
   {
    "num": 7,
    "speaker": "C",
-   "en": "Done. 20 pages. With sources.",
-   "ko": "끝. 20쪽. 출처 포함.",
-   "note": "sources = 출처",
+   "en": "Just uploaded everything. All sources included.",
+   "ko": "방금 다 올렸어. 출처 다 포함.",
+   "note": "uploaded = 올리다",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -172,13 +196,23 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "pages",
-     "page",
+     "uploaded",
+     "upload",
+     ""
+    ],
+    [
+     "everything",
+     "everything",
      ""
     ],
     [
      "sources",
      "source",
+     ""
+    ],
+    [
+     "included",
+     "include",
      ""
     ]
    ]
@@ -205,18 +239,22 @@
   {
    "num": 9,
    "speaker": "C",
-   "en": "Halftime.",
+   "en": "During halftime.",
    "ko": "하프타임에.",
-   "note": "짧은 한 방",
+   "note": "halftime = 하프타임",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "23:59",
-   "emotion": "neutral",
-   "stamp": "🏀",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Halftime",
+     "During",
+     "during",
+     ""
+    ],
+    [
+     "halftime",
      "halftime",
      ""
     ]

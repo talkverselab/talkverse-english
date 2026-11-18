@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Hi everyone. {name}, can you hear me?",
+   "en": "Hello everyone. {name}, can you hear me?",
    "ko": "안녕하세요 여러분. {name} 씨, 제 말 들려요?",
-   "note": "can you hear me = 들려요",
+   "note": "can you hear me = 제 말 들려요",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -54,26 +54,21 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Yes, I can hear you. Good morning.",
-   "ko": "네, 잘 들려요. 좋은 아침이에요.",
-   "note": "hear = 듣다",
+   "en": "Yes, I can. Sorry I'm late.",
+   "ko": "네, 들려요. 늦어서 죄송해요.",
+   "note": "late = 늦은",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "hear",
-     "hear",
+     "Sorry",
+     "sorry",
      ""
     ],
     [
-     "Good",
-     "better",
-     ""
-    ],
-    [
-     "morning",
-     "morning",
+     "late",
+     "late",
      ""
     ]
    ]
@@ -81,46 +76,31 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Great. Quick update first. The launch moved to Friday.",
-   "ko": "좋아요. 짧게 공유부터 할게요. 출시가 금요일로 옮겨졌어요.",
-   "note": "launch = 출시",
+   "en": "No problem. Let's start the update.",
+   "ko": "괜찮아요. 업데이트 시작하죠.",
+   "note": "update = 업데이트",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Great",
-     "great",
+     "problem",
+     "problem",
      ""
     ],
     [
-     "Quick",
-     "quick",
+     "Let's",
+     "let",
+     ""
+    ],
+    [
+     "start",
+     "start",
      ""
     ],
     [
      "update",
      "update",
-     ""
-    ],
-    [
-     "first",
-     "first",
-     ""
-    ],
-    [
-     "launch",
-     "launch",
-     ""
-    ],
-    [
-     "moved",
-     "move",
-     ""
-    ],
-    [
-     "Friday",
-     "friday",
      ""
     ]
    ]
@@ -128,16 +108,21 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Okay. Got it.",
-   "ko": "네. 알겠습니다.",
-   "note": "got it = 알겠어요",
+   "en": "Sounds good.",
+   "ko": "좋아요.",
+   "note": "sounds = 좋다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Got",
-     "get",
+     "Sounds",
+     "sound",
+     ""
+    ],
+    [
+     "good",
+     "better",
      ""
     ]
    ]
@@ -145,26 +130,26 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Any questions before we start?",
-   "ko": "시작 전에 질문 있어요?",
-   "note": "before we start = 시작 전에",
+   "en": "Friday's the deadline for the report.",
+   "ko": "금요일 보고서 마감이에요.",
+   "note": "deadline = 마감",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "questions",
-     "question",
+     "Friday's",
+     "friday",
      ""
     ],
     [
-     "before",
-     "before",
+     "deadline",
+     "deadline",
      ""
     ],
     [
-     "start",
-     "start",
+     "report",
+     "report",
      ""
     ]
    ]
@@ -172,12 +157,12 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Friday? I'm going to need so much coffee.",
+   "en": "Friday? I'm gonna need so much coffee.",
    "ko": "금요일? 커피 엄청 필요하겠네.",
-   "note": "혼잣말인데 다 들림",
+   "note": "coffee = 커피",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Friday",
@@ -185,8 +170,8 @@
      ""
     ],
     [
-     "going",
-     "going",
+     "gonna",
+     "go",
      ""
     ],
     [
@@ -204,12 +189,12 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "You're not on mute, {name}.",
+   "en": "{name}, you're not on mute.",
    "ko": "{name} 씨, 음소거 안 돼 있어요.",
-   "note": "on mute = 음소거 중",
+   "note": "mute = 음소거",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "surprised",
    "lemmas": [
     [
      "mute",
@@ -223,7 +208,7 @@
    "speaker": "A",
    "en": "Oh no. Sorry. That's on me.",
    "ko": "헉. 죄송해요. 제 잘못이에요.",
-   "note": "that's on me = 내 탓이에요",
+   "note": "that's on me = 제 잘못이에요",
    "tags": [],
    "new": [],
    "emotion": "flustered",
@@ -238,26 +223,16 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "Honestly, same. I'll order coffee for everyone.",
-   "ko": "솔직히 저도요. 다 같이 커피 시킬게요.",
-   "note": "same = 나도 그래",
+   "en": "It's okay. Happens to everyone.",
+   "ko": "괜찮아요. 다 그래요.",
+   "note": "happens = 일어나다",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Honestly",
-     "honest",
-     ""
-    ],
-    [
-     "order",
-     "order",
-     ""
-    ],
-    [
-     "coffee",
-     "coffee",
+     "Happens",
+     "happen",
      ""
     ],
     [
@@ -270,12 +245,12 @@
   {
    "num": 10,
    "speaker": "A",
-   "en": "Anyway, no more questions.",
+   "en": "Anyway, no more questions from me.",
    "ko": "아무튼, 질문 더 없습니다.",
    "note": "anyway = 아무튼",
    "tags": [],
    "new": [],
-   "emotion": "shy",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Anyway",

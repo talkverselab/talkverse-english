@@ -33,7 +33,7 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Excuse me. I think this is my seat.",
+   "en": "Excuse me. This is my seat?",
    "ko": "실례합니다. 여기 제 자리 같은데요.",
    "note": "excuse me = 실례합니다",
    "tags": [],
@@ -46,11 +46,6 @@
      ""
     ],
     [
-     "think",
-     "think",
-     ""
-    ],
-    [
      "seat",
      "seat",
      ""
@@ -60,7 +55,7 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Of course. Can I see your ticket?",
+   "en": "Of course. Can I see the ticket?",
    "ko": "그럼요. 표 좀 볼 수 있을까요?",
    "note": "of course = 그럼요",
    "tags": [],
@@ -87,9 +82,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Sure. Car five, seat twelve.",
-   "ko": "네. 5호차, 12번이요.",
-   "note": "car = (기차) 칸",
+   "en": "Sure, here it is.",
+   "ko": "네, 여기요.",
+   "note": "here it is = 여기요",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -98,39 +93,19 @@
      "Sure",
      "sure",
      ""
-    ],
-    [
-     "Car",
-     "car",
-     ""
-    ],
-    [
-     "seat",
-     "seat",
-     ""
-    ],
-    [
-     "twelve",
-     "twelve",
-     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "en": "Yes, twelve. But this train goes to Boston.",
-   "ko": "네, 12번 맞아요. 근데 이 기차는 보스턴 가요.",
-   "note": "goes to = ~로 간다",
+   "en": "This train goes to Boston.",
+   "ko": "이 기차는 보스턴으로 가요.",
+   "note": "goes to Boston = 보스턴으로",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
-    [
-     "twelve",
-     "twelve",
-     ""
-    ],
     [
      "train",
      "train",
@@ -151,9 +126,9 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Boston? Wait. Thanks.",
+   "en": "Boston? One sec. Thanks.",
    "ko": "보스턴요? 잠깐만요. 고마워요.",
-   "note": "wait = 잠깐",
+   "note": "thanks = 고마워요",
    "tags": [],
    "new": [],
    "emotion": "surprised",
@@ -164,8 +139,8 @@
      ""
     ],
     [
-     "Wait",
-     "wait",
+     "sec",
+     "sec",
      ""
     ],
     [
@@ -180,10 +155,10 @@
    "speaker": "A",
    "en": "My ticket says Washington.",
    "ko": "제 표엔 워싱턴이라고 써 있어요.",
-   "note": "says = ~라고 써 있다",
+   "note": "says Washington = 워싱턴이라고",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
     [
      "ticket",
@@ -205,31 +180,36 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Don't worry. Change at the next stop.",
-   "ko": "걱정 마세요. 다음 역에서 갈아타요.",
-   "note": "change = 갈아타다",
+   "en": "Wrong train. Next stop is far.",
+   "ko": "다른 기차예요. 다음 정거장은 멀어요.",
+   "note": "wrong train = 다른 기차",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "worry",
-     "worry",
+     "Wrong",
+     "wrong",
      ""
     ],
     [
-     "Change",
-     "change",
+     "train",
+     "train",
      ""
     ],
     [
-     "next",
+     "Next",
      "next",
      ""
     ],
     [
      "stop",
      "stop",
+     ""
+    ],
+    [
+     "far",
+     "further",
      ""
     ]
    ]
@@ -237,12 +217,12 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Can I stay? I love it… the view.",
+   "en": "Can I stay? I love it... the view.",
    "ko": "여기 있어도 돼요? 너무 좋네요… 경치가요.",
-   "note": "i love it = 너무 좋아요",
+   "note": "i love it = 너무 좋네요",
    "tags": [],
    "new": [],
-   "emotion": "shy",
+   "emotion": "amused",
    "lemmas": [
     [
      "stay",

@@ -32,19 +32,19 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "The label reads \"shipped items — this side of the dock.\"",
-   "ko": "라벨에 \"선적된 물품 — 하역장 이쪽\" 이라고 적혀 있어.",
+   "en": "The label says \"shipped goods — this side of the dock.\"",
+   "ko": "라벨에 \"선적된 물품 — 하역장 이쪽\"이라고 적혀 있어.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "shipped items"
+     "The label says \"shipped goods — this side of the dock.\""
     ],
     "red": [
      "shipped"
     ],
-    "note": "shipped items = 선적된(과거분사)"
+    "note": " shipped: 과거분사, 이미 선적된 물품을 수식"
    },
    "emotion": "neutral",
    "lemmas": [
@@ -54,8 +54,8 @@
      ""
     ],
     [
-     "reads",
-     "read",
+     "says",
+     "say",
      ""
     ],
     [
@@ -64,8 +64,8 @@
      ""
     ],
     [
-     "items",
-     "items",
+     "goods",
+     "good",
      ""
     ],
     [
@@ -83,19 +83,19 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "And \"shipping personnel — that side.\"",
+   "en": "And \"shipping staff — over there.\"",
    "ko": "그리고 \"발송 담당 인원 — 저쪽.\"",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "shipping personnel"
+     "And \"shipping staff — over there.\""
     ],
     "red": [
      "shipping"
     ],
-    "note": "shipping personnel = 발송하는(현재분사)"
+    "note": " shipping: 현재분사, 발송하는 사람을 수식"
    },
    "emotion": "neutral",
    "lemmas": [
@@ -105,13 +105,8 @@
      ""
     ],
     [
-     "personnel",
-     "personnel",
-     ""
-    ],
-    [
-     "side",
-     "side",
+     "staff",
+     "staff",
      ""
     ]
    ]
@@ -119,21 +114,21 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "So the damaged printer returned by the client goes…",
+   "en": "So the damaged printer the client returned is…",
    "ko": "그럼 거래처가 반품한 파손된 프린터는…",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "damaged printer"
+     "So the damaged printer the client returned is…"
     ],
     "red": [
      "damaged"
     ],
-    "note": "damaged = 파손된(과거분사)"
+    "note": " damaged: 과거분사, 파손된 상태의 프린터를 수식"
    },
-   "emotion": "worried",
+   "emotion": "neutral",
    "lemmas": [
     [
      "damaged",
@@ -146,18 +141,13 @@
      ""
     ],
     [
+     "client",
+     "client",
+     ""
+    ],
+    [
      "returned",
      "return",
-     ""
-    ],
-    [
-     "client",
-     "client",
-     ""
-    ],
-    [
-     "goes",
-     "go",
      ""
     ]
    ]
@@ -165,31 +155,26 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "With the shipped items. It's clearly not personnel.",
-   "ko": "선적 물품 쪽으로. 분명히 인원은 아니잖아.",
-   "note": "분사 논리",
+   "en": "It should go back on the return truck.",
+   "ko": "반품 트럭에 다시 실어야 해.",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "polite",
    "lemmas": [
     [
-     "shipped",
-     "ship",
+     "go",
+     "go",
      ""
     ],
     [
-     "items",
-     "items",
+     "return",
+     "return",
      ""
     ],
     [
-     "clearly",
-     "clear",
-     ""
-    ],
-    [
-     "personnel",
-     "personnel",
+     "truck",
+     "truck",
      ""
     ]
    ]
@@ -197,24 +182,22 @@
   {
    "num": 5,
    "speaker": "C",
-   "en": "Hold on. Who is the person handling returns this week?",
+   "en": "hold on Who's the person handling returns this week?",
    "ko": "잠깐. 이번 주 반품 처리 담당자가 누구야?",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
-    "u": [
-     "person handling returns"
-    ],
+    "u": [],
     "red": [
      "person handling"
     ],
-    "note": "person handling = 처리하는(현재분사, 뒤에서 수식)"
+    "note": " person handling: 현재분사 구, 처리하는 사람을 수식"
    },
-   "emotion": "annoyed",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Hold",
+     "hold",
      "hold",
      ""
     ],
@@ -243,25 +226,25 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "The gentleman standing next to the delivery truck.",
+   "en": "The person standing next to the delivery truck.",
    "ko": "배송 트럭 옆에 서 계신 분이요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "standing next to the delivery truck"
+     "The person standing next to the delivery truck."
     ],
     "red": [
      "standing"
     ],
-    "note": "standing = 서 있는"
+    "note": " standing: 현재분사, 서 있는 사람을 수식"
    },
    "emotion": "neutral",
    "lemmas": [
     [
-     "gentleman",
-     "gentleman",
+     "person",
+     "person",
      ""
     ],
     [
@@ -289,12 +272,12 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Oh no. That truck just left. With the printer. And Tom's new laptop.",
+   "en": "oh no That truck just left. With the printer. And Tom's new laptop.",
    "ko": "어떡해. 그 트럭 방금 출발했어. 프린터랑. 톰의 새 노트북이랑.",
-   "note": "oh no = 어떡해",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
     [
      "truck",
@@ -331,45 +314,25 @@
   {
    "num": 8,
    "speaker": "C",
-   "en": "A shipped laptop. Please call Tom before he notices.",
+   "en": "Call him before he notices the shipped laptop.",
    "ko": "선적된 노트북이라. 톰이 알아채기 전에 전화해.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "shipped laptop"
+     "Call him before he notices the shipped laptop."
     ],
     "red": [
      "shipped"
     ],
-    "note": "shipped laptop = 선적된(과거분사)"
+    "note": " shipped: 과거분사, 이미 선적된 노트북을 수식"
    },
-   "emotion": "tsukkomi",
+   "emotion": "worried",
    "lemmas": [
     [
-     "shipped",
-     "ship",
-     ""
-    ],
-    [
-     "laptop",
-     "laptop",
-     ""
-    ],
-    [
-     "Please",
-     "please",
-     ""
-    ],
-    [
+     "Call",
      "call",
-     "call",
-     ""
-    ],
-    [
-     "Tom",
-     "tom",
      ""
     ],
     [
@@ -380,6 +343,16 @@
     [
      "notices",
      "notice",
+     ""
+    ],
+    [
+     "shipped",
+     "ship",
+     ""
+    ],
+    [
+     "laptop",
+     "laptop",
      ""
     ]
    ]

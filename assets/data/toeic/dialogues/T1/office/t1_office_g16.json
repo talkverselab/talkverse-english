@@ -31,12 +31,12 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Who distributed the compensation file to the entire company?",
+   "en": "Who distributed the salary file to the whole company?",
    "ko": "누가 급여 파일을 회사 전체에 배포했어?",
-   "note": "능동태 질문",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "polite",
    "lemmas": [
     [
      "distributed",
@@ -44,8 +44,8 @@
      ""
     ],
     [
-     "compensation",
-     "compensation",
+     "salary",
+     "salary",
      ""
     ],
     [
@@ -54,8 +54,8 @@
      ""
     ],
     [
-     "entire",
-     "entire",
+     "whole",
+     "whole",
      ""
     ],
     [
@@ -75,12 +75,12 @@
    "new": [],
    "gram": {
     "u": [
-     "was distributed"
+     "The file was distributed. Unintentionally."
     ],
     "red": [
      "was distributed"
     ],
-    "note": "was distributed = 배포됐다(수동태)"
+    "note": " was distributed: 수동태 be + 과거분사"
    },
    "emotion": "neutral",
    "lemmas": [
@@ -104,21 +104,16 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Distributed by whom, exactly?",
-   "ko": "정확히 누구에 의해 배포됐는데?",
+   "en": "Unintentionally by whom, exactly?",
+   "ko": "의도치 않게 누구에 의해서요, 정확히?",
    "note": "",
    "tags": [],
    "new": [],
-   "gram": {
-    "u": [],
-    "red": [],
-    "note": "by + 행위자"
-   },
-   "emotion": "teasing",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Distributed",
-     "distributed",
+     "Unintentionally",
+     "unintentionally",
      ""
     ],
     [
@@ -131,21 +126,20 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "The attachment was selected. The send button was pressed.",
+   "en": "The attachment was selected and the send button was pressed.",
    "ko": "첨부 파일이 선택됐고요. 전송 버튼이 눌렸어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "was selected",
-     "was pressed"
+     "The attachment was selected and the send button was pressed."
     ],
     "red": [
      "was selected",
      "was pressed"
     ],
-    "note": "수동태로 책임 지우기"
+    "note": " was selected: 수동태 / § was pressed: 수동태"
    },
    "emotion": "flustered",
    "lemmas": [
@@ -179,12 +173,12 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "I mean, buttons don't press themselves in this building.",
+   "en": "i mean Buttons don't press themselves in this building.",
    "ko": "내 말은, 이 건물에선 버튼이 스스로 눌리진 않아.",
-   "note": "i mean = 내 말은",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "teasing",
    "lemmas": [
     [
      "mean",
@@ -192,7 +186,7 @@
      ""
     ],
     [
-     "buttons",
+     "Buttons",
      "button",
      ""
     ],
@@ -223,14 +217,14 @@
    "new": [],
    "gram": {
     "u": [
-     "was happened"
+     "Then the incident was happened."
     ],
     "red": [
      "was happened"
     ],
-    "note": "happen 은 자동사 — 수동태 불가(틀린 문장)"
+    "note": " was happened: 자동사 happen은 수동태 불가 (오류)"
    },
-   "emotion": "flustered",
+   "emotion": "neutral",
    "lemmas": [
     [
      "incident",
@@ -247,9 +241,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "\"Was happened\" is not English. Try again.",
-   "ko": "\"was happened\" 는 영어가 아니야. 다시.",
-   "note": "문법 교정",
+   "en": "\"Was happened\" isn't English. Try again.",
+   "ko": "\"was happened\"는 영어가 아니야. 다시.",
+   "note": "",
    "tags": [],
    "new": [],
    "emotion": "amused",
@@ -274,24 +268,22 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Fair enough. The incident happened. By me.",
+   "en": "fair enough The incident happened. By me.",
    "ko": "인정. 그 사고가 일어났어요. 저에 의해.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
-    "u": [
-     "happened"
-    ],
+    "u": [],
     "red": [
      "happened"
     ],
-    "note": "자동사 능동 + 억지 by"
+    "note": " happened: 자동사, 수동태 없이 능동"
    },
-   "emotion": "sad",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Fair",
+     "fair",
      "fair",
      ""
     ],

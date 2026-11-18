@@ -31,12 +31,12 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Hi again. Same coffee?",
+   "en": "Again? Same coffee?",
    "ko": "또 왔네. 같은 커피?",
-   "note": "same = 같은",
+   "note": "same coffee = 같은 커피",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "coffee",
@@ -48,16 +48,16 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Yes. Same coffee.",
-   "ko": "응. 같은 걸로.",
-   "note": "같은 말 받기",
+   "en": "Yeah, every morning.",
+   "ko": "응, 매일 아침.",
+   "note": "every morning = 매일 아침",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "coffee",
-     "coffee",
+     "morning",
+     "morning",
      ""
     ]
    ]
@@ -65,12 +65,12 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Done. My treat today.",
+   "en": "Don't. My treat today.",
    "ko": "됐어. 오늘은 내가 살게.",
    "note": "my treat = 내가 살게",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "treat",
@@ -87,9 +87,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Really? Why?",
-   "ko": "진짜? 왜?",
-   "note": "why = 왜",
+   "en": "Really? Thanks a lot.",
+   "ko": "정말? 고마워.",
+   "note": "thanks a lot = 고마워",
    "tags": [],
    "new": [],
    "emotion": "surprised",
@@ -97,6 +97,16 @@
     [
      "Really",
      "real",
+     ""
+    ],
+    [
+     "Thanks",
+     "thank",
+     ""
+    ],
+    [
+     "lot",
+     "lot",
      ""
     ]
    ]
@@ -106,7 +116,7 @@
    "speaker": "B",
    "en": "You smile every morning.",
    "ko": "너 아침마다 웃잖아.",
-   "note": "every morning = 매일 아침",
+   "note": "smile every = 아침마다 웃다",
    "tags": [
     "heart"
    ],
@@ -128,21 +138,21 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Then tomorrow, my treat.",
+   "en": "Then I pay tomorrow.",
    "ko": "그럼 내일은 내가 살게.",
-   "note": "tomorrow = 내일",
+   "note": "pay tomorrow = 내일 내가",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "gentle",
    "lemmas": [
     [
-     "tomorrow",
-     "tomorrow",
+     "pay",
+     "pay",
      ""
     ],
     [
-     "treat",
-     "treat",
+     "tomorrow",
+     "tomorrow",
      ""
     ]
    ]
@@ -150,16 +160,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Tomorrow? Okay. See you.",
+   "en": "Tomorrow? Good. See you.",
    "ko": "내일? 좋아. 또 봐.",
    "note": "see you = 또 봐",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Tomorrow",
      "tomorrow",
+     ""
+    ],
+    [
+     "Good",
+     "better",
      ""
     ],
     [

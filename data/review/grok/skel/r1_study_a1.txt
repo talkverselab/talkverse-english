@@ -1,0 +1,21 @@
+=== r1_study_a1
+title: 수업 첫날 자리
+emoji: 🎒
+scene: 어학원 첫 수업, 빈자리에 앉았더니 그 자리는 선생님 자리였다
+where: 어학원 교실
+goal: 자리 묻기와 자기소개
+kind: short
+register: polite
+B: Teacher
+twist: 5 reveal
+expr: excuse me | nice to meet you | i'm sorry | no worries
+level: 초보 — 쉬운 낱말, 한 줄 1~2문장 · 한 줄 영어 1~9 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+A | ____ | 흐름: 저기요. 여기 누구 앉아요? · 「excuse me」를 이 줄에 그대로
+B | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+A | ____ | 흐름: 고마워요. 반가워요. 저는 {name}이에요. · 「nice to meet you」를 이 줄에 그대로 · {name} 를 그대로
+B | ____ | 흐름: 반가워요, {name}. 수업 준비됐어요? · {name} 를 그대로
+B | ____ | 흐름: 좋아요. 그럼 오늘 수업 해 줄래요? · ← 반전(reveal)
+A | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+A | ____ | 흐름: 죄송해요! 비킬게요. · 「i'm sorry」를 이 줄에 그대로
+B | ____ | 흐름: 괜찮아요. 벌써 최고 학생이네요. · 「no worries」를 이 줄에 그대로

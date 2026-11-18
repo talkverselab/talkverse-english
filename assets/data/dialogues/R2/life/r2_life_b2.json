@@ -32,15 +32,15 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Hi, excuse me. I think my package came here.",
+   "en": "Excuse me. I think my package came here.",
    "ko": "안녕하세요, 실례합니다. 제 택배가 여기로 온 것 같아요.",
-   "note": "package = 택배",
+   "note": "excuse me = 실례합니다",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "excuse",
+     "Excuse",
      "excuse",
      ""
     ],
@@ -64,16 +64,16 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Oh! The big box? I'm so sorry.",
-   "ko": "아! 그 큰 상자요? 정말 죄송해요.",
-   "note": "big box = 큰 상자",
+   "en": "Oh, the brown box by the door?",
+   "ko": "아, 문 앞 갈색 상자요?",
+   "note": "box = 상자",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "big",
-     "big",
+     "brown",
+     "brown",
      ""
     ],
     [
@@ -82,8 +82,8 @@
      ""
     ],
     [
-     "sorry",
-     "sorry",
+     "door",
+     "door",
      ""
     ]
    ]
@@ -91,16 +91,16 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Sorry for what?",
-   "ko": "뭐가 죄송한데요?",
-   "note": "sorry for what = 뭐가 죄송",
+   "en": "Yes, it has my name on it.",
+   "ko": "네, 제 이름이 있어요.",
+   "note": "name = 이름",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Sorry",
-     "sorry",
+     "name",
+     "name",
      ""
     ]
    ]
@@ -108,31 +108,21 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "I opened it. I thought it was my air fryer.",
-   "ko": "제가 열어 봤어요. 제 에어프라이어인 줄 알고요.",
-   "note": "thought it was = ~인 줄 알았다",
+   "en": "I brought it inside already.",
+   "ko": "안으로 들여놨어요.",
+   "note": "inside = 안",
    "tags": [],
    "new": [],
-   "emotion": "worried",
+   "emotion": "polite",
    "lemmas": [
     [
-     "opened",
-     "open",
+     "brought",
+     "bring",
      ""
     ],
     [
-     "thought",
-     "think",
-     ""
-    ],
-    [
-     "air",
-     "air",
-     ""
-    ],
-    [
-     "fryer",
-     "fryer",
+     "inside",
+     "inside",
      ""
     ]
    ]
@@ -140,16 +130,21 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "That's okay. It's just a lamp.",
-   "ko": "괜찮아요. 그냥 램프예요.",
-   "note": "just = 그냥",
+   "en": "Thanks. Can I pick it up?",
+   "ko": "고마워요. 받아도 될까요?",
+   "note": "pick up = 받다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "lamp",
-     "lamp",
+     "Thanks",
+     "thank",
+     ""
+    ],
+    [
+     "pick",
+     "pick",
      ""
     ]
    ]
@@ -157,16 +152,16 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "A lamp shaped like a cat?",
+   "en": "The cat-shaped lamp?",
    "ko": "고양이 모양 램프요?",
-   "note": "shaped like = ~ 모양의",
+   "note": "lamp = 램프",
    "tags": [],
    "new": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "lamp",
-     "lamp",
+     "cat",
+     "cat",
      ""
     ],
     [
@@ -175,13 +170,8 @@
      ""
     ],
     [
-     "like",
-     "like",
-     ""
-    ],
-    [
-     "cat",
-     "cat",
+     "lamp",
+     "lamp",
      ""
     ]
    ]
@@ -191,7 +181,7 @@
    "speaker": "A",
    "en": "Long story. Not really my style.",
    "ko": "얘기하자면 길어요. 제 취향은 아니에요.",
-   "note": "long story = 얘기가 길어",
+   "note": "long story = 얘기하자면 길어요",
    "tags": [],
    "new": [],
    "emotion": "flustered",
@@ -221,31 +211,16 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "It's kind of cute. My kid loves it.",
-   "ko": "좀 귀여워요. 우리 애가 엄청 좋아해요.",
-   "note": "kind of = 좀",
+   "en": "I already plugged it in.",
+   "ko": "이미 꽂아 봤어요.",
+   "note": "plugged = 꽂다",
    "tags": [],
    "new": [],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "kind",
-     "kind",
-     ""
-    ],
-    [
-     "cute",
-     "cute",
-     ""
-    ],
-    [
-     "kid",
-     "kid",
-     ""
-    ],
-    [
-     "loves",
-     "love",
+     "plugged",
+     "plug",
      ""
     ]
    ]
@@ -253,31 +228,52 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "Okay… Where is it now?",
-   "ko": "네… 지금 어디 있어요?",
-   "note": "where is it = 어디 있어",
+   "en": "Wait, you opened the box?",
+   "ko": "잠깐, 상자를 열어 보셨어요?",
+   "note": "opened = 열다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": []
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "opened",
+     "open",
+     ""
+    ],
+    [
+     "box",
+     "box",
+     ""
+    ]
+   ]
   },
   {
    "num": 10,
    "speaker": "B",
-   "en": "In her room. She named it Mr. Whiskers.",
+   "en": "It's in my kid's room. Named it Mr. Whiskers.",
    "ko": "애 방에요. 이름도 위스커스 씨로 지었어요.",
-   "note": "named it = 이름 붙였다",
+   "note": "named = 이름 짓다",
    "tags": [],
    "new": [],
    "emotion": "amused",
    "lemmas": [
+    [
+     "kid's",
+     "kid",
+     ""
+    ],
     [
      "room",
      "room",
      ""
     ],
     [
-     "named",
+     "Named",
      "name",
      ""
     ],

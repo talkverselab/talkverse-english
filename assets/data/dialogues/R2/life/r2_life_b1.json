@@ -59,9 +59,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Yeah. She sent me. What happened?",
+   "en": "Yeah. He sent me. What happened?",
    "ko": "응. 그분이 나 보냈어. 무슨 일이야?",
-   "note": "what happened = 무슨 일",
+   "note": "what happened = 무슨 일이야",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -81,21 +81,21 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "The water won't go down. It just sits there.",
-   "ko": "물이 안 내려가요. 그냥 고여 있어요.",
-   "note": "go down = 내려가다",
+   "en": "It won't drain. Water just sits there.",
+   "ko": "물이 안 빠져요. 그냥 고여 있어요.",
+   "note": "drain = 빠지다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "water",
-     "water",
+     "drain",
+     "drain",
      ""
     ],
     [
-     "go",
-     "go",
+     "Water",
+     "water",
      ""
     ],
     [
@@ -108,21 +108,31 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Did you put rice in it?",
-   "ko": "쌀 넣었어?",
-   "note": "put ~ in = ~을 넣다",
+   "en": "Let me take a look under it.",
+   "ko": "밑으로 한번 볼게요.",
+   "note": "look = 보다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "put",
-     "put",
+     "Let",
+     "let",
      ""
     ],
     [
-     "rice",
-     "rice",
+     "take",
+     "take",
+     ""
+    ],
+    [
+     "look",
+     "look",
+     ""
+    ],
+    [
+     "under",
+     "under",
      ""
     ]
    ]
@@ -157,31 +167,21 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Daniel. I fix stuff for her. Free rent.",
-   "ko": "대니얼. 그분 대신 이것저것 고쳐. 월세 공짜.",
-   "note": "free rent = 월세 면제",
+   "en": "Yeah, that's me. Small building.",
+   "ko": "응, 나야. 작은 건물이라.",
+   "note": "building = 건물",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
-     "fix",
-     "fix",
+     "Small",
+     "small",
      ""
     ],
     [
-     "stuff",
-     "stuff",
-     ""
-    ],
-    [
-     "Free",
-     "free",
-     ""
-    ],
-    [
-     "rent",
-     "rent",
+     "building",
+     "build",
      ""
     ]
    ]
@@ -189,21 +189,21 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "That's why you're always carrying tools.",
-   "ko": "그래서 맨날 공구 들고 다니셨구나.",
-   "note": "carry = 들고 다니다",
+   "en": "Oh, sorry to bother you like this.",
+   "ko": "아, 이렇게 귀찮게 해서 죄송해요.",
+   "note": "bother = 귀찮게 하다",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "carrying",
-     "carry",
+     "sorry",
+     "sorry",
      ""
     ],
     [
-     "tools",
-     "tools",
+     "like",
+     "like",
      ""
     ]
    ]
@@ -211,16 +211,26 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Okay. Done. No more rice.",
-   "ko": "됐다. 끝. 쌀은 이제 그만.",
-   "note": "no more = 더는 안 돼",
+   "en": "It's fine. I fix stuff sometimes.",
+   "ko": "괜찮아. 가끔 고치기도 해.",
+   "note": "fix = 고치다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "rice",
-     "rice",
+     "fine",
+     "fine",
+     ""
+    ],
+    [
+     "fix",
+     "fix",
+     ""
+    ],
+    [
+     "stuff",
+     "stuff",
      ""
     ]
    ]
@@ -230,7 +240,7 @@
    "speaker": "A",
    "en": "Thanks. I owe you one.",
    "ko": "고마워요. 신세 졌어요.",
-   "note": "I owe you one = 신세 졌어",
+   "note": "i owe you one = 신세 졌어요",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -250,12 +260,12 @@
   {
    "num": 10,
    "speaker": "B",
-   "en": "No worries. Just stop dropping things on my ceiling.",
+   "en": "No worries. Just stop dropping stuff on my ceiling.",
    "ko": "괜찮아. 내 천장에 물건 떨어뜨리는 것만 그만해.",
-   "note": "ceiling = 천장",
+   "note": "no worries = 괜찮아",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
      "worries",
@@ -273,8 +283,8 @@
      ""
     ],
     [
-     "things",
-     "thing",
+     "stuff",
+     "stuff",
      ""
     ],
     [

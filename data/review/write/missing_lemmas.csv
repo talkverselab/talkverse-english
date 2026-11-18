@@ -1,265 +1,249 @@
 lemma,reading,count,example
-excuse,,15,"Excuse me. Water, please."
+excuse,,16,"Excuse me, water please."
 pizza,,12,Pizza? Half and half?
-cake,,7,"Okay, cake or pizza for Maya's party?"
-rice,,6,Makes sense. What about kimchi fried rice?
-throat,,6,Excuse me. Do you have something for a sore throat?
-jacket,,6,Oh no. You have the exact same jacket.
-confirm,,6,"Just to confirm, the throat stuff is for me?"
-client,,6,"I mean, the client seemed genuinely excited."
-costume,,5,It's fine. Your costume is good.
-twelve,,5,"Sure. Window seat, row twelve."
-fifty,,4,Your room is fifty-one.
-receipt,,4,"Great, I'll sign you up. Receipt by email?"
-salad,,4,Then who? Daniel only eats salad.
-owe,,4,Mystery solved. You owe me an apology.
-nina,,3,"Nice to meet you, Nina!"
-eggs,,3,Yes. The eggs too.
+confirm,,6,"Just to confirm, this is for my throat?"
+client,,6,i mean The clients seemed genuinely excited about it.
+print,,5,Email receipt or print?
+grab,,5,Can you grab me a coffee?
+throat,,5,Excuse me. Something for a sore throat?
+jacket,,4,Yes. Two a day. And get a new jacket.
+salary,,4,I sent the salary file to the team. I was confident about it.
 yogurt,,3,For you. Your yogurt.
-brunch,,3,"Your place. Brunch, right?"
-chat,,3,Wait. Wrong chat.
-toast,,3,Smoke alarm. Did you make toast?
-chip,,3,Here. Five bags of chips.
-thirty,,3,Oh no. I just hit thirty percent.
-grab,,3,Can you grab me a coffee?
-turkey,,3,I have no idea. Anything but turkey.
+pink,,3,"Wait, why all pink?"
+fifty,,3,Your room is fifty-one.
+sec,,3,One sec. I'll check.
+costume,,3,Costume? This is just my normal clothes.
+brunch,,3,"Brunch time, right?"
+bagel,,3,Door's open. Get bagels.
+chip,,3,I'm here. Five bags of chips.
+receipt,,3,Email receipt or print?
+skip,,3,So skip those.
 swear,,3,I swear I didn't touch it.
-forty,,3,Why not? Forty minutes. We just… wait here.
-onion,,3,Okay. Step one says chop the onions.
+owe,,3,Thanks. I owe you one.
+forty,,3,Why not. Forty minutes. We're waiting here.
 slide,,3,I'll do the slides. For sure.
-laptop,,3,Smart. My laptop dies in an hour.
-fever,,3,Sure. Any fever? Or just the throat?
-cough,,3,Just the throat. And I can't stop coughing.
-item,,3,"Hi, sorry. It says ""unexpected item in the bagging area."""
+laptop,,3,Same. My laptop dies fast.
+item,,3,"Excuse me, unexpected item in the bag area."
 depends,,3,It depends. Not too heavy. But filling.
-sing,,3,Seventh inning. We stretch and sing.
-sesame,,3,The sesame there is a crime.
-print,,3,So you clicked yes without even reading the fine print.
-distributed,,3,Who distributed the compensation file to the entire company?
-tag,,2,Name tags. On my food.
-pink,,2,It's pink now.
-sock,,2,One red sock. Mine.
-fifteen,,2,"Fifteen? One, five?"
-sec,,2,One sec. Let me see.
-candy,,2,"Hi! Wait, I'm not giving candy. I'm getting it."
-bagel,,2,Door's open. Bring bagels.
-upside,,2,Your card is upside down.
+sandwich,,3,Sandwiches or salads?
+arrive,,3,"Mosquito spray. Rain jackets. And text when you arrive, my daughter."
+sesame,,3,I always go sesame. What about you?
+nina,,2,Oh! Like Nina?
+label,,2,Labeling all the food.
+candy,,2,"Oh, candy. Take one?"
+chat,,2,Wait. Wrong chat.
+toast,,2,Smoke alarm. Your toast.
+loud,,2,Too loud at night?
+ninth,,2,"Hey. Ninth floor, right?"
+thirty,,2,Oh no. I just hit thirty percent.
+upside,,2,The card is upside down.
+twelve,,2,"Sure. Window, row twelve."
 halloween,,2,"It's Halloween, {name}. Everyone's in costume."
-kimchi,,2,Makes sense. What about kimchi fried rice?
-fried,,2,Makes sense. What about kimchi fried rice?
-beans,,2,Did I tell you about my aunt's green beans? They're so bad.
+rice,,2,Makes sense. How about kimchi fried rice?
+beans,,2,Did I mention my aunt's green beans? They're awful.
+fridge,,2,The box is empty in the fridge.
+smell,,2,Oh. That's why my shirt smells like pepperoni.
+cake,,2,"So, cake or pizza for Maya's party?"
 sink,,2,"Hi, I texted the landlord about the sink."
-upstairs,,2,Wait. Aren't you the guy from upstairs?
-package,,2,"Hi, excuse me. I think my package came here."
-lamp,,2,That's okay. It's just a lamp.
+package,,2,Excuse me. I think my package came here.
 shake,,2,"Your hands are shaking, {name}."
-sweat,,2,Two towels and one sad sweater.
-presentation,,2,"Team, presentation is Thursday. Who does what?"
-banana,,2,Just my bananas. I scanned them already.
-ounce,,2,There's a liquid. Over three ounces.
-upgrade,,2,Welcome! Good news. You got a free upgrade.
+presentation,,2,"Guys, presentation's Thursday. Who's doing what?"
+deadline,,2,Deadline's tomorrow. We need that research.
+sore,,2,Excuse me. Something for a sore throat?
+banana,,2,Just a few bananas.
+korean,,2,It's just Korean chili paste.
+upgrade,,2,Found it. We upgraded you for free.
 elevator,,2,Great. Where's the elevator?
-stairs,,2,Breakfast tastes better after stairs.
-bug,,2,Deal. Should we bring bug spray?
-spray,,2,Deal. Should we bring bug spray?
-marshmallow,,2,Nah. We're tough. Just bring marshmallows.
+stairs,,2,Breakfast tastes better after the stairs.
+salad,,2,Sandwiches or salads?
+singing,,2,They're doing the wave or singing along to the song.
+gray,,2,"Hey, by the way, have you seen my gray hoodie?"
 hoodie,,2,"Hey, by the way, have you seen my gray hoodie?"
-lend,,2,That's the one. I lent it to Jake last month.
-comfy,,2,Don't be too hard on him. It's really comfy.
-calm,,2,No. It's very calm. Too calm.
-sandwich,,2,Who? The cashier? Just some guy who sells me sandwiches.
-bread,,2,So I'm the reason you wait twenty minutes for bread.
-stiff,,2,Sure. This sentence is kinda stiff.
-gomawo,,2,Gomawo. I mean… thanks.
-retire,,2,"I meant ""finally retiring."" Like, congrats!"
-pen,,2,It's in pen. That being said…
-prompt,,2,Then a prompt appeared asking if I wanted to delete all pending requests.
-compensation,,2,I forwarded the compensation file to the team. I felt confident about it.
-confident,,2,I forwarded the compensation file to the team. I felt confident about it.
-attachment,,2,"The attachment marked ""Confidential — HR Only""?"
-branch,,2,All Staff. Every branch. The reach was considerable.
-postpone,,2,"To be honest, our legal team decided to postpone the signing."
-vendor,,2,I came to have lunch with my favorite vendor. The contract was a bonus.
-audit,,2,You can't avoid working overtime during the audit season.
-bored,,2,The entire audience looked bored by slide three.
-boring,,2,"Bored, or boring? Be specific."
-personnel,,2,"And ""shipping personnel — that side."""
+lend,,2,I lent it to Jake last week.
+bite,,2,Want to slow down a bit?
+annyeong,,2,"Okay Jake, your turn. Try saying ""annyeong."""
+gamsahamnida,,2,Gamsahamnida? I feel like I'm messing it up.
+mess,,2,Gamsahamnida? I feel like I'm messing it up.
+fever,,2,Any other symptoms? Fever or cough?
+shift,,2,Maybe we can shift things around a little.
+downtown,,2,It's the one downtown that just raised a big round.
+confident,,2,I sent the salary file to the team. I was confident about it.
+attachment,,2,That attachment marked Confidential — HR only?
+hr,,2,That attachment marked Confidential — HR only?
+branch,,2,All employees across every branch. The reach was considerable.
+audit,,2,You can't avoid working late during the audit period.
 revised,,2,Let's discuss about the revised delivery schedule.
-arrive,,2,Please arrive at the conference room by nine.
-respond,,2,I always respond to meeting invitations promptly.
-button,,2,The attachment was selected. The send button was pressed.
+distributed,,2,Who distributed the salary file to the whole company?
+unintentionally,,2,The file was distributed. Unintentionally.
+button,,2,The attachment was selected and the send button was pressed.
 incident,,2,Then the incident was happened.
-invoice,,2,Our accounting team has waited for the invoice since Monday.
-concrete,,2,The cheapest option is as hard as a concrete block.
-skip,,2,You skipped the first twenty minutes of the client call. What's the excuse?
 jam,,2,I got stuck because of the traffic jam downtown.
 poll,,2,Poll's in. Either we get pizza or we all skip lunch.
 spoon,,2,The person who removed it left the spoon in the sink.
 expired,,2,It expired yesterday. Call it a routine fridge inspection.
 adjustment,,2,"However, the budget for salary adjustments got cut by forty percent."
-bless,,1,Bless you.
-sneeze,,1,It's okay. Just don't sneeze again.
-umbrella,,1,I have no umbrella.
+bless,,1,Bless you. Take care.
+sneeze,,1,It's okay. No more sneezes.
+nah,,1,"Nah, it's pretty even."
+sock,,1,One red sock. Mine.
+dyed,,1,It dyed everything pink.
+borrow,,1,"Maya, can I borrow notes?"
+drawing,,1,Thanks. These are drawings?
+fifteen,,1,Got it. Fifteen!
 trick,,1,Trick or treat!
 loser,,1,One shot. Loser buys dinner.
-hoop,,1,You missed the whole hoop.
-roof,,1,Okay… and it's on the roof.
-noise,,1,Daniel! What's up with that noise?
-alarm,,1,Smoke alarm. Did you make toast?
-firefighters,,1,Bring the toast. The firefighters want to see it.
+roof,,1,Okay... and onto the roof.
+alarm,,1,Smoke alarm. Your toast.
+burnt,,1,Just a little burnt.
+firefighters,,1,Bring the toast. Firefighters want to see it.
 downstairs,,1,Hi there. I live downstairs.
-guitar,,1,I think so. It's about the guitar.
-loud,,1,Is it too loud?
-midnight,,1,I play every night at midnight.
+guitar,,1,I think so. About the guitar.
 leash,,1,Maybe too friendly. Look at the leashes.
+tangled,,1,"Yeah, totally tangled."
 bucks,,1,Two bucks. Screen's gonna ask you a question.
 tip,,1,Wait. Tip? For a cookie?
 cookie,,1,Wait. Tip? For a cookie?
 napkin,,1,"Cool. Napkin for my tears, please?"
 tears,,1,"Cool. Napkin for my tears, please?"
-headache,,1,Yes. Something for a headache.
-reward,,1,You have our rewards card?
-coupon,,1,Okay. Here's your receipt. And your coupons.
-tap,,1,Tap it again. Slowly.
-eighteen,,1,Are you sure? That's not legal. Eighteen.
-vampire,,1,People love it. That vampire wants your card.
-potluck,,1,"Jake, what's a potluck? Your mom said ""bring something."""
-dish,,1,Everyone brings one dish. We share it all.
-aunt,,1,Did I tell you about my aunt's green beans? They're so bad.
-slice,,1,There were three slices. Now there's one.
-smell,,1,Oh. That's why my shirt smells like pepperoni.
+headache,,1,"Yes, the headache one."
+reward,,1,Want to join our rewards?
+tap,,1,Try tapping it again.
+stare,,1,So I stare at a wall to Chicago.
+nervous,,1,"Yes, a little nervous."
+eighteen,,1,Are you sure? That's illegal. Eighteen.
+zombie,,1,That actually works. Business zombie?
+tie,,1,Your tie is perfect for it.
+unemployed,,1,Next year I'm coming unemployed.
+potluck,,1,"Jake, what's a potluck? Your mom said bring something."
+dish,,1,Everyone brings a dish to share.
+turkey,,1,I have no idea. Anything but turkey.
+fancy,,1,"Yeah, nothing fancy."
+kimchi,,1,Makes sense. How about kimchi fried rice?
+fried,,1,Makes sense. How about kimchi fried rice?
+aunt,,1,Did I mention my aunt's green beans? They're awful.
+awful,,1,Did I mention my aunt's green beans? They're awful.
+slice,,1,Someone took the last two slices.
+lid,,1,"Yeah, and you left the lid open."
 pepperoni,,1,Oh. That's why my shirt smells like pepperoni.
-mystery,,1,Mystery solved. You owe me an apology.
-solve,,1,Mystery solved. You owe me an apology.
-apology,,1,Mystery solved. You owe me an apology.
-podcast,,1,I literally do podcasts. I can act.
+apologize,,1,Case closed. Apologize.
+ruin,,1,Sorry I ruined the surprise.
+podcast,,1,I'm a podcast person. I can act.
 landlord,,1,"Hi, I texted the landlord about the sink."
-rent,,1,Daniel. I fix stuff for her. Free rent.
-tools,,1,That's why you're always carrying tools.
-ceiling,,1,No worries. Just stop dropping things on my ceiling.
-fryer,,1,I opened it. I thought it was my air fryer.
-whiskers,,1,In her room. She named it Mr. Whiskers.
+drain,,1,It won't drain. Water just sits there.
+upstairs,,1,Wait. Aren't you the guy from upstairs?
+ceiling,,1,No worries. Just stop dropping stuff on my ceiling.
+lamp,,1,The cat-shaped lamp?
+plug,,1,I already plugged it in.
+whiskers,,1,It's in my kid's room. Named it Mr. Whiskers.
 freeze,,1,You don't have to. It's freezing out.
 dryer,,1,"Sorry, is this dryer yours?"
-wet,,1,It's the last one. Mine's all wet.
-towel,,1,Two towels and one sad sweater.
+load,,1,We could split the load maybe.
 burn,,1,Are you sure you want me? I burn water.
-chop,,1,Okay. Step one says chop the onions.
-basketball,,1,He's at basketball. Always.
-halftime,,1,Halftime.
-outlet,,1,I guess. It's near the outlet.
-sore,,1,Excuse me. Do you have something for a sore throat?
-exact,,1,Oh no. You have the exact same jacket.
-unexpected,,1,"Hi, sorry. It says ""unexpected item in the bagging area."""
-scan,,1,Just my bananas. I scanned them already.
-weigh,,1,"You have to weigh bananas. Press ""produce"" first."
-yelling,,1,Got it. Okay… now it's yelling again.
+pasta,,1,Pasta. Should be easy.
+upload,,1,Just uploaded everything. All sources included.
+halftime,,1,During halftime.
+outlet,,1,I guess. Close to the outlet.
+lozenges,,1,"Yes, we have lozenges right here."
+pills,,1,Same as usual? Here's his sleeping pills.
+unexpected,,1,"Excuse me, unexpected item in the bag area."
 backpack,,1,My bad. That's my backpack.
-liquid,,1,There's a liquid. Over three ounces.
-ninety,,1,About ninety milliliters. This red jar is too big.
-milliliters,,1,About ninety milliliters. This red jar is too big.
-jar,,1,About ninety milliliters. This red jar is too big.
-pepper,,1,It's hot pepper paste. From my mom.
-paste,,1,It's hot pepper paste. From my mom.
-reservation,,1,"Hi, I have a reservation. Under {name}."
-sixth,,1,That's the thing. There isn't one. Sixth floor.
-mute,,1,"You're not on mute, {name}."
-seventh,,1,Seventh inning. We stretch and sing.
-stretch,,1,Seventh inning. We stretch and sing.
-baseball,,1,Tell me about it. Baseball is expensive.
-relax,,1,I wouldn't say that. It's relaxing.
-kiss,,1,"Kiss cam! Don't worry, we're not a couple… yet."
-cam,,1,"Kiss cam! Don't worry, we're not a couple… yet."
-cheer,,1,"The whole stadium is cheering, Maya."
+bottle,,1,Open it please. What's this bottle?
+ounce,,1,Three ounces? What does that mean?
+liquid,,1,Liquids over that size can't go.
+chili,,1,It's just Korean chili paste.
+paste,,1,It's just Korean chili paste.
+reservation,,1,"Hi, I have a reservation under {name}."
+mute,,1,"{name}, you're not on mute."
+veggies,,1,Something with veggies maybe.
+sudden,,1,"Maya, why is everyone standing up all of a sudden?"
+lyrics,,1,It depends. Do you know the lyrics at all?
+chorus,,1,Not really. I only know the chorus bits.
+baseball,,1,Tell me about it. Baseball is expensive as hell.
+rough,,1,"Yeah, the tickets alone were kinda rough."
+chill,,1,I wouldn't say that. It's more of a chill vibe.
+vibe,,1,I wouldn't say that. It's more of a chill vibe.
+kiss,,1,"It's the kiss cam! Don't worry, we're not a couple... yet."
+cam,,1,"It's the kiss cam! Don't worry, we're not a couple... yet."
+zoom,,1,"Wait, are they really zooming in on us right now?"
 tent,,1,I'm in. I'll bring the tent.
-snack,,1,"Fine, I'll drive. You do snacks."
-nah,,1,Nah. We're tough. Just bring marshmallows.
-sweetie,,1,"Bug spray. Rain jackets. And text me when you get there, sweetie."
-soup,,1,I already packed. I'm bringing soup for everyone.
-gray,,1,"Hey, by the way, have you seen my gray hoodie?"
-sleeve,,1,The soft one with the little hole on the sleeve?
-wash,,1,"Wash it and give it back, and we're even."
-neighborhood,,1,"The ad says ""lively neighborhood."""
-yell,,1,"Someone just yelled ""strike!"""
-alley,,1,There's a bowling alley under us.
-bark,,1,Is it barking?
-neighbor,,1,Oh. My neighbor's giant stuffed dog. She puts it out to scare people.
-scare,,1,Oh. My neighbor's giant stuffed dog. She puts it out to scare people.
-hurry,,1,Please hurry. It's still looking at me.
+burger,,1,Burgers and stuff. Easy.
+mosquito,,1,"Mosquito spray. Rain jackets. And text when you arrive, my daughter."
+spray,,1,"Mosquito spray. Rain jackets. And text when you arrive, my daughter."
+soup,,1,Already packed. I'll bring soup for everyone.
+wash,,1,"Yeah, I'll wash it first."
+alley,,1,"Oh no, there's a bowling alley right below us."
+noise,,1,We would never sleep with all that noise.
+pin,,1,"Yeah, pins crashing all night long."
+crash,,1,"Yeah, pins crashing all night long."
+awning,,1,The one with the blue awning out front.
+neighbor,,1,Oh. It's the neighbor's big stuffed dog. They leave it out to scare people.
+scare,,1,Oh. It's the neighbor's big stuffed dog. They leave it out to scare people.
+toy,,1,What do you mean it's a toy? I've been standing here for ten minutes.
 cashier,,1,Who? The cashier? Just some guy who sells me sandwiches.
 experimental,,1,It's a very experimental novel.
 jealous,,1,Emma. Are you a little jealous?
 nicest,,1,That might be the nicest thing you've ever said to me.
-runner,,1,"I mean, I'm a runner. Obviously."
-breath,,1,"You're breathing really hard, Emma."
-coincidence,,1,Coincidence. This is the only good bagel place.
-flatter,,1,Don't flatter yourself. It's also very good bread.
-annyeong,,1,"Okay, Jake. Your turn. Say ""annyeong."""
-ahn,,1,Ahn… nyong? Like that?
-nyong,,1,Ahn… nyong? Like that?
-essay,,1,Close. Now help me with my English essay.
-sentence,,1,Sure. This sentence is kinda stiff.
+habit,,1,Habit. You too.
+runner,,1,"Well, I mean, I'm a runner. Obviously."
+pace,,1,Right. Pace is good today.
+universe,,1,Or the universe just really wants us to get bagels together.
+bold,,1,"That's kinda bold, not gonna lie."
+stiff,,1,Stiff? What are you talking about? It's perfect.
 delighted,,1,"As if. Nobody says ""I am very much delighted."""
-korean,,1,Your phone. Is that a Korean drama with no subtitles?
-subtitles,,1,Your phone. Is that a Korean drama with no subtitles?
-rough,,1,"I can try. Which card did you use, and roughly when?"
+formal,,1,"Okay fine, that one was a little formal."
+textbook,,1,"See? I need real practice, not textbook stuff."
+pronunciation,,1,No way. Your pronunciation was way too clean.
+alright,,1,"Alright, I watch some shows without subtitles sometimes."
+subtitles,,1,"Alright, I watch some shows without subtitles sometimes."
+tag,,1,Hold on… that tag is from the store next door.
+entrance,,1,Fair enough. So where's their entrance?
+symptoms,,1,Any other symptoms? Fever or cough?
+cough,,1,Any other symptoms? Fever or cough?
+swallow,,1,No fever. Just hurts when I swallow.
 vitamin,,1,"To be honest, just vitamins. And my roommate's tea."
 roommate,,1,"To be honest, just vitamins. And my roommate's tea."
-panda,,1,"Green, I think. The box has a tiny sleeping panda on it."
-chamomile,,1,That's probably chamomile. Totally fine.
-singing,,1,Are you sure? You didn't ask about the singing.
-squeeze,,1,Mine's tiny. I can squeeze it in next to yours.
-layer,,1,It's my sister's wedding cake. Top layer only.
-closet,,1,In the front closet. You handed it to me at the door.
-farewell,,1,"Hey, can you sign Tom's farewell card? It's due by three."
-congrats,,1,"I meant ""finally retiring."" Like, congrats!"
-competitor,,1,He's not retiring. He's moving to our biggest competitor.
-scary,,1,"""Finally! We'll be watching you."" That's scary."
-frame,,1,Perfect. He'll frame it.
-remote,,1,"A raise that's closer to their number, and one remote day a week."
-reasonable,,1,"That's a reasonable ask. I can't promise their number, but I can fight for it."
-hire,,1,Wait. So they're trying to hire both of us?
-nervous,,1,Looks like it. So now we have two offers and one very nervous boss upstairs.
-negotiate,,1,"Should we negotiate together, then?"
+herbal,,1,Some herbal thing. Smells like flowers.
+sing,,1,"Oh, and I sang for three hours at a party last week."
+overuse,,1,That might be it. Overuse.
+underneath,,1,My carry-on is already full underneath.
+bin,,1,The bin is looking pretty packed already.
+farewell,,1,"Hey, can you add a line to Tom's farewell card? It's due by 3."
+pen,,1,It's written in pen. That being said...
+closet,,1,I'll go grab one from the supply closet.
+frame,,1,Perfect. He's going to frame this.
+lean,,1,Okay. Are you leaning toward taking it?
+complicated,,1,This is getting complicated.
 grace,,1,Hi Grace. Mind confirming whether my leave request has been approved?
 approval,,1,You're not sure? Approvals are supposed to come from your team.
+prompt,,1,Then a prompt appeared asking if I wanted to delete all pending requests.
 delete,,1,Then a prompt appeared asking if I wanted to delete all pending requests.
 pending,,1,Then a prompt appeared asking if I wanted to delete all pending requests.
-confidential,,1,"The attachment marked ""Confidential — HR Only""?"
-hr,,1,"The attachment marked ""Confidential — HR Only""?"
-assume,,1,"I assumed it was a typo for ""confident."""
-typo,,1,"I assumed it was a typo for ""confident."""
-considerable,,1,All Staff. Every branch. The reach was considerable.
-raj,,1,Everyone now knows Raj earns more than his supervisor.
-earn,,1,Everyone now knows Raj earns more than his supervisor.
-supervisor,,1,Everyone now knows Raj earns more than his supervisor.
-considerate,,1,"I'll be considerate and recall the message. From my inbox, at least."
-recall,,1,"I'll be considerate and recall the message. From my inbox, at least."
-inbox,,1,"I'll be considerate and recall the message. From my inbox, at least."
-finalize,,1,We came to finalize the service agreement this afternoon.
-prefer,,1,Excellent. Would you prefer a pen or the tablet?
-tablet,,1,Excellent. Would you prefer a pen or the tablet?
-bonus,,1,I came to have lunch with my favorite vendor. The contract was a bonus.
-overtime,,1,You can't avoid working overtime during the audit season.
-transparent,,1,Thank you for being so transparent about your priorities.
-priority,,1,Thank you for being so transparent about your priorities.
-exciting,,1,You presented last year's figures. From a different department. Very exciting.
-genuine,,1,"I mean, the client seemed genuinely excited."
-label,,1,"The label reads ""shipped items — this side of the dock."""
-dock,,1,"The label reads ""shipped items — this side of the dock."""
-gentleman,,1,The gentleman standing next to the delivery truck.
-attend,,1,Noted. I'll attend the meeting in person tomorrow.
-invitation,,1,I always respond to meeting invitations promptly.
-unintentionally,,1,The file was distributed. Unintentionally.
-notified,,1,You changed it last month and notified us yourself.
-spam,,1,My bad. I have just located it. In the spam folder.
-fold,,1,My bad. I have just located it. In the spam folder.
-considerably,,1,This model is considerably cheaper than the one we use now.
+confidential,,1,That attachment marked Confidential — HR only?
+typo,,1,I thought confident was just a typo there.
+considerable,,1,All employees across every branch. The reach was considerable.
+flood,,1,HR just got flooded with calls about the salaries.
+considerate,,1,I'll be considerate and recall it from my inbox at least.
+recall,,1,I'll be considerate and recall it from my inbox at least.
+inbox,,1,I'll be considerate and recall it from my inbox at least.
+finalize,,1,I came this afternoon to finalize the service contract.
+postpone,,1,to be honest Our legal team decided to postpone the signing.
+transparent,,1,Thanks for being so transparent about your priorities.
+priority,,1,Thanks for being so transparent about your priorities.
+bored,,1,By the third slide the whole audience looked bored.
+boring,,1,"The slides were boring, but you were interesting."
+compliment,,1,I'll take the compliment on the delivery.
+exciting,,1,You presented last year's numbers from another department. Very exciting.
+genuine,,1,i mean The clients seemed genuinely excited about it.
+dock,,1,"The label says ""shipped goods — this side of the dock."""
+attend,,1,Got it. I'll attend the meeting in person tomorrow.
+respond,,1,I always respond to meeting invites quickly.
+invite,,1,I always respond to meeting invites quickly.
+invoice,,1,Our accounting team has waited for the invoice since Monday.
+spam,,1,my bad I have just located it. In the spam folder.
+fold,,1,my bad I have just located it. In the spam folder.
 catalog,,1,That one is more comfortable than anything in this catalog.
-procurement,,1,Procurement policy says we purchase the cheapest option available.
-freight,,1,Twenty chairs plus freight. Shipping turned out to be the most expensive line item.
-costly,,1,No way. Told you — the cheapest option is always the costliest.
-downtown,,1,I got stuck because of the traffic jam downtown.
+concrete,,1,The cheapest is as hard as a concrete block.
+freight,,1,Twenty chairs plus freight. Shipping became the most expensive item.
 maintenance,,1,The elevator broke down because they scheduled maintenance this morning.
 staircase,,1,Despite the staircase right next to it?
 desk,,1,I'll be early tomorrow because I'm camping under my desk tonight.
@@ -269,12 +253,9 @@ expense,,1,No way. The extra one goes straight on your expense report.
 cleaner,,1,"That covers everyone on this floor, cleaners included."
 wipe,,1,Hold on. Someone's wiping her mouth by the copier right now.
 routine,,1,It expired yesterday. Call it a routine fridge inspection.
-fridge,,1,It expired yesterday. Call it a routine fridge inspection.
 inspection,,1,It expired yesterday. Call it a routine fridge inspection.
 proposal,,1,I need the revised proposal by Friday. The board meets Monday.
 deliver,,1,By means I deliver it. Until means I keep working.
-salary,,1,"However, the budget for salary adjustments got cut by forty percent."
-shift,,1,"In addition, I've been covering weekend shifts for three full months."
 bakery,,1,The place across the street is just a bakery.
 resignation,,1,"Fair enough. That's it, I'm handing in my resignation."
 error,,1,The other one is throwing an error code too.
@@ -287,7 +268,4 @@ furniture,,1,"My bad. I also wrote ""furnitures"" on the same form."
 hallway,,1,Seriously? That explains the three coffee machines in the hallway.
 beforehand,,1,Some advice beforehand would have helped a lot.
 uncountable,,1,Advice is uncountable. So is the mess you created.
-mess,,1,Advice is uncountable. So is the mess you created.
-submitted,,1,The quarterly report. Still not submitted?
-deadline,,1,Almost is not a time. The deadline was an hour ago.
-finalized,,1,I've already finalized the title page and the table of contents.
+submitted,,1,You still haven't submitted the quarterly report?

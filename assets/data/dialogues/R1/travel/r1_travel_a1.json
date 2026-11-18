@@ -33,18 +33,13 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Hi there. Where are you flying today?",
+   "en": "Hi. Where to today?",
    "ko": "안녕하세요. 오늘 어디로 가세요?",
-   "note": "flying = 비행기로 가다",
+   "note": "where to = 어디로",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
-    [
-     "flying",
-     "fly",
-     ""
-    ],
     [
      "today",
      "today",
@@ -55,9 +50,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Chicago. Can I get a window seat?",
+   "en": "Chicago. Can I get a window?",
    "ko": "시카고요. 창가 자리 주실 수 있어요?",
-   "note": "can I get ~? = ~ 주실래요",
+   "note": "can i get = 주실 수 있어요",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -76,20 +71,15 @@
      "window",
      "window",
      ""
-    ],
-    [
-     "seat",
-     "seat",
-     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "en": "Sure. Window seat, row twelve.",
+   "en": "Sure. Window, row twelve.",
    "ko": "네. 창가 자리, 12열이요.",
-   "note": "row = 열",
+   "note": "sure = 네",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -102,11 +92,6 @@
     [
      "Window",
      "window",
-     ""
-    ],
-    [
-     "seat",
-     "seat",
      ""
     ],
     [
@@ -124,9 +109,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Great. How much is a bag?",
+   "en": "Great. How much for the bag?",
    "ko": "좋아요. 짐은 얼마예요?",
-   "note": "how much = 얼마예요",
+   "note": "how much = 얼마",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -146,26 +131,26 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Thirty-five. Have a good flight!",
-   "ko": "35달러요. 좋은 비행 되세요!",
-   "note": "have a good ~ = 좋은 ~ 되세요",
+   "en": "Twenty dollars. One bag.",
+   "ko": "20달러. 가방 하나.",
+   "note": "twenty dollars = 20달러",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Thirty",
-     "thirty",
+     "Twenty",
+     "twenty",
      ""
     ],
     [
-     "good",
-     "better",
+     "dollars",
+     "dollar",
      ""
     ],
     [
-     "flight",
-     "flight",
+     "bag",
+     "bag",
      ""
     ]
    ]
@@ -200,26 +185,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "It's next to the wall. Very close.",
-   "ko": "벽 옆이에요. 아주 가까워요.",
-   "note": "next to = 옆에",
+   "en": "Yeah, it's the wall side.",
+   "ko": "네, 벽 쪽이에요.",
+   "note": "wall side = 벽 쪽",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "next",
-     "next",
-     ""
-    ],
-    [
      "wall",
      "wall",
      ""
     ],
     [
-     "close",
-     "close",
+     "side",
+     "side",
      ""
     ]
    ]
@@ -227,16 +207,16 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "So I'm looking at a wall to Chicago.",
+   "en": "So I stare at a wall to Chicago.",
    "ko": "그럼 시카고까지 벽만 보고 가네요.",
-   "note": "looking at = 보다",
+   "note": "stare at wall = 벽만 보다",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "amused",
    "lemmas": [
     [
-     "looking",
-     "look",
+     "stare",
+     "stare",
      ""
     ],
     [

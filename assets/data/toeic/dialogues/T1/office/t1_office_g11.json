@@ -32,19 +32,19 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "We came to finalize the service agreement this afternoon.",
-   "ko": "오늘 오후에 서비스 계약을 마무리하러 왔어요.",
+   "en": "I came this afternoon to finalize the service contract.",
+   "ko": "오늘 오후에 서비스 계약 마무리하러 왔어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "to finalize the service agreement"
+     "I came this afternoon to finalize the service contract."
     ],
     "red": [
      "to finalize"
     ],
-    "note": "to finalize = ~하기 위해(목적)"
+    "note": " to finalize: 목적의 to부정사 (~하기 위해)"
    },
    "emotion": "polite",
    "lemmas": [
@@ -54,6 +54,11 @@
      ""
     ],
     [
+     "afternoon",
+     "afternoon",
+     ""
+    ],
+    [
      "finalize",
      "finalize",
      ""
@@ -64,13 +69,8 @@
      ""
     ],
     [
-     "agreement",
-     "agreement",
-     ""
-    ],
-    [
-     "afternoon",
-     "afternoon",
+     "contract",
+     "contract",
      ""
     ]
    ]
@@ -78,31 +78,26 @@
   {
    "num": 2,
    "speaker": "C",
-   "en": "Excellent. Would you prefer a pen or the tablet?",
-   "ko": "좋아요. 펜이 좋으세요, 태블릿이 좋으세요?",
-   "note": "팀장의 속도",
+   "en": "We have the final documents prepared for you.",
+   "ko": "최종 서류 준비해 뒀어요.",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Excellent",
-     "excellent",
+     "final",
+     "final",
      ""
     ],
     [
-     "prefer",
-     "prefer",
+     "documents",
+     "documents",
      ""
     ],
     [
-     "pen",
-     "pen",
-     ""
-    ],
-    [
-     "tablet",
-     "tablet",
+     "prepared",
+     "prepared",
      ""
     ]
    ]
@@ -110,19 +105,17 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "To be honest, our legal team decided to postpone the signing.",
+   "en": "to be honest Our legal team decided to postpone the signing.",
    "ko": "솔직히 말씀드리면, 저희 법무팀이 서명을 연기하기로 했어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
-    "u": [
-     "to postpone the signing"
-    ],
+    "u": [],
     "red": [
      "to postpone"
     ],
-    "note": "decide to postpone = 연기하기(명사 역할)"
+    "note": " to postpone: decide 뒤 명사 역할의 to부정사"
    },
    "emotion": "neutral",
    "lemmas": [
@@ -161,31 +154,36 @@
   {
    "num": 4,
    "speaker": "C",
-   "en": "You came here to sign, in order to postpone?",
-   "ko": "서명하러 오셔서 연기하신다고요?",
-   "note": "두 to부정사 충돌",
+   "en": "That changes the plan quite a bit today.",
+   "ko": "오늘 계획이 꽤 바뀌겠네요.",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "came",
-     "come",
+     "changes",
+     "change",
      ""
     ],
     [
-     "sign",
-     "sign",
+     "plan",
+     "plan",
      ""
     ],
     [
-     "order",
-     "order",
+     "quite",
+     "quite",
      ""
     ],
     [
-     "postpone",
-     "postpone",
+     "bit",
+     "bite",
+     ""
+    ],
+    [
+     "today",
+     "today",
      ""
     ]
    ]
@@ -193,25 +191,25 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "There's still plenty of time to review the terms.",
-   "ko": "조건을 검토할 시간은 아직 충분하잖아요.",
+   "en": "We still have enough time to review the terms properly.",
+   "ko": "조건을 제대로 검토할 시간은 아직 충분하잖아요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "to review the terms"
+     "We still have enough time to review the terms properly."
     ],
     "red": [
      "to review"
     ],
-    "note": "time to review = 검토할(형용사 역할)"
+    "note": " to review: time 뒤 형용사 역할의 to부정사"
    },
    "emotion": "polite",
    "lemmas": [
     [
-     "plenty",
-     "plenty",
+     "enough",
+     "enough",
      ""
     ],
     [
@@ -228,27 +226,32 @@
      "terms",
      "term",
      ""
+    ],
+    [
+     "properly",
+     "proper",
+     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "en": "There's also a sandwich to finish. In your left hand.",
-   "ko": "마저 드실 샌드위치도 있네요. 왼손에요.",
+   "en": "There's still a sandwich to finish in your left hand.",
+   "ko": "마저 드실 샌드위치가 왼손에 있네요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "to finish"
+     "There's still a sandwich to finish in your left hand."
     ],
     "red": [
      "to finish"
     ],
-    "note": "a sandwich to finish = 먹을(형용사 역할)"
+    "note": " to finish: 명사 뒤 형용사 역할의 to부정사"
    },
-   "emotion": "teasing",
+   "emotion": "amused",
    "lemmas": [
     [
      "sandwich",
@@ -275,22 +278,27 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "I came to have lunch with my favorite vendor. The contract was a bonus.",
-   "ko": "제일 좋아하는 협력사랑 점심 먹으러 온 거예요. 계약은 덤이고요.",
+   "en": "I actually came to have lunch with my favorite partner.",
+   "ko": "제일 좋아하는 협력사랑 점심 먹으러 온 거예요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "to have lunch"
+     "I actually came to have lunch with my favorite partner."
     ],
     "red": [
      "to have"
     ],
-    "note": "to have lunch = 점심 먹으려고(목적)"
+    "note": " to have: 목적의 to부정사 (먹으러)"
    },
-   "emotion": "flustered",
+   "emotion": "cheerful",
    "lemmas": [
+    [
+     "actually",
+     "actual",
+     ""
+    ],
     [
      "came",
      "come",
@@ -307,18 +315,8 @@
      ""
     ],
     [
-     "vendor",
-     "vendor",
-     ""
-    ],
-    [
-     "contract",
-     "contract",
-     ""
-    ],
-    [
-     "bonus",
-     "bonus",
+     "partner",
+     "partner",
      ""
     ]
    ]
@@ -326,15 +324,15 @@
   {
    "num": 8,
    "speaker": "C",
-   "en": "Sounds good. Lunch is forty dollars per person. Sign here.",
+   "en": "sounds good Lunch is forty dollars each. Sign here.",
    "ko": "좋네요. 점심은 1인당 40달러. 여기 서명하세요.",
-   "note": "sounds good = 좋네요",
+   "note": "",
    "tags": [],
    "new": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "Sounds",
+     "sounds",
      "sound",
      ""
     ],
@@ -356,16 +354,6 @@
     [
      "dollars",
      "dollar",
-     ""
-    ],
-    [
-     "per",
-     "per",
-     ""
-    ],
-    [
-     "person",
-     "person",
      ""
     ],
     [

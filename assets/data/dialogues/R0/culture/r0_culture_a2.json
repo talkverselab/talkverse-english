@@ -31,12 +31,12 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Hey! How's it going?",
+   "en": "Hi! How's it going?",
    "ko": "안녕하세요! 잘 지내요?",
-   "note": "how's it going = 잘 지내요?",
+   "note": "how's it going = 잘 지내",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "going",
@@ -48,26 +48,26 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Not good. My bus was late.",
-   "ko": "별로요. 버스가 늦었어요.",
-   "note": "late = 늦은",
+   "en": "Not great. Long day.",
+   "ko": "별로예요. 긴 하루.",
+   "note": "long day = 긴 하루",
    "tags": [],
    "new": [],
-   "emotion": "sad",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "good",
-     "better",
+     "great",
+     "great",
      ""
     ],
     [
-     "bus",
-     "bus",
+     "Long",
+     "long",
      ""
     ],
     [
-     "late",
-     "late",
+     "day",
+     "day",
      ""
     ]
    ]
@@ -75,21 +75,16 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Oh. Sorry. Bag?",
-   "ko": "아. 저런. 봉투요?",
-   "note": "bag = 봉투",
+   "en": "Oh yeah? What happened?",
+   "ko": "아 그래요? 무슨 일?",
+   "note": "what happened = 무슨 일",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Sorry",
-     "sorry",
-     ""
-    ],
-    [
-     "Bag",
-     "bag",
+     "happened",
+     "happen",
      ""
     ]
    ]
@@ -97,21 +92,26 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "And my coffee was cold.",
-   "ko": "그리고 커피도 식었어요.",
-   "note": "cold = 차가운",
+   "en": "Work was crazy today.",
+   "ko": "오늘 일이 미쳤어요.",
+   "note": "crazy today = 오늘 미쳤다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "coffee",
-     "coffee",
+     "Work",
+     "work",
      ""
     ],
     [
-     "cold",
-     "cold",
+     "crazy",
+     "crazy",
+     ""
+    ],
+    [
+     "today",
+     "today",
      ""
     ]
    ]
@@ -119,9 +119,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "It's just \"hi\" here.",
+   "en": "Here it's just hello.",
    "ko": "여기선 그냥 「안녕」이에요.",
-   "note": "just = 그냥",
+   "note": "just hello = 그냥 안녕",
    "tags": [],
    "new": [],
    "emotion": "amused",
@@ -130,12 +130,12 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Oh! Then… I'm good!",
+   "en": "Oh! Then... I'm good.",
    "ko": "아! 그럼… 좋아요!",
-   "note": "i'm good = 잘 지내요",
+   "note": "i'm good = 좋아요",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
     [
      "good",
@@ -147,21 +147,26 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Me too. Cold coffee too.",
+   "en": "Me too. Coffee got cold.",
    "ko": "저도요. 저도 커피 식었어요.",
-   "note": "me too = 저도",
+   "note": "coffee cold = 커피 식다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Cold",
-     "cold",
+     "Coffee",
+     "coffee",
      ""
     ],
     [
-     "coffee",
-     "coffee",
+     "got",
+     "get",
+     ""
+    ],
+    [
+     "cold",
+     "cold",
      ""
     ]
    ]

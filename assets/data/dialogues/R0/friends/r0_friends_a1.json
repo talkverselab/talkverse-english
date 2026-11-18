@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Hi! I'm Maya. You are…?",
-   "ko": "안녕! 나 마야야. 너는…?",
-   "note": "You are…? = 너는…?",
+   "en": "Hey! I'm Maya. You?",
+   "ko": "안녕! 나 마야야. 너는?",
+   "note": "I'm Maya = 나 마야야",
    "tags": [],
    "new": [],
    "emotion": "cheerful",
@@ -47,7 +47,7 @@
    "note": "nice to meet you = 반가워",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "Nice",
@@ -64,26 +64,26 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Nice to meet you, Nina!",
-   "ko": "반가워, 니나!",
-   "note": "이름을 잘못 들음",
+   "en": "Cool, {name}... wait, Alex?",
+   "ko": "멋지다, {name}... 잠깐, 알렉스?",
+   "note": "wait Alex = 잠깐 알렉스",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Nice",
-     "nice",
+     "Cool",
+     "cool",
      ""
     ],
     [
-     "meet",
-     "meet",
+     "wait",
+     "wait",
      ""
     ],
     [
-     "Nina",
-     "nina",
+     "Alex",
+     "alex",
      ""
     ]
    ]
@@ -93,7 +93,7 @@
    "speaker": "A",
    "en": "No, {name}.",
    "ko": "아니, {name}.",
-   "note": "이름만 다시",
+   "note": "no {name} = 아니 {name}",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -104,7 +104,7 @@
    "speaker": "B",
    "en": "Sorry! Say that again?",
    "ko": "미안! 다시 말해 줄래?",
-   "note": "say that again = 다시 말해 줘",
+   "note": "say that again = 다시 말해",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -124,33 +124,27 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "{name}. Like… {name}.",
+   "en": "{name}. So... {name}.",
    "ko": "{name}. 그러니까… {name}.",
-   "note": "또박또박",
+   "note": "so {name} = 그러니까 {name}",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Like",
-     "like",
-     ""
-    ]
-   ]
+   "emotion": "amused",
+   "lemmas": []
   },
   {
    "num": 7,
    "speaker": "B",
-   "en": "Got it. Hi, Nina!",
-   "ko": "알았어. 안녕, 니나!",
-   "note": "got it = 알았어",
+   "en": "Oh! Like Nina?",
+   "ko": "아! 니나처럼?",
+   "note": "like Nina = 니나처럼",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Got",
-     "get",
+     "Like",
+     "like",
      ""
     ],
     [
@@ -163,12 +157,12 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Okay. Tonight I'm Nina.",
+   "en": "Yeah. Tonight I'm Nina.",
    "ko": "그래. 오늘 밤 난 니나야.",
-   "note": "tonight = 오늘 밤",
+   "note": "tonight Nina = 오늘 밤 니나",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
      "Tonight",

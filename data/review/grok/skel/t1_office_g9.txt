@@ -1,0 +1,23 @@
+=== t1_office_g9
+title: 거의는 시간이 아니야
+emoji: ⌛
+scene: Olivia 가 마감 상황을 묻는다. A 는 부사로만 버틴다 — almost, still, already, yet, hardly
+where: A 의 자리
+goal: 부사 almost · still · already · yet · hardly
+grammar: 부사|already(이미, 긍정문), yet(아직, 부정·의문문 끝), still(여전히), almost(거의), hardly(거의 ~않다 — 부정의 뜻). 자리와 뜻을 함께 본다.
+check: I have _____ completed the quarterly report. | yet | almost | hardly ever | still not | B
+kind: short
+register: mixed
+B: Olivia
+twist: 7 slip
+expr: i swear | right now
+level: 토익 Part 3·4 중급 비즈니스 회화 · 한 줄 영어 1~15 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+B | ____ | 흐름: 분기 보고서. 아직도 제출 안 했어? · 문법 줄: Still 를 *Still* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+A | ____ | 흐름: 거의요. · 문법 줄: Almost 를 *Almost* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+A | ____ | 흐름: 표지랑 목차는 이미 완성했어요. · 문법 줄: already 를 *already* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+A | ____ | 흐름: 아직요. 근데 이번 주에 거의 못 잤어요. · 문법 줄: yet 를 *yet* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작 · 문법 줄: hardly 를 *hardly* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: 거의 일을 안 해서 거의 못 잔 거야? · 문법 줄: hardly 를 *hardly* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작 · ← 반전(slip)
+A | ____ | 흐름: 맹세코 분석은 지금 바로 나와요. 분석만요. · 「i swear」를 이 줄에 그대로 · 「right now」를 이 줄에 그대로

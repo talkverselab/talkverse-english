@@ -16,9 +16,9 @@ for id in "$@"; do
   if [[ -z $chat ]]; then
     first=${TMPDIR:-/tmp}/grok_en_first.txt
     print -r -- "첨부한 $(basename $rules) 가 이 방의 규칙이다. 앞으로는 파일 이름 한 줄만 보낸다. 첫 편: $id.txt" > $first
-    r=$(/usr/bin/python3 tools/grok/grok_text.py $first $out $rules data/review/grok/src/$id.txt 2>&1)
+    r=$(/usr/bin/python3 tools/grok/grok_text.py $first $out $rules ${SRC:-data/review/grok/src}/$id.txt 2>&1)
   else
-    r=$(/usr/bin/python3 tools/grok/grok_text.py -m "$id.txt" $out data/review/grok/src/$id.txt --chat "$chat" 2>&1)
+    r=$(/usr/bin/python3 tools/grok/grok_text.py -m "$id.txt" $out ${SRC:-data/review/grok/src}/$id.txt --chat "$chat" 2>&1)
   fi
   rc=$?
   c=$(echo $r | grep '^CHAT ' | awk '{print $2}' | sed 's/?.*//'); [[ -n $c ]] && chat=$c

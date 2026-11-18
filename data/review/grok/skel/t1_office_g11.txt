@@ -1,0 +1,24 @@
+=== t1_office_g11
+title: 하려고 왔는데 하지 않기로 했다
+emoji: 🚪
+scene: Tom 이 계약하러 왔다. to부정사만으로 밀고 당기다가 「점심 먹으러」 온 걸로 끝난다
+where: 회의실
+goal: to부정사 — 목적(to do) · 명사 역할(decide to) · 형용사 역할(time to)
+grammar: to부정사|「~하기 위해」(목적), decide·want·plan 뒤 「~하기」(명사), time·way·chance 뒤 「~할」(형용사). to 뒤에는 동사원형.
+check: Our representatives came _____ the final terms of the agreement. | review | to review | reviewing | reviewed | B
+kind: short
+register: polite
+B: Tom
+C: Olivia
+twist: 6 reveal
+expr: to be honest | sounds good
+level: 토익 Part 3·4 중급 비즈니스 회화 · 한 줄 영어 1~15 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+B | ____ | 흐름: 오늘 오후에 서비스 계약을 마무리하러 왔어요. · 문법 줄: to finalize 를 *to finalize* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+C | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+B | ____ | 흐름: 솔직히 말씀드리면, 저희 법무팀이 서명을 연기하기로 했어요. · 「to be honest」를 이 줄에 그대로 · 문법 줄: to postpone 를 *to postpone* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+C | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+B | ____ | 흐름: 조건을 검토할 시간은 아직 충분하잖아요. · 문법 줄: to review 를 *to review* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+A | ____ | 흐름: 마저 드실 샌드위치도 있네요. 왼손에요. · 문법 줄: to finish 를 *to finish* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작 · ← 반전(reveal)
+B | ____ | 흐름: 제일 좋아하는 협력사랑 점심 먹으러 온 거예요. 계약은 덤이고요. · 문법 줄: to have 를 *to have* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+C | ____ | 흐름: 좋네요. 점심은 1인당 40달러. 여기 서명하세요. · 「sounds good」를 이 줄에 그대로

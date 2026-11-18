@@ -36,7 +36,7 @@
    "note": "half and half = 반반",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Pizza",
@@ -58,21 +58,21 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Sure. Half for me.",
-   "ko": "좋아. 반은 내 거.",
-   "note": "for me = 내 거",
+   "en": "Yeah, sounds good.",
+   "ko": "응, 좋아.",
+   "note": "sounds good = 좋아",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Sure",
-     "sure",
+     "sounds",
+     "sound",
      ""
     ],
     [
-     "Half",
-     "half",
+     "good",
+     "better",
      ""
     ]
    ]
@@ -80,21 +80,26 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Okay. This half is mine.",
-   "ko": "오케이. 이 반은 내 거.",
-   "note": "mine = 내 것",
+   "en": "Cool. I take this half.",
+   "ko": "좋아. 내가 이 반 가져.",
+   "note": "this half = 이 반",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "half",
-     "half",
+     "Cool",
+     "cool",
      ""
     ],
     [
-     "mine",
-     "mine",
+     "take",
+     "take",
+     ""
+    ],
+    [
+     "half",
+     "half",
      ""
     ]
    ]
@@ -102,16 +107,21 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "And that half?",
-   "ko": "그럼 저 반은?",
-   "note": "that half = 저 반",
+   "en": "Wait, that's bigger.",
+   "ko": "잠깐, 그게 더 커.",
+   "note": "bigger = 더 크다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "half",
-     "half",
+     "Wait",
+     "wait",
+     ""
+    ],
+    [
+     "bigger",
+     "bigger",
      ""
     ]
    ]
@@ -119,26 +129,21 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Also mine. Big day.",
-   "ko": "그것도 내 거. 오늘 힘들었거든.",
-   "note": "big day = 힘든 날",
+   "en": "Nah, it's pretty even.",
+   "ko": "아니, 꽤 비슷해.",
+   "note": "pretty even = 꽤 비슷",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "mine",
-     "mine",
+     "Nah",
+     "nah",
      ""
     ],
     [
-     "Big",
-     "big",
-     ""
-    ],
-    [
-     "day",
-     "day",
+     "pretty",
+     "pretty",
      ""
     ]
    ]
@@ -146,12 +151,12 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Come on! No way!",
+   "en": "Come on, no way!",
    "ko": "야! 말도 안 돼!",
-   "note": "come on = 야, 왜 이래",
+   "note": "come on = 야",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "amused",
    "lemmas": [
     [
      "Come",
@@ -168,21 +173,16 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "You get the box.",
-   "ko": "넌 상자 가져.",
-   "note": "box = 상자",
+   "en": "Okay, you take more.",
+   "ko": "알겠어, 네가 더 가져.",
+   "note": "take more = 더 가져",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "get",
-     "get",
-     ""
-    ],
-    [
-     "box",
-     "box",
+     "take",
+     "take",
      ""
     ]
    ]
@@ -190,16 +190,16 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Wow. Great friend.",
+   "en": "Wow. Good friend.",
    "ko": "와. 좋은 친구네.",
-   "note": "비꼬기",
+   "note": "good friend = 좋은 친구",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Great",
-     "great",
+     "Good",
+     "better",
      ""
     ],
     [

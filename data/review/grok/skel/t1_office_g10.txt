@@ -1,0 +1,24 @@
+=== t1_office_g10
+title: 자신 있었지 기밀은 아니고
+emoji: 📧
+scene: A 가 「기밀」 파일을 전체 메일로 보냈다. 형용사 한 글자 차이로 회사가 발칵 뒤집힌다
+where: 사무실 전체
+goal: 혼동 형용사 confident vs confidential · considerable vs considerate
+grammar: 어형 — 혼동 형용사|confident(자신 있는) vs confidential(기밀의), considerable(상당한) vs considerate(사려 깊은). 모양이 비슷한 형용사는 뜻을 짝으로 외운다.
+check: All salary information must be kept strictly _____. | confident | confidential | confidence | confidentially | B
+kind: short
+register: mixed
+B: Olivia
+C: Grace
+twist: 5 chaos
+expr: oh no | you're kidding
+level: 토익 Part 3·4 중급 비즈니스 회화 · 한 줄 영어 1~15 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+A | ____ | 흐름: 급여 파일을 팀에 전달했어요. 자신 있었거든요. · 문법 줄: confident 를 *confident* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: "기밀 — 인사팀 전용" 이라고 표시된 그 첨부 파일? · 문법 줄: Confidential 를 *Confidential* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+A | ____ | 흐름: "confident" 의 오타인 줄 알았어요. · 문법 줄: confident 를 *confident* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: 어떡해. "마케팅팀"이야, "전 직원"이야? · 「oh no」를 이 줄에 그대로
+A | ____ | 흐름: 전 직원이요. 전 지점. 도달률이 상당했어요. · 문법 줄: considerable 를 *considerable* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작 · ← 반전(chaos)
+C | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+B | ____ | 흐름: 설마. 그게 여기서 진짜 비상사태네. · 「you're kidding」를 이 줄에 그대로
+A | ____ | 흐름: 사려 깊게 메시지를 회수할게요. 최소한 제 받은편지함에서는요. · 문법 줄: considerate 를 *considerate* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작

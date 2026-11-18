@@ -32,7 +32,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Hey, you need a partner? I'm a terrible cook.",
+   "en": "Hey, need a partner? I'm terrible at cooking.",
    "ko": "야, 짝 필요해? 나 요리 진짜 못해.",
    "note": "partner = 짝",
    "tags": [],
@@ -55,7 +55,7 @@
      ""
     ],
     [
-     "cook",
+     "cooking",
      "cook",
      ""
     ]
@@ -66,10 +66,10 @@
    "speaker": "A",
    "en": "Are you sure you want me? I burn water.",
    "ko": "나랑 해도 괜찮겠어? 나 물도 태워.",
-   "note": "are you sure = 확실해?",
+   "note": "are you sure = 괜찮겠어",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "teasing",
    "lemmas": [
     [
      "sure",
@@ -96,12 +96,12 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Perfect. We'll be bad together.",
-   "ko": "완벽해. 같이 망하자.",
-   "note": "together = 같이",
+   "en": "Perfect. We'll match.",
+   "ko": "완벽해. 우리 잘 맞을 거야.",
+   "note": "match = 맞다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
      "Perfect",
@@ -109,13 +109,8 @@
      ""
     ],
     [
-     "bad",
-     "worse",
-     ""
-    ],
-    [
-     "together",
-     "together",
+     "match",
+     "match",
      ""
     ]
    ]
@@ -123,31 +118,16 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Okay. Step one says chop the onions.",
-   "ko": "좋아. 1단계, 양파 썰기래.",
-   "note": "chop = 썰다",
+   "en": "Okay, but no judging.",
+   "ko": "알겠어, 근데 평가하지 마.",
+   "note": "judging = 평가하다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Step",
-     "step",
-     ""
-    ],
-    [
-     "says",
-     "say",
-     ""
-    ],
-    [
-     "chop",
-     "chop",
-     ""
-    ],
-    [
-     "onions",
-     "onion",
+     "judging",
+     "judge",
      ""
     ]
    ]
@@ -155,13 +135,23 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "I'll do it. No big deal.",
+   "en": "I'll do the hard parts. No big deal.",
    "ko": "내가 할게. 별거 아냐.",
-   "note": "no big deal = 별일 아냐",
+   "note": "no big deal = 별거 아냐",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "gentle",
    "lemmas": [
+    [
+     "hard",
+     "hard",
+     ""
+    ],
+    [
+     "parts",
+     "part",
+     ""
+    ],
     [
      "big",
      "big",
@@ -177,16 +167,21 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Emma, you're crying.",
-   "ko": "에마, 너 울어.",
-   "note": "crying = 우는",
+   "en": "Thanks. What are we making?",
+   "ko": "고마워. 오늘 뭐 만들어?",
+   "note": "making = 만들다",
    "tags": [],
    "new": [],
-   "emotion": "worried",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "crying",
-     "cry",
+     "Thanks",
+     "thank",
+     ""
+    ],
+    [
+     "making",
+     "make",
      ""
     ]
    ]
@@ -194,16 +189,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "It's the onions. Not you.",
-   "ko": "양파 때문이야. 너 때문 아니고.",
-   "note": "not you = 너 말고",
+   "en": "Pasta. Should be easy.",
+   "ko": "파스타. 쉬울 거야.",
+   "note": "pasta = 파스타",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "onions",
-     "onion",
+     "Pasta",
+     "pasta",
+     ""
+    ],
+    [
+     "easy",
+     "easy",
      ""
     ]
    ]
@@ -211,21 +211,26 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "So why did you pick this class?",
-   "ko": "근데 이 수업은 왜 신청했어?",
-   "note": "pick = 고르다",
+   "en": "Famous last words.",
+   "ko": "그 말 나중에 후회할걸.",
+   "note": "famous = 유명한",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "pick",
-     "pick",
+     "Famous",
+     "famous",
      ""
     ],
     [
-     "class",
-     "class",
+     "last",
+     "last",
+     ""
+    ],
+    [
+     "words",
+     "word",
      ""
     ]
    ]
@@ -235,7 +240,7 @@
    "speaker": "B",
    "en": "Honestly? I saw your name on the list.",
    "ko": "솔직히? 명단에서 네 이름 봤거든.",
-   "note": "on the list = 명단에",
+   "note": "list = 명단",
    "tags": [],
    "new": [],
    "emotion": "shy",
@@ -265,12 +270,12 @@
   {
    "num": 10,
    "speaker": "A",
-   "en": "I knew it. You can cook, right?",
+   "en": "I knew it. You're good at cooking, right?",
    "ko": "그럴 줄 알았어. 너 요리 잘하지?",
    "note": "i knew it = 그럴 줄 알았어",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "amused",
    "lemmas": [
     [
      "knew",
@@ -278,7 +283,12 @@
      ""
     ],
     [
-     "cook",
+     "good",
+     "better",
+     ""
+    ],
+    [
+     "cooking",
      "cook",
      ""
     ],
@@ -292,9 +302,9 @@
   {
    "num": 11,
    "speaker": "B",
-   "en": "A little. Next week, my place?",
+   "en": "A little. Next week at my place?",
    "ko": "조금. 다음 주엔 우리 집?",
-   "note": "my place = 우리 집",
+   "note": "place = 집",
    "tags": [
     "heart"
    ],

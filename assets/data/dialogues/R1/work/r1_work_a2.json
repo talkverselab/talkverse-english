@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "So you like books?",
-   "ko": "책 좋아해요?",
-   "note": "like = 좋아하다",
+   "en": "Do you like books?",
+   "ko": "책 좋아하세요?",
+   "note": "books = 책",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -57,7 +57,7 @@
    "speaker": "A",
    "en": "Of course. I read every night.",
    "ko": "물론이죠. 매일 밤 읽어요.",
-   "note": "every night = 매일 밤",
+   "note": "of course = 물론이죠",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -82,12 +82,12 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Can you work weekends?",
+   "en": "Can you work on weekends?",
    "ko": "주말에 일할 수 있어요?",
    "note": "weekends = 주말",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "work",
@@ -106,7 +106,7 @@
    "speaker": "A",
    "en": "I think so. Yes.",
    "ko": "그럴 것 같아요. 네.",
-   "note": "I think so = 그런 것 같아요",
+   "note": "i think so = 그럴 것 같아요",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -121,12 +121,12 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "What pay are you looking for?",
-   "ko": "시급은 얼마 생각해요?",
-   "note": "pay = 급여",
+   "en": "What pay do you want?",
+   "ko": "시급 얼마 원하세요?",
+   "note": "pay = 시급",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "pay",
@@ -134,8 +134,8 @@
      ""
     ],
     [
-     "looking",
-     "look",
+     "want",
+     "want",
      ""
     ]
    ]
@@ -145,7 +145,7 @@
    "speaker": "A",
    "en": "Five dollars an hour?",
    "ko": "시간당 5달러요?",
-   "note": "an hour = 시간당",
+   "note": "five = 다섯",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -165,9 +165,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Are you sure? That's not legal. Eighteen.",
+   "en": "Are you sure? That's illegal. Eighteen.",
    "ko": "확실해요? 그건 불법이에요. 18달러요.",
-   "note": "legal = 합법적인",
+   "note": "are you sure = 확실해요",
    "tags": [],
    "new": [],
    "emotion": "surprised",
@@ -178,8 +178,8 @@
      ""
     ],
     [
-     "legal",
-     "legal",
+     "illegal",
+     "illegal",
      ""
     ],
     [
@@ -192,12 +192,12 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Sounds good. I'll take it!",
+   "en": "Sounds good. I'll take it.",
    "ko": "좋아요. 할게요!",
    "note": "sounds good = 좋아요",
    "tags": [],
    "new": [],
-   "emotion": "excited",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Sounds",

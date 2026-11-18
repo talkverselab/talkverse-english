@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Excuse me. Do you have something for a sore throat?",
+   "en": "Excuse me. Something for a sore throat?",
    "ko": "저기요. 목 아픈 데 먹는 거 있어요?",
-   "note": "sore throat = 목 아픔",
+   "note": "excuse me = 저기요",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -45,7 +45,7 @@
      ""
     ],
     [
-     "something",
+     "Something",
      "something",
      ""
     ],
@@ -64,26 +64,21 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Sure. Any fever? Or just the throat?",
-   "ko": "그럼요. 열도 있어요? 아니면 목만요?",
-   "note": "fever = 열",
+   "en": "Yes, we have lozenges right here.",
+   "ko": "네, 여기 목캔디 있어요.",
+   "note": "lozenges = 목캔디",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Sure",
-     "sure",
+     "lozenges",
+     "lozenges",
      ""
     ],
     [
-     "fever",
-     "fever",
-     ""
-    ],
-    [
-     "throat",
-     "throat",
+     "right",
+     "right",
      ""
     ]
    ]
@@ -91,9 +86,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Just the throat. And I can't stop coughing.",
-   "ko": "목만요. 그리고 기침이 안 멈춰요.",
-   "note": "can't stop ~ing = 계속 ~하다",
+   "en": "My throat really hurts today.",
+   "ko": "오늘 목이 정말 아파요.",
+   "note": "throat = 목",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -104,13 +99,18 @@
      ""
     ],
     [
-     "stop",
-     "stop",
+     "really",
+     "real",
      ""
     ],
     [
-     "coughing",
-     "cough",
+     "hurts",
+     "hurt",
+     ""
+    ],
+    [
+     "today",
+     "today",
      ""
     ]
    ]
@@ -118,31 +118,26 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Okay. Wait, are you picking up for Mr. Lee too?",
-   "ko": "네. 잠깐, 이 선생님 약도 찾아가세요?",
-   "note": "pick up = 찾아가다",
+   "en": "Are you the regular from last week?",
+   "ko": "지난주 단골 손님이세요?",
+   "note": "regular = 단골",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Wait",
-     "wait",
+     "regular",
+     "regular",
      ""
     ],
     [
-     "picking",
-     "pick",
+     "last",
+     "last",
      ""
     ],
     [
-     "Mr",
-     "mr",
-     ""
-    ],
-    [
-     "Lee",
-     "lee",
+     "week",
+     "week",
      ""
     ]
    ]
@@ -150,23 +145,13 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Mr. Lee? What do you mean?",
+   "en": "This one? What do you mean?",
    "ko": "이 선생님이요? 무슨 말씀이세요?",
-   "note": "what do you mean = 무슨 뜻이에요",
+   "note": "what do you mean = 무슨 말씀이세요",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
-    [
-     "Mr",
-     "mr",
-     ""
-    ],
-    [
-     "Lee",
-     "lee",
-     ""
-    ],
     [
      "mean",
      "mean",
@@ -177,12 +162,12 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Same as usual, right? Here's his sleep medicine.",
+   "en": "Same as usual? Here's his sleeping pills.",
    "ko": "늘 하던 거죠? 여기 그분 수면제요.",
-   "note": "same as usual = 늘 하던 대로",
+   "note": "usual = 늘 하던",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "neutral",
    "lemmas": [
     [
      "usual",
@@ -190,18 +175,13 @@
      ""
     ],
     [
-     "right",
-     "right",
-     ""
-    ],
-    [
-     "sleep",
+     "sleeping",
      "sleep",
      ""
     ],
     [
-     "medicine",
-     "medicine",
+     "pills",
+     "pills",
      ""
     ]
    ]
@@ -209,31 +189,26 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "I don't know a Mr. Lee. I just moved here.",
-   "ko": "저 이 선생님 몰라요. 여기 막 이사 왔어요.",
-   "note": "just moved = 막 이사 왔다",
+   "en": "No, I just need throat medicine.",
+   "ko": "아니요, 저는 목 약만 필요해요.",
+   "note": "need = 필요하다",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "worried",
    "lemmas": [
     [
-     "know",
-     "know",
+     "need",
+     "need",
      ""
     ],
     [
-     "Mr",
-     "mr",
+     "throat",
+     "throat",
      ""
     ],
     [
-     "Lee",
-     "lee",
-     ""
-    ],
-    [
-     "moved",
-     "move",
+     "medicine",
+     "medicine",
      ""
     ]
    ]
@@ -241,21 +216,21 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Oh no. You have the exact same jacket.",
-   "ko": "어머. 재킷이 완전 똑같으시네요.",
-   "note": "the exact same = 완전 똑같은",
+   "en": "Oh sorry, wrong one. Here's yours.",
+   "ko": "아 죄송해요, 잘못 줬네요. 여기요.",
+   "note": "wrong = 잘못된",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "polite",
    "lemmas": [
     [
-     "exact",
-     "exact",
+     "sorry",
+     "sorry",
      ""
     ],
     [
-     "jacket",
-     "jacket",
+     "wrong",
+     "wrong",
      ""
     ]
    ]
@@ -263,12 +238,12 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "Just to confirm, the throat stuff is for me?",
+   "en": "Just to confirm, this is for my throat?",
    "ko": "확인 차 여쭤요, 목 약은 제 거죠?",
-   "note": "just to confirm = 확인하자면",
+   "note": "just to confirm = 확인 차",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "confirm",
@@ -278,11 +253,6 @@
     [
      "throat",
      "throat",
-     ""
-    ],
-    [
-     "stuff",
-     "stuff",
      ""
     ]
    ]
@@ -290,31 +260,21 @@
   {
    "num": 10,
    "speaker": "B",
-   "en": "Yes. Take two a day. And maybe buy a new jacket.",
+   "en": "Yes. Two a day. And get a new jacket.",
    "ko": "네. 하루 두 알이요. 그리고 재킷 하나 새로 사세요.",
-   "note": "take two a day = 하루 두 번",
+   "note": "two a day = 하루 두 알",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Take",
-     "take",
-     ""
-    ],
-    [
      "day",
      "day",
      ""
     ],
     [
-     "maybe",
-     "maybe",
-     ""
-    ],
-    [
-     "buy",
-     "buy",
+     "get",
+     "get",
      ""
     ],
     [

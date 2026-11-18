@@ -1,0 +1,21 @@
+=== r0_friends_a1
+title: 내 이름은 안 바뀌었어
+emoji: 👋
+scene: Maya 가 처음 만난 날 이름을 세 번 다르게 부른다
+where: 친구 집 파티
+goal: 이름 말하기
+kind: short
+register: casual
+B: Maya
+twist: 6 slip
+expr: nice to meet you | say that again
+level: 왕초보 — 아주 기초 낱말만, 한 줄 한 문장 · 한 줄 영어 1~6 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+B | ____ | 흐름: 안녕! 나 마야야. 너는…?
+A | ____ | 흐름: 나 {name}. 반가워. · 「nice to meet you」를 이 줄에 그대로 · {name} 를 그대로
+B | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+A | ____ | 흐름: 아니, {name}. · {name} 를 그대로
+B | ____ | 흐름: 미안! 다시 말해 줄래? · 「say that again」를 이 줄에 그대로
+A | ____ | 흐름: {name}. 그러니까… {name}. · {name} 를 그대로 · {name} 를 그대로 · ← 반전(slip)
+B | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+A | ____ | 흐름: 그래. 오늘 밤 난 니나야.

@@ -53,29 +53,12 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Fifteen? One, five?",
-   "ko": "15호요? 일, 오?",
-   "note": "fifteen = 15",
+   "en": "Fifty-one? Okay.",
+   "ko": "51이요? 알겠어요.",
+   "note": "fifty-one = 51",
    "tags": [],
    "new": [],
    "emotion": "neutral",
-   "lemmas": [
-    [
-     "Fifteen",
-     "fifteen",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "en": "No. Fifty-one. Five, one.",
-   "ko": "아뇨. 51이요. 오, 일.",
-   "note": "five, one = 오, 일",
-   "tags": [],
-   "new": [],
-   "emotion": "polite",
    "lemmas": [
     [
      "Fifty",
@@ -85,11 +68,33 @@
    ]
   },
   {
+   "num": 3,
+   "speaker": "B",
+   "en": "Yes, on the fifth floor.",
+   "ko": "네, 5층이에요.",
+   "note": "fifth floor = 5층",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "fifth",
+     "fifth",
+     ""
+    ],
+    [
+     "floor",
+     "floor",
+     ""
+    ]
+   ]
+  },
+  {
    "num": 4,
    "speaker": "A",
-   "en": "Sorry. Say that again?",
+   "en": "Sorry. Say that again.",
    "ko": "죄송해요. 다시 말해 주세요.",
-   "note": "say that again = 다시 말해 주세요",
+   "note": "say that again = 다시 말해",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -109,16 +114,16 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Five. One. Fifty-one.",
-   "ko": "오. 일. 51.",
-   "note": "천천히",
+   "en": "Room five one.",
+   "ko": "방 5 1이에요.",
+   "note": "five one = 5 1",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Fifty",
-     "fifty",
+     "Room",
+     "room",
      ""
     ]
    ]
@@ -128,7 +133,7 @@
    "speaker": "A",
    "en": "Got it. Fifteen!",
    "ko": "알겠어요. 15호!",
-   "note": "또 거꾸로",
+   "note": "got it = 알겠어요",
    "tags": [],
    "new": [],
    "emotion": "cheerful",
@@ -148,12 +153,12 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "I'll walk with you.",
+   "en": "I'll walk you there.",
    "ko": "같이 가 드릴게요.",
-   "note": "walk with = 같이 걷다",
+   "note": "walk you = 같이 가다",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "polite",
    "lemmas": [
     [
      "walk",

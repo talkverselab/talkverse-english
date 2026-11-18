@@ -1,0 +1,20 @@
+=== r0_culture_a2
+title: How are you 의 정답
+emoji: 🙂
+scene: 가게마다 How are you 를 묻길래 진짜 하루 이야기를 시작한다
+where: 동네 마트 계산대
+goal: 인사 받는 법
+kind: short
+register: casual
+B: Cashier
+twist: 5 reveal
+expr: how's it going | i'm good
+level: 왕초보 — 아주 기초 낱말만, 한 줄 한 문장 · 한 줄 영어 1~6 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+B | ____ | 흐름: 안녕하세요! 잘 지내요? · 「how's it going」를 이 줄에 그대로
+A | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+B | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+A | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+B | ____ | 흐름: 여기선 그냥 「안녕」이에요. · ← 반전(reveal)
+A | ____ | 흐름: 아! 그럼… 좋아요! · 「i'm good」를 이 줄에 그대로
+B | ____ | 흐름: 저도요. 저도 커피 식었어요.

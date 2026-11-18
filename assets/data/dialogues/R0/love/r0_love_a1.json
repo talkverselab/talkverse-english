@@ -31,12 +31,12 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Oh no. It's raining.",
+   "en": "Oh no, it's raining.",
    "ko": "어떡해. 비 온다.",
-   "note": "it's raining = 비가 와",
+   "note": "oh no = 어떡해",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "worried",
    "lemmas": [
     [
      "raining",
@@ -48,16 +48,21 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "I have no umbrella.",
-   "ko": "나 우산 없어.",
-   "note": "umbrella = 우산",
+   "en": "Yeah, pretty hard.",
+   "ko": "응, 꽤 세게.",
+   "note": "pretty hard = 꽤 세게",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "umbrella",
-     "umbrella",
+     "pretty",
+     "pretty",
+     ""
+    ],
+    [
+     "hard",
+     "hard",
      ""
     ]
    ]
@@ -65,9 +70,9 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "I have one. Just one.",
-   "ko": "나 있어. 하나만.",
-   "note": "just one = 하나뿐",
+   "en": "I only have one.",
+   "ko": "나 하나밖에 없어.",
+   "note": "only one = 하나밖에",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -76,16 +81,16 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Is it big?",
-   "ko": "커?",
-   "note": "big = 큰",
+   "en": "We can share it.",
+   "ko": "같이 써도 돼.",
+   "note": "share it = 같이 쓰다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "big",
-     "big",
+     "share",
+     "share",
      ""
     ]
    ]
@@ -93,9 +98,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Not really. We stand close.",
+   "en": "Okay... we stay close.",
    "ko": "별로. 붙어 서야 돼.",
-   "note": "close = 가까이",
+   "note": "stay close = 붙어 서다",
    "tags": [
     "heart"
    ],
@@ -103,13 +108,8 @@
    "emotion": "shy",
    "lemmas": [
     [
-     "really",
-     "real",
-     ""
-    ],
-    [
-     "stand",
-     "stand",
+     "stay",
+     "stay",
      ""
     ],
     [
@@ -122,12 +122,12 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "I guess that's okay.",
+   "en": "Then... I guess okay.",
    "ko": "그럼 뭐… 괜찮아.",
-   "note": "i guess = 그런 것 같아",
+   "note": "i guess = 뭐 괜찮다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "flustered",
    "lemmas": [
     [
      "guess",
@@ -139,13 +139,18 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Also, my bag has two.",
+   "en": "Wait, two in my bag.",
    "ko": "근데 내 가방에 두 개 있어.",
-   "note": "우산이 사실 둘",
+   "note": "two in bag = 가방에 두 개",
    "tags": [],
    "new": [],
    "emotion": "teasing",
    "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
     [
      "bag",
      "bag",
@@ -158,7 +163,7 @@
    "speaker": "A",
    "en": "Emma!",
    "ko": "에마!",
-   "note": "이름만",
+   "note": "Emma = 에마",
    "tags": [],
    "new": [],
    "emotion": "surprised",

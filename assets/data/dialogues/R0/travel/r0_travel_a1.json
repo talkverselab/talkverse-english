@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Excuse me. One photo, please?",
+   "en": "Excuse me, one photo?",
    "ko": "저기요. 사진 한 장 부탁해요.",
-   "note": "one photo = 사진 한 장",
+   "note": "excuse me = 저기요",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -47,11 +47,6 @@
      "photo",
      "photo",
      ""
-    ],
-    [
-     "please",
-     "please",
-     ""
     ]
    ]
   },
@@ -60,10 +55,10 @@
    "speaker": "B",
    "en": "Of course. Smile!",
    "ko": "물론이죠. 웃어요!",
-   "note": "of course = 물론",
+   "note": "of course = 물론이죠",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "course",
@@ -80,21 +75,21 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Thank you. Is it good?",
-   "ko": "고마워요. 잘 나왔어요?",
-   "note": "good = 잘된",
+   "en": "Thanks, just one is fine.",
+   "ko": "고마워요, 한 장만요.",
+   "note": "just one = 한 장만",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Thank",
+     "Thanks",
      "thank",
      ""
     ],
     [
-     "good",
-     "better",
+     "fine",
+     "fine",
      ""
     ]
    ]
@@ -102,43 +97,32 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Very good. Ten photos!",
-   "ko": "아주 좋아요. 열 장이요!",
-   "note": "ten = 열",
+   "en": "Okay, another one!",
+   "ko": "알겠어요, 또 하나!",
+   "note": "another one = 또 하나",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "good",
-     "better",
-     ""
-    ],
-    [
-     "photos",
-     "photo",
-     ""
-    ]
-   ]
+   "emotion": "cheerful",
+   "lemmas": []
   },
   {
    "num": 5,
    "speaker": "A",
-   "en": "Ten? Let me see.",
-   "ko": "열 장이요? 볼게요.",
-   "note": "let me see = 보자",
+   "en": "Wait, can I check?",
+   "ko": "잠깐, 확인해도 돼요?",
+   "note": "can I check = 확인해도",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Let",
-     "let",
+     "Wait",
+     "wait",
      ""
     ],
     [
-     "see",
-     "see",
+     "check",
+     "check",
      ""
     ]
    ]
@@ -146,20 +130,20 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "These are all… you.",
+   "en": "These are all... you.",
    "ko": "이거 다… 당신이잖아요.",
-   "note": "all = 전부",
+   "note": "all you = 다 당신",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "surprised",
    "lemmas": []
   },
   {
    "num": 7,
    "speaker": "B",
-   "en": "Oh no. Wrong side!",
+   "en": "Oh. Wrong way!",
    "ko": "어머. 반대쪽이었네!",
-   "note": "wrong side = 반대쪽",
+   "note": "wrong way = 반대쪽",
    "tags": [],
    "new": [],
    "emotion": "flustered",
@@ -170,8 +154,8 @@
      ""
     ],
     [
-     "side",
-     "side",
+     "way",
+     "way",
      ""
     ]
    ]

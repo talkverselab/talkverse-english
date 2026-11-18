@@ -32,12 +32,12 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Is this your bag? Please step over here.",
+   "en": "Is this your bag? Step over here.",
    "ko": "이거 손님 가방이에요? 이쪽으로 오세요.",
-   "note": "step over = 이쪽으로 오다",
+   "note": "bag = 가방",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "bag",
@@ -45,12 +45,7 @@
      ""
     ],
     [
-     "Please",
-     "please",
-     ""
-    ],
-    [
-     "step",
+     "Step",
      "step",
      ""
     ]
@@ -59,21 +54,16 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Yes. Is something wrong?",
-   "ko": "네. 뭐 문제 있어요?",
-   "note": "something wrong = 문제",
+   "en": "Yes, that's mine.",
+   "ko": "네, 제 거예요.",
+   "note": "mine = 제 것",
    "tags": [],
    "new": [],
-   "emotion": "worried",
+   "emotion": "polite",
    "lemmas": [
     [
-     "something",
-     "something",
-     ""
-    ],
-    [
-     "wrong",
-     "wrong",
+     "mine",
+     "mine",
      ""
     ]
    ]
@@ -81,21 +71,31 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "There's a liquid. Over three ounces.",
-   "ko": "액체가 있어요. 3온스 넘는 거요.",
-   "note": "liquid = 액체",
+   "en": "Open it please. What's this bottle?",
+   "ko": "열어 주세요. 이 병 뭐예요?",
+   "note": "bottle = 병",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "liquid",
-     "liquid",
+     "Open",
+     "open",
      ""
     ],
     [
-     "ounces",
-     "ounce",
+     "please",
+     "please",
+     ""
+    ],
+    [
+     "What's",
+     "what",
+     ""
+    ],
+    [
+     "bottle",
+     "bottle",
      ""
     ]
    ]
@@ -105,7 +105,7 @@
    "speaker": "A",
    "en": "Three ounces? What does that mean?",
    "ko": "3온스요? 그게 무슨 뜻이에요?",
-   "note": "what does that mean = 무슨 뜻",
+   "note": "what does that mean = 무슨 뜻이에요",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -125,36 +125,26 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "About ninety milliliters. This red jar is too big.",
-   "ko": "90밀리쯤이요. 이 빨간 병은 너무 커요.",
-   "note": "jar = 병",
+   "en": "Liquids over that size can't go.",
+   "ko": "그 크기 넘는 액체는 안 돼요.",
+   "note": "liquids = 액체",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "ninety",
-     "ninety",
+     "Liquids",
+     "liquid",
      ""
     ],
     [
-     "milliliters",
-     "milliliters",
+     "size",
+     "size",
      ""
     ],
     [
-     "red",
-     "red",
-     ""
-    ],
-    [
-     "jar",
-     "jar",
-     ""
-    ],
-    [
-     "big",
-     "big",
+     "go",
+     "go",
      ""
     ]
    ]
@@ -162,31 +152,26 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "It's hot pepper paste. From my mom.",
-   "ko": "고추장이에요. 엄마가 주신 거예요.",
-   "note": "hot pepper paste = 고추장",
+   "en": "It's just Korean chili paste.",
+   "ko": "그냥 한국 고추장이에요.",
+   "note": "chili paste = 고추장",
    "tags": [],
    "new": [],
-   "emotion": "sad",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "hot",
-     "hot",
+     "Korean",
+     "korean",
      ""
     ],
     [
-     "pepper",
-     "pepper",
+     "chili",
+     "chili",
      ""
     ],
     [
      "paste",
      "paste",
-     ""
-    ],
-    [
-     "mom",
-     "mom",
      ""
     ]
    ]
@@ -194,26 +179,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "I'm sorry. It can't go on the plane.",
-   "ko": "죄송해요. 기내엔 못 가져가요.",
-   "note": "go on the plane = 기내 반입",
+   "en": "Still too big for carry-on.",
+   "ko": "그래도 기내 반입엔 너무 커요.",
+   "note": "carry-on = 기내 반입",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "sorry",
-     "sorry",
+     "big",
+     "big",
      ""
     ],
     [
-     "go",
-     "go",
-     ""
-    ],
-    [
-     "plane",
-     "plane",
+     "carry",
+     "carry",
      ""
     ]
    ]
@@ -223,10 +203,10 @@
    "speaker": "A",
    "en": "Are you kidding? It's almost full.",
    "ko": "농담이죠? 거의 꽉 찼는데.",
-   "note": "are you kidding = 농담이지",
+   "note": "are you kidding = 농담이죠",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "surprised",
    "lemmas": [
     [
      "kidding",
@@ -248,31 +228,26 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "Is it good with rice? Asking for… my lunch.",
-   "ko": "밥이랑 먹으면 맛있어요? 제… 점심 때문에 묻는 거예요.",
-   "note": "asking for = ~ 때문에 묻다",
+   "en": "Rules are rules. You can check it.",
+   "ko": "규칙은 규칙이에요. 위탁할 수 있어요.",
+   "note": "rules = 규칙",
    "tags": [],
    "new": [],
-   "emotion": "shy",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "good",
-     "better",
+     "Rules",
+     "rule",
      ""
     ],
     [
-     "rice",
-     "rice",
+     "rules",
+     "rule",
      ""
     ],
     [
-     "Asking",
-     "ask",
-     ""
-    ],
-    [
-     "lunch",
-     "lunch",
+     "check",
+     "check",
      ""
     ]
    ]
@@ -280,16 +255,16 @@
   {
    "num": 10,
    "speaker": "A",
-   "en": "It's amazing with rice. Enjoy it, I guess.",
+   "en": "It's great with rice. Enjoy, I guess.",
    "ko": "밥이랑 최고예요. 맛있게 드세요, 뭐.",
-   "note": "I guess = 뭐, 그렇지",
+   "note": "enjoy = 맛있게 드세요",
    "tags": [],
    "new": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "amazing",
-     "amazing",
+     "great",
+     "great",
      ""
     ],
     [

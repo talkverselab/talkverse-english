@@ -32,13 +32,23 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Hey. Nine, right?",
+   "en": "Hey. Ninth floor, right?",
    "ko": "안녕. 9층 맞지?",
-   "note": "right? = 맞지?",
+   "note": "hey = 안녕",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
+    [
+     "Ninth",
+     "ninth",
+     ""
+    ],
+    [
+     "floor",
+     "floor",
+     ""
+    ],
     [
      "right",
      "right",
@@ -49,16 +59,16 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Yeah. You always remember.",
-   "ko": "응. 맨날 기억하네.",
-   "note": "remember = 기억하다",
+   "en": "Yeah, every day.",
+   "ko": "응, 매일.",
+   "note": "every day = 매일",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "remember",
-     "remember",
+     "day",
+     "day",
      ""
     ]
    ]
@@ -93,12 +103,12 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Long time no see. Like, since yesterday.",
+   "en": "Long time no see. Since yesterday.",
    "ko": "오랜만이야. 어제 이후로.",
    "note": "long time no see = 오랜만",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
      "Long",
@@ -116,12 +126,7 @@
      ""
     ],
     [
-     "Like",
-     "like",
-     ""
-    ],
-    [
-     "since",
+     "Since",
      "since",
      ""
     ],
@@ -135,14 +140,14 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Felt long.",
+   "en": "Felt longer than that.",
    "ko": "길게 느껴졌어.",
-   "note": "짧은 직진",
+   "note": "felt longer = 길게 느껴",
    "tags": [
     "heart"
    ],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "shy",
    "lemmas": [
     [
      "Felt",
@@ -150,7 +155,7 @@
      ""
     ],
     [
-     "long",
+     "longer",
      "long",
      ""
     ]
@@ -159,9 +164,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Wait. You live on four. We passed it.",
+   "en": "Wait. You live on four. You passed it.",
    "ko": "잠깐. 너 4층 살잖아. 지나쳤어.",
-   "note": "passed = 지나쳤다",
+   "note": "live on four = 4층 살다",
    "tags": [],
    "new": [],
    "emotion": "surprised",
@@ -186,16 +191,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Yeah. I know.",
-   "ko": "응. 알아.",
-   "note": "일부러",
+   "en": "Yeah... wanted the ride.",
+   "ko": "응... 타고 싶었어.",
+   "note": "wanted the ride = 타고 싶었다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "know",
-     "know",
+     "wanted",
+     "want",
+     ""
+    ],
+    [
+     "ride",
+     "ride",
      ""
     ]
    ]
@@ -203,13 +213,23 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "So… nine together, then.",
+   "en": "So... ninth floor together.",
    "ko": "그럼… 같이 9층이네.",
    "note": "together = 같이",
    "tags": [],
    "new": [],
-   "emotion": "shy",
+   "emotion": "teasing",
    "lemmas": [
+    [
+     "ninth",
+     "ninth",
+     ""
+    ],
+    [
+     "floor",
+     "floor",
+     ""
+    ],
     [
      "together",
      "together",

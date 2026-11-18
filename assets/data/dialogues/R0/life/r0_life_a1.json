@@ -31,7 +31,7 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Hey Daniel. What's up?",
+   "en": "Daniel. What's up?",
    "ko": "대니얼. 뭐 해?",
    "note": "what's up = 뭐 해",
    "tags": [],
@@ -48,21 +48,16 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Name tags. On my food.",
-   "ko": "이름표. 내 음식에.",
-   "note": "name tag = 이름표",
+   "en": "Labeling all the food.",
+   "ko": "음식에 다 이름표 붙여.",
+   "note": "labeling food = 이름표 붙이다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Name",
-     "name",
-     ""
-    ],
-    [
-     "tags",
-     "tag",
+     "Labeling",
+     "label",
      ""
     ],
     [
@@ -75,12 +70,12 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "The milk is yours?",
-   "ko": "우유가 네 거야?",
-   "note": "yours = 네 것",
+   "en": "Even the milk?",
+   "ko": "우유도?",
+   "note": "even milk = 우유도",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "surprised",
    "lemmas": [
     [
      "milk",
@@ -92,16 +87,21 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Yes. The eggs too.",
-   "ko": "응. 달걀도.",
-   "note": "too = ~도",
+   "en": "Yeah, everything gets one.",
+   "ko": "응, 다 하나씩.",
+   "note": "everything one = 다 하나씩",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "eggs",
-     "eggs",
+     "everything",
+     "everything",
+     ""
+    ],
+    [
+     "gets",
+     "get",
      ""
     ]
    ]
@@ -109,15 +109,15 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "And the water? Come on.",
+   "en": "Water too? Come on.",
    "ko": "물도? 왜 이래.",
    "note": "come on = 왜 이래",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "amused",
    "lemmas": [
     [
-     "water",
+     "Water",
      "water",
      ""
     ],
@@ -131,20 +131,31 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Yes. And this one.",
-   "ko": "응. 이것도.",
-   "note": "this one = 이거",
+   "en": "Just in case, you know.",
+   "ko": "혹시 몰라서, 알지.",
+   "note": "just in case = 혹시 몰라",
    "tags": [],
    "new": [],
    "emotion": "neutral",
-   "lemmas": []
+   "lemmas": [
+    [
+     "case",
+     "case",
+     ""
+    ],
+    [
+     "know",
+     "know",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "en": "That says \"{name}\".",
+   "en": "It says {name} there.",
    "ko": "거기 「{name}」라고 써 있는데.",
-   "note": "says = ~라고 쓰여 있다",
+   "note": "says {name} = {name}이라고",
    "tags": [],
    "new": [],
    "emotion": "surprised",
@@ -161,10 +172,10 @@
    "speaker": "B",
    "en": "For you. Your yogurt.",
    "ko": "너 주려고. 네 요거트.",
-   "note": "말없이 챙김",
+   "note": "for you = 너 주려고",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "yogurt",

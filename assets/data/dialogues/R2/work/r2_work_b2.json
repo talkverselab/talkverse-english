@@ -33,15 +33,15 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "I'm ordering lunch. What do you guys want?",
+   "en": "Ordering lunch. What do you guys want?",
    "ko": "점심 시킬 건데. 뭐 먹을래?",
-   "note": "what do you want = 뭐 먹을래",
+   "note": "lunch = 점심",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "ordering",
+     "Ordering",
      "order",
      ""
     ],
@@ -65,9 +65,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "I don't know. Anything.",
+   "en": "I don't know. Anything's fine.",
    "ko": "몰라. 아무거나.",
-   "note": "anything = 아무거나",
+   "note": "i don't know = 몰라",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -78,8 +78,13 @@
      ""
     ],
     [
-     "Anything",
+     "Anything's",
      "anything",
+     ""
+    ],
+    [
+     "fine",
+     "fine",
      ""
     ]
    ]
@@ -89,7 +94,7 @@
    "speaker": "C",
    "en": "It depends. Not too heavy. But filling.",
    "ko": "상황 봐서. 너무 무겁지 않게. 근데 배부르게.",
-   "note": "filling = 배부른",
+   "note": "it depends = 상황 봐서",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -114,21 +119,21 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Okay. Salads for everyone.",
-   "ko": "알겠어. 다 샐러드.",
-   "note": "for everyone = 모두에게",
+   "en": "Sandwiches or salads?",
+   "ko": "샌드위치나 샐러드?",
+   "note": "sandwiches = 샌드위치",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Salads",
-     "salad",
+     "Sandwiches",
+     "sandwich",
      ""
     ],
     [
-     "everyone",
-     "everyone",
+     "salads",
+     "salad",
      ""
     ]
    ]
@@ -136,26 +141,21 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Salad? That's not lunch. That's a side.",
-   "ko": "샐러드? 그건 점심이 아니라 반찬이지.",
-   "note": "side = 곁들이는 음식",
+   "en": "Whatever's easiest.",
+   "ko": "제일 쉬운 거.",
+   "note": "easiest = 제일 쉬운",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Salad",
-     "salad",
+     "Whatever's",
+     "whatever",
      ""
     ],
     [
-     "lunch",
-     "lunch",
-     ""
-    ],
-    [
-     "side",
-     "side",
+     "easiest",
+     "easy",
      ""
     ]
    ]
@@ -163,26 +163,26 @@
   {
    "num": 6,
    "speaker": "C",
-   "en": "Can mine have chicken? And no onions?",
-   "ko": "내 거 닭 넣어 줄 수 있어? 양파 빼고?",
-   "note": "no onions = 양파 빼고",
+   "en": "Something with veggies maybe.",
+   "ko": "야채 들어간 거 어때.",
+   "note": "veggies = 야채",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "mine",
-     "mine",
+     "Something",
+     "something",
      ""
     ],
     [
-     "chicken",
-     "chicken",
+     "veggies",
+     "veggies",
      ""
     ],
     [
-     "onions",
-     "onion",
+     "maybe",
+     "maybe",
      ""
     ]
    ]
@@ -190,21 +190,21 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "You both said \"anything.\"",
-   "ko": "둘 다 \"아무거나\"라며.",
-   "note": "받아치기",
+   "en": "Okay, I'll just pick something.",
+   "ko": "알겠어, 내가 고를게.",
+   "note": "pick = 고르다",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "said",
-     "say",
+     "pick",
+     "pick",
      ""
     ],
     [
-     "anything",
-     "anything",
+     "something",
+     "something",
      ""
     ]
    ]
@@ -212,12 +212,12 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Anything means pizza. Everyone knows that.",
+   "en": "Anything means pizza. We all know.",
    "ko": "아무거나는 피자 뜻이지. 다 알아.",
-   "note": "means = 뜻하다",
+   "note": "pizza = 피자",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "teasing",
    "lemmas": [
     [
      "Anything",
@@ -235,12 +235,7 @@
      ""
     ],
     [
-     "Everyone",
-     "everyone",
-     ""
-    ],
-    [
-     "knows",
+     "know",
      "know",
      ""
     ]
@@ -249,9 +244,9 @@
   {
    "num": 9,
    "speaker": "C",
-   "en": "Told you. He always does this.",
+   "en": "Told you. He's always like this.",
    "ko": "내가 말했지. 쟤 맨날 이래.",
-   "note": "told you = 내가 뭐랬어",
+   "note": "told you = 내가 말했지",
    "tags": [],
    "new": [],
    "emotion": "amused",
@@ -260,18 +255,23 @@
      "Told",
      "tell",
      ""
+    ],
+    [
+     "like",
+     "like",
+     ""
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "en": "Fine. Pizza for him. Salad for us.",
+   "en": "Fine. He gets pizza. We get salads.",
    "ko": "됐어. 쟤는 피자. 우리는 샐러드.",
-   "note": "for him = 쟤 거",
+   "note": "fine = 됐어",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Fine",
@@ -279,12 +279,22 @@
      ""
     ],
     [
-     "Pizza",
+     "gets",
+     "get",
+     ""
+    ],
+    [
+     "pizza",
      "pizza",
      ""
     ],
     [
-     "Salad",
+     "get",
+     "get",
+     ""
+    ],
+    [
+     "salads",
      "salad",
      ""
     ]

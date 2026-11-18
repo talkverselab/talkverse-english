@@ -1,0 +1,23 @@
+=== t1_office_g16
+title: 누가 보낸 게 아니라 보내진 거예요
+emoji: 📨
+scene: 전체 메일 사고의 뒷수습. A 는 수동태로만 말하며 책임을 지운다
+where: 팀장 자리
+goal: 수동태 — be + 과거분사, by 행위자, 수동태를 못 쓰는 자동사
+grammar: 수동태|「~되다」= be + 과거분사(was sent). 한 사람은 by 로. happen·arrive 같은 자동사는 수동태가 없다(was happened 는 틀림).
+check: The confidential file _____ to all staff by mistake. | sent | was sent | has sent | sending | B
+kind: short
+register: mixed
+B: Olivia
+twist: 7 slip
+expr: i mean | fair enough
+level: 토익 Part 3·4 중급 비즈니스 회화 · 한 줄 영어 1~15 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+B | ____ | 흐름: 누가 급여 파일을 회사 전체에 배포했어?
+A | ____ | 흐름: 파일이 배포됐어요. 의도치 않게요. · 문법 줄: was distributed 를 *was distributed* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+A | ____ | 흐름: 첨부 파일이 선택됐고요. 전송 버튼이 눌렸어요. · 문법 줄: was selected 를 *was selected* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작 · 문법 줄: was pressed 를 *was pressed* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: 내 말은, 이 건물에선 버튼이 스스로 눌리진 않아. · 「i mean」를 이 줄에 그대로
+A | ____ | 흐름: 그럼 그 사고가 발생되었어요. · 문법 줄: was happened 를 *was happened* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: "was happened" 는 영어가 아니야. 다시. · ← 반전(slip)
+A | ____ | 흐름: 인정. 그 사고가 일어났어요. 저에 의해. · 「fair enough」를 이 줄에 그대로 · 문법 줄: happened 를 *happened* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작

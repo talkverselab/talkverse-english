@@ -31,21 +31,21 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Maya, your notes, please?",
+   "en": "Maya, can I borrow notes?",
    "ko": "마야, 필기 좀 빌려줘.",
-   "note": "notes = 필기",
+   "note": "borrow notes = 필기 빌리다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "notes",
-     "note",
+     "borrow",
+     "borrow",
      ""
     ],
     [
-     "please",
-     "please",
+     "notes",
+     "note",
      ""
     ]
    ]
@@ -58,7 +58,7 @@
    "note": "of course = 물론",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "course",
@@ -70,9 +70,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Thanks. Wait… a cat?",
-   "ko": "고마워. 잠깐… 고양이?",
-   "note": "wait = 잠깐",
+   "en": "Thanks. These are drawings?",
+   "ko": "고마워. 이건 그림이야?",
+   "note": "these drawings = 이건 그림",
    "tags": [],
    "new": [],
    "emotion": "surprised",
@@ -83,13 +83,8 @@
      ""
     ],
     [
-     "Wait",
-     "wait",
-     ""
-    ],
-    [
-     "cat",
-     "cat",
+     "drawings",
+     "drawing",
      ""
     ]
    ]
@@ -97,21 +92,21 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "That's the test. Page one.",
-   "ko": "그게 시험이야. 1쪽.",
-   "note": "page = 쪽",
+   "en": "Yeah, my way of notes.",
+   "ko": "응, 내 필기 방식이야.",
+   "note": "my way = 내 방식",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "test",
-     "test",
+     "way",
+     "way",
      ""
     ],
     [
-     "Page",
-     "page",
+     "notes",
+     "note",
      ""
     ]
    ]
@@ -121,7 +116,7 @@
    "speaker": "A",
    "en": "What does that mean?",
    "ko": "그게 무슨 뜻이야?",
-   "note": "what does that mean = 무슨 뜻이야",
+   "note": "what does that mean = 무슨 뜻",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -138,7 +133,7 @@
    "speaker": "B",
    "en": "I draw. I don't write.",
    "ko": "난 그려. 안 써.",
-   "note": "draw = 그리다",
+   "note": "I draw = 난 그려",
    "tags": [],
    "new": [],
    "emotion": "amused",
@@ -158,16 +153,16 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "And the A plus?",
-   "ko": "그런데 A+는?",
-   "note": "A plus = A+",
+   "en": "So no words at all?",
+   "ko": "그래서 글자가 전혀 없어?",
+   "note": "no words = 글자 전혀",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "plus",
-     "plus",
+     "words",
+     "word",
      ""
     ]
    ]
@@ -175,21 +170,21 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "The teacher loves cats.",
+   "en": "Teacher likes cats.",
    "ko": "선생님이 고양이를 좋아해.",
-   "note": "love = 아주 좋아하다",
+   "note": "likes cats = 고양이를 좋아",
    "tags": [],
    "new": [],
    "emotion": "teasing",
    "lemmas": [
     [
-     "teacher",
+     "Teacher",
      "teach",
      ""
     ],
     [
-     "loves",
-     "love",
+     "likes",
+     "like",
      ""
     ],
     [

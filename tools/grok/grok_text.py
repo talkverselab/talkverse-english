@@ -38,7 +38,7 @@ def main():
         text, out, atts = opt['-m'], a[0], a[1:]
     else:
         text, out, atts = open(a[0], encoding='utf-8').read().strip(), a[1], a[2:]
-    wait = int(opt.get('--wait', 180))  # 사용자 지시 2026-11-10: Grok 답은 3분까지만, 넘으면 생성 중지
+    wait = int(opt.get('--wait', 180))  # 사용자 지시 11-10: Grok 답은 3분까지만, 넘으면 생성 중지
     remote = []
     if atts:
         subprocess.run(['ssh', 'pc', 'cmd /c if not exist D:\\grok_att\\en mkdir D:\\grok_att\\en'], check=False, capture_output=True)
@@ -65,12 +65,13 @@ def main():
             time.sleep(4 + 2 * len(remote))
         model = c.ev("[...document.querySelectorAll('button')].map(b=>b.getAttribute('aria-label')||'').find(x=>/^모델/.test(x))||''")
         print(model)
-        if text is not None and '빠른' not in model:  # 사용자 지시 2026-11-18: 빠른 모드(그 전 11-09 는 전문가)
-            raise SystemExit('Grok 모델이 빠른이 아님: ' + model + ' — tools/grok/grok_fast.py 9262')
+        if text is not None and '빠른' not in model:  # 사용자 지시 2026-11-18: 「빠른」 모드(11-09 「전문가」 지시를 바꿈)
+            raise SystemExit('Grok 모델이 빠른이 아님: ' + model)
         if text is None:
             r = c.ev(REPLY) or ''
             open(out, 'w', encoding='utf-8').write(r + '\n'); print('저장', out, len(r), '자'); return
         n0 = c.ev("document.querySelectorAll('.message-bubble, [class*=message-bubble]').length") or 0
+        r0 = c.ev(REPLY) or ''  # 보내기 전 마지막 답 — 말풍선 수는 방이 길어지면 늘지 않아(화면이 옛 말풍선을 덜 그림) 이것과 견준다(11-18)
         lim0 = c.ev("(document.body.innerText.match(/한도에 도달|limit reached/g)||[]).length")
         c.ev("(()=>{const e=%s;e.focus();return 1})()" % G.FIND)
         c.call('Input.insertText', text=text)
@@ -82,7 +83,7 @@ def main():
         if left and left > 0:
             c.ev("(()=>{const b=[...document.querySelectorAll('button')].find(x=>/제출|보내기|Submit|Send/.test(x.getAttribute('aria-label')||''));if(b){b.click();return 1}return 0})()")
             time.sleep(3)
-        t0 = time.time(); last = ''; same = 0
+        t0 = time.time(); last = ''; same = 0; done = False
         while time.time() - t0 < wait:
             time.sleep(8)
             if (c.ev("(document.body.innerText.match(/한도에 도달|limit reached/g)||[]).length") or 0) > lim0:
@@ -90,19 +91,23 @@ def main():
             n = c.ev("document.querySelectorAll('.message-bubble, [class*=message-bubble]').length") or 0
             cur = c.ev(REPLY) or ''
             busy = c.ev("/생각 중|Thinking|Generating|생성 중/.test(document.body.innerText.slice(-300))")
-            if n >= n0 + 2 and len(cur) > 60 and cur == last and not busy:
+            # 화면 글자의 「생각 중·생성 중」은 대사(한국어 칸)에도 나올 수 있다 — 답이 24초 그대로면 그것과 상관없이 끝(11-18 r2_love_c1·c2)
+            if (n >= n0 + 2 or (cur and cur != r0)) and len(cur) > 60 and cur == last:
                 same += 1
-                if same >= 4:
+                if (same >= 2 and not busy) or same >= 3:
+                    done = True
                     break
             else:
                 same = 0
             last = cur
-        else:  # 3분 초과 → 생성 중지(토큰 낭비 방지)
+        if not done:  # 3분 넘김 → 생성 중지(토큰 낭비 방지), 답은 쓰지 않음
             hit = c.ev("""(()=>{const b=[...document.querySelectorAll('button')].find(e=>/중지|stop/i.test((e.getAttribute('aria-label')||'')+' '+e.innerText));if(b){b.click();return 1}return 0})()""")
             if not hit:
                 for typ in ('keyDown', 'keyUp'):
                     c.call('Input.dispatchKeyEvent', type=typ, key='Escape', code='Escape', windowsVirtualKeyCode=27, nativeVirtualKeyCode=27)
-            time.sleep(2); print('중지(3분 초과)')
+            time.sleep(2)
+            print('TIMEOUT 생성 중지', 'CHAT', c.ev('location.href'))
+            sys.exit(4)
         reply = c.ev(REPLY) or ''
         href = c.ev('location.href')
         open(out, 'w', encoding='utf-8').write(reply + '\n')

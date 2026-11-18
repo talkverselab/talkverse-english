@@ -69,23 +69,13 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Sure thing. Do you have the receipt with you?",
-   "ko": "그럼요. 영수증 가지고 계세요?",
+   "en": "Do you have the receipt?",
+   "ko": "영수증 있으세요?",
    "note": "receipt = 영수증",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
-    [
-     "Sure",
-     "sure",
-     ""
-    ],
-    [
-     "thing",
-     "thing",
-     ""
-    ],
     [
      "receipt",
      "receipt",
@@ -96,9 +86,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "I think I threw it out. Can you look it up by card?",
-   "ko": "버린 것 같아요. 카드로 조회되나요?",
-   "note": "look it up = 찾아보다",
+   "en": "I think I lost it.",
+   "ko": "잃어버린 것 같아요.",
+   "note": "lost = 잃어버리다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -109,18 +99,8 @@
      ""
     ],
     [
-     "threw",
-     "throw",
-     ""
-    ],
-    [
-     "look",
-     "look",
-     ""
-    ],
-    [
-     "card",
-     "card",
+     "lost",
+     "lose",
      ""
     ]
    ]
@@ -128,31 +108,26 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "I can try. Which card did you use, and roughly when?",
-   "ko": "해 볼게요. 어떤 카드로, 대충 언제 사셨어요?",
-   "note": "roughly = 대략",
+   "en": "We usually need it for returns.",
+   "ko": "보통 반품엔 필요해요.",
+   "note": "usually = 보통",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "try",
-     "try",
+     "usually",
+     "usual",
      ""
     ],
     [
-     "card",
-     "card",
+     "need",
+     "need",
      ""
     ],
     [
-     "use",
-     "use",
-     ""
-    ],
-    [
-     "roughly",
-     "rough",
+     "returns",
+     "return",
      ""
     ]
    ]
@@ -160,41 +135,21 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Last Saturday, I'm pretty sure. The blue card.",
-   "ko": "지난 토요일일 거예요. 파란 카드요.",
-   "note": "pretty sure = 꽤 확실한",
+   "en": "Can I exchange it instead?",
+   "ko": "교환은 될까요?",
+   "note": "exchange = 교환",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Last",
-     "last",
+     "exchange",
+     "exchange",
      ""
     ],
     [
-     "Saturday",
-     "saturday",
-     ""
-    ],
-    [
-     "pretty",
-     "pretty",
-     ""
-    ],
-    [
-     "sure",
-     "sure",
-     ""
-    ],
-    [
-     "blue",
-     "blue",
-     ""
-    ],
-    [
-     "card",
-     "card",
+     "instead",
+     "instead",
      ""
     ]
    ]
@@ -202,31 +157,26 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Hmm. I'm not seeing anything from Saturday on this card.",
-   "ko": "음. 이 카드로 토요일 결제가 안 보이네요.",
-   "note": "I'm not seeing = 안 보여요",
+   "en": "Maybe, if we can find the sale.",
+   "ko": "판매 기록 찾으면 될 수도요.",
+   "note": "sale = 판매",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "seeing",
-     "see",
+     "Maybe",
+     "maybe",
      ""
     ],
     [
-     "anything",
-     "anything",
+     "find",
+     "find",
      ""
     ],
     [
-     "Saturday",
-     "saturday",
-     ""
-    ],
-    [
-     "card",
-     "card",
+     "sale",
+     "sale",
      ""
     ]
    ]
@@ -234,12 +184,12 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Really? I could be wrong, but it was definitely here.",
+   "en": "Really? I could be wrong, but I'm sure it was here.",
    "ko": "정말요? 제가 틀릴 수도 있지만, 분명히 여기였어요.",
-   "note": "i could be wrong = 내가 틀릴 수도",
+   "note": "i could be wrong = 틀릴 수도 있지만",
    "tags": [],
    "new": [],
-   "emotion": "worried",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Really",
@@ -252,8 +202,8 @@
      ""
     ],
     [
-     "definitely",
-     "definitely",
+     "sure",
+     "sure",
      ""
     ]
    ]
@@ -288,36 +238,26 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "Yes. Right by the window, with the red sale sign.",
-   "ko": "네. 창가 쪽에, 빨간 세일 표지판 있는 데요.",
-   "note": "sale sign = 세일 표지판",
+   "en": "Yeah, last week I think.",
+   "ko": "네, 지난주인 것 같아요.",
+   "note": "last week = 지난주",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Right",
-     "right",
+     "last",
+     "last",
      ""
     ],
     [
-     "window",
-     "window",
+     "week",
+     "week",
      ""
     ],
     [
-     "red",
-     "red",
-     ""
-    ],
-    [
-     "sale",
-     "sale",
-     ""
-    ],
-    [
-     "sign",
-     "sign",
+     "think",
+     "think",
      ""
     ]
    ]
@@ -325,21 +265,26 @@
   {
    "num": 10,
    "speaker": "B",
-   "en": "Okay, so… that tag is from the shop next door.",
+   "en": "Hold on… that tag is from the store next door.",
    "ko": "저기요… 그 태그, 옆 가게 거예요.",
-   "note": "next door = 옆집, 옆 가게",
+   "note": "tag = 태그",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "surprised",
    "lemmas": [
+    [
+     "Hold",
+     "hold",
+     ""
+    ],
     [
      "tag",
      "tag",
      ""
     ],
     [
-     "shop",
-     "shop",
+     "store",
+     "store",
      ""
     ],
     [
@@ -357,41 +302,16 @@
   {
    "num": 11,
    "speaker": "A",
-   "en": "The shop next door also has a red sale sign?",
-   "ko": "옆 가게도 빨간 세일 표지판이 있어요?",
-   "note": "되묻기",
+   "en": "What? Are you serious?",
+   "ko": "뭐요? 진짜요?",
+   "note": "serious = 진짜",
    "tags": [],
    "new": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "shop",
-     "shop",
-     ""
-    ],
-    [
-     "next",
-     "next",
-     ""
-    ],
-    [
-     "door",
-     "door",
-     ""
-    ],
-    [
-     "red",
-     "red",
-     ""
-    ],
-    [
-     "sale",
-     "sale",
-     ""
-    ],
-    [
-     "sign",
-     "sign",
+     "serious",
+     "serious",
      ""
     ]
    ]
@@ -399,31 +319,21 @@
   {
    "num": 12,
    "speaker": "B",
-   "en": "We share a window. People do this every week.",
-   "ko": "저희가 창문을 같이 써요. 매주 이런 분 계세요.",
-   "note": "share = 같이 쓰다",
+   "en": "Yes, different brand too.",
+   "ko": "네, 브랜드도 달라요.",
+   "note": "brand = 브랜드",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "share",
-     "share",
+     "different",
+     "different",
      ""
     ],
     [
-     "window",
-     "window",
-     ""
-    ],
-    [
-     "People",
-     "person",
-     ""
-    ],
-    [
-     "week",
-     "week",
+     "brand",
+     "brand",
      ""
     ]
    ]
@@ -431,12 +341,12 @@
   {
    "num": 13,
    "speaker": "A",
-   "en": "Fair enough. So where's their door?",
+   "en": "Fair enough. So where's their entrance?",
    "ko": "그럴 만하네요. 그럼 그 가게 문은 어디예요?",
-   "note": "fair enough = 그럴 만해",
+   "note": "fair enough = 그럴 만하네요",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Fair",
@@ -449,8 +359,8 @@
      ""
     ],
     [
-     "door",
-     "door",
+     "entrance",
+     "entrance",
      ""
     ]
    ]
@@ -458,31 +368,21 @@
   {
    "num": 14,
    "speaker": "B",
-   "en": "Outside, turn left. Keep the jacket, it's not ours.",
+   "en": "Out and to the left. Take the jacket, it's not ours.",
    "ko": "나가서 왼쪽이요. 재킷은 가져가세요, 저희 거 아니에요.",
-   "note": "keep = 가지고 있다",
+   "note": "left = 왼쪽",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
-    [
-     "Outside",
-     "outside",
-     ""
-    ],
-    [
-     "turn",
-     "turn",
-     ""
-    ],
     [
      "left",
      "leave",
      ""
     ],
     [
-     "Keep",
-     "keep",
+     "Take",
+     "take",
      ""
     ],
     [

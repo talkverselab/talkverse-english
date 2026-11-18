@@ -53,21 +53,16 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "My white shirt…",
-   "ko": "내 하얀 셔츠가…",
-   "note": "white = 하얀",
+   "en": "Yeah, just pulled them.",
+   "ko": "응, 방금 꺼냈어.",
+   "note": "just pulled = 방금 꺼냈다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "white",
-     "white",
-     ""
-    ],
-    [
-     "shirt",
-     "shirt",
+     "pulled",
+     "pull",
      ""
     ]
    ]
@@ -75,13 +70,18 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "It's pink now.",
-   "ko": "이제 분홍이네.",
-   "note": "pink = 분홍",
+   "en": "Wait, why all pink?",
+   "ko": "잠깐, 왜 다 분홍이야?",
+   "note": "all pink = 다 분홍",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "surprised",
    "lemmas": [
+    [
+     "Wait",
+     "wait",
+     ""
+    ],
     [
      "pink",
      "pink",
@@ -111,10 +111,10 @@
    "speaker": "B",
    "en": "One red sock. Mine.",
    "ko": "빨간 양말 한 짝. 내 거.",
-   "note": "sock = 양말",
+   "note": "red sock = 빨간 양말",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
      "red",
@@ -136,16 +136,26 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Jake! Really?",
-   "ko": "제이크! 진짜?",
-   "note": "really = 진짜",
+   "en": "It dyed everything pink.",
+   "ko": "다 분홍으로 물들었어.",
+   "note": "dyed pink = 분홍으로 물들다",
    "tags": [],
    "new": [],
-   "emotion": "shout",
+   "emotion": "annoyed",
    "lemmas": [
     [
-     "Really",
-     "real",
+     "dyed",
+     "dyed",
+     ""
+    ],
+    [
+     "everything",
+     "everything",
+     ""
+    ],
+    [
+     "pink",
+     "pink",
      ""
     ]
    ]
@@ -153,12 +163,12 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "I'm sorry. Pink is nice?",
+   "en": "I'm sorry. Pink looks good.",
    "ko": "미안. 분홍 예쁘잖아?",
-   "note": "nice = 좋은",
+   "note": "i'm sorry = 미안",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "teasing",
    "lemmas": [
     [
      "sorry",
@@ -171,8 +181,13 @@
      ""
     ],
     [
-     "nice",
-     "nice",
+     "looks",
+     "look",
+     ""
+    ],
+    [
+     "good",
+     "better",
      ""
     ]
    ]
@@ -180,12 +195,12 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Now it's your shirt.",
+   "en": "Now your shirt.",
    "ko": "이제 네 셔츠야.",
    "note": "your shirt = 네 셔츠",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "teasing",
    "lemmas": [
     [
      "shirt",

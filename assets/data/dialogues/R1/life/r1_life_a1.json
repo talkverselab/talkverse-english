@@ -33,12 +33,12 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Daniel! What's up with that noise?",
+   "en": "Daniel! What's up with that sound?",
    "ko": "대니얼! 저 소리 뭐야?",
-   "note": "what's up with ~? = ~ 왜 이래?",
+   "note": "what's up = 뭐야",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "worried",
    "lemmas": [
     [
      "What's",
@@ -46,8 +46,8 @@
      ""
     ],
     [
-     "noise",
-     "noise",
+     "sound",
+     "sound",
      ""
     ]
    ]
@@ -55,8 +55,8 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Smoke alarm. Did you make toast?",
-   "ko": "화재경보기야. 너 토스트 했어?",
+   "en": "Smoke alarm. Your toast.",
+   "ko": "화재경보기. 네 토스트.",
    "note": "smoke alarm = 화재경보기",
    "tags": [],
    "new": [],
@@ -73,11 +73,6 @@
      ""
     ],
     [
-     "make",
-     "make",
-     ""
-    ],
-    [
      "toast",
      "toast",
      ""
@@ -87,26 +82,21 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "One toast. It's a little black.",
-   "ko": "토스트 한 장. 좀 까매.",
-   "note": "a little = 조금",
+   "en": "Just a little burnt.",
+   "ko": "조금만 탔어.",
+   "note": "a little = 조금만",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "toast",
-     "toast",
-     ""
-    ],
-    [
      "little",
      "little",
      ""
     ],
     [
-     "black",
-     "black",
+     "burnt",
+     "burnt",
      ""
     ]
    ]
@@ -116,10 +106,10 @@
    "speaker": "B",
    "en": "A little? For real?",
    "ko": "조금? 진짜로?",
-   "note": "for real = 진짜?",
+   "note": "for real = 진짜로",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
      "little",
@@ -168,12 +158,12 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Wait. Now the whole building is ringing.",
+   "en": "Wait. Now the whole building is going off.",
    "ko": "잠깐. 이제 건물 전체가 울려.",
    "note": "whole building = 건물 전체",
    "tags": [],
    "new": [],
-   "emotion": "shout",
+   "emotion": "surprised",
    "lemmas": [
     [
      "Wait",
@@ -191,8 +181,8 @@
      ""
     ],
     [
-     "ringing",
-     "ring",
+     "going",
+     "going",
      ""
     ]
    ]
@@ -200,7 +190,7 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "My bad. Everyone is going outside.",
+   "en": "My bad. Everyone's going outside.",
    "ko": "내 잘못이야. 다들 밖으로 나가고 있어.",
    "note": "my bad = 내 잘못",
    "tags": [],
@@ -213,7 +203,7 @@
      ""
     ],
     [
-     "Everyone",
+     "Everyone's",
      "everyone",
      ""
     ],
@@ -232,12 +222,12 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Bring the toast. The firefighters want to see it.",
+   "en": "Bring the toast. Firefighters want to see it.",
    "ko": "토스트 가져와. 소방관들이 보고 싶대.",
-   "note": "firefighter = 소방관",
+   "note": "bring the toast = 토스트 가져와",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
      "Bring",
@@ -250,7 +240,7 @@
      ""
     ],
     [
-     "firefighters",
+     "Firefighters",
      "firefighters",
      ""
     ],

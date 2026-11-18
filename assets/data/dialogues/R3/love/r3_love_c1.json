@@ -54,21 +54,16 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "So are you. Every day this week.",
-   "ko": "너도. 이번 주 내내.",
-   "note": "so are you = 너도 그래",
+   "en": "Habit. You too.",
+   "ko": "습관이야. 너도.",
+   "note": "habit = 습관",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "day",
-     "day",
-     ""
-    ],
-    [
-     "week",
-     "week",
+     "Habit",
+     "habit",
      ""
     ]
    ]
@@ -76,13 +71,18 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "I mean, I'm a runner. Obviously.",
+   "en": "Well, I mean, I'm a runner. Obviously.",
    "ko": "뭐, 나 러너잖아. 당연하지.",
-   "note": "i mean = 아니 뭐",
+   "note": "i mean = 뭐",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
+    [
+     "Well",
+     "well",
+     ""
+    ],
     [
      "mean",
      "mean",
@@ -103,26 +103,31 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "You're breathing really hard, Emma.",
-   "ko": "에마, 너 숨 엄청 차는데.",
-   "note": "breathe hard = 숨이 차다",
+   "en": "Right. Pace is good today.",
+   "ko": "맞아. 오늘 페이스 좋아.",
+   "note": "pace = 페이스",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "breathing",
-     "breath",
+     "Right",
+     "right",
      ""
     ],
     [
-     "really",
-     "real",
+     "Pace",
+     "pace",
      ""
     ],
     [
-     "hard",
-     "hard",
+     "good",
+     "better",
+     ""
+    ],
+    [
+     "today",
+     "today",
      ""
     ]
    ]
@@ -132,7 +137,7 @@
    "speaker": "B",
    "en": "It's not like I'm dying. Keep going.",
    "ko": "죽는 것도 아니고. 계속 가.",
-   "note": "it's not like ~ = ~인 것도 아니고",
+   "note": "it's not like = 것도 아니고",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -162,12 +167,12 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Want to slow down?",
-   "ko": "속도 좀 줄일까?",
-   "note": "slow down = 속도를 줄이다",
+   "en": "Want to slow down a bit?",
+   "ko": "좀 느리게 갈래?",
+   "note": "slow = 느리게",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Want",
@@ -178,22 +183,27 @@
      "slow",
      "slow",
      ""
+    ],
+    [
+     "bit",
+     "bite",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "en": "Only if you want to.",
-   "ko": "네가 원하면.",
-   "note": "only if = ~라면",
+   "en": "No, this is fine.",
+   "ko": "아니, 이 정도 괜찮아.",
+   "note": "fine = 괜찮아",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "want",
-     "want",
+     "fine",
+     "fine",
      ""
     ]
    ]
@@ -201,26 +211,26 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "I'm fine. You're the one turning red.",
-   "ko": "난 괜찮아. 빨개진 건 너야.",
-   "note": "turn red = 빨개지다",
+   "en": "Cool. How long you been doing this?",
+   "ko": "좋아. 이거 얼마나 했어?",
+   "note": "long = 오래",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "fine",
-     "fine",
+     "Cool",
+     "cool",
      ""
     ],
     [
-     "turning",
-     "turn",
+     "long",
+     "long",
      ""
     ],
     [
-     "red",
-     "red",
+     "doing",
+     "doing",
      ""
     ]
    ]
@@ -228,26 +238,9 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "It's cold. That's all.",
-   "ko": "추워서 그래. 그게 다야.",
-   "note": "that's all = 그게 다야",
-   "tags": [],
-   "new": [],
-   "emotion": "flustered",
-   "lemmas": [
-    [
-     "cold",
-     "cold",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "A",
-   "en": "Emma. How long have you been running?",
-   "ko": "에마. 너 달리기 한 지 얼마나 됐어?",
-   "note": "how long = 얼마나 오래",
+   "en": "Not that long actually.",
+   "ko": "사실 그렇게 오래는 안 됐어.",
+   "note": "actually = 사실",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -258,8 +251,40 @@
      ""
     ],
     [
-     "running",
-     "run",
+     "actually",
+     "actual",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "en": "Really? You look like a pro.",
+   "ko": "진짜? 프로처럼 보여.",
+   "note": "pro = 프로",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Really",
+     "real",
+     ""
+    ],
+    [
+     "look",
+     "look",
+     ""
+    ],
+    [
+     "like",
+     "like",
+     ""
+    ],
+    [
+     "pro",
+     "pro",
      ""
     ]
    ]
@@ -299,21 +324,21 @@
   {
    "num": 12,
    "speaker": "A",
-   "en": "So you hate running.",
-   "ko": "그럼 너 달리기 싫어하는구나.",
-   "note": "hate = 싫어하다",
+   "en": "Wait, you started because of me?",
+   "ko": "잠깐, 나 때문에 시작했어?",
+   "note": "started = 시작하다",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "hate",
-     "hate",
+     "Wait",
+     "wait",
      ""
     ],
     [
-     "running",
-     "run",
+     "started",
+     "start",
      ""
     ]
    ]
@@ -321,16 +346,31 @@
   {
    "num": 13,
    "speaker": "B",
-   "en": "I hate it so much.",
-   "ko": "진짜 싫어.",
-   "note": "so much = 너무",
+   "en": "Maybe. Running's not really my thing.",
+   "ko": "그럴지도. 달리기는 별로 내 스타일 아냐.",
+   "note": "thing = 스타일",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "shy",
    "lemmas": [
     [
-     "hate",
-     "hate",
+     "Maybe",
+     "maybe",
+     ""
+    ],
+    [
+     "Running's",
+     "run",
+     ""
+    ],
+    [
+     "really",
+     "real",
+     ""
+    ],
+    [
+     "thing",
+     "thing",
      ""
     ]
    ]
@@ -340,7 +380,7 @@
    "speaker": "A",
    "en": "Then let's walk. There's coffee at the end anyway.",
    "ko": "그럼 걷자. 어차피 끝에 커피 있잖아.",
-   "note": "let's walk = 걷자",
+   "note": "walk = 걷다",
    "tags": [
     "heart"
    ],

@@ -35,10 +35,10 @@
    "speaker": "B",
    "en": "One shot. Loser buys dinner.",
    "ko": "한 골. 지는 사람이 저녁 사기.",
-   "note": "loser = 진 사람",
+   "note": "loser buys = 지는 사람이 사다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "shot",
@@ -67,7 +67,7 @@
    "speaker": "A",
    "en": "I'm in. You go first.",
    "ko": "콜. 너 먼저 해.",
-   "note": "I'm in = 나도 할래",
+   "note": "i'm in = 콜",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -87,18 +87,13 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Easy. Watch this.",
-   "ko": "쉽지. 잘 봐.",
+   "en": "Okay. Watch this.",
+   "ko": "알겠어. 잘 봐.",
    "note": "watch this = 잘 봐",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "teasing",
    "lemmas": [
-    [
-     "Easy",
-     "easy",
-     ""
-    ],
     [
      "Watch",
      "watch",
@@ -109,26 +104,26 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "You missed the whole hoop.",
-   "ko": "골대 전체를 놓쳤네.",
-   "note": "missed = 놓쳤다",
+   "en": "Air ball. My turn.",
+   "ko": "에어볼. 내 차례.",
+   "note": "air ball = 에어볼",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
-     "missed",
-     "miss",
+     "Air",
+     "air",
      ""
     ],
     [
-     "whole",
-     "whole",
+     "ball",
+     "ball",
      ""
     ],
     [
-     "hoop",
-     "hoop",
+     "turn",
+     "turn",
      ""
     ]
    ]
@@ -136,12 +131,12 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Come on. Your turn.",
+   "en": "Come on. Your shot now.",
    "ko": "아 진짜. 네 차례야.",
-   "note": "come on = 아 왜 이래",
+   "note": "come on = 아 진짜",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Come",
@@ -149,8 +144,8 @@
      ""
     ],
     [
-     "turn",
-     "turn",
+     "shot",
+     "shoot",
      ""
     ]
    ]
@@ -158,13 +153,18 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Okay… and it's on the roof.",
+   "en": "Okay... and onto the roof.",
    "ko": "좋아… 그리고 지붕 위로 갔네.",
-   "note": "on the roof = 지붕 위",
+   "note": "onto the roof = 지붕 위로",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
+    [
+     "onto",
+     "onto",
+     ""
+    ],
     [
      "roof",
      "roof",
@@ -180,7 +180,7 @@
    "note": "you're kidding = 농담이지",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "annoyed",
    "lemmas": [
     [
      "kidding",
@@ -197,12 +197,12 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "No way. So dinner's on both of us?",
+   "en": "No way. So we both pay?",
    "ko": "말도 안 돼. 그럼 저녁은 둘 다 내?",
-   "note": "on both of us = 둘이 내다",
+   "note": "no way = 말도 안 돼",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
      "way",
@@ -210,8 +210,8 @@
      ""
     ],
     [
-     "dinner's",
-     "dinner",
+     "pay",
+     "pay",
      ""
     ]
    ]

@@ -10,11 +10,11 @@
  "domain": [
   "work"
  ],
- "title": "연봉 협상, 한 문장만 더",
+ "title": "One More Sentence",
  "emoji": "🤝",
- "scene": "이직 제안을 받고 팀장 다니엘에게 연봉 얘기를 꺼내는데, 다니엘도 같은 회사에서 제안을 받은 상태다",
- "where": "사무실 작은 회의실",
- "goal": "연봉·조건 협상하고 돌려 말하기",
+ "scene": "You got a job offer and bring up salary with team lead Daniel, but he got an offer from the same company",
+ "where": "Small office conference room",
+ "goal": "Negotiate salary and conditions while hedging",
  "speakers": {
   "A": "{name}",
   "B": "Daniel"
@@ -64,9 +64,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Sure. Close the door if it's the kind of thing that needs a closed door.",
-   "ko": "그럼요. 문 닫아야 하는 얘기면 문 닫고요.",
-   "note": "needs a closed door = 비밀스러운",
+   "en": "Sure, come on in. What's going on?",
+   "ko": "네, 들어오세요. 무슨 일이에요?",
+   "note": "what's going on = 무슨 일이에요",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -77,38 +77,18 @@
      ""
     ],
     [
-     "Close",
-     "close",
+     "come",
+     "come",
      ""
     ],
     [
-     "door",
-     "door",
+     "What's",
+     "what",
      ""
     ],
     [
-     "kind",
-     "kind",
-     ""
-    ],
-    [
-     "thing",
-     "thing",
-     ""
-    ],
-    [
-     "needs",
-     "need",
-     ""
-    ],
-    [
-     "closed",
-     "close",
-     ""
-    ],
-    [
-     "door",
-     "door",
+     "going",
+     "going",
      ""
     ]
    ]
@@ -116,12 +96,12 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "I got an offer from another company last week. A pretty good one.",
-   "ko": "지난주에 다른 회사에서 제안을 받았어요. 꽤 괜찮은 걸로요.",
-   "note": "offer = 제안",
+   "en": "I got an offer from another company last week.",
+   "ko": "지난주에 다른 회사에서 제안을 받았어요.",
+   "note": "got an offer = 제안을 받다",
    "tags": [],
    "new": [],
-   "emotion": "stiff",
+   "emotion": "neutral",
    "lemmas": [
     [
      "got",
@@ -147,52 +127,32 @@
      "week",
      "week",
      ""
-    ],
-    [
-     "pretty",
-     "pretty",
-     ""
-    ],
-    [
-     "good",
-     "better",
-     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "en": "I had a feeling. You've been wearing a nice shirt on Tuesdays.",
-   "ko": "그럴 것 같았어요. 화요일마다 좋은 셔츠 입고 오더라고요.",
-   "note": "had a feeling = 그런 느낌이 들었다",
+   "en": "Okay. Are you leaning toward taking it?",
+   "ko": "그렇군요. 수락하는 쪽으로 기울고 있나요?",
+   "note": "leaning toward = 기울다",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "polite",
    "lemmas": [
     [
-     "feeling",
-     "feel",
+     "leaning",
+     "lean",
      ""
     ],
     [
-     "wearing",
-     "wear",
+     "toward",
+     "toward",
      ""
     ],
     [
-     "nice",
-     "nice",
-     ""
-    ],
-    [
-     "shirt",
-     "shirt",
-     ""
-    ],
-    [
-     "Tuesdays",
-     "tuesday",
+     "taking",
+     "take",
      ""
     ]
    ]
@@ -200,12 +160,12 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "To be honest, I'd rather stay. I like this team and what we're building.",
+   "en": "To be honest, I want to stay. I like the team and what we're building.",
    "ko": "솔직히 저는 남고 싶어요. 이 팀도, 우리가 만드는 것도 좋아서요.",
-   "note": "I'd rather = 차라리 ~하고 싶다",
+   "note": "to be honest = 솔직히",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "honest",
@@ -213,8 +173,8 @@
      ""
     ],
     [
-     "rather",
-     "rather",
+     "want",
+     "want",
      ""
     ],
     [
@@ -242,12 +202,12 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "That's good to hear. What would it take to keep you?",
-   "ko": "다행이네요. 붙잡으려면 뭐가 필요해요?",
-   "note": "what would it take = 뭐가 있어야",
+   "en": "That's good to hear. Have you looked at what we could match?",
+   "ko": "다행이네요. 우리가 맞춰줄 수 있는 건 봤나요?",
+   "note": "match = 맞춰주다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "good",
@@ -260,13 +220,13 @@
      ""
     ],
     [
-     "take",
-     "take",
+     "looked",
+     "look",
      ""
     ],
     [
-     "keep",
-     "keep",
+     "match",
+     "match",
      ""
     ]
    ]
@@ -274,41 +234,36 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "A raise that's closer to their number, and one remote day a week.",
-   "ko": "그쪽 금액에 가까운 인상이랑, 일주일에 하루 재택이요.",
-   "note": "raise = 연봉 인상",
+   "en": "I was hoping we could talk numbers before Friday.",
+   "ko": "금요일 전에 숫자 얘기를 할 수 있으면 좋겠어요.",
+   "note": "talk numbers = 숫자 얘기하다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "raise",
-     "raise",
+     "hoping",
+     "hope",
      ""
     ],
     [
-     "closer",
-     "close",
+     "talk",
+     "talk",
      ""
     ],
     [
+     "numbers",
      "number",
-     "number",
      ""
     ],
     [
-     "remote",
-     "remote",
+     "before",
+     "before",
      ""
     ],
     [
-     "day",
-     "day",
-     ""
-    ],
-    [
-     "week",
-     "week",
+     "Friday",
+     "friday",
      ""
     ]
    ]
@@ -316,36 +271,31 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "That's a reasonable ask. I can't promise their number, but I can fight for it.",
-   "ko": "무리한 요구는 아니에요. 그 금액은 약속 못 해도 싸워 볼 수는 있어요.",
-   "note": "reasonable = 합리적인",
+   "en": "We can try. What's the range they're offering?",
+   "ko": "해볼 수 있죠. 그쪽에서 얼마 범위로 주나요?",
+   "note": "the range = 범위",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "reasonable",
-     "reasonable",
+     "try",
+     "try",
      ""
     ],
     [
-     "ask",
-     "ask",
+     "What's",
+     "what",
      ""
     ],
     [
-     "promise",
-     "promise",
+     "range",
+     "range",
      ""
     ],
     [
-     "number",
-     "number",
-     ""
-    ],
-    [
-     "fight",
-     "fight",
+     "offering",
+     "offer",
      ""
     ]
    ]
@@ -353,21 +303,16 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "That being said, I need an answer by Friday. They want me to start soon.",
+   "en": "That being said, I have to answer by Friday. They want me to start soon.",
    "ko": "그렇긴 한데, 금요일까지 답을 줘야 해요. 빨리 시작하길 원해서요.",
-   "note": "that being said = 그렇긴 해도",
+   "note": "that being said = 그렇긴 한데",
    "tags": [],
    "new": [],
-   "emotion": "worried",
+   "emotion": "neutral",
    "lemmas": [
     [
      "said",
      "say",
-     ""
-    ],
-    [
-     "need",
-     "need",
      ""
     ],
     [
@@ -400,18 +345,13 @@
   {
    "num": 10,
    "speaker": "B",
-   "en": "Which company, if you don't mind me asking?",
+   "en": "If you don't mind me asking, which company is it?",
    "ko": "실례가 안 된다면, 어느 회사예요?",
-   "note": "if you don't mind me asking = 여쭤봐도 된다면",
+   "note": "which company = 어느 회사",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
-    [
-     "company",
-     "company",
-     ""
-    ],
     [
      "mind",
      "mind",
@@ -421,37 +361,42 @@
      "asking",
      "ask",
      ""
+    ],
+    [
+     "company",
+     "company",
+     ""
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "A",
-   "en": "The design studio by the bridge. Why are you smiling?",
-   "ko": "다리 옆 디자인 스튜디오요. 왜 웃으세요?",
-   "note": "반전 직전",
+   "en": "It's the one downtown that just raised a big round.",
+   "ko": "다운타운에 있는, 최근 큰 투자 받은 회사예요.",
+   "note": "raised a big round = 큰 투자 받다",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "design",
-     "design",
+     "downtown",
+     "downtown",
      ""
     ],
     [
-     "studio",
-     "studio",
+     "raised",
+     "raise",
      ""
     ],
     [
-     "bridge",
-     "bridge",
+     "big",
+     "big",
      ""
     ],
     [
-     "smiling",
-     "smile",
+     "round",
+     "round",
      ""
     ]
    ]
@@ -459,41 +404,31 @@
   {
    "num": 12,
    "speaker": "B",
-   "en": "Because they called me too. They want a team lead. And, apparently, a team.",
-   "ko": "저한테도 연락이 왔거든요. 팀장을 원한대요. 그리고 듣자 하니, 팀도요.",
-   "note": "apparently = 듣자 하니",
+   "en": "No way. I got an email from them yesterday too.",
+   "ko": "설마. 저도 어제 그쪽에서 이메일 받았어요.",
+   "note": "no way = 설마",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "called",
-     "call",
+     "way",
+     "way",
      ""
     ],
     [
-     "want",
-     "want",
+     "got",
+     "get",
      ""
     ],
     [
-     "team",
-     "team",
+     "email",
+     "email",
      ""
     ],
     [
-     "lead",
-     "lead",
-     ""
-    ],
-    [
-     "apparently",
-     "apparently",
-     ""
-    ],
-    [
-     "team",
-     "team",
+     "yesterday",
+     "yesterday",
      ""
     ]
    ]
@@ -501,26 +436,26 @@
   {
    "num": 13,
    "speaker": "A",
-   "en": "Wait. So they're trying to hire both of us?",
-   "ko": "잠깐만요. 그럼 우리 둘 다 데려가려는 거예요?",
-   "note": "hire = 채용하다",
+   "en": "Seriously? Are you thinking about leaving?",
+   "ko": "진짜요? 떠나실 생각 하세요?",
+   "note": "thinking about leaving = 떠나다",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Wait",
-     "wait",
+     "Seriously",
+     "serious",
      ""
     ],
     [
-     "trying",
-     "try",
+     "thinking",
+     "think",
      ""
     ],
     [
-     "hire",
-     "hire",
+     "leaving",
+     "leave",
      ""
     ]
    ]
@@ -528,41 +463,31 @@
   {
    "num": 14,
    "speaker": "B",
-   "en": "Looks like it. So now we have two offers and one very nervous boss upstairs.",
-   "ko": "그런 것 같네요. 그럼 우리한텐 제안 둘, 위층엔 엄청 초조한 사장님 한 명.",
-   "note": "nervous = 초조한",
+   "en": "I was waiting to see what they offered in person.",
+   "ko": "직접 만나서 뭐라고 하는지 보고 있었어요.",
+   "note": "in person = 직접",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Looks",
-     "look",
+     "waiting",
+     "wait",
      ""
     ],
     [
-     "like",
-     "like",
+     "see",
+     "see",
      ""
     ],
     [
-     "offers",
+     "offered",
      "offer",
      ""
     ],
     [
-     "nervous",
-     "nervous",
-     ""
-    ],
-    [
-     "boss",
-     "boss",
-     ""
-    ],
-    [
-     "upstairs",
-     "upstairs",
+     "person",
+     "person",
      ""
     ]
    ]
@@ -570,21 +495,21 @@
   {
    "num": 15,
    "speaker": "A",
-   "en": "Should we negotiate together, then?",
-   "ko": "그럼 같이 협상할까요?",
-   "note": "negotiate = 협상하다",
+   "en": "This is getting complicated.",
+   "ko": "점점 복잡해지네요.",
+   "note": "getting complicated = 복잡해지다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "negotiate",
-     "negotiate",
+     "getting",
+     "get",
      ""
     ],
     [
-     "together",
-     "together",
+     "complicated",
+     "complicated",
      ""
     ]
    ]
@@ -592,12 +517,12 @@
   {
    "num": 16,
    "speaker": "B",
-   "en": "It's up to you. But I already booked the big meeting room for Friday.",
+   "en": "It's up to you. But I already booked the big conference room for Friday.",
    "ko": "당신한테 달렸어요. 근데 나 이미 금요일에 큰 회의실 잡아 놨어요.",
-   "note": "it's up to you = 네 맘대로",
+   "note": "it's up to you = 당신한테 달렸어요",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
      "booked",
@@ -610,8 +535,8 @@
      ""
     ],
     [
-     "meeting",
-     "meet",
+     "conference",
+     "conference",
      ""
     ],
     [

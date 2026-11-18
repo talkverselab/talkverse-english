@@ -31,21 +31,21 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Would you mind staying late to review the vendor contracts?",
+   "en": "Would you mind staying late to review the partner contract?",
    "ko": "늦게까지 남아서 협력사 계약서 검토해 줄 수 있어?",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "staying late to review the vendor contracts"
+     "Would you mind staying late to review the partner contract?"
     ],
     "red": [
      "staying"
     ],
-    "note": "mind + -ing"
+    "note": " staying: mind 뒤에 오는 동명사"
    },
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "mind",
@@ -68,12 +68,12 @@
      ""
     ],
     [
-     "vendor",
-     "vendor",
+     "partner",
+     "partner",
      ""
     ],
     [
-     "contracts",
+     "contract",
      "contract",
      ""
     ]
@@ -82,19 +82,17 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Not really. I enjoy leaving the office on time.",
+   "en": "not really I enjoy leaving on time every day.",
    "ko": "별로요. 저는 정시에 퇴근하는 걸 즐겨요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
-    "u": [
-     "leaving the office on time"
-    ],
+    "u": [],
     "red": [
      "leaving"
     ],
-    "note": "enjoy + -ing"
+    "note": " leaving: enjoy 뒤에 오는 동명사"
    },
    "emotion": "neutral",
    "lemmas": [
@@ -114,13 +112,13 @@
      ""
     ],
     [
-     "office",
-     "office",
+     "time",
+     "time",
      ""
     ],
     [
-     "time",
-     "time",
+     "day",
+     "day",
      ""
     ]
    ]
@@ -128,21 +126,21 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "You can't avoid working overtime during the audit season.",
+   "en": "You can't avoid working late during the audit period.",
    "ko": "감사 기간에 야근을 피할 수는 없어.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "working overtime"
+     "You can't avoid working late during the audit period."
     ],
     "red": [
      "working"
     ],
-    "note": "avoid + -ing"
+    "note": " working: avoid 뒤에 오는 동명사"
    },
-   "emotion": "teasing",
+   "emotion": "polite",
    "lemmas": [
     [
      "avoid",
@@ -155,8 +153,8 @@
      ""
     ],
     [
-     "overtime",
-     "overtime",
+     "late",
+     "late",
      ""
     ],
     [
@@ -170,8 +168,8 @@
      ""
     ],
     [
-     "season",
-     "season",
+     "period",
+     "period",
      ""
     ]
    ]
@@ -179,21 +177,21 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "I've finished trying. It's been a long quarter.",
-   "ko": "노력하는 건 끝냈어요. 긴 분기였거든요.",
+   "en": "I've finished trying for today. It was a long quarter.",
+   "ko": "오늘 노력하는 건 끝냈어요. 긴 분기였거든요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "trying"
+     "I've finished trying for today. It was a long quarter."
     ],
     "red": [
      "trying"
     ],
-    "note": "finish + -ing"
+    "note": " trying: finish 뒤에 오는 동명사"
    },
-   "emotion": "sad",
+   "emotion": "neutral",
    "lemmas": [
     [
      "finished",
@@ -203,6 +201,11 @@
     [
      "trying",
      "try",
+     ""
+    ],
+    [
+     "today",
+     "today",
      ""
     ],
     [
@@ -220,24 +223,24 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Thank you for being so transparent about your priorities.",
+   "en": "Thanks for being so transparent about your priorities.",
    "ko": "우선순위를 그렇게 투명하게 밝혀 줘서 고마워.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "being so transparent about your priorities"
+     "Thanks for being so transparent about your priorities."
     ],
     "red": [
      "being"
     ],
-    "note": "전치사 for + -ing"
+    "note": " being: 전치사 for 뒤에 오는 동명사"
    },
    "emotion": "amused",
    "lemmas": [
     [
-     "Thank",
+     "Thanks",
      "thank",
      ""
     ],
@@ -256,19 +259,17 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "No problem. I left the building without saving the contract file, though.",
+   "en": "no problem But I left without saving the contract file.",
    "ko": "천만에요. 근데 계약서 파일 저장 안 하고 퇴근했어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
-    "u": [
-     "saving the contract file"
-    ],
+    "u": [],
     "red": [
      "saving"
     ],
-    "note": "without + -ing"
+    "note": " saving: 전치사 without 뒤에 오는 동명사"
    },
    "emotion": "flustered",
    "lemmas": [
@@ -280,11 +281,6 @@
     [
      "left",
      "leave",
-     ""
-    ],
-    [
-     "building",
-     "build",
      ""
     ],
     [
@@ -306,35 +302,30 @@
      "file",
      "file",
      ""
-    ],
-    [
-     "though",
-     "though",
-     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "en": "You considered ending your career before the audit?",
+   "en": "Are you considering ending your career before the audit?",
    "ko": "감사 전에 네 커리어를 끝내는 걸 고려한 거야?",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "ending your career"
+     "Are you considering ending your career before the audit?"
     ],
     "red": [
      "ending"
     ],
-    "note": "consider + -ing"
+    "note": " ending: consider 뒤에 오는 동명사"
    },
-   "emotion": "shout",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "considered",
+     "considering",
      "consider",
      ""
     ],
@@ -363,20 +354,20 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "I'm staying. And enjoying it. Very much.",
+   "en": "I'll stay. Enjoying it. Very much.",
    "ko": "남을게요. 즐기면서요. 아주 많이요.",
-   "note": "동명사 항복",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "stiff",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "staying",
+     "stay",
      "stay",
      ""
     ],
     [
-     "enjoying",
+     "Enjoying",
      "enjoy",
      ""
     ]

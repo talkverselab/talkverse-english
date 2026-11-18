@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "You free? Library, now.",
+   "en": "You free? Library now.",
    "ko": "시간 돼? 도서관, 지금.",
-   "note": "you free? = 시간 돼?",
+   "note": "you free = 시간 돼",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -57,14 +57,14 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Let's go. Bringing supplies.",
+   "en": "Let's go. I'll bring stuff.",
    "ko": "가자. 준비물 챙겨 갈게.",
-   "note": "supplies = 준비물",
+   "note": "let's go = 가자",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:02",
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Let's",
@@ -77,13 +77,13 @@
      ""
     ],
     [
-     "Bringing",
+     "bring",
      "bring",
      ""
     ],
     [
-     "supplies",
-     "supply",
+     "stuff",
+     "stuff",
      ""
     ]
    ]
@@ -91,28 +91,33 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Where are you?",
-   "ko": "어디야?",
-   "note": "where = 어디",
+   "en": "I'm by the window.",
+   "ko": "창가 쪽에 있어.",
+   "note": "window = 창문",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:20",
    "emotion": "neutral",
-   "lemmas": []
+   "lemmas": [
+    [
+     "window",
+     "window",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "en": "Here. Five bags of chips.",
+   "en": "I'm here. Five bags of chips.",
    "ko": "왔어. 감자칩 다섯 봉지.",
-   "note": "bags = 봉지",
+   "note": "chips = 감자칩",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:21",
-   "emotion": "excited",
-   "stamp": "🍿",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "bags",
@@ -129,17 +134,17 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "What? Where's your book?",
-   "ko": "뭐? 책은?",
-   "note": "what = 뭐?",
+   "en": "What? Where are the books?",
+   "ko": "뭐? 책은 어디 있어?",
+   "note": "what = 뭐",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:21",
-   "emotion": "neutral",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "book",
+     "books",
      "book",
      ""
     ]
@@ -148,28 +153,33 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Book? Test is tomorrow?",
-   "ko": "책? 시험 내일이야?",
-   "note": "되묻기",
+   "en": "Chips help me think better.",
+   "ko": "감자칩이 생각 더 잘 나게 해.",
+   "note": "help = 돕다",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:22",
-   "emotion": "worried",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "Book",
-     "book",
+     "Chips",
+     "chip",
      ""
     ],
     [
-     "Test",
-     "test",
+     "help",
+     "help",
      ""
     ],
     [
-     "tomorrow",
-     "tomorrow",
+     "think",
+     "think",
+     ""
+    ],
+    [
+     "better",
+     "good",
      ""
     ]
    ]
@@ -177,15 +187,26 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Yes. At nine.",
-   "ko": "응. 9시에.",
-   "note": "at nine = 9시에",
+   "en": "We still need the notes.",
+   "ko": "그래도 노트는 필요해.",
+   "note": "notes = 노트",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:22",
-   "emotion": "tsukkomi",
-   "lemmas": []
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "need",
+     "need",
+     ""
+    ],
+    [
+     "notes",
+     "note",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -197,7 +218,7 @@
    "new": [],
    "ui": "bubble",
    "at": "20:23",
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
      "Sounds",

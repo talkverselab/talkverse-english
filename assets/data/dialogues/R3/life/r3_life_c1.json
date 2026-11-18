@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Daniel, this place is huge. And cheap.",
-   "ko": "대니얼, 여기 엄청 넓어. 게다가 싸.",
-   "note": "huge = 엄청 큰",
+   "en": "Daniel, this place is huge and so cheap.",
+   "ko": "대니얼, 여기 엄청 넓고 싸.",
+   "note": "huge and cheap = 넓고 싸다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -59,7 +59,7 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Don't get me wrong, I love it. But why so cheap?",
+   "en": "Don't get me wrong, I love it too. But why so cheap?",
    "ko": "오해하지 마, 나도 좋아. 근데 왜 이렇게 싸?",
    "note": "don't get me wrong = 오해하지 마",
    "tags": [],
@@ -91,21 +91,26 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "The ad says \"lively neighborhood.\"",
-   "ko": "광고에 \"활기찬 동네\"래.",
+   "en": "The agent said it's really lively at night.",
+   "ko": "중개인이 밤에 활기 넘친다고 했어.",
    "note": "lively = 활기찬",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "ad",
-     "ad",
+     "agent",
+     "agent",
      ""
     ],
     [
-     "says",
+     "said",
      "say",
+     ""
+    ],
+    [
+     "really",
+     "real",
      ""
     ],
     [
@@ -114,8 +119,8 @@
      ""
     ],
     [
-     "neighborhood",
-     "neighborhood",
+     "night",
+     "night",
      ""
     ]
    ]
@@ -123,7 +128,7 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "What do you mean, lively?",
+   "en": "What do you mean by lively?",
    "ko": "활기차다는 게 무슨 뜻이야?",
    "note": "what do you mean = 무슨 뜻이야",
    "tags": [],
@@ -145,21 +150,36 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "I don't know. It's quiet now.",
-   "ko": "몰라. 지금은 조용한데.",
-   "note": "quiet = 조용한",
+   "en": "Like lots of energy and people around.",
+   "ko": "에너지 넘치고 사람들 많다는 뜻이지.",
+   "note": "energy = 활기",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "know",
-     "know",
+     "Like",
+     "like",
      ""
     ],
     [
-     "quiet",
-     "quiet",
+     "lots",
+     "lot",
+     ""
+    ],
+    [
+     "energy",
+     "energy",
+     ""
+    ],
+    [
+     "people",
+     "person",
+     ""
+    ],
+    [
+     "around",
+     "around",
      ""
     ]
    ]
@@ -167,9 +187,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Wait, the floor is shaking. Is that… bowling?",
-   "ko": "잠깐, 바닥이 흔들려. 이거… 볼링이야?",
-   "note": "shake = 흔들리다",
+   "en": "Wait, the floor is shaking. Is this bowling?",
+   "ko": "잠깐, 바닥이 흔들려. 이거 볼링이야?",
+   "note": "shaking = 흔들리다",
    "tags": [],
    "new": [],
    "emotion": "surprised",
@@ -199,39 +219,12 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Someone just yelled \"strike!\"",
-   "ko": "방금 누가 \"스트라이크!\" 외쳤어.",
-   "note": "yell = 외치다",
+   "en": "Oh no, there's a bowling alley right below us.",
+   "ko": "오 안 돼, 바로 아래에 볼링장이 있어.",
+   "note": "below us = 우리 아래",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "Someone",
-     "someone",
-     ""
-    ],
-    [
-     "yelled",
-     "yell",
-     ""
-    ],
-    [
-     "strike",
-     "strike",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "en": "There's a bowling alley under us.",
-   "ko": "우리 밑에 볼링장이 있어.",
-   "note": "under = ~ 아래",
-   "tags": [],
-   "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "surprised",
    "lemmas": [
     [
      "bowling",
@@ -244,8 +237,35 @@
      ""
     ],
     [
-     "under",
-     "under",
+     "right",
+     "right",
+     ""
+    ],
+    [
+     "below",
+     "below",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "en": "A 24-hour one? This is crazy.",
+   "ko": "24시간짜리? 이거 미쳤어.",
+   "note": "crazy = 미쳤다",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "hour",
+     "hour",
+     ""
+    ],
+    [
+     "crazy",
+     "crazy",
      ""
     ]
    ]
@@ -253,12 +273,12 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "I swear the ad didn't say that.",
-   "ko": "맹세코 광고엔 그런 말 없었어.",
+   "en": "I swear the ad said nothing about this.",
+   "ko": "맹세코 광고엔 이런 말 없었어.",
    "note": "i swear = 맹세코",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "lemmas": [
     [
      "swear",
@@ -271,8 +291,13 @@
      ""
     ],
     [
+     "said",
      "say",
-     "say",
+     ""
+    ],
+    [
+     "nothing",
+     "nothing",
      ""
     ]
    ]
@@ -280,21 +305,21 @@
   {
    "num": 10,
    "speaker": "A",
-   "en": "Is it open all night?",
-   "ko": "밤새 하는 거야?",
-   "note": "open all night = 밤새 영업하는",
+   "en": "We would never sleep with all that noise.",
+   "ko": "그 소음에 절대 못 잘 거야.",
+   "note": "never sleep = 절대 못 자",
    "tags": [],
    "new": [],
    "emotion": "worried",
    "lemmas": [
     [
-     "open",
-     "open",
+     "sleep",
+     "sleep",
      ""
     ],
     [
-     "night",
-     "night",
+     "noise",
+     "noise",
      ""
     ]
    ]
@@ -302,26 +327,31 @@
   {
    "num": 11,
    "speaker": "B",
-   "en": "Twenty-four hours. There's a sign.",
-   "ko": "24시간. 간판 있어.",
-   "note": "sign = 간판",
+   "en": "Yeah, pins crashing all night long.",
+   "ko": "응, 핀 부딪히는 소리 밤새.",
+   "note": "crashing = 부딪히다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Twenty",
-     "twenty",
+     "pins",
+     "pin",
      ""
     ],
     [
-     "hours",
-     "hour",
+     "crashing",
+     "crash",
      ""
     ],
     [
-     "sign",
-     "sign",
+     "night",
+     "night",
+     ""
+    ],
+    [
+     "long",
+     "long",
      ""
     ]
    ]
@@ -329,16 +359,36 @@
   {
    "num": 12,
    "speaker": "A",
-   "en": "So… we'd never sleep.",
-   "ko": "그럼… 우린 절대 못 자겠네.",
-   "note": "never = 절대 ~않다",
+   "en": "Free bowling shoes almost make up for it.",
+   "ko": "볼링화 공짜면 거의 괜찮을 수도.",
+   "note": "free shoes = 공짜 신발",
    "tags": [],
    "new": [],
-   "emotion": "sad",
+   "emotion": "amused",
    "lemmas": [
     [
-     "sleep",
-     "sleep",
+     "Free",
+     "free",
+     ""
+    ],
+    [
+     "bowling",
+     "bowl",
+     ""
+    ],
+    [
+     "shoes",
+     "shoes",
+     ""
+    ],
+    [
+     "almost",
+     "almost",
+     ""
+    ],
+    [
+     "make",
+     "make",
      ""
     ]
    ]
@@ -346,9 +396,9 @@
   {
    "num": 13,
    "speaker": "B",
-   "en": "But residents get free shoes. I'm signing.",
+   "en": "But residents get free bowling shoes. I'm signing.",
    "ko": "근데 주민은 볼링화 공짜래. 나 계약한다.",
-   "note": "resident = 주민",
+   "note": "signing = 계약하다",
    "tags": [],
    "new": [],
    "emotion": "cheerful",
@@ -366,6 +416,11 @@
     [
      "free",
      "free",
+     ""
+    ],
+    [
+     "bowling",
+     "bowl",
      ""
     ],
     [

@@ -32,21 +32,16 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Hi, sorry. It says \"unexpected item in the bagging area.\"",
+   "en": "Excuse me, unexpected item in the bag area.",
    "ko": "저기요, 죄송한데요. \"봉투 칸에 예상치 못한 물건\"이래요.",
-   "note": "bagging area = 봉투 놓는 칸",
+   "note": "unexpected = 예상치 못한",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "sorry",
-     "sorry",
-     ""
-    ],
-    [
-     "says",
-     "say",
+     "Excuse",
+     "excuse",
      ""
     ],
     [
@@ -60,7 +55,7 @@
      ""
     ],
     [
-     "bagging",
+     "bag",
      "bag",
      ""
     ],
@@ -74,15 +69,15 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Okay, hold on. What did you put there?",
+   "en": "Hold on. What did you put there?",
    "ko": "네, 잠깐만요. 거기 뭐 올리셨어요?",
-   "note": "hold on = 잠깐만",
+   "note": "hold on = 잠깐만요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "hold",
+     "Hold",
      "hold",
      ""
     ],
@@ -96,9 +91,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Just my bananas. I scanned them already.",
-   "ko": "그냥 바나나요. 이미 찍었어요.",
-   "note": "scan = 찍다",
+   "en": "Just a few bananas.",
+   "ko": "바나나 몇 개요.",
+   "note": "bananas = 바나나",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -106,11 +101,6 @@
     [
      "bananas",
      "banana",
-     ""
-    ],
-    [
-     "scanned",
-     "scan",
      ""
     ]
    ]
@@ -118,36 +108,26 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "You have to weigh bananas. Press \"produce\" first.",
-   "ko": "바나나는 무게를 달아야 해요. \"농산물\"부터 누르세요.",
-   "note": "weigh = 무게를 달다",
+   "en": "Let me check the scale again.",
+   "ko": "저울 다시 확인해 볼게요.",
+   "note": "scale = 저울",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "weigh",
-     "weigh",
+     "Let",
+     "let",
      ""
     ],
     [
-     "bananas",
-     "banana",
+     "check",
+     "check",
      ""
     ],
     [
-     "Press",
-     "press",
-     ""
-    ],
-    [
-     "produce",
-     "produce",
-     ""
-    ],
-    [
-     "first",
-     "first",
+     "scale",
+     "scale",
      ""
     ]
    ]
@@ -155,21 +135,26 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Got it. Okay… now it's yelling again.",
-   "ko": "알겠어요. 어… 또 소리 지르네요.",
-   "note": "yell = 소리 지르다",
+   "en": "It keeps calling for help.",
+   "ko": "계속 도움을 요청해요.",
+   "note": "keeps = 계속",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Got",
-     "get",
+     "keeps",
+     "keep",
      ""
     ],
     [
-     "yelling",
-     "yelling",
+     "calling",
+     "call",
+     ""
+    ],
+    [
+     "help",
+     "help",
      ""
     ]
    ]
@@ -177,9 +162,9 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Not again. Did you put your bag on it?",
+   "en": "Not again? Did you put a bag on it?",
    "ko": "또요? 가방 올리셨어요?",
-   "note": "not again = 또야",
+   "note": "not again = 또요",
    "tags": [],
    "new": [],
    "emotion": "annoyed",
@@ -201,10 +186,10 @@
    "speaker": "A",
    "en": "My bad. That's my backpack.",
    "ko": "제 잘못이에요. 그거 제 배낭이에요.",
-   "note": "my bad = 내 실수",
+   "note": "my bad = 제 잘못이에요",
    "tags": [],
    "new": [],
-   "emotion": "shy",
+   "emotion": "flustered",
    "lemmas": [
     [
      "bad",
@@ -221,26 +206,26 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Wait, you were here yesterday. With the eggs.",
-   "ko": "잠깐, 어제도 오셨죠. 계란 그 손님.",
-   "note": "어제 일을 기억함",
+   "en": "Oh, I remember your face from yesterday.",
+   "ko": "아, 어제 얼굴 기억이 나네요.",
+   "note": "remember = 기억하다",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "amused",
    "lemmas": [
     [
-     "Wait",
-     "wait",
+     "remember",
+     "remember",
+     ""
+    ],
+    [
+     "face",
+     "face",
      ""
     ],
     [
      "yesterday",
      "yesterday",
-     ""
-    ],
-    [
-     "eggs",
-     "eggs",
      ""
     ]
    ]
@@ -248,31 +233,31 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "Please don't tell anyone about the eggs.",
-   "ko": "계란 얘기는 아무한테도 하지 마세요.",
-   "note": "don't tell anyone = 아무한테도 말하지 마",
+   "en": "Sorry, the bananas were really light.",
+   "ko": "죄송해요, 바나나가 너무 가벼워서요.",
+   "note": "light = 가벼운",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Please",
-     "please",
+     "Sorry",
+     "sorry",
      ""
     ],
     [
-     "tell",
-     "tell",
+     "bananas",
+     "banana",
      ""
     ],
     [
-     "anyone",
-     "anyone",
+     "really",
+     "real",
      ""
     ],
     [
-     "eggs",
-     "eggs",
+     "light",
+     "light",
      ""
     ]
    ]
@@ -280,12 +265,12 @@
   {
    "num": 10,
    "speaker": "B",
-   "en": "Next time, just come to my line.",
+   "en": "Next time just come to my line.",
    "ko": "다음엔 그냥 제 줄로 오세요.",
-   "note": "my line = 제 계산대",
+   "note": "next time = 다음엔",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "polite",
    "lemmas": [
     [
      "Next",

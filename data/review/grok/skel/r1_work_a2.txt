@@ -1,0 +1,21 @@
+=== r1_work_a2
+title: 시급 이야기
+emoji: 💵
+scene: 서점 아르바이트 면접에서 사장이 시급을 물어보는데, 학습자가 너무 낮게 불러 사장이 올려 준다
+where: 동네 서점
+goal: 면접에서 짧게 답하기
+kind: short
+register: polite
+B: Owner
+twist: 6 ignore
+expr: sounds good | are you sure | i think so | of course
+level: 초보 — 쉬운 낱말, 한 줄 1~2문장 · 한 줄 영어 1~9 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+B | ____ | 흐름: 책 좋아해요?
+A | ____ | 흐름: 물론이죠. 매일 밤 읽어요. · 「of course」를 이 줄에 그대로
+B | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+A | ____ | 흐름: 그럴 것 같아요. 네. · 「i think so」를 이 줄에 그대로
+B | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+A | ____ | 흐름: 시간당 5달러요? · ← 반전(ignore)
+B | ____ | 흐름: 확실해요? 그건 불법이에요. 18달러요. · 「are you sure」를 이 줄에 그대로
+A | ____ | 흐름: 좋아요. 할게요! · 「sounds good」를 이 줄에 그대로

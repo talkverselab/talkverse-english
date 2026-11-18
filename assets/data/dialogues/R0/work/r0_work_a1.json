@@ -31,12 +31,12 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Excuse me. My card won't work.",
+   "en": "Excuse me. Card won't work.",
    "ko": "저기요. 카드가 안 돼요.",
-   "note": "not working = 안 된다",
+   "note": "excuse me = 저기요",
    "tags": [],
    "new": [],
-   "emotion": "worried",
+   "emotion": "polite",
    "lemmas": [
     [
      "Excuse",
@@ -44,7 +44,7 @@
      ""
     ],
     [
-     "card",
+     "Card",
      "card",
      ""
     ],
@@ -58,21 +58,26 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "First day?",
-   "ko": "첫날이에요?",
-   "note": "first day = 첫날",
+   "en": "New here? Let me help.",
+   "ko": "신입이세요? 도와드릴게요.",
+   "note": "let me help = 도와드릴게요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "First",
-     "first",
+     "New",
+     "new",
      ""
     ],
     [
-     "day",
-     "day",
+     "Let",
+     "let",
+     ""
+    ],
+    [
+     "help",
+     "help",
      ""
     ]
    ]
@@ -80,16 +85,26 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Yes. Nine o'clock. I'm late.",
-   "ko": "네. 9시요. 늦었어요.",
-   "note": "late = 늦은",
+   "en": "Yes, first day. Thanks.",
+   "ko": "네, 첫날이에요. 고마워요.",
+   "note": "first day = 첫날",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "late",
-     "late",
+     "first",
+     "first",
+     ""
+    ],
+    [
+     "day",
+     "day",
+     ""
+    ],
+    [
+     "Thanks",
+     "thank",
      ""
     ]
    ]
@@ -97,7 +112,7 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "One sec. Let me see.",
+   "en": "One sec. I'll check.",
    "ko": "잠깐만요. 볼게요.",
    "note": "one sec = 잠깐만",
    "tags": [],
@@ -110,13 +125,8 @@
      ""
     ],
     [
-     "Let",
-     "let",
-     ""
-    ],
-    [
-     "see",
-     "see",
+     "check",
+     "check",
      ""
     ]
    ]
@@ -124,21 +134,21 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Card is fine.",
-   "ko": "카드는 괜찮네요.",
-   "note": "fine = 괜찮은",
+   "en": "Try it one more time.",
+   "ko": "한 번 더 해보세요.",
+   "note": "one more = 한 번 더",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Card",
-     "card",
+     "Try",
+     "try",
      ""
     ],
     [
-     "fine",
-     "fine",
+     "time",
+     "time",
      ""
     ]
    ]
@@ -146,12 +156,12 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Door says \"pull.\"",
+   "en": "Door says \"pull\" there.",
    "ko": "문에 「당기시오」라고 써 있어요.",
-   "note": "pull = 당기다",
+   "note": "says pull = 당기시오",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
      "Door",
@@ -173,23 +183,13 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Oh. Good morning, door.",
+   "en": "Oh. Hi, door.",
    "ko": "아. 안녕, 문아.",
-   "note": "good morning = 좋은 아침",
+   "note": "hi door = 안녕 문",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "amused",
    "lemmas": [
-    [
-     "Good",
-     "better",
-     ""
-    ],
-    [
-     "morning",
-     "morning",
-     ""
-    ],
     [
      "door",
      "door",

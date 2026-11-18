@@ -32,19 +32,19 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "This model is considerably cheaper than the one we use now.",
+   "en": "This model is way cheaper than the one we use now.",
    "ko": "이 모델이 지금 쓰는 것보다 훨씬 싸.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "cheaper than the one we use now"
+     "This model is way cheaper than the one we use now."
     ],
     "red": [
      "cheaper than"
     ],
-    "note": "비교급 -er than"
+    "note": " cheaper than: 비교급, 둘을 비교"
    },
    "emotion": "neutral",
    "lemmas": [
@@ -54,8 +54,8 @@
      ""
     ],
     [
-     "considerably",
-     "considerably",
+     "way",
+     "way",
      ""
     ],
     [
@@ -80,12 +80,12 @@
    "new": [],
    "gram": {
     "u": [
-     "more comfortable than"
+     "That one is more comfortable than anything in this catalog."
     ],
     "red": [
      "more comfortable than"
     ],
-    "note": "more + 형용사 than"
+    "note": " more comfortable than: 비교급, 긴 형용사"
    },
    "emotion": "neutral",
    "lemmas": [
@@ -109,29 +109,24 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Procurement policy says we purchase the cheapest option available.",
+   "en": "Policy says we have to buy the cheapest available.",
    "ko": "구매 규정상 구입 가능한 제일 싼 걸 사야 해.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "the cheapest"
+     "Policy says we have to buy the cheapest available."
     ],
     "red": [
      "the cheapest"
     ],
-    "note": "최상급 the -est"
+    "note": " the cheapest: 최상급, 셋 이상 중 제일"
    },
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Procurement",
-     "procurement",
-     ""
-    ],
-    [
-     "policy",
+     "Policy",
      "policy",
      ""
     ],
@@ -141,18 +136,13 @@
      ""
     ],
     [
-     "purchase",
-     "purchase",
+     "buy",
+     "buy",
      ""
     ],
     [
      "cheapest",
      "cheap",
-     ""
-    ],
-    [
-     "option",
-     "option",
      ""
     ],
     [
@@ -165,30 +155,25 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "The cheapest option is as hard as a concrete block.",
+   "en": "The cheapest is as hard as a concrete block.",
    "ko": "제일 싼 건 콘크리트 블록만큼 딱딱해.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "as hard as a concrete block"
+     "The cheapest is as hard as a concrete block."
     ],
     "red": [
      "as hard as"
     ],
-    "note": "as ~ as = ~만큼"
+    "note": " as hard as: as ~ as 동등 비교"
    },
    "emotion": "amused",
    "lemmas": [
     [
      "cheapest",
      "cheap",
-     ""
-    ],
-    [
-     "option",
-     "option",
      ""
     ],
     [
@@ -211,46 +196,36 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Concrete is free. Order twenty units for the whole floor.",
-   "ko": "콘크리트는 공짜야. 층 전체용으로 스무 개 주문해.",
-   "note": "돌직구",
+   "en": "Shipping might change the final numbers though.",
+   "ko": "운임이 최종 금액을 바꿀 수도 있어.",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Concrete",
-     "concrete",
+     "Shipping",
+     "ship",
      ""
     ],
     [
-     "free",
-     "free",
+     "change",
+     "change",
      ""
     ],
     [
-     "Order",
-     "order",
+     "final",
+     "final",
      ""
     ],
     [
-     "twenty",
-     "twenty",
+     "numbers",
+     "number",
      ""
     ],
     [
-     "units",
-     "unit",
-     ""
-    ],
-    [
-     "whole",
-     "whole",
-     ""
-    ],
-    [
-     "floor",
-     "floor",
+     "though",
+     "though",
      ""
     ]
    ]
@@ -258,21 +233,21 @@
   {
    "num": 6,
    "speaker": "C",
-   "en": "Never have I seen an invoice this large for office chairs.",
+   "en": "Never have I seen a bill this big for office chairs.",
    "ko": "사무실 의자로 이렇게 큰 청구서는 본 적이 없어.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "Never have I seen"
+     "Never have I seen a bill this big for office chairs."
     ],
     "red": [
      "Never have I seen"
     ],
-    "note": "부정어 도치: Never + have + 주어"
+    "note": " Never have I seen: 부정어 도치 구문"
    },
-   "emotion": "shout",
+   "emotion": "surprised",
    "lemmas": [
     [
      "seen",
@@ -280,13 +255,13 @@
      ""
     ],
     [
-     "invoice",
-     "invoice",
+     "bill",
+     "bill",
      ""
     ],
     [
-     "large",
-     "large",
+     "big",
+     "big",
      ""
     ],
     [
@@ -304,21 +279,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Twenty chairs plus freight. Shipping turned out to be the most expensive line item.",
+   "en": "Twenty chairs plus freight. Shipping became the most expensive item.",
    "ko": "의자 스무 개에 운임 별도. 배송비가 제일 비싼 항목이 됐어.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "the most expensive"
+     "Twenty chairs plus freight. Shipping became the most expensive item."
     ],
     "red": [
      "the most expensive"
     ],
-    "note": "최상급 the most"
+    "note": " the most expensive: 최상급, 가장 비싼"
    },
-   "emotion": "flustered",
+   "emotion": "worried",
    "lemmas": [
     [
      "Twenty",
@@ -346,18 +321,13 @@
      ""
     ],
     [
-     "turned",
-     "turn",
+     "became",
+     "became",
      ""
     ],
     [
      "expensive",
      "expensive",
-     ""
-    ],
-    [
-     "line",
-     "line",
      ""
     ],
     [
@@ -370,12 +340,12 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "No way. Told you — the cheapest option is always the costliest.",
+   "en": "no way told you The cheapest always ends up costing the most.",
    "ko": "말도 안 돼. 내가 말했지, 제일 싼 게 늘 제일 비싸다고.",
-   "note": "교훈 한 줄",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "teasing",
    "lemmas": [
     [
      "way",
@@ -383,7 +353,7 @@
      ""
     ],
     [
-     "Told",
+     "told",
      "tell",
      ""
     ],
@@ -393,13 +363,13 @@
      ""
     ],
     [
-     "option",
-     "option",
+     "ends",
+     "end",
      ""
     ],
     [
-     "costliest",
-     "costly",
+     "costing",
+     "cost",
      ""
     ]
    ]

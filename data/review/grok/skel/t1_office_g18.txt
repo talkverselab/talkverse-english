@@ -1,0 +1,24 @@
+=== t1_office_g18
+title: 제일 싼 게 제일 비쌌다
+emoji: 🪑
+scene: 사무실 의자를 고른다. 비교급·최상급으로 싸우다가 가장 싼 의자가 가장 비싸게 먹힌다
+where: 가구 매장 웹사이트 앞
+goal: 비교급·최상급 — -er/more than · the -est/most · as ~ as · 도치(Never have I)
+grammar: 비교급과 최상급|둘을 견주면 비교급(cheaper than, more comfortable than), 셋 이상이면 최상급(the cheapest). 「~만큼」은 as ~ as. 부정어가 문장 앞에 오면 도치(Never have I seen).
+check: This model is considerably _____ than the one we currently use. | cheap | cheaper | cheapest | the cheapest | B
+kind: short
+register: casual
+B: Raj
+C: Olivia
+twist: 7 chaos
+expr: no way | told you
+level: 토익 Part 3·4 중급 비즈니스 회화 · 한 줄 영어 1~15 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+A | ____ | 흐름: 이 모델이 지금 쓰는 것보다 훨씬 싸. · 문법 줄: cheaper than 를 *cheaper than* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: 저건 이 카탈로그에 있는 어떤 것보다 편해. · 문법 줄: more comfortable than 를 *more comfortable than* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+A | ____ | 흐름: 구매 규정상 구입 가능한 제일 싼 걸 사야 해. · 문법 줄: the cheapest 를 *the cheapest* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: 제일 싼 건 콘크리트 블록만큼 딱딱해. · 문법 줄: as hard as 를 *as hard as* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+A | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+C | ____ | 흐름: 사무실 의자로 이렇게 큰 청구서는 본 적이 없어. · 문법 줄: Never have I seen 를 *Never have I seen* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: 의자 스무 개에 운임 별도. 배송비가 제일 비싼 항목이 됐어. · 문법 줄: the most expensive 를 *the most expensive* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작 · ← 반전(chaos)
+A | ____ | 흐름: 말도 안 돼. 내가 말했지, 제일 싼 게 늘 제일 비싸다고. · 「no way」를 이 줄에 그대로 · 「told you」를 이 줄에 그대로

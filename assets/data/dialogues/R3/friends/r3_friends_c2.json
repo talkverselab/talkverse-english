@@ -64,31 +64,26 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "The soft one with the little hole on the sleeve?",
-   "ko": "소매에 작은 구멍 있는 부드러운 거?",
-   "note": "sleeve = 소매",
+   "en": "Gray hoodie? Not sure.",
+   "ko": "회색 후드티? 잘 모르겠어.",
+   "note": "hoodie = 후드티",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "soft",
-     "soft",
+     "Gray",
+     "gray",
      ""
     ],
     [
-     "little",
-     "little",
+     "hoodie",
+     "hoodie",
      ""
     ],
     [
-     "hole",
-     "hole",
-     ""
-    ],
-    [
-     "sleeve",
-     "sleeve",
+     "sure",
+     "sure",
      ""
     ]
    ]
@@ -96,9 +91,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "That's the one. I lent it to Jake last month.",
-   "ko": "그거. 지난달에 제이크한테 빌려줬거든.",
-   "note": "lent = 빌려줬다",
+   "en": "I lent it to Jake last week.",
+   "ko": "지난주에 제이크한테 빌려줬어.",
+   "note": "lent = 빌려주다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -114,8 +109,8 @@
      ""
     ],
     [
-     "month",
-     "month",
+     "week",
+     "week",
      ""
     ]
    ]
@@ -123,26 +118,16 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "Jake? He said it was his. He wore it to class.",
-   "ko": "제이크? 자기 거라던데. 수업에 입고 왔어.",
-   "note": "wore = 입었다",
+   "en": "Oh yeah, he mentioned that.",
+   "ko": "아 맞아, 걔가 말했어.",
+   "note": "mentioned = 말하다",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "said",
-     "say",
-     ""
-    ],
-    [
-     "wore",
-     "wear",
-     ""
-    ],
-    [
-     "class",
-     "class",
+     "mentioned",
+     "mention",
      ""
     ]
    ]
@@ -150,26 +135,16 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Of course he did. I'll text him tonight.",
-   "ko": "그럴 줄 알았어. 오늘 밤에 문자할게.",
-   "note": "of course = 당연하지",
+   "en": "Can you ask him for me?",
+   "ko": "나 대신 물어봐 줄래?",
+   "note": "ask = 물어보다",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "course",
-     "course",
-     ""
-    ],
-    [
-     "text",
-     "text",
-     ""
-    ],
-    [
-     "tonight",
-     "tonight",
+     "ask",
+     "ask",
      ""
     ]
    ]
@@ -177,26 +152,21 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Don't be too hard on him. It's really comfy.",
-   "ko": "너무 몰아붙이지 마. 진짜 편하거든.",
-   "note": "comfy = 편한",
+   "en": "Sure, I'll text him.",
+   "ko": "응, 문자할게.",
+   "note": "text = 문자하다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "hard",
-     "hard",
+     "Sure",
+     "sure",
      ""
     ],
     [
-     "really",
-     "real",
-     ""
-    ],
-    [
-     "comfy",
-     "comfy",
+     "text",
+     "text",
      ""
     ]
    ]
@@ -204,21 +174,21 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "How do you know it's comfy?",
-   "ko": "편한 건 네가 어떻게 알아?",
-   "note": "되묻기",
+   "en": "Thanks. It's my favorite.",
+   "ko": "고마워. 제일 좋아하는 거야.",
+   "note": "favorite = 좋아하는",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "know",
-     "know",
+     "Thanks",
+     "thank",
      ""
     ],
     [
-     "comfy",
-     "comfy",
+     "favorite",
+     "favorite",
      ""
     ]
    ]
@@ -226,18 +196,13 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Because I'm kind of wearing it right now.",
+   "en": "Because I'm wearing it right now.",
    "ko": "왜냐면 내가 지금 그거 입고 있거든.",
-   "note": "kind of = 좀, 약간",
+   "note": "wearing = 입고 있다",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "shy",
    "lemmas": [
-    [
-     "kind",
-     "kind",
-     ""
-    ],
     [
      "wearing",
      "wear",
@@ -253,31 +218,16 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "Maya. It's under your jacket. I can see the hole.",
-   "ko": "마야. 재킷 밑에 있네. 구멍 보여.",
-   "note": "under = 아래에",
+   "en": "Wait, what?",
+   "ko": "잠깐, 뭐?",
+   "note": "wait = 잠깐",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "under",
-     "under",
-     ""
-    ],
-    [
-     "jacket",
-     "jacket",
-     ""
-    ],
-    [
-     "see",
-     "see",
-     ""
-    ],
-    [
-     "hole",
-     "hole",
+     "Wait",
+     "wait",
      ""
     ]
    ]
@@ -287,10 +237,10 @@
    "speaker": "B",
    "en": "Jake lent it to me. That's on me, I should've asked.",
    "ko": "제이크가 빌려줬어. 내 잘못이야, 물어봤어야 했는데.",
-   "note": "that's on me = 내 탓이야",
+   "note": "that's on me = 내 잘못이야",
    "tags": [],
    "new": [],
-   "emotion": "shy",
+   "emotion": "flustered",
    "lemmas": [
     [
      "lent",
@@ -307,21 +257,26 @@
   {
    "num": 11,
    "speaker": "A",
-   "en": "So my hoodie has been to more classes than me.",
-   "ko": "그러니까 내 후드티가 나보다 수업을 더 들었네.",
-   "note": "말장난",
+   "en": "It's fine, just give it back soon.",
+   "ko": "괜찮아, 곧 돌려줘.",
+   "note": "soon = 곧",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "hoodie",
-     "hoodie",
+     "fine",
+     "fine",
      ""
     ],
     [
-     "classes",
-     "class",
+     "give",
+     "give",
+     ""
+    ],
+    [
+     "soon",
+     "soon",
      ""
     ]
    ]
@@ -329,26 +284,21 @@
   {
    "num": 12,
    "speaker": "B",
-   "en": "It got an A in history, actually.",
-   "ko": "사실 역사 과목 A 받았어.",
-   "note": "actually = 사실",
+   "en": "Yeah, I'll wash it first.",
+   "ko": "응, 먼저 빨게.",
+   "note": "wash = 빨다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "got",
-     "get",
+     "wash",
+     "wash",
      ""
     ],
     [
-     "history",
-     "history",
-     ""
-    ],
-    [
-     "actually",
-     "actual",
+     "first",
+     "first",
      ""
     ]
    ]
@@ -356,21 +306,21 @@
   {
    "num": 13,
    "speaker": "A",
-   "en": "Wash it and give it back, and we're even.",
-   "ko": "빨아서 돌려주면 퉁 치자.",
-   "note": "we're even = 비긴 걸로",
+   "en": "No need, just whenever.",
+   "ko": "그럴 필요 없어, 언제든.",
+   "note": "whenever = 언제든",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Wash",
-     "wash",
+     "need",
+     "need",
      ""
     ],
     [
-     "give",
-     "give",
+     "whenever",
+     "whenever",
      ""
     ]
    ]
@@ -378,16 +328,16 @@
   {
    "num": 14,
    "speaker": "B",
-   "en": "Deal. I owe you one. Maybe two.",
+   "en": "Cool. I owe you one. Maybe two.",
    "ko": "콜. 하나 빚졌어. 두 개일지도.",
-   "note": "i owe you one = 신세 졌어",
+   "note": "i owe you one = 빚졌어",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "amused",
    "lemmas": [
     [
-     "Deal",
-     "deal",
+     "Cool",
+     "cool",
      ""
     ],
     [

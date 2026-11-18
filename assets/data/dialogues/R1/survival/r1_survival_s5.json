@@ -33,12 +33,12 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Excuse me. My card isn't working.",
+   "en": "Excuse me. Card won't work.",
    "ko": "저기요. 카드가 안 돼요.",
-   "note": "isn't working = 안 돼요",
+   "note": "excuse me = 저기요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "Excuse",
@@ -46,12 +46,12 @@
      ""
     ],
     [
-     "card",
+     "Card",
      "card",
      ""
     ],
     [
-     "working",
+     "work",
      "work",
      ""
     ]
@@ -60,21 +60,21 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Tap it again. Slowly.",
-   "ko": "다시 대 보세요. 천천히요.",
-   "note": "tap = 갖다 대다",
+   "en": "Try tapping it again.",
+   "ko": "다시 한 번 대 보세요.",
+   "note": "try again = 다시 대다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Tap",
-     "tap",
+     "Try",
+     "try",
      ""
     ],
     [
-     "Slowly",
-     "slow",
+     "tapping",
+     "tap",
      ""
     ]
    ]
@@ -82,26 +82,21 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "It says \"See agent.\"",
-   "ko": "\"직원에게 문의\"라고 떠요.",
-   "note": "see agent = 직원에게 문의",
+   "en": "Still nothing. Sorry.",
+   "ko": "여전히 안 돼요. 죄송해요.",
+   "note": "still nothing = 여전히 안 돼",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "worried",
    "lemmas": [
     [
-     "says",
-     "say",
+     "nothing",
+     "nothing",
      ""
     ],
     [
-     "See",
-     "see",
-     ""
-    ],
-    [
-     "agent",
-     "agent",
+     "Sorry",
+     "sorry",
      ""
     ]
    ]
@@ -109,16 +104,16 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "I'm the agent. One sec.",
+   "en": "I'm the worker. One sec.",
    "ko": "제가 직원이에요. 잠깐만요.",
-   "note": "one sec = 잠깐만요",
+   "note": "one sec = 잠깐만",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "agent",
-     "agent",
+     "worker",
+     "work",
      ""
     ],
     [
@@ -131,31 +126,26 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "The line behind me is getting long.",
-   "ko": "뒤에 줄이 길어져요.",
-   "note": "line = 줄",
+   "en": "Thanks. Line is growing.",
+   "ko": "고마워요. 줄이 길어지고 있어요.",
+   "note": "line growing = 줄이 길어지다",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "neutral",
    "lemmas": [
     [
+     "Thanks",
+     "thank",
+     ""
+    ],
+    [
+     "Line",
      "line",
-     "line",
      ""
     ],
     [
-     "behind",
-     "behind",
-     ""
-    ],
-    [
-     "getting",
-     "get",
-     ""
-    ],
-    [
-     "long",
-     "long",
+     "growing",
+     "grow",
      ""
     ]
    ]
@@ -163,16 +153,26 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Yeah, they love you.",
-   "ko": "네, 다들 좋아하시네요.",
-   "note": "비꼬는 말",
+   "en": "Let me look at the card.",
+   "ko": "카드 좀 볼게요.",
+   "note": "look at card = 카드 보다",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "love",
-     "love",
+     "Let",
+     "let",
+     ""
+    ],
+    [
+     "look",
+     "look",
+     ""
+    ],
+    [
+     "card",
+     "card",
      ""
     ]
    ]
@@ -180,12 +180,12 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Your card is upside down.",
+   "en": "The card is upside down.",
    "ko": "카드가 거꾸로예요.",
    "note": "upside down = 거꾸로",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
      "card",
@@ -204,10 +204,10 @@
    "speaker": "A",
    "en": "What do you mean? Oh. Got it.",
    "ko": "무슨 말이에요? 아. 알겠어요.",
-   "note": "what do you mean = 무슨 말이에요?",
+   "note": "what do you mean = 무슨 말",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
     [
      "mean",

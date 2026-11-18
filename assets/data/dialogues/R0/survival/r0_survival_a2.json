@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Excuse me. What time is it?",
-   "ko": "저기요. 지금 몇 시예요?",
-   "note": "What time is it? = 몇 시예요?",
+   "en": "Excuse me, the time?",
+   "ko": "저기요, 지금 몇 시예요?",
+   "note": "excuse me = 저기요",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -53,9 +53,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "It's ten. Are you getting on?",
-   "ko": "10시요. 타실 거예요?",
-   "note": "get on = 타다",
+   "en": "You getting on?",
+   "ko": "타실 거예요?",
+   "note": "getting on = 타다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -70,12 +70,12 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "No thanks. Just the time.",
-   "ko": "아뇨, 괜찮아요. 시간만요.",
+   "en": "No thanks, just time.",
+   "ko": "아뇨 괜찮아요, 시간만요.",
    "note": "no thanks = 괜찮아요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "thanks",
@@ -92,31 +92,26 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "You sure? Last bus today.",
-   "ko": "정말요? 오늘 막차예요.",
-   "note": "last bus = 막차",
+   "en": "Sure? It's pretty late.",
+   "ko": "확실해요? 꽤 늦었는데요.",
+   "note": "pretty late = 꽤 늦다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
+     "Sure",
      "sure",
-     "sure",
      ""
     ],
     [
-     "Last",
-     "last",
+     "pretty",
+     "pretty",
      ""
     ],
     [
-     "bus",
-     "bus",
-     ""
-    ],
-    [
-     "today",
-     "today",
+     "late",
+     "late",
      ""
     ]
    ]
@@ -124,16 +119,21 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Really? It's only ten!",
-   "ko": "진짜요? 아직 10시인데요!",
-   "note": "only = 겨우",
+   "en": "I only want the time.",
+   "ko": "시간만 알고 싶어요.",
+   "note": "only want = 그냥 알고 싶다",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Really",
-     "real",
+     "want",
+     "want",
+     ""
+    ],
+    [
+     "time",
+     "time",
      ""
     ]
    ]
@@ -141,21 +141,26 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Ten at night. Look up.",
-   "ko": "밤 10시예요. 위를 봐요.",
-   "note": "at night = 밤",
+   "en": "Dark now, last bus.",
+   "ko": "지금 어두워요, 막차예요.",
+   "note": "last bus = 막차",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "night",
-     "night",
+     "Dark",
+     "dark",
      ""
     ],
     [
-     "Look",
-     "look",
+     "last",
+     "last",
+     ""
+    ],
+    [
+     "bus",
+     "bus",
      ""
     ]
    ]
@@ -163,13 +168,18 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Oh no. It's so dark.",
-   "ko": "어떡해. 완전 깜깜하네.",
-   "note": "dark = 어두운",
+   "en": "Oh no, totally dark.",
+   "ko": "어떡해, 완전 깜깜하네.",
+   "note": "totally dark = 완전 깜깜",
    "tags": [],
    "new": [],
-   "emotion": "worried",
+   "emotion": "surprised",
    "lemmas": [
+    [
+     "totally",
+     "total",
+     ""
+    ],
     [
      "dark",
      "dark",
@@ -180,12 +190,12 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Get on. I'll wait.",
-   "ko": "타요. 기다릴게요.",
-   "note": "I'll wait = 기다릴게요",
+   "en": "Get on, I'll wait.",
+   "ko": "타요, 기다릴게요.",
+   "note": "get on = 타다",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "polite",
    "lemmas": [
     [
      "Get",

@@ -33,12 +33,12 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Morning! First day, right?",
-   "ko": "좋은 아침! 첫날이죠?",
+   "en": "Morning! First day here?",
+   "ko": "좋은 아침! 첫날이시죠?",
    "note": "first day = 첫날",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "Morning",
@@ -54,27 +54,27 @@
      "day",
      "day",
      ""
-    ],
-    [
-     "right",
-     "right",
-     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "en": "Yes. I'm ready.",
-   "ko": "네. 준비됐어요.",
-   "note": "ready = 준비된",
+   "en": "Yes, a little nervous.",
+   "ko": "네, 조금 긴장돼요.",
+   "note": "nervous = 긴장된",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "ready",
-     "ready",
+     "little",
+     "little",
+     ""
+    ],
+    [
+     "nervous",
+     "nervous",
      ""
     ]
    ]
@@ -83,11 +83,11 @@
    "num": 3,
    "speaker": "B",
    "en": "Can you grab me a coffee?",
-   "ko": "커피 하나 갖다 줄래요?",
-   "note": "grab = 갖다 주다(구어)",
+   "ko": "커피 하나 가져다줄래요?",
+   "note": "grab = 가져오다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "grab",
@@ -104,8 +104,8 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Sure. Got it.",
-   "ko": "네. 알겠어요.",
+   "en": "Sure, got it.",
+   "ko": "네, 알겠어요.",
    "note": "got it = 알겠어요",
    "tags": [],
    "new": [],
@@ -117,7 +117,7 @@
      ""
     ],
     [
-     "Got",
+     "got",
      "get",
      ""
     ]
@@ -126,9 +126,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Why are you just holding the cup?",
-   "ko": "왜 컵을 그냥 잡고 있어요?",
-   "note": "holding = 잡고 있다",
+   "en": "Why are you holding the cup?",
+   "ko": "왜 컵을 잡고만 있어요?",
+   "note": "holding = 잡고 있는",
    "tags": [],
    "new": [],
    "emotion": "surprised",
@@ -148,9 +148,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "You said \"grab.\" Say that again?",
+   "en": "You said grab. Say that again?",
    "ko": "\"그랩\"이라고 하셨잖아요. 다시 말해 주실래요?",
-   "note": "grab = 움켜잡다",
+   "note": "say that again = 다시 말해 주세요",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -175,31 +175,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Grab means bring. Bring it to me.",
-   "ko": "그랩은 갖다 달라는 뜻이에요. 나한테 줘요.",
-   "note": "bring = 가져오다",
+   "en": "Oh, I mean make one for me.",
+   "ko": "아, 저한테 하나 만들어 달라는 뜻이에요.",
+   "note": "mean = 의미하다",
    "tags": [],
    "new": [],
    "emotion": "amused",
    "lemmas": [
     [
-     "Grab",
-     "grab",
-     ""
-    ],
-    [
-     "means",
+     "mean",
      "mean",
      ""
     ],
     [
-     "bring",
-     "bring",
-     ""
-    ],
-    [
-     "Bring",
-     "bring",
+     "make",
+     "make",
      ""
     ]
    ]
@@ -207,21 +197,16 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "You got it. Now I'm bringing.",
-   "ko": "알겠습니다. 이제 갖다 드려요.",
-   "note": "you got it = 알겠습니다",
+   "en": "Okay, you got it.",
+   "ko": "알겠어요. 갖다 드릴게요.",
+   "note": "you got it = 알겠어요",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "polite",
    "lemmas": [
     [
      "got",
      "get",
-     ""
-    ],
-    [
-     "bringing",
-     "bring",
      ""
     ]
    ]

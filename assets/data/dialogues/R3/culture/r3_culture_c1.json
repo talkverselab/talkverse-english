@@ -10,11 +10,11 @@
  "domain": [
   "culture"
  ],
- "title": "야구장 키스캠",
+ "title": "Kiss Cam Slip",
  "emoji": "⚾",
- "scene": "처음 간 야구장에서 마야가 야구장 문화를 알려 주는데, 전광판 키스캠이 두 사람을 비추고 마야가 말실수를 한다",
- "where": "야구장 관중석",
- "goal": "문화 차이 묻고 받아치기",
+ "scene": "First time at a baseball game, Maya explains the culture, then the kiss cam lands on you two and she slips up",
+ "where": "Baseball stadium stands",
+ "goal": "Ask about cultural differences and respond",
  "speakers": {
   "A": "{name}",
   "B": "Maya"
@@ -32,9 +32,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Maya, why is everyone standing up?",
+   "en": "Maya, why is everyone standing up all of a sudden?",
    "ko": "마야, 왜 다들 일어나?",
-   "note": "stand up = 일어나다",
+   "note": "all of a sudden = 갑자기",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -48,32 +48,47 @@
      "standing",
      "stand",
      ""
+    ],
+    [
+     "sudden",
+     "sudden",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "en": "Seventh inning. We stretch and sing.",
-   "ko": "7회야. 다 같이 기지개 켜고 노래해.",
-   "note": "stretch = 기지개 켜다",
+   "en": "They're doing the wave or singing along to the song.",
+   "ko": "웨이브 하거나 노래 따라 부르는 거야.",
+   "note": "doing the wave = 웨이브 하다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Seventh",
-     "seventh",
+     "doing",
+     "doing",
      ""
     ],
     [
-     "stretch",
-     "stretch",
+     "wave",
+     "wave",
      ""
     ],
     [
-     "sing",
-     "sing",
+     "singing",
+     "singing",
+     ""
+    ],
+    [
+     "along",
+     "along",
+     ""
+    ],
+    [
+     "song",
+     "song",
      ""
     ]
    ]
@@ -81,16 +96,36 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Do I have to sing too?",
-   "ko": "나도 불러야 돼?",
-   "note": "have to = ~해야 하다",
+   "en": "Oh, so it's like a group thing people just join?",
+   "ko": "아, 사람들이 그냥 같이 하는 거구나?",
+   "note": "group thing = 단체로 하는 것",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "sing",
-     "sing",
+     "like",
+     "like",
+     ""
+    ],
+    [
+     "group",
+     "group",
+     ""
+    ],
+    [
+     "thing",
+     "thing",
+     ""
+    ],
+    [
+     "people",
+     "person",
+     ""
+    ],
+    [
+     "join",
+     "join",
      ""
     ]
    ]
@@ -98,9 +133,9 @@
   {
    "num": 4,
    "speaker": "B",
-   "en": "It depends. Do you know the words?",
+   "en": "It depends. Do you know the lyrics at all?",
    "ko": "그때그때 달라. 가사 알아?",
-   "note": "it depends = 상황에 따라 달라",
+   "note": "it depends = 그때그때 달라",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -116,8 +151,8 @@
      ""
     ],
     [
-     "words",
-     "word",
+     "lyrics",
+     "lyrics",
      ""
     ]
    ]
@@ -125,36 +160,31 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "Not one word. And the hot dogs are twelve dollars.",
-   "ko": "한 단어도 몰라. 게다가 핫도그가 12달러야.",
-   "note": "not one = 하나도",
+   "en": "Not really. I only know the chorus bits.",
+   "ko": "잘 몰라. 후렴구만 좀 알지.",
+   "note": "chorus bits = 후렴구",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "word",
-     "word",
+     "really",
+     "real",
      ""
     ],
     [
-     "hot",
-     "hot",
+     "know",
+     "know",
      ""
     ],
     [
-     "dogs",
-     "dog",
+     "chorus",
+     "chorus",
      ""
     ],
     [
-     "twelve",
-     "twelve",
-     ""
-    ],
-    [
-     "dollars",
-     "dollar",
+     "bits",
+     "bit",
      ""
     ]
    ]
@@ -162,12 +192,12 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Tell me about it. Baseball is expensive.",
+   "en": "Tell me about it. Baseball is expensive as hell.",
    "ko": "내 말이. 야구는 비싸.",
    "note": "tell me about it = 내 말이",
    "tags": [],
    "new": [],
-   "emotion": "annoyed",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Tell",
@@ -183,27 +213,37 @@
      "expensive",
      "expensive",
      ""
+    ],
+    [
+     "hell",
+     "hell",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "en": "Is this game always this slow?",
-   "ko": "이 경기 원래 이렇게 느려?",
-   "note": "slow = 느린",
+   "en": "Yeah, the tickets alone were kinda rough.",
+   "ko": "응, 티켓만 해도 좀 부담이었어.",
+   "note": "kinda rough = 좀 부담되다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "game",
-     "game",
+     "tickets",
+     "ticket",
      ""
     ],
     [
-     "slow",
-     "slow",
+     "alone",
+     "alone",
+     ""
+    ],
+    [
+     "rough",
+     "rough",
      ""
     ]
    ]
@@ -211,7 +251,7 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "I wouldn't say that. It's relaxing.",
+   "en": "I wouldn't say that. It's more of a chill vibe.",
    "ko": "그렇게까진 아니야. 느긋한 거지.",
    "note": "i wouldn't say that = 그렇게까진 아니야",
    "tags": [],
@@ -224,8 +264,13 @@
      ""
     ],
     [
-     "relaxing",
-     "relax",
+     "chill",
+     "chill",
+     ""
+    ],
+    [
+     "vibe",
+     "vibe",
      ""
     ]
    ]
@@ -233,26 +278,41 @@
   {
    "num": 9,
    "speaker": "A",
-   "en": "Wait, why are we on the big screen?",
-   "ko": "잠깐, 우리가 왜 전광판에 나와?",
-   "note": "big screen = 전광판",
+   "en": "Still feels like a lot of standing and waiting though.",
+   "ko": "그래도 서서 기다리는 게 많은 느낌이야.",
+   "note": "a lot of standing = 많이 서다",
    "tags": [],
    "new": [],
-   "emotion": "surprised",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Wait",
+     "feels",
+     "feel",
+     ""
+    ],
+    [
+     "like",
+     "like",
+     ""
+    ],
+    [
+     "lot",
+     "lot",
+     ""
+    ],
+    [
+     "standing",
+     "stand",
+     ""
+    ],
+    [
+     "waiting",
      "wait",
      ""
     ],
     [
-     "big",
-     "big",
-     ""
-    ],
-    [
-     "screen",
-     "screen",
+     "though",
+     "though",
      ""
     ]
    ]
@@ -260,15 +320,15 @@
   {
    "num": 10,
    "speaker": "B",
-   "en": "Kiss cam! Don't worry, we're not a couple… yet.",
+   "en": "It's the kiss cam! Don't worry, we're not a couple... yet.",
    "ko": "키스캠이야! 걱정 마, 우리 커플 아니잖아… 아직은.",
-   "note": "말실수",
+   "note": "kiss cam = 키스캠",
    "tags": [],
    "new": [],
    "emotion": "flustered",
    "lemmas": [
     [
-     "Kiss",
+     "kiss",
      "kiss",
      ""
     ],
@@ -292,12 +352,12 @@
   {
    "num": 11,
    "speaker": "A",
-   "en": "Wait. Not a couple… yet?",
-   "ko": "잠깐. 커플 아니야… 아직은?",
-   "note": "yet = 아직",
+   "en": "Wait, are they really zooming in on us right now?",
+   "ko": "잠깐, 지금 우리한테 진짜 줌 하고 있어?",
+   "note": "zooming in = 줌하다",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "surprised",
    "lemmas": [
     [
      "Wait",
@@ -305,8 +365,18 @@
      ""
     ],
     [
-     "couple",
-     "couple",
+     "really",
+     "real",
+     ""
+    ],
+    [
+     "zooming",
+     "zoom",
+     ""
+    ],
+    [
+     "right",
+     "right",
      ""
     ]
    ]
@@ -314,16 +384,31 @@
   {
    "num": 12,
    "speaker": "B",
-   "en": "I said \"not.\" Just \"not.\"",
-   "ko": "\"아니\"라고 했어. 그냥 \"아니.\"",
-   "note": "just = 그냥",
+   "en": "Yeah, just smile or something. Don't make it weird.",
+   "ko": "응, 그냥 웃거나 해. 어색하게 만들지 마.",
+   "note": "make it weird = 어색하게 만들다",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "said",
-     "say",
+     "smile",
+     "smile",
+     ""
+    ],
+    [
+     "something",
+     "something",
+     ""
+    ],
+    [
+     "make",
+     "make",
+     ""
+    ],
+    [
+     "weird",
+     "weird",
      ""
     ]
    ]
@@ -331,26 +416,26 @@
   {
    "num": 13,
    "speaker": "A",
-   "en": "The whole stadium is cheering, Maya.",
-   "ko": "마야, 경기장 전체가 환호해.",
-   "note": "cheer = 환호하다",
+   "en": "Too late, you're already turning red.",
+   "ko": "이미 늦었어, 너 얼굴 빨개지고 있잖아.",
+   "note": "turning red = 얼굴 빨개지다",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "whole",
-     "whole",
+     "late",
+     "late",
      ""
     ],
     [
-     "stadium",
-     "stadium",
+     "turning",
+     "turn",
      ""
     ],
     [
-     "cheering",
-     "cheer",
+     "red",
+     "red",
      ""
     ]
    ]
@@ -358,15 +443,20 @@
   {
    "num": 14,
    "speaker": "B",
-   "en": "Okay, okay. Hot dogs are on me. Just stop smiling.",
+   "en": "Okay, okay. I'll buy the hot dogs. Stop laughing.",
    "ko": "알았어, 알았어. 핫도그는 내가 살게. 웃지 좀 마.",
-   "note": "on me = 내가 낼게",
+   "note": "stop laughing = 웃지 마",
    "tags": [],
    "new": [],
-   "emotion": "shy",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Hot",
+     "buy",
+     "buy",
+     ""
+    ],
+    [
+     "hot",
      "hot",
      ""
     ],
@@ -376,13 +466,13 @@
      ""
     ],
     [
-     "stop",
+     "Stop",
      "stop",
      ""
     ],
     [
-     "smiling",
-     "smile",
+     "laughing",
+     "laugh",
      ""
     ]
    ]

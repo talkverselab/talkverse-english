@@ -32,14 +32,14 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Okay, cake or pizza for Maya's party?",
+   "en": "So, cake or pizza for Maya's party?",
    "ko": "자, 마야 파티에 케이크야 피자야?",
    "note": "party = 파티",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "19:02",
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "cake",
@@ -61,9 +61,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Wait. What party?",
-   "ko": "잠깐. 무슨 파티?",
-   "note": "what party = 무슨 파티",
+   "en": "Wait, what party?",
+   "ko": "잠깐, 무슨 파티?",
+   "note": "wait = 잠깐",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -85,23 +85,28 @@
   {
    "num": 3,
    "speaker": "A",
-   "en": "Oh no. Wrong chat.",
-   "ko": "헐. 방 잘못 왔다.",
-   "note": "wrong chat = 방 착각",
+   "en": "Nothing, just thinking out loud.",
+   "ko": "아무것도 아냐, 그냥 생각 중.",
+   "note": "nothing = 아무것도 아냐",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "19:03",
-   "emotion": "neutral",
+   "emotion": "flustered",
    "lemmas": [
     [
-     "Wrong",
-     "wrong",
+     "Nothing",
+     "nothing",
      ""
     ],
     [
-     "chat",
-     "chat",
+     "thinking",
+     "think",
+     ""
+    ],
+    [
+     "loud",
+     "loud",
      ""
     ]
    ]
@@ -109,14 +114,14 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Never mind! There's no party.",
+   "en": "Never mind! No party.",
    "ko": "아무것도 아냐! 파티 없어.",
-   "note": "never mind = 신경 쓰지 마",
+   "note": "never mind = 아무것도 아냐",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "19:04",
-   "emotion": "neutral",
+   "emotion": "flustered",
    "lemmas": [
     [
      "mind",
@@ -133,9 +138,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Friday? Because I'm free Friday.",
-   "ko": "금요일? 나 금요일 비거든.",
-   "note": "free = 시간 되는",
+   "en": "You just said my name.",
+   "ko": "방금 내 이름 말했잖아.",
+   "note": "name = 이름",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -143,18 +148,13 @@
    "emotion": "teasing",
    "lemmas": [
     [
-     "Friday",
-     "friday",
+     "said",
+     "say",
      ""
     ],
     [
-     "free",
-     "free",
-     ""
-    ],
-    [
-     "Friday",
-     "friday",
+     "name",
+     "name",
      ""
     ]
    ]
@@ -162,14 +162,14 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Guess what. I'm terrible at secrets.",
+   "en": "Guess what. I can't keep secrets.",
    "ko": "있잖아. 나 비밀 진짜 못 지켜.",
    "note": "guess what = 있잖아",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "19:05",
-   "emotion": "shy",
+   "emotion": "amused",
    "lemmas": [
     [
      "Guess",
@@ -177,8 +177,8 @@
      ""
     ],
     [
-     "terrible",
-     "terrible",
+     "keep",
+     "keep",
      ""
     ],
     [
@@ -191,14 +191,14 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Pizza. Obviously. And I'm down for 8.",
+   "en": "Pizza. Obviously. I'm down for eight.",
    "ko": "피자. 당연하지. 8시 좋아.",
-   "note": "I'm down = 나 콜",
+   "note": "i'm down = 좋아",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "19:05",
-   "emotion": "excited",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Pizza",
@@ -215,9 +215,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Act surprised, okay?",
-   "ko": "놀란 척해, 알았지?",
-   "note": "act surprised = 놀란 척하다",
+   "en": "Sorry I ruined the surprise.",
+   "ko": "깜짝 파티 망쳐서 미안해.",
+   "note": "surprise = 깜짝",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -225,12 +225,17 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "Act",
-     "act",
+     "Sorry",
+     "sorry",
      ""
     ],
     [
-     "surprised",
+     "ruined",
+     "ruin",
+     ""
+    ],
+    [
+     "surprise",
      "surprise",
      ""
     ]
@@ -239,24 +244,23 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "I literally do podcasts. I can act.",
+   "en": "I'm a podcast person. I can act.",
    "ko": "나 팟캐스트 하는 사람이야. 연기 돼.",
-   "note": "literally = 진짜로",
+   "note": "act = 연기하다",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "19:06",
    "emotion": "amused",
-   "stamp": "😎",
    "lemmas": [
     [
-     "literally",
-     "literally",
+     "podcast",
+     "podcast",
      ""
     ],
     [
-     "podcasts",
-     "podcast",
+     "person",
+     "person",
      ""
     ],
     [

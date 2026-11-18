@@ -33,21 +33,16 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Excuse me. I think our dogs are friends now.",
+   "en": "Excuse me. Our dogs are friends now.",
    "ko": "저기요. 우리 개들 이제 친구 된 것 같아요.",
    "note": "excuse me = 저기요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "Excuse",
      "excuse",
-     ""
-    ],
-    [
-     "think",
-     "think",
      ""
     ],
     [
@@ -67,10 +62,10 @@
    "speaker": "A",
    "en": "Maybe too friendly. Look at the leashes.",
    "ko": "너무 친해진 것 같은데요. 줄 좀 봐요.",
-   "note": "maybe = 아마",
+   "note": "maybe = 것 같다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
      "Maybe",
@@ -97,31 +92,21 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Okay, you go left. I go right.",
-   "ko": "좋아요, 그쪽은 왼쪽으로. 난 오른쪽.",
-   "note": "go left = 왼쪽으로 가다",
+   "en": "Yeah, totally tangled.",
+   "ko": "응, 완전 엉켰네.",
+   "note": "totally tangled = 완전 엉키다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "go",
-     "go",
+     "totally",
+     "total",
      ""
     ],
     [
-     "left",
-     "leave",
-     ""
-    ],
-    [
-     "go",
-     "go",
-     ""
-    ],
-    [
-     "right",
-     "right",
+     "tangled",
+     "tangled",
      ""
     ]
    ]
@@ -129,16 +114,16 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Now it's worse.",
-   "ko": "이제 더 심해졌어요.",
-   "note": "worse = 더 나쁜",
+   "en": "I'll hold yours.",
+   "ko": "내가 당신 거 잡을게요.",
+   "note": "hold yours = 당신 거 잡다",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "worse",
-     "bad",
+     "hold",
+     "hold",
      ""
     ]
    ]
@@ -146,21 +131,28 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Hold still. Let me do it.",
-   "ko": "가만있어요. 내가 할게요.",
-   "note": "hold still = 가만있다",
-   "tags": [],
+   "en": "Thanks. They're so cute together.",
+   "ko": "고마워. 같이 있으니까 너무 귀여워.",
+   "note": "so cute = 너무 귀여워",
+   "tags": [
+    "heart"
+   ],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Hold",
-     "hold",
+     "Thanks",
+     "thank",
      ""
     ],
     [
-     "Let",
-     "let",
+     "cute",
+     "cute",
+     ""
+    ],
+    [
+     "together",
+     "together",
      ""
     ]
    ]
@@ -170,7 +162,7 @@
    "speaker": "B",
    "en": "I guess I walk here every day. Just saying.",
    "ko": "난 매일 여기 걷는 것 같아요. 그냥 하는 말이에요.",
-   "note": "I guess = ~인 것 같아요",
+   "note": "i guess = 것 같다",
    "tags": [
     "heart"
    ],
@@ -202,9 +194,9 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "Are you sure this was an accident?",
+   "en": "Are you sure this is an accident?",
    "ko": "이거 사고 맞아요?",
-   "note": "are you sure = 확실해요?",
+   "note": "are you sure = 맞아요",
    "tags": [],
    "new": [],
    "emotion": "teasing",
@@ -224,15 +216,15 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "My dog did it. Not me. Maybe.",
+   "en": "Our dogs did it. Not me. Maybe.",
    "ko": "우리 개가 한 거예요. 난 아니고. 아마도.",
-   "note": "maybe = 아마도",
+   "note": "our dogs = 우리 개",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "teasing",
    "lemmas": [
     [
-     "dog",
+     "dogs",
      "dog",
      ""
     ],

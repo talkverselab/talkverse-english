@@ -33,14 +33,14 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Camping this weekend? The lake spot, two nights.",
+   "en": "Camping this weekend? That lake spot, two nights.",
    "ko": "이번 주말 캠핑? 호수 거기, 2박.",
-   "note": "spot = 장소",
+   "note": "camping = 캠핑",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:01",
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Camping",
@@ -74,7 +74,7 @@
    "speaker": "A",
    "en": "I'm in. I'll bring the tent.",
    "ko": "나 낄래. 텐트 가져갈게.",
-   "note": "i'm in = 나도 낄래",
+   "note": "i'm in = 나 낄래",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -98,12 +98,12 @@
    "speaker": "B",
    "en": "Literally the best. Who's driving?",
    "ko": "완전 최고. 운전은 누가 해?",
-   "note": "literally = 완전, 진짜",
+   "note": "literally = 완전",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:02",
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Literally",
@@ -125,33 +125,28 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Not me. I get lost in parking lots.",
-   "ko": "난 아냐. 나 주차장에서도 길 잃어.",
-   "note": "get lost = 길을 잃다",
+   "en": "I can drive if we leave early.",
+   "ko": "일찍 출발하면 내가 운전할 수 있어.",
+   "note": "drive = 운전하다",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:03",
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "get",
-     "get",
+     "drive",
+     "drive",
      ""
     ],
     [
-     "lost",
-     "lose",
+     "leave",
+     "leave",
      ""
     ],
     [
-     "parking",
-     "park",
-     ""
-    ],
-    [
-     "lots",
-     "lot",
+     "early",
+     "early",
      ""
     ]
    ]
@@ -159,9 +154,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Fine, I'll drive. You do snacks.",
-   "ko": "알았어, 내가 운전할게. 넌 간식 담당.",
-   "note": "do snacks = 간식 맡다",
+   "en": "Perfect. Food ideas?",
+   "ko": "완벽. 음식 아이디어?",
+   "note": "food = 음식",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -169,18 +164,18 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "Fine",
-     "fine",
+     "Perfect",
+     "perfect",
      ""
     ],
     [
-     "drive",
-     "drive",
+     "Food",
+     "food",
      ""
     ],
     [
-     "snacks",
-     "snack",
+     "ideas",
+     "idea",
      ""
     ]
    ]
@@ -188,9 +183,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Deal. Should we bring bug spray?",
-   "ko": "콜. 모기 스프레이 가져갈까?",
-   "note": "deal = 좋아, 콜",
+   "en": "Burgers and stuff. Easy.",
+   "ko": "버거랑 그런 거. 쉽게.",
+   "note": "burgers = 버거",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -198,23 +193,18 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "Deal",
-     "deal",
+     "Burgers",
+     "burger",
      ""
     ],
     [
-     "bring",
-     "bring",
+     "stuff",
+     "stuff",
      ""
     ],
     [
-     "bug",
-     "bug",
-     ""
-    ],
-    [
-     "spray",
-     "spray",
+     "Easy",
+     "easy",
      ""
     ]
    ]
@@ -222,9 +212,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Nah. We're tough. Just bring marshmallows.",
-   "ko": "됐어. 우리 강하잖아. 마시멜로나 가져와.",
-   "note": "tough = 강한",
+   "en": "Cool. Anyone else coming?",
+   "ko": "좋아. 다른 사람 올 사람?",
+   "note": "coming = 오다",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -232,23 +222,23 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "Nah",
-     "nah",
+     "Cool",
+     "cool",
      ""
     ],
     [
-     "tough",
-     "tough",
+     "Anyone",
+     "anyone",
      ""
     ],
     [
-     "bring",
-     "bring",
+     "else",
+     "else",
      ""
     ],
     [
-     "marshmallows",
-     "marshmallow",
+     "coming",
+     "come",
      ""
     ]
    ]
@@ -256,9 +246,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Marshmallows, chips, and… what else?",
-   "ko": "마시멜로, 과자, 그리고… 또 뭐?",
-   "note": "what else = 또 뭐",
+   "en": "Just us three maybe.",
+   "ko": "우리 셋만 해도 될 듯.",
+   "note": "three = 셋",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -266,18 +256,8 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "Marshmallows",
-     "marshmallow",
-     ""
-    ],
-    [
-     "chips",
-     "chip",
-     ""
-    ],
-    [
-     "else",
-     "else",
+     "maybe",
+     "maybe",
      ""
     ]
    ]
@@ -285,9 +265,9 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "Don't tell my mom. She'll worry.",
-   "ko": "우리 엄마한테는 말하지 마. 걱정하셔.",
-   "note": "worry = 걱정하다",
+   "en": "Yeah, keep it small.",
+   "ko": "응, 작게 가자.",
+   "note": "small = 작은",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -295,18 +275,13 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "tell",
-     "tell",
+     "keep",
+     "keep",
      ""
     ],
     [
-     "mom",
-     "mom",
-     ""
-    ],
-    [
-     "worry",
-     "worry",
+     "small",
+     "small",
      ""
     ]
    ]
@@ -314,19 +289,18 @@
   {
    "num": 10,
    "speaker": "C",
-   "en": "Bug spray. Rain jackets. And text me when you get there, sweetie.",
+   "en": "Mosquito spray. Rain jackets. And text when you arrive, my daughter.",
    "ko": "모기 스프레이. 우비. 그리고 도착하면 문자해, 우리 딸.",
-   "note": "엄마가 이 방에 있다",
+   "note": "spray = 스프레이",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:07",
-   "emotion": "gentle",
-   "stamp": "⛺",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Bug",
-     "bug",
+     "Mosquito",
+     "mosquito",
      ""
     ],
     [
@@ -350,13 +324,13 @@
      ""
     ],
     [
-     "get",
-     "get",
+     "arrive",
+     "arrive",
      ""
     ],
     [
-     "sweetie",
-     "sweetie",
+     "daughter",
+     "daughter",
      ""
     ]
    ]
@@ -371,7 +345,7 @@
    "new": [],
    "ui": "bubble",
    "at": "20:07",
-   "emotion": "shout",
+   "emotion": "surprised",
    "lemmas": [
     [
      "way",
@@ -393,14 +367,14 @@
   {
    "num": 12,
    "speaker": "C",
-   "en": "You added me last week. For the cake order.",
-   "ko": "네가 지난주에 초대했잖아. 케이크 주문 때문에.",
-   "note": "add = 추가하다",
+   "en": "You added me last year for the trip.",
+   "ko": "작년에 여행 때 날 추가했잖아.",
+   "note": "added = 추가하다",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:08",
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
      "added",
@@ -413,18 +387,13 @@
      ""
     ],
     [
-     "week",
-     "week",
+     "year",
+     "year",
      ""
     ],
     [
-     "cake",
-     "cake",
-     ""
-    ],
-    [
-     "order",
-     "order",
+     "trip",
+     "trip",
      ""
     ]
    ]
@@ -432,28 +401,23 @@
   {
    "num": 13,
    "speaker": "A",
-   "en": "So… is your mom coming camping too?",
-   "ko": "그럼… 너희 엄마도 캠핑 가셔?",
-   "note": "too = ~도",
+   "en": "Wait, your mom is here?",
+   "ko": "잠깐, 엄마가 여기 있어?",
+   "note": "mom = 엄마",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "20:08",
-   "emotion": "amused",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "mom",
-     "mom",
+     "Wait",
+     "wait",
      ""
     ],
     [
-     "coming",
-     "come",
-     ""
-    ],
-    [
-     "camping",
-     "camp",
+     "mom",
+     "mom",
      ""
     ]
    ]
@@ -461,9 +425,9 @@
   {
    "num": 14,
    "speaker": "C",
-   "en": "I already packed. I'm bringing soup for everyone.",
+   "en": "Already packed. I'll bring soup for everyone.",
    "ko": "벌써 짐 쌌어. 다 같이 먹을 수프 가져갈게.",
-   "note": "pack = 짐을 싸다",
+   "note": "packed = 싸다",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -476,7 +440,7 @@
      ""
     ],
     [
-     "bringing",
+     "bring",
      "bring",
      ""
     ],

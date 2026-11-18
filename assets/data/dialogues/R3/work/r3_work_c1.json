@@ -10,11 +10,11 @@
  "domain": [
   "work"
  ],
- "title": "송별 카드에 쓴 한마디",
+ "title": "The Farewell Card",
  "emoji": "💌",
- "scene": "떠나는 동료 톰의 송별 카드를 돌려 쓰는데, 학습자가 \"드디어!\"라고 써 버리고 팀장 마야가 수습한다",
- "where": "사무실 휴게실",
- "goal": "격식 있는 인사말 쓰기·실수 수습하기",
+ "scene": "Passing around Tom's farewell card, you write \"Finally!\" and team lead Maya has to fix it",
+ "where": "Office break room",
+ "goal": "Write a formal greeting and fix a mistake",
  "speakers": {
   "A": "{name}",
   "B": "Maya"
@@ -32,16 +32,21 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Hey, can you sign Tom's farewell card? It's due by three.",
+   "en": "Hey, can you add a line to Tom's farewell card? It's due by 3.",
    "ko": "저기요, 톰 송별 카드에 한마디 써 줄래요? 3시까지예요.",
-   "note": "farewell card = 송별 카드",
+   "note": "add a line = 한마디 쓰다",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "sign",
-     "sign",
+     "add",
+     "add",
+     ""
+    ],
+    [
+     "line",
+     "line",
      ""
     ],
     [
@@ -69,12 +74,12 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Sure. What do people usually write?",
-   "ko": "그럼요. 보통 뭐라고 써요?",
-   "note": "usually = 보통",
+   "en": "Sure, I can do that right now.",
+   "ko": "네, 지금 바로 할게요.",
+   "note": "right now = 지금 바로",
    "tags": [],
    "new": [],
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "Sure",
@@ -82,18 +87,8 @@
      ""
     ],
     [
-     "people",
-     "person",
-     ""
-    ],
-    [
-     "usually",
-     "usual",
-     ""
-    ],
-    [
-     "write",
-     "write",
+     "right",
+     "right",
      ""
     ]
    ]
@@ -101,36 +96,31 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Something short. \"Good luck,\" \"We'll miss you.\"",
-   "ko": "짧게요. \"행운을 빌어요\", \"보고 싶을 거예요.\"",
-   "note": "miss = 그리워하다",
+   "en": "Just something nice. He's been on the team for years.",
+   "ko": "그냥 좋은 말로. 팀에서 오래 있었잖아요.",
+   "note": "for years = 오래",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Something",
+     "something",
      "something",
      ""
     ],
     [
-     "short",
-     "short",
+     "nice",
+     "nice",
      ""
     ],
     [
-     "Good",
-     "better",
+     "team",
+     "team",
      ""
     ],
     [
-     "luck",
-     "luck",
-     ""
-    ],
-    [
-     "miss",
-     "miss",
+     "years",
+     "year",
      ""
     ]
    ]
@@ -165,12 +155,12 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "That's fine. Keep it simple.",
-   "ko": "괜찮아요. 간단하게 써요.",
-   "note": "keep it simple = 간단하게",
+   "en": "That's fine, just keep it short and positive.",
+   "ko": "괜찮아요, 그냥 짧고 긍정적으로만 해주세요.",
+   "note": "keep it short = 짧게 하다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "fine",
@@ -178,13 +168,18 @@
      ""
     ],
     [
-     "Keep",
+     "keep",
      "keep",
      ""
     ],
     [
-     "simple",
-     "simple",
+     "short",
+     "short",
+     ""
+    ],
+    [
+     "positive",
+     "positive",
      ""
     ]
    ]
@@ -192,9 +187,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Okay… \"Finally! Good luck, Tom.\"",
+   "en": "Okay... \"Finally! Good luck, Tom.\"",
    "ko": "좋아요… \"드디어! 행운을 빌어요, 톰.\"",
-   "note": "「드디어!」 말실수",
+   "note": "finally = 드디어",
    "tags": [],
    "new": [],
    "emotion": "neutral",
@@ -224,26 +219,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Finally? You wrote \"finally\"?",
-   "ko": "드디어요? \"드디어\"라고 썼어요?",
-   "note": "finally = 드디어",
+   "en": "Oh no, that might come off wrong.",
+   "ko": "아 안 돼, 그게 잘못 들릴 수 있어요.",
+   "note": "come off wrong = 잘못 들리다",
    "tags": [],
    "new": [],
    "emotion": "surprised",
    "lemmas": [
     [
-     "Finally",
-     "final",
+     "come",
+     "come",
      ""
     ],
     [
-     "wrote",
-     "write",
-     ""
-    ],
-    [
-     "finally",
-     "final",
+     "wrong",
+     "wrong",
      ""
     ]
    ]
@@ -251,36 +241,21 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "I meant \"finally retiring.\" Like, congrats!",
-   "ko": "\"드디어 은퇴\"라는 뜻이었어요. 축하한다는!",
-   "note": "i meant = ~라는 뜻이었다",
+   "en": "Is it really that bad?",
+   "ko": "진짜 그렇게 안 좋아요?",
+   "note": "that bad = 그렇게 안 좋다",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "meant",
-     "mean",
+     "really",
+     "real",
      ""
     ],
     [
-     "finally",
-     "final",
-     ""
-    ],
-    [
-     "retiring",
-     "retire",
-     ""
-    ],
-    [
-     "Like",
-     "like",
-     ""
-    ],
-    [
-     "congrats",
-     "congrats",
+     "bad",
+     "worse",
      ""
     ]
    ]
@@ -288,31 +263,31 @@
   {
    "num": 9,
    "speaker": "B",
-   "en": "He's not retiring. He's moving to our biggest competitor.",
-   "ko": "은퇴 아니에요. 제일 큰 경쟁사로 옮기는 거예요.",
-   "note": "competitor = 경쟁사",
+   "en": "Yeah, people might read it the wrong way.",
+   "ko": "네, 사람들이 잘못 해석할 수 있어요.",
+   "note": "the wrong way = 잘못",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "retiring",
-     "retire",
+     "people",
+     "person",
      ""
     ],
     [
-     "moving",
-     "move",
+     "read",
+     "read",
      ""
     ],
     [
-     "biggest",
-     "biggest",
+     "wrong",
+     "wrong",
      ""
     ],
     [
-     "competitor",
-     "competitor",
+     "way",
+     "way",
      ""
     ]
    ]
@@ -320,12 +295,12 @@
   {
    "num": 10,
    "speaker": "A",
-   "en": "Oh no. My bad. Can I fix it?",
+   "en": "My bad. Can I fix it?",
    "ko": "이런. 제 실수예요. 고칠 수 있어요?",
-   "note": "my bad = 내 실수",
+   "note": "my bad = 제 실수예요",
    "tags": [],
    "new": [],
-   "emotion": "worried",
+   "emotion": "flustered",
    "lemmas": [
     [
      "bad",
@@ -342,13 +317,18 @@
   {
    "num": 11,
    "speaker": "B",
-   "en": "It's in pen. That being said…",
+   "en": "It's written in pen. That being said...",
    "ko": "펜으로 썼잖아요. 그렇긴 한데…",
-   "note": "that being said = 그렇긴 해도",
+   "note": "that being said = 그렇긴 한데",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
+    [
+     "written",
+     "write",
+     ""
+    ],
     [
      "pen",
      "pen",
@@ -364,31 +344,31 @@
   {
    "num": 12,
    "speaker": "B",
-   "en": "Add \"…we'll be watching you.\" Now it sounds tough.",
-   "ko": "\"…지켜보겠습니다\"를 붙여요. 그럼 세 보여요.",
-   "note": "tough = 강한",
+   "en": "We could cover it with a little sticker or something.",
+   "ko": "작은 스티커로 가릴 수도 있을 것 같아요.",
+   "note": "cover it = 가리다",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Add",
-     "add",
+     "cover",
+     "cover",
      ""
     ],
     [
-     "watching",
-     "watch",
+     "little",
+     "little",
      ""
     ],
     [
-     "sounds",
-     "sound",
+     "sticker",
+     "stick",
      ""
     ],
     [
-     "tough",
-     "tough",
+     "something",
+     "something",
      ""
     ]
    ]
@@ -396,26 +376,31 @@
   {
    "num": 13,
    "speaker": "A",
-   "en": "\"Finally! We'll be watching you.\" That's scary.",
-   "ko": "\"드디어! 지켜보겠습니다.\" 그거 무서운데요.",
-   "note": "scary = 무서운",
+   "en": "I'll go grab one from the supply closet.",
+   "ko": "비품실에서 하나 가져올게요.",
+   "note": "supply closet = 비품실",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "neutral",
    "lemmas": [
     [
-     "Finally",
-     "final",
+     "go",
+     "go",
      ""
     ],
     [
-     "watching",
-     "watch",
+     "grab",
+     "grab",
      ""
     ],
     [
-     "scary",
-     "scary",
+     "supply",
+     "supply",
+     ""
+    ],
+    [
+     "closet",
+     "closet",
      ""
     ]
    ]
@@ -423,16 +408,21 @@
   {
    "num": 14,
    "speaker": "B",
-   "en": "Perfect. He'll frame it.",
+   "en": "Perfect. He's going to frame this.",
    "ko": "완벽해요. 액자에 넣으실 거예요.",
-   "note": "frame = 액자에 넣다",
+   "note": "frame this = 액자에 넣다",
    "tags": [],
    "new": [],
-   "emotion": "cheerful",
+   "emotion": "polite",
    "lemmas": [
     [
      "Perfect",
      "perfect",
+     ""
+    ],
+    [
+     "going",
+     "going",
      ""
     ],
     [

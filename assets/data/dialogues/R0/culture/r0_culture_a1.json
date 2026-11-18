@@ -31,9 +31,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "en": "Bless you.",
-   "ko": "블레스 유. (몸조심하세요.)",
-   "note": "bless you = 재채기 뒤 인사",
+   "en": "Bless you. Take care.",
+   "ko": "블레스 유. 몸조심하세요.",
+   "note": "Bless you = 재채기 인사",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -42,19 +42,34 @@
      "Bless",
      "bless",
      ""
+    ],
+    [
+     "Take",
+     "take",
+     ""
+    ],
+    [
+     "care",
+     "care",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "en": "Oh. Sorry?",
-   "ko": "아. 네?",
-   "note": "sorry? = 네? 뭐라고요?",
+   "en": "Oh, thank you. Sorry.",
+   "ko": "아, 고마워요. 죄송해요.",
+   "note": "thank you = 고맙다",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
+    [
+     "thank",
+     "thank",
+     ""
+    ],
     [
      "Sorry",
      "sorry",
@@ -65,21 +80,21 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "You say \"thank you.\"",
-   "ko": "\"땡큐\" 하면 돼요.",
-   "note": "you say ~ = ~라고 하면 돼요",
+   "en": "It's fine. You good?",
+   "ko": "괜찮아요. 괜찮으세요?",
+   "note": "You good = 괜찮니",
    "tags": [],
    "new": [],
    "emotion": "neutral",
    "lemmas": [
     [
-     "say",
-     "say",
+     "fine",
+     "fine",
      ""
     ],
     [
-     "thank",
-     "thank",
+     "good",
+     "better",
      ""
     ]
    ]
@@ -87,16 +102,16 @@
   {
    "num": 4,
    "speaker": "A",
-   "en": "Thank you.",
-   "ko": "고마워요.",
-   "note": "thank you = 고마워요",
+   "en": "Yes, I am fine.",
+   "ko": "네, 괜찮아요.",
+   "note": "I am fine = 괜찮아",
    "tags": [],
    "new": [],
    "emotion": "polite",
    "lemmas": [
     [
-     "Thank",
-     "thank",
+     "fine",
+     "fine",
      ""
     ]
    ]
@@ -104,21 +119,21 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Now the whole train says it!",
+   "en": "Whole car says it now!",
    "ko": "이제 칸 전체가 다 해요!",
-   "note": "whole = 전체",
+   "note": "whole car = 칸 전체",
    "tags": [],
    "new": [],
-   "emotion": "amused",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "whole",
+     "Whole",
      "whole",
      ""
     ],
     [
-     "train",
-     "train",
+     "car",
+     "car",
      ""
     ],
     [
@@ -131,12 +146,12 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "No way. Thank you, thank you!",
-   "ko": "말도 안 돼. 고마워요, 고마워요!",
+   "en": "No way. Thanks so much!",
+   "ko": "말도 안 돼. 정말 고마워요!",
    "note": "no way = 말도 안 돼",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "lemmas": [
     [
      "way",
@@ -144,12 +159,7 @@
      ""
     ],
     [
-     "Thank",
-     "thank",
-     ""
-    ],
-    [
-     "thank",
+     "Thanks",
      "thank",
      ""
     ]
@@ -158,15 +168,15 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "It's okay. Just don't sneeze again.",
-   "ko": "괜찮아요. 또 재채기만 하지 마요.",
-   "note": "again = 또",
+   "en": "It's okay. No more sneezes.",
+   "ko": "괜찮아요. 재채기 그만 하세요.",
+   "note": "it's okay = 괜찮다",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "polite",
    "lemmas": [
     [
-     "sneeze",
+     "sneezes",
      "sneeze",
      ""
     ]

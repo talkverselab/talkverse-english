@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "en": "Excuse me. Is anyone sitting here?",
-   "ko": "저기요. 여기 누구 앉아요?",
-   "note": "is anyone ~? = 누구 ~해요?",
+   "en": "Excuse me. Is this seat free?",
+   "ko": "저기요. 이 자리 비었나요?",
+   "note": "excuse me = 저기요",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -46,13 +46,13 @@
      ""
     ],
     [
-     "anyone",
-     "anyone",
+     "seat",
+     "seat",
      ""
     ],
     [
-     "sitting",
-     "sit",
+     "free",
+     "free",
      ""
     ]
    ]
@@ -60,31 +60,21 @@
   {
    "num": 2,
    "speaker": "B",
-   "en": "Kind of. Go ahead, though.",
-   "ko": "뭐 그런 편이죠. 그래도 앉아요.",
-   "note": "go ahead = 그렇게 해요",
+   "en": "Yes, go ahead.",
+   "ko": "네, 앉으세요.",
+   "note": "go ahead = 하세요",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
-     "Kind",
-     "kind",
-     ""
-    ],
-    [
-     "Go",
+     "go",
      "go",
      ""
     ],
     [
      "ahead",
      "ahead",
-     ""
-    ],
-    [
-     "though",
-     "though",
      ""
     ]
    ]
@@ -121,7 +111,7 @@
    "speaker": "B",
    "en": "Nice to meet you, {name}. Ready for class?",
    "ko": "반가워요, {name}. 수업 준비됐어요?",
-   "note": "ready for ~ = ~ 준비된",
+   "note": "ready = 준비된",
    "tags": [],
    "new": [],
    "emotion": "polite",
@@ -151,7 +141,7 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "Okay. Then can you teach today?",
+   "en": "Great. Can you teach today's class?",
    "ko": "좋아요. 그럼 오늘 수업 해 줄래요?",
    "note": "teach = 가르치다",
    "tags": [],
@@ -159,13 +149,23 @@
    "emotion": "teasing",
    "lemmas": [
     [
+     "Great",
+     "great",
+     ""
+    ],
+    [
      "teach",
      "teach",
      ""
     ],
     [
+     "today's",
      "today",
-     "today",
+     ""
+    ],
+    [
+     "class",
+     "class",
      ""
     ]
    ]
@@ -173,12 +173,12 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "Wait. Is this your chair?",
-   "ko": "잠깐. 이게 선생님 자리예요?",
-   "note": "your chair = 당신 의자",
+   "en": "Wait, is this your seat?",
+   "ko": "잠깐, 여기 선생님 자리예요?",
+   "note": "seat = 자리",
    "tags": [],
    "new": [],
-   "emotion": "neutral",
+   "emotion": "surprised",
    "lemmas": [
     [
      "Wait",
@@ -186,8 +186,8 @@
      ""
     ],
     [
-     "chair",
-     "chair",
+     "seat",
+     "seat",
      ""
     ]
    ]
@@ -197,7 +197,7 @@
    "speaker": "A",
    "en": "I'm sorry! I'll move.",
    "ko": "죄송해요! 비킬게요.",
-   "note": "I'm sorry = 죄송해요",
+   "note": "i'm sorry = 죄송해요",
    "tags": [],
    "new": [],
    "emotion": "flustered",
@@ -222,7 +222,7 @@
    "note": "no worries = 괜찮아요",
    "tags": [],
    "new": [],
-   "emotion": "gentle",
+   "emotion": "amused",
    "lemmas": [
     [
      "worries",

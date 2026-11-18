@@ -36,11 +36,6 @@
    "note": "",
    "tags": [],
    "new": [],
-   "gram": {
-    "u": [],
-    "red": [],
-    "note": "discuss 는 타동사 — about 없이 discuss the schedule"
-   },
    "emotion": "polite",
    "lemmas": [
     [
@@ -73,19 +68,19 @@
   {
    "num": 2,
    "speaker": "A",
-   "en": "Discuss the schedule, Tom. No \"about\" needed.",
+   "en": "Discuss the schedule, Tom. About is not needed.",
    "ko": "discuss the schedule 이에요, 톰. about 은 필요 없어요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "Discuss the schedule"
+     "Discuss the schedule, Tom. About is not needed."
     ],
     "red": [
      "Discuss"
     ],
-    "note": "타동사 + 목적어"
+    "note": " Discuss: 타동사, 전치사 없이 바로 목적어"
    },
    "emotion": "neutral",
    "lemmas": [
@@ -114,22 +109,27 @@
   {
    "num": 3,
    "speaker": "B",
-   "en": "Noted. I'll attend the meeting in person tomorrow.",
+   "en": "Got it. I'll attend the meeting in person tomorrow.",
    "ko": "알겠어요. 내일 회의에 직접 참석할게요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "attend the meeting"
+     "Got it. I'll attend the meeting in person tomorrow."
     ],
     "red": [
      "attend"
     ],
-    "note": "attend 도 타동사(attend to 아님)"
+    "note": " attend: 타동사, 전치사 없이 목적어"
    },
    "emotion": "polite",
    "lemmas": [
+    [
+     "Got",
+     "get",
+     ""
+    ],
     [
      "attend",
      "attend",
@@ -162,14 +162,14 @@
    "new": [],
    "gram": {
     "u": [
-     "arrive at"
+     "Please arrive at the conference room by nine."
     ],
     "red": [
      "arrive at"
     ],
-    "note": "arrive 는 자동사 — arrive at"
+    "note": " arrive at: 자동사, at 전치사 필요"
    },
-   "emotion": "neutral",
+   "emotion": "polite",
    "lemmas": [
     [
      "Please",
@@ -196,21 +196,21 @@
   {
    "num": 5,
    "speaker": "B",
-   "en": "I always respond to meeting invitations promptly.",
+   "en": "I always respond to meeting invites quickly.",
    "ko": "저는 회의 초대에 항상 신속하게 답해요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
     "u": [
-     "respond to"
+     "I always respond to meeting invites quickly."
     ],
     "red": [
      "respond to"
     ],
-    "note": "respond to = 자동사 + 전치사"
+    "note": " respond to: 자동사, to 전치사 필요"
    },
-   "emotion": "polite",
+   "emotion": "neutral",
    "lemmas": [
     [
      "respond",
@@ -223,13 +223,13 @@
      ""
     ],
     [
-     "invitations",
-     "invitation",
+     "invites",
+     "invite",
      ""
     ],
     [
-     "promptly",
-     "prompt",
+     "quickly",
+     "quick",
      ""
     ]
    ]
@@ -237,36 +237,31 @@
   {
    "num": 6,
    "speaker": "A",
-   "en": "You responded to the last one three weeks after the meeting.",
-   "ko": "지난번 초대엔 회의 끝나고 3주 뒤에 답하셨죠.",
-   "note": "돌직구",
+   "en": "Perfect. We'll have the updated terms ready.",
+   "ko": "완벽해요. 수정된 조건 준비해 둘게요.",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "tsukkomi",
+   "emotion": "polite",
    "lemmas": [
     [
-     "responded",
-     "respond",
+     "Perfect",
+     "perfect",
      ""
     ],
     [
-     "last",
-     "last",
+     "updated",
+     "update",
      ""
     ],
     [
-     "weeks",
-     "week",
+     "terms",
+     "term",
      ""
     ],
     [
-     "after",
-     "after",
-     ""
-    ],
-    [
-     "meeting",
-     "meet",
+     "ready",
+     "ready",
      ""
     ]
    ]
@@ -274,21 +269,19 @@
   {
    "num": 7,
    "speaker": "B",
-   "en": "Just kidding. I'll contact you as soon as I arrive.",
+   "en": "just kidding I'll contact you as soon as I arrive.",
    "ko": "농담이에요. 도착하는 대로 연락드릴게요.",
    "note": "",
    "tags": [],
    "new": [],
    "gram": {
-    "u": [
-     "contact you"
-    ],
+    "u": [],
     "red": [
      "contact"
     ],
-    "note": "contact 도 타동사(contact to 아님)"
+    "note": " contact: 타동사, 전치사 없이 목적어"
    },
-   "emotion": "flustered",
+   "emotion": "amused",
    "lemmas": [
     [
      "kidding",
@@ -315,9 +308,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "en": "Of course. Contact me, not \"contact to me.\"",
+   "en": "of course It's contact me, not \"contact to me.\"",
    "ko": "물론이죠. contact me 지, \"contact to me\" 아니고요.",
-   "note": "끝까지 교정",
+   "note": "",
    "tags": [],
    "new": [],
    "emotion": "teasing",
@@ -328,7 +321,7 @@
      ""
     ],
     [
-     "Contact",
+     "contact",
      "contact",
      ""
     ],

@@ -1,0 +1,23 @@
+=== t1_office_g15
+title: 자동사는 목적어를 안 받아요
+emoji: 📞
+scene: Tom 이 전화로 「discuss about」을 쓰자 A 가 타동사·자동사로 받아친다. 결국 둘 다 틀린다
+where: 전화
+goal: 동사의 종류 — 타동사(discuss·attend)는 전치사 없이, 자동사(arrive·respond)는 전치사와
+grammar: 동사의 종류|discuss, attend, reach, contact 는 바로 목적어(전치사 금지). arrive at, respond to, participate in 은 전치사가 필요하다.
+check: We will _____ the delivery schedule at tomorrow's meeting. | discuss about | discuss | discussing | discussion | B
+kind: short
+register: polite
+B: Tom
+twist: 7 slip
+expr: just kidding | of course
+level: 토익 Part 3·4 중급 비즈니스 회화 · 한 줄 영어 1~15 낱말 · 한 낱말 대답 금지(반전·마지막 줄 빼고)
+--
+B | ____ | 흐름: 수정된 배송 일정에 대해 논의합시다.
+A | ____ | 흐름: discuss the schedule 이에요, 톰. about 은 필요 없어요. · 문법 줄: Discuss 를 *Discuss* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: 알겠어요. 내일 회의에 직접 참석할게요. · 문법 줄: attend 를 *attend* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+A | ____ | 흐름: 9시까지 회의실에 도착해 주세요. · 문법 줄: arrive at 를 *arrive at* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+B | ____ | 흐름: 저는 회의 초대에 항상 신속하게 답해요. · 문법 줄: respond to 를 *respond to* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작
+A | ____ | 흐름: (자유 — 장면·앞뒤 줄에 맞게 네가 정한다)
+B | ____ | 흐름: 농담이에요. 도착하는 대로 연락드릴게요. · 「just kidding」를 이 줄에 그대로 · 문법 줄: contact 를 *contact* 로, 그 절 전체를 _밑줄_ 로 감싸고 메모는 § 로 시작 · ← 반전(slip)
+A | ____ | 흐름: 물론이죠. contact me 지, "contact to me" 아니고요. · 「of course」를 이 줄에 그대로

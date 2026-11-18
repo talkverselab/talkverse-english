@@ -35,33 +35,20 @@
    "speaker": "A",
    "en": "I'm here! You up?",
    "ko": "나 도착! 일어났어?",
-   "note": "you up? = 일어났어?",
+   "note": "you up = 일어났어",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "09:02",
-   "emotion": "neutral",
+   "emotion": "cheerful",
    "lemmas": []
   },
   {
    "num": 2,
    "speaker": "B",
-   "en": "Here where?",
-   "ko": "어디 도착?",
-   "note": "되묻기",
-   "tags": [],
-   "new": [],
-   "ui": "bubble",
-   "at": "09:15",
-   "emotion": "neutral",
-   "lemmas": []
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "en": "Your place. Brunch, right?",
-   "ko": "너네 집. 브런치 맞지?",
-   "note": "right? = 맞지?",
+   "en": "Just woke up.",
+   "ko": "방금 일어났어.",
+   "note": "just woke = 방금 일어",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -69,13 +56,32 @@
    "emotion": "neutral",
    "lemmas": [
     [
-     "place",
-     "place",
+     "woke",
+     "wake",
      ""
-    ],
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "en": "Brunch time, right?",
+   "ko": "브런치 시간이잖아?",
+   "note": "brunch time = 브런치 시간",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "09:15",
+   "emotion": "neutral",
+   "lemmas": [
     [
      "Brunch",
      "brunch",
+     ""
+    ],
+    [
+     "time",
+     "time",
      ""
     ],
     [
@@ -89,8 +95,8 @@
    "num": 4,
    "speaker": "B",
    "en": "Brunch is at two.",
-   "ko": "브런치 2시야.",
-   "note": "at two = 2시에",
+   "ko": "브런치는 두 시야.",
+   "note": "at two = 두 시",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -107,9 +113,9 @@
   {
    "num": 5,
    "speaker": "A",
-   "en": "What do you mean? It's breakfast!",
+   "en": "What do you mean? It's morning!",
    "ko": "무슨 말이야? 아침이잖아!",
-   "note": "what do you mean = 무슨 말이야",
+   "note": "what do you mean = 무슨 말",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -122,8 +128,8 @@
      ""
     ],
     [
-     "breakfast",
-     "breakfast",
+     "morning",
+     "morning",
      ""
     ]
    ]
@@ -131,9 +137,9 @@
   {
    "num": 6,
    "speaker": "B",
-   "en": "Brunch is never breakfast. lol",
-   "ko": "브런치는 절대 아침 아니야 ㅋㅋ",
-   "note": "never = 절대",
+   "en": "Sunday brunch is late.",
+   "ko": "일요일 브런치는 늦어.",
+   "note": "sunday brunch = 일요일 브런치",
    "tags": [],
    "new": [],
    "ui": "bubble",
@@ -141,18 +147,18 @@
    "emotion": "amused",
    "lemmas": [
     [
-     "Brunch",
+     "Sunday",
+     "sunday",
+     ""
+    ],
+    [
+     "brunch",
      "brunch",
      ""
     ],
     [
-     "breakfast",
-     "breakfast",
-     ""
-    ],
-    [
-     "lol",
-     "lol",
+     "late",
+     "late",
      ""
     ]
    ]
@@ -160,14 +166,14 @@
   {
    "num": 7,
    "speaker": "A",
-   "en": "No way. I'm good. Waiting here.",
+   "en": "No way. I'm good. I'll wait here.",
    "ko": "말도 안 돼. 괜찮아. 여기서 기다릴게.",
-   "note": "I'm good = 괜찮아",
+   "note": "i'm good = 괜찮아",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "09:17",
-   "emotion": "neutral",
+   "emotion": "amused",
    "lemmas": [
     [
      "way",
@@ -180,7 +186,7 @@
      ""
     ],
     [
-     "Waiting",
+     "wait",
      "wait",
      ""
     ]
@@ -189,15 +195,14 @@
   {
    "num": 8,
    "speaker": "B",
-   "en": "Door's open. Bring bagels.",
+   "en": "Door's open. Get bagels.",
    "ko": "문 열려 있어. 베이글 사 와.",
-   "note": "bring = 가져오다",
+   "note": "get bagels = 베이글 사 와",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "09:18",
-   "emotion": "teasing",
-   "stamp": "🥯",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Door's",
@@ -210,8 +215,8 @@
      ""
     ],
     [
-     "Bring",
-     "bring",
+     "Get",
+     "get",
      ""
     ],
     [
