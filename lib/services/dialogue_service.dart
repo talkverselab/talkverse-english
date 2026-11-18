@@ -1,9 +1,11 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart' show ValueNotifier;
 import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 
 import '../core/app_flavor.dart';
 import 'learner_prefs.dart';
+import 'script_sync.dart';
 import '../core/prefs.dart';
 import '../core/embed_env.dart';
 
@@ -237,20 +239,51 @@ class DialogueService {
     final prefs = await Prefs.getInstance();
     _level = prefs.getString(_prefLevel) ?? (AppFlavor.current == AppFlavor.english ? 'R1' : 'T1');
     _lastOpened = prefs.getString(_prefLast);
+    await _readAll();
+    // 서버에 더 새 원고가 있으면 뒤에서 받아 다시 읽는다(없거나 실패하면 그대로) — docs/CONTENT_SYNC.md
+    ScriptSync.instance.refresh().then((changed) async {
+      if (!changed) return;
+      await _readAll();
+      revision.value++;
+    });
+  }
+
+  /// 원고가 서버 판으로 바뀌어 다시 읽힐 때마다 오른다.
+  final ValueNotifier<int> revision = ValueNotifier(0);
+
+  /// 앱 안 편 + 서버에서 받은 새 편을 읽는다. 각 파일은 덮어쓴 판이 있으면 그것([ScriptSync]).
+  Future<void> _readAll() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
     final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
     // 영어앱 = assets/data/dialogues/R0~R4, 토익 등 = assets/data/toeic/dialogues/T1(앱내앱마다 자기 회화만)
-    final re = AppFlavor.current == AppFlavor.english ? RegExp(r'^assets/data/dialogues/R[0-4]/[^/]+/[^/]+\.json$') : RegExp(r'^assets/data/toeic/dialogues/T[0-9]/[^/]+/[^/]+\.json$');
-    final paths = manifest.listAssets().where((p) => re.hasMatch(stripAssetPrefix(p)));
-    for (final p in paths) {
+    final pat = AppFlavor.current == AppFlavor.english ? RegExp(r'^assets/data/dialogues/R[0-4]/[^/]+/[^/]+\.json$') : RegExp(r'^assets/data/toeic/dialogues/T[0-9]/[^/]+/[^/]+\.json$');
+    // 매니페스트 키는 통합 앱이면 packages/english_universe/ 가 붙어 있다 — 접두를 떼고 견준다
+    final rels = <String>{
+      for (final p in manifest.listAssets().map(stripAssetPrefix).where(pat.hasMatch)) p.substring('assets/data/'.length),
+      ...sync.added.where((p) => pat.hasMatch('assets/data/$p')),
+    }..removeAll(sync.removed);
+    final next = <String, Dialogue>{};
+    for (final rel in rels) {
       try {
-        final d = Dialogue.fromJson(json.decode(await rootBundle.loadString(p)) as Map<String, dynamic>);
-        if (d.turns.isNotEmpty) _byId[d.id] = d;
+        final d = Dialogue.fromJson(json.decode(await sync.load(rel)) as Map<String, dynamic>);
+        if (d.turns.isNotEmpty) next[d.id] = d;
       } catch (_) {}
     }
+    final debug = {for (final e in _byId.entries) if (_debugIds.contains(e.key)) e.key: e.value};
+    _byId
+      ..clear()
+      ..addAll(next)
+      ..addAll(debug);
   }
 
   /// 테스트 전용 — 화면 배치 확인용 가짜 편을 넣는다(배포 데이터 아님).
-  void debugAdd(Dialogue d) => _byId[d.id] = d;
+  void debugAdd(Dialogue d) {
+    _debugIds.add(d.id);
+    _byId[d.id] = d;
+  }
+
+  final Set<String> _debugIds = {};
 
   Dialogue? byId(String id) => _byId[id];
   List<Dialogue> get all => _byId.values.toList();

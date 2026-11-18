@@ -10,6 +10,7 @@ import 'services/achievement_service.dart';
 import 'services/content_sync.dart';
 import 'services/data_version.dart';
 import 'services/learner_prefs.dart';
+import 'services/script_sync.dart';
 import 'services/tts_service.dart';
 import 'toeic/toeic_home.dart';
 import 'widgets/stress_text.dart';
@@ -37,6 +38,11 @@ Future<void> embedInit({bool standalone = false}) async {
   await AccentPrefs.load();
   await AchievementService.instance.load();
   await DataVersion.applyIfChanged(); // 데이터 업데이트 번호(version.json db)가 바뀌면 기기 캐시 갱신
+  // 회화 원고는 켤 때마다 무조건 서버 판을 확인해 받는다 — 그림·음성 내려받기와 따로(일본어앱 빌드 114와 같음, 2026-11-18).
+  // 느린 망에서는 startupWait 까지만 기다리고 앱을 연다(받기는 뒤에서 이어지고, 끝나면 회화 목록을 다시 읽는다).
+  try {
+    await ScriptSync.instance.refresh().timeout(ScriptSync.startupWait);
+  } catch (_) {}
   // 그림(장면 컷·단어 그림) 기기 내려받기: 버전이 다르면 로딩 화면에서 받고 시작(2026-11-04)
   final v = WidgetsBinding.instance.platformDispatcher.views.first;
   final wide = v.physicalSize.shortestSide / v.devicePixelRatio >= 600;
