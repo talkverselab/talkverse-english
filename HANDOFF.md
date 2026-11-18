@@ -104,7 +104,7 @@ _최종 2026-11-09 11:4x KST. 영어앱 세션 정리 종료(uk 전달 사용자
 
 ## 2026-11-18 밤 — 「Grok 대사 작성」(사용자 지시 진행, uk 순서 대기)
 - 원칙(사용자): Claude 는 초안까지, 대사는 Grok(빠른 모드)이 쓰고 받은 그대로 붙인다. **uk 순서표 12번 — 「en 시작」 받기 전엔 Grok 쓰지 않음.**
-- 대상: 영어 59(`data/review/grok/queue_en.txt`) + 토익 18(g1~g8 은 예전 Grok 답을 그대로 붙임 → 남은 10 `queue_toeic.txt`) + 언어감각 10급(`queue_sense.txt`, 규칙 `tools/prompts/rewrite_grok_sense.md`).
+- 대상: 영어 59(`data/review/grok/queue_en.txt`) + 토익 18(g1~g8 은 예전 Grok 답을 그대로 붙임 → 남은 10 `queue_toeic.txt`) · **언어감각 10급은 Grok 으로 다시 쓰지 않음(사용자 결정 2026-11-18 「회화만 Grok」, 일본어와 같음)** — 규칙 `rewrite_grok_sense.md`·`merge_sense.py` 는 남겨 둠.
 - 돌리기(PC 크롬 9262, 터널 `ssh -fN -L 9262:127.0.0.1:9262 pc`, 먼저 `/usr/bin/python3 tools/grok/grok_fast.py 9262`):
-  `zsh tools/grok/rewrite_run.sh tools/prompts/rewrite_grok_en.md $(cat data/review/grok/queue_en.txt)` (토익은 `rewrite_grok_toeic.md`, 감각은 `rewrite_grok_sense.md`). 방은 25편마다 새로, TIMEOUT 이면 방에서 답부터 읽음.
-- 붙이기: `python3 tools/grok/merge_out.py` → `draft_to_json.py` → `add_lemmas.py` → `check_dialogues.py` → `turn_lock.py`; 감각은 `python3 tools/grok/merge_sense.py`. 그 뒤 version.json db 올림 · `tools/script_publish.py --publish` · script_rev.json 커밋 · 음성은 새벽 01~07.
+  `zsh tools/grok/rewrite_run.sh tools/prompts/rewrite_grok_en.md $(cat data/review/grok/queue_en.txt)` (토익은 `rewrite_grok_toeic.md`). 방은 25편마다 새로, TIMEOUT 이면 방에서 답부터 읽음.
+- 붙이기: `python3 tools/grok/merge_out.py` → `draft_to_json.py` → `add_lemmas.py` → `check_dialogues.py` → `turn_lock.py`. 그 뒤 version.json db 올림 · `tools/script_publish.py --publish` · script_rev.json 커밋 · 음성은 새벽 01~07.
