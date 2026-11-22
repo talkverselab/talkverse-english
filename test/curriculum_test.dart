@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:english_universe/screens/curriculum_screen.dart';
 import 'package:english_universe/services/curriculum_service.dart';
 import 'package:english_universe/services/dialogue_service.dart';
@@ -144,4 +145,28 @@ void main() {
       expect(q.prompt.replaceFirst('____', q.choices[q.answer]), startsWith('I want coffee and a cake'));
     }
   });
+
+  for (final w in const [300.0, 390.0]) {
+    testWidgets('코스 고르기 폭 $w — 3·5·10 칩·추천 줄이 넘치지 않음', (t) async {
+      SharedPreferences.setMockInitialValues({'en_curriculum_v1': '{"level":"R1"}'});
+      t.view.physicalSize = Size(w, 800);
+      t.view.devicePixelRatio = 1;
+      addTearDown(t.view.reset);
+      final svc = DialogueService.instance;
+      await t.runAsync(() => svc.ensureLoaded());
+      for (final (i, id) in ['zz_w1', 'zz_w2', 'zz_w3'].indexed) {
+        svc.debugAdd(Dialogue.fromJson({
+          'id': id, 'region': 'R1', 'island': 'isle$i', 'title': 'T $id',
+          'turns': [for (var n = 1; n <= 4; n++) {'num': n, 'speaker': 'A', 'tl': 'Line $id number $n', 'ko': '뜻 $id $n'}],
+        }));
+      }
+      await t.pumpWidget(const MaterialApp(home: CurriculumScreen()));
+      for (var i = 0; i < 60 && find.text('추천으로 채우기').evaluate().isEmpty; i++) {
+        await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 30)));
+        await t.pump();
+      }
+      expect(find.text('추천으로 채우기'), findsOneWidget);
+      expect(t.takeException(), isNull);
+    });
+  }
 }
