@@ -23,7 +23,10 @@ cd "$ROOT"
 if [ "${1:-}" = "--ci" ]; then
   shift
   mkdir -p build/zealot
-  gh release download "$TAG" -R "$REPO" -p 'app-latest.apk' -D "build/zealot/$FLAVOR" --clobber
+  # 공개 저장소라 릴리스 주소로 바로 받는다 — gh API 는 여러 세션이 함께 써서 한도(403)에 자주 걸린다(2026-11-22)
+  mkdir -p "build/zealot/$FLAVOR"
+  curl -sfL -o "build/zealot/$FLAVOR/app-latest.apk" "https://github.com/$REPO/releases/download/$TAG/app-latest.apk" \
+    || gh release download "$TAG" -R "$REPO" -p 'app-latest.apk' -D "build/zealot/$FLAVOR" --clobber
   APK="build/zealot/$FLAVOR/app-latest.apk"
 else
   # 로컬 빌드 산출물 중 가장 최근 것
