@@ -510,12 +510,7 @@ class ReviewTab extends StatelessWidget {
               subtitle: tr('그림 보고 낱말 고르기 · R1~R4'),
               onTap: () => openFull(context, (_) => const WordQuizScreen()),
             ),
-            NavRow(
-              seal: 'Card',
-              sealColor: AppColors.kinDeep,
-              title: tr('문장 플래시카드'),
-              subtitle: tr('읽은 회화에서 랜덤 20'),
-            ),
+            // 「문장 플래시카드」(읽은 회화에서 랜덤 20)는 기능이 생기면 여기에 NavRow 로 넣는다 — 빈 「준비 중」 줄은 두지 않는다(2026-11-22 심사 정리)
           ],
         );
       },
