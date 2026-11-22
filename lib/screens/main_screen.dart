@@ -556,12 +556,7 @@ class ExploreTab extends StatelessWidget {
           subtitle: tr('라틴·그리스 어근 · 가족별로 뜻 풀기'),
           onTap: () => openPane(context, (_) => const RootsScreen()),
         ),
-        NavRow(
-          seal: 'Aa',
-          sealColor: AppColors.ai,
-          title: tr('소리 사전'),
-          subtitle: tr('강세 위치 · 약해지는 소리'),
-        ),
+        // 「소리 사전」(강세 위치·약해지는 소리)은 내용이 생기면 여기에 NavRow 로 다시 넣는다 — 빈 「준비 중」 줄은 두지 않는다(2026-11-22 심사 정리)
       ],
     );
   }

@@ -311,8 +311,8 @@ class _Memorize extends StatelessWidget {
     const enStyle = TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.45);
     const koStyle = TextStyle(fontSize: 14, color: AppColors.sumi, height: 1.45);
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-      LessonVideo(url: video),
-      const SizedBox(height: 12),
+      // 영상 주소가 있을 때만 영상 칸을 보인다(빈 「영상 준비 중」 칸은 심사에서 미완성으로 보임 — 2026-11-22)
+      if (video.isNotEmpty) ...[LessonVideo(url: video), const SizedBox(height: 12)],
       Container(
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(color: AppColors.washiDeep, borderRadius: BorderRadius.circular(10)),

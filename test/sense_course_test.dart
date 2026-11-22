@@ -58,8 +58,9 @@ void main() {
     await t.pumpWidget(const MaterialApp(home: SenseLessonScreen(index: 0)));
     await settle(t, find.byKey(const ValueKey('sense-finish')));
     expect(t.takeException(), isNull);
-    expect(find.byKey(const ValueKey('memorize-video')), findsOneWidget);
-    expect(find.text('영상 준비 중'), findsOneWidget);
+    // 영상 주소가 비어 있으면 영상 칸을 그리지 않는다
+    expect(find.byKey(const ValueKey('memorize-video')), findsNothing);
+    expect(find.text('영상 준비 중'), findsNothing);
     expect(find.textContaining('{', findRichText: true), findsNothing);
     expect(plainMarked('I\'ll get {a|1} coffee.'), 'I\'ll get a coffee.');
     await t.tap(find.byKey(const ValueKey('sense-finish')));
