@@ -9,6 +9,7 @@ import '../widgets/english_decor.dart';
 import '../widgets/today_mission.dart';
 import 'about_screen.dart';
 import 'curriculum_screen.dart';
+import 'custom_script_screen.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
 import 'roots_screen.dart';
@@ -404,7 +405,7 @@ class _LearnTabState extends State<LearnTab> {
                 },
               ),
             sectionTitle(tr('토크버스 커리큘럼')),
-            const CurriculumCard(),
+            const CurriculumHomeCard(),
             sectionTitle(tr('기초')),
             const SoundChartNavRow(),
             NavRow(
@@ -422,6 +423,15 @@ class _LearnTabState extends State<LearnTab> {
               subtitle: tr('모든 문장 듣기 · 그림 카드 · 장면 컷'),
               onTap: () => openPane(context, (_) => const DialogueHomeScreen()),
             ),
+            // AI 맞춤 회화 작성 — 만드는 쪽(서버 작성기)이 켜지고 사용자가 정할 때까지 숨김(일본어앱과 같음, CURRICULUM_SPEC §11)
+            if (kCustomScriptLive)
+              NavRow(
+                seal: '✨',
+                sealColor: AppColors.kinDeep,
+                title: tr('맞춤 회화 만들기'),
+                subtitle: tr('주제·상황·레벨 → 나만의 1편 · 첫 편 무료'),
+                onTap: () => openPane(context, (_) => const CustomScriptScreen()),
+              ),
             sectionTitle(tr('단어')),
             NavRow(
               seal: 'Word',
