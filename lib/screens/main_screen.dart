@@ -8,6 +8,7 @@ import '../services/dialogue_service.dart';
 import '../widgets/english_decor.dart';
 import '../widgets/today_mission.dart';
 import 'about_screen.dart';
+import 'curriculum_screen.dart';
 import 'dialogue_screen.dart';
 import 'profile_screen.dart';
 import 'roots_screen.dart';
@@ -402,6 +403,8 @@ class _LearnTabState extends State<LearnTab> {
                   _load();
                 },
               ),
+            sectionTitle(tr('토크버스 커리큘럼')),
+            const CurriculumCard(),
             sectionTitle(tr('기초')),
             const SoundChartNavRow(),
             NavRow(
