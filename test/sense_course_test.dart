@@ -2,6 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:english_universe/screens/sense_course_screen.dart';
+import 'package:english_universe/services/script_sync.dart';
+import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -82,5 +84,64 @@ void main() {
     await t.tap(find.byKey(const ValueKey('sense-finish')));
     await t.pump(const Duration(milliseconds: 300));
     expect(await SenseCourse.done(), isNot(contains('L1-ref')));
+  });
+
+  test('급 틀 — 빈 급·빈 회차는 숨기고(「준비 중」 없음), 내용이 생기면 나타남 · 묶음 파일은 10급 모두 보임', () {
+    Map<String, dynamic> lv(String id, List<Map<String, dynamic>> ls) => {'id': id, 'title': id, 'lessons': ls};
+    final memo = {'id': 'm', 'kind': 'memorize', 'title': 't', 'sentences': [{'en': 'Hi.', 'ko': '안녕.'}]};
+    final emptyMemo = {'id': 'e', 'kind': 'memorize', 'title': 't', 'sentences': []};
+    final ref = {'id': 'r', 'kind': 'ref', 'title': 't', 'points': ['p']};
+    final d = {
+      'levels': [
+        lv('L1', [memo, ref]),
+        lv('L2', [emptyMemo, ref]), // 참고만 남음 → 숨김
+        lv('L3', []), // 빈 급 → 숨김
+        {'id': 'L4', 'title': 'L4'}, // lessons 없음 → 숨김
+      ]
+    };
+    final v = SenseCourse.visible(d);
+    expect((v['levels'] as List).map((l) => l['id']), ['L1']);
+    expect(((v['levels'] as List).first['lessons'] as List).length, 2);
+    // 서버 파일에 L3 내용이 생기면 그대로 나타난다
+    (d['levels'] as List)[2] = lv('L3', [memo]);
+    expect((SenseCourse.visible(d)['levels'] as List).map((l) => l['id']), ['L1', 'L3']);
+    final real = json.decode(File('assets/data/grammar/sense_course.json').readAsStringSync()) as Map<String, dynamic>;
+    expect(SenseCourse.visible(real)['levels'] as List, hasLength(10));
+  });
+
+  test('급 목록은 서버 파일을 따름 — 빠지면 안 보임 · 더해지면 보임 · 서버 못 받으면 묶음 목록', () async {
+    const rel = 'grammar/sense_course.json';
+    final bundled = json.decode(File('assets/data/$rel').readAsStringSync()) as Map<String, dynamic>;
+    final levels = (bundled['levels'] as List).cast<Map<String, dynamic>>();
+    final keep = ScriptSync.instance;
+    addTearDown(() {
+      ScriptSync.instance = keep;
+      SenseCourse.debugClear();
+    });
+    Future<List<String>> shown(String? server) async {
+      final dir = Directory.systemTemp.createTempSync('sense_sync');
+      addTearDown(() => dir.deleteSync(recursive: true));
+      final sha = server == null ? '' : sha1.convert(utf8.encode(server)).toString().substring(0, 12);
+      ScriptSync.instance = ScriptSync.forTest(
+        dir: dir,
+        baseline: {'rev': 1, 'files': {rel: 'bundled'}},
+        fetch: (url) async {
+          if (server == null) return null; // 서버를 못 받음
+          if (url.endsWith('/index.json')) return json.encode({'rev': 2, 'files': {rel: sha}});
+          return url.contains(rel) ? server : null;
+        },
+      );
+      await ScriptSync.instance.refresh();
+      SenseCourse.debugClear();
+      return [for (final l in (await SenseCourse.load())['levels'] as List) '${l['id']}'];
+    }
+
+    final all = [for (final l in levels) '${l['id']}'];
+    expect(await shown(null), all);
+    // 서버에서 앞 두 급을 빼면 그만큼 사라진다
+    expect(await shown(json.encode({...bundled, 'levels': levels.skip(2).toList()})), all.skip(2).toList());
+    // 서버에서 급을 더하면 나타난다(개수 상한 없음)
+    final extra = {...levels.first, 'id': 'L99', 'title': 'new'};
+    expect(await shown(json.encode({...bundled, 'levels': [...levels, extra]})), [...all, 'L99']);
   });
 }

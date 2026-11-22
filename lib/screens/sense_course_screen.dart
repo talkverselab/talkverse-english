@@ -20,9 +20,35 @@ const _kAsset = 'assets/data/grammar/sense_course.json';
 
 class SenseCourse {
   static Map<String, dynamic>? _cache;
-  static Future<Map<String, dynamic>> load() async =>
-      // loadString 은 큰 파일을 다른 isolate 에서 풀어 위젯 테스트가 멈춘다 — 바이트로 읽어 여기서 푼다.
-      _cache ??= json.decode(await ScriptSync.instance.load(_kAsset.substring('assets/data/'.length))) as Map<String, dynamic>;
+  static int _cacheRev = -1;
+
+  /// 급(스텝) 목록·제목·순서·내용은 모두 이 파일(데이터)에서 — 코드는 틀만(사용자 지시 2026-11-23 「스텝 10까지 미리 만들고 DB 업데이트로 갱신」).
+  /// 서버 원고(ScriptSync, script/en)에 새 판이 있으면 그것, 없으면 앱에 묶은 파일. 받은 판이 바뀌면 다시 읽는다.
+  static Future<Map<String, dynamic>> load() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
+    if (_cache != null && _cacheRev == sync.shownRev) return _cache!;
+    // loadString 은 큰 파일을 다른 isolate 에서 풀어 위젯 테스트가 멈춘다 — 바이트로 읽어 여기서 푼다.
+    final raw = json.decode(await sync.load(_kAsset.substring('assets/data/'.length))) as Map<String, dynamic>;
+    _cacheRev = sync.shownRev;
+    return _cache = visible(raw);
+  }
+
+  /// 내용이 있는 회차·급만 남긴다 — 빈 급은 「준비 중」으로 보이지 않고 숨겨졌다가, 서버 파일에 내용이 생기면 저절로 나타난다.
+  @visibleForTesting
+  static Map<String, dynamic> visible(Map<String, dynamic> d) {
+    bool has(Map<String, dynamic> ls) => ls['kind'] == 'ref' ? ((ls['points'] as List?) ?? const []).isNotEmpty : ((ls['sentences'] as List?) ?? const []).isNotEmpty;
+    final levels = <Map<String, dynamic>>[];
+    for (final lv in ((d['levels'] as List?) ?? const []).whereType<Map>()) {
+      final ls = [for (final l in ((lv['lessons'] as List?) ?? const []).whereType<Map>()) if (has(l.cast<String, dynamic>())) l.cast<String, dynamic>()];
+      // 참고만 남은 급은 외울 대화가 없으니 숨긴다
+      if (ls.any((l) => l['kind'] != 'ref')) levels.add({...lv.cast<String, dynamic>(), 'lessons': ls});
+    }
+    return {...d, 'levels': levels};
+  }
+
+  @visibleForTesting
+  static void debugClear() => _cache = null;
 
   static Future<Set<String>> done() async => ((await Prefs.getInstance()).getStringList(_kDoneKey) ?? const []).toSet();
 
