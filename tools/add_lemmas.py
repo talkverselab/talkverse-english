@@ -149,7 +149,7 @@ further far farther'''.splitlines():
     parts = line.split()
     for p in parts[1:]:
         IRREGULAR.setdefault(p, parts[0])
-IRREGULAR.update({'better': 'good', 'best': 'good', 'worse': 'bad', 'worst': 'bad', 'left': 'leave', 'lives': 'life', 'leaves': 'leave'})
+IRREGULAR.update({'better': 'good', 'best': 'good', 'worse': 'bad', 'worst': 'bad', 'left': 'leave', 'lives': 'life', 'leaves': 'leave', 'bit': 'bit'})  # a bit 이 bite 로 가지 않게(2026-11-22)
 
 def load_vocab():
     out = {}

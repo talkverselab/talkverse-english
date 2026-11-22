@@ -114,6 +114,23 @@ def main():
                 e.append(f'{num}번 segs 본문이 대사와 다름')
             if not t.get('note'):
                 w.append(f'{num}번 note 없음')
+            if t['speaker'] not in ep['speakers']:
+                e.append(f"{num}번 화자 {t['speaker']}")
+            if len(re.findall(r'[.!?…]+(?:\s|$)', s)) > 3:
+                w.append(f'{num}번 4문장 이상')
+            if kind == 'chat' and t.get('ui') != 'bubble':
+                e.append(f'{num}번 채팅 ui')
+            new = []
+            for _, b, _r in add_lemmas.lemmas(s):
+                if b not in band and b not in seen and b not in new:
+                    new.append(b)
+            seen.update(b for _, b, _r in add_lemmas.lemmas(s))
+            if len(new) > NEW_PER_TURN[lv]:
+                w.append(f'{num}번 새 단어 {len(new)}개 {new}')  # 경고: Grok 원문은 고치지 않으므로(2026-11-22, 이 검사가 토익 블록 안에 잘못 들어가 있던 것을 턴마다로 옮기며)
+            tags = [x for x in t.get('tags', []) if not x.startswith('expr:')] + [f'expr:{x}' for x in pool if has_expr(x, s)]
+            if fix and (t.get('new') != new or t.get('tags') != tags):
+                t['new'], t['tags'] = new, tags
+                changed = True
             g = t.get('gram')
             if g:
                 for x in g.get('u', []) + g.get('red', []):
@@ -127,23 +144,6 @@ def main():
                 e.append('check(빈칸 문제) 없음/형식')
             elif not any(x.get('gram') for x in ep['turns']):
                 e.append('문법 표시(gram)가 한 턴도 없음')
-            if t['speaker'] not in ep['speakers']:
-                e.append(f"{num}번 화자 {t['speaker']}")
-            if len(re.findall(r'[.!?…]+(?:\s|$)', s)) > 3:
-                w.append(f'{num}번 4문장 이상')
-            if kind == 'chat' and t.get('ui') != 'bubble':
-                e.append(f'{num}번 채팅 ui')
-            new = []
-            for _, b, _r in add_lemmas.lemmas(s):
-                if b not in band and b not in seen and b not in new:
-                    new.append(b)
-            seen.update(b for _, b, _r in add_lemmas.lemmas(s))
-            if len(new) > NEW_PER_TURN[lv]:
-                e.append(f'{num}번 새 단어 {len(new)}개 {new}')
-            tags = [x for x in t.get('tags', []) if not x.startswith('expr:')] + [f'expr:{x}' for x in pool if has_expr(x, s)]
-            if fix and (t.get('new') != new or t.get('tags') != tags):
-                t['new'], t['tags'] = new, tags
-                changed = True
         if sum(x not in ('neutral', 'polite') for x in flat) * 2 > len(flat):
             w.append('감정 턴이 절반을 넘음(대부분 평범하게)')
         if ep['turns'] and re.search(r'\bthank', ep['turns'][-1]['en'], re.I):
