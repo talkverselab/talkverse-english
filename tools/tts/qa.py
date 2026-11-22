@@ -86,12 +86,17 @@ def main():
             k = f'{ep}/{name}'; f = f'{wav}/{k}'; q = Q.setdefault(k, {'tries': 0})
             if not os.path.exists(f):
                 q.update(sim=0.0, ok=False); bad += 1; continue
+            mt = int(os.path.getmtime(f))
+            if q.get('text') != text:                # 대사가 바뀌었으면 옛 점수·횟수는 버린다(2026-11-23 한국어앱 발견: 같은 파일 이름에 옛 녹음 점수가 남아 새 녹음을 안 봄)
+                q.pop('sim', None); q['tries'] = 0; q['text'] = text
+            if q.get('mtime') != mt:                  # 파일이 새로 만들어졌으면 다시 채점
+                q.pop('sim', None)
             if 'sim' not in q:
-                q['sim'], q['dur'] = score(f, text)
+                q['sim'], q['dur'] = score(f, text); q['mtime'] = mt
             for c in sorted(glob.glob(f'{wav}/retake/{k[:-4]}.t*.wav')):          # 받아 온 재생성본 중 더 나은 것을 본 파일로
                 s, d = score(c, text)
                 if s > q['sim']:
-                    shutil.copy(c, f); q['sim'], q['dur'] = s, d
+                    shutil.copy(c, f); q['sim'], q['dur'] = s, d; q['mtime'] = int(os.path.getmtime(f))
                 os.remove(c)
             q['ok'] = q['sim'] >= PASS
             if not q['ok']:
