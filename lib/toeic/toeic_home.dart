@@ -75,8 +75,7 @@ class _ToeicLearnTab extends StatelessWidget {
             subtitle: tr('편마다 문법 하나 · 밑줄·빨간 글씨 · 끝에 빈칸 문제'),
             onTap: () => openPane(context, (_) => const DialogueHomeScreen()),
           ),
-          sectionTitle(tr('독해 · 듣기')),
-          const EmptyNote(icon: Icons.article_outlined, text: 'RC · LC 는 준비 중입니다. 들어오면 여기에서 Part 별로 풀어요.'),
+          // 「독해 · 듣기」(RC·LC)는 내용이 생기면 여기에 — 빈 「준비 중」 칸은 심사에서 미완성으로 보여 두지 않는다(2026-11-23)
         ],
       );
 }
@@ -106,8 +105,7 @@ class _SpeakingLearnTab extends StatelessWidget {
           onTap: () => openFull(context, (_) => FlashcardDeck(title: tr('말하기 기본 단어'), deckId: 'cliff', loader: () async => (await WordList.load()).where((w) => w.rank <= kWordCap).toList())),
         ),
         const RootsNavRow(),
-        sectionTitle(tr(speaking ? '말하기 — 문항 유형별' : '말하기 — 주제별')),
-        EmptyNote(icon: Icons.mic_none, text: speaking ? '토익스피킹 문항 유형별 답변 틀과 연습은 준비 중입니다.' : 'OPIc 주제별 답변과 표현은 준비 중입니다.'),
+        // 말하기(문항 유형별·주제별) 내용이 생기면 여기에 — 빈 「준비 중」 칸은 두지 않는다(심사 정리 2026-11-23)
       ],
     );
   }
