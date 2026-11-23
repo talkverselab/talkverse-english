@@ -78,10 +78,13 @@ class Purchase {
     }
     if (ownStream) _sub ??= InAppPurchase.instance.purchaseStream.listen(onPurchaseUpdates, onError: (_) => status.value = 'error');
     await reloadProducts();
-    // 시작 때 복원 조회(§4) — 조용히(결과 안내 없이)
-    try {
-      await InAppPurchase.instance.restorePurchases();
-    } catch (_) {}
+    // 시작 때 복원 조회는 안드로이드만(조용히). iOS 는 restorePurchases 가 Apple ID 암호 창을 띄울 수 있어
+    // 미완료 거래 자동 수신(purchaseStream) + 사용자가 누르는 「구매 복원」 단추만(uk 기준 통일 2026-11-23).
+    if (Platform.isAndroid) {
+      try {
+        await InAppPurchase.instance.restorePurchases();
+      } catch (_) {}
+    }
   }
 
   /// 상품 정보를 다시 받는다(결제 화면의 「다시 시도」). 끝없이 기다리지 않게 12초 제한.
