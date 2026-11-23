@@ -1,0 +1,88 @@
+{
+ "ep": "r2_love_b2",
+ "cast": {
+  "B": "emma"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Sorry, is this dryer yours?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Yeah, I was about to use it."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Mine's full. Mind if I wait?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "There's only one left now."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "We could split the load maybe."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Just share it. It's up to you."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Why not. Forty minutes. We're waiting here."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "To be honest, I hoped you'd say that."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Yeah? That's cool."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Take it. Then I get to see you again."
+    ]
+   ]
+  }
+ }
+}

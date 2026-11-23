@@ -1,0 +1,121 @@
+{
+ "ep": "r3_love_c2",
+ "cast": {
+  "B": "daniel"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Same time, same line. We really gotta stop meeting like this."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Or the universe just really wants us to get bagels together."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "This spot has the best everything bagels, no argument."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "I always go sesame. What about you?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Same. Every single morning without fail."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Guess what. I saw you grabbing the sesame one back there."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Yeah, they ran out of them up front again."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Classic. This line is moving so slow today."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "You know what. I figured it out. You show up at 8, so I do too.",
+     "You know what. I figured it out. You show up at eight, so I do too."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Wait, you've been timing it on purpose?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "neutral",
+     "For a couple weeks now. Just so we end up like this."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "neutral",
+     "That's kinda bold, not gonna lie."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "gentle",
+     "Dream on. Okay, just one more though..."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "neutral",
+     "Grab me the sesame one from across the street?"
+    ]
+   ]
+  }
+ }
+}

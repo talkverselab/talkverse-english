@@ -10,8 +10,14 @@ CAST = {k: v for k, v in json.load(open(f'{L.R}/data/tts/cast.json', encoding='u
 EMOJI = re.compile(r'\s*[\U0001F000-\U0001FAFF☀-➿️]+\s*')
 
 
+# 숫자 읽기 — 대사(화면)는 숫자 그대로 두고 읽을 글만 바꾼다
+READ = {'24-hour': 'twenty-four-hour', 'at 8,': 'at eight,', 'by 3.': 'by three.'}
+
+
 def seg(emo, text):
     clean = re.sub(r'\s+', ' ', EMOJI.sub(' ', text).replace('…', ' ')).strip()  # 「…」을 읽게 하면 늘어진다, 쉼은 pack 이 넣는다
+    for a, b in READ.items():
+        clean = clean.replace(a, b)
     if re.search(r'\d', clean):
         raise SystemExit(f'숫자는 읽기를 정해야 함: {text!r} — 대사에 글자로 쓰거나 계획에 읽기 칸을 넣는다')
     return [emo, text] if clean == text else [emo, text, clean]

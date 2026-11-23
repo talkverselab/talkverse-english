@@ -1,0 +1,72 @@
+{
+ "ep": "r1_travel_a1",
+ "cast": {
+  "B": "woman_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Hi. Where to today?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Chicago. Can I get a window?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Sure. Window, row twelve."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Great. How much for the bag?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Twenty dollars. One bag."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Oh no. Row twelve has no window."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Yeah, it's the wall side."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "So I stare at a wall to Chicago."
+    ]
+   ]
+  }
+ }
+}

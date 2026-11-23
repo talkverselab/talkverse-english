@@ -1,0 +1,72 @@
+{
+ "ep": "r0_love_a1",
+ "cast": {
+  "B": "emma"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Oh no, it's raining."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Yeah, pretty hard."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "I only have one."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "We can share it."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Okay... we stay close."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Then... I guess okay."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Wait, two in my bag."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Emma!"
+    ]
+   ]
+  }
+ }
+}

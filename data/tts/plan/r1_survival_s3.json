@@ -8,7 +8,7 @@
    "segs": [
     [
      "neutral",
-     "Two dollars. It's just gonna ask you a question."
+     "Two bucks. Screen's gonna ask you a question."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "surprised",
-     "Wait. Is this a tip? For a cookie?"
+     "Wait. Tip? For a cookie?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "neutral",
-     "It's okay. It's totally up to you."
+     "It's okay. Totally up to you."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "neutral",
-     "But you're looking right at me."
+     "But you're staring right at me."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "neutral",
-     "I'm not looking."
+     "I'm not staring."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "worried",
-     "Oh no. I hit thirty percent."
+     "Oh no. I just hit thirty percent."
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "amused",
-     "I saw. You're my favorite person now."
+     "I saw that. You're my favorite now."
     ]
    ]
   },
@@ -64,7 +64,7 @@
    "segs": [
     [
      "neutral",
-     "Great. Can I have a napkin for my tears?"
+     "Cool. Napkin for my tears, please?"
     ]
    ]
   }

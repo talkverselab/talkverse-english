@@ -1,0 +1,120 @@
+{
+ "ep": "r3_culture_c1",
+ "cast": {
+  "B": "maya"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Maya, why is everyone standing up all of a sudden?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "They're doing the wave or singing along to the song."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Oh, so it's like a group thing people just join?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "It depends. Do you know the lyrics at all?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Not really. I only know the chorus bits."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Tell me about it. Baseball is expensive as hell."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Yeah, the tickets alone were kinda rough."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "I wouldn't say that. It's more of a chill vibe."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "Still feels like a lot of standing and waiting though."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "It's the kiss cam! Don't worry, we're not a couple... yet."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Wait, are they really zooming in on us right now?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "neutral",
+     "Yeah, just smile or something. Don't make it weird."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "teasing",
+     "Too late, you're already turning red."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "neutral",
+     "Okay, okay. I'll buy the hot dogs. Stop laughing."
+    ]
+   ]
+  }
+ }
+}

@@ -9,7 +9,7 @@ import ttslib as L
 M = 'mlx-community/whisper-large-v3-turbo'
 NUM = {'1': 'one', '2': 'two', '3': 'three', '4': 'four', '5': 'five', '10': 'ten', '12': 'twelve', '30': 'thirty'}
 RATE_MIN = 11 / 1.15   # 말 속도 11~17 글자/초(영어 일상 대화에 맞음), pack 이 최대 1.15배 보정
-PASS = 0.90     # 2026-11-07 품질 점검: 0.72 는 앞말 누락이 통과했다
+PASS = float(os.environ.get('TTS_PASS', 0.90))     # 2026-11-07 품질 점검: 0.72 는 앞말 누락이 통과했다
 FLOOR = -55.0   # 잡음 바닥(dB) — 이보다 크면 다시 만든다
 
 

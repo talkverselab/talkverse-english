@@ -1,0 +1,88 @@
+{
+ "ep": "r2_culture_b1",
+ "cast": {
+  "B": "maya"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Oh my god, you made it! Wait. What are you dressed as?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Dressed as? I'm just in my work clothes."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "It's Halloween, {name}. Everyone's in costume."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "I came from a company dinner. In a suit."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "That actually works. Business zombie?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "I had no idea it was tonight."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Your tie is perfect for it."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "I can't believe it. Networking on Halloween."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "That's so cute. Best costume here."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Next year I'm coming unemployed."
+    ]
+   ]
+  }
+ }
+}

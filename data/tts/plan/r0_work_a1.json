@@ -1,0 +1,64 @@
+{
+ "ep": "r0_work_a1",
+ "cast": {
+  "B": "man_o"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Excuse me. Card won't work."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "New here? Let me help."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Yes, first day. Thanks."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "One sec. I'll check."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Try it one more time."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Door says \"pull\" there."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Oh. Hi, door."
+    ]
+   ]
+  }
+ }
+}

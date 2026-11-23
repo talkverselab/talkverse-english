@@ -1,0 +1,136 @@
+{
+ "ep": "r4_work_d1",
+ "cast": {
+  "B": "daniel"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Do you have a minute? There's something I've been meaning to bring up."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Sure, come on in. What's going on?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "I got an offer from another company last week."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Okay. Are you leaning toward taking it?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "To be honest, I want to stay. I like the team and what we're building."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "That's good to hear. Have you looked at what we could match?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "I was hoping we could talk numbers before Friday."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "We can try. What's the range they're offering?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "That being said, I have to answer by Friday. They want me to start soon."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "polite",
+     "If you don't mind me asking, which company is it?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "neutral",
+     "It's the one downtown that just raised a big round."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "No way. I got an email from them yesterday too."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "neutral",
+     "Seriously? Are you thinking about leaving?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "neutral",
+     "I was waiting to see what they offered in person."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "neutral",
+     "This is getting complicated."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "teasing",
+     "It's up to you. But I already booked the big conference room for Friday."
+    ]
+   ]
+  }
+ }
+}

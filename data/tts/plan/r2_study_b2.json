@@ -1,0 +1,88 @@
+{
+ "ep": "r2_study_b2",
+ "cast": {
+  "B": "emma"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Excuse me. Is this seat taken?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "No, go ahead."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Thanks. I see you here every day."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "I guess. Close to the outlet."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Same. My laptop dies fast."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "You can use it. What's up with your phone?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Writing a note. Easier than talking."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Oh. What's it say?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "It's a library. And this is easier."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "cheerful",
+     "\"Coffee after this?\" Sure. I'll answer here."
+    ]
+   ]
+  }
+ }
+}

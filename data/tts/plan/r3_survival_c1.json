@@ -1,0 +1,121 @@
+{
+ "ep": "r3_survival_c1",
+ "cast": {
+  "B": "woman_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Hi, I'd like to return this jacket. It's way too big on me."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Do you have the receipt?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "I think I lost it."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "We usually need it for returns."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Can I exchange it instead?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Maybe, if we can find the sale."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Really? I could be wrong, but I'm sure it was here."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Just to confirm, you bought it at this location?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "Yeah, last week I think."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Hold on… that tag is from the store next door.",
+     "Hold on that tag is from the store next door."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "What? Are you serious?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "neutral",
+     "Yes, different brand too."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "neutral",
+     "Fair enough. So where's their entrance?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "polite",
+     "Out and to the left. Take the jacket, it's not ours."
+    ]
+   ]
+  }
+ }
+}

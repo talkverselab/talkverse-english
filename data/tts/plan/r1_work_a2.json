@@ -1,0 +1,72 @@
+{
+ "ep": "r1_work_a2",
+ "cast": {
+  "B": "man_o"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Do you like books?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Of course. I read every night."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Can you work on weekends?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "I think so. Yes."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "What pay do you want?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Five dollars an hour?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Are you sure? That's illegal. Eighteen."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Sounds good. I'll take it."
+    ]
+   ]
+  }
+ }
+}

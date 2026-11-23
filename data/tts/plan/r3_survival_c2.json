@@ -1,0 +1,120 @@
+{
+ "ep": "r3_survival_c2",
+ "cast": {
+  "B": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Hi. My throat's been really sore since yesterday."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Any other symptoms? Fever or cough?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "No fever. Just hurts when I swallow."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Have you taken anything yet?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "To be honest, just vitamins. And my roommate's tea."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "What kind of tea? It depends what's in it."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Some herbal thing. Smells like flowers."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Okay. How long does the pain last?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "Oh, and I sang for three hours at a party last week."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "neutral",
+     "That might be it. Overuse."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "neutral",
+     "Are you sure? You didn't ask about singing."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "polite",
+     "It's relevant. Rest your voice."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "teasing",
+     "So no more parties?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "No ice cream tonight. That's the real medicine."
+    ]
+   ]
+  }
+ }
+}

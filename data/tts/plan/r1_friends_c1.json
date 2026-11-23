@@ -17,8 +17,8 @@
    "segs": [
     [
      "amused",
-     "Maya's pizza is so bad 😂",
-     "Maya's pizza is so bad"
+     "Maya's pizza is actually terrible 😂",
+     "Maya's pizza is actually terrible"
     ]
    ]
   },
@@ -34,7 +34,7 @@
    "segs": [
     [
      "worried",
-     "Oh no. Wrong chat."
+     "Wait. Wrong chat."
     ]
    ]
   },
@@ -42,7 +42,7 @@
    "segs": [
     [
      "neutral",
-     "What happened? Is there pizza?"
+     "What happened? Pizza tonight?"
     ]
    ]
   },
@@ -50,7 +50,7 @@
    "segs": [
     [
      "worried",
-     "My bad! I love your pizza!"
+     "My bad! Your pizza is the best!"
     ]
    ]
   },
@@ -58,7 +58,7 @@
    "segs": [
     [
      "teasing",
-     "No way. Bring your own dinner Friday."
+     "No way. You're bringing dinner Friday."
     ]
    ]
   },
@@ -66,8 +66,7 @@
    "segs": [
     [
      "neutral",
-     "So… Friday pizza is for me?",
-     "So Friday pizza is for me?"
+     "So Friday pizza is mine then?"
     ]
    ]
   }

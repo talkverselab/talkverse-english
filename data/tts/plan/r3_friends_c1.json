@@ -1,0 +1,121 @@
+{
+ "ep": "r3_friends_c1",
+ "cast": {
+  "B": "maya",
+  "C": "woman_o"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Camping this weekend? That lake spot, two nights."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "I'm in. I'll bring the tent."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Literally the best. Who's driving?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "I can drive if we leave early."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Perfect. Food ideas?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Burgers and stuff. Easy."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Cool. Anyone else coming?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Just us three maybe."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "Yeah, keep it small."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "neutral",
+     "Mosquito spray. Rain jackets. And text when you arrive, my daughter."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "No way. Mom?? Why are you in this chat?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "neutral",
+     "You added me last year for the trip."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "surprised",
+     "Wait, your mom is here?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "cheerful",
+     "Already packed. I'll bring soup for everyone."
+    ]
+   ]
+  }
+ }
+}

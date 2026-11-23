@@ -1,0 +1,121 @@
+{
+ "ep": "r3_work_c1",
+ "cast": {
+  "B": "maya"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Hey, can you add a line to Tom's farewell card? It's due by 3.",
+     "Hey, can you add a line to Tom's farewell card? It's due by three."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Sure, I can do that right now."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Just something nice. He's been on the team for years."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "To be honest, I only talked to him twice."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "That's fine, just keep it short and positive."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Okay... \"Finally! Good luck, Tom.\""
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Oh no, that might come off wrong."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Is it really that bad?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Yeah, people might read it the wrong way."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "My bad. Can I fix it?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "polite",
+     "It's written in pen. That being said..."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "neutral",
+     "We could cover it with a little sticker or something."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "neutral",
+     "I'll go grab one from the supply closet."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "polite",
+     "Perfect. He's going to frame this."
+    ]
+   ]
+  }
+ }
+}

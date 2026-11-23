@@ -1,0 +1,88 @@
+{
+ "ep": "r2_life_b1",
+ "cast": {
+  "B": "daniel"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Hi, I texted the landlord about the sink."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Yeah. He sent me. What happened?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "It won't drain. Water just sits there."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Let me take a look under it."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Wait. Aren't you the guy from upstairs?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Yeah, that's me. Small building."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Oh, sorry to bother you like this."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "It's fine. I fix stuff sometimes."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Thanks. I owe you one."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "No worries. Just stop dropping stuff on my ceiling."
+    ]
+   ]
+  }
+ }
+}

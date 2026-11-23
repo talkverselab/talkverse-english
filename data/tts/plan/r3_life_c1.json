@@ -1,0 +1,113 @@
+{
+ "ep": "r3_life_c1",
+ "cast": {
+  "B": "daniel"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Daniel, this place is huge and so cheap."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Don't get me wrong, I love it too. But why so cheap?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "The agent said it's really lively at night."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "What do you mean by lively?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Like lots of energy and people around."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Wait, the floor is shaking. Is this bowling?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Oh no, there's a bowling alley right below us."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "A 24-hour one? This is crazy.",
+     "A twenty-four-hour one? This is crazy."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "I swear the ad said nothing about this."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "We would never sleep with all that noise."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "neutral",
+     "Yeah, pins crashing all night long."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Free bowling shoes almost make up for it."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "cheerful",
+     "But residents get free bowling shoes. I'm signing."
+    ]
+   ]
+  }
+ }
+}

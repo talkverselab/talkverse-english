@@ -1,0 +1,72 @@
+{
+ "ep": "r1_study_a2",
+ "cast": {
+  "B": "jake"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "You free? Library now."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Let's go. I'll bring stuff."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "I'm by the window."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "I'm here. Five bags of chips."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "What? Where are the books?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Chips help me think better."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "We still need the notes."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Sounds good. Chips first."
+    ]
+   ]
+  }
+ }
+}

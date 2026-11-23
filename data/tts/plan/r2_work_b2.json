@@ -1,0 +1,89 @@
+{
+ "ep": "r2_work_b2",
+ "cast": {
+  "B": "jake",
+  "C": "maya"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Ordering lunch. What do you guys want?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "I don't know. Anything's fine."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "It depends. Not too heavy. But filling."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Sandwiches or salads?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Whatever's easiest."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Something with veggies maybe."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Okay, I'll just pick something."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Anything means pizza. We all know."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Told you. He's always like this."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "annoyed",
+     "Fine. He gets pizza. We get salads."
+    ]
+   ]
+  }
+ }
+}

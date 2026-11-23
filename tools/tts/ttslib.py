@@ -10,7 +10,7 @@ EP = {os.path.basename(p)[:-5]: p for p in glob.glob(f'{R}/assets/data/dialogues
 SIL = re.compile(r'[\s…。、！？!?.,~♪]|\([^)]*\)')
 LANG = 'English'
 OUT = os.environ.get('TTS_OUT', 'en2')   # PC 출력 폴더. 앞선 결과를 건너뛰지 않게 판마다 나눈다(en = 첫 판, en2 = 감정 낮춘 판)
-REF = f'ref_{OUT}'
+REF = os.environ.get('TTS_REF', f'ref_{OUT}')  # 참고 음성은 판이 바뀌어도 이어 쓸 수 있다
 VOX = '_vox'
 
 

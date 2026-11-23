@@ -1,0 +1,96 @@
+{
+ "ep": "r2_love_b3",
+ "cast": {
+  "B": "emma"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Hey, need a partner? I'm terrible at cooking."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Are you sure you want me? I burn water."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Perfect. We'll match."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Okay, but no judging."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "I'll do the hard parts. No big deal."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Thanks. What are we making?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Pasta. Should be easy."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Famous last words."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Honestly? I saw your name on the list."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "I knew it. You're good at cooking, right?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shy",
+     "A little. Next week at my place?"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "ep": "r3_travel_c1",
+ "cast": {
+  "B": "man_y",
+  "C": "woman_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Excuse me, is there any space left up here?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "I think I just put my bag in the last spot."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Would you mind putting that one under the seat instead?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "My carry-on is already full underneath."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Maybe we can shift things around a little."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "I really need this one up top though."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "The bin is looking pretty packed already."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Yeah, I was trying to be careful with it."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Is everything okay here? Actually that bag is mine."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Oh no, I had no idea."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "polite",
+     "I left it there for a second while I helped someone."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "polite",
+     "Sorry about that, I can move it right now."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "neutral",
+     "No worries. It was very well guarded."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "polite",
+     "You can put yours up now. The cake crisis is over."
+    ]
+   ]
+  }
+ }
+}

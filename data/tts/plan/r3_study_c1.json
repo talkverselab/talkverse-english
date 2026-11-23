@@ -1,0 +1,120 @@
+{
+ "ep": "r3_study_c1",
+ "cast": {
+  "B": "jake"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Okay Jake, your turn. Try saying \"annyeong.\""
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Annyeong. Did that sound okay?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Pretty good. Now say \"thank you\" in Korean."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Gamsahamnida? I feel like I'm messing it up."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Stiff? What are you talking about? It's perfect."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "As if. Nobody says \"I am very much delighted.\""
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Okay fine, that one was a little formal."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "See? I need real practice, not textbook stuff."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "Wait. You just said \"gamsahamnida\" perfectly."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "neutral",
+     "Did I? Must've been a lucky guess."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "neutral",
+     "No way. Your pronunciation was way too clean."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "neutral",
+     "Alright, I watch some shows without subtitles sometimes."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "I knew it. Then why do the language exchange?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Free coffee. And you're funny when you correct me."
+    ]
+   ]
+  }
+ }
+}
