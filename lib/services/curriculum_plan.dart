@@ -18,7 +18,8 @@ class CurStage {
   final int pass; // 통과 점수(%)
   final List<int> pick; // 고를 편 수 칸
   final Map<int, int> daily; // 하루 새 편 수: 1 가볍게 · 2 보통 · 3 집중
-  const CurStage(this.n, this.title, this.desc, this.dialogueIds, this.pass, {this.pick = const [3, 5, 10], this.daily = const {1: 1, 2: 2, 3: 3}});
+  final bool free; // 이용권 없이 열림(PAYWALL_SPEC §2, 없으면 1단계만)
+  const CurStage(this.n, this.title, this.desc, this.dialogueIds, this.pass, {this.pick = const [3, 5, 10], this.daily = const {1: 1, 2: 2, 3: 3}, this.free = false});
 }
 
 class CurriculumPlan {
@@ -28,6 +29,9 @@ class CurriculumPlan {
   static const url = 'https://talkverse.uk/api/curriculum/en';
 
   int rev = 0;
+  /// 무료 한도(서버 최상위 값, 없으면 문법 2스텝·언어감각 1급 — PAYWALL_SPEC §2).
+  int freeSteps = 2;
+  int freeSenseLevels = 1;
   List<CurStage> stages = const [];
   bool _loaded = false;
 
@@ -40,7 +44,7 @@ class CurriculumPlan {
   static List<CurStage> parse(Map d) => [
         for (final s in (d['stages'] as List? ?? const []).whereType<Map>())
           CurStage('${s['n']}', '${s['title'] ?? '${s['n']}단계'}', '${s['desc'] ?? ''}', [for (final x in (s['dialogueIds'] as List? ?? const [])) '$x'], (s['pass'] as num?)?.toInt() ?? 80,
-              pick: _pick(s['pick']), daily: _daily(s['daily'])),
+              pick: _pick(s['pick']), daily: _daily(s['daily']), free: s['free'] is bool ? s['free'] as bool : '${s['n']}' == '1'),
       ];
 
   // 값이 없거나 이상하면 기본값(3·5·10 / 1·2·3) — §12 덧붙임
@@ -60,6 +64,8 @@ class CurriculumPlan {
   void _apply(Map d) {
     rev = (d['rev'] as num?)?.toInt() ?? 0;
     stages = parse(d);
+    freeSteps = (d['freeSteps'] as num?)?.toInt() ?? 2;
+    freeSenseLevels = (d['freeSenseLevels'] as num?)?.toInt() ?? 1;
   }
 
   /// 묶음 → 기기에 받아 둔 더 새 판 순으로 읽고, 뒤에서 서버를 한 번 본다(바뀌면 [changed] 를 부름).

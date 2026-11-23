@@ -5,6 +5,8 @@ import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
 import '../services/curriculum_service.dart';
+import '../services/entitlement.dart';
+import 'paywall_screen.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import '../services/dialogue_service.dart';
@@ -43,6 +45,11 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   }
 
   Future<void> _setLevel(String lv) async {
+    // 이용권이 필요한 단계(PAYWALL_SPEC §2: 서버 free, 기본 1단계만 무료) — 결제 화면, 사면 그 단계로
+    if (!Entitlement.stageOpen(lv)) {
+      await PaywallScreen.show(context);
+      if (!Entitlement.stageOpen(lv) || !mounted) return;
+    }
     _st.level = lv;
     await _svc.save();
     setState(() {
@@ -166,6 +173,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                 ]),
               ),
               if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.matcha),
+              if (!Entitlement.stageOpen(lv)) const LockBadge(),
             ]),
           ),
     ];
@@ -241,6 +249,22 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   // ── 코스 ──
   List<Widget> _courseBody() {
     final c = _st.course;
+    // 이용권이 끝나 지금 단계가 잠긴 경우 — 진도는 두고 자물쇠 안내
+    if (_st.level != null && !Entitlement.stageOpen(_st.level!)) {
+      return [
+        _card(
+          onTap: () async {
+            await PaywallScreen.show(context);
+            if (mounted) setState(() {});
+          },
+          child: Row(children: [
+            const Icon(Icons.lock_outline, color: AppColors.beni),
+            const SizedBox(width: 10),
+            Expanded(child: Text(trf('{0}는 이용권으로 열려요 — 눌러서 이용권 보기', [_svc.levelName(_st.level!)]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi))),
+          ]),
+        ),
+      ];
+    }
     if (_confirmNew) {
       return [
         _card(

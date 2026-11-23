@@ -2,6 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import '../services/script_sync.dart';
+import '../services/entitlement.dart';
+import 'paywall_screen.dart';
 import 'package:video_player/video_player.dart';
 
 import '../core/l10n.dart';
@@ -93,6 +95,17 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _open(int index) async {
+    // 언어감각 2급 이상은 이용권(서버 freeSenseLevels, 기본 1급만 무료 — PAYWALL_SPEC §2)
+    final d = _data;
+    if (d != null) {
+      final lv = SenseCourse.flat(d)[index].$1;
+      if (!Entitlement.senseOpen((d['levels'] as List).indexOf(lv))) {
+        await PaywallScreen.show(context);
+        if (mounted) setState(() {});
+        return;
+      }
+    }
+    if (!mounted) return;
     await openFull(context, (_) => SenseLessonScreen(index: index));
     _load();
   }
@@ -123,8 +136,13 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
     for (final lv in (d['levels'] as List).cast<Map<String, dynamic>>()) {
       children.add(Padding(
         padding: const EdgeInsets.fromLTRB(2, 18, 2, 8),
-        child: Text('${lv['id']}  ${lv['title']}',
-            style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+        child: Row(children: [
+          Expanded(
+            child: Text('${lv['id']}  ${lv['title']}',
+                style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+          ),
+          if (!Entitlement.senseOpen((d['levels'] as List).indexOf(lv))) const LockBadge(),
+        ]),
       ));
       var n = 1;
       for (final ls in (lv['lessons'] as List).cast<Map<String, dynamic>>()) {
@@ -204,6 +222,9 @@ class _SenseLessonScreenState extends State<SenseLessonScreen> {
     while (nextIdx < all.length && all[nextIdx].$2['kind'] == 'ref') {
       nextIdx++;
     }
+    // 다음 회차가 잠긴 급이면(이용권) 목록으로 돌아간다 — 목록에서 누르면 결제 화면
+    final levels = {for (final e in all) e.$1}.toList();
+    if (nextIdx < all.length && !Entitlement.senseOpen(levels.indexOf(all[nextIdx].$1))) nextIdx = all.length;
     if (nextIdx < all.length) {
       Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (_) => SenseLessonScreen(index: nextIdx)));

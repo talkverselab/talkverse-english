@@ -3,6 +3,9 @@ import 'package:package_info_plus/package_info_plus.dart';
 
 import '../core/app_flavor.dart';
 import '../core/l10n.dart';
+import '../services/entitlement.dart';
+import '../services/purchase.dart';
+import 'paywall_screen.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
 import '../services/learner_prefs.dart';
@@ -82,6 +85,21 @@ class _ProfileScreenState extends State<ProfileScreen> {
     final children = <Widget>[
       if (switchLanguage != null) ...[ // 통합 앱(Talkverse) — 「다른 언어 배우기」를 맨 위에(EMBED_GUIDE 6단계)
         _SettingsGroup(items: [_SettingItem(icon: Icons.translate, title: tr('다른 언어 배우기'), subtitle: tr('Talkverse 언어 목록으로'), onTap: switchLanguage)]),
+        const SizedBox(height: 18),
+      ],
+      // 이용권 입구(PAYWALL_SPEC §3) — 영어앱만 판다(토익·토익스피킹·OPIc 는 잠금 없음)
+      if (Entitlement.sells) ...[
+        ValueListenableBuilder(
+          valueListenable: Purchase.owned,
+          builder: (context, _, _) => _SettingsGroup(items: [
+            _SettingItem(
+              icon: Icons.workspace_premium_outlined,
+              title: tr('이용권'),
+              subtitle: Purchase.active ? tr('이용 중 — 모든 단계·회화가 열려 있어요') : tr('커리큘럼 2단계 이상 · 회화 R2~R4 · 언어감각 2급 이상'),
+              onTap: () => PaywallScreen.show(context),
+            ),
+          ]),
+        ),
         const SizedBox(height: 18),
       ],
       _SectionTitle(tr('성과')),

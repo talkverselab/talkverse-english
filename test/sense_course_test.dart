@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:english_universe/screens/sense_course_screen.dart';
 import 'package:english_universe/services/script_sync.dart';
+import 'package:english_universe/services/purchase.dart';
 import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -54,6 +55,8 @@ void main() {
   }
 
   testWidgets('외울 대화 — 영상 자리·안내, 색 표시가 글자에 안 남음, 마침 → 참고 건너뛰고 L2', (t) async {
+    Purchase.owned.value = {'lang_en_life': 0}; // L2 는 이용권 급(PAYWALL_SPEC) — 이 시험은 이용 중으로
+    addTearDown(Purchase.debugReset);
     t.view.physicalSize = const Size(320, 3000);
     t.view.devicePixelRatio = 1;
     addTearDown(t.view.reset);

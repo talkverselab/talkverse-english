@@ -12,6 +12,9 @@ import 'services/data_version.dart';
 import 'services/learner_prefs.dart';
 import 'services/script_sync.dart';
 import 'services/tts_service.dart';
+import 'services/curriculum_plan.dart';
+import 'services/entitlement.dart';
+import 'services/purchase.dart';
 import 'toeic/toeic_home.dart';
 import 'widgets/stress_text.dart';
 
@@ -37,6 +40,12 @@ Future<void> embedInit({bool standalone = false}) async {
   await StressPrefs.load();
   await AccentPrefs.load();
   await AchievementService.instance.load();
+  // 이용권(PAYWALL_SPEC): 기기 저장 읽기 + 스토어 상품·복원 조회는 뒤에서(시작을 막지 않음). 통합 앱은 공용 결제가 스트림을 듣는다.
+  if (Entitlement.sells) {
+    Purchase.ownStream = standalone;
+    Purchase.configure();
+    CurriculumPlan.instance.ensureLoaded(); // 잠금 값(단계 free·freeSenseLevels)
+  }
   await DataVersion.applyIfChanged(); // 데이터 업데이트 번호(version.json db)가 바뀌면 기기 캐시 갱신
   // 회화 원고는 켤 때마다 무조건 서버 판을 확인해 받는다 — 그림·음성 내려받기와 따로(일본어앱 빌드 114와 같음, 2026-11-18).
   // 느린 망에서는 startupWait 까지만 기다리고 앱을 연다(받기는 뒤에서 이어지고, 끝나면 회화 목록을 다시 읽는다).

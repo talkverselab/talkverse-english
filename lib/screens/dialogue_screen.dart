@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 import '../core/l10n.dart';
+import '../services/entitlement.dart';
+import '../services/purchase.dart';
+import 'paywall_screen.dart';
 import '../core/platform.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
@@ -147,6 +150,7 @@ class _LevelHeader extends StatelessWidget {
           Text(tr(DialogueService.levelKo[lv] ?? lv), style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.sumi)),
           const SizedBox(width: 8),
           Text(trf('{0}편', [count]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+          if (!Entitlement.regionOpen(lv)) ...[const SizedBox(width: 6), const LockBadge()],
         ]),
       );
 }
@@ -168,7 +172,7 @@ class _IslandRow extends StatelessWidget {
             leading: Text(DialogueService.islandEmoji[island] ?? '💬', style: const TextStyle(fontSize: 26)),
             title: Text(tr(DialogueService.islandKo[island] ?? island), style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
             subtitle: Text(trf('{0}편', [count]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
-            trailing: const Icon(Icons.chevron_right, color: AppColors.muted),
+            trailing: Entitlement.regionOpen(lv) ? const Icon(Icons.chevron_right, color: AppColors.muted) : const LockBadge(),
           ),
         ),
       );
@@ -204,7 +208,7 @@ class DialogueListScreen extends StatelessWidget {
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
                 subtitle: Text('${d.isChat ? '💬 ' : ''}${d.sceneShown}', maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
-                trailing: Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+                trailing: Entitlement.regionOpen(d.region) ? Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)) : const LockBadge(),
               ),
             ),
           );
@@ -242,6 +246,30 @@ class _DialogueScreenState extends State<DialogueScreen> {
 
   @override
   Widget build(BuildContext context) {
+    // 이용권이 필요한 편(R2 이상, PAYWALL_SPEC §2) — 숨기지 않고 자물쇠 + 결제 화면. 사면 그 자리에서 열린다.
+    return ValueListenableBuilder(valueListenable: Purchase.owned, builder: (context, _, _) => Entitlement.regionOpen(d.region) ? _open(context) : _locked(context));
+  }
+
+  Widget _locked(BuildContext context) => Scaffold(
+        backgroundColor: AppColors.washi,
+        appBar: AppBar(title: Text('${d.emoji} ${d.title}', style: const TextStyle(color: AppColors.sumi, fontWeight: FontWeight.w800, fontSize: 15))),
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(24),
+            child: Column(mainAxisSize: MainAxisSize.min, children: [
+              const Icon(Icons.lock_outline, size: 40, color: AppColors.beni),
+              const SizedBox(height: 10),
+              Text(trf('{0} 회화는 이용권으로 열려요', [d.region]), textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+              const SizedBox(height: 4),
+              Text(d.sceneShown, textAlign: TextAlign.center, maxLines: 3, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12.5, color: AppColors.sumiLight)),
+              const SizedBox(height: 14),
+              FilledButton(key: const Key('unlock'), onPressed: () => PaywallScreen.show(context), child: Text(tr('이용권 보기'))),
+            ]),
+          ),
+        ),
+      );
+
+  Widget _open(BuildContext context) {
     final wide = isWide(context);
     return Scaffold(
       backgroundColor: AppColors.washi,
