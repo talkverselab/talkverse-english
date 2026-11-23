@@ -204,7 +204,7 @@ void main() {
             ],
           });
       await CurriculumPlan.instance.ensureLoaded();
-      await Future<void>.delayed(const Duration(milliseconds: 50)); // 뒤에서 받는 서버 판
+      await CurriculumPlan.instance.refresh(); // 뒤에서 받는 서버 판을 기다리지 않고 직접(시간에 기대지 않게)
       expect(CurriculumPlan.instance.rev, 99);
       final cur = CurriculumService.instance;
       expect(cur.levels, ['1']); // 2단계는 앱에 있는 편이 없어 숨김
@@ -221,7 +221,7 @@ void main() {
     test('서버 rev 가 같거나 낮으면 묶음 그대로 · JSON 이 없으면 회화 레벨(R) 동작', () async {
       CurriculumPlan.instance.fetch = (_) async => json.encode({'rev': 0, 'stages': [{'n': 1, 'dialogueIds': []}]});
       await CurriculumPlan.instance.ensureLoaded();
-      await Future<void>.delayed(const Duration(milliseconds: 50));
+      await CurriculumPlan.instance.refresh();
       expect(CurriculumPlan.instance.stages.length, greaterThanOrEqualTo(4));
       CurriculumPlan.instance.stages = const [];
       expect(CurriculumService.instance.levels.first, startsWith('R'));
