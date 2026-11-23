@@ -3,6 +3,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:english_universe/screens/curriculum_screen.dart';
 import 'package:english_universe/services/curriculum_service.dart';
+import 'package:english_universe/services/curriculum_plan.dart';
+import 'dart:convert';
+import 'dart:io';
 import 'package:english_universe/services/dialogue_service.dart';
 
 Dialogue _d(String id, String island, int n) => Dialogue.fromJson({
@@ -169,4 +172,60 @@ void main() {
       expect(t.takeException(), isNull);
     });
   }
+
+  group('§12 단계 목록(서버·묶음 JSON)', () {
+    late Directory dir;
+    setUp(() {
+      dir = Directory.systemTemp.createTempSync('cur_plan');
+      CurriculumPlan.instance
+        ..debugReset()
+        ..dir = dir;
+    });
+    tearDown(() {
+      CurriculumPlan.instance
+        ..debugReset()
+        ..fetch = null
+        ..dir = null;
+      dir.deleteSync(recursive: true);
+    });
+
+    test('묶음 JSON 의 편 id 가 모두 앱 편 — 단계 1~5 안, 앱에 없는 id 는 건너뜀·편 0개 단계는 숨김', () async {
+      final d = json.decode(File('assets/curriculum_en.json').readAsStringSync()) as Map;
+      final st = CurriculumPlan.parse(d);
+      expect(st, isNotEmpty);
+      expect(st.every((s) => int.parse(s.n) >= 1 && int.parse(s.n) <= 5), isTrue);
+      final svc = DialogueService.instance;
+      await svc.ensureLoaded();
+      CurriculumPlan.instance.fetch = (_) async => json.encode({
+            'rev': 99,
+            'stages': [
+              {'n': 1, 'title': '1단계', 'dialogueIds': ['zz_none', st.first.dialogueIds.first]},
+              {'n': 2, 'title': '2단계', 'dialogueIds': ['zz_none']},
+            ],
+          });
+      await CurriculumPlan.instance.ensureLoaded();
+      await Future<void>.delayed(const Duration(milliseconds: 50)); // 뒤에서 받는 서버 판
+      expect(CurriculumPlan.instance.rev, 99);
+      final cur = CurriculumService.instance;
+      expect(cur.levels, ['1']); // 2단계는 앱에 있는 편이 없어 숨김
+      expect(cur.levelList('1').map((d) => d.id), [st.first.dialogueIds.first]);
+      expect(cur.levelName('1'), '1단계');
+      // 받아 둔 판은 다음 실행에도 쓴다(서버 못 받아도)
+      CurriculumPlan.instance
+        ..debugReset()
+        ..fetch = (_) async => null;
+      await CurriculumPlan.instance.ensureLoaded();
+      expect(CurriculumPlan.instance.rev, 99);
+    });
+
+    test('서버 rev 가 같거나 낮으면 묶음 그대로 · JSON 이 없으면 회화 레벨(R) 동작', () async {
+      CurriculumPlan.instance.fetch = (_) async => json.encode({'rev': 0, 'stages': [{'n': 1, 'dialogueIds': []}]});
+      await CurriculumPlan.instance.ensureLoaded();
+      await Future<void>.delayed(const Duration(milliseconds: 50));
+      expect(CurriculumPlan.instance.stages.length, greaterThanOrEqualTo(4));
+      CurriculumPlan.instance.stages = const [];
+      expect(CurriculumService.instance.levels.first, startsWith('R'));
+      expect(CurriculumService.instance.levelName('R1'), contains('R1'));
+    });
+  });
 }

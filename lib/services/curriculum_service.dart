@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 
 import '../core/prefs.dart';
+import 'curriculum_plan.dart';
 import 'dialogue_service.dart';
 import 'learner_prefs.dart';
 
@@ -300,11 +301,18 @@ class CurriculumService {
   Future<void> ensureLoaded() async {
     if (_loaded) return;
     await DialogueService.instance.ensureLoaded();
+    await CurriculumPlan.instance.ensureLoaded(changed: () => changed.value++);
     final raw = (await Prefs.getInstance()).getString(key);
     if (raw != null) {
       try {
         state = CurriculumState.fromJson(json.decode(raw) as Map);
       } catch (_) {}
+    }
+    // 옛 진도의 회화 레벨(R) → 단계(§12 기본 대응: R0·R1 → 1, R2 → 2 …)
+    final lv = state.level;
+    if (_plan && lv != null && lv.startsWith('R')) {
+      final r = int.tryParse(lv.substring(1)) ?? 1;
+      state.level = '${r <= 1 ? 1 : r}';
     }
     _loaded = true;
   }
@@ -314,7 +322,32 @@ class CurriculumService {
     changed.value++;
   }
 
-  List<Dialogue> levelList([String? level]) => DialogueService.instance.list(region: level ?? state.level);
+  /// 서버·묶음 단계 목록이 있으면 단계(1~5), 없으면 회화 레벨(R) — §12. JSON 이 실패해도 지금 동작으로 돌아간다.
+  bool get _plan => CurriculumPlan.instance.stages.isNotEmpty;
+
+  /// 고를 수 있는 단계(편이 1개 이상 있는 것만, 서버 순서대로).
+  List<String> get levels => _plan
+      ? [for (final st in CurriculumPlan.instance.stages) if (levelList(st.n).isNotEmpty) st.n]
+      : [for (final l in DialogueService.levels) if (DialogueService.instance.count(l) > 0) l];
+
+  /// 화면 이름 — 단계면 서버 제목(「1단계」), 회화 레벨이면 「R1 초보」.
+  String levelName(String lv) {
+    for (final st in CurriculumPlan.instance.stages) {
+      if (st.n == lv) return st.title;
+    }
+    return '$lv ${DialogueService.levelKo[lv] ?? ''}'.trim();
+  }
+
+  /// 단계 설명(없으면 빈 값).
+  String levelDesc(String lv) => CurriculumPlan.instance.stages.where((s) => s.n == lv).firstOrNull?.desc ?? '';
+
+  /// 단계의 편 — 서버 목록 순서, 앱에 없는 편 id 는 건너뜀. R 코드를 넘기면(오답 보기 풀 등) 회화 레벨 목록.
+  List<Dialogue> levelList([String? level]) {
+    final lv = level ?? state.level;
+    final st = CurriculumPlan.instance.stages.where((s) => s.n == lv).firstOrNull;
+    if (st == null) return DialogueService.instance.list(region: lv);
+    return [for (final id in st.dialogueIds) ?DialogueService.instance.byId(id)];
+  }
 
   /// 레벨의 편을 모두 통과했나.
   bool levelDone(String level) {
@@ -324,11 +357,9 @@ class CurriculumService {
 
   /// 다음 레벨(편이 있는 것), 없으면 null.
   String? nextLevel(String level) {
-    final lv = DialogueService.levels;
-    for (var i = lv.indexOf(level) + 1; i < lv.length; i++) {
-      if (DialogueService.instance.count(lv[i]) > 0) return lv[i];
-    }
-    return null;
+    final lv = levels;
+    final i = lv.indexOf(level);
+    return i >= 0 && i + 1 < lv.length ? lv[i + 1] : null;
   }
 
   Future<void> startCourse(List<String> ids) async {

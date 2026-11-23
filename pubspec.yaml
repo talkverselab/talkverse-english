@@ -76,6 +76,7 @@ flutter:
     - assets/data/toeic/
     - assets/data/toeic/dialogues/T1/office/
     - assets/data/version.json
+    - assets/curriculum_en.json
     - assets/data/script_rev.json
     - assets/data/dialogues/R0/culture/
     - assets/data/dialogues/R0/friends/
