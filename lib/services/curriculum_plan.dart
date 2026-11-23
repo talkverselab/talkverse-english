@@ -15,8 +15,10 @@ class CurStage {
   final String title;
   final String desc;
   final List<String> dialogueIds;
-  final int pass;
-  const CurStage(this.n, this.title, this.desc, this.dialogueIds, this.pass);
+  final int pass; // 통과 점수(%)
+  final List<int> pick; // 고를 편 수 칸
+  final Map<int, int> daily; // 하루 새 편 수: 1 가볍게 · 2 보통 · 3 집중
+  const CurStage(this.n, this.title, this.desc, this.dialogueIds, this.pass, {this.pick = const [3, 5, 10], this.daily = const {1: 1, 2: 2, 3: 3}});
 }
 
 class CurriculumPlan {
@@ -37,8 +39,21 @@ class CurriculumPlan {
 
   static List<CurStage> parse(Map d) => [
         for (final s in (d['stages'] as List? ?? const []).whereType<Map>())
-          CurStage('${s['n']}', '${s['title'] ?? '${s['n']}단계'}', '${s['desc'] ?? ''}', [for (final x in (s['dialogueIds'] as List? ?? const [])) '$x'], (s['pass'] as num?)?.toInt() ?? 80),
+          CurStage('${s['n']}', '${s['title'] ?? '${s['n']}단계'}', '${s['desc'] ?? ''}', [for (final x in (s['dialogueIds'] as List? ?? const [])) '$x'], (s['pass'] as num?)?.toInt() ?? 80,
+              pick: _pick(s['pick']), daily: _daily(s['daily'])),
       ];
+
+  // 값이 없거나 이상하면 기본값(3·5·10 / 1·2·3) — §12 덧붙임
+  static List<int> _pick(Object? v) {
+    final l = [for (final x in (v is List ? v : const [])) if (x is num && x > 0) x.toInt()];
+    return l.isEmpty ? const [3, 5, 10] : l;
+  }
+
+  static Map<int, int> _daily(Object? v) {
+    final m = v is Map ? v : const {};
+    int g(String k, int d) => (m[k] is num && (m[k] as num) > 0) ? (m[k] as num).toInt() : d;
+    return {1: g('light', 1), 2: g('normal', 2), 3: g('focus', 3)};
+  }
 
   Future<File> _cache() async => File('${(dir ?? Directory('${await dataDir()}/curriculum')).path}/curriculum_en.json');
 

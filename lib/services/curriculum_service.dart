@@ -22,7 +22,7 @@ const kPassPercent = 80;
 
 /// 점수 = 정답 수 / 문제 수, 소수점 버림.
 int scorePercent(int correct, int total) => total <= 0 ? 0 : (correct * 100) ~/ total;
-bool isPass(int correct, int total) => scorePercent(correct, total) >= kPassPercent;
+bool isPass(int correct, int total, [int pass = kPassPercent]) => scorePercent(correct, total) >= pass;
 
 String ymd(DateTime d) => '${d.year.toString().padLeft(4, '0')}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
 DateTime parseYmd(String s) {
@@ -130,7 +130,11 @@ class CurriculumState {
   List<ReviewItem> dueReview(String today) => review.where((r) => r.due.compareTo(today) <= 0).toList();
 
   /// 오늘 남은 새 편 수.
-  int newLeft(String today) => max(0, dailyGoal - (todayDay == today ? todayNew : 0));
+  int newLeft(String today) => max(0, (dailyCounts[dailyGoal] ?? dailyGoal) - (todayDay == today ? todayNew : 0));
+
+  /// 지금 단계의 서버 값(저장하지 않음 — 서비스가 단계에 맞춰 채운다, §12 덧붙임).
+  int passPercent = kPassPercent;
+  Map<int, int> dailyCounts = const {1: 1, 2: 2, 3: 3};
 
   /// 오늘 분량을 다 했나(복습 0 + 새 편 목표 채움).
   bool dayDone(String today) => dueReview(today).isEmpty && newLeft(today) == 0;
@@ -189,7 +193,7 @@ class CurriculumState {
     if (c == null) return false;
     final s = scorePercent(correct, total);
     c.examScores.add(s);
-    if (s >= kPassPercent) {
+    if (s >= passPercent) {
       c.passedAt = today;
       for (final id in c.dialogueIds) {
         if (!passedDialogues.contains(id)) passedDialogues.add(id);
@@ -301,7 +305,10 @@ class CurriculumService {
   Future<void> ensureLoaded() async {
     if (_loaded) return;
     await DialogueService.instance.ensureLoaded();
-    await CurriculumPlan.instance.ensureLoaded(changed: () => changed.value++);
+    await CurriculumPlan.instance.ensureLoaded(changed: () {
+      syncStage();
+      changed.value++;
+    });
     final raw = (await Prefs.getInstance()).getString(key);
     if (raw != null) {
       try {
@@ -314,10 +321,12 @@ class CurriculumService {
       final r = int.tryParse(lv.substring(1)) ?? 1;
       state.level = '${r <= 1 ? 1 : r}';
     }
+    syncStage();
     _loaded = true;
   }
 
   Future<void> save() async {
+    syncStage();
     await (await Prefs.getInstance()).setString(key, json.encode(state.toJson()));
     changed.value++;
   }
@@ -336,6 +345,18 @@ class CurriculumService {
       if (st.n == lv) return st.title;
     }
     return '$lv ${DialogueService.levelKo[lv] ?? ''}'.trim();
+  }
+
+  CurStage? get _stage => CurriculumPlan.instance.stages.where((s) => s.n == state.level).firstOrNull;
+  int get passPercent => _stage?.pass ?? kPassPercent;
+  List<int> get pickSizes => _stage?.pick ?? const [3, 5, 10];
+  Map<int, int> get dailyCounts => _stage?.daily ?? const {1: 1, 2: 2, 3: 3};
+
+  /// 지금 단계의 통과 점수·하루 편 수를 진도 상태에 맞춰 둔다.
+  void syncStage() {
+    state
+      ..passPercent = passPercent
+      ..dailyCounts = dailyCounts;
   }
 
   /// 단계 설명(없으면 빈 값).

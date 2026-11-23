@@ -228,4 +228,26 @@ void main() {
       expect(CurriculumService.instance.levelName('R1'), contains('R1'));
     });
   });
+
+  test('§12 덧붙임 — 단계의 pick·pass·daily 를 읽고, 없으면 기본값 · 통과 점수가 시험 판정에', () {
+    final st = CurriculumPlan.parse({
+      'stages': [
+        {'n': 1, 'dialogueIds': ['a'], 'pick': [2, 4], 'pass': 70, 'daily': {'light': 2, 'normal': 4, 'focus': 6}},
+        {'n': 2, 'dialogueIds': ['b']},
+      ]
+    });
+    expect(st[0].pick, [2, 4]);
+    expect(st[0].pass, 70);
+    expect(st[0].daily, {1: 2, 2: 4, 3: 6});
+    expect(st[1].pick, [3, 5, 10]);
+    expect(st[1].pass, 80);
+    expect(st[1].daily, {1: 1, 2: 2, 3: 3});
+    final s = CurriculumState(course: Course('c', ['a'], practiced: ['a']))
+      ..passPercent = 70
+      ..dailyCounts = {1: 2, 2: 4, 3: 6};
+    expect(s.recordExam(7, 10, {}, '2026-11-23'), isTrue); // 70% 면 통과(기본 80 이면 실패)
+    expect(s.newLeft('2026-11-23'), 4); // 보통 = 서버 4편
+    expect(isPass(7, 10, 70), isTrue);
+    expect(isPass(7, 10), isFalse);
+  });
 }
