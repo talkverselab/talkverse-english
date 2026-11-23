@@ -52,7 +52,7 @@ pc_run()
 sh('scp', '-q', f'{PC}:D:/tts_test/job/out/{L.REF}/*.wav', refd + '/', check=False)
 for f in sorted(glob.glob(f'{refd}/*.wav')):
     n = qa.floor(f)
-    if n > -60:
+    if qa.noisy(f, -60):
         o = f + '.dn.wav'
         sh('ffmpeg', '-y', '-v', 'error', '-i', f, '-af', 'afftdn=nf=-40,highpass=f=60', o)
         os.replace(o, f)
