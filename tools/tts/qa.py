@@ -14,6 +14,7 @@ SIL_DB = -40.0   # 이 아래 20ms 프레임 = 말 아닌 프레임
 SIL_RUN = 15     # 0.3초 이상 이어진 곳만 — 낱말 사이 순간 낮아짐 제외
 SIL_EDGE = 3     # 그 구간 앞뒤 60ms 는 버림
 SIL_MIN = 0.15   # 말 아닌 구간 합이 150ms 미만이면 잡음 판정 불가 = 통과
+TRIES = int(os.environ.get('TTS_TRIES', 3))   # 재생성 한도. 나중 묶음에서 더 만들 때 6 으로 올린다(tries 를 0 으로 돌리지 말 것 — PC 는 이미 있는 t1~t3 을 건너뛰어 옛 파일이 다시 온다)
 FLOOR = -55.0   # 잡음 바닥(dB) — 이보다 크면 다시 만든다
 
 
@@ -122,7 +123,7 @@ def main():
             q['ok'] = q['sim'] >= PASS
             if not q['ok']:
                 bad += 1
-                if q['tries'] < 3:
+                if jobs_out and q['tries'] < TRIES:      # 채점만 할 때(--jobs 없음)는 횟수를 쓰지 않는다
                     q['tries'] += 1
                     jobs.append({**L.job(ep, name, voice, emo, text, out=f"{L.OUT}/retake/{k[:-4]}.t{q['tries']}.wav"), 'seed': 42 + 97 * q['tries']})
     json.dump(Q, open(qf, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)

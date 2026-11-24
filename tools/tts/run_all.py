@@ -3,9 +3,11 @@
   <venv>/bin/python tools/tts/run_all.py <작업폴더> [묶음 크기=12]     끝난 편은 <작업폴더>/done.txt 에 적히고 다시 돌리면 건너뛴다.
 지금은 MOSS 판 기준 — 시험에서 VoxCPM2 가 뽑히면 pc_run·make_jobs 를 vox 작업으로 바꾼다. 사용자 판단 전에는 돌리지 말 것.
 PC 쪽은 작업 스케줄러 'TTS job 2060'(run_job.sh)이 돈다 — 참고 음성 2060, 문장 3090. 중간에 멈춰도 있는 파일은 건너뛰고 이어서 한다."""
-import glob, json, os, subprocess, sys, time
+import glob, hashlib, json, os, subprocess, sys, time
 import ttslib as L
 PC = 'Administrator@100.127.143.37'; HERE = os.path.dirname(os.path.abspath(__file__))
+REDO = '--redo' in sys.argv      # 미달 조각만 더 만들기(TTS_TRIES=6 과 함께): 첫 생성·본 파일 받기를 건너뛰고(고른 판을 덮지 않게) 본 파일이 바뀐 편만 올린다
+sys.argv = [a for a in sys.argv if a != '--redo']
 work = sys.argv[1]; N = int(sys.argv[2]) if len(sys.argv) > 2 else 12
 os.makedirs(f'{work}/job', exist_ok=True); os.makedirs(f'{work}/wav', exist_ok=True)
 log = lambda *a: print(time.strftime('%H:%M:%S'), *a, flush=True)
@@ -36,12 +38,22 @@ def fetch(path):
 
 done = set(open(f'{work}/done.txt').read().split()) if os.path.exists(f'{work}/done.txt') else set()
 ids = [e for e in L.planned() if e not in done]
+if REDO:
+    ids = sorted({k.split('/')[0] for k, v in json.load(open(f'{work}/wav/qa.json', encoding='utf-8')).items() if not v.get('ok')})
 log('남은 편', len(ids))
+
+
+def stamp(ep):
+    return {f: hashlib.sha1(open(f, 'rb').read()).hexdigest() for f in sorted(glob.glob(f'{work}/wav/{ep}/*.wav'))}
+
+
 for i in range(0, len(ids), N):
     eps = ids[i:i + N]
-    sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', *eps); pc_run()
-    for ep in eps:
-        fetch(ep)
+    before = {ep: stamp(ep) for ep in eps} if REDO else {}
+    if not REDO:
+        sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', *eps); pc_run()
+        for ep in eps:
+            fetch(ep)
     for rnd in range(3):
         # whisper 가 한 파일에서 멈추는 일이 있어(일본어 7시간) 편별 하위 프로세스 + 600초 제한. 넘기면 그 편 재생성본은 버리고 넘어간다.
         tot = 0
@@ -73,8 +85,12 @@ for i in range(0, len(ids), N):
         except subprocess.TimeoutExpired:
             log('TIMEOUT', ep)
     for ep in eps:
+        if REDO and stamp(ep) == before[ep]:
+            log('그대로', ep); continue
         r = sh(sys.executable, f'{HERE}/pack.py', f'{work}/wav', ep, '--upload', check=False)
         if r.returncode:
             log('실패', ep, (r.stderr or r.stdout)[-300:]); continue
-        log(r.stdout.strip()); open(f'{work}/done.txt', 'a').write(ep + '\n')
+        log(r.stdout.strip())
+        if ep not in done:
+            open(f'{work}/done.txt', 'a').write(ep + '\n')
 log('끝')
