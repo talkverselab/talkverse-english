@@ -10,6 +10,10 @@ M = 'mlx-community/whisper-large-v3-turbo'
 NUM = {'1': 'one', '2': 'two', '3': 'three', '4': 'four', '5': 'five', '10': 'ten', '12': 'twelve', '30': 'thirty'}
 RATE_MIN = 11 / 1.15   # 말 속도 11~17 글자/초(영어 일상 대화에 맞음), pack 이 최대 1.15배 보정
 PASS = float(os.environ.get('TTS_PASS', 0.90))     # 2026-11-07 품질 점검: 0.72 는 앞말 누락이 통과했다
+SIL_DB = -40.0   # 이 아래 20ms 프레임 = 말 아닌 프레임
+SIL_RUN = 15     # 0.3초 이상 이어진 곳만 — 낱말 사이 순간 낮아짐 제외
+SIL_EDGE = 3     # 그 구간 앞뒤 60ms 는 버림
+SIL_MIN = 0.15   # 말 아닌 구간 합이 150ms 미만이면 잡음 판정 불가 = 통과
 FLOOR = -55.0   # 잡음 바닥(dB) — 이보다 크면 다시 만든다
 
 
@@ -28,11 +32,28 @@ def words(s):
 
 
 def floor(f):
+    """잡음 바닥(dB) = 가장 긴 말 아닌 구간 하나의 RMS(§5, 2026-11-24 바로잡음). 잴 구간이 모자라면 None(판정 불가 = 통과).
+    예전 방식(전 프레임 하위 10%)은 앞뒤 무음이 거의 없는 짧은 조각에서 말소리를 잡음으로 쟀다."""
     o = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
     x = array.array('h', o[:len(o) // 2 * 2])
-    fr = [math.sqrt(sum(v * v for v in x[i:i + 320]) / 320) for i in range(0, len(x) - 320, 320)]
-    fr = sorted(20 * math.log10(max(v, 1) / 32768) for v in fr)
-    return fr[len(fr) // 10] if fr else -99.0
+    ms = [sum(v * v for v in x[i:i + 320]) / 320 for i in range(0, len(x) - 320, 320)]
+    db = [20 * math.log10(max(math.sqrt(m), 1) / 32768) for m in ms]
+    quiet, run = [], []
+    for m, d in zip(ms + [None], db + [0.0]):
+        if m is not None and d < SIL_DB:
+            run.append(m); continue
+        if len(run) >= SIL_RUN and len(run) - 2 * SIL_EDGE > len(quiet):   # 가장 긴 구간 하나(ar·pt 와 같은 방식, 11-24)
+            quiet = run[SIL_EDGE:len(run) - SIL_EDGE]
+        run = []
+    if len(quiet) * 0.02 < SIL_MIN:
+        return None
+    return 20 * math.log10(max(math.sqrt(sum(quiet) / len(quiet)), 1) / 32768)
+
+
+def noisy(f, limit=None):
+    """잡음 바닥이 기준을 넘으면 True. 판정 불가(None)는 통과."""
+    v = floor(f)
+    return v is not None and v > (FLOOR if limit is None else limit)
 
 
 def dur(f):
@@ -63,7 +84,7 @@ def score(f, text):
         return 0.0, d
     if len(w) <= 4:                       # 아주 짧은 말은 받아쓰기를 믿을 수 없다 — 길이만 본다
         return (1.0 if d <= 2.0 else 0.0), d
-    if floor(f) > FLOOR or peak(f) >= 0:   # 잡음·클리핑
+    if noisy(f) or peak(f) >= 0:   # 잡음(가장 긴 말 아닌 구간, it 47a861a — uk 결정 11-24)·클리핑
         return 0.0, d
     if len(w) >= 12 and speech(f) and len(w) / speech(f) < RATE_MIN:   # pack 의 1.15배로도 11 글자/초에 못 미친다
         return 0.0, d
