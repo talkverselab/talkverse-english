@@ -65,6 +65,13 @@ for i in range(0, len(ids), N):
         pc_run()
         for ep in eps:
             fetch(f'retake/{ep}')
+    for ep in eps:   # 마지막(3회째) 재생성본 반영 — 빠지면 받아만 두고 예전 판을 올린다(uk 11-24, fr a39cf4b)
+        try:
+            r = subprocess.run([sys.executable, f'{HERE}/qa.py', f'{work}/wav', ep], capture_output=True, text=True, timeout=600)
+            if r.returncode:
+                log('QA 실패', ep, r.stderr.strip()[-200:])
+        except subprocess.TimeoutExpired:
+            log('TIMEOUT', ep)
     for ep in eps:
         r = sh(sys.executable, f'{HERE}/pack.py', f'{work}/wav', ep, '--upload', check=False)
         if r.returncode:
