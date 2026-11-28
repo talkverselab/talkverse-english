@@ -2,6 +2,20 @@
 
 _최종 2026-11-09 11:4x KST. 영어앱 세션 정리 종료(uk 전달 사용자 지시 "완료가 된 애들은 M6에 세션을 닫아달라고"). Grab(`~/talkverse/en`)과는 별개 앱._
 
+## 2026-11-28 세션 닫음(uk 전달 사용자 지시: 베트남어·일본어만 남기고 언어 세션 닫음) — 다시 열면 먼저 `~/talkverse/CHANGES.md`
+- **돌던 작업 없음**: 음성·그림·빌드·Grok 크롬·루프·예약 0(11-28 확인 — M6 의 flutter_tester·크롬 9244·tail 들은 vi·tr·pt·fr 등 다른 세션 것).
+- **커밋 안 한 변경**: `ios/Podfile.lock`(빌드 도구가 만든 것, 커밋하지 않음)뿐. 비즈니스 저장소도 같음.
+- **서버 상태**: 영어 회화 66편·음성 960조각 올라감(그중 54편은 11-24 더 나은 판으로 다시 올림). 기준 미달 136조각(말 느림 67·잡음 52·클리핑 13·받아쓰기 4)은 가장 나은 판이 올라가 있고, 귀로 들어 확인한 것은 없음.
+- **다음 할 일(멈춘 것 — 각각 신호/해제 뒤)**
+  1. 미달 136조각 재생성 — uk 「en 지금 시작」 + PC `D:\tts_test\job\job.log`·`moss_jobs.json` 5분 넘게 멈춤일 때: `cd tools/tts; TTS_OUT=en3 TTS_PASS=0.85 TTS_TRIES=6 ~/.venvs/whisper/bin/python run_all.py ~/tts_work/en3 12 --redo` (tries 를 0 으로 되돌리지 말 것).
+  2. 비즈니스 음성 — 음성 cast 먼저 정하고, 비즈니스 `tools/tts/qa.py` 의 PASS(0.85)·잡음 방식(가장 긴 무음 구간)을 영어 것과 맞춘 뒤.
+  3. 이용권 결제 샌드박스 시험 — 스토어 상품(`lang_en_1m/3m/1y/life`·`all_1y`·`all_life`) 등록 뒤. 통합 앱 `languages.dart` en 항목에 `purchase: Purchase.onPurchaseUpdates` 연결은 uk 몫.
+  4. 장면 컷 영어 10/66 — 공개 편만 허용, Grok 멈춤이 풀린 뒤.
+- **멈춘 것(사용자가 풀 때까지)**: Grok 전부(11-26), 단어 작업(베트남어 외, 11-25), 비공개 편 회화 그림, 단독 iOS 빌드, 음성(11-24).
+- **사용자에게 물을 것**: AI 맞춤 회화(`kCustomScriptLive=false`) 공개 여부 · 「이어 말하기 — 소개팅 상대」 제목과 dating 뜻풀이(「데이트(하는)」)를 언어교류로 바꿀지(uk 는 그대로 두기로 함).
+- **지울 후보(안 지움)**: `~/tts_work/en`·`~/tts_work/en2`(옛 음성 판). `~/tts_work/en3` 는 재생성에 필요 — 남김.
+- 최신 Android 빌드: Zealot 34(https://apps.talkverse.uk/Eyi4j/680).
+
 ## 다음 세션이 이어서 할 일(2026-11-09 정리)
 - **2026-11-18 일본어앱 수준 맞춤(통합 앱 iOS 심사 준비, ja RELAY_2026-11-18_ja_parity.md)**: ① 원고 서버 받기 `lib/services/script_sync.dart`(script/en, rev 1·파일 85, 올리기 `python3 tools/script_publish.py --publish` 뒤 `assets/data/script_rev.json` 커밋, 턴 잠금 `tools/turn_lock.py`) ② 회화 66편(R0 14·R1 21·R2 17·R3 13·R4 1, pubspec 연결) — **59편은 Claude 문장 그대로**(새 원칙: 대사는 Grok, uk 에 보고·사용자 결정 대기) ③ 언어감각 과정 10급 `sense_course_screen.dart`·`grammar/sense_course.json`(영상 비어 있음) ④ 장면 설명 A → 이름 ⑤ 장면 컷 10장(편마다 컷 1, `tools/grok/scene_cut.py` → `tools/scene_upload.py`). 빌드: Zealot 4앱 22 · iOS 영어 2611181439. CI Flutter 3.47.7 고정. Grok = 「빠른」(`tools/grok/grok_fast.py 9262`), 사용 전 uk 에 순번 요청. 남은 것: 음성(새벽), 언어감각 영상, 같은 소재 반복(냉장고 이름표·팁 화면·우산 각 3편) 정리, R4 1편 반전 chaos 여부.
 - **2026-11-10 디스크 정리(사용자 지시)**: `flutter clean`·`android/.gradle`·`ios/Pods` 삭제(약 1.2GB). 다음 빌드 전 `flutter pub get`(iOS 는 `ios_release.sh` 가 pod install). 서명 키 `android/app/signing-key.jks`·`key.properties` 는 남김. **지울 후보(프로젝트 밖이라 안 지움)**: `~/tts_work/en`(13MB, 옛 글 기준 음성 조각 — 새벽 재생성 뒤 삭제 가능). 커밋 안 된 토익 18편 JSON 변경(세션 시작 전부터 있던 것)은 그대로 둠.
